@@ -7,7 +7,7 @@ import { loadConfig } from './config.js';
 import { run } from './run.js';
 import { writeReport } from './report.js';
 import { readJson, log } from './util.js';
-import { runAll, addCheck } from './site.js';
+import { runAll, addCheck, removeCheck, writeSite } from './site.js';
 
 const HELP = `
 atom-parity: compare the Atom Figma library with Storybook
@@ -16,6 +16,8 @@ Usage
   atom-parity run-all             Run every saved check in checks.json and build the site (what CI runs)
   atom-parity add-check --name "Button" --figma-url <link> --storybook <link>
                                   Save a check (a Figma link + a Storybook link)
+  atom-parity remove-check --id <id>   Remove a saved check
+  atom-parity site                Rewrite the site index and status without running anything
   atom-parity run [options]       Run one check from the config, write the report
   atom-parity report [options]    Rebuild the HTML report from an existing results.json
 
@@ -44,20 +46,31 @@ async function main() {
     allowPositionals: true,
     options: {
       config: { type: 'string', short: 'c' }, storybook: { type: 'string', short: 's' }, figma: { type: 'string', short: 'f' },
-      'figma-url': { type: 'string', short: 'u' }, name: { type: 'string' }, checks: { type: 'string' }, site: { type: 'string' }, baselines: { type: 'string' },
+      'figma-url': { type: 'string', short: 'u' }, name: { type: 'string' }, id: { type: 'string' }, 'status-from': { type: 'string' }, checks: { type: 'string' }, site: { type: 'string' }, baselines: { type: 'string' },
       out: { type: 'string', short: 'o' }, baseline: { type: 'string', short: 'b' }, only: { type: 'string' },
       'skip-visual': { type: 'boolean' }, 'skip-a11y': { type: 'boolean' }, 'report-url': { type: 'string' }, 'fail-on': { type: 'string' },
       quiet: { type: 'boolean', short: 'q' }, help: { type: 'boolean', short: 'h' },
     },
   });
   const cmd = positionals[0] ?? 'run';
-  if (values.help || !['run', 'report', 'run-all', 'add-check'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
+  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'site'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
   log.quiet = !!values.quiet;
   const checksFile = path.resolve(values.checks ?? 'checks.json');
 
   if (cmd === 'add-check') {
     const e = addCheck(checksFile, { name: values.name, figmaUrl: values['figma-url'], storybookUrl: values.storybook });
     console.log(`Saved check "${e.name ?? e.id}" (${e.id}) to ${checksFile}`);
+    if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `id=${e.id}\n`);
+    return;
+  }
+  if (cmd === 'remove-check') {
+    const ok = removeCheck(checksFile, values.id);
+    console.log(ok ? `Removed check ${values.id}` : `No saved check called ${values.id}`);
+    return;
+  }
+  if (cmd === 'site') {
+    writeSite({ checksFile, siteDir: path.resolve(values.site ?? 'parity-site'), statusFrom: values['status-from'] ? path.resolve(values['status-from']) : null });
+    console.log('Site index written');
     return;
   }
   if (cmd === 'run-all') {
@@ -65,6 +78,7 @@ async function main() {
     const entries = await runAll({
       configFile: values.config ?? (fs.existsSync('atom-parity.config.json') ? 'atom-parity.config.json' : undefined),
       checksFile, siteDir, baselineDir: path.resolve(values.baselines ?? 'parity-baseline'),
+      statusFrom: values['status-from'] ? path.resolve(values['status-from']) : null,
       siteUrl: values['report-url'] ?? process.env.PARITY_REPORT_URL ?? null,
       only: values.only ? values.only.split(',').map((x) => x.trim()) : null,
     });

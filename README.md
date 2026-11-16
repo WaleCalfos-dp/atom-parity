@@ -6,27 +6,26 @@ Checks whether Atom components in Storybook still match the Figma library, and p
 
 ## For designers
 
-### Read the report
+Everything happens on **https://walecalfos-dp.github.io/atom-parity**.
 
-Open the reports link. Each card is one check, with a score and a summary. Click **Open report** for the detail:
+**Run a check.** Paste a Figma link (right-click a component page in Figma › **Copy link to page**, or use the whole library's link) and the Storybook link. Add a name if you like, then click **Run check**. Progress shows on the page, and the report appears in about 5–10 minutes. The check is saved and runs again every weekday night.
+
+**Re-run or remove a check.** Use the ↻ and bin buttons next to it.
+
+**Read a report.** Click a check. It shows a score, a short summary, what needs attention most, and every component with a status:
 
 - **Aligned**: matches Figma.
 - **Drifted**: works, but names, properties or tokens differ from Figma.
-- **Broken**: something people would notice, such as it looks different, fails an accessibility check, or has no focus indicator.
-- **Not built**: in Figma, with no Storybook component of the same name.
+- **Broken**: something people would notice.
+- **Not built**: in Figma, with no Storybook component.
 
-Every issue says whether **design**, **dev** or **both** should act, and includes a side-by-side picture where one helps.
+Open a component to see each issue, who should fix it (design, dev, or both), and Figma and code side by side.
 
-### Check something new
+**First time in a browser: add an access key.** Running checks needs one. Reading reports doesn't.
 
-1. In Figma, right-click a component page in the left sidebar → **Copy link to page**. To check the whole library, copy the file link instead.
-2. Copy the Storybook link from your browser.
-3. Go to **github.com/WaleCalfos-dp/atom-parity** → **Actions** → **Atom parity** → **Run workflow**.
-4. Paste both links, add a name (e.g. "Inputs"), and click the green **Run workflow** button.
-
-The report appears on the reports page in about 10 minutes. The check is saved, so it also runs every night from then on.
-
-To re-run everything now, click **Run workflow** with the fields left empty.
+1. Click **Access key** on the page.
+2. Follow the three steps it shows: create a GitHub fine-grained token for the atom-parity repository with **Actions: Read and write**.
+3. Paste the token. It stays in that browser only.
 
 ### Add token names (optional, every few weeks)
 

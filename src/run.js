@@ -309,7 +309,9 @@ export function summarise(results) {
 
   const paired = comps.filter((c) => c.match).length;
   const n = (k, one, many) => `${k} ${k === 1 ? one : many}`;
-  const headline = `${count('Aligned')} of ${designComps.length} Figma components match Storybook. ${n(count('Drifted'), 'has', 'have')} drifted, ${n(count('Broken'), 'is', 'are')} broken and ${n(count('Missing in code'), "isn't", "aren't")} built yet.`;
+  const parts = [[count('Drifted'), 'has drifted', 'have drifted'], [count('Broken'), 'is broken', 'are broken'], [count('Missing in code'), "isn't built yet", "aren't built yet"]].filter(([k]) => k > 0).map(([k, a, b]) => n(k, a, b));
+  const tail = parts.length ? ` ${parts.length > 1 ? parts.slice(0, -1).join(', ') + ' and ' + parts.at(-1) : parts[0]}.` : '';
+  const headline = `${count('Aligned')} of ${designComps.length} Figma components match Storybook.${tail}`;
 
   return {
     score, headline,

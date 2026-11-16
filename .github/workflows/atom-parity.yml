@@ -1,28 +1,25 @@
 name: Atom parity
-run-name: ${{ inputs.figma_url && format('Check {0}', inputs.name || 'new links') || 'Nightly check' }}
+run-name: ${{ inputs.request_id && format('{0} [{1}]', inputs.remove_id && 'Remove' || (inputs.name || inputs.check_id || 'Check'), inputs.request_id) || 'Nightly check' }}
 
-# Actions → "Atom parity" → Run workflow
-#   Paste a Figma link and a Storybook link to add a check (it's saved for the nightly run),
-#   or leave them empty to re-run every saved check now.
+# Started from the web page (via the GitHub API) or on the nightly schedule.
+#   figma_url + storybook_url → save a new check and run it
+#   check_id                  → run one saved check
+#   remove_id                 → remove a saved check and its report
+#   nothing                   → run every saved check
 on:
   workflow_dispatch:
     inputs:
-      name:
-        description: 'Name for this check, e.g. "Buttons" (optional)'
-        required: false
-      figma_url:
-        description: 'Figma link: a component page, or the whole library'
-        required: false
-      storybook_url:
-        description: 'Storybook link'
-        required: false
+      name: { description: 'Name for a new check', required: false }
+      figma_url: { description: 'Figma link', required: false }
+      storybook_url: { description: 'Storybook link', required: false }
+      check_id: { description: 'Run one saved check', required: false }
+      remove_id: { description: 'Remove a saved check', required: false }
+      request_id: { description: 'Set by the web page to follow this run', required: false }
   schedule:
     - cron: '17 2 * * 1-5'   # 02:17 UTC, Monday to Friday
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: atom-parity
@@ -32,9 +29,8 @@ jobs:
   parity:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
 
@@ -42,57 +38,77 @@ jobs:
         with:
           node-version: 22
           cache: npm
-
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+
+      - name: Get the published site
+        run: |
+          git config --global user.name "atom-parity"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          REMOTE="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads origin gh-pages >/dev/null; then
+            git clone --depth 1 --branch gh-pages "$REMOTE" site
+          else
+            mkdir site && cd site && git init -q -b gh-pages && git remote add origin "$REMOTE"
+          fi
 
       - name: Work out the report address
         id: site
         run: echo "url=https://$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]').github.io/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
 
-      - name: Save the new check
-        if: inputs.figma_url != '' && inputs.storybook_url != ''
+      - name: Save or remove a check
+        id: plan
         env:
           NAME: ${{ inputs.name }}
           FIGMA_LINK: ${{ inputs.figma_url }}
           STORYBOOK_LINK: ${{ inputs.storybook_url }}
+          CHECK_ID: ${{ inputs.check_id }}
+          REMOVE_ID: ${{ inputs.remove_id }}
         run: |
-          node src/cli.js add-check --name "$NAME" --figma-url "$FIGMA_LINK" --storybook "$STORYBOOK_LINK"
-          git config user.name "atom-parity"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add checks.json
-          git commit -m "Save parity check: ${NAME:-new links}" && git push || echo "Check already saved"
+          if [ -n "$REMOVE_ID" ]; then
+            node src/cli.js remove-check --id "$REMOVE_ID"
+            rm -rf "site/$REMOVE_ID"
+            git add checks.json && git commit -qm "Remove parity check: $REMOVE_ID" && git push -q || true
+            echo "mode=remove" >> "$GITHUB_OUTPUT"
+          elif [ -n "$FIGMA_LINK" ] && [ -n "$STORYBOOK_LINK" ]; then
+            node src/cli.js add-check --name "$NAME" --figma-url "$FIGMA_LINK" --storybook "$STORYBOOK_LINK"
+            git add checks.json && git commit -qm "Save parity check: ${NAME:-new links}" && git push -q || true
+            echo "mode=one" >> "$GITHUB_OUTPUT"
+          elif [ -n "$CHECK_ID" ]; then
+            echo "id=$CHECK_ID" >> "$GITHUB_OUTPUT"
+            echo "mode=one" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=all" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Fetch the previous reports, to show what changed
-        env:
-          SITE: ${{ steps.site.outputs.url }}
-        run: |
-          mkdir -p parity-baseline
-          curl -fsSL "$SITE/checks-status.json" -o parity-baseline/status.json || exit 0
-          for id in $(node -e "for (const e of require('./parity-baseline/status.json').entries) if (e.ok) console.log(e.id)"); do
-            mkdir -p "parity-baseline/$id"
-            curl -fsSL "$SITE/$id/results.json" -o "parity-baseline/$id/results.json" || rm -f "parity-baseline/$id/results.json"
-          done
+      - name: Install the browser
+        if: steps.plan.outputs.mode != 'remove'
+        run: npx playwright install --with-deps chromium
 
       - name: Compare Figma with Storybook
         id: run
+        if: steps.plan.outputs.mode != 'remove'
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN || secrets.FIGMA }}
           PARITY_REPORT_URL: ${{ steps.site.outputs.url }}
+          ONLY: ${{ steps.plan.outputs.id }}
         run: |
           set +e
-          node src/cli.js run-all
+          node src/cli.js run-all --site site-new --baselines site --status-from site/checks-status.json ${ONLY:+--only "$ONLY"}
           echo "exit=$?" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: parity-site
-
-      - id: deploy
-        uses: actions/deploy-pages@v4
+      - name: Publish the report
+        run: |
+          if [ -d site-new ]; then
+            for d in site-new/*/; do [ -d "$d" ] || continue; id=$(basename "$d"); rm -rf "site/$id"; cp -R "$d" "site/$id"; done
+            cp site-new/checks-status.json site-new/index.html site/
+          else
+            node src/cli.js site --site site --status-from site/checks-status.json
+          fi
+          touch site/.nojekyll
+          cd site && git add -A && (git commit -qm "Update parity reports" && git push -q origin gh-pages || echo "Nothing changed")
 
       - name: Flag new problems
-        if: steps.run.outputs.exit != '0'
+        if: steps.run.outputs.exit != '' && steps.run.outputs.exit != '0'
         run: |
-          if [ "${{ steps.run.outputs.exit }}" = "2" ]; then echo "New problems since the last run. Report: ${{ steps.site.outputs.url }}"; else echo "A check couldn't run. Report: ${{ steps.site.outputs.url }}"; fi
+          if [ "${{ steps.run.outputs.exit }}" = "2" ]; then echo "New problems since the last run: ${{ steps.site.outputs.url }}"; else echo "A check couldn't run: ${{ steps.site.outputs.url }}"; fi
           exit 1
