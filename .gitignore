@@ -1,0 +1,8 @@
+node_modules/
+parity-report/
+parity-baseline/
+test/out/
+test/sb/node_modules/
+test/sb/storybook-static/
+.DS_Store
+parity-site/

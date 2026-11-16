@@ -1,0 +1,76 @@
+{
+  "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+  "figmaManifest": "parity/figma-manifest.json",
+  "figmaFileKey": "nKc4ep7mNdD5IqFRhNRNlW",
+  "failOn": "new-fail",
+  "brands": {
+    "global": "biz",
+    "map": {
+      "Dragonpass": "global-app",
+      "AeroBlue": "areo-blue"
+    },
+    "extraGlobals": {
+      "locale": "en-US",
+      "direction": "ltr"
+    },
+    "figmaBrands": [
+      "Dragonpass",
+      "Mastercard",
+      "Investec",
+      "Assurant",
+      "AeroBlue",
+      "Visa Affluent"
+    ],
+    "figmaDefault": "Dragonpass"
+  },
+  "components": {
+    "aliases": {
+      "Accordion": "Collapse"
+    }
+  },
+  "props": {
+    "map": {
+      "Button": {
+        "Size": {
+          "arg": "size",
+          "values": {
+            "Regular": "middle"
+          }
+        }
+      }
+    }
+  },
+  "tokens": {
+    "cssVarPrefix": "--aum-",
+    "stripSegments": [
+      "components"
+    ],
+    "patterns": [
+      {
+        "figma": "^space-(\\d+)$",
+        "css": "--aum-spacing-$1"
+      },
+      {
+        "figma": "^typography/body/family$",
+        "css": "--aum-body-font-family"
+      },
+      {
+        "figma": "^typography/body/small/[^/]+/size$",
+        "css": "--aum-body-small-font-size"
+      },
+      {
+        "figma": "^components/button/secondary-color$",
+        "css": "--aum-button-secondary-text-color"
+      },
+      {
+        "figma": "^components/button/line-height$",
+        "css": "--aum-button-line-height-default"
+      }
+    ]
+  },
+  "naming": {
+    "retired": {
+      "error": "danger"
+    }
+  }
+}

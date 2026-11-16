@@ -1,0 +1,11 @@
+{
+  "checks": [
+    {
+      "id": "buttons",
+      "name": "Buttons",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-16T13:40:57.846Z"
+    }
+  ]
+}

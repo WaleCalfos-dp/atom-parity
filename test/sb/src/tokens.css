@@ -1,0 +1,53 @@
+/* Mirrors Atom: semantic tokens + component tokens defined per brand context.
+   Component tokens hold raw hex (like the live Atom build) rather than aliasing semantics. */
+.aum-ctx {
+  --aum-body-font-family: "DejaVu Sans", sans-serif;
+  --aum-space-8: 8px; --aum-space-12: 12px; --aum-space-16: 16px; --aum-space-20: 20px;
+  --aum-button-radius: 999px;
+  --aum-button-font-size: 16px;
+  --aum-foreground-basic-inverse: #FFFFFF;
+  --aum-background-interactive-control: #FFFFFF;
+  --aum-background-interactive-action-disabled: #ECEAE9;
+  --aum-foreground-interactive-action-disabled: #91908F;
+  --aum-tag-radius: 4px;
+  font-family: var(--aum-body-font-family);
+}
+.aum-ctx[data-biz="global-app"] {
+  --aum-background-interactive-action: #0A2333;
+  --aum-background-interactive-action-hover: #0E5475;
+  --aum-border-interactive-action-selected: #0A2333;
+  --aum-border-basic-strong: #0A2333;
+  --aum-background-interactive-danger: #C2082A;
+  --aum-button-primary-bg-color: #0A2333;
+  --aum-button-secondary-color: #0A2333;
+  --aum-background-status-success-subtle: #E3F2EA;
+  --aum-foreground-status-success: #1B7A4E;
+  --aum-background-status-warning-subtle: #FFF4E0;
+  --aum-foreground-status-warning: #E7A43C;
+  --aum-background-status-danger-subtle: #FBE5E8;
+  --aum-foreground-status-danger: #C2082A;
+}
+.aum-ctx[data-biz="master-card"] {
+  --aum-background-interactive-action: #CF4500;
+  --aum-background-interactive-action-hover: #9A3400;
+  --aum-border-interactive-action-selected: #CF4500;
+  --aum-border-basic-strong: #141413;
+  --aum-background-interactive-danger: #C2082A;
+  --aum-button-primary-bg-color: #CF4500;
+  --aum-button-secondary-color: #141413;
+  --aum-background-status-success-subtle: #E3F2EA;
+  --aum-foreground-status-success: #1B7A4E;
+  --aum-background-status-warning-subtle: #FFF4E0;
+  --aum-foreground-status-warning: #E7A43C;
+  --aum-background-status-danger-subtle: #FBE5E8;
+  --aum-foreground-status-danger: #C2082A;
+}
+.aum-ctx[data-biz="investec"] {
+  --aum-background-interactive-action: #00263E;
+  --aum-background-interactive-action-hover: #003A5D;
+  --aum-border-interactive-action-selected: #00263E;
+  --aum-border-basic-strong: #00263E;
+  --aum-background-interactive-danger: #B00020;
+  --aum-button-primary-bg-color: #00263E;
+  --aum-button-secondary-color: #00263E;
+}

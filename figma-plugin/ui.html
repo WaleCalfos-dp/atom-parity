@@ -1,0 +1,272 @@
+<style>
+  :root { --gap: 12px; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 12px/1.5 Inter, system-ui, sans-serif; color: var(--figma-color-text); background: var(--figma-color-bg); }
+  main { padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+  h1 { font-size: 14px; font-weight: 600; margin: 0; }
+  h2 { font-size: 11px; font-weight: 600; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .04em; color: var(--figma-color-text-secondary); }
+  p.lead { margin: 4px 0 0; color: var(--figma-color-text-secondary); }
+  section { border: 1px solid var(--figma-color-border); border-radius: 8px; padding: 12px; }
+  label.row { display: flex; align-items: center; justify-content: space-between; gap: var(--gap); margin: 6px 0; }
+  label.row > span { flex: 0 0 auto; }
+  input[type=text], input[type=password], input[type=number], select {
+    flex: 1 1 auto; min-width: 0; height: 28px; padding: 0 8px; border-radius: 6px;
+    border: 1px solid var(--figma-color-border); background: var(--figma-color-bg); color: var(--figma-color-text); font: inherit;
+  }
+  input[type=number] { flex: 0 0 72px; }
+  input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--figma-color-border-brand-strong); outline-offset: 1px; }
+  .seg { display: flex; border: 1px solid var(--figma-color-border); border-radius: 6px; overflow: hidden; }
+  .seg label { flex: 1; text-align: center; padding: 6px 0; cursor: pointer; }
+  .seg input { position: absolute; opacity: 0; pointer-events: none; }
+  .seg input:checked + span { font-weight: 600; }
+  .seg label:has(input:checked) { background: var(--figma-color-bg-selected); }
+  button { height: 32px; padding: 0 14px; border-radius: 6px; border: 1px solid var(--figma-color-border); background: var(--figma-color-bg); color: var(--figma-color-text); font: inherit; font-weight: 600; cursor: pointer; }
+  button.primary { background: var(--figma-color-bg-brand); color: var(--figma-color-text-onbrand); border-color: transparent; }
+  button:disabled { opacity: .5; cursor: default; }
+  .actions { display: flex; gap: 8px; justify-content: flex-end; }
+  .modes { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 12px; margin-top: 6px; }
+  .modes label { display: flex; gap: 6px; align-items: center; }
+  .stat { display: flex; gap: 16px; }
+  .stat b { display: block; font-size: 18px; }
+  .bar { height: 6px; border-radius: 3px; background: var(--figma-color-bg-secondary); overflow: hidden; }
+  .bar > div { height: 100%; width: 0; background: var(--figma-color-bg-brand); transition: width .2s; }
+  .muted { color: var(--figma-color-text-secondary); }
+  .error { color: var(--figma-color-text-danger); }
+  .ok { color: var(--figma-color-text-success); }
+  details summary { cursor: pointer; font-weight: 600; }
+  [hidden] { display: none !important; }
+</style>
+
+<main>
+  <header>
+    <h1>Atom Parity Exporter</h1>
+    <p class="lead">Snapshots the component library so it can be checked against Storybook.</p>
+  </header>
+
+  <section>
+    <h2>1 · What to include</h2>
+    <div class="seg" role="radiogroup" aria-label="Scope">
+      <label><input type="radio" name="scope" value="file" checked><span>Whole file</span></label>
+      <label><input type="radio" name="scope" value="page"><span>This page</span></label>
+      <label><input type="radio" name="scope" value="selection"><span>Selection</span></label>
+    </div>
+    <details style="margin-top:10px">
+      <summary>Filters</summary>
+      <label class="row"><span>Only pages containing</span><input type="text" id="includePages" value="❖"></label>
+      <label class="row"><span>Skip pages containing</span><input type="text" id="skipPages" value="archive, deprecated, playground"></label>
+      <label class="row"><span>Skip components starting</span><input type="text" id="privatePrefixes" value="., _"></label>
+    </details>
+    <div class="actions" style="margin-top:10px"><button id="scanBtn" class="primary">Scan file</button></div>
+  </section>
+
+  <section id="configure" hidden>
+    <h2>2 · Brands and renders</h2>
+    <div class="stat"><div><b id="sComponents">0</b><span class="muted">components</span></div><div><b id="sVariants">0</b><span class="muted">variants</span></div></div>
+    <label class="row" style="margin-top:10px"><span>Brand collection</span><select id="brandCollection"></select></label>
+    <div class="modes" id="modes"></div>
+    <label class="row" style="margin-top:10px"><span>Include renders for visual diff</span><input type="checkbox" id="renders" checked></label>
+    <label class="row"><span>Render scale</span><select id="scale" style="flex:0 0 96px"><option value="1">1x</option><option value="2" selected>2x</option></select></label>
+    <label class="row"><span>Max rendered variants per component</span><input type="number" id="maxVariants" min="1" max="500" value="40"></label>
+    <p class="muted" id="estimate"></p>
+    <div class="actions"><button id="exportBtn" class="primary">Export snapshot</button></div>
+  </section>
+
+  <section id="progressBox" hidden>
+    <h2 id="progressLabel">Working…</h2>
+    <div class="bar"><div id="progressBar"></div></div>
+  </section>
+
+  <section id="done" hidden>
+    <h2>3 · Snapshot ready</h2>
+    <p id="doneSummary"></p>
+    <div class="actions"><button id="downloadBtn" class="primary">Download figma-manifest.json</button></div>
+    <details style="margin-top:12px" id="ghBox">
+      <summary>Publish to GitHub (runs the nightly check)</summary>
+      <label class="row"><span>Repository</span><input type="text" id="ghRepo" placeholder="dragonpass/atom-ui"></label>
+      <label class="row"><span>Branch</span><input type="text" id="ghBranch" value="main"></label>
+      <label class="row"><span>Path</span><input type="text" id="ghPath" value="parity/figma-manifest.json"></label>
+      <label class="row"><span>Token</span><input type="password" id="ghToken" placeholder="Fine-grained token, contents: write" autocomplete="off"></label>
+      <p class="muted">The token is stored only in this Figma client on your machine.</p>
+      <div class="actions"><button id="publishBtn">Publish snapshot</button></div>
+      <p id="ghStatus"></p>
+    </details>
+  </section>
+
+  <p id="err" class="error" role="alert"></p>
+</main>
+
+<script>
+  var $ = function (id) { return document.getElementById(id); };
+  var scanResult = null;
+  var manifest = null;
+  var manifestText = null;
+
+  function opts() {
+    var scope = document.querySelector('input[name=scope]:checked').value;
+    var brands = Array.prototype.slice.call(document.querySelectorAll('#modes input:checked')).map(function (i) { return i.value; });
+    return {
+      scope: scope,
+      includePages: $('includePages').value,
+      skipPages: $('skipPages').value,
+      privatePrefixes: $('privatePrefixes').value,
+      brandCollectionId: $('brandCollection').value || null,
+      brands: brands,
+      renders: $('renders').checked,
+      scale: $('scale').value,
+      maxVariants: $('maxVariants').value
+    };
+  }
+
+  function saveSettings() {
+    var o = opts();
+    parent.postMessage({ pluginMessage: { type: 'save-settings', settings: {
+      includePages: o.includePages, skipPages: o.skipPages, privatePrefixes: o.privatePrefixes,
+      scale: o.scale, maxVariants: o.maxVariants, renders: o.renders,
+      ghRepo: $('ghRepo').value, ghBranch: $('ghBranch').value, ghPath: $('ghPath').value, ghToken: $('ghToken').value,
+      brandCollectionName: scanResult && $('brandCollection').selectedOptions[0] ? $('brandCollection').selectedOptions[0].dataset.name : undefined
+    } } }, '*');
+  }
+
+  var settings = {};
+  function applySettings(s) {
+    settings = s || {};
+    ['includePages', 'skipPages', 'privatePrefixes', 'maxVariants', 'ghRepo', 'ghBranch', 'ghPath', 'ghToken'].forEach(function (k) { if (settings[k] !== undefined && settings[k] !== '') $(k).value = settings[k]; });
+    if (settings.scale) $('scale').value = settings.scale;
+    if (settings.renders === false) $('renders').checked = false;
+  }
+
+  function renderModes() {
+    var col = (scanResult.collections || []).filter(function (c) { return c.id === $('brandCollection').value; })[0];
+    $('modes').innerHTML = '';
+    if (!col) return;
+    col.modes.forEach(function (m) {
+      var l = document.createElement('label');
+      l.innerHTML = '<input type="checkbox" checked> <span></span>';
+      l.querySelector('input').value = m.name;
+      l.querySelector('span').textContent = m.name;
+      $('modes').appendChild(l);
+    });
+    updateEstimate();
+  }
+
+  function updateEstimate() {
+    if (!scanResult) return;
+    var brands = document.querySelectorAll('#modes input:checked').length || 1;
+    var perComp = Math.min(Number($('maxVariants').value) || 40, scanResult.variants / Math.max(1, scanResult.components));
+    var renders = $('renders').checked ? Math.round(scanResult.components * perComp * brands) : 0;
+    $('estimate').textContent = renders ? ('About ' + renders.toLocaleString() + ' renders. Large libraries can take a few minutes.') : 'No renders: the visual diff will be skipped.';
+  }
+
+  $('scanBtn').onclick = function () {
+    $('err').textContent = '';
+    $('scanBtn').disabled = true;
+    $('progressBox').hidden = false;
+    parent.postMessage({ pluginMessage: { type: 'scan', options: opts() } }, '*');
+  };
+  $('brandCollection').onchange = renderModes;
+  $('modes').onchange = updateEstimate;
+  $('maxVariants').oninput = updateEstimate;
+  $('renders').onchange = updateEstimate;
+
+  $('exportBtn').onclick = function () {
+    $('err').textContent = '';
+    $('exportBtn').disabled = true;
+    $('done').hidden = true;
+    $('progressBox').hidden = false;
+    saveSettings();
+    parent.postMessage({ pluginMessage: { type: 'export', options: opts() } }, '*');
+  };
+
+  $('downloadBtn').onclick = function () {
+    var blob = new Blob([manifestText], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'figma-manifest.json';
+    document.body.appendChild(a); a.click(); a.remove();
+  };
+
+  function toBase64(str) {
+    var bytes = new TextEncoder().encode(str);
+    var bin = '';
+    for (var i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    return btoa(bin);
+  }
+
+  $('publishBtn').onclick = async function () {
+    var repo = $('ghRepo').value.trim(), branch = $('ghBranch').value.trim() || 'main', path = $('ghPath').value.trim(), token = $('ghToken').value.trim();
+    if (!/^[\w.-]+\/[\w.-]+$/.test(repo)) { $('ghStatus').className = 'error'; $('ghStatus').textContent = 'Enter the repository as owner/name.'; return; }
+    if (!token) { $('ghStatus').className = 'error'; $('ghStatus').textContent = 'Enter a GitHub token.'; return; }
+    saveSettings();
+    $('publishBtn').disabled = true;
+    $('ghStatus').className = 'muted'; $('ghStatus').textContent = 'Publishing…';
+    var api = 'https://api.github.com/repos/' + repo + '/contents/' + path.split('/').map(encodeURIComponent).join('/');
+    var headers = { 'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+    try {
+      var sha;
+      var head = await fetch(api + '?ref=' + encodeURIComponent(branch), { headers: headers });
+      if (head.ok) sha = (await head.json()).sha;
+      else if (head.status !== 404) throw new Error('GitHub said ' + head.status + ' when reading ' + path);
+      var body = { message: 'chore(parity): Figma snapshot ' + manifest.exportedAt + ' (' + manifest.stats.components + ' components)', content: toBase64(manifestText), branch: branch };
+      if (sha) body.sha = sha;
+      var put = await fetch(api, { method: 'PUT', headers: headers, body: JSON.stringify(body) });
+      if (!put.ok) { var t = await put.text(); throw new Error('GitHub said ' + put.status + ': ' + t.slice(0, 200)); }
+      var res = await put.json();
+      $('ghStatus').className = 'ok';
+      $('ghStatus').textContent = 'Published. Commit ' + res.commit.sha.slice(0, 7) + ' will trigger the parity check.';
+      parent.postMessage({ pluginMessage: { type: 'notify', text: 'Snapshot published to ' + repo } }, '*');
+    } catch (e) {
+      $('ghStatus').className = 'error'; $('ghStatus').textContent = String(e.message || e);
+    } finally {
+      $('publishBtn').disabled = false;
+    }
+  };
+
+  onmessage = function (event) {
+    var msg = event.data.pluginMessage;
+    if (!msg) return;
+    if (msg.type === 'init') applySettings(msg.settings);
+    if (msg.type === 'progress') {
+      $('progressBox').hidden = false;
+      $('progressLabel').textContent = msg.label + (msg.total > 1 ? ' (' + msg.done + '/' + msg.total + ')' : '');
+      $('progressBar').style.width = (msg.total ? Math.round(100 * msg.done / msg.total) : 0) + '%';
+    }
+    if (msg.type === 'scan-result') {
+      scanResult = msg.result;
+      $('scanBtn').disabled = false;
+      $('progressBox').hidden = true;
+      $('configure').hidden = false;
+      $('sComponents').textContent = scanResult.components;
+      $('sVariants').textContent = scanResult.variants;
+      var sel = $('brandCollection'); sel.innerHTML = '';
+      scanResult.collections.forEach(function (c) {
+        var o = document.createElement('option');
+        o.value = c.id; o.dataset.name = c.name;
+        o.textContent = c.name + ' (' + c.modes.length + ' mode' + (c.modes.length === 1 ? '' : 's') + (c.remote ? ', library' : '') + ')';
+        sel.appendChild(o);
+      });
+      var preferred = scanResult.collections.filter(function (c) { return c.name === settings.brandCollectionName; })[0];
+      sel.value = preferred ? preferred.id : (scanResult.suggestedBrandCollection || '');
+      if (!scanResult.collections.length) {
+        var none = document.createElement('option'); none.value = ''; none.textContent = 'No variable collections found'; sel.appendChild(none);
+      }
+      renderModes();
+    }
+    if (msg.type === 'export-result') {
+      manifest = msg.manifest;
+      manifestText = JSON.stringify(manifest);
+      $('exportBtn').disabled = false;
+      $('progressBox').hidden = true;
+      $('done').hidden = false;
+      var mb = (manifestText.length / 1048576).toFixed(1);
+      $('doneSummary').textContent = manifest.stats.components + ' components, ' + manifest.stats.variants + ' variants, ' +
+        manifest.stats.variables + ' tokens and ' + manifest.stats.renders + ' renders across ' + manifest.brands.length + ' brand' + (manifest.brands.length === 1 ? '' : 's') + ' (' + mb + ' MB).';
+    }
+    if (msg.type === 'error') {
+      $('err').textContent = msg.message;
+      $('scanBtn').disabled = false; $('exportBtn').disabled = false;
+      $('progressBox').hidden = true;
+    }
+  };
+
+  parent.postMessage({ pluginMessage: { type: 'init' } }, '*');
+</script>

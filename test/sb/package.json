@@ -1,0 +1,22 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-docs": "8.6",
+    "@storybook/react": "8.6",
+    "@storybook/react-vite": "8.6",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "8.6",
+    "vite": "^6.4.6"
+  }
+}

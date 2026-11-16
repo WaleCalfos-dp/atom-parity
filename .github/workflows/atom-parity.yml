@@ -1,0 +1,98 @@
+name: Atom parity
+run-name: ${{ inputs.figma_url && format('Check {0}', inputs.name || 'new links') || 'Nightly check' }}
+
+# Actions → "Atom parity" → Run workflow
+#   Paste a Figma link and a Storybook link to add a check (it's saved for the nightly run),
+#   or leave them empty to re-run every saved check now.
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Name for this check, e.g. "Buttons" (optional)'
+        required: false
+      figma_url:
+        description: 'Figma link: a component page, or the whole library'
+        required: false
+      storybook_url:
+        description: 'Storybook link'
+        required: false
+  schedule:
+    - cron: '17 2 * * 1-5'   # 02:17 UTC, Monday to Friday
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: atom-parity
+  cancel-in-progress: false
+
+jobs:
+  parity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+
+      - name: Work out the report address
+        id: site
+        run: echo "url=https://$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]').github.io/${GITHUB_REPOSITORY#*/}" >> "$GITHUB_OUTPUT"
+
+      - name: Save the new check
+        if: inputs.figma_url != '' && inputs.storybook_url != ''
+        env:
+          NAME: ${{ inputs.name }}
+          FIGMA_LINK: ${{ inputs.figma_url }}
+          STORYBOOK_LINK: ${{ inputs.storybook_url }}
+        run: |
+          node src/cli.js add-check --name "$NAME" --figma-url "$FIGMA_LINK" --storybook "$STORYBOOK_LINK"
+          git config user.name "atom-parity"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add checks.json
+          git commit -m "Save parity check: ${NAME:-new links}" && git push || echo "Check already saved"
+
+      - name: Fetch the previous reports, to show what changed
+        env:
+          SITE: ${{ steps.site.outputs.url }}
+        run: |
+          mkdir -p parity-baseline
+          curl -fsSL "$SITE/checks-status.json" -o parity-baseline/status.json || exit 0
+          for id in $(node -e "for (const e of require('./parity-baseline/status.json').entries) if (e.ok) console.log(e.id)"); do
+            mkdir -p "parity-baseline/$id"
+            curl -fsSL "$SITE/$id/results.json" -o "parity-baseline/$id/results.json" || rm -f "parity-baseline/$id/results.json"
+          done
+
+      - name: Compare Figma with Storybook
+        id: run
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          PARITY_REPORT_URL: ${{ steps.site.outputs.url }}
+        run: |
+          set +e
+          node src/cli.js run-all
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: parity-site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+      - name: Flag new problems
+        if: steps.run.outputs.exit != '0'
+        run: |
+          if [ "${{ steps.run.outputs.exit }}" = "2" ]; then echo "New problems since the last run. Report: ${{ steps.site.outputs.url }}"; else echo "A check couldn't run. Report: ${{ steps.site.outputs.url }}"; fi
+          exit 1

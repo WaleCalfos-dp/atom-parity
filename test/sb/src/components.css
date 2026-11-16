@@ -1,0 +1,38 @@
+/* Button — primary uses the component token (raw hex) instead of the semantic token;
+   destructive label colour is hard-coded; small is 42px tall (Figma says 40). */
+.aum-button { box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center; gap: var(--aum-space-8);
+  height: 48px; padding: 0 var(--aum-space-20); border: 2px solid transparent; border-radius: var(--aum-button-radius);
+  font-family: var(--aum-body-font-family); font-size: var(--aum-button-font-size); font-weight: 500; line-height: 24px; cursor: pointer; }
+.aum-button--primary { background-color: var(--aum-button-primary-bg-color); color: var(--aum-foreground-basic-inverse); }
+.aum-button--primary:hover { background-color: var(--aum-background-interactive-action-hover); }
+.aum-button--secondary { background-color: var(--aum-background-interactive-control); color: var(--aum-button-secondary-color); border-color: var(--aum-border-basic-strong); }
+.aum-button--destructive { background-color: var(--aum-background-interactive-danger); color: #ffffff; }
+.aum-button--large { height: 56px; }
+.aum-button--middle { height: 48px; }
+.aum-button--small { height: 42px; padding: 0 var(--aum-space-16); font-size: 14px; }
+.aum-button:disabled { background-color: var(--aum-background-interactive-action-disabled); color: var(--aum-foreground-interactive-action-disabled); border-color: transparent; cursor: not-allowed; }
+.aum-button:focus-visible { outline: 2px solid var(--aum-border-interactive-action-selected); outline-offset: 2px; }
+
+/* Tag — success label colour hard-coded; warning label fails contrast. */
+.aum-tag { display: inline-flex; align-items: center; height: 24px; padding: 0 8px; border-radius: var(--aum-tag-radius); font-size: 12px; font-weight: 500; line-height: 16px; }
+.aum-tag--success { background-color: var(--aum-background-status-success-subtle); color: #1b5e20; }
+.aum-tag--warning { background-color: var(--aum-background-status-warning-subtle); color: var(--aum-foreground-status-warning); }
+.aum-tag--error { background-color: var(--aum-background-status-danger-subtle); color: var(--aum-foreground-status-danger); }
+.aum-tag--info { background-color: #E4EEF7; color: #2E5E8C; }
+
+/* Collapse (Figma: Accordion) — focus outline removed. */
+.aum-collapse { width: 100%; border-bottom: 1px solid #E3E0DE; }
+.aum-collapse__header { all: unset; box-sizing: border-box; display: flex; width: 100%; justify-content: space-between; padding: 16px; font-size: 16px; font-weight: 500; cursor: pointer; }
+.aum-collapse__header:focus { outline: none; }
+.aum-collapse__body { padding: 0 16px 16px; font-size: 14px; color: #3B4A55; }
+
+/* Switch — 20px tall track: below the 24px target size. */
+.aum-switch { all: unset; box-sizing: border-box; width: 36px; height: 20px; border-radius: 10px; background: #CECCCC; position: relative; cursor: pointer; }
+.aum-switch::after { content: ""; position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; border-radius: 50%; background: #fff; }
+.aum-switch[aria-checked="true"] { background: var(--aum-background-interactive-action); }
+.aum-switch[aria-checked="true"]::after { left: 18px; }
+.aum-switch:focus-visible { outline: 2px solid var(--aum-border-interactive-action-selected); outline-offset: 2px; }
+.aum-switch:disabled { opacity: .4; cursor: not-allowed; }
+
+/* Alert — exists only in code */
+.aum-alert { padding: 12px 16px; border-radius: 8px; background: #E4EEF7; color: #2E5E8C; font-size: 14px; }

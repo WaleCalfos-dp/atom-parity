@@ -1,0 +1,30 @@
+{
+  "name": "atom-parity",
+  "version": "1.0.0",
+  "description": "Compares the Atom Figma component library with Storybook and reports what works and what is broken.",
+  "main": "src/run.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "parity": "node src/cli.js run",
+    "parity:report": "node src/cli.js report",
+    "test": "node test/e2e.mjs"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axe-core": "^4.14.0",
+    "pixelmatch": "^8.0.0",
+    "playwright": "^1.63.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.35.5"
+  },
+  "type": "module",
+  "bin": {
+    "atom-parity": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}
