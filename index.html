@@ -233,7 +233,7 @@ const ago = (t) => { const m = Math.round((Date.now() - new Date(t).getTime()) /
 const ICON_OK = '<svg class="ok" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg>';
 const ICON_BAD = '<svg class="bad" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>';
 function renderRuns() {
-  const recent = runs.filter((r) => r.state !== 'done' || Date.now() - (r.finishedAt || 0) < 10 * 60000).slice(0, 4);
+  const recent = runs.filter((r) => (r.state === 'done' ? Date.now() - (r.finishedAt || 0) < 10 * 60000 : r.state === 'failed' ? Date.now() - r.startedAt < 30 * 60000 : true)).slice(0, 4);
   $('runs').innerHTML = recent.map((r) => {
     const mins = Math.max(0, Math.round((Date.now() - r.startedAt) / 60000));
     const icon = r.state === 'done' ? ICON_OK : r.state === 'failed' ? ICON_BAD : '<span class="spin" aria-hidden="true"></span>';
