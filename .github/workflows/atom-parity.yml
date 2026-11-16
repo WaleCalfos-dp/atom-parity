@@ -77,7 +77,7 @@ jobs:
       - name: Compare Figma with Storybook
         id: run
         env:
-          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN || secrets.FIGMA }}
           PARITY_REPORT_URL: ${{ steps.site.outputs.url }}
         run: |
           set +e
