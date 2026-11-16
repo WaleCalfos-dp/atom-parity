@@ -1,13 +1,54 @@
 {
-  "generatedAt": "2026-11-16T15:53:20.633Z",
+  "generatedAt": "2026-11-16T16:00:20.913Z",
   "entries": [
     {
       "id": "buttons",
       "name": "Buttons",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-16T14:39:18.750Z",
+      "ranAt": "2026-11-16T15:57:53.257Z",
       "ok": true,
+      "history": [
+        {
+          "at": "2026-11-16T14:39:18.750Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-16T15:57:53.257Z",
+          "score": 15
+        }
+      ],
+      "preview": {
+        "component": "Button",
+        "status": "Broken",
+        "variant": "Type=Primary, Size=Large, State=Disabled",
+        "brand": "AeroBlue",
+        "mismatch": 0.940158507223114,
+        "figma": "buttons/assets/figma/1454779814547853aero-blue.png",
+        "code": "buttons/assets/code/1454779814547853aero-blue.png"
+      },
+      "components": [
+        {
+          "name": "Button",
+          "status": "Broken",
+          "score": 60
+        },
+        {
+          "name": "Icon Button",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Button",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Social Button",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
       "score": 15,
       "headline": "0 of 4 Figma components match Storybook. 1 is broken and 3 aren't built yet.",
       "counts": {
@@ -20,7 +61,7 @@
         "missingInCode": 3,
         "missingInDesign": 0
       },
-      "previousScore": null,
+      "previousScore": 15,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -38,8 +79,36 @@
       "name": "Typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=706-47512",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
-      "ranAt": "2026-11-16T14:41:07.703Z",
+      "ranAt": "2026-11-16T15:59:17.380Z",
       "ok": true,
+      "history": [
+        {
+          "at": "2026-11-16T14:41:07.703Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-16T15:59:17.380Z",
+          "score": 0
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Body",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Text Link",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Title",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
       "score": 0,
       "headline": "0 of 3 Figma components match Storybook. 3 aren't built yet.",
       "counts": {
@@ -52,7 +121,7 @@
         "missingInCode": 3,
         "missingInDesign": 0
       },
-      "previousScore": null,
+      "previousScore": 0,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -65,11 +134,29 @@
     },
     {
       "id": "figma-133330321",
-      "name": "Component Library: Alert",
+      "name": "Alert",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
-      "ranAt": "2026-11-16T15:50:09.166Z",
+      "ranAt": "2026-11-16T16:00:20.494Z",
       "ok": true,
+      "history": [
+        {
+          "at": "2026-11-16T15:50:09.166Z",
+          "score": 44
+        },
+        {
+          "at": "2026-11-16T16:00:20.494Z",
+          "score": 44
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Alert",
+          "status": "Drifted",
+          "score": 44
+        }
+      ],
       "score": 44,
       "headline": "0 of 1 Figma components match Storybook. 1 has drifted.",
       "counts": {
