@@ -6,12 +6,17 @@
 |---|---|---|---|---|
 | 0 | 0 | 1 | 3 | 0 |
 
+### 3 new failures
+- **Button**: Text contrast is too low in Figma _(Accessibility)_
+- **Payment Button**: Text contrast is too low in Figma _(Accessibility)_
+- **Social Button**: Text contrast is too low in Figma _(Accessibility)_
+
 ### Biggest themes
+- 🔴 Text contrast is too low in Figma: 3 components (Design)
 - 🔴 Not built in Storybook: 3 components (Both)
 - 🔴 Background colour differs from design: 1 component (Both)
 - 🔴 Horizontal padding differs from design: 1 component (Both)
 - 🔴 Vertical padding differs from design: 1 component (Both)
 - 🔴 Label · Font size differs from design: 1 component (Both)
-- 🔴 Label · Font weight differs from design: 1 component (Both)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/buttons/)

@@ -90,3 +90,13 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/figma-133330321/#c-1151%3A40938
 
 Found by atom-parity on 2026-11-16","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+"[Atom parity] Alert: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
+
+Brands: AeroBlue
+Variants: Status=Information, Style=Top Border; Status=Information, Style=Full Border; Status=Success, Style=Top Border; Status=Success, Style=Full Border; Status=Warning, Style=Top Border; Status=Warning, Style=Full Border; Status=Error, Style=Top Border; Status=Error, Style=Full Border (+2 more)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/figma-133330321/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-16","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"

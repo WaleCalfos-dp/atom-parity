@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-16T16:00:20.913Z",
+  "generatedAt": "2026-11-16T16:29:45.520Z",
   "entries": [
     {
       "id": "buttons",
       "name": "Buttons",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-16T15:57:53.257Z",
+      "ranAt": "2026-11-16T16:26:52.488Z",
       "ok": true,
       "history": [
         {
@@ -15,6 +15,10 @@
         },
         {
           "at": "2026-11-16T15:57:53.257Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-16T16:26:52.488Z",
           "score": 15
         }
       ],
@@ -31,7 +35,7 @@
         {
           "name": "Button",
           "status": "Broken",
-          "score": 60
+          "score": 59
         },
         {
           "name": "Icon Button",
@@ -62,24 +66,54 @@
         "missingInDesign": 0
       },
       "previousScore": 15,
-      "newFails": 0,
+      "newFails": 3,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
+        "Text contrast is too low in Figma",
         "Not built in Storybook",
-        "Background colour differs from design",
-        "Horizontal padding differs from design"
-      ]
+        "Background colour differs from design"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 3,
+        "counts": {
+          "critical": 1,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 3,
+        "scans": 44,
+        "designChecks": 196,
+        "top": [
+          {
+            "title": "Button has no accessible name",
+            "impact": "critical",
+            "owner": "Dev"
+          },
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
+            "owner": "Design"
+          },
+          {
+            "title": "Text contrast is too low in Storybook",
+            "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
     },
     {
       "id": "typography",
       "name": "Typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=706-47512",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
-      "ranAt": "2026-11-16T15:59:17.380Z",
+      "ranAt": "2026-11-16T16:28:24.040Z",
       "ok": true,
       "history": [
         {
@@ -88,6 +122,10 @@
         },
         {
           "at": "2026-11-16T15:59:17.380Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-16T16:28:24.040Z",
           "score": 0
         }
       ],
@@ -129,15 +167,36 @@
         "stale": true
       },
       "themes": [
-        "Not built in Storybook"
-      ]
+        "Not built in Storybook",
+        "Text contrast is too low in Figma"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 1,
+          "minor": 0
+        },
+        "components": 3,
+        "scans": 0,
+        "designChecks": 188,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "moderate",
+            "owner": "Design"
+          }
+        ]
+      }
     },
     {
       "id": "figma-133330321",
       "name": "Alert",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
-      "ranAt": "2026-11-16T16:00:20.494Z",
+      "ranAt": "2026-11-16T16:29:45.112Z",
       "ok": true,
       "history": [
         {
@@ -147,6 +206,10 @@
         {
           "at": "2026-11-16T16:00:20.494Z",
           "score": 44
+        },
+        {
+          "at": "2026-11-16T16:29:45.112Z",
+          "score": 45
         }
       ],
       "preview": null,
@@ -154,10 +217,10 @@
         {
           "name": "Alert",
           "status": "Drifted",
-          "score": 44
+          "score": 45
         }
       ],
-      "score": 44,
+      "score": 45,
       "headline": "0 of 1 Figma components match Storybook. 1 has drifted.",
       "counts": {
         "total": 1,
@@ -180,7 +243,27 @@
         "Figma property missing in code",
         "Property named differently in Figma and code",
         "Property values missing in code"
-      ]
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 1,
+          "minor": 0
+        },
+        "components": 1,
+        "scans": 0,
+        "designChecks": 60,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "moderate",
+            "owner": "Design"
+          }
+        ]
+      }
     }
   ]
 }

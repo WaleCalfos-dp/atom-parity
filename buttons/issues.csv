@@ -261,18 +261,46 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/buttons/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-accessibility owner-dev","Atom Design System"
+"[Atom parity] Button: Text contrast is too low in Figma","3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40
+
+Brands: AeroBlue, Visa Affluent
+Variants: Type=Primary, Size=Large, State=Default; Type=Primary, Size=Large, State=Hover; Type=Primary, Size=Large, State=Focus; Type=Primary, Size=Large, State=Active; Type=Primary, Size=Regular, State=Default; Type=Primary, Size=Regular, State=Hover; Type=Primary, Size=Regular, State=Focus; Type=Primary, Size=Regular, State=Active (+19 more)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
+Report: https://walecalfos-dp.github.io/atom-parity/buttons/#c-1454%3A7798
+
+Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Icon Button: Not found in Storybook","Possible matches: Basics/Button. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12845-6732
 Report: https://walecalfos-dp.github.io/atom-parity/buttons/#c-12845%3A6732
 
 Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Payment Button: Text contrast is too low in Figma","3.13:1, needs 4.5:1 · #FFFFFF on #179BD7
+
+Brands: Dragonpass, Mastercard, Investec, Assurant, AeroBlue, Visa Affluent
+Variants: Payment Option=PayPal, Size=Regular; Payment Option=PayPal, Size=Large
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12604-10709
+Report: https://walecalfos-dp.github.io/atom-parity/buttons/#c-12604%3A10709
+
+Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Payment Button: Not found in Storybook","Possible matches: Basics/Button. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12604-10709
 Report: https://walecalfos-dp.github.io/atom-parity/buttons/#c-12604%3A10709
 
 Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Social Button: Text contrast is too low in Figma","1.65:1, needs 4.5:1 · #FCC015 on #FFFFFF
+
+Brands: Visa Affluent
+Variants: Filled=True, Size=Large, State=Default; Filled=True, Size=Large, State=Hover; Filled=True, Size=Large, State=Focus; Filled=True, Size=Regular, State=Default; Filled=True, Size=Regular, State=Hover; Filled=True, Size=Regular, State=Focus; Filled=True, Size=Small, State=Default; Filled=True, Size=Small, State=Hover (+1 more)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12607-10742
+Report: https://walecalfos-dp.github.io/atom-parity/buttons/#c-12607%3A10742
+
+Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Social Button: Not found in Storybook","Possible matches: Basics/Button, Data Entry/Radio Button. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12607-10742

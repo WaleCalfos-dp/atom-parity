@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-16T15:59:17.380Z",
-    "durationMs": 84057,
+    "generatedAt": "2026-11-16T16:28:24.040Z",
+    "durationMs": 91521,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-16T15:35:40Z"
+        "lastModified": "2026-11-16T16:06:12Z"
       },
-      "exportedAt": "2026-11-16T15:58:20.785Z",
+      "exportedAt": "2026-11-16T16:27:18.235Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1615,6 +1615,1737 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:contrast",
+          "category": "Accessibility",
+          "subject": "design:contrast",
+          "label": "Text contrast in Figma",
+          "status": "warn",
+          "title": "Text contrast is too low in Figma",
+          "owner": "Design",
+          "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+          "meta": {
+            "rule": "design-contrast",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Large, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Large, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Large, weight=Regular, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Large, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Large, weight=Regular, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Large, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Large, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Large, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Large, weight=Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Large, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Large, weight=Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Large, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Default, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Default, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Default, weight=Regular, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Default, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Default, weight=Regular, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Default, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Default, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Default, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Default, weight=Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Default, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Default, weight=Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Default, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Small, weight=Regular, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Small, weight=Regular, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Small, weight=Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Small, weight=Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=X-small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=X-small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=X-small, weight=Regular, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=X-small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=X-small, weight=Regular, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=X-small, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=X-small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=X-small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=X-small, weight=Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=X-small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=X-small, weight=Bold, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=X-small, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Caption, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Caption, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Caption, weight=Regular, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Caption, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Caption, weight=Regular, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Caption, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 108,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "Assurant",
+            "AeroBlue",
+            "Visa Affluent"
+          ],
+          "variants": [
+            "Size=Large, weight=Regular, Shade=Light",
+            "Size=Large, weight=Semi-Bold, Shade=Light",
+            "Size=Large, weight=Bold, Shade=Light",
+            "Size=Default, weight=Regular, Shade=Light",
+            "Size=Default, weight=Semi-Bold, Shade=Light",
+            "Size=Default, weight=Bold, Shade=Light",
+            "Size=Small, weight=Regular, Shade=Light",
+            "Size=Small, weight=Semi-Bold, Shade=Light",
+            "Size=Small, weight=Bold, Shade=Light",
+            "Size=X-small, weight=Regular, Shade=Light",
+            "Size=X-small, weight=Semi-Bold, Shade=Light",
+            "Size=X-small, weight=Bold, Shade=Light",
+            "Size=Caption, weight=Regular, Shade=Light",
+            "Size=Caption, weight=Semi-Bold, Shade=Light",
+            "Size=Caption, weight=Bold, Shade=Light",
+            "Size=Micro, weight=Regular, Shade=Light",
+            "Size=Micro, weight=Semi-Bold, Shade=Light",
+            "Size=Micro, weight=Bold, Shade=Light"
+          ]
+        },
+        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -1623,6 +3354,7 @@
           "title": "Not found in Storybook",
           "owner": "Both",
           "detail": "No similar component in Storybook",
+          "meta": null,
           "instances": [
             {
               "status": "fail",
@@ -1631,7 +3363,8 @@
               "detail": "No similar component in Storybook",
               "figma": null,
               "code": null,
-              "image": null
+              "image": null,
+              "extra": null
             }
           ],
           "counts": {
@@ -1675,6 +3408,1559 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:contrast",
+          "category": "Accessibility",
+          "subject": "design:contrast",
+          "label": "Text contrast in Figma",
+          "status": "warn",
+          "title": "Text contrast is too low in Figma",
+          "owner": "Design",
+          "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+          "meta": {
+            "rule": "design-contrast",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Large, weight=Regular",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Large, weight=Regular",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Large, weight=Semi-Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Large, weight=Semi-Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Large, weight=Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Large, weight=Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Regular, weight=Regular",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Regular, weight=Regular",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Regular, weight=Semi-Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Regular, weight=Semi-Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Regular, weight=Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Regular, weight=Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Small, weight=Regular",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Small, weight=Regular",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Small, weight=Semi-Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Small, weight=Semi-Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Small, weight=Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Small, weight=Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=X-small, weight=Regular",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=X-small, weight=Regular",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=X-small, weight=Semi-Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=X-small, weight=Semi-Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=X-small, weight=Bold",
+              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.32,
+                "required": 4.5,
+                "fg": "#AE692F",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=X-small, weight=Bold",
+              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.7,
+                "required": 4.5,
+                "fg": "#FFB59C",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Large, weight=Regular",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Large, weight=Regular",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Large, weight=Regular",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Large, weight=Regular",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Large, weight=Semi-Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Large, weight=Semi-Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Large, weight=Semi-Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Large, weight=Semi-Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Large, weight=Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Large, weight=Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Large, weight=Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Large, weight=Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 18,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Regular, weight=Regular",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Regular, weight=Regular",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Regular, weight=Regular",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Regular, weight=Regular",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Regular, weight=Semi-Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Regular, weight=Semi-Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Regular, weight=Semi-Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Regular, weight=Semi-Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Regular, weight=Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Regular, weight=Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Regular, weight=Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Regular, weight=Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 16,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Small, weight=Regular",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Small, weight=Regular",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Small, weight=Regular",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Small, weight=Regular",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Small, weight=Semi-Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Small, weight=Semi-Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Small, weight=Semi-Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Small, weight=Semi-Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=Small, weight=Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=Small, weight=Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=Small, weight=Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=Small, weight=Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 14,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=X-small, weight=Regular",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=X-small, weight=Regular",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=X-small, weight=Regular",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=X-small, weight=Regular",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 400,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=X-small, weight=Semi-Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=X-small, weight=Semi-Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=X-small, weight=Semi-Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=X-small, weight=Semi-Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Size=X-small, weight=Bold",
+              "detail": "5.89:1, needs 4.5:1 · #006B99 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 5.89,
+                "required": 4.5,
+                "fg": "#006B99",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Size=X-small, weight=Bold",
+              "detail": "4.66:1, needs 4.5:1 · #CF4500 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 4.5,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Size=X-small, weight=Bold",
+              "detail": "7.3:1, needs 4.5:1 · #1A54A8 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 4.5,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Visa Affluent",
+              "variant": "Size=X-small, weight=Bold",
+              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 8.81,
+                "required": 4.5,
+                "fg": "#1434CB",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/interactive/action",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Link Text",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 48,
+            "warn": 24,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Investec",
+            "AeroBlue"
+          ],
+          "variants": [
+            "Size=Large, weight=Regular",
+            "Size=Large, weight=Semi-Bold",
+            "Size=Large, weight=Bold",
+            "Size=Regular, weight=Regular",
+            "Size=Regular, weight=Semi-Bold",
+            "Size=Regular, weight=Bold",
+            "Size=Small, weight=Regular",
+            "Size=Small, weight=Semi-Bold",
+            "Size=Small, weight=Bold",
+            "Size=X-small, weight=Regular",
+            "Size=X-small, weight=Semi-Bold",
+            "Size=X-small, weight=Bold"
+          ]
+        },
+        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -1683,6 +4969,7 @@
           "title": "Not found in Storybook",
           "owner": "Both",
           "detail": "Possible matches: Basics/Text, Navigation/Link. Rename it, or add it to components.aliases.",
+          "meta": null,
           "instances": [
             {
               "status": "fail",
@@ -1691,7 +4978,8 @@
               "detail": "Possible matches: Basics/Text, Navigation/Link. Rename it, or add it to components.aliases.",
               "figma": null,
               "code": null,
-              "image": null
+              "image": null,
+              "extra": null
             }
           ],
           "counts": {
@@ -1730,6 +5018,801 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:contrast",
+          "category": "Accessibility",
+          "subject": "design:contrast",
+          "label": "Text contrast in Figma",
+          "status": "warn",
+          "title": "Text contrast is too low in Figma",
+          "owner": "Design",
+          "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+          "meta": {
+            "rule": "design-contrast",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Hero, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 28,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Hero, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 28,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Hero, Shade=Light",
+              "detail": "1.06:1, needs 3:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 28,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Hero, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 28,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=Hero, Shade=Light",
+              "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 3,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 28,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Hero, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 28,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=H1, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 26,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=H1, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 26,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=H1, Shade=Light",
+              "detail": "1.06:1, needs 3:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 26,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=H1, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 26,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=H1, Shade=Light",
+              "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 3,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 26,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=H1, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 26,
+                "weight": 700,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=H2, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 24,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=H2, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 24,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=H2, Shade=Light",
+              "detail": "1.06:1, needs 3:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 24,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=H2, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 24,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=H2, Shade=Light",
+              "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 3,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 24,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=H2, Shade=Light",
+              "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 24,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=H3, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 22,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=H3, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 22,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=H3, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 22,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=H3, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 22,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=H3, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 22,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=H3, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 22,
+                "weight": 600,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=H4, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 20,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=H4, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 20,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=H4, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 20,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=H4, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 20,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=H4, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 20,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=H4, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 20,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=H5, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=H5, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=H5, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=H5, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Size=H5, Shade=Light",
+              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.08,
+                "required": 4.5,
+                "fg": "#FFF4F0",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=H5, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Title Text",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 36,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "Assurant",
+            "AeroBlue",
+            "Visa Affluent"
+          ],
+          "variants": [
+            "Size=Hero, Shade=Light",
+            "Size=H1, Shade=Light",
+            "Size=H2, Shade=Light",
+            "Size=H3, Shade=Light",
+            "Size=H4, Shade=Light",
+            "Size=H5, Shade=Light"
+          ]
+        },
+        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -1738,6 +5821,7 @@
           "title": "Not found in Storybook",
           "owner": "Both",
           "detail": "Possible matches: Business Components/EntitlementPayment. Rename it, or add it to components.aliases.",
+          "meta": null,
           "instances": [
             {
               "status": "fail",
@@ -1746,7 +5830,8 @@
               "detail": "Possible matches: Business Components/EntitlementPayment. Rename it, or add it to components.aliases.",
               "figma": null,
               "code": null,
-              "image": null
+              "image": null,
+              "extra": null
             }
           ],
           "counts": {
@@ -1777,7 +5862,7 @@
     },
     "checks": {
       "pass": 0,
-      "warn": 0,
+      "warn": 3,
       "fail": 3
     },
     "byCategory": {
@@ -1803,7 +5888,7 @@
       },
       "Accessibility": {
         "pass": 0,
-        "warn": 0,
+        "warn": 3,
         "fail": 0
       },
       "Interaction": {
@@ -1824,7 +5909,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 0,
+        "warn": 3,
         "fail": 0
       },
       "Dev": {
@@ -1847,13 +5932,44 @@
           "Text Link",
           "Title"
         ]
+      },
+      {
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Body",
+          "Text Link",
+          "Title"
+        ]
       }
     ],
     "works": [
-      "37 of 45 design tokens have the same value in code across every brand"
+      "37 of 45 design tokens have the same value in code across every brand",
+      "No failures in: Accessibility"
     ],
     "brokenComponents": [],
     "issues": [
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Accessibility",
+        "subject": "design:contrast",
+        "status": "warn",
+        "title": "Text contrast is too low in Figma",
+        "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "Assurant",
+          "AeroBlue",
+          "Visa Affluent"
+        ],
+        "variants": 18
+      },
       {
         "component": "Body",
         "componentKey": "1580:2636",
@@ -1865,6 +5981,21 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
+      },
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
+        "category": "Accessibility",
+        "subject": "design:contrast",
+        "status": "warn",
+        "title": "Text contrast is too low in Figma",
+        "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Investec",
+          "AeroBlue"
+        ],
+        "variants": 12
       },
       {
         "component": "Text Link",
@@ -1881,6 +6012,25 @@
       {
         "component": "Title",
         "componentKey": "706:50315",
+        "category": "Accessibility",
+        "subject": "design:contrast",
+        "status": "warn",
+        "title": "Text contrast is too low in Figma",
+        "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "Assurant",
+          "AeroBlue",
+          "Visa Affluent"
+        ],
+        "variants": 6
+      },
+      {
+        "component": "Title",
+        "componentKey": "706:50315",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -1892,8 +6042,524 @@
       }
     ]
   },
+  "a11y": {
+    "ran": true,
+    "scans": 0,
+    "designChecks": 188,
+    "brands": [],
+    "counts": {
+      "critical": 0,
+      "serious": 0,
+      "moderate": 1,
+      "minor": 0
+    },
+    "total": 1,
+    "components": 3,
+    "byBrand": {
+      "Dragonpass": 20,
+      "Mastercard": 20,
+      "Investec": 31,
+      "Assurant": 19,
+      "AeroBlue": 31,
+      "Visa Affluent": 19
+    },
+    "criteria": [
+      {
+        "sc": "1.4.3",
+        "name": "Contrast (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+        "status": "warn",
+        "issues": 1
+      }
+    ],
+    "issues": [
+      {
+        "rule": "design-contrast",
+        "criterion": {
+          "sc": "1.4.3",
+          "name": "Contrast (minimum)",
+          "level": "AA",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+        },
+        "title": "Text contrast is too low in Figma",
+        "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
+        "fix": "Change the brand value of the text or background token in Figma until the pair reaches 4.5:1 (3:1 for large text).",
+        "impact": "moderate",
+        "status": "warn",
+        "owner": "Design",
+        "source": "design",
+        "help": null,
+        "components": [
+          {
+            "name": "Body",
+            "key": "1580:2636"
+          },
+          {
+            "name": "Text Link",
+            "key": "1580:2709"
+          },
+          {
+            "name": "Title",
+            "key": "706:50315"
+          }
+        ],
+        "where": [
+          {
+            "component": "Body",
+            "componentKey": "1580:2636",
+            "brand": "Dragonpass",
+            "variants": [
+              "Size=Large, weight=Regular, Shade=Light",
+              "Size=Large, weight=Semi-Bold, Shade=Light",
+              "Size=Large, weight=Bold, Shade=Light",
+              "Size=Default, weight=Regular, Shade=Light",
+              "Size=Default, weight=Semi-Bold, Shade=Light",
+              "Size=Default, weight=Bold, Shade=Light",
+              "Size=Small, weight=Regular, Shade=Light",
+              "Size=Small, weight=Semi-Bold, Shade=Light",
+              "Size=Small, weight=Bold, Shade=Light",
+              "Size=X-small, weight=Regular, Shade=Light",
+              "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "Size=X-small, weight=Bold, Shade=Light",
+              "Size=Caption, weight=Regular, Shade=Light",
+              "Size=Caption, weight=Semi-Bold, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 4.5,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Body",
+            "componentKey": "1580:2636",
+            "brand": "Mastercard",
+            "variants": [
+              "Size=Large, weight=Regular, Shade=Light",
+              "Size=Large, weight=Semi-Bold, Shade=Light",
+              "Size=Large, weight=Bold, Shade=Light",
+              "Size=Default, weight=Regular, Shade=Light",
+              "Size=Default, weight=Semi-Bold, Shade=Light",
+              "Size=Default, weight=Bold, Shade=Light",
+              "Size=Small, weight=Regular, Shade=Light",
+              "Size=Small, weight=Semi-Bold, Shade=Light",
+              "Size=Small, weight=Bold, Shade=Light",
+              "Size=X-small, weight=Regular, Shade=Light",
+              "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "Size=X-small, weight=Bold, Shade=Light",
+              "Size=Caption, weight=Regular, Shade=Light",
+              "Size=Caption, weight=Semi-Bold, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 4.5,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Body",
+            "componentKey": "1580:2636",
+            "brand": "Investec",
+            "variants": [
+              "Size=Large, weight=Regular, Shade=Light",
+              "Size=Large, weight=Semi-Bold, Shade=Light",
+              "Size=Large, weight=Bold, Shade=Light",
+              "Size=Default, weight=Regular, Shade=Light",
+              "Size=Default, weight=Semi-Bold, Shade=Light",
+              "Size=Default, weight=Bold, Shade=Light",
+              "Size=Small, weight=Regular, Shade=Light",
+              "Size=Small, weight=Semi-Bold, Shade=Light",
+              "Size=Small, weight=Bold, Shade=Light",
+              "Size=X-small, weight=Regular, Shade=Light",
+              "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "Size=X-small, weight=Bold, Shade=Light",
+              "Size=Caption, weight=Regular, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1.06,
+              "required": 4.5,
+              "fg": "#F8F8F7",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Body",
+            "componentKey": "1580:2636",
+            "brand": "Assurant",
+            "variants": [
+              "Size=Large, weight=Regular, Shade=Light",
+              "Size=Large, weight=Semi-Bold, Shade=Light",
+              "Size=Large, weight=Bold, Shade=Light",
+              "Size=Default, weight=Regular, Shade=Light",
+              "Size=Default, weight=Semi-Bold, Shade=Light",
+              "Size=Default, weight=Bold, Shade=Light",
+              "Size=Small, weight=Regular, Shade=Light",
+              "Size=Small, weight=Semi-Bold, Shade=Light",
+              "Size=Small, weight=Bold, Shade=Light",
+              "Size=X-small, weight=Regular, Shade=Light",
+              "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "Size=X-small, weight=Bold, Shade=Light",
+              "Size=Caption, weight=Regular, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 4.5,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Body",
+            "componentKey": "1580:2636",
+            "brand": "AeroBlue",
+            "variants": [
+              "Size=Large, weight=Regular, Shade=Light",
+              "Size=Large, weight=Semi-Bold, Shade=Light",
+              "Size=Large, weight=Bold, Shade=Light",
+              "Size=Default, weight=Regular, Shade=Light",
+              "Size=Default, weight=Semi-Bold, Shade=Light",
+              "Size=Default, weight=Bold, Shade=Light",
+              "Size=Small, weight=Regular, Shade=Light",
+              "Size=Small, weight=Semi-Bold, Shade=Light",
+              "Size=Small, weight=Bold, Shade=Light",
+              "Size=X-small, weight=Regular, Shade=Light",
+              "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "Size=X-small, weight=Bold, Shade=Light",
+              "Size=Caption, weight=Regular, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1.08,
+              "required": 4.5,
+              "fg": "#FFF4F0",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Body",
+            "componentKey": "1580:2636",
+            "brand": "Visa Affluent",
+            "variants": [
+              "Size=Large, weight=Regular, Shade=Light",
+              "Size=Large, weight=Semi-Bold, Shade=Light",
+              "Size=Large, weight=Bold, Shade=Light",
+              "Size=Default, weight=Regular, Shade=Light",
+              "Size=Default, weight=Semi-Bold, Shade=Light",
+              "Size=Default, weight=Bold, Shade=Light",
+              "Size=Small, weight=Regular, Shade=Light",
+              "Size=Small, weight=Semi-Bold, Shade=Light",
+              "Size=Small, weight=Bold, Shade=Light",
+              "Size=X-small, weight=Regular, Shade=Light",
+              "Size=X-small, weight=Semi-Bold, Shade=Light",
+              "Size=X-small, weight=Bold, Shade=Light",
+              "Size=Caption, weight=Regular, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 4.5,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Text Link",
+            "componentKey": "1580:2709",
+            "brand": "Investec",
+            "variants": [
+              "Size=Large, weight=Regular",
+              "Size=Large, weight=Semi-Bold",
+              "Size=Large, weight=Bold",
+              "Size=Regular, weight=Regular",
+              "Size=Regular, weight=Semi-Bold",
+              "Size=Regular, weight=Bold",
+              "Size=Small, weight=Regular",
+              "Size=Small, weight=Semi-Bold",
+              "Size=Small, weight=Bold",
+              "Size=X-small, weight=Regular",
+              "Size=X-small, weight=Semi-Bold",
+              "Size=X-small, weight=Bold"
+            ],
+            "status": "warn",
+            "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 4.32,
+              "required": 4.5,
+              "fg": "#AE692F",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/interactive/action",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Text Link",
+            "componentKey": "1580:2709",
+            "brand": "AeroBlue",
+            "variants": [
+              "Size=Large, weight=Regular",
+              "Size=Large, weight=Semi-Bold",
+              "Size=Large, weight=Bold",
+              "Size=Regular, weight=Regular",
+              "Size=Regular, weight=Semi-Bold",
+              "Size=Regular, weight=Bold",
+              "Size=Small, weight=Regular",
+              "Size=Small, weight=Semi-Bold",
+              "Size=Small, weight=Bold",
+              "Size=X-small, weight=Regular",
+              "Size=X-small, weight=Semi-Bold",
+              "Size=X-small, weight=Bold"
+            ],
+            "status": "warn",
+            "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1.7,
+              "required": 4.5,
+              "fg": "#FFB59C",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/interactive/action",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Large, weight=Regular"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Title",
+            "componentKey": "706:50315",
+            "brand": "Dragonpass",
+            "variants": [
+              "Size=Hero, Shade=Light",
+              "Size=H1, Shade=Light",
+              "Size=H2, Shade=Light",
+              "Size=H3, Shade=Light",
+              "Size=H4, Shade=Light",
+              "Size=H5, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Hero, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Title",
+            "componentKey": "706:50315",
+            "brand": "Mastercard",
+            "variants": [
+              "Size=Hero, Shade=Light",
+              "Size=H1, Shade=Light",
+              "Size=H2, Shade=Light",
+              "Size=H3, Shade=Light",
+              "Size=H4, Shade=Light",
+              "Size=H5, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Hero, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Title",
+            "componentKey": "706:50315",
+            "brand": "Investec",
+            "variants": [
+              "Size=Hero, Shade=Light",
+              "Size=H1, Shade=Light",
+              "Size=H2, Shade=Light",
+              "Size=H3, Shade=Light",
+              "Size=H4, Shade=Light",
+              "Size=H5, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1.06:1, needs 3:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1.06,
+              "required": 3,
+              "fg": "#F8F8F7",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Hero, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Title",
+            "componentKey": "706:50315",
+            "brand": "Assurant",
+            "variants": [
+              "Size=Hero, Shade=Light",
+              "Size=H1, Shade=Light",
+              "Size=H2, Shade=Light",
+              "Size=H3, Shade=Light",
+              "Size=H4, Shade=Light",
+              "Size=H5, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Hero, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Title",
+            "componentKey": "706:50315",
+            "brand": "AeroBlue",
+            "variants": [
+              "Size=Hero, Shade=Light",
+              "Size=H1, Shade=Light",
+              "Size=H2, Shade=Light",
+              "Size=H3, Shade=Light",
+              "Size=H4, Shade=Light",
+              "Size=H5, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1.08,
+              "required": 3,
+              "fg": "#FFF4F0",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Hero, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "component": "Title",
+            "componentKey": "706:50315",
+            "brand": "Visa Affluent",
+            "variants": [
+              "Size=Hero, Shade=Light",
+              "Size=H1, Shade=Light",
+              "Size=H2, Shade=Light",
+              "Size=H3, Shade=Light",
+              "Size=H4, Shade=Light",
+              "Size=H5, Shade=Light"
+            ],
+            "status": "warn",
+            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "foreground/basic/inverse",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Size=Hero, Shade=Light"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          }
+        ],
+        "occurrences": 140
+      }
+    ]
+  },
   "delta": {
-    "since": "2026-11-16T14:41:07.703Z",
+    "since": "2026-11-16T15:59:17.380Z",
     "previousScore": 0,
     "newFails": [],
     "fixed": []

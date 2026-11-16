@@ -8,5 +8,6 @@
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 3 components (Both)
+- 🟠 Text contrast is too low in Figma: 3 components (Design)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/typography/)
