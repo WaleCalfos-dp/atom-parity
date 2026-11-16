@@ -13,6 +13,13 @@
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=706-47512",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
       "addedAt": "2026-11-16T14:16:56.740Z"
+    },
+    {
+      "id": "figma-133330321",
+      "name": null,
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
+      "addedAt": "2026-11-16T15:41:17.758Z"
     }
   ]
 }
