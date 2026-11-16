@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:43:06.634Z",
+  "generatedAt": "2026-11-16T15:50:09.190Z",
   "entries": [
     {
       "id": "buttons",
@@ -68,7 +68,7 @@
       "name": "Component Library: Alert",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
-      "ranAt": "2026-11-16T15:43:06.269Z",
+      "ranAt": "2026-11-16T15:50:09.166Z",
       "ok": true,
       "score": 44,
       "headline": "0 of 1 Figma components match Storybook. 1 has drifted.",
@@ -82,7 +82,7 @@
         "missingInCode": 0,
         "missingInDesign": 0
       },
-      "previousScore": null,
+      "previousScore": 44,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {

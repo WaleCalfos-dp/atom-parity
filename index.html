@@ -189,20 +189,11 @@ async function poll() {
   if (!active.length) return;
   try {
     if (active.some((r) => !r.runId)) {
-      const list = await fetch(API + '/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=20', { headers: auth(key) }).then((r) => r.json());
-      const wf = list.workflow_runs || [];
-      const claimed = new Set(runs.map((r) => r.runId).filter(Boolean));
-      for (const r of active) {
-        if (r.runId) continue;
-        // Exact match once GitHub has given the run its title; before that, a queued run has only the
-        // workflow's name, so take the oldest untitled run created after we asked for it.
-        let hit = wf.find((w) => (w.display_title || '').includes('[' + r.req + ']'));
-        if (!hit) hit = wf.filter((w) => !claimed.has(w.id) && !/\[[a-z0-9]{6,}\]/.test(w.display_title || '') && new Date(w.created_at).getTime() >= r.startedAt - 20000 && w.status !== 'completed').sort((a, b) => new Date(a.created_at) - new Date(b.created_at))[0];
-        if (hit) { r.runId = hit.id; claimed.add(hit.id); }
-      }
+      const list = await fetch(API + '/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=15', { headers: auth(key) }).then((r) => r.json());
+      for (const r of active) if (!r.runId) { const hit = (list.workflow_runs || []).find((w) => (w.display_title || '').includes('[' + r.req + ']')); if (hit) r.runId = hit.id; }
     }
     for (const r of active) {
-      if (!r.runId) { if (Date.now() - r.startedAt > 5 * 60000) { r.state = 'failed'; r.step = "GitHub didn't accept the check. Try again in a few minutes"; } continue; }
+      if (!r.runId) { if (Date.now() - r.startedAt > 120000) { r.state = 'failed'; r.step = "GitHub didn't start the check"; } continue; }
       if (r.state === 'publishing') { await waitForSite(r); continue; }
       const run = await fetch(API + '/actions/runs/' + r.runId, { headers: auth(key) }).then((x) => x.json());
       r.url = run.html_url;
@@ -214,8 +205,7 @@ async function poll() {
         const jobs = await fetch(API + '/actions/runs/' + r.runId + '/jobs', { headers: auth(key) }).then((x) => x.json());
         const steps = (jobs.jobs && jobs.jobs[0] && jobs.jobs[0].steps) || [];
         const cur = steps.find((s) => s.status === 'in_progress') || steps.filter((s) => s.status === 'completed').pop();
-        if ((run.status === 'queued' || run.status === 'waiting' || run.status === 'pending') && Date.now() - r.startedAt > 30 * 60000) { r.state = 'failed'; r.step = "GitHub queued the check but never started it. Try again later"; continue; }
-        r.step = run.status === 'queued' || run.status === 'waiting' || run.status === 'pending' ? (Date.now() - r.startedAt > 3 * 60000 ? 'Waiting for GitHub to start it (it can be busy)' : 'Waiting for GitHub to start it') : cur ? stepLabel(cur.name) : 'Starting';
+        r.step = run.status === 'queued' ? 'Waiting for GitHub' : cur ? stepLabel(cur.name) : 'Starting';
       }
     }
   } catch (e) { /* keep polling */ }
@@ -233,7 +223,7 @@ const ago = (t) => { const m = Math.round((Date.now() - new Date(t).getTime()) /
 const ICON_OK = '<svg class="ok" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg>';
 const ICON_BAD = '<svg class="bad" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>';
 function renderRuns() {
-  const recent = runs.filter((r) => (r.state === 'done' ? Date.now() - (r.finishedAt || 0) < 10 * 60000 : r.state === 'failed' ? Date.now() - r.startedAt < 30 * 60000 : true)).slice(0, 4);
+  const recent = runs.filter((r) => r.state !== 'done' || Date.now() - (r.finishedAt || 0) < 10 * 60000).slice(0, 4);
   $('runs').innerHTML = recent.map((r) => {
     const mins = Math.max(0, Math.round((Date.now() - r.startedAt) / 60000));
     const icon = r.state === 'done' ? ICON_OK : r.state === 'failed' ? ICON_BAD : '<span class="spin" aria-hidden="true"></span>';
