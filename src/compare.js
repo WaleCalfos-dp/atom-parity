@@ -189,13 +189,15 @@ export function tokenChecks(checks, { variant, figmaBrand, codeBrand, dom, varia
 }
 
 // ---------------------------------------------------------------- visual
-export function visualChecks(checks, { variant, figmaBrand, vis, cfg, images, sizing, hasText }) {
+export function visualChecks(checks, { variant, figmaBrand, vis, cfg, images, sizing, hasText, caveats = [] }) {
   const t = cfg.visual.thresholds;
   const pct = (n) => `${(n * 100).toFixed(1)}%`;
-  const status = vis.mismatch <= t.pass ? 'pass' : vis.mismatch <= t.warn ? 'warn' : 'fail';
+  let status = vis.mismatch <= t.pass ? 'pass' : vis.mismatch <= t.warn ? 'warn' : 'fail';
+  // When Figma shows parts the story can't (icons switched on by default), a pixel gap is expected: never "broken" on that alone
+  if (status === 'fail' && caveats.length) status = 'warn';
   checks.add({ category: 'Visual', subject: 'pixels', label: 'Appearance', status, owner: 'Both',
-    title: status === 'pass' ? 'Looks the same as design' : status === 'warn' ? 'Small visual differences' : 'Looks different from design',
-    detail: `${pct(vis.mismatch)} of pixels differ`, brand: figmaBrand, variant: variant.name, image: images, figma: pct(vis.mismatch) });
+    title: status === 'pass' ? 'Looks the same as design' : status === 'warn' ? 'Visual differences' : 'Looks different from design',
+    detail: `${pct(vis.mismatch)} of pixels differ${caveats.length && vis.mismatch > t.pass ? `. Figma shows ${caveats.join(' and ')} by default and the story doesn't, so some difference is expected; compare the pictures` : ''}`, brand: figmaBrand, variant: variant.name, image: images, figma: pct(vis.mismatch) });
 
   const tol = cfg.visual.sizeTolerancePx;
   const dh = Math.abs(vis.sizeDelta.h);

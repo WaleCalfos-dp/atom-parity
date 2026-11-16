@@ -76,6 +76,8 @@ export async function run(cfg, opts = {}) {
       if (!story) { plans.push(plan); continue; }
       const designHasState = (kind) => propMatch.props.some((p) => p.how === 'state' && p.values.some((v) => v.interaction === kind));
       plan.designHasHover = designHasState('hover');
+      // Figma parts switched on by default that the story can't switch on (e.g. icons): pixels will differ
+      plan.visualCaveats = propMatch.props.filter((p) => p.figmaType === 'BOOLEAN' && p.default === true && (!p.codeArg || p.codeType !== 'boolean')).map((p) => p.figma);
       plan.designHasFocus = designHasState('focus');
       let probeAssigned = false;
       for (const v of variants) {
@@ -184,7 +186,7 @@ export async function run(cfg, opts = {}) {
           const vis = visuals[job.key];
           const hasVisual = !!(vis && !vis.error);
           tokenChecks(checks, { variant: vp.variant, figmaBrand: job.brandFigma, codeBrand: job.brandCode, dom: r.dom, variables: manifest.variables ?? {}, cfg, definedTokens, hasVisual, defaultBrand: defaultBrand?.figma });
-          if (hasVisual) visualChecks(checks, { variant: vp.variant, figmaBrand: job.brandFigma, vis, cfg, images: vis.images, sizing: vp.variant.sizing, hasText: vp.variant.layers?.some((l) => l.type === 'TEXT') });
+          if (hasVisual) visualChecks(checks, { variant: vp.variant, figmaBrand: job.brandFigma, vis, cfg, images: vis.images, sizing: vp.variant.sizing, hasText: vp.variant.layers?.some((l) => l.type === 'TEXT'), caveats: plan.visualCaveats });
           if (r.a11y) a11yChecks(checks, { result: r.a11y, brand: job.brandFigma, variant: vp.variant.name, cfg });
           if (r.probe) probe = r.probe;
           gallery.push({
