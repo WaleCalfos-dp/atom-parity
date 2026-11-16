@@ -35,8 +35,9 @@ await page.route('https://api.github.com/**', async (route) => {
   const json = (body, status = 200) => route.fulfill({ status, contentType: 'application/json', body: JSON.stringify(body) });
   if (u.pathname.endsWith('/actions/workflows/atom-parity.yml') && route.request().method() === 'GET') return authz === 'Bearer good-key' ? json({ id: 1 }) : json({ message: 'Bad credentials' }, 401);
   if (u.pathname.endsWith('/dispatches')) { const b = JSON.parse(route.request().postData()); gh.dispatched.push(b); gh.req = b.inputs.request_id; return route.fulfill({ status: 204 }); }
-  if (u.pathname.endsWith('/runs')) return json({ workflow_runs: gh.req ? [{ id: 77, display_title: `Buttons [${gh.req}]` }] : [] });
-  if (u.pathname.endsWith('/runs/77')) { gh.polls++; return json({ id: 77, html_url: 'https://github.com/x/runs/77', status: gh.polls > 2 ? 'completed' : 'in_progress', conclusion: gh.polls > 2 ? 'success' : null }); }
+  // While queued, GitHub shows only the workflow's name as the title (no request tag yet)
+  if (u.pathname.endsWith('/runs')) return json({ workflow_runs: gh.req ? [{ id: 77, status: gh.polls < 2 ? 'queued' : 'in_progress', created_at: new Date().toISOString(), display_title: gh.polls < 2 ? 'Atom parity' : `Buttons [${gh.req}]` }, { id: 70, status: 'completed', created_at: '2026-01-01T00:00:00Z', display_title: 'Nightly check' }] : [] });
+  if (u.pathname.endsWith('/runs/77')) { gh.polls++; return json({ id: 77, html_url: 'https://github.com/x/runs/77', status: gh.polls < 2 ? 'queued' : gh.polls > 3 ? 'completed' : 'in_progress', conclusion: gh.polls > 3 ? 'success' : null }); }
   if (u.pathname.endsWith('/runs/77/jobs')) return json({ jobs: [{ steps: [{ name: 'Install the browser', status: 'completed' }, { name: 'Compare Figma with Storybook', status: 'in_progress' }] }] });
   return json({}, 404);
 });
@@ -72,7 +73,8 @@ await page.click('#runBtn');
 await page.waitForSelector('.run');
 assert.equal(gh.dispatched.at(-1).inputs.figma_url.includes('figma.com'), true);
 assert.equal(gh.dispatched.at(-1).inputs.name, 'Buttons');
-await page.waitForFunction(() => /Comparing/.test(document.getElementById('runs').textContent), null, { timeout: 20000 });
+await page.waitForFunction(() => /Waiting for GitHub to start it/.test(document.getElementById('runs').textContent), null, { timeout: 20000 });
+await page.waitForFunction(() => /Comparing/.test(document.getElementById('runs').textContent), null, { timeout: 30000 });
 await page.screenshot({ path: '/tmp/app-2.png' });
 // The site publishes: status file now newer than the run start
 const st = JSON.parse(fs.readFileSync(path.join(SITE, 'checks-status.json'), 'utf8'));

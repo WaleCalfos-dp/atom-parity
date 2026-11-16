@@ -7,7 +7,7 @@ import { loadConfig } from './config.js';
 import { run } from './run.js';
 import { writeReport } from './report.js';
 import { readJson, log } from './util.js';
-import { runAll, addCheck, removeCheck, writeSite } from './site.js';
+import { runAll, addCheck, removeCheck, writeSite, mergeStatus } from './site.js';
 
 const HELP = `
 atom-parity: compare the Atom Figma library with Storybook
@@ -53,7 +53,7 @@ async function main() {
     },
   });
   const cmd = positionals[0] ?? 'run';
-  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'site'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
+  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'site', 'merge-status'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
   log.quiet = !!values.quiet;
   const checksFile = path.resolve(values.checks ?? 'checks.json');
 
@@ -66,6 +66,11 @@ async function main() {
   if (cmd === 'remove-check') {
     const ok = removeCheck(checksFile, values.id);
     console.log(ok ? `Removed check ${values.id}` : `No saved check called ${values.id}`);
+    return;
+  }
+  if (cmd === 'merge-status') {
+    const [base, fresh, out] = positionals.slice(1).map((p) => path.resolve(p));
+    mergeStatus({ base, fresh, out, ids: (values.only ?? '').split(',').filter(Boolean), checksFile });
     return;
   }
   if (cmd === 'site') {

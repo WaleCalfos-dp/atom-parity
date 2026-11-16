@@ -21,10 +21,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: atom-parity
-  cancel-in-progress: false
-
 jobs:
   parity:
     runs-on: ubuntu-latest
@@ -97,15 +93,32 @@ jobs:
           echo "exit=$?" >> "$GITHUB_OUTPUT"
 
       - name: Publish the report
+        env:
+          REMOVE_ID: ${{ inputs.remove_id }}
         run: |
-          if [ -d site-new ]; then
-            for d in site-new/*/; do [ -d "$d" ] || continue; id=$(basename "$d"); rm -rf "site/$id"; cp -R "$d" "site/$id"; done
-            cp site-new/checks-status.json site-new/index.html site/
-          else
-            node src/cli.js site --site site --status-from site/checks-status.json
-          fi
-          touch site/.nojekyll
-          cd site && git add -A && (git commit -qm "Update parity reports" && git push -q origin gh-pages || echo "Nothing changed")
+          # Several checks can finish at once: publish, and if someone else published first, merge and try again.
+          IDS=""
+          if [ -d site-new ]; then for d in site-new/*/; do [ -d "$d" ] && IDS="$IDS,$(basename "$d")"; done; fi
+          IDS="${IDS#,}"
+          for attempt in 1 2 3 4 5; do
+            cd "$GITHUB_WORKSPACE/site"
+            if [ "$attempt" -gt 1 ]; then git fetch -q origin gh-pages && git reset -q --hard origin/gh-pages; fi
+            cd "$GITHUB_WORKSPACE"
+            [ -n "$REMOVE_ID" ] && rm -rf "site/$REMOVE_ID"
+            for id in ${IDS//,/ }; do rm -rf "site/$id"; cp -R "site-new/$id" "site/$id"; done
+            if [ -n "$IDS" ]; then
+              node src/cli.js merge-status site/checks-status.json site-new/checks-status.json site/checks-status.json --only "$IDS"
+              cp site-new/index.html site/index.html
+            else
+              node src/cli.js site --site site --status-from site/checks-status.json
+            fi
+            touch site/.nojekyll
+            cd site && git add -A
+            git diff --cached --quiet && { echo "Nothing changed"; break; }
+            git commit -qm "Update parity reports" && git push -q origin gh-pages && break
+            echo "Someone published at the same time; merging and retrying"
+            sleep $((attempt * 5))
+          done
 
       - name: Flag new problems
         if: steps.run.outputs.exit != '' && steps.run.outputs.exit != '0'

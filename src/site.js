@@ -36,6 +36,17 @@ export function removeCheck(file, id) {
   return before !== data.checks.length;
 }
 
+/** After a concurrent run published first: keep their entries, swap in ours for the checks we ran. */
+export function mergeStatus({ base, fresh, ids, checksFile, out }) {
+  const read = (f) => { try { return readJson(f).entries ?? []; } catch { return []; } };
+  const ours = new Map(read(fresh).filter((e) => ids.includes(e.id)).map((e) => [e.id, e]));
+  const theirs = new Map(read(base).map((e) => [e.id, e]));
+  const { checks } = readChecks(checksFile);
+  const entries = checks.map((c) => ours.get(c.id) ?? theirs.get(c.id) ?? { id: c.id, name: c.name, figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, ok: null });
+  writeJson(out, { generatedAt: new Date().toISOString(), entries });
+  return entries;
+}
+
 /** Status for every saved check: this run's entries, plus earlier results for checks that didn't run. */
 export function writeSite({ checksFile, siteDir, entries = [], statusFrom, repo }) {
   const { checks } = readChecks(checksFile);
