@@ -11,13 +11,14 @@ export class Checks {
   constructor() { this.map = new Map(); }
   add(c) {
     const key = `${c.category}|${c.subject}`;
-    const inst = { status: c.status, brand: c.brand ?? null, variant: c.variant ?? null, detail: c.detail ?? null, figma: c.figma ?? null, code: c.code ?? null, image: c.image ?? null };
+    const inst = { status: c.status, brand: c.brand ?? null, variant: c.variant ?? null, detail: c.detail ?? null, figma: c.figma ?? null, code: c.code ?? null, image: c.image ?? null, extra: c.extra ?? null };
     const prev = this.map.get(key);
     if (!prev) {
-      this.map.set(key, { key, category: c.category, subject: c.subject, label: c.label ?? c.subject, status: c.status, title: c.title, owner: c.owner ?? null, detail: c.detail ?? null, instances: [inst] });
+      this.map.set(key, { key, category: c.category, subject: c.subject, label: c.label ?? c.subject, status: c.status, title: c.title, owner: c.owner ?? null, detail: c.detail ?? null, meta: c.meta ?? null, instances: [inst] });
       return;
     }
     prev.instances.push(inst);
+    if (!prev.meta && c.meta) prev.meta = c.meta;
     if (RANK[c.status] > RANK[prev.status]) { prev.status = c.status; prev.title = c.title; prev.owner = c.owner ?? prev.owner; prev.detail = c.detail ?? prev.detail; }
   }
   list() {
@@ -30,7 +31,7 @@ export class Checks {
         counts,
         brands: [...new Set(bad.map((i) => i.brand).filter(Boolean))],
         variants: [...new Set(bad.map((i) => i.variant).filter(Boolean))],
-        instances: c.instances.slice(0, 60),
+        instances: [...c.instances].sort((a, b) => RANK[b.status] - RANK[a.status]).slice(0, 80),
       };
     });
   }
@@ -220,11 +221,23 @@ export function a11yChecks(checks, { result, brand, variant, cfg }) {
   const designRules = new Set(cfg.a11y.designRules);
   for (const v of result.violations) {
     const serious = v.impact === 'serious' || v.impact === 'critical';
+    const extra = v.id === 'color-contrast' ? parseAxeContrast(v.summary) : null;
     checks.add({ category: 'Accessibility', subject: `axe:${v.id}`, label: v.help, status: serious ? 'fail' : 'warn', owner: designRules.has(v.id) ? 'Design' : 'Dev',
       title: v.help, detail: `${v.impact} · ${v.nodes} element${v.nodes === 1 ? '' : 's'} · ${v.target}${v.summary ? ` · ${v.summary.replace(/\s+/g, ' ')}` : ''}`,
-      code: v.helpUrl, brand, variant });
+      code: v.helpUrl, brand, variant, meta: { rule: v.id, impact: v.impact, tags: v.tags ?? [], source: 'code' }, extra: extra ? { ...extra, target: v.target, nodes: v.nodes } : { target: v.target, nodes: v.nodes, impact: v.impact } });
   }
-  checks.add({ category: 'Accessibility', subject: 'axe', label: 'Automated WCAG 2.2 AA scan', status: 'pass', owner: 'Dev', title: 'Automated scan ran', detail: `${result.violations.length} rule${result.violations.length === 1 ? '' : 's'} failed`, brand, variant });
+  checks.add({ category: 'Accessibility', subject: 'axe', label: 'Automated WCAG 2.2 AA scan', status: 'pass', owner: 'Dev', title: 'Automated scan ran', detail: `${result.violations.length} rule${result.violations.length === 1 ? '' : 's'} failed`, brand, variant, meta: { rule: 'scan', source: 'code' } });
+}
+export function parseAxeContrast(summary) {
+  const s = String(summary ?? '');
+  const ratio = s.match(/contrast of ([\d.]+)/i);
+  const fg = s.match(/foreground colou?r: (#[0-9a-f]{3,8})/i);
+  const bg = s.match(/background colou?r: (#[0-9a-f]{3,8})/i);
+  const req = s.match(/contrast ratio of ([\d.]+):1/i);
+  const size = s.match(/\((\d+(?:\.\d+)?)px\)/);
+  const weight = s.match(/font weight: (\w+)/i);
+  if (!ratio) return null;
+  return { ratio: Number(ratio[1]), fg: fg?.[1] ?? null, bg: bg?.[1] ?? null, required: req ? Number(req[1]) : 4.5, size: size ? Number(size[1]) : null, weight: weight?.[1] ?? null };
 }
 
 // ---------------------------------------------------------------- interaction
@@ -236,16 +249,16 @@ export function interactionChecks(checks, { probe, designHasHover, designHasFocu
     const ok = Math.min(targetRect.w, targetRect.h) >= cfg.interaction.minTargetSize;
     checks.add({ category: 'Interaction', subject: 'target', label: 'Touch target', status: ok ? 'pass' : 'fail', owner: 'Both',
       title: ok ? `Touch target is at least ${cfg.interaction.minTargetSize}px` : `Touch target is smaller than ${cfg.interaction.minTargetSize}px`,
-      detail: `${targetRect.w} × ${targetRect.h}px`, brand });
+      detail: `${targetRect.w} × ${targetRect.h}px`, brand, meta: { rule: 'target-size', source: 'code', impact: 'serious' }, extra: { w: targetRect.w, h: targetRect.h, min: cfg.interaction.minTargetSize } });
   }
   if (!focus) {
-    checks.add({ category: 'Interaction', subject: 'focus', label: 'Keyboard focus', status: 'fail', owner: 'Dev', title: "Can't be reached with the keyboard", detail: 'Tabbing through the story never lands on the component', brand });
+    checks.add({ category: 'Interaction', subject: 'focus', label: 'Keyboard focus', status: 'fail', owner: 'Dev', title: "Can't be reached with the keyboard", detail: 'Tabbing through the story never lands on the component', brand, meta: { rule: 'keyboard', source: 'code', impact: 'critical' } });
   } else {
     const ringKeys = ['outline-style', 'outline-width', 'outline-color', 'box-shadow', 'border-top-color', 'border-top-width', 'background-color', '::before outline', '::before border', '::before box-shadow', '::after outline', '::after border', '::after box-shadow'];
     const visible = (focus['outline-style'] !== 'none' && parseFloat(focus['outline-width']) > 0) || changed(rest, focus, ringKeys.filter((k) => !k.startsWith('outline')));
     checks.add({ category: 'Interaction', subject: 'focus', label: 'Focus indicator', status: visible ? 'pass' : 'fail', owner: designHasFocus ? 'Dev' : 'Both',
       title: visible ? 'Visible focus indicator' : 'No visible focus indicator',
-      detail: visible ? `Focus style: outline ${focus['outline-style']} ${focus['outline-width']}${focus['box-shadow'] !== 'none' ? `, shadow ${focus['box-shadow'].slice(0, 60)}` : ''}` : `Nothing changes when the component receives keyboard focus${designHasFocus ? ' (Figma has a Focus state)' : ''}`, brand });
+      detail: visible ? `Focus style: outline ${focus['outline-style']} ${focus['outline-width']}${focus['box-shadow'] !== 'none' ? `, shadow ${focus['box-shadow'].slice(0, 60)}` : ''}` : `Nothing changes when the component receives keyboard focus${designHasFocus ? ' (Figma has a Focus state)' : ''}`, brand, meta: { rule: 'focus-visible', source: 'code', impact: 'serious' } });
   }
   if (designHasHover) {
     const hoverChanged = hover && changed(rest, hover, ['background-color', 'color', 'border-top-color', 'box-shadow', 'text-decoration-line', 'opacity']);

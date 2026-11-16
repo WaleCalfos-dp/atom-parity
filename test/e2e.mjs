@@ -48,7 +48,9 @@ const primCol = { id: 'VariableCollectionId:1:2', name: 'Primitives', modes: [{ 
 const variables = []; const V = {};
 let vid = 1;
 const hexToRgb = (h) => ({ r: parseInt(h.slice(1, 3), 16) / 255, g: parseInt(h.slice(3, 5), 16) / 255, b: parseInt(h.slice(5, 7), 16) / 255, a: 1 });
+const DV = {};
 function brandVar(name, type, dp, mc = dp, visa = dp) {
+  DV[name] = dp;
   const id = `VariableID:1:${vid++}`;
   const conv = (x) => (type === 'COLOR' ? hexToRgb(x) : x);
   variables.push({ id, name, variableCollectionId: brandCol.id, resolvedType: type, valuesByMode: { m1: conv(dp), m2: conv(mc), m3: conv(visa) }, codeSyntax: {}, scopes: [], description: '', remote: true });
@@ -86,7 +88,7 @@ primVar('space-8', 8); primVar('space-16', 16); primVar('space-20', 20);
 const bv = (map) => Object.fromEntries(Object.entries(map).map(([k, name]) => [k, alias(V[name])]));
 const label = (chars, color, size = 16, weight = 'Medium', lh = 24) => text('Label', chars, {
   fontSize: size, fontName: { family: 'DejaVu Sans', style: weight }, lineHeight: { unit: 'PIXELS', value: lh },
-  fills: [solid('#000000', V[color])], boundVariables: bv({ fontFamily: 'typography/body/family' }), width: 70, height: lh,
+  fills: [solid(DV[color] ?? '#000000', V[color])], boundVariables: bv({ fontFamily: 'typography/body/family' }), width: 70, height: lh,
 });
 
 function buttonVariant(type, size, state) {
@@ -96,11 +98,11 @@ function buttonVariant(type, size, state) {
   let fg = { Primary: 'foreground/basic/inverse', Secondary: 'components/button/secondary-color', Destructive: 'foreground/basic/inverse' }[type];
   if (state === 'Hover' && type === 'Primary') fill = 'background/interactive/action-hover';
   if (state === 'Disabled') { fill = 'background/interactive/action-disabled'; fg = 'foreground/interactive/action-disabled'; }
-  const strokes = type === 'Secondary' && state !== 'Disabled' ? [solid('#000000', V['border/basic/strong'])] : [];
+  const strokes = type === 'Secondary' && state !== 'Disabled' ? [solid(DV['border/basic/strong'] ?? '#000000', V['border/basic/strong'])] : [];
   return component(`Type=${type}, Size=${size}, State=${state}`, { Type: type, Size: size, State: state }, {
     width: 120, height: h, layoutMode: 'HORIZONTAL', layoutSizingHorizontal: 'HUG', layoutSizingVertical: 'FIXED', primaryAxisAlignItems: 'CENTER', counterAxisAlignItems: 'CENTER',
     paddingLeft: size === 'Small' ? 16 : 20, paddingRight: size === 'Small' ? 16 : 20, paddingTop: 0, paddingBottom: 0, itemSpacing: 8,
-    cornerRadius: 999, fills: [solid('#000000', V[fill])], strokes, strokeWeight: strokes.length ? 2 : 0,
+    cornerRadius: 999, fills: [solid(DV[fill] ?? '#000000', V[fill])], strokes, strokeWeight: strokes.length ? 2 : 0,
     boundVariables: bv({ paddingLeft: padVar, paddingRight: padVar, itemSpacing: 'space-8', topLeftRadius: 'components/button/radius', topRightRadius: 'components/button/radius', bottomLeftRadius: 'components/button/radius', bottomRightRadius: 'components/button/radius' }),
   }, [label('Continue', fg, size === 'Small' ? 14 : 16)]);
 }
@@ -116,7 +118,7 @@ const tags = componentSet('Tags', { description: 'Status labels.' }, ['Success',
   return component(`Type=${t}`, { Type: t }, {
     width: 60, height: 24, layoutMode: 'HORIZONTAL', layoutSizingHorizontal: 'HUG', layoutSizingVertical: 'FIXED', primaryAxisAlignItems: 'CENTER', counterAxisAlignItems: 'CENTER',
     paddingLeft: 8, paddingRight: 8, paddingTop: 0, paddingBottom: 0, itemSpacing: 4, cornerRadius: 4,
-    fills: [bg ? solid('#000000', V[bg]) : solid('#E4EEF7')],
+    fills: [bg ? solid(DV[bg] ?? '#000000', V[bg]) : solid('#E4EEF7')],
   }, [fg ? label('Label', fg, 12, 'Medium', 16) : text('Label', 'Label', { fontSize: 12, fontName: { family: 'DejaVu Sans', style: 'Medium' }, lineHeight: { unit: 'PIXELS', value: 16 }, fills: [solid('#2E5E8C')], width: 40, height: 16 })]);
 }));
 
@@ -128,7 +130,7 @@ function accordionVariant(expanded, state) {
   kids.push(frame('Divider', { width: 343, height: 1, layoutSizingHorizontal: 'FILL', layoutSizingVertical: 'FIXED', fills: [solid('#E3E0DE')] }));
   return component(`Expanded=${expanded ? 'True' : 'False'}, State=${state}`, { Expanded: expanded ? 'True' : 'False', State: state }, {
     width: 343, height: expanded ? 90 : 57, layoutMode: 'VERTICAL', layoutSizingHorizontal: 'FILL', layoutSizingVertical: 'HUG', paddingLeft: 0, paddingRight: 0, paddingTop: 0, paddingBottom: 0, itemSpacing: 0,
-    fills: state === 'Hover' ? [solid('#FAF8F7')] : [], strokes: state === 'Focus' ? [solid('#000000', V['border/interactive/action-selected'])] : [], strokeWeight: state === 'Focus' ? 2 : 0,
+    fills: state === 'Hover' ? [solid('#FAF8F7')] : [], strokes: state === 'Focus' ? [solid(DV['border/interactive/action-selected'] ?? '#000000', V['border/interactive/action-selected'])] : [], strokeWeight: state === 'Focus' ? 2 : 0,
   }, kids);
 }
 const accordion = componentSet('Accordion', { description: '' }, ['False', 'True'].flatMap((e) => ['Default', 'Hover', 'Focus'].map((s) => accordionVariant(e === 'True', s))));
@@ -136,7 +138,7 @@ const accordion = componentSet('Accordion', { description: '' }, ['False', 'True
 const switchSet = componentSet('Switch', { description: 'On/off control.' }, ['Off', 'On'].flatMap((c) => ['Default', 'Disabled'].map((s) => component(`Checked=${c}, State=${s}`, { Checked: c, State: s }, {
   width: 44, height: 24, layoutMode: 'HORIZONTAL', layoutSizingHorizontal: 'FIXED', layoutSizingVertical: 'FIXED', primaryAxisAlignItems: c === 'On' ? 'MAX' : 'MIN', counterAxisAlignItems: 'CENTER',
   paddingLeft: 2, paddingRight: 2, paddingTop: 2, paddingBottom: 2, itemSpacing: 0, cornerRadius: 12, opacity: s === 'Disabled' ? 0.4 : 1,
-  fills: [c === 'On' ? solid('#000000', V['background/interactive/action']) : solid('#CECCCC')],
+  fills: [c === 'On' ? solid(DV['background/interactive/action'] ?? '#000000', V['background/interactive/action']) : solid('#CECCCC')],
 }, [frame('Knob', { width: 20, height: 20, cornerRadius: 10, fills: [solid('#FFFFFF')], layoutSizingHorizontal: 'FIXED', layoutSizingVertical: 'FIXED' })]))));
 
 const badge = componentSet('Badge', {}, [component('Count=1', { Count: '1' }, { width: 20, height: 20, layoutMode: 'HORIZONTAL', cornerRadius: 10, fills: [solid('#C2082A')] }, [label('1', 'foreground/basic/inverse', 12, 'Medium', 16)])]);

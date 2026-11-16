@@ -4,16 +4,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { MARK, TOKENS, FONTS } from './theme.js';
 
 const CLIENT = path.join(path.dirname(fileURLToPath(import.meta.url)), 'client');
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const hash = (f) => crypto.createHash('sha1').update(fs.readFileSync(path.join(CLIENT, f))).digest('hex').slice(0, 10);
 
-export const MARK = `<svg class="mark" viewBox="0 0 34 24" aria-hidden="true"><rect x="1" y="1" width="20" height="22" rx="7" fill="none" stroke="#0A2333" stroke-width="2"/><rect x="13" y="1" width="20" height="22" rx="7" fill="#0A2333"/><rect x="13" y="5" width="8" height="14" rx="3" fill="#6FB7D6"/></svg>`;
+export { MARK };
 
 export function writeClient(siteDir) {
-  for (const f of ['app.css', 'app.js']) fs.copyFileSync(path.join(CLIENT, f), path.join(siteDir, f));
+  fs.writeFileSync(path.join(siteDir, 'app.css'), clientCss());
+  fs.copyFileSync(path.join(CLIENT, 'app.js'), path.join(siteDir, 'app.js'));
 }
+const clientCss = () => TOKENS + fs.readFileSync(path.join(CLIENT, 'app.css'), 'utf8');
+const cssHash = () => crypto.createHash('sha1').update(clientCss()).digest('hex').slice(0, 10);
 
 export function appHtml({ repo }) {
   const repoName = repo ? repo.split('/')[1] : 'atom-parity';
@@ -24,54 +28,58 @@ export function appHtml({ repo }) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atom parity</title>
-<meta name="description" content="Atom components in Storybook compared with the Figma library.">
+<meta name="description" content="How closely the Atom Design System's Storybook matches the Figma library, across every brand.">
+<meta name="theme-color" content="#F7F8FA" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0E1117" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,${encodeURIComponent(MARK.replace('class="mark" ', 'xmlns="http://www.w3.org/2000/svg" '))}">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="app.css?v=${hash('app.css')}">
+${FONTS}
+<link rel="stylesheet" href="app.css?v=${cssHash()}">
 </head>
 <body>
+<a class="skip" href="#checksTitle">Skip to checks</a>
 <header class="topbar"><div class="in">
-  ${MARK}
-  <div class="brand"><b>Atom parity</b><span>Figma library compared with Storybook</span></div>
-  <div class="spacer"></div>
+  <a class="home" href="./">${MARK}<span class="brand"><b>Atom parity</b><span>Atom Design System</span></span></a>
+  <span class="spacer"></span>
   <button class="conn off" id="connBtn" type="button"><i aria-hidden="true"></i><span id="connLabel">Connect GitHub</span></button>
 </div></header>
 
-<main>
+<main class="wrap">
+  <section class="hero" id="overview" aria-labelledby="ovTitle">
+    <div class="hero-text">
+      <h1 id="ovTitle">Storybook compared with Figma</h1>
+      <p class="lede" id="ovLede">Loading the latest results.</p>
+      <ul class="facts" id="ovFacts"></ul>
+      <div class="hero-meter" id="ovMeter"></div>
+      <ul class="legend" id="ovLegend"></ul>
+    </div>
+    <figure class="hero-mark" id="ovMark" aria-hidden="true"></figure>
+  </section>
+
   <section class="compose" aria-labelledby="composeTitle">
-    <h1 id="composeTitle">Check a component page</h1>
-    <p class="lede">Paste the two links. The report is ready in about 5 minutes, and the check runs again every weekday night.</p>
-    <form id="form" novalidate>
-      <div class="line"><label for="figma">Compare</label><div class="field">
-        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 16l2.5-.5L15 7a1.8 1.8 0 0 0-2.5-2.5L4 13l-.5 2.5z"/><path d="M11.5 5.5l3 3"/></svg>
-        <input id="figma" type="url" inputmode="url" autocomplete="off" placeholder="Figma link to a component page or the whole library" aria-describedby="figmaHint">
-      </div></div>
-      <div class="line"><label for="sb">with</label><div class="field">
-        <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 6l-4 4 4 4M13 6l4 4-4 4"/></svg>
-        <input id="sb" type="url" inputmode="url" autocomplete="off" placeholder="Storybook link">
-      </div></div>
-      <div class="actions"><label for="name" class="sr">Name</label><span aria-hidden="true"></span>
-        <div class="field"><input id="name" type="text" autocomplete="off" placeholder="Name it, e.g. Buttons (optional)"></div>
-        <button class="btn" id="runBtn" type="submit">Run check</button>
-      </div>
-      <p class="form-err" id="formErr" role="alert"></p>
+    <div class="compose-head">
+      <h2 id="composeTitle">New check</h2>
+      <p>Paste a Figma page and the Storybook it should match. The report is ready in about 5 minutes, then reruns every weekday night.</p>
+    </div>
+    <form id="form" class="compose-form" novalidate>
+      <div class="fld d"><label for="figma"><i aria-hidden="true"></i>Figma page</label><input id="figma" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="figma.com/design/…" aria-describedby="figmaHint"></div>
+      <div class="fld c"><label for="sb"><i aria-hidden="true"></i>Storybook</label><input id="sb" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="https://…"></div>
+      <div class="fld"><label for="name">Name <span>optional</span></label><input id="name" type="text" autocomplete="off" placeholder="Buttons"></div>
+      <button class="btn" id="runBtn" type="submit">Run check</button>
     </form>
-    <p class="hint" id="figmaHint">In Figma, right-click a page in the left sidebar and choose <b>Copy link to page</b>.</p>
+    <p class="form-err" id="formErr" role="alert"></p>
+    <p class="hint" id="figmaHint">In Figma, right-click a page in the left sidebar and choose <b>Copy link to page</b>. A link to the whole file checks the full library.</p>
     <div class="runs" id="runs" aria-live="polite"></div>
   </section>
 
-  <section class="overview" id="overview" hidden aria-labelledby="ovTitle">
-    <div class="ov-head"><h2 id="ovTitle"></h2><p class="ov-meta" id="ovMeta"></p></div>
-    <div id="ovMeter"></div>
-    <ul class="legend" id="ovLegend"></ul>
+  <section class="checks" aria-labelledby="checksTitle">
+    <div class="sec-head">
+      <h2 id="checksTitle" tabindex="-1">Checks <span id="count"></span></h2>
+      <button class="btn ghost" id="runAll" type="button" hidden>Run all checks</button>
+    </div>
+    <div class="grid" id="grid"><div class="empty-state"><b>Loading checks</b></div></div>
   </section>
-
-  <div class="sec-head"><h3>Checks<span id="count"></span></h3><button class="btn small quiet" id="runAll" type="button" hidden>Run all checks</button></div>
-  <div class="grid" id="grid"><div class="empty-state"><b>Loading checks…</b></div></div>
 </main>
 
-<footer class="site"><span>Reports are public to anyone with the link.</span>${repo ? `<a href="https://github.com/${esc(repo)}">Source and settings</a>` : ''}</footer>
+<footer class="site"><div class="in"><span>Reports are public to anyone with the link. Accessibility results come from automated checks, which find about a third of issues.</span>${repo ? `<a href="https://github.com/${esc(repo)}">Source and settings</a>` : ''}</div></footer>
 
 <dialog id="connect" aria-labelledby="dlgTitle">
   <div class="dlg">
@@ -80,12 +88,12 @@ export function appHtml({ repo }) {
     <p>Checks run on GitHub, so this browser needs a key to start them. Reading reports doesn't need one.</p>
     <p class="err" id="keyErr" role="alert"></p>
     <ol>
-      <li><span>Open <a href="${tokenUrl}" target="_blank" rel="noopener">GitHub's new token page</a> and give the token a name, like "Atom parity".</span></li>
+      <li><span>Open <a href="${tokenUrl}" target="_blank" rel="noopener">GitHub's new token page</a> and name the token, for example "Atom parity".</span></li>
       <li><span>Under <b>Repository access</b>, choose <b>Only select repositories</b> and pick <b>${esc(repoName)}</b>.</span></li>
       <li><span>Under <b>Permissions</b>, add <b>Actions</b> and set it to <b>Read and write</b>. Generate the token and copy it.</span></li>
     </ol>
     <form id="keyForm" class="row">
-      <div class="field"><label for="key" class="sr">Key</label><input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste the key (github_pat_…)"></div>
+      <div class="fld"><label for="key" class="sr">Key</label><input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="Paste the key (github_pat_…)"></div>
       <button class="btn" id="saveKey" type="submit">Connect</button>
     </form>
     <p class="fine"><span>The key stays in this browser only.</span><button type="button" id="forget" hidden>Disconnect this browser</button></p>

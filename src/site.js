@@ -96,6 +96,7 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
         score: s.score, headline: s.headline, counts: s.components, previousScore: results.delta?.previousScore ?? null,
         newFails: results.delta?.newFails?.length ?? 0, fixed: results.delta?.fixed?.length ?? 0, ranAt: results.meta.generatedAt,
         tokenSource: results.meta.figma.tokenSource, themes: s.themes.slice(0, 3).map((t) => t.title),
+        a11y: results.a11y ? { ran: results.a11y.ran, total: results.a11y.total, counts: results.a11y.counts, components: results.a11y.components, scans: results.a11y.scans, designChecks: results.a11y.designChecks, top: results.a11y.issues.slice(0, 3).map((i) => ({ title: i.title, impact: i.impact, owner: i.owner })) } : null,
       });
     } catch (e) {
       log.warn(`${c.id}: ${e.message}`);

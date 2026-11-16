@@ -5,6 +5,7 @@ import { readStorybook, runRenders, readTokenValues, launchBrowser, saveFigmaRen
 import { matchComponents, matchBrands, matchProps, argsForVariant, pickStory } from './match.js';
 import { Checks, scoreOf, statusOf, tokenChecks, visualChecks, a11yChecks, interactionChecks, propertyChecks, componentNamingChecks, tokenTable, delta, CATEGORIES } from './compare.js';
 import { compareImages } from './visual.js';
+import { designA11yChecks, a11ySummary } from './a11y.js';
 import { manifestFromFigmaUrl } from './figma-rest.js';
 import { readJson, writeJson, ensureDir, slug, log, norm, figmaVarToCss, pool } from './util.js';
 
@@ -198,6 +199,11 @@ export async function run(cfg, opts = {}) {
         }
       }
       if (probe) interactionChecks(checks, { probe, designHasHover: plan.designHasHover, designHasFocus: plan.designHasFocus, cfg, brand: defaultBrand?.figma });
+      if (probe && !probe.disabled && !plan.designHasFocus) {
+        checks.add({ category: 'Accessibility', subject: 'design:focus-state', label: 'Focus state in Figma', status: 'warn', owner: 'Design', title: 'No Focus state in Figma',
+          detail: 'The component can take keyboard focus, but the Figma component set has no Focus variant', meta: { rule: 'design-focus', source: 'design', impact: 'moderate' } });
+      }
+      for (const v of pair.figma.variants) designA11yChecks(checks, { variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
       const list = checks.list();
       components.push({
         key: pair.figma.id, name: pair.figma.name, status: statusOf(list), score: scoreOf(list), match: pair.how,
@@ -209,6 +215,7 @@ export async function run(cfg, opts = {}) {
     }
     for (const m of comp.missingInCode) {
       const checks = new Checks();
+      for (const v of m.figma.variants) designA11yChecks(checks, { variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
       checks.add({ category: 'Naming', subject: 'name', label: 'Component', status: 'fail', owner: 'Both', title: 'Not found in Storybook',
         detail: m.suggestions.length ? `Possible matches: ${m.suggestions.map((s) => s.title).join(', ')}. Rename it, or add it to components.aliases.` : 'No similar component in Storybook' });
       components.push({ key: m.figma.id, name: m.figma.name, status: 'Missing in code', score: 0, match: null, suggestions: m.suggestions,
@@ -248,6 +255,7 @@ export async function run(cfg, opts = {}) {
       components: components.sort((a, b) => a.name.localeCompare(b.name)),
     };
     results.summary = summarise(results);
+    results.a11y = a11ySummary(results.components);
     if (cfg.baseline && fs.existsSync(cfg.baseline)) {
       try { results.delta = delta(results, readJson(cfg.baseline)); } catch (e) { log.warn(`Baseline unreadable: ${e.message}`); }
     }

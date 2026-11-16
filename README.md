@@ -23,7 +23,7 @@ Open a component to see each issue, who should fix it (design, dev, or both), an
 
 **First time in a browser: add an access key.** Running checks needs one. Reading reports doesn't.
 
-1. Click **Access key** on the page.
+1. Click **Connect GitHub** on the page.
 2. Follow the three steps it shows: create a GitHub fine-grained token for the atom-parity repository with **Actions: Read and write**.
 3. Paste the token. It stays in that browser only.
 
@@ -54,7 +54,7 @@ When the Figma token expires, the report shows "Figma refused the request". Make
 | Properties | Figma variant properties and values against Storybook props, defaults, and code-only props |
 | Tokens | The CSS variable code actually uses, traced through `var()`, against the Figma variable and its value per brand |
 | Visual | The Figma render against the Storybook screenshot, pixel by pixel, plus height and width |
-| Accessibility | axe-core WCAG 2.2 AA in every brand. Contrast and target size go to design; the rest go to dev. |
+| Accessibility | axe-core WCAG 2.2 AA on every rendered variant and brand, keyboard focus and touch-target probes, and a text contrast check on Figma's own token values for every brand (including brands with no Storybook theme). Each issue names the WCAG criterion, how severe it is, what it means for people, how to fix it, and whether it starts in Figma or in code. |
 | Interaction | Keyboard reachability, visible focus indicator, hover style, 24px touch target |
 | Rendering | Stories that crash or log errors |
 

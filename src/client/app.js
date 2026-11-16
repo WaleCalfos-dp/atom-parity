@@ -193,10 +193,10 @@
       let sub = '';
       if (r.state === 'done') sub = r.kind === 'remove' ? 'Removed' : 'Report ready';
       else if (r.state === 'failed') sub = '';
-      else sub = (r.state === 'waiting' && mins >= 3 ? 'Waiting for GitHub, which can be busy' : STEPS[r.step || 0]) + ' · ' + mins + ' min';
+      else sub = (r.state === 'waiting' && mins >= 3 ? 'Waiting for GitHub, which can be busy' : STEPS[r.step || 0]) + ', ' + (mins < 1 ? 'just started' : mins + ' min so far');
       const steps = r.state === 'failed' || r.kind === 'remove' ? '' : '<ol class="steps" aria-label="Progress">' + STEPS.map((s, i) => '<li class="' + (r.state === 'done' || i < r.step ? 'done' : i === r.step ? 'now' : '') + '">' + s + '</li>').join('') + '</ol>';
       return '<div class="run ' + r.state + '" data-req="' + esc(r.req) + '"><div class="who">' + title + '<span>' + esc(sub) + '</span></div><div class="right">' +
-        (entry ? '<a class="btn small" href="' + esc(entry.id) + '/">Open report</a>' : r.state === 'failed' && r.url ? '<a class="btn small quiet" href="' + esc(r.url) + '" target="_blank" rel="noopener">Details</a>' : '') +
+        (entry ? '<a class="btn small" href="' + esc(entry.id) + '/">Open report</a>' : r.state === 'failed' && r.url ? '<a class="btn small ghost" href="' + esc(r.url) + '" target="_blank" rel="noopener">Details on GitHub</a>' : '') +
         '<button class="x" data-dismiss="' + esc(r.req) + '" aria-label="Dismiss">' + ICON.x + '</button></div>' + steps +
         (r.state === 'failed' ? '<p class="msg">' + esc(r.msg || 'Something went wrong.') + '</p>' : '') + '</div>';
     }).join('');
@@ -220,24 +220,56 @@
       STATUS.filter((s) => c[s[0]]).map((s) => '<i class="s-' + s[0] + '" style="flex:' + c[s[0]] + '"></i>').join('') + '</div>';
   }
 
+  // Two registration plates: cyan is Figma, magenta is Storybook. The further apart, the more they differ.
+  function regMark(score, settle) {
+    const off = Math.max(0, Math.min(100, 100 - (score || 0))) * 0.16;
+    const plate = (cls, d) => '<g class="plate ' + cls + '" style="--d:' + d.toFixed(2) + 'px"><circle cx="80" cy="80" r="46"/><circle cx="80" cy="80" r="15"/><path d="M80 14v132M14 80h132"/></g>';
+    return '<svg class="reg' + (settle ? ' settle' : '') + '" viewBox="0 0 160 160" aria-hidden="true">' + plate('pd', -off) + plate('pc', off) + '</svg>';
+  }
+  const SEV = ['critical', 'serious', 'moderate', 'minor'];
+  const sevList = (counts, max) => SEV.filter((k) => counts && counts[k]).slice(0, max || 4).map((k) => '<span class="sev ' + k + '">' + counts[k] + ' ' + k + '</span>').join('');
+  const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
+  const SHIELD = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M10 2.5l6 2.3v4.6c0 3.9-2.6 6.9-6 8.1-3.4-1.2-6-4.2-6-8.1V4.8z"/><circle cx="10" cy="7.3" r="1.2" fill="currentColor" stroke="none"/><path d="M7 9.6l3 .7 3-.7M10 10.3v2.4M8.4 15l1.6-2.3 1.6 2.3"/></svg>';
+
+  let settled = false;
   function renderOverview() {
     const es = (status.entries || []).filter((e) => e.ok);
-    const box = $('overview');
-    if (!es.length) { box.hidden = true; return; }
-    box.hidden = false;
+    if (!es.length) {
+      $('ovTitle').textContent = 'Storybook compared with Figma';
+      $('ovLede').textContent = 'Paste a Figma page and its Storybook below to run the first check. Each one compares names, properties, tokens, looks and accessibility across every brand.';
+      $('ovFacts').innerHTML = ''; $('ovMeter').innerHTML = ''; $('ovLegend').innerHTML = '';
+      $('ovMark').innerHTML = regMark(0, false) + '<figcaption><i class="k-d"></i>Figma and <i class="k-c"></i>Storybook</figcaption>';
+      return;
+    }
     // Each component once, even if two checks cover it (latest result wins)
     const seen = new Map();
-    es.slice().sort((a, b) => new Date(a.ranAt) - new Date(b.ranAt)).forEach((e) => (e.components || []).forEach((c) => seen.set(c.name, c.status)));
+    es.slice().sort((a, b) => new Date(a.ranAt) - new Date(b.ranAt)).forEach((e) => (e.components || []).forEach((c) => seen.set(c.name, c)));
     const c = { aligned: 0, drifted: 0, broken: 0, notbuilt: 0, notfigma: 0 };
-    if (seen.size) seen.forEach((st) => { c[{ Aligned: 'aligned', Drifted: 'drifted', Broken: 'broken', 'Missing in code': 'notbuilt', 'Missing in design': 'notfigma' }[st]]++; });
-    else es.forEach((e) => { const k = countsOf(e.counts || {}); Object.keys(c).forEach((x) => { c[x] += k[x]; }); });
+    let sum = 0, n = 0;
+    if (seen.size) seen.forEach((x) => { c[{ Aligned: 'aligned', Drifted: 'drifted', Broken: 'broken', 'Missing in code': 'notbuilt', 'Missing in design': 'notfigma' }[x.status]]++; if (x.status !== 'Missing in design') { sum += x.score || 0; n++; } });
+    else es.forEach((e) => { const k = countsOf(e.counts || {}); Object.keys(c).forEach((x) => { c[x] += k[x]; }); sum += (e.score || 0) * ((e.counts && e.counts.figma) || 1); n += (e.counts && e.counts.figma) || 1; });
+    const score = n ? Math.round(sum / n) : 0;
     const figmaTotal = c.aligned + c.drifted + c.broken + c.notbuilt;
     const need = c.drifted + c.broken + c.notbuilt;
-    $('ovTitle').innerHTML = figmaTotal ? (need ? need + ' of ' + figmaTotal + ' components <em>need attention</em>' : 'All ' + figmaTotal + ' components match Figma') : 'No components checked yet';
+    $('ovTitle').innerHTML = 'Storybook is at <span class="num">' + score + '%</span> parity with Figma';
+    const built = c.aligned + c.drifted + c.broken;
+    $('ovLede').textContent = figmaTotal
+      ? (built ? built + ' of ' + figmaTotal + ' Figma components are built in Storybook' + (c.aligned ? ', and ' + c.aligned + ' match exactly.' : ', and none match exactly yet.') : 'None of the ' + figmaTotal + ' Figma components checked are in Storybook yet.') + ' Every check compares names, properties, tokens, looks and accessibility across each brand.'
+      : 'No components checked yet.';
+    // Accessibility across all checks
+    const a = { total: 0, counts: { critical: 0, serious: 0, moderate: 0, minor: 0 }, comps: 0, ran: false, worst: null };
+    es.forEach((e) => { if (!e.a11y) return; a.ran = a.ran || e.a11y.ran; a.total += e.a11y.total || 0; a.comps += e.a11y.components || 0; SEV.forEach((k) => { a.counts[k] += (e.a11y.counts && e.a11y.counts[k]) || 0; }); if (e.a11y.total && (!a.worst || (e.a11y.counts.critical || 0) > (a.worst.a11y.counts.critical || 0))) a.worst = e; });
     const last = es.map((e) => e.ranAt).filter(Boolean).sort().pop();
-    $('ovMeta').innerHTML = es.length + ' check' + (es.length === 1 ? '' : 's') + (last ? ' · last run ' + ago(last) : '') + '<br>Next automatic run ' + nextNightly();
+    const facts = [
+      '<li><b>' + (figmaTotal ? need + ' of ' + figmaTotal : '0') + '</b><span>components need attention</span></li>',
+      a.ran ? '<li><a href="' + (a.worst ? esc(a.worst.id) + '/#accessibility' : '#checksTitle') + '"><b>' + (a.total ? plural(a.total, 'accessibility issue') : 'No accessibility issues') + '</b><span>' + (a.total ? 'in ' + plural(a.comps, 'component') : 'found by automated checks') + '</span></a>' + (a.total ? '<div>' + sevList(a.counts, 1) + '</div>' : '') + '</li>' : '',
+      '<li><b>' + (last ? ago(last).replace(/^./, (x) => x.toUpperCase()) : 'Not yet') + '</b><span>last checked, next run ' + nextNightly() + '</span></li>',
+    ];
+    $('ovFacts').innerHTML = facts.join('');
     $('ovMeter').innerHTML = meter(c);
     $('ovLegend').innerHTML = STATUS.filter((s) => c[s[0]] || s[0] !== 'notfigma').map((s) => '<li><i class="s-' + s[0] + '"></i>' + s[1] + ' <b>' + c[s[0]] + '</b></li>').join('');
+    $('ovMark').innerHTML = regMark(score, !settled) + '<figcaption><i class="k-d"></i>Figma and <i class="k-c"></i>Storybook sit closer together as parity rises.</figcaption>';
+    settled = true;
   }
 
   function spark(h) {
@@ -247,42 +279,51 @@
     const ys = (v) => hh - pad - (v / 100) * (hh - 2 * pad);
     const d = pts.map((p, i) => (i ? 'L' : 'M') + xs(i).toFixed(1) + ' ' + ys(p.score).toFixed(1)).join(' ');
     const last = pts[pts.length - 1];
-    return '<svg class="spark" viewBox="0 0 ' + w + ' ' + hh + '" role="img" aria-label="Score trend over the last ' + pts.length + ' runs"><path d="' + d + '" fill="none" stroke="var(--ink-3)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="' + xs(pts.length - 1).toFixed(1) + '" cy="' + ys(last.score).toFixed(1) + '" r="2.5" fill="var(--ink)"/></svg>';
+    return '<svg class="spark" viewBox="0 0 ' + w + ' ' + hh + '" role="img" aria-label="Parity over the last ' + pts.length + ' runs, now ' + last.score + '%"><path d="' + d + '" fill="none" stroke="var(--ink-3)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="' + xs(pts.length - 1).toFixed(1) + '" cy="' + ys(last.score).toFixed(1) + '" r="2.75" fill="var(--ink)"/></svg>';
+  }
+
+  function a11yLine(e) {
+    const a = e.a11y;
+    if (!a || !a.ran) return '';
+    if (!a.total) return '<p class="a11y-line clear">' + SHIELD + '<span class="t">No accessibility issues found<small>' + (a.scans ? plural(a.scans, 'automated scan') : 'Figma contrast checked') + ' across every brand</small></span></p>';
+    const top = a.top && a.top[0];
+    return '<p class="a11y-line">' + SHIELD + '<span class="t"><a href="' + esc(e.id) + '/#accessibility">' + plural(a.total, 'accessibility issue') + '</a>' + (top ? '<small>Worst: ' + esc(top.title) + '</small>' : '') + '</span><span class="sevs">' + sevList(a.counts, 2) + '</span></p>';
   }
 
   const openMenus = new Set(); const confirming = new Set();
   function renderChecks() {
-    const es = status.entries || [];
+    const es = (status.entries || []).slice().sort((a, b) => (a.ok === true ? 0 : 1) - (b.ok === true ? 0 : 1) || (a.score == null ? 101 : a.score) - (b.score == null ? 101 : b.score));
     $('count').textContent = es.length ? es.length : '';
     $('runAll').hidden = es.length < 2;
     const running = new Map(runs.filter((r) => r.state === 'waiting' || r.state === 'running' || r.state === 'publishing').map((r) => [r.checkId, r]));
-    if (!es.length) { $('grid').innerHTML = '<div class="empty-state"><b>No checks yet</b>Paste a Figma link and a Storybook link above to run the first one.</div>'; return; }
+    if (!es.length) { $('grid').innerHTML = '<div class="empty-state"><b>No checks yet</b>Paste a Figma page and its Storybook above to run the first one.</div>'; return; }
     $('grid').innerHTML = es.map((e) => {
       const isRunning = running.has(e.id);
       const name = esc(e.name || e.id);
-      const menu = openMenus.has(e.id) ? '<div class="menu-list" role="menu">' + (e.figmaUrl ? '<a role="menuitem" href="' + esc(e.figmaUrl) + '" target="_blank" rel="noopener">Open in Figma</a>' : '') + (e.storybookUrl ? '<a role="menuitem" href="' + esc(e.storybookUrl) + '" target="_blank" rel="noopener">Open in Storybook</a>' : '') + (e.ok ? '<a role="menuitem" href="' + esc(e.id) + '/issues.csv">Download issues (Jira CSV)</a>' : '') + '<button role="menuitem" class="danger" data-act="remove">Remove check</button></div>' : '';
-      const foot = '<div class="foot"><span class="when">' + (e.ranAt ? 'Checked ' + ago(e.ranAt) : 'Not run yet') + '</span>' +
+      const menu = openMenus.has(e.id) ? '<div class="menu-list" role="menu">' + (e.figmaUrl ? '<a role="menuitem" href="' + esc(e.figmaUrl) + '" target="_blank" rel="noopener">Open in Figma</a>' : '') + (e.storybookUrl ? '<a role="menuitem" href="' + esc(e.storybookUrl) + '" target="_blank" rel="noopener">Open in Storybook</a>' : '') + (e.ok ? '<a role="menuitem" href="' + esc(e.id) + '/issues.csv">Download issues for Jira (CSV)</a>' : '') + '<button role="menuitem" class="danger" data-act="remove">Remove check</button></div>' : '';
+      const foot = '<div class="card-foot"><span class="when">' + (e.ranAt ? 'Checked ' + ago(e.ranAt) : 'Not run yet') + '</span>' +
         (e.ok ? '<a class="btn small" href="' + esc(e.id) + '/">Open report</a>' : '') +
         '<button class="iconbtn" data-act="run" aria-label="Run ' + name + ' again" title="Run again"' + (isRunning ? ' disabled' : '') + '>' + ICON.rerun + '</button>' +
         '<div class="menu"><button class="iconbtn" data-act="menu" aria-haspopup="menu" aria-expanded="' + openMenus.has(e.id) + '" aria-label="More for ' + name + '">' + ICON.more + '</button>' + menu + '</div></div>';
-      const confirm = confirming.has(e.id) ? '<div class="confirm"><p>Remove <b>' + name + '</b> and its report? Nightly runs stop too.</p><button class="btn small danger" data-act="remove-yes">Remove</button><button class="btn small quiet" data-act="remove-no">Keep</button></div>' : '';
+      const confirm = confirming.has(e.id) ? '<div class="confirm" role="alertdialog" aria-label="Remove ' + name + '"><p>Remove <b>' + name + '</b> and its report? Nightly runs stop too.</p><button class="btn small danger" data-act="remove-yes">Remove</button><button class="btn small ghost" data-act="remove-no">Keep</button></div>' : '';
       const tag = isRunning ? '<div class="running-tag">Running now</div>' : '';
       if (e.ok === false) {
-        return '<article class="card failed" data-id="' + esc(e.id) + '"><div class="top"><div><h4>' + name + '</h4>' + tag + '</div></div><p class="err">Couldn’t run: ' + esc(e.error) + '</p>' + confirm + foot + '</article>';
+        return '<article class="card failed" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="err">Couldn’t run: ' + esc(e.error) + '</p>' + confirm + foot + '</article>';
       }
       if (!e.ok) {
-        return '<article class="card" data-id="' + esc(e.id) + '"><div class="top"><div><h4>' + name + '</h4>' + tag + '</div></div><p class="pending">' + (isRunning ? 'The first report is on its way.' : 'Not run yet.') + '</p>' + confirm + foot + '</article>';
+        return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="pending">' + (isRunning ? 'The first report is on its way.' : 'Not run yet.') + '</p>' + confirm + foot + '</article>';
       }
       const k = countsOf(e.counts || {});
       const d = e.previousScore != null && e.score !== e.previousScore ? e.score - e.previousScore : null;
       const p = e.preview;
-      const pair = p ? '<div class="pair"><figure><figcaption>' + ICON.figma + 'Figma</figcaption><div class="img"><img loading="lazy" alt="' + esc(p.component) + ' in Figma" src="' + esc(p.figma) + '"></div></figure><figure><figcaption>' + ICON.code + 'Storybook</figcaption><div class="img"><img loading="lazy" alt="' + esc(p.component) + ' in Storybook" src="' + esc(p.code) + '"></div></figure></div>' +
-        '<p class="caption">Most different: <b>' + esc(p.component) + '</b> · ' + esc(String(p.variant || '').split(',').map((x) => x.split('=').pop().trim()).join(', ')) + (p.brand ? ' · ' + esc(p.brand) : '') + (p.mismatch != null ? ' · ' + Math.round(p.mismatch * 100) + '% of pixels differ' : '') + '</p>'
-        : '<div class="pair empty">' + (k.notbuilt && !k.aligned && !k.drifted && !k.broken ? 'None of these components are in Storybook yet.' : 'No side-by-side pictures for this check.') + '</div>';
-      const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i style="background:' + s[2] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
-      return '<article class="card" data-id="' + esc(e.id) + '"><div class="top"><div><h4><a href="' + esc(e.id) + '/">' + name + '</a></h4><div class="sub">' + esc(e.headline || '') + '</div>' + tag + '</div>' +
-        '<div class="score"><b>' + e.score + '%</b><small>parity</small>' + (d ? '<br><span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + '</span>' : '') + '</div></div>' +
-        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + confirm + foot + '</article>';
+      const variant = p ? String(p.variant || '').split(',').map((x) => x.split('=').pop().trim()).join(', ') : '';
+      const pair = p ? '<div class="proof"><figure class="d"><figcaption><i></i>Figma</figcaption><div class="img"><img loading="lazy" alt="' + esc(p.component) + ' in Figma" src="' + esc(p.figma) + '"></div></figure><figure class="c"><figcaption><i></i>Storybook</figcaption><div class="img"><img loading="lazy" alt="' + esc(p.component) + ' in Storybook" src="' + esc(p.code) + '"></div></figure></div>' +
+        '<p class="caption">Most different: <b>' + esc(p.component) + '</b>, ' + esc(variant) + (p.brand ? ' in ' + esc(p.brand) : '') + '.' + (p.mismatch != null ? ' ' + Math.round(p.mismatch * 100) + '% of pixels differ.' : '') + '</p>'
+        : '<div class="proof empty">' + (k.notbuilt && !k.aligned && !k.drifted && !k.broken ? 'None of these components are in Storybook yet, so there is nothing to compare side by side.' : 'No side-by-side pictures for this check.') + '</div>';
+      const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i class="s-' + s[0] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
+      return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3><p class="sub">' + esc(e.headline || '') + '</p>' + tag + '</div>' +
+        '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
+        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + confirm + foot + '</article>';
     }).join('');
   }
 

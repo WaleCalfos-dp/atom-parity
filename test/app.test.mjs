@@ -55,7 +55,7 @@ await page.waitForSelector('.card');
 await page.waitForTimeout(500);
 assert.equal(await page.locator('.run').count(), 0, 'stale failed run from the old page is not shown');
 assert.ok((await page.inputValue('#sb')).includes('/atom-ui-mobile/'), 'Storybook link prefilled from saved checks');
-assert.match(await page.textContent('#ovTitle'), /components/);
+assert.match(await page.textContent('#ovTitle'), /parity with Figma/);
 await page.screenshot({ path: '/tmp/app-1.png', fullPage: true });
 
 // Run without a key → connect dialog
@@ -105,6 +105,35 @@ await page.screenshot({ path: '/tmp/report-1.png', fullPage: false });
 await page.click('.comp summary');
 await page.waitForSelector('.body .grp');
 await page.screenshot({ path: '/tmp/report-2.png' });
+// Accessibility section: issues with WCAG references and a Figma-vs-code verdict
+assert.ok(await page.locator('#accessibility .issue').count() > 0, 'accessibility issues listed');
+assert.match(await page.textContent('#accessibility'), /WCAG 1\.4\.3/);
+await page.locator('#accessibility').scrollIntoViewIfNeeded();
+await page.screenshot({ path: '/tmp/report-a11y.png', fullPage: false });
+await page.goto(BASE + firstId + '/#accessibility');
+await page.waitForSelector('.issue');
+await page.screenshot({ path: '/tmp/report-a11y-full.png', fullPage: true });
+assert.equal(await page.locator('#tabs a[aria-current=true]').count(), 1, 'section nav marks the current section');
+// The tool's own pages must pass WCAG 2.2 AA
+const AXE = fs.readFileSync(path.join(here, '..', 'node_modules', 'axe-core', 'axe.min.js'), 'utf8');
+async function axeCheck(label) {
+  await page.addScriptTag({ content: AXE });
+  const v = await page.evaluate(async () => (await window.axe.run(document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa'] } })).violations.map((x) => ({ id: x.id, impact: x.impact, n: x.nodes.length, t: x.nodes.map((nd) => nd.target.join(' ') + ' :: ' + (nd.failureSummary.match(/contrast of [^)]+\)/) || [''])[0]).join('\n'), s: x.nodes[0].failureSummary.slice(0, 200) })));
+  if (v.length) console.log(label, JSON.stringify(v.map((x) => [x.id, x.n, x.t, x.s.slice(40, 190)]), null, 1));
+  assert.deepEqual(v, [], label + ' has accessibility violations: ' + JSON.stringify(v, null, 1));
+}
+await axeCheck('report');
+await page.emulateMedia({ colorScheme: 'dark' });
+await page.reload(); await page.waitForSelector('.issue');
+await page.screenshot({ path: '/tmp/report-dark.png', fullPage: false });
+await axeCheck('report (dark)');
+await page.goto(BASE); await page.waitForSelector('.card');
+await page.waitForTimeout(1600);
+await page.screenshot({ path: '/tmp/app-dark.png', fullPage: true });
+await axeCheck('home (dark)');
+await page.emulateMedia({ colorScheme: 'light' });
+await page.reload(); await page.waitForSelector('.card'); await page.waitForTimeout(1600);
+await axeCheck('home');
 
 await page.setViewportSize({ width: 390, height: 844 });
 await page.goto(BASE);
