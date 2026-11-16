@@ -178,7 +178,7 @@ $('runAll').onclick = () => dispatch({}, 'All checks');
 // Same id the server derives (src/util.js slug + src/site.js addCheck)
 function checkIdFor(name, figmaUrl) {
   let base = name;
-  if (!base) { const u = new URL(figmaUrl); const m = u.pathname.match(/\\/(?:design|file|proto)\\/([0-9A-Za-z]{10,})(?:\\/branch\\/([0-9A-Za-z]{10,}))?/); const node = u.searchParams.get('node-id'); base = (m ? (m[2] || m[1]) : 'check') + '-' + (node ? node.replace('-', ':') : 'file'); }
+  if (!base) { const u = new URL(figmaUrl); const m = u.pathname.match(/\\/(?:design|file|proto)\\/([0-9A-Za-z]{10,})(?:\\/branch\\/([0-9A-Za-z]{10,}))?/); const node = u.searchParams.get('node-id'); base = 'figma-' + (node ? node.replace('-', ':') : (m ? (m[2] || m[1]) : 'file')); }
   const k = base.replace(/([a-z0-9])([A-Z])/g, '$1-$2').replace(/[\\s_/.]+/g, '-').replace(/[^a-zA-Z0-9-]/g, '').replace(/-+/g, '-').replace(/^-|-$/g, '').toLowerCase();
   return k.slice(0, 80) || 'x';
 }

@@ -20,7 +20,7 @@ export function addCheck(file, { name, figmaUrl, storybookUrl }) {
   const { fileKey, nodeId } = parseFigmaUrl(figmaUrl);
   new URL(storybookUrl.trim());
   const data = readChecks(file);
-  const id = slug(name || `${fileKey}-${nodeId ?? 'file'}`);
+  const id = slug(name || `figma-${nodeId ?? fileKey}`);
   const existing = data.checks.find((c) => c.id === id || (c.figmaUrl === figmaUrl.trim() && c.storybookUrl === storybookUrl.trim()));
   const entry = { id: existing?.id ?? id, name: name || existing?.name || null, figmaUrl: figmaUrl.trim(), storybookUrl: storybookUrl.trim(), addedAt: existing?.addedAt ?? new Date().toISOString() };
   if (existing) Object.assign(existing, entry); else data.checks.push(entry);
