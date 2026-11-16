@@ -208,8 +208,8 @@ h3{font:700 18px/1.3 var(--display);letter-spacing:-.01em;margin:0}
 .ratio{font-variant-numeric:tabular-nums;font-weight:700}
 .ratio.bad{color:var(--bad)}.ratio.ok{color:var(--ok)}
 .ratio small{font-weight:400;color:var(--ink-3);margin-left:4px;display:inline}
-.vs{font-size:12.5px;color:var(--ink-3);margin-top:6px;display:flex;align-items:center;gap:6px}
-.vs i{width:8px;height:8px;border-radius:50%;background:var(--plate-d)}
+.vs{font-size:12.5px;color:var(--ink-3);margin-top:6px}
+.vs i{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--plate-d);margin-right:6px}
 code{font:12.5px/1.4 var(--mono);background:var(--line-2);padding:2px 6px;border-radius:5px;overflow-wrap:anywhere}
 .more-rows{margin:0;padding:10px 22px 16px;border-top:1px solid var(--line-2)}
 .linkbtn{appearance:none;border:0;background:none;padding:0;color:var(--d-ink);font:600 14px var(--text);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
