@@ -1,4 +1,5 @@
-// The report page for one check: minimal, readable top to bottom.
+// The report page for one check: readable top to bottom.
+import { MARK } from './app.js';
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
 export function html(r, data, opts = {}) {
@@ -14,12 +15,19 @@ export function html(r, data, opts = {}) {
 <style>${CSS}</style>
 </head>
 <body>
+<header class="topbar"><div class="in">
+  <a class="home" href="../" aria-label="Atom parity: all checks">${MARK}<span class="brand"><b>Atom parity</b><span>All checks</span></span></a>
+  <span class="spacer"></span><span class="when" id="when"></span>
+</div></header>
 <div class="wrap">
-  <nav class="top"><a href="../" class="back">← All checks</a><span id="when"></span></nav>
   <header class="head">
-    <h1>${esc(title)}</h1>
-    <div class="sum"><p class="score" id="score"></p><p class="headline" id="headline"></p></div>
-    <p class="delta" id="delta"></p>
+    <p class="crumb"><a href="../">Checks</a> / ${esc(title)}</p>
+    <div class="sum">
+      <div><h1>${esc(title)}</h1><p class="headline" id="headline"></p><p class="delta" id="delta"></p></div>
+      <div class="scorebox"><p class="score" id="score"></p><span>parity</span></div>
+    </div>
+    <div class="meter" id="meter"></div>
+    <ul class="legend" id="legend"></ul>
   </header>
 
   <section id="attention" aria-labelledby="att-h"><h2 id="att-h">Needs attention</h2><ul class="att" id="themes"></ul></section>
@@ -57,13 +65,29 @@ body{margin:0;background:var(--page);color:var(--ink);font:15px/1.55 ui-sans-ser
 .wrap{max-width:880px;margin:0 auto;padding:28px 24px 80px}
 a{color:var(--blue)}
 :focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:6px}
-.top{display:flex;justify-content:space-between;font-size:13.5px;color:var(--ink-3)}
-.back{color:var(--ink-2);text-decoration:none}.back:hover{text-decoration:underline}
-.head{margin:28px 0 8px}
-h1{font:600 26px/1.2 Poppins,sans-serif;margin:0 0 18px}
-.sum{display:flex;gap:22px;align-items:center}
-.score{font:600 48px/1 Poppins,sans-serif;margin:0;letter-spacing:-.02em}
-.headline{margin:0;font-size:16px;color:var(--ink-2);max-width:52ch}
+.topbar{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.topbar .in{max-width:920px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:14px}
+.home{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none}
+.mark{width:34px;height:24px;flex:none}
+.brand{display:flex;flex-direction:column;line-height:1.2}.brand b{font:600 15px Poppins,sans-serif}.brand span{font-size:12.5px;color:var(--ink-3)}
+.home:hover .brand span{text-decoration:underline}
+.spacer{flex:1}.when{font-size:13px;color:var(--ink-3)}
+.wrap{max-width:920px}
+.head{margin:26px 0 8px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px 26px;box-shadow:0 1px 2px rgba(10,35,51,.04),0 4px 16px rgba(10,35,51,.04)}
+.crumb{margin:0 0 10px;font-size:13px;color:var(--ink-3)}.crumb a{color:var(--ink-3)}
+h1{font:600 26px/1.2 Poppins,sans-serif;margin:0 0 8px;letter-spacing:-.01em}
+.sum{display:flex;gap:24px;align-items:flex-start;justify-content:space-between}
+.scorebox{text-align:right;flex:none}.scorebox span{font-size:12.5px;color:var(--ink-3)}
+.score{font:600 44px/1 Poppins,sans-serif;margin:0;letter-spacing:-.02em}
+.headline{margin:0;font-size:15.5px;color:var(--ink-2);max-width:56ch}
+.meter{display:flex;height:10px;border-radius:5px;overflow:hidden;background:#EFEDEB;gap:2px;margin-top:20px}
+.meter i{display:block;height:100%;min-width:4px}
+.s-aligned{background:var(--ok)}.s-drifted{background:#E39A2D}.s-broken{background:var(--bad)}.s-notbuilt{background:repeating-linear-gradient(135deg,#C9C6C2 0 4px,#DEDBD8 4px 8px)}.s-notfigma{background:#4E7397}
+.legend{display:flex;flex-wrap:wrap;gap:6px 20px;list-style:none;margin:12px 0 0;padding:0;font-size:13px;color:var(--ink-2)}
+.legend li{display:flex;align-items:center;gap:7px}.legend i{width:9px;height:9px;border-radius:3px}.legend b{font:600 13px Poppins,sans-serif}
+.thumb{width:64px;height:44px;border-radius:8px;background:var(--page);border:1px solid var(--line);display:grid;place-items:center;overflow:hidden;flex:none}
+.thumb img{max-width:56px;max-height:36px;object-fit:contain}
+.thumb.none{border-style:dashed}
 .delta{margin:12px 0 0;font-size:13.5px;color:var(--ink-3)}
 .delta b.up{color:var(--ok)}.delta b.down{color:var(--bad)}
 h2{font:600 15px/1.3 Poppins,sans-serif;margin:0}
@@ -84,7 +108,7 @@ input[type=search]{height:36px;width:220px;border:1px solid var(--line);border-r
 #list{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
 .comp{border-top:1px solid var(--line);scroll-margin-top:16px}
 .comp:first-child{border-top:0}
-.comp>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:14px;align-items:center;padding:14px 18px}
+.comp>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:16px;align-items:center;padding:12px 18px}
 .comp>summary::-webkit-details-marker{display:none}
 .comp>summary:hover{background:#FCFBFA}
 .nm{font-weight:600;min-width:0}
@@ -130,7 +154,7 @@ td.differs{color:var(--bad)}td.missing{color:var(--none)}
 .how{display:grid;grid-template-columns:110px 1fr;gap:6px 16px;font-size:14px;margin:0 0 12px}.how dt{font-weight:600}.how dd{margin:0;color:var(--ink-2)}
 .foot{margin-top:28px;color:var(--ink-3);font-size:12.5px;display:flex;gap:6px 16px;flex-wrap:wrap}
 .empty{padding:22px 18px;color:var(--ink-3);margin:0}
-@media (max-width:640px){.sum{flex-direction:column;align-items:flex-start;gap:10px}.bar{flex-direction:column;align-items:stretch}input[type=search]{width:100%}.comp>summary{grid-template-columns:1fr auto}.sc{display:none}}
+@media (max-width:640px){.sum{flex-direction:column-reverse;align-items:flex-start;gap:10px}.head{padding:20px}.bar{flex-direction:column;align-items:stretch}input[type=search]{width:100%}.comp>summary{grid-template-columns:auto 1fr auto}.sc{display:none}.scorebox{text-align:left}}
 @media print{.chips,.bar input,.top{display:none}.comp{break-inside:avoid}}
 `;
 
@@ -147,6 +171,11 @@ const owner = (o) => o === 'Both' ? 'Design + dev' : o === 'Dev' ? 'Dev' : 'Desi
 const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
 
 $('when').textContent = 'Checked ' + fmt(R.meta.generatedAt);
+const SC = [['aligned', 'Aligned', 'Aligned'], ['drifted', 'Drifted', 'Drifted'], ['broken', 'Broken', 'Broken'], ['notbuilt', 'Not built', 'Missing in code'], ['notfigma', 'Not in Figma', 'Missing in design']];
+const cnt = {}; SC.forEach((x) => { cnt[x[0]] = R.components.filter((c) => c.status === x[2]).length; });
+$('meter').innerHTML = SC.filter((x) => cnt[x[0]]).map((x) => '<i class="s-' + x[0] + '" style="flex:' + cnt[x[0]] + '" title="' + cnt[x[0]] + ' ' + x[1].toLowerCase() + '"></i>').join('');
+$('meter').setAttribute('role', 'img'); $('meter').setAttribute('aria-label', SC.filter((x) => cnt[x[0]]).map((x) => cnt[x[0]] + ' ' + x[1].toLowerCase()).join(', '));
+$('legend').innerHTML = SC.filter((x) => cnt[x[0]]).map((x) => '<li><i class="s-' + x[0] + '"></i>' + x[1] + ' <b>' + cnt[x[0]] + '</b></li>').join('');
 $('score').textContent = S.score + '%';
 $('headline').textContent = S.headline;
 if (R.delta) {
@@ -169,7 +198,9 @@ function render() {
   $('list').innerHTML = list.length ? list.map((c) => {
     const f = c.checks.filter((x) => x.status === 'fail').length, w = c.checks.filter((x) => x.status === 'warn').length;
     const counts = [f && f + ' failing', w && plural(w, 'warning')].filter(Boolean).join(', ');
-    return '<details class="comp" id="c-' + esc(c.key) + '" data-key="' + esc(c.key) + '"><summary><span class="nm">' + esc(c.name) + '<small>' + esc(c.code ? c.code.title : 'Only in Figma') + (counts ? ' · ' + counts : '') + '</small></span>' +
+    const g = (c.gallery || []).find((x) => x.figma) || (c.gallery || []).find((x) => x.code);
+    const thumb = '<span class="thumb' + (g ? '' : ' none') + '" aria-hidden="true">' + (g ? '<img loading="lazy" alt="" src="' + esc(g.figma || g.code) + '">' : '') + '</span>';
+    return '<details class="comp" id="c-' + esc(c.key) + '" data-key="' + esc(c.key) + '"><summary>' + thumb + '<span class="nm">' + esc(c.name) + '<small>' + esc(c.code ? c.code.title : 'Only in Figma') + (counts ? ' · ' + counts : '') + '</small></span>' +
       '<span class="st ' + esc(c.status) + '"><span class="dot ' + (DOT[c.status] || '') + '"></span>' + LABEL[c.status] + '</span>' +
       '<span class="sc">' + (c.score != null ? c.score + '%' : '') + '</span></summary><div class="body"></div></details>';
   }).join('') : '<p class="empty">Nothing matches.</p>';

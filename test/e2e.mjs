@@ -350,7 +350,7 @@ const checksFile = path.join(OUT, 'checks.json');
 addCheck(checksFile, { name: 'Atom library', figmaUrl: `https://www.figma.com/design/${KEY}/Component-Library?t=abc`, storybookUrl: STORYBOOK_URL });
 addCheck(checksFile, { name: 'Broken link', figmaUrl: `https://www.figma.com/design/${KEY}/Component-Library?node-id=999-1`, storybookUrl: STORYBOOK_URL });
 const cfgBase = path.join(OUT, 'site.config.json');
-fs.writeFileSync(cfgBase, JSON.stringify({ figma: { pageDelayMs: 0, imageDelayMs: 0 }, brands: { map: { Dragonpass: 'global-app', MasterCard: 'master-card' } }, components: { aliases: { Accordion: 'Collapse' } } }));
+fs.writeFileSync(cfgBase, JSON.stringify({ figma: { pageDelayMs: 0, imageDelayMs: 0 }, brands: { map: { Dragonpass: 'global-app', MasterCard: 'master-card' }, figmaBrands: ['Dragonpass', 'MasterCard'] }, components: { aliases: { Accordion: 'Collapse' } } }));
 const entries = await runAll({ configFile: cfgBase, checksFile, siteDir: path.join(OUT, 'site'), baselineDir: path.join(OUT, 'site-baseline'), siteUrl: null });
 assert.equal(entries.length, 2);
 assert.ok(entries[0].ok && entries[0].score > 0, 'first check ran');

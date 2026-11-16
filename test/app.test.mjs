@@ -5,11 +5,17 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 import { chromium } from 'playwright';
-import { appHtml } from '../src/app.js';
+import { writeSite } from '../src/site.js';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const SITE = path.join(here, 'out', 'site');
-fs.writeFileSync(path.join(SITE, 'index.html'), appHtml({ repo: 'WaleCalfos-dp/atom-parity' }));
+writeSite({ checksFile: path.join(here, 'out', 'checks.json'), siteDir: SITE, statusFrom: path.join(SITE, 'checks-status.json'), repo: 'WaleCalfos-dp/atom-parity' });
+const st = JSON.parse(fs.readFileSync(path.join(SITE, 'checks-status.json'), 'utf8'));
+// give the first check some history so the trend line draws
+st.entries[0].history = [{ at: '2026-11-10', score: 41 }, { at: '2026-11-12', score: 52 }, { at: '2026-11-14', score: 48 }, { at: st.entries[0].ranAt, score: st.entries[0].score }];
+st.entries[0].previousScore = 48;
+fs.writeFileSync(path.join(SITE, 'checks-status.json'), JSON.stringify(st));
+
 let statusOverride = null;
 const server = http.createServer((req, res) => {
   const p = decodeURIComponent(new URL(req.url, 'http://x').pathname);
@@ -17,91 +23,93 @@ const server = http.createServer((req, res) => {
   let f = path.join(SITE, p.replace(/^\/atom-parity/, ''));
   if (fs.existsSync(f) && fs.statSync(f).isDirectory()) f = path.join(f, 'index.html');
   if (!fs.existsSync(f)) { res.writeHead(404); return res.end(); }
-  res.writeHead(200, { 'content-type': f.endsWith('.json') ? 'application/json' : f.endsWith('.png') ? 'image/png' : 'text/html' });
+  const type = { '.json': 'application/json', '.png': 'image/png', '.css': 'text/css', '.js': 'text/javascript' }[path.extname(f)] ?? 'text/html';
+  res.writeHead(200, { 'content-type': type });
   fs.createReadStream(f).pipe(res);
 });
 await new Promise((r) => server.listen(0, r));
 const BASE = `http://localhost:${server.address().port}/atom-parity/`;
 
 const browser = await chromium.launch().catch(() => chromium.launch({ executablePath: '/usr/bin/google-chrome' }));
-const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
-const errors = []; page.on('pageerror', (e) => errors.push(e.message));
+const page = await browser.newPage({ viewport: { width: 1360, height: 1000 } });
+const errors = []; page.on('pageerror', (e) => errors.push(e.message)); page.on('console', (m) => { if (m.type() === 'error' && !/fonts\.g|ERR_|Failed to load resource/.test(m.text())) errors.push(m.text()); });
 
-// Simulated GitHub
+// A stale failed run saved by the old page must not appear
+await page.addInitScript(() => { if (!sessionStorage.getItem('seeded')) { localStorage.setItem('ap.runs', JSON.stringify([{ req: 'old12345', label: 'New check', startedAt: Date.now() - 60000, state: 'failed', step: "GitHub didn't start the check" }])); sessionStorage.setItem('seeded', '1'); } });
+
 const gh = { dispatched: [], req: null, polls: 0 };
 await page.route('https://api.github.com/**', async (route) => {
   const u = new URL(route.request().url());
   const authz = route.request().headers().authorization;
   const json = (body, status = 200) => route.fulfill({ status, contentType: 'application/json', body: JSON.stringify(body) });
   if (u.pathname.endsWith('/actions/workflows/atom-parity.yml') && route.request().method() === 'GET') return authz === 'Bearer good-key' ? json({ id: 1 }) : json({ message: 'Bad credentials' }, 401);
-  if (u.pathname.endsWith('/dispatches')) { const b = JSON.parse(route.request().postData()); gh.dispatched.push(b); gh.req = b.inputs.request_id; return route.fulfill({ status: 204 }); }
-  // While queued, GitHub shows only the workflow's name as the title (no request tag yet)
-  if (u.pathname.endsWith('/runs')) return json({ workflow_runs: gh.req ? [{ id: 77, status: gh.polls < 2 ? 'queued' : 'in_progress', created_at: new Date().toISOString(), display_title: gh.polls < 2 ? 'Atom parity' : `Buttons [${gh.req}]` }, { id: 70, status: 'completed', created_at: '2026-01-01T00:00:00Z', display_title: 'Nightly check' }] : [] });
+  if (u.pathname.endsWith('/dispatches')) { const b = JSON.parse(route.request().postData()); gh.dispatched.push(b); gh.req = b.inputs.request_id; gh.polls = 0; return route.fulfill({ status: 204 }); }
+  if (u.pathname.endsWith('/runs')) return json({ workflow_runs: gh.req ? [{ id: 77, status: gh.polls < 2 ? 'queued' : 'in_progress', created_at: new Date().toISOString(), display_title: gh.polls < 2 ? 'Atom parity' : `Buttons [${gh.req}]` }] : [] });
   if (u.pathname.endsWith('/runs/77')) { gh.polls++; return json({ id: 77, html_url: 'https://github.com/x/runs/77', status: gh.polls < 2 ? 'queued' : gh.polls > 3 ? 'completed' : 'in_progress', conclusion: gh.polls > 3 ? 'success' : null }); }
   if (u.pathname.endsWith('/runs/77/jobs')) return json({ jobs: [{ steps: [{ name: 'Install the browser', status: 'completed' }, { name: 'Compare Figma with Storybook', status: 'in_progress' }] }] });
   return json({}, 404);
 });
 
 await page.goto(BASE);
-await page.waitForSelector('.item');
-await page.screenshot({ path: '/tmp/app-1.png' });
-const names = await page.$$eval('.item .name', (els) => els.map((e) => e.textContent));
-assert.ok(names.length >= 1, 'checks listed');
+await page.waitForSelector('.card');
+await page.waitForTimeout(500);
+assert.equal(await page.locator('.run').count(), 0, 'stale failed run from the old page is not shown');
+assert.ok((await page.inputValue('#sb')).includes('/atom-ui-mobile/'), 'Storybook link prefilled from saved checks');
+assert.match(await page.textContent('#ovTitle'), /components/);
+await page.screenshot({ path: '/tmp/app-1.png', fullPage: true });
 
-// Running without a key opens the key panel
+// Run without a key → connect dialog
 await page.fill('#figma', 'https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167');
-await page.fill('#sb', 'https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/');
 await page.fill('#name', 'Buttons');
 await page.click('#runBtn');
-assert.equal(await page.isVisible('#keyPanel'), true, 'asks for a key first');
-
-// Bad key, then good key
+await page.waitForSelector('dialog[open]');
+await page.screenshot({ path: '/tmp/app-dialog.png' });
 await page.fill('#key', 'nope'); await page.click('#saveKey');
-await page.waitForFunction(() => document.getElementById('keyErr').textContent.length > 0);
-assert.match(await page.textContent('#keyErr'), /doesn't recognise/);
+await page.waitForFunction(() => /recognise/.test(document.getElementById('keyErr').textContent));
 await page.fill('#key', 'good-key'); await page.click('#saveKey');
-await page.waitForFunction(() => document.getElementById('keyPanel').hidden);
-assert.match(await page.textContent('#keyLabel'), /saved/);
+// Connecting continues the run the user asked for
+await page.waitForFunction(() => !document.querySelector('dialog[open]'));
+await page.waitForSelector('.run');
+assert.match(await page.textContent('#connLabel'), /Connected/);
+assert.equal(gh.dispatched.at(-1).inputs.name, 'Buttons');
+await page.waitForFunction(() => /Queued/.test(document.getElementById('runs').textContent), null, { timeout: 15000 });
+await page.waitForFunction(() => document.querySelector('.steps li.now') && /Comparing/.test(document.querySelector('.steps li.now').textContent), null, { timeout: 30000 });
+await page.screenshot({ path: '/tmp/app-2.png' });
+statusOverride = { ...st, generatedAt: new Date(Date.now() + 60000).toISOString() };
+await page.waitForFunction(() => /Report ready/.test(document.getElementById('runs').textContent), null, { timeout: 30000 });
+
+// Dismiss works
+await page.click('.run [data-dismiss]');
+assert.equal(await page.locator('.run').count(), 0, 'dismissed');
 
 // Validation
 await page.fill('#figma', 'https://example.com/x'); await page.click('#runBtn');
 assert.match(await page.textContent('#formErr'), /Figma design link/);
-await page.fill('#figma', 'https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167');
+await page.fill('#figma', '');
 
-// Run → progress → done
-await page.click('#runBtn');
-await page.waitForSelector('.run');
-assert.equal(gh.dispatched.at(-1).inputs.figma_url.includes('figma.com'), true);
-assert.equal(gh.dispatched.at(-1).inputs.name, 'Buttons');
-await page.waitForFunction(() => /Waiting for GitHub to start it/.test(document.getElementById('runs').textContent), null, { timeout: 20000 });
-await page.waitForFunction(() => /Comparing/.test(document.getElementById('runs').textContent), null, { timeout: 30000 });
-await page.screenshot({ path: '/tmp/app-2.png' });
-// The site publishes: status file now newer than the run start
-const st = JSON.parse(fs.readFileSync(path.join(SITE, 'checks-status.json'), 'utf8'));
-statusOverride = { ...st, generatedAt: new Date(Date.now() + 60000).toISOString() };
-await page.waitForFunction(() => /Report ready/.test(document.getElementById('runs').textContent), null, { timeout: 30000 });
-assert.equal(await page.inputValue('#figma'), '', 'form cleared after starting');
-
-// Remove asks for confirmation inline, then dispatches remove_id
-await page.click('.item [data-act="remove"]');
+// Menu → remove → confirm
+await page.click('.card [data-act="menu"]');
+await page.waitForSelector('.menu-list');
+await page.screenshot({ path: '/tmp/app-menu.png' });
+await page.click('.menu-list [data-act="remove"]');
 await page.waitForSelector('.confirm');
-await page.screenshot({ path: '/tmp/app-3.png' });
 await page.click('.confirm [data-act="remove-yes"]');
 await page.waitForFunction(() => /Removing/.test(document.getElementById('runs').textContent));
 assert.ok(gh.dispatched.at(-1).inputs.remove_id, 'remove dispatched');
 
-// Report page
+// Report
 const firstId = st.entries.find((e) => e.ok).id;
 await page.goto(BASE + firstId + '/');
 await page.waitForSelector('.comp');
-await page.screenshot({ path: '/tmp/report-1.png' });
+await page.screenshot({ path: '/tmp/report-1.png', fullPage: false });
 await page.click('.comp summary');
 await page.waitForSelector('.body .grp');
-await page.screenshot({ path: '/tmp/report-2.png', fullPage: false });
+await page.screenshot({ path: '/tmp/report-2.png' });
+
 await page.setViewportSize({ width: 390, height: 844 });
 await page.goto(BASE);
-await page.waitForSelector('.item');
-await page.screenshot({ path: '/tmp/app-mobile.png' });
+await page.waitForSelector('.card');
+await page.screenshot({ path: '/tmp/app-mobile.png', fullPage: true });
 
 assert.deepEqual(errors, [], 'no page errors');
 await browser.close(); server.close();

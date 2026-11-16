@@ -6,7 +6,7 @@ import { run } from './run.js';
 import { writeReport } from './report.js';
 import { parseFigmaUrl } from './figma-rest.js';
 import { readJson, writeJson, slug, log } from './util.js';
-import { appHtml } from './app.js';
+import { appHtml, writeClient } from './app.js';
 
 export function readChecks(file) {
   if (!fs.existsSync(file)) return { checks: [] };
@@ -58,6 +58,7 @@ export function writeSite({ checksFile, siteDir, entries = [], statusFrom, repo 
   fs.mkdirSync(siteDir, { recursive: true });
   writeJson(path.join(siteDir, 'checks-status.json'), { generatedAt: new Date().toISOString(), entries: merged });
   fs.writeFileSync(path.join(siteDir, 'index.html'), appHtml({ repo: repo ?? process.env.GITHUB_REPOSITORY ?? null }));
+  writeClient(siteDir);
   fs.writeFileSync(path.join(siteDir, '.nojekyll'), '');
   return merged;
 }
@@ -67,6 +68,8 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
   const list = only ? checks.filter((c) => only.includes(c.id)) : checks;
   if (!list.length) throw new Error(`No saved checks to run in ${checksFile}.`);
   fs.mkdirSync(siteDir, { recursive: true });
+  let previous = [];
+  if (statusFrom && fs.existsSync(statusFrom)) { try { previous = readJson(statusFrom).entries ?? []; } catch { previous = []; } }
   const entries = [];
   for (const c of list) {
     log.step(`Check: ${c.name ?? c.id}`);
@@ -80,8 +83,16 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
       const results = await run(cfg, {});
       writeReport(results, outDir, { reportUrl: siteUrl ? `${siteUrl}/${c.id}/` : null, title: c.name });
       const s = results.summary;
+      const prev = previous.find((p) => p.id === c.id);
+      const history = [...(prev?.history ?? (prev?.score != null ? [{ at: prev.ranAt, score: prev.score }] : [])), { at: results.meta.generatedAt, score: s.score }].slice(-30);
+      const rank = { Broken: 0, Drifted: 1, Aligned: 2 };
+      const shown = results.components.filter((x) => x.gallery?.some((g) => g.figma && g.code)).sort((a, b) => (rank[a.status] ?? 3) - (rank[b.status] ?? 3));
+      const g = shown[0]?.gallery.find((x) => x.figma && x.code);
       Object.assign(entry, {
-        ok: true, name: c.name ?? [results.meta.figma.file?.name, results.components.find((x) => x.figma)?.figma?.page].filter(Boolean).join(': '),
+        ok: true, name: c.name ?? results.components.find((x) => x.figma)?.figma?.page ?? results.meta.figma.file?.name,
+        history,
+        preview: g ? { component: shown[0].name, status: shown[0].status, variant: g.variant, brand: g.brand, mismatch: g.mismatch, figma: `${c.id}/${g.figma}`, code: `${c.id}/${g.code}` } : null,
+        components: results.components.map((x) => ({ name: x.name, status: x.status, score: x.score })),
         score: s.score, headline: s.headline, counts: s.components, previousScore: results.delta?.previousScore ?? null,
         newFails: results.delta?.newFails?.length ?? 0, fixed: results.delta?.fixed?.length ?? 0, ranAt: results.meta.generatedAt,
         tokenSource: results.meta.figma.tokenSource, themes: s.themes.slice(0, 3).map((t) => t.title),

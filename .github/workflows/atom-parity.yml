@@ -108,7 +108,7 @@ jobs:
             for id in ${IDS//,/ }; do rm -rf "site/$id"; cp -R "site-new/$id" "site/$id"; done
             if [ -n "$IDS" ]; then
               node src/cli.js merge-status site/checks-status.json site-new/checks-status.json site/checks-status.json --only "$IDS"
-              cp site-new/index.html site/index.html
+              cp site-new/index.html site-new/app.css site-new/app.js site/
             else
               node src/cli.js site --site site --status-from site/checks-status.json
             fi
