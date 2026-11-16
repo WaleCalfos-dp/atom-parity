@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atom parity</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0A2333;--ink-2:#3B4A55;--ink-3:#6B7780;--line:#E6E3E1;--soft:#F4F2F1;--page:#FAF8F7;--blue:#006B99;--ok:#1B7A4E;--warn:#A35F00;--bad:#C2082A}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font:15px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:780px;margin:0 auto;padding:40px 24px 80px}
+a{color:var(--blue)}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px;border-radius:6px}
+header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:28px}
+h1{font:600 22px/1.2 Poppins,sans-serif;margin:0}
+.sub{margin:4px 0 0;color:var(--ink-3);font-size:14px}
+.ghost{all:unset;cursor:pointer;color:var(--ink-2);font-size:13.5px;padding:7px 10px;border-radius:8px;display:inline-flex;gap:6px;align-items:center}
+.ghost:hover{background:var(--soft)}
+.ghost svg{width:16px;height:16px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px}
+.field{display:grid;gap:6px;margin-bottom:12px}
+.field label{font-size:13px;color:var(--ink-2);font-weight:500}
+input[type=url],input[type=text],input[type=password]{width:100%;height:42px;border:1px solid var(--line);border-radius:10px;padding:0 12px;font:inherit;color:var(--ink);background:#fff}
+input:focus{outline:none;border-color:var(--ink)}
+input[aria-invalid=true]{border-color:var(--bad)}
+.row{display:flex;gap:10px;align-items:flex-end}
+.row .field{flex:1;margin:0}
+.btn{all:unset;cursor:pointer;height:42px;padding:0 18px;border-radius:10px;background:var(--ink);color:#fff;font-weight:600;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap}
+.btn:hover{background:#163A50}
+.btn[disabled]{opacity:.45;cursor:default}
+.err{color:var(--bad);font-size:13px;margin:8px 0 0;min-height:0}
+.hint{color:var(--ink-3);font-size:13px;margin:10px 0 0}
+#keyPanel{margin-bottom:20px}
+#keyPanel ol{margin:8px 0 14px;padding-left:20px;color:var(--ink-2);font-size:14px}
+#keyPanel li{margin:4px 0}
+.runs{display:grid;gap:8px;margin:16px 0 0}
+.run{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px}
+.run .spin{width:16px;height:16px;border-radius:50%;border:2px solid var(--line);border-top-color:var(--ink);flex:none}
+@media (prefers-reduced-motion:no-preference){.run .spin{animation:spin .9s linear infinite}}
+@keyframes spin{to{transform:rotate(360deg)}}
+.run .ok{width:16px;height:16px;flex:none;color:var(--ok)}
+.run .bad{width:16px;height:16px;flex:none;color:var(--bad)}
+.run .txt{flex:1;min-width:0}
+.run .txt b{font-weight:600}
+.run .txt span{color:var(--ink-3)}
+.run a{font-size:13.5px;white-space:nowrap}
+h2{font:600 15px/1.3 Poppins,sans-serif;margin:36px 0 10px;display:flex;justify-content:space-between;align-items:center}
+.list{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.item{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding:16px 18px;border-top:1px solid var(--line)}
+.item:first-child{border-top:0}
+.item .name{font-weight:600;font-size:15px;display:flex;gap:10px;align-items:baseline;min-width:0}
+.item .name a{color:inherit;text-decoration:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.item .name a:hover{text-decoration:underline}
+.score{font:600 15px Poppins,sans-serif}
+.meta{grid-column:1;color:var(--ink-3);font-size:13px;display:flex;gap:6px 14px;flex-wrap:wrap;align-items:center}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:1px}
+.d-b{background:var(--bad)}.d-d{background:#E7A43C}.d-a{background:var(--ok)}.d-n{background:#B9B7B5}
+.acts{grid-row:1/3;grid-column:2;display:flex;align-items:center;gap:2px}
+.acts .ghost{padding:7px}
+.item .error{grid-column:1;color:var(--bad);font-size:13px}
+.confirm{grid-column:1/3;display:flex;gap:10px;align-items:center;font-size:13.5px;background:var(--soft);border-radius:10px;padding:8px 12px;margin-top:8px}
+.confirm .btn{height:32px;padding:0 12px;font-size:13px;background:var(--bad)}
+.empty{padding:28px 18px;color:var(--ink-3);text-align:center}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+footer{margin-top:28px;color:var(--ink-3);font-size:12.5px}
+@media (max-width:600px){.row{flex-direction:column;align-items:stretch}.item{grid-template-columns:1fr}.acts{grid-row:auto;grid-column:1;justify-content:flex-start;margin-top:6px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div><h1>Atom parity</h1><p class="sub">Figma compared with Storybook. Every check also runs each weekday night.</p></div>
+  <button class="ghost" id="keyBtn" aria-expanded="false" aria-controls="keyPanel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l3 3M15 8l2 2"/></svg><span id="keyLabel">Access key</span></button>
+</header>
+
+<section class="panel" id="keyPanel" hidden aria-labelledby="keyTitle">
+  <h2 id="keyTitle" style="margin:0 0 4px">Access key</h2>
+  <p class="hint" style="margin:0">Needed once in each browser to run checks. Reading reports doesn't need it.</p>
+  <ol>
+    <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub › New fine-grained token</a>.</li>
+    <li>Repository access: <b>Only select repositories</b> → <b>atom-parity</b>.</li>
+    <li>Permissions → Repository → <b>Actions: Read and write</b>. Generate, then copy it.</li>
+  </ol>
+  <div class="row">
+    <div class="field"><label for="key">Paste the key</label><input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…"></div>
+    <button class="btn" id="saveKey">Save</button>
+  </div>
+  <p class="err" id="keyErr" role="alert"></p>
+  <p class="hint">It's kept in this browser only. <button class="ghost" id="forgetKey" style="padding:0;color:var(--blue)">Forget key</button></p>
+</section>
+
+<section class="panel" aria-labelledby="newTitle">
+  <h2 id="newTitle" class="sr">New check</h2>
+  <form id="form" novalidate>
+    <div class="field"><label for="figma">Figma link</label><input id="figma" type="url" placeholder="https://www.figma.com/design/…" required></div>
+    <div class="field"><label for="sb">Storybook link</label><input id="sb" type="url" placeholder="https://…" required></div>
+    <div class="row">
+      <div class="field"><label for="name">Name <span style="color:var(--ink-3);font-weight:400">(optional)</span></label><input id="name" type="text" placeholder="e.g. Buttons"></div>
+      <button class="btn" id="runBtn" type="submit">Run check</button>
+    </div>
+    <p class="err" id="formErr" role="alert"></p>
+  </form>
+  <p class="hint">Link to a Figma component page (right-click the page › Copy link to page) or to the whole library. Checks take about 5–10 minutes.</p>
+</section>
+
+<div class="runs" id="runs" aria-live="polite"></div>
+
+<h2><span>Checks</span><button class="ghost" id="runAll" hidden>Run all</button></h2>
+<div class="list" id="list"><p class="empty">Loading…</p></div>
+
+<footer>Reports are public to anyone with the link. <a href="https://github.com/WaleCalfos-dp/atom-parity" target="_blank" rel="noopener">Source</a></footer>
+</div>
+
+<script>
+const REPO = "WaleCalfos-dp/atom-parity";
+const WORKFLOW = 'atom-parity.yml';
+const API = 'https://api.github.com/repos/' + REPO;
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k, d) { try { const v = localStorage.getItem('ap.' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }, set(k, v) { try { localStorage.setItem('ap.' + k, JSON.stringify(v)); } catch (e) {} } };
+let key = store.get('key', null);
+let status = { entries: [] };
+let runs = store.get('runs', []); // runs started from this browser: {req, label, startedAt, runId, state, step, checkId}
+
+// ---------------------------------------------------------------- key
+function renderKey() { $('keyLabel').textContent = key ? 'Access key saved' : 'Access key'; }
+function toggleKey(open) { const p = $('keyPanel'); p.hidden = open === undefined ? !p.hidden : !open; $('keyBtn').setAttribute('aria-expanded', String(!p.hidden)); if (!p.hidden) $('key').focus(); }
+$('keyBtn').onclick = () => toggleKey();
+$('saveKey').onclick = async () => {
+  const v = $('key').value.trim();
+  $('keyErr').textContent = '';
+  if (!v) { $('keyErr').textContent = 'Paste the key first.'; return; }
+  const r = await fetch(API + '/actions/workflows/' + WORKFLOW, { headers: auth(v) }).catch(() => null);
+  if (!r || !r.ok) { $('keyErr').textContent = r && r.status === 401 ? "GitHub doesn't recognise that key. Check you copied all of it." : "That key can't open this repository. Check its repository access."; return; }
+  key = v; store.set('key', v); $('key').value = ''; renderKey(); toggleKey(false);
+};
+$('forgetKey').onclick = () => { key = null; store.set('key', null); renderKey(); };
+const auth = (k) => (k ? { Authorization: 'Bearer ' + k, Accept: 'application/vnd.github+json' } : { Accept: 'application/vnd.github+json' });
+
+// ---------------------------------------------------------------- start a run
+async function dispatch(inputs, label, checkId) {
+  if (!key) { toggleKey(true); $('keyErr').textContent = 'Add an access key to run checks.'; return false; }
+  const req = Math.random().toString(36).slice(2, 10);
+  const r = await fetch(API + '/actions/workflows/' + WORKFLOW + '/dispatches', { method: 'POST', headers: { ...auth(key), 'Content-Type': 'application/json' }, body: JSON.stringify({ ref: 'main', inputs: { ...inputs, request_id: req } }) }).catch(() => null);
+  if (!r || r.status !== 204) {
+    const msg = !r ? "Couldn't reach GitHub. Check your connection." : r.status === 401 ? 'Your access key has expired or was revoked. Add a new one.' : r.status === 403 || r.status === 404 ? "Your access key can't run checks. It needs Actions: Read and write on this repository." : 'GitHub said ' + r.status + '. Try again in a minute.';
+    if (r && (r.status === 401 || r.status === 403 || r.status === 404)) toggleKey(true);
+    return msg;
+  }
+  runs.unshift({ req, label, checkId, startedAt: Date.now(), state: 'queued', step: 'Waiting for GitHub' });
+  store.set('runs', runs.slice(0, 10)); renderRuns(); poll();
+  return true;
+}
+
+$('form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const f = $('figma'), s = $('sb'), n = $('name');
+  [f, s].forEach((x) => x.removeAttribute('aria-invalid'));
+  $('formErr').textContent = '';
+  let figmaOk = false; try { const u = new URL(f.value.trim()); figmaOk = /figma\.com$/.test(u.hostname) && /\/(design|file)\//.test(u.pathname); } catch (err) {}
+  let sbOk = false; try { const u = new URL(s.value.trim()); sbOk = /^https?:$/.test(u.protocol); } catch (err) {}
+  if (!figmaOk) { f.setAttribute('aria-invalid', 'true'); $('formErr').textContent = 'Paste a Figma design link (figma.com/design/…).'; f.focus(); return; }
+  if (!sbOk) { s.setAttribute('aria-invalid', 'true'); $('formErr').textContent = 'Paste the Storybook link (starting with https://).'; s.focus(); return; }
+  $('runBtn').disabled = true;
+  const res = await dispatch({ name: n.value.trim(), figma_url: f.value.trim(), storybook_url: s.value.trim() }, n.value.trim() || 'New check', checkIdFor(n.value.trim(), f.value.trim()));
+  $('runBtn').disabled = false;
+  if (res === true) { f.value = ''; s.value = ''; n.value = ''; }
+  else if (res) $('formErr').textContent = res;
+});
+$('runAll').onclick = () => dispatch({}, 'All checks');
+
+// Same id the server derives (src/util.js slug + src/site.js addCheck)
+function checkIdFor(name, figmaUrl) {
+  let base = name;
+  if (!base) { const u = new URL(figmaUrl); const m = u.pathname.match(/\/(?:design|file|proto)\/([0-9A-Za-z]{10,})(?:\/branch\/([0-9A-Za-z]{10,}))?/); const node = u.searchParams.get('node-id'); base = 'figma-' + (node ? node.replace('-', ':') : (m ? (m[2] || m[1]) : 'file')); }
+  const k = base.replace(/([a-z0-9])([A-Z])/g, '$1-$2').replace(/[\s_/.]+/g, '-').replace(/[^a-zA-Z0-9-]/g, '').replace(/-+/g, '-').replace(/^-|-$/g, '').toLowerCase();
+  return k.slice(0, 80) || 'x';
+}
+
+// ---------------------------------------------------------------- follow runs
+const STEP = [[/checkout|set up|setup/i, 'Starting'], [/npm|playwright|install/i, 'Preparing'], [/save|remove/i, 'Saving'], [/previous/i, 'Preparing'], [/compare/i, 'Comparing Figma with Storybook'], [/publish/i, 'Publishing the report']];
+const stepLabel = (name) => (STEP.find(([re]) => re.test(name)) || [null, 'Working'])[1];
+let pollTimer = null;
+async function poll() {
+  clearTimeout(pollTimer);
+  const active = runs.filter((r) => r.state !== 'done' && r.state !== 'failed');
+  if (!active.length) return;
+  try {
+    if (active.some((r) => !r.runId)) {
+      const list = await fetch(API + '/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=15', { headers: auth(key) }).then((r) => r.json());
+      for (const r of active) if (!r.runId) { const hit = (list.workflow_runs || []).find((w) => (w.display_title || '').includes('[' + r.req + ']')); if (hit) r.runId = hit.id; }
+    }
+    for (const r of active) {
+      if (!r.runId) { if (Date.now() - r.startedAt > 120000) { r.state = 'failed'; r.step = "GitHub didn't start the check"; } continue; }
+      if (r.state === 'publishing') { await waitForSite(r); continue; }
+      const run = await fetch(API + '/actions/runs/' + r.runId, { headers: auth(key) }).then((x) => x.json());
+      r.url = run.html_url;
+      if (run.status === 'completed') {
+        if (run.conclusion === 'success' || run.conclusion === 'failure') { r.state = 'publishing'; r.step = 'Publishing the report'; r.conclusion = run.conclusion; }
+        else { r.state = 'failed'; r.step = 'Stopped (' + run.conclusion + ')'; }
+      } else {
+        r.state = 'running';
+        const jobs = await fetch(API + '/actions/runs/' + r.runId + '/jobs', { headers: auth(key) }).then((x) => x.json());
+        const steps = (jobs.jobs && jobs.jobs[0] && jobs.jobs[0].steps) || [];
+        const cur = steps.find((s) => s.status === 'in_progress') || steps.filter((s) => s.status === 'completed').pop();
+        r.step = run.status === 'queued' ? 'Waiting for GitHub' : cur ? stepLabel(cur.name) : 'Starting';
+      }
+    }
+  } catch (e) { /* keep polling */ }
+  store.set('runs', runs.slice(0, 10)); renderRuns();
+  if (runs.some((r) => r.state !== 'done' && r.state !== 'failed')) pollTimer = setTimeout(poll, document.hidden ? 30000 : 6000);
+}
+async function waitForSite(r) {
+  const s = await loadStatus();
+  const fresh = s.generatedAt && new Date(s.generatedAt).getTime() > r.startedAt;
+  if (fresh || Date.now() - r.startedAt > 30 * 60000) { r.state = r.conclusion === 'failure' ? 'failed' : 'done'; r.step = r.conclusion === 'failure' ? 'Finished with problems' : 'Report ready'; r.finishedAt = Date.now(); renderList(); }
+}
+document.addEventListener('visibilitychange', () => { if (!document.hidden) poll(); });
+
+const ago = (t) => { const m = Math.round((Date.now() - new Date(t).getTime()) / 60000); if (m < 1) return 'just now'; if (m < 60) return m + ' min ago'; const h = Math.round(m / 60); if (h < 24) return h + ' h ago'; const d = Math.round(h / 24); return d === 1 ? 'yesterday' : d + ' days ago'; };
+const ICON_OK = '<svg class="ok" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 8.5l3 3 7-7"/></svg>';
+const ICON_BAD = '<svg class="bad" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg>';
+function renderRuns() {
+  const recent = runs.filter((r) => r.state !== 'done' || Date.now() - (r.finishedAt || 0) < 10 * 60000).slice(0, 4);
+  $('runs').innerHTML = recent.map((r) => {
+    const mins = Math.max(0, Math.round((Date.now() - r.startedAt) / 60000));
+    const icon = r.state === 'done' ? ICON_OK : r.state === 'failed' ? ICON_BAD : '<span class="spin" aria-hidden="true"></span>';
+    const entry = r.state === 'done' && status.entries.find((e) => e.id === r.checkId || e.name === r.label);
+    return '<div class="run">' + icon + '<div class="txt"><b>' + esc(r.label) + '</b> <span>' + esc(r.step) + (r.state === 'done' || r.state === 'failed' ? '' : ' · ' + mins + ' min') + '</span></div>' +
+      (entry ? '<a href="' + esc(entry.id) + '/">Open report</a>' : r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">Details</a>' : '') + '</div>';
+  }).join('');
+}
+
+// ---------------------------------------------------------------- checks list
+async function loadStatus() {
+  try { const r = await fetch('checks-status.json?t=' + Date.now(), { cache: 'no-store' }); if (r.ok) status = await r.json(); } catch (e) {}
+  return status;
+}
+const confirming = new Set();
+function renderList() {
+  const es = status.entries || [];
+  $('runAll').hidden = es.length < 2;
+  if (!es.length) { $('list').innerHTML = '<p class="empty">No checks yet. Paste a Figma link and a Storybook link above.</p>'; return; }
+  const running = new Set(runs.filter((r) => r.state !== 'done' && r.state !== 'failed').map((r) => r.checkId));
+  $('list').innerHTML = es.map((e) => {
+    const c = e.counts || {};
+    const chips = e.ok ? [['d-b', c.broken, 'broken'], ['d-d', c.drifted, 'drifted'], ['d-n', c.missingInCode, 'not built'], ['d-a', c.aligned, 'aligned']].filter((x) => x[1]).map((x) => '<span><i class="dot ' + x[0] + '"></i>' + x[1] + ' ' + x[2] + '</span>').join('') : '';
+    const delta = e.ok && e.previousScore != null && e.score !== e.previousScore ? ' <span style="color:' + (e.score > e.previousScore ? 'var(--ok)' : 'var(--bad)') + ';font-size:12.5px">' + (e.score > e.previousScore ? '+' : '') + (e.score - e.previousScore) + '</span>' : '';
+    return '<div class="item" data-id="' + esc(e.id) + '">' +
+      '<div class="name">' + (e.ok ? '<a href="' + esc(e.id) + '/">' + esc(e.name || e.id) + '</a><span class="score">' + e.score + '%</span>' + delta : '<span>' + esc(e.name || e.id) + '</span>') + '</div>' +
+      '<div class="acts">' + (e.ok ? '<a class="ghost" href="' + esc(e.id) + '/">Report</a>' : '') +
+        '<button class="ghost" data-act="run" aria-label="Run ' + esc(e.name || e.id) + ' again"' + (running.has(e.id) ? ' disabled' : '') + '><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.3-5.7M20 4v5h-5"/></svg></button>' +
+        '<button class="ghost" data-act="remove" aria-label="Remove ' + esc(e.name || e.id) + '"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 7h14M10 11v6M14 11v6M6 7l1 12h10l1-12M9 7V4h6v3"/></svg></button></div>' +
+      (e.ok ? '<div class="meta">' + chips + '<span>' + (e.ranAt ? ago(e.ranAt) : '') + '</span></div>' : e.ok === false ? '<div class="error">Couldn\'t run: ' + esc(e.error) + '</div>' : '<div class="meta">Not run yet</div>') +
+      (confirming.has(e.id) ? '<div class="confirm" role="group" aria-label="Confirm removal">Remove this check and its report?<button class="btn" data-act="remove-yes">Remove</button><button class="ghost" data-act="remove-no">Keep</button></div>' : '') +
+    '</div>';
+  }).join('');
+}
+$('list').addEventListener('click', async (ev) => {
+  const b = ev.target.closest('[data-act]'); if (!b) return;
+  const item = b.closest('.item'); const id = item.dataset.id; const e = status.entries.find((x) => x.id === id);
+  const act = b.dataset.act;
+  if (act === 'run') { const r = await dispatch({ check_id: id }, e.name || id, id); if (typeof r === 'string') alertInline(item, r); }
+  if (act === 'remove') { confirming.add(id); renderList(); }
+  if (act === 'remove-no') { confirming.delete(id); renderList(); }
+  if (act === 'remove-yes') { confirming.delete(id); const r = await dispatch({ remove_id: id }, 'Removing ' + (e.name || id), id); if (typeof r === 'string') alertInline(item, r); renderList(); }
+});
+function alertInline(item, msg) { const p = document.createElement('p'); p.className = 'error'; p.setAttribute('role', 'alert'); p.textContent = msg; item.appendChild(p); }
+
+renderKey();
+loadStatus().then(() => { renderList(); renderRuns(); poll(); });
+setInterval(() => { renderRuns(); }, 30000);
+</script>
+</body>
+</html>

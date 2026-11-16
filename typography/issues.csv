@@ -1,0 +1,19 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Body: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
+Report: https://walecalfos-dp.github.io/atom-parity/typography/#c-1580%3A2636
+
+Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Text Link: Not found in Storybook","Possible matches: Basics/Text, Navigation/Link. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
+Report: https://walecalfos-dp.github.io/atom-parity/typography/#c-1580%3A2709
+
+Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Title: Not found in Storybook","Possible matches: Business Components/EntitlementPayment. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=706-50315
+Report: https://walecalfos-dp.github.io/atom-parity/typography/#c-706%3A50315
+
+Found by atom-parity on 2026-11-16","Task","High","atom-parity parity-naming owner-both","Atom Design System"
