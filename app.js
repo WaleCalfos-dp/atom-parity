@@ -290,22 +290,6 @@
     return '<p class="a11y-line">' + SHIELD + '<span class="t"><a href="' + esc(e.id) + '/#accessibility">' + plural(a.total, 'accessibility issue') + '</a>' + (top ? '<small>Worst: ' + esc(top.title) + '</small>' : '') + '</span><span class="sevs">' + sevList(a.counts, 2) + '</span></p>';
   }
 
-  // Masonry: each card spans as many 4px rows as its height needs, so short cards don't leave gaps.
-  // The cards stay in DOM order (worst first), so keyboard and screen reader order matches the sort.
-  const ROW = 4, GAP = 20;
-  let masonryFrame = 0;
-  const sizeWatch = 'ResizeObserver' in window ? new ResizeObserver(() => { cancelAnimationFrame(masonryFrame); masonryFrame = requestAnimationFrame(layoutMasonry); }) : null;
-  function layoutMasonry() {
-    const grid = $('grid');
-    const oneCol = getComputedStyle(grid).gridTemplateColumns.split(' ').length < 2;
-    grid.classList.toggle('masonry', !oneCol);
-    for (const el of grid.children) el.style.gridRowEnd = oneCol ? '' : 'span ' + Math.ceil((el.getBoundingClientRect().height + GAP) / ROW);
-  }
-  function masonry() {
-    if (sizeWatch) { sizeWatch.disconnect(); sizeWatch.observe($('grid')); for (const el of $('grid').children) sizeWatch.observe(el); }
-    layoutMasonry();
-  }
-
   const openMenus = new Set(); const confirming = new Set();
   function renderChecks() {
     const es = (status.entries || []).slice().sort((a, b) => (a.ok === true ? 0 : 1) - (b.ok === true ? 0 : 1) || (a.score == null ? 101 : a.score) - (b.score == null ? 101 : b.score));
@@ -341,7 +325,6 @@
         '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
         pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + confirm + foot + '</article>';
     }).join('');
-    masonry();
   }
 
   $('grid').addEventListener('click', async (ev) => {
