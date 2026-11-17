@@ -6,11 +6,6 @@
 |---|---|---|---|---|
 | 0 | 0 | 1 | 3 | 0 |
 
-### 3 new failures
-- **Button**: Text contrast is too low in Figma _(Accessibility)_
-- **Payment Button**: Text contrast is too low in Figma _(Accessibility)_
-- **Social Button**: Text contrast is too low in Figma _(Accessibility)_
-
 ### Biggest themes
 - 🔴 Text contrast is too low in Figma: 3 components (Design)
 - 🔴 Not built in Storybook: 3 components (Both)

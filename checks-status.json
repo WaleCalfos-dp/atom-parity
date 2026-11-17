@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-16T16:29:45.520Z",
+  "generatedAt": "2026-11-17T10:47:07.795Z",
   "entries": [
     {
       "id": "buttons",
       "name": "Buttons",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-16T16:26:52.488Z",
+      "ranAt": "2026-11-17T10:44:22.126Z",
       "ok": true,
       "history": [
         {
@@ -19,6 +19,10 @@
         },
         {
           "at": "2026-11-16T16:26:52.488Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-17T10:44:22.126Z",
           "score": 15
         }
       ],
@@ -66,7 +70,7 @@
         "missingInDesign": 0
       },
       "previousScore": 15,
-      "newFails": 3,
+      "newFails": 0,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -113,7 +117,7 @@
       "name": "Typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=706-47512",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
-      "ranAt": "2026-11-16T16:28:24.040Z",
+      "ranAt": "2026-11-17T10:45:55.385Z",
       "ok": true,
       "history": [
         {
@@ -126,6 +130,10 @@
         },
         {
           "at": "2026-11-16T16:28:24.040Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-17T10:45:55.385Z",
           "score": 0
         }
       ],
@@ -196,7 +204,7 @@
       "name": "Alert",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
-      "ranAt": "2026-11-16T16:29:45.112Z",
+      "ranAt": "2026-11-17T10:47:07.385Z",
       "ok": true,
       "history": [
         {
@@ -209,6 +217,10 @@
         },
         {
           "at": "2026-11-16T16:29:45.112Z",
+          "score": 45
+        },
+        {
+          "at": "2026-11-17T10:47:07.385Z",
           "score": 45
         }
       ],
@@ -232,7 +244,7 @@
         "missingInCode": 0,
         "missingInDesign": 0
       },
-      "previousScore": 44,
+      "previousScore": 45,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
