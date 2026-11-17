@@ -20,6 +20,8 @@ export async function resolveStorybook(inputUrl, headers = {}) {
   add(p);
   // "…/atom-ui-mobile/component" with no trailing slash: relative URLs resolve to the parent folder
   while (p.length > 1) { p = p.replace(/\/?[^/]*\/?$/, '') || '/'; add(p); if (p === '/') break; }
+  for (let attempt = 0; attempt < 3; attempt++) {
+  if (attempt) await new Promise((r) => setTimeout(r, process.env.PARITY_FAST_RETRY ? 1 : attempt * 10000)); // brief network blips on the Storybook host
   for (const base of candidates) {
     for (const file of ['index.json', 'stories.json']) {
       try {
@@ -31,6 +33,7 @@ export async function resolveStorybook(inputUrl, headers = {}) {
         if (json.entries || json.stories) return { base, index: json, indexFile: file };
       } catch { /* try next */ }
     }
+  }
   }
   throw new Error(`Couldn't find a Storybook index.json from ${inputUrl}. Tried: ${candidates.join(', ')}`);
 }

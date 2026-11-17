@@ -78,6 +78,7 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
     log.step(`Check: ${c.name ?? c.id}`);
     const outDir = path.join(siteDir, c.id);
     const entry = { id: c.id, name: c.name, figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, ranAt: new Date().toISOString() };
+    for (let attempt = 1; attempt <= 2; attempt++) {
     try {
       const cfg = loadConfig(configFile, {
         figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, outDir,
@@ -101,9 +102,25 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
         tokenSource: results.meta.figma.tokenSource, themes: s.themes.slice(0, 3).map((t) => t.title),
         a11y: results.a11y ? { ran: results.a11y.ran, total: results.a11y.total, counts: results.a11y.counts, components: results.a11y.components, scans: results.a11y.scans, designChecks: results.a11y.designChecks, top: results.a11y.issues.slice(0, 3).map((i) => ({ title: i.title, impact: i.impact, owner: i.owner })) } : null,
       });
+      delete entry.error;
+      break;
     } catch (e) {
-      log.warn(`${c.id}: ${e.message}`);
+      log.warn(`${c.id} (attempt ${attempt}): ${e.message}`);
       Object.assign(entry, { ok: false, error: e.message.split('\n')[0] });
+      if (attempt === 1) { await new Promise((r) => setTimeout(r, process.env.PARITY_FAST_RETRY ? 1 : 30000)); continue; }
+    }
+    }
+    if (entry.ok === false) {
+      // Keep the last good report rather than replacing it with nothing
+      const prev = previous.find((p) => p.id === c.id && p.ok);
+      const prevDir = path.join(baselineDir, c.id);
+      if (prev && fs.existsSync(path.join(prevDir, 'index.html'))) {
+        fs.rmSync(outDir, { recursive: true, force: true });
+        fs.cpSync(prevDir, outDir, { recursive: true });
+        const error = entry.error;
+        Object.assign(entry, prev, { name: c.name ?? prev.name, figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, ok: true, stale: { at: new Date().toISOString(), error } });
+        delete entry.error;
+      } else fs.rmSync(outDir, { recursive: true, force: true });
     }
     entries.push(entry);
   }

@@ -372,6 +372,19 @@ assert.ok(entries[0].ok && entries[0].score > 0, 'first check ran');
 assert.ok(!entries[1].ok && /couldn't find|isn't in this file/i.test(entries[1].error), 'bad link explained in plain words');
 assert.ok(!JSON.parse(fs.readFileSync(checksFile, 'utf8')).checks[0].figmaUrl.includes('t=abc'), 'tracking params stripped');
 assert.ok(fs.existsSync(path.join(OUT, 'site', 'index.html')) && fs.existsSync(path.join(OUT, 'site', entries[0].id, 'index.html')));
+// A refresh that fails keeps the last good report instead of deleting it
+{
+  process.env.PARITY_FAST_RETRY = '1';
+  const saved = JSON.parse(fs.readFileSync(checksFile, 'utf8'));
+  const dead = { ...saved, checks: saved.checks.map((c) => c.id === entries[0].id ? { ...c, storybookUrl: 'http://127.0.0.1:9/sb/' } : c) };
+  const deadFile = path.join(OUT, 'checks-dead.json'); fs.writeFileSync(deadFile, JSON.stringify(dead));
+  const again = await runAll({ configFile: cfgBase, checksFile: deadFile, siteDir: path.join(OUT, 'site-retry'), baselineDir: path.join(OUT, 'site'), statusFrom: path.join(OUT, 'site', 'checks-status.json'), siteUrl: null, only: [entries[0].id] });
+  assert.ok(again[0].ok && again[0].stale && /Storybook/.test(again[0].stale.error), 'failed refresh marked stale: ' + JSON.stringify(again[0]).slice(0, 200));
+  assert.equal(again[0].score, entries[0].score, 'previous score kept');
+  assert.ok(fs.existsSync(path.join(OUT, 'site-retry', entries[0].id, 'index.html')), 'previous report kept');
+  delete process.env.PARITY_FAST_RETRY;
+  console.log('✓ failed refresh keeps the previous report');
+}
 server.close(); await new Promise((r) => setTimeout(r, 50));
 globalThis.fetch = realFetch;
 console.log('✓ Figma-link mode and saved checks passed');
