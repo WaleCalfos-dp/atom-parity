@@ -25,7 +25,15 @@
   },
   "components": {
     "aliases": {
-      "Accordion": "Collapse"
+      "Accordion": "Collapse",
+      "Loading Indicator": "Loading",
+      "Lightbox Image Viewer": "ImageViewer",
+      "Text Link": "Link",
+      "App Header": "NavHeader",
+      "Date Picker": "CalendarPicker",
+      "Select": "SelectInput",
+      "Bottom Navigation": "TabBar",
+      "Body": "Text"
     }
   },
   "props": {
