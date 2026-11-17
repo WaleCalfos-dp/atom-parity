@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T14:50:40.893Z",
-    "durationMs": 88163,
+    "generatedAt": "2026-11-17T15:21:17.885Z",
+    "durationMs": 70336,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T13:49:53Z"
+        "lastModified": "2026-11-17T15:13:50Z"
       },
-      "exportedAt": "2026-11-17T14:49:36.498Z",
+      "exportedAt": "2026-11-17T15:20:16.670Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -175,7 +175,7 @@
         "css": "--aum-button-line-height-default",
         "conventional": "--aum-button-line-height",
         "type": "FLOAT",
-        "definedInCode": true,
+        "definedInCode": false,
         "brands": {
           "Dragonpass": {
             "design": 24,
@@ -208,7 +208,7 @@
         "css": "--aum-button-secondary-text-color",
         "conventional": "--aum-button-secondary-color",
         "type": "COLOR",
-        "definedInCode": true,
+        "definedInCode": false,
         "brands": {
           "Dragonpass": {
             "design": "#0A2333",
@@ -1595,17 +1595,16 @@
       "missing": 6,
       "unknown": 0,
       "renamed": 13,
-      "definedInCode": 273
+      "definedInCode": 231
     }
   },
   "components": [
     {
       "key": "1580:2636",
       "name": "Body",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [],
+      "status": "Drifted",
+      "score": 50,
+      "match": "alias",
       "figma": {
         "id": "1580:2636",
         "name": "Body",
@@ -1614,8 +1613,517 @@
         "variants": 36,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636"
       },
-      "code": null,
+      "code": {
+        "title": "Basics/Text",
+        "stories": 8,
+        "story": "basics-text--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Body",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Body Text",
+            "codeArg": "children",
+            "how": "convention",
+            "values": [],
+            "codeType": "other",
+            "codeOptions": []
+          },
+          {
+            "figma": "Size",
+            "figmaType": "VARIANT",
+            "options": [
+              "Large",
+              "Default",
+              "Small",
+              "X-small",
+              "Caption",
+              "Micro"
+            ],
+            "default": "Large",
+            "codeArg": "size",
+            "how": "exact",
+            "values": [
+              {
+                "figma": "Large",
+                "code": "large",
+                "how": "exact"
+              },
+              {
+                "figma": "Default",
+                "code": "default",
+                "how": "exact"
+              },
+              {
+                "figma": "Small",
+                "code": "small",
+                "how": "exact"
+              },
+              {
+                "figma": "X-small",
+                "code": "xsmall",
+                "how": "exact"
+              },
+              {
+                "figma": "Caption",
+                "code": null,
+                "how": "missing",
+                "suggestion": "caption-small"
+              },
+              {
+                "figma": "Micro",
+                "code": null,
+                "how": "missing",
+                "suggestion": "caption-micro"
+              }
+            ],
+            "codeType": "enum",
+            "codeOptions": [
+              "large",
+              "default",
+              "small",
+              "xsmall",
+              "caption-small",
+              "caption-micro"
+            ],
+            "codeOnlyValues": [
+              "caption-small",
+              "caption-micro"
+            ]
+          },
+          {
+            "figma": "weight",
+            "figmaType": "VARIANT",
+            "options": [
+              "Regular",
+              "Semi-Bold",
+              "Bold"
+            ],
+            "default": "Regular",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Shade",
+            "figmaType": "VARIANT",
+            "options": [
+              "Light",
+              "Dark"
+            ],
+            "default": "Dark",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "type",
+            "type": "enum",
+            "options": [
+              "inline",
+              "body"
+            ]
+          },
+          {
+            "name": "variant",
+            "type": "enum",
+            "options": [
+              "body",
+              "heading",
+              "body-subtle",
+              "placeholder",
+              "action",
+              "inverse",
+              "success",
+              "destructive"
+            ]
+          },
+          {
+            "name": "align",
+            "type": "enum",
+            "options": [
+              "left",
+              "center",
+              "right"
+            ]
+          },
+          {
+            "name": "lineCount",
+            "type": "number",
+            "options": []
+          },
+          {
+            "name": "ellipsis",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "breakWord",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "underline",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "color",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "animated",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "showSkeleton",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "skeletonProps",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "strong",
+            "type": "enum",
+            "options": [
+              "undefined",
+              "semi",
+              "bold"
+            ]
+          },
+          {
+            "name": "isTitle",
+            "type": "boolean",
+            "options": []
+          }
+        ]
+      },
       "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "fail",
+          "title": "Figma \"Body\" is \"Text\" in Storybook",
+          "owner": "Both",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "pass",
+          "title": "Has a Figma description",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Body",
+          "category": "Naming",
+          "subject": "prop:Body",
+          "label": "Property \"Body\"",
+          "status": "pass",
+          "title": "\"Body\" is the component's children in code",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Size",
+          "category": "Naming",
+          "subject": "prop:Size",
+          "label": "Property \"Size\"",
+          "status": "pass",
+          "title": "\"Size\" matches \"size\"",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|values:Size",
+          "category": "Properties",
+          "subject": "values:Size",
+          "label": "Size values",
+          "status": "fail",
+          "title": "Size values missing in code",
+          "owner": "Both",
+          "detail": "Missing in code: Caption (closest: caption-small), Micro (closest: caption-micro) · Only in code: caption-small, caption-micro",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Missing in code: Caption (closest: caption-small), Micro (closest: caption-micro) · Only in code: caption-small, caption-micro",
+              "figma": "Large, Default, Small, X-small, Caption, Micro",
+              "code": "large, default, small, xsmall, caption-small, caption-micro",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:weight",
+          "category": "Properties",
+          "subject": "prop:weight",
+          "label": "Property \"weight\"",
+          "status": "fail",
+          "title": "Figma property \"weight\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Regular, Semi-Bold, Bold",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Regular, Semi-Bold, Bold",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Shade",
+          "category": "Properties",
+          "subject": "prop:Shade",
+          "label": "Property \"Shade\"",
+          "status": "fail",
+          "title": "Figma property \"Shade\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Light, Dark",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Light, Dark",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "type, variant, align, lineCount, ellipsis, breakWord, underline, color, title, animated, showSkeleton, skeletonProps, strong, isTitle",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "type, variant, align, lineCount, ellipsis, breakWord, underline, color, title, animated, showSkeleton, skeletonProps, strong, isTitle",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "24 of 24 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "weight=Regular, Shade=Dark, weight=Semi-Bold, weight=Bold, Size=Caption, Size=Micro, Shade=Light",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "weight=Regular, Shade=Dark, weight=Semi-Bold, weight=Bold, Size=Caption, Size=Micro, Shade=Light",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -3346,23 +3854,166 @@
             "Size=Micro, weight=Semi-Bold, Shade=Light",
             "Size=Micro, weight=Bold, Shade=Light"
           ]
-        },
+        }
+      ],
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 24
+    },
+    {
+      "key": "1580:2709",
+      "name": "Text Link",
+      "status": "Drifted",
+      "score": 55,
+      "match": "alias",
+      "figma": {
+        "id": "1580:2709",
+        "name": "Text Link",
+        "page": "Typography",
+        "section": null,
+        "variants": 12,
+        "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709"
+      },
+      "code": {
+        "title": "Navigation/Link",
+        "stories": 2,
+        "story": "navigation-link--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-link--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Link",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Link Text",
+            "codeArg": "children",
+            "how": "convention",
+            "values": [],
+            "codeType": "other",
+            "codeOptions": []
+          },
+          {
+            "figma": "Size",
+            "figmaType": "VARIANT",
+            "options": [
+              "Large",
+              "Regular",
+              "Small",
+              "X-small"
+            ],
+            "default": "Large",
+            "codeArg": "size",
+            "how": "exact",
+            "values": [
+              {
+                "figma": "Large",
+                "code": "large",
+                "how": "exact"
+              },
+              {
+                "figma": "Regular",
+                "code": null,
+                "how": "missing",
+                "suggestion": null
+              },
+              {
+                "figma": "Small",
+                "code": "small",
+                "how": "exact"
+              },
+              {
+                "figma": "X-small",
+                "code": "xsmall",
+                "how": "exact"
+              }
+            ],
+            "codeType": "string",
+            "codeOptions": [
+              "large",
+              "default",
+              "small",
+              "xsmall",
+              "caption-small",
+              "caption-micro"
+            ],
+            "codeOnlyValues": [
+              "default",
+              "caption-small",
+              "caption-micro"
+            ]
+          },
+          {
+            "figma": "weight",
+            "figmaType": "VARIANT",
+            "options": [
+              "Regular",
+              "Semi-Bold",
+              "Bold"
+            ],
+            "default": "Regular",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "url",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "underline",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "target",
+            "type": "enum",
+            "options": [
+              "_self",
+              "_blank",
+              "_parent",
+              "_top"
+            ]
+          },
+          {
+            "name": "rel",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "strong",
+            "options": [
+              "semi",
+              "bold"
+            ]
+          }
+        ]
+      },
+      "checks": [
         {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
-          "label": "Component",
+          "label": "Component name",
           "status": "fail",
-          "title": "Not found in Storybook",
+          "title": "Figma \"Text Link\" is \"Link\" in Storybook",
           "owner": "Both",
-          "detail": "No similar component in Storybook",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
           "meta": null,
           "instances": [
             {
               "status": "fail",
               "brand": null,
               "variant": null,
-              "detail": "No similar component in Storybook",
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3377,38 +4028,255 @@
           },
           "brands": [],
           "variants": []
-        }
-      ],
-      "gallery": []
-    },
-    {
-      "key": "1580:2709",
-      "name": "Text Link",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [
-        {
-          "name": "Text",
-          "title": "Basics/Text",
-          "score": 0.75
         },
         {
-          "name": "Link",
-          "title": "Navigation/Link",
-          "score": 0.75
-        }
-      ],
-      "figma": {
-        "id": "1580:2709",
-        "name": "Text Link",
-        "page": "Typography",
-        "section": null,
-        "variants": 12,
-        "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709"
-      },
-      "code": null,
-      "checks": [
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "pass",
+          "title": "Has a Figma description",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Link",
+          "category": "Naming",
+          "subject": "prop:Link",
+          "label": "Property \"Link\"",
+          "status": "pass",
+          "title": "\"Link\" is the component's children in code",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Size",
+          "category": "Naming",
+          "subject": "prop:Size",
+          "label": "Property \"Size\"",
+          "status": "pass",
+          "title": "\"Size\" matches \"size\"",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|values:Size",
+          "category": "Properties",
+          "subject": "values:Size",
+          "label": "Size values",
+          "status": "fail",
+          "title": "Size values missing in code",
+          "owner": "Both",
+          "detail": "Missing in code: Regular · Only in code: default, caption-small, caption-micro",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Missing in code: Regular · Only in code: default, caption-small, caption-micro",
+              "figma": "Large, Regular, Small, X-small",
+              "code": "large, default, small, xsmall, caption-small, caption-micro",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:weight",
+          "category": "Properties",
+          "subject": "prop:weight",
+          "label": "Property \"weight\"",
+          "status": "fail",
+          "title": "Figma property \"weight\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Regular, Semi-Bold, Bold",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Regular, Semi-Bold, Bold",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "url, underline, target, rel, title, strong",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "url, underline, target, rel, title, strong",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "12 of 12 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "weight=Regular, weight=Semi-Bold, weight=Bold, Size=Regular",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "weight=Regular, weight=Semi-Bold, weight=Bold, Size=Regular",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -4961,40 +5829,11 @@
             "Size=X-small, weight=Semi-Bold",
             "Size=X-small, weight=Bold"
           ]
-        },
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component",
-          "status": "fail",
-          "title": "Not found in Storybook",
-          "owner": "Both",
-          "detail": "Possible matches: Basics/Text, Navigation/Link. Rename it, or add it to components.aliases.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Possible matches: Basics/Text, Navigation/Link. Rename it, or add it to components.aliases.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 12
     },
     {
       "key": "706:50315",
@@ -5850,33 +6689,33 @@
     }
   ],
   "summary": {
-    "score": 0,
-    "headline": "0 of 3 Figma components match Storybook. 3 aren't built yet.",
+    "score": 35,
+    "headline": "0 of 3 Figma components match Storybook. 2 have drifted and 1 isn't built yet.",
     "components": {
       "total": 3,
       "figma": 3,
-      "paired": 0,
+      "paired": 2,
       "aligned": 0,
-      "drifted": 0,
+      "drifted": 2,
       "broken": 0,
-      "missingInCode": 3,
+      "missingInCode": 1,
       "missingInDesign": 0
     },
     "checks": {
-      "pass": 0,
-      "warn": 3,
-      "fail": 3
+      "pass": 8,
+      "warn": 7,
+      "fail": 8
     },
     "byCategory": {
       "Naming": {
-        "pass": 0,
+        "pass": 4,
         "warn": 0,
         "fail": 3
       },
       "Properties": {
         "pass": 0,
-        "warn": 0,
-        "fail": 0
+        "warn": 4,
+        "fail": 5
       },
       "Tokens": {
         "pass": 0,
@@ -5904,34 +6743,62 @@
         "fail": 0
       },
       "Documentation": {
-        "pass": 0,
+        "pass": 4,
         "warn": 0,
         "fail": 0
       }
     },
     "byOwner": {
       "Design": {
-        "warn": 3,
+        "warn": 5,
         "fail": 0
       },
       "Dev": {
         "warn": 0,
-        "fail": 0
+        "fail": 3
       },
       "Both": {
-        "warn": 0,
-        "fail": 3
+        "warn": 2,
+        "fail": 5
       }
     },
     "themes": [
+      {
+        "category": "Naming",
+        "title": "Component named differently in Figma and Storybook",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Body",
+          "Text Link"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "Property values missing in code",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Body",
+          "Text Link"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "Figma property missing in code",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Body",
+          "Text Link"
+        ]
+      },
       {
         "category": "Naming",
         "title": "Not built in Storybook",
         "status": "fail",
         "owner": "Both",
         "components": [
-          "Body",
-          "Text Link",
           "Title"
         ]
       },
@@ -5945,14 +6812,114 @@
           "Text Link",
           "Title"
         ]
+      },
+      {
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Body",
+          "Text Link"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "24 of 24 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Body"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "12 of 12 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Text Link"
+        ]
       }
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
-      "No failures in: Accessibility"
+      "No failures in: Accessibility, Documentation"
     ],
     "brokenComponents": [],
     "issues": [
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Figma \"Body\" is \"Text\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Properties",
+        "subject": "values:Size",
+        "status": "fail",
+        "title": "Size values missing in code",
+        "detail": "Missing in code: Caption (closest: caption-small), Micro (closest: caption-micro) · Only in code: caption-small, caption-micro",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Properties",
+        "subject": "prop:weight",
+        "status": "fail",
+        "title": "Figma property \"weight\" has no equivalent in code",
+        "detail": "Values: Regular, Semi-Bold, Bold",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Properties",
+        "subject": "prop:Shade",
+        "status": "fail",
+        "title": "Figma property \"Shade\" has no equivalent in code",
+        "detail": "Values: Light, Dark",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "type, variant, align, lineCount, ellipsis, breakWord, underline, color, title, animated, showSkeleton, skeletonProps, strong, isTitle",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Body",
+        "componentKey": "1580:2636",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "24 of 24 variants can't be shown in code",
+        "detail": "weight=Regular, Shade=Dark, weight=Semi-Bold, weight=Bold, Size=Caption, Size=Micro, Shade=Light",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
       {
         "component": "Body",
         "componentKey": "1580:2636",
@@ -5973,13 +6940,61 @@
         "variants": 18
       },
       {
-        "component": "Body",
-        "componentKey": "1580:2636",
+        "component": "Text Link",
+        "componentKey": "1580:2709",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
+        "category": "Properties",
+        "subject": "values:Size",
+        "status": "fail",
+        "title": "Size values missing in code",
+        "detail": "Missing in code: Regular · Only in code: default, caption-small, caption-micro",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
+        "category": "Properties",
+        "subject": "prop:weight",
+        "status": "fail",
+        "title": "Figma property \"weight\" has no equivalent in code",
+        "detail": "Values: Regular, Semi-Bold, Bold",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "url, underline, target, rel, title, strong",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "12 of 12 variants can't be shown in code",
+        "detail": "weight=Regular, weight=Semi-Bold, weight=Bold, Size=Regular",
         "owner": "Both",
         "brands": [],
         "variants": 0
@@ -5998,18 +7013,6 @@
           "AeroBlue"
         ],
         "variants": 12
-      },
-      {
-        "component": "Text Link",
-        "componentKey": "1580:2709",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Basics/Text, Navigation/Link. Rename it, or add it to components.aliases.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
       },
       {
         "component": "Title",
@@ -6561,9 +7564,40 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T10:45:55.385Z",
+    "since": "2026-11-17T14:50:40.893Z",
     "previousScore": 0,
-    "newFails": [],
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Body",
+        "title": "Size values missing in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Body",
+        "title": "Figma property \"weight\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Body",
+        "title": "Figma property \"Shade\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Text Link",
+        "title": "Size values missing in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Text Link",
+        "title": "Figma property \"weight\" has no equivalent in code",
+        "category": "Properties"
+      }
+    ],
     "fixed": []
   }
 }

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:12:02.221Z",
-    "durationMs": 156210,
+    "generatedAt": "2026-11-17T15:42:21.877Z",
+    "durationMs": 178624,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T13:49:53Z"
+        "lastModified": "2026-11-17T15:13:50Z"
       },
-      "exportedAt": "2026-11-17T15:10:55.351Z",
+      "exportedAt": "2026-11-17T15:40:49.028Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1595,23 +1595,16 @@
       "missing": 6,
       "unknown": 0,
       "renamed": 13,
-      "definedInCode": 236
+      "definedInCode": 255
     }
   },
   "components": [
     {
       "key": "3156:2880",
       "name": "App Header",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [
-        {
-          "name": "NavHeader",
-          "title": "Navigation/NavHeader",
-          "score": 0.6666666666666667
-        }
-      ],
+      "status": "Broken",
+      "score": 27,
+      "match": "alias",
       "figma": {
         "id": "3156:2880",
         "name": "App Header",
@@ -1620,8 +1613,1044 @@
         "variants": 15,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3156-2880"
       },
-      "code": null,
+      "code": {
+        "title": "Navigation/NavHeader",
+        "stories": 3,
+        "story": "navigation-navheader--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-navheader--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Show Icon Right",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Icon Left",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Page Title",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Title",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Header Title",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Header Title",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Subtitle",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Subtitle",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Nav Bar",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Title and Subtitle",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Departure Text",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Leaving from",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Destination Text",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Arriving to",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Tabs",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Counter Badge",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Filter Icon",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Page Title",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Header Title",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Subtitle",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "brand-logos",
+            "figmaType": "SLOT",
+            "options": [],
+            "default": {
+              "guid": {
+                "sessionID": -1,
+                "localID": -1
+              }
+            },
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Amount",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Amount",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "£15.00",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Type",
+            "figmaType": "VARIANT",
+            "options": [
+              "Default",
+              "Link",
+              "Bottom Sheet",
+              "Search",
+              "Tabs",
+              "Image Small",
+              "Image Large",
+              "Background",
+              "Transport",
+              "Brand Logo Centred",
+              "Brand Logo Left",
+              "Co-brand Centred",
+              "Co-brand Left",
+              "Default Transparent",
+              "Journey Wizard"
+            ],
+            "default": "Default",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "title",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "theme",
+            "type": "enum",
+            "options": [
+              "light",
+              "dark"
+            ]
+          },
+          {
+            "name": "safeAreaTop",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "actions",
+            "type": "array",
+            "options": []
+          },
+          {
+            "name": "liked",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "container",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "mode",
+            "type": "union",
+            "options": []
+          },
+          {
+            "name": "showForce",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "rightContent",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "leftContent",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "backIconColor",
+            "type": "string",
+            "options": []
+          }
+        ]
+      },
       "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "fail",
+          "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+          "owner": "Both",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|group",
+          "category": "Naming",
+          "subject": "group",
+          "label": "Category",
+          "status": "pass",
+          "title": "Grouped under the same category",
+          "owner": "Both",
+          "detail": "Figma \"NAVIGATION\" · Storybook \"Navigation\"",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Figma \"NAVIGATION\" · Storybook \"Navigation\"",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "pass",
+          "title": "Has a Figma description",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Icon Right",
+          "category": "Properties",
+          "subject": "prop:Show Icon Right",
+          "label": "Property \"Show Icon Right\"",
+          "status": "fail",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Icon Left",
+          "category": "Properties",
+          "subject": "prop:Show Icon Left",
+          "label": "Property \"Show Icon Left\"",
+          "status": "fail",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Page Title",
+          "category": "Properties",
+          "subject": "prop:Page Title",
+          "label": "Property \"Page Title\"",
+          "status": "warn",
+          "title": "Figma property \"Page Title\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Header Title",
+          "category": "Properties",
+          "subject": "prop:Header Title",
+          "label": "Property \"Header Title\"",
+          "status": "warn",
+          "title": "Figma property \"Header Title\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Subtitle",
+          "category": "Properties",
+          "subject": "prop:Subtitle",
+          "label": "Property \"Subtitle\"",
+          "status": "warn",
+          "title": "Figma property \"Subtitle\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Nav Bar",
+          "category": "Properties",
+          "subject": "prop:Show Nav Bar",
+          "label": "Property \"Show Nav Bar\"",
+          "status": "fail",
+          "title": "Figma property \"Show Nav Bar\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Title and Subtitle",
+          "category": "Properties",
+          "subject": "prop:Show Title and Subtitle",
+          "label": "Property \"Show Title and Subtitle\"",
+          "status": "fail",
+          "title": "Figma property \"Show Title and Subtitle\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Departure Text",
+          "category": "Properties",
+          "subject": "prop:Departure Text",
+          "label": "Property \"Departure Text\"",
+          "status": "warn",
+          "title": "Figma property \"Departure Text\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Destination Text",
+          "category": "Properties",
+          "subject": "prop:Destination Text",
+          "label": "Property \"Destination Text\"",
+          "status": "warn",
+          "title": "Figma property \"Destination Text\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Tabs",
+          "category": "Properties",
+          "subject": "prop:Show Tabs",
+          "label": "Property \"Show Tabs\"",
+          "status": "fail",
+          "title": "Figma property \"Show Tabs\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Counter Badge",
+          "category": "Properties",
+          "subject": "prop:Show Counter Badge",
+          "label": "Property \"Show Counter Badge\"",
+          "status": "fail",
+          "title": "Figma property \"Show Counter Badge\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Filter Icon",
+          "category": "Properties",
+          "subject": "prop:Show Filter Icon",
+          "label": "Property \"Show Filter Icon\"",
+          "status": "fail",
+          "title": "Figma property \"Show Filter Icon\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Page Title",
+          "category": "Properties",
+          "subject": "prop:Show Page Title",
+          "label": "Property \"Show Page Title\"",
+          "status": "fail",
+          "title": "Figma property \"Show Page Title\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Header Title",
+          "category": "Properties",
+          "subject": "prop:Show Header Title",
+          "label": "Property \"Show Header Title\"",
+          "status": "fail",
+          "title": "Figma property \"Show Header Title\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Subtitle",
+          "category": "Properties",
+          "subject": "prop:Show Subtitle",
+          "label": "Property \"Show Subtitle\"",
+          "status": "fail",
+          "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:brand-logos",
+          "category": "Properties",
+          "subject": "prop:brand-logos",
+          "label": "Property \"brand-logos\"",
+          "status": "fail",
+          "title": "Figma property \"brand-logos\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "slot property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "slot property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Amount",
+          "category": "Properties",
+          "subject": "prop:Show Amount",
+          "label": "Property \"Show Amount\"",
+          "status": "fail",
+          "title": "Figma property \"Show Amount\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Amount",
+          "category": "Properties",
+          "subject": "prop:Amount",
+          "label": "Property \"Amount\"",
+          "status": "warn",
+          "title": "Figma property \"Amount\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Type",
+          "category": "Properties",
+          "subject": "prop:Type",
+          "label": "Property \"Type\"",
+          "status": "fail",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Default, Link, Bottom Sheet, Search, Tabs, Image Small, Image Large, Background, Transport, Brand Logo Centred, Brand Logo Left, Co-brand Centred, Co-brand Left, Default Transparent, Journey Wizard",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Default, Link, Bottom Sheet, Search, Tabs, Image Small, Image Large, Background, Transport, Brand Logo Centred, Brand Logo Left, Co-brand Centred, Co-brand Left, Default Transparent, Journey Wizard",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "title, theme, safeAreaTop, actions, liked, container, mode, showForce, rightContent, leftContent, backIconColor",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "title, theme, safeAreaTop, actions, liked, container, mode, showForce, rightContent, leftContent, backIconColor",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "15 of 15 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "Type=Image Small, Type=Image Large, Type=Default, Type=Journey Wizard, Type=Default Transparent, Type=Link, Type=Tabs, Type=Brand Logo Centred, Type=Brand Logo Left, Type=Co-brand Centred, Type=Co-brand Left, Type=Search",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Type=Image Small, Type=Image Large, Type=Default, Type=Journey Wizard, Type=Default Transparent, Type=Link, Type=Tabs, Type=Brand Logo Centred, Type=Brand Logo Left, Type=Co-brand Centred, Type=Co-brand Left, Type=Search",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -2532,48 +3561,18 @@
           "variants": [
             "Type=Transport"
           ]
-        },
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component",
-          "status": "fail",
-          "title": "Not found in Storybook",
-          "owner": "Both",
-          "detail": "Possible matches: Navigation/NavHeader. Rename it, or add it to components.aliases.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Possible matches: Navigation/NavHeader. Rename it, or add it to components.aliases.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 15
     },
     {
       "key": "781:17271",
       "name": "Bottom Navigation",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [],
+      "status": "Drifted",
+      "score": 57,
+      "match": "alias",
       "figma": {
         "id": "781:17271",
         "name": "Bottom Navigation",
@@ -2582,24 +3581,76 @@
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=781-17271"
       },
-      "code": null,
+      "code": {
+        "title": "Navigation/TabBar",
+        "stories": 1,
+        "story": "navigation-tabbar--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-tabbar--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Count",
+            "figmaType": "VARIANT",
+            "options": [
+              "3",
+              "4",
+              "5"
+            ],
+            "default": "3",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "items",
+            "type": "array",
+            "options": []
+          },
+          {
+            "name": "safeArea",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "activeKey",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "defaultActiveKey",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "position",
+            "type": "enum",
+            "options": [
+              "static",
+              "fixed"
+            ]
+          }
+        ]
+      },
       "checks": [
         {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
-          "label": "Component",
+          "label": "Component name",
           "status": "fail",
-          "title": "Not found in Storybook",
+          "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
           "owner": "Both",
-          "detail": "No similar component in Storybook",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
           "meta": null,
           "instances": [
             {
               "status": "fail",
               "brand": null,
               "variant": null,
-              "detail": "No similar component in Storybook",
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2614,9 +3665,197 @@
           },
           "brands": [],
           "variants": []
+        },
+        {
+          "key": "Naming|group",
+          "category": "Naming",
+          "subject": "group",
+          "label": "Category",
+          "status": "pass",
+          "title": "Grouped under the same category",
+          "owner": "Both",
+          "detail": "Figma \"NAVIGATION\" · Storybook \"Navigation\"",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Figma \"NAVIGATION\" · Storybook \"Navigation\"",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "pass",
+          "title": "Has a Figma description",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Count",
+          "category": "Properties",
+          "subject": "prop:Count",
+          "label": "Property \"Count\"",
+          "status": "fail",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: 3, 4, 5",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: 3, 4, 5",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "items, safeArea, activeKey, defaultActiveKey, position",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "items, safeArea, activeKey, defaultActiveKey, position",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "3 of 3 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "Count=5, Count=4, Count=3",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Count=5, Count=4, Count=3",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 3
     },
     {
       "key": "14347:1286",
@@ -4902,33 +6141,33 @@
     }
   ],
   "summary": {
-    "score": 24,
-    "headline": "0 of 7 Figma components match Storybook. 3 have drifted and 4 aren't built yet.",
+    "score": 36,
+    "headline": "0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.",
     "components": {
       "total": 7,
       "figma": 7,
-      "paired": 3,
+      "paired": 5,
       "aligned": 0,
-      "drifted": 3,
-      "broken": 0,
-      "missingInCode": 4,
+      "drifted": 4,
+      "broken": 1,
+      "missingInCode": 2,
       "missingInDesign": 0
     },
     "checks": {
-      "pass": 14,
-      "warn": 11,
-      "fail": 18
+      "pass": 20,
+      "warn": 21,
+      "fail": 32
     },
     "byCategory": {
       "Naming": {
-        "pass": 6,
+        "pass": 8,
         "warn": 1,
         "fail": 4
       },
       "Properties": {
         "pass": 2,
-        "warn": 8,
-        "fail": 13
+        "warn": 18,
+        "fail": 27
       },
       "Tokens": {
         "pass": 0,
@@ -4956,47 +6195,47 @@
         "fail": 0
       },
       "Documentation": {
-        "pass": 5,
+        "pass": 9,
         "warn": 1,
         "fail": 0
       }
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 7,
         "fail": 1
       },
       "Dev": {
-        "warn": 2,
-        "fail": 13
+        "warn": 8,
+        "fail": 27
       },
       "Both": {
-        "warn": 4,
+        "warn": 6,
         "fail": 4
       }
     },
     "themes": [
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "App Header",
-          "Bottom Navigation",
-          "Burger Menu Triggered",
-          "Web Header"
-        ]
-      },
       {
         "category": "Properties",
         "title": "Figma property missing in code",
         "status": "fail",
         "owner": "Dev",
         "components": [
+          "App Header",
+          "Bottom Navigation",
           "Breadcrumbs",
           "Footer",
           "Tabs"
+        ]
+      },
+      {
+        "category": "Naming",
+        "title": "Component named differently in Figma and Storybook",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "App Header",
+          "Bottom Navigation"
         ]
       },
       {
@@ -5010,14 +6249,54 @@
         ]
       },
       {
+        "category": "Naming",
+        "title": "Not built in Storybook",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Burger Menu Triggered",
+          "Web Header"
+        ]
+      },
+      {
         "category": "Properties",
         "title": "Code has props with no Figma property",
         "status": "warn",
         "owner": "Design",
         "components": [
+          "App Header",
+          "Bottom Navigation",
           "Breadcrumbs",
           "Footer",
           "Tabs"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "State values without a code equivalent",
+        "status": "warn",
+        "owner": "Dev",
+        "components": [
+          "App Header",
+          "Footer"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "15 of 15 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "App Header"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "3 of 3 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Bottom Navigation"
         ]
       },
       {
@@ -5037,50 +6316,286 @@
         "components": [
           "Footer"
         ]
-      },
-      {
-        "category": "Documentation",
-        "title": "No description in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Footer"
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "State values without a code equivalent",
-        "status": "warn",
-        "owner": "Dev",
-        "components": [
-          "Footer"
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "18 of 18 variants can't be shown in code",
-        "status": "warn",
-        "owner": "Both",
-        "components": [
-          "Footer"
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "4 of 4 variants can't be shown in code",
-        "status": "warn",
-        "owner": "Both",
-        "components": [
-          "Tabs"
-        ]
       }
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
-    "brokenComponents": [],
+    "brokenComponents": [
+      {
+        "name": "App Header",
+        "key": "3156:2880",
+        "reasons": [
+          "Text contrast is too low in Figma"
+        ]
+      }
+    ],
     "issues": [
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Icon Right",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Icon Left",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Page Title",
+        "status": "warn",
+        "title": "Figma property \"Page Title\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Header Title",
+        "status": "warn",
+        "title": "Figma property \"Header Title\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Subtitle",
+        "status": "warn",
+        "title": "Figma property \"Subtitle\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Nav Bar",
+        "status": "fail",
+        "title": "Figma property \"Show Nav Bar\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Title and Subtitle",
+        "status": "fail",
+        "title": "Figma property \"Show Title and Subtitle\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Departure Text",
+        "status": "warn",
+        "title": "Figma property \"Departure Text\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Destination Text",
+        "status": "warn",
+        "title": "Figma property \"Destination Text\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Tabs",
+        "status": "fail",
+        "title": "Figma property \"Show Tabs\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Counter Badge",
+        "status": "fail",
+        "title": "Figma property \"Show Counter Badge\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Filter Icon",
+        "status": "fail",
+        "title": "Figma property \"Show Filter Icon\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Page Title",
+        "status": "fail",
+        "title": "Figma property \"Show Page Title\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Header Title",
+        "status": "fail",
+        "title": "Figma property \"Show Header Title\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Subtitle",
+        "status": "fail",
+        "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:brand-logos",
+        "status": "fail",
+        "title": "Figma property \"brand-logos\" has no equivalent in code",
+        "detail": "slot property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Show Amount",
+        "status": "fail",
+        "title": "Figma property \"Show Amount\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Amount",
+        "status": "warn",
+        "title": "Figma property \"Amount\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "prop:Type",
+        "status": "fail",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "detail": "Values: Default, Link, Bottom Sheet, Search, Tabs, Image Small, Image Large, Background, Transport, Brand Logo Centred, Brand Logo Left, Co-brand Centred, Co-brand Left, Default Transparent, Journey Wizard",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "title, theme, safeAreaTop, actions, liked, container, mode, showForce, rightContent, leftContent, backIconColor",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "App Header",
+        "componentKey": "3156:2880",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "15 of 15 variants can't be shown in code",
+        "detail": "Type=Image Small, Type=Image Large, Type=Default, Type=Journey Wizard, Type=Default Transparent, Type=Link, Type=Tabs, Type=Brand Logo Centred, Type=Brand Logo Left, Type=Co-brand Centred, Type=Co-brand Left, Type=Search",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
       {
         "component": "App Header",
         "componentKey": "3156:2880",
@@ -5096,13 +6611,13 @@
         "variants": 1
       },
       {
-        "component": "App Header",
-        "componentKey": "3156:2880",
+        "component": "Bottom Navigation",
+        "componentKey": "781:17271",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Navigation/NavHeader. Rename it, or add it to components.aliases.",
+        "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
         "owner": "Both",
         "brands": [],
         "variants": 0
@@ -5110,11 +6625,35 @@
       {
         "component": "Bottom Navigation",
         "componentKey": "781:17271",
-        "category": "Naming",
-        "subject": "name",
+        "category": "Properties",
+        "subject": "prop:Count",
         "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "detail": "Values: 3, 4, 5",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Bottom Navigation",
+        "componentKey": "781:17271",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "items, safeArea, activeKey, defaultActiveKey, position",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Bottom Navigation",
+        "componentKey": "781:17271",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "3 of 3 variants can't be shown in code",
+        "detail": "Count=5, Count=4, Count=3",
         "owner": "Both",
         "brands": [],
         "variants": 0
@@ -5671,5 +7210,96 @@
         "occurrences": 19
       }
     ]
+  },
+  "delta": {
+    "since": "2026-11-17T15:12:02.221Z",
+    "previousScore": 24,
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Nav Bar\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Title and Subtitle\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Tabs\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Counter Badge\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Filter Icon\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Page Title\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Header Title\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"brand-logos\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Show Amount\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Bottom Navigation",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "category": "Properties"
+      }
+    ],
+    "fixed": []
   }
 }

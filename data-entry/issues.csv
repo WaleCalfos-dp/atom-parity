@@ -62,12 +62,69 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
 
 Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
-"[Atom parity] Date Picker: Not found in Storybook","Possible matches: Data Entry/TimePicker, Data Entry/CalendarPicker. Rename it, or add it to components.aliases.
+"[Atom parity] Date Picker: Figma ""Date Picker"" is ""CalendarPicker"" in Storybook","Rename one side so any developer can map code to the design system immediately.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
 
 Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Date Picker: Figma property ""Show Buttons"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Date Picker: Figma property ""Show Month and Year"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Date Picker: Figma property ""Show Pagination"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Date Picker: Figma property ""Type"" has no equivalent in code","Values: Default, Today Selected, Day Selected, Date Range, Selecting Range
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Date Picker: Figma property ""Month"" has no equivalent in code","Values: One, Multiple
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Date Picker: Figma property ""Style"" has no equivalent in code","Values: Filled Background, No Background, No Stroke
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Date Picker: Code has props with no Figma property","title, description, selectionMode, monthMode, visible, footer, cancelText, confirmText, confirmButtonProps, cancelButtonProps, drawerProps, modalProps
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+"[Atom parity] Date Picker: 24 of 24 variants can't be shown in code","Type=Default, Month=Multiple, Style=Filled Background, Type=Today Selected, Type=Day Selected, Type=Date Range, Type=Selecting Range, Month=One, Style=No Background, Style=No Stroke
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Input: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
 
 Brands: Dragonpass
@@ -115,21 +172,149 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-13003%3A7343
 
 Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+"[Atom parity] Select: Figma ""Select"" is ""SelectInput"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Label"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Pill Right"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Pill Left"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Helper Text"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Label"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Country Flag"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma ""Show Placeholder"" is ""placeholder"" in code","Same words in a different order or form. Align the names so they map 1:1.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Select: Figma property ""Selected Option"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""content-left"" has no equivalent in code","slot property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Show Label Icon"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Figma property ""Selected"" has no equivalent in code","Values: False, Single, Multiple
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: State values with no code equivalent: Error","Default → :rest · Hover → :hover · Error → missing · Disabled → disabled=true · Focus → :focus · Active → :active
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Semantic values live under ""State""","Error are semantic types, not interactive states. Use a ""Type"" property for them.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-design","Atom Design System"
+"[Atom parity] Select: Figma property ""Label Position"" has no equivalent in code","Values: Outside, Inside
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Select: Code has props with no Figma property","dropdownMaxHeight, multiple, maxTagCount, value, defaultValue
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+"[Atom parity] Select: 24 of 24 variants can't be shown in code","Selected=False, Label Position=Outside, Label Position=Inside, Selected=Single, State=Error, Selected=Multiple
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Select: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
 
 Brands: Dragonpass, AeroBlue
 Variants: Selected=False, State=Default, Label Position=Outside; Selected=False, State=Hover, Label Position=Outside; Selected=False, State=Error, Label Position=Outside; Selected=False, State=Error, Label Position=Inside; Selected=False, State=Focus, Label Position=Outside; Selected=False, State=Active, Label Position=Outside; Selected=Single, State=Error, Label Position=Inside; Selected=Multiple, State=Error, Label Position=Inside
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
 
 Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
-"[Atom parity] Select: Not found in Storybook","Possible matches: Data Entry/CalendarSelect, Data Entry/SelectInput, Data Entry/TimeSelect. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
-Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
-
-Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Switch: Figma property ""Show Label"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228

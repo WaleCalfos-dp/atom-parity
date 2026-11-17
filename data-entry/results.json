@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:07:31.361Z",
-    "durationMs": 232548,
+    "generatedAt": "2026-11-17T15:37:04.327Z",
+    "durationMs": 205866,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T13:49:53Z"
+        "lastModified": "2026-11-17T15:13:50Z"
       },
-      "exportedAt": "2026-11-17T15:05:50.856Z",
+      "exportedAt": "2026-11-17T15:35:47.169Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2501,7 +2501,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Focus, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2611,127 +2611,127 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Hover, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Hover, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Hover, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Hover, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Default, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Default, Checked=False",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "State=Disabled, Checked=True",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "State=Disabled, Checked=True",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "State=Hover, Checked=False",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "State=Hover, Checked=False",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "State=Hover, Checked=False",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "State=Hover, Checked=False",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "State=Hover, Checked=True",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "State=Hover, Checked=True",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "State=Hover, Checked=True",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "State=Hover, Checked=True",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "State=Default, Checked=False",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "State=Default, Checked=False",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -4323,21 +4323,9 @@
     {
       "key": "1617:15924",
       "name": "Date Picker",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [
-        {
-          "name": "TimePicker",
-          "title": "Data Entry/TimePicker",
-          "score": 0.7
-        },
-        {
-          "name": "CalendarPicker",
-          "title": "Data Entry/CalendarPicker",
-          "score": 0.5714285714285714
-        }
-      ],
+      "status": "Drifted",
+      "score": 38,
+      "match": "alias",
       "figma": {
         "id": "1617:15924",
         "name": "Date Picker",
@@ -4346,8 +4334,524 @@
         "variants": 30,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924"
       },
-      "code": null,
+      "code": {
+        "title": "Data Entry/CalendarPicker",
+        "stories": 5,
+        "story": "data-entry-calendarpicker--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-calendarpicker--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Show Buttons",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Month and Year",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Pagination",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Type",
+            "figmaType": "VARIANT",
+            "options": [
+              "Default",
+              "Today Selected",
+              "Day Selected",
+              "Date Range",
+              "Selecting Range"
+            ],
+            "default": "Default",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Month",
+            "figmaType": "VARIANT",
+            "options": [
+              "One",
+              "Multiple"
+            ],
+            "default": "Multiple",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Style",
+            "figmaType": "VARIANT",
+            "options": [
+              "Filled Background",
+              "No Background",
+              "No Stroke"
+            ],
+            "default": "Filled Background",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "title",
+            "type": "union",
+            "options": []
+          },
+          {
+            "name": "description",
+            "type": "union",
+            "options": []
+          },
+          {
+            "name": "selectionMode",
+            "type": "string",
+            "options": [
+              "single",
+              "range"
+            ]
+          },
+          {
+            "name": "monthMode",
+            "type": "string",
+            "options": [
+              "scroll",
+              "switch"
+            ]
+          },
+          {
+            "name": "visible",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "footer",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "cancelText",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "confirmText",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "confirmButtonProps",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "cancelButtonProps",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "drawerProps",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "modalProps",
+            "type": "other",
+            "options": []
+          }
+        ]
+      },
       "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "fail",
+          "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
+          "owner": "Both",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|group",
+          "category": "Naming",
+          "subject": "group",
+          "label": "Category",
+          "status": "pass",
+          "title": "Grouped under the same category",
+          "owner": "Both",
+          "detail": "Figma \"DATA ENTRY\" · Storybook \"Data Entry\"",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Figma \"DATA ENTRY\" · Storybook \"Data Entry\"",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "pass",
+          "title": "Has a Figma description",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Buttons",
+          "category": "Properties",
+          "subject": "prop:Show Buttons",
+          "label": "Property \"Show Buttons\"",
+          "status": "fail",
+          "title": "Figma property \"Show Buttons\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Month and Year",
+          "category": "Properties",
+          "subject": "prop:Show Month and Year",
+          "label": "Property \"Show Month and Year\"",
+          "status": "fail",
+          "title": "Figma property \"Show Month and Year\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Pagination",
+          "category": "Properties",
+          "subject": "prop:Show Pagination",
+          "label": "Property \"Show Pagination\"",
+          "status": "fail",
+          "title": "Figma property \"Show Pagination\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Type",
+          "category": "Properties",
+          "subject": "prop:Type",
+          "label": "Property \"Type\"",
+          "status": "fail",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Default, Today Selected, Day Selected, Date Range, Selecting Range",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Default, Today Selected, Day Selected, Date Range, Selecting Range",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Month",
+          "category": "Properties",
+          "subject": "prop:Month",
+          "label": "Property \"Month\"",
+          "status": "fail",
+          "title": "Figma property \"Month\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: One, Multiple",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: One, Multiple",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Style",
+          "category": "Properties",
+          "subject": "prop:Style",
+          "label": "Property \"Style\"",
+          "status": "fail",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Filled Background, No Background, No Stroke",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Filled Background, No Background, No Stroke",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "title, description, selectionMode, monthMode, visible, footer, cancelText, confirmText, confirmButtonProps, cancelButtonProps, drawerProps, modalProps",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "title, description, selectionMode, monthMode, visible, footer, cancelText, confirmText, confirmButtonProps, cancelButtonProps, drawerProps, modalProps",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "24 of 24 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "Type=Default, Month=Multiple, Style=Filled Background, Type=Today Selected, Type=Day Selected, Type=Date Range, Type=Selecting Range, Month=One, Style=No Background, Style=No Stroke",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Type=Default, Month=Multiple, Style=Filled Background, Type=Today Selected, Type=Day Selected, Type=Date Range, Type=Selecting Range, Month=One, Style=No Background, Style=No Stroke",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -5002,40 +5506,11 @@
           },
           "brands": [],
           "variants": []
-        },
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component",
-          "status": "fail",
-          "title": "Not found in Storybook",
-          "owner": "Both",
-          "detail": "Possible matches: Data Entry/TimePicker, Data Entry/CalendarPicker. Rename it, or add it to components.aliases.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Possible matches: Data Entry/TimePicker, Data Entry/CalendarPicker. Rename it, or add it to components.aliases.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 24
     },
     {
       "key": "269:9758",
@@ -7316,26 +7791,9 @@
     {
       "key": "263:5381",
       "name": "Select",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [
-        {
-          "name": "CalendarSelect",
-          "title": "Data Entry/CalendarSelect",
-          "score": 0.75
-        },
-        {
-          "name": "SelectInput",
-          "title": "Data Entry/SelectInput",
-          "score": 0.75
-        },
-        {
-          "name": "TimeSelect",
-          "title": "Data Entry/TimeSelect",
-          "score": 0.75
-        }
-      ],
+      "status": "Broken",
+      "score": 29,
+      "match": "alias",
       "figma": {
         "id": "263:5381",
         "name": "Select",
@@ -7344,8 +7802,950 @@
         "variants": 36,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381"
       },
-      "code": null,
+      "code": {
+        "title": "Data Entry/SelectInput",
+        "stories": 4,
+        "story": "data-entry-selectinput--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Show Label",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Icon Left",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Icon Right",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Pill Right",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Pill Left",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Helper Text",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Label",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Label",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Country Flag",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": false,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Placeholder",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Placeholder",
+            "codeArg": "placeholder",
+            "how": "exact",
+            "values": [],
+            "codeType": "string",
+            "codeOptions": []
+          },
+          {
+            "figma": "Show Placeholder",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": "placeholder",
+            "how": "similar",
+            "values": [],
+            "codeType": "string",
+            "codeOptions": []
+          },
+          {
+            "figma": "Selected Option",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Selected Option",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "content-left",
+            "figmaType": "SLOT",
+            "options": [],
+            "default": {
+              "guid": {
+                "sessionID": -1,
+                "localID": -1
+              }
+            },
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Label Icon",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Selected",
+            "figmaType": "VARIANT",
+            "options": [
+              "False",
+              "Single",
+              "Multiple"
+            ],
+            "default": "False",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "State",
+            "figmaType": "VARIANT",
+            "options": [
+              "Default",
+              "Hover",
+              "Error",
+              "Disabled",
+              "Focus",
+              "Active"
+            ],
+            "default": "Default",
+            "codeArg": null,
+            "how": "state",
+            "values": [
+              {
+                "figma": "Default",
+                "how": "interaction",
+                "interaction": null
+              },
+              {
+                "figma": "Hover",
+                "how": "interaction",
+                "interaction": "hover"
+              },
+              {
+                "figma": "Error",
+                "how": "missing"
+              },
+              {
+                "figma": "Disabled",
+                "how": "boolean",
+                "boolArg": "disabled"
+              },
+              {
+                "figma": "Focus",
+                "how": "interaction",
+                "interaction": "focus"
+              },
+              {
+                "figma": "Active",
+                "how": "interaction",
+                "interaction": "active"
+              }
+            ]
+          },
+          {
+            "figma": "Label Position",
+            "figmaType": "VARIANT",
+            "options": [
+              "Outside",
+              "Inside"
+            ],
+            "default": "Outside",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "dropdownMaxHeight",
+            "type": "number",
+            "options": []
+          },
+          {
+            "name": "multiple",
+            "options": []
+          },
+          {
+            "name": "maxTagCount",
+            "options": []
+          },
+          {
+            "name": "value",
+            "options": []
+          },
+          {
+            "name": "defaultValue",
+            "options": []
+          }
+        ]
+      },
       "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "fail",
+          "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
+          "owner": "Both",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|group",
+          "category": "Naming",
+          "subject": "group",
+          "label": "Category",
+          "status": "pass",
+          "title": "Grouped under the same category",
+          "owner": "Both",
+          "detail": "Figma \"DATA ENTRY\" · Storybook \"Data Entry\"",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Figma \"DATA ENTRY\" · Storybook \"Data Entry\"",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "pass",
+          "title": "Has a Figma description",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Label",
+          "category": "Properties",
+          "subject": "prop:Show Label",
+          "label": "Property \"Show Label\"",
+          "status": "fail",
+          "title": "Figma property \"Show Label\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Icon Left",
+          "category": "Properties",
+          "subject": "prop:Show Icon Left",
+          "label": "Property \"Show Icon Left\"",
+          "status": "fail",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Icon Right",
+          "category": "Properties",
+          "subject": "prop:Show Icon Right",
+          "label": "Property \"Show Icon Right\"",
+          "status": "fail",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Pill Right",
+          "category": "Properties",
+          "subject": "prop:Show Pill Right",
+          "label": "Property \"Show Pill Right\"",
+          "status": "fail",
+          "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Pill Left",
+          "category": "Properties",
+          "subject": "prop:Show Pill Left",
+          "label": "Property \"Show Pill Left\"",
+          "status": "fail",
+          "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Helper Text",
+          "category": "Properties",
+          "subject": "prop:Show Helper Text",
+          "label": "Property \"Show Helper Text\"",
+          "status": "fail",
+          "title": "Figma property \"Show Helper Text\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Label",
+          "category": "Properties",
+          "subject": "prop:Label",
+          "label": "Property \"Label\"",
+          "status": "warn",
+          "title": "Figma property \"Label\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Country Flag",
+          "category": "Properties",
+          "subject": "prop:Show Country Flag",
+          "label": "Property \"Show Country Flag\"",
+          "status": "fail",
+          "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Placeholder",
+          "category": "Naming",
+          "subject": "prop:Placeholder",
+          "label": "Property \"Placeholder\"",
+          "status": "pass",
+          "title": "\"Placeholder\" matches \"placeholder\"",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Show Placeholder",
+          "category": "Naming",
+          "subject": "prop:Show Placeholder",
+          "label": "Property \"Show Placeholder\"",
+          "status": "warn",
+          "title": "Figma \"Show Placeholder\" is \"placeholder\" in code",
+          "owner": "Both",
+          "detail": "Same words in a different order or form. Align the names so they map 1:1.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Same words in a different order or form. Align the names so they map 1:1.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Selected Option",
+          "category": "Properties",
+          "subject": "prop:Selected Option",
+          "label": "Property \"Selected Option\"",
+          "status": "warn",
+          "title": "Figma property \"Selected Option\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:content-left",
+          "category": "Properties",
+          "subject": "prop:content-left",
+          "label": "Property \"content-left\"",
+          "status": "fail",
+          "title": "Figma property \"content-left\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "slot property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "slot property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Label Icon",
+          "category": "Properties",
+          "subject": "prop:Show Label Icon",
+          "label": "Property \"Show Label Icon\"",
+          "status": "fail",
+          "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Selected",
+          "category": "Properties",
+          "subject": "prop:Selected",
+          "label": "Property \"Selected\"",
+          "status": "fail",
+          "title": "Figma property \"Selected\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: False, Single, Multiple",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: False, Single, Multiple",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:State",
+          "category": "Properties",
+          "subject": "prop:State",
+          "label": "Property \"State\"",
+          "status": "warn",
+          "title": "State values with no code equivalent: Error",
+          "owner": "Dev",
+          "detail": "Default → :rest · Hover → :hover · Error → missing · Disabled → disabled=true · Focus → :focus · Active → :active",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Default → :rest · Hover → :hover · Error → missing · Disabled → disabled=true · Focus → :focus · Active → :active",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|taxonomy:State",
+          "category": "Naming",
+          "subject": "taxonomy:State",
+          "label": "Property \"State\" taxonomy",
+          "status": "fail",
+          "title": "Semantic values live under \"State\"",
+          "owner": "Design",
+          "detail": "Error are semantic types, not interactive states. Use a \"Type\" property for them.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Error are semantic types, not interactive states. Use a \"Type\" property for them.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Label Position",
+          "category": "Properties",
+          "subject": "prop:Label Position",
+          "label": "Property \"Label Position\"",
+          "status": "fail",
+          "title": "Figma property \"Label Position\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Outside, Inside",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Outside, Inside",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "dropdownMaxHeight, multiple, maxTagCount, value, defaultValue",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "dropdownMaxHeight, multiple, maxTagCount, value, defaultValue",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "24 of 24 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "Selected=False, Label Position=Outside, Label Position=Inside, Selected=Single, State=Error, Selected=Multiple",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Selected=False, Label Position=Outside, Label Position=Inside, Selected=Single, State=Error, Selected=Multiple",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -8642,40 +10042,11 @@
             "Selected=Single, State=Error, Label Position=Inside",
             "Selected=Multiple, State=Error, Label Position=Inside"
           ]
-        },
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component",
-          "status": "fail",
-          "title": "Not found in Storybook",
-          "owner": "Both",
-          "detail": "Possible matches: Data Entry/CalendarSelect, Data Entry/SelectInput, Data Entry/TimeSelect. Rename it, or add it to components.aliases.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Possible matches: Data Entry/CalendarSelect, Data Entry/SelectInput, Data Entry/TimeSelect. Rename it, or add it to components.aliases.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 24
     },
     {
       "key": "299:228",
@@ -10201,33 +11572,33 @@
     }
   ],
   "summary": {
-    "score": 27,
-    "headline": "0 of 9 Figma components match Storybook. 3 have drifted, 1 is broken and 5 aren't built yet.",
+    "score": 35,
+    "headline": "0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.",
     "components": {
       "total": 9,
       "figma": 9,
-      "paired": 4,
+      "paired": 6,
       "aligned": 0,
-      "drifted": 3,
-      "broken": 1,
-      "missingInCode": 5,
+      "drifted": 4,
+      "broken": 2,
+      "missingInCode": 3,
       "missingInDesign": 0
     },
     "checks": {
-      "pass": 24,
-      "warn": 12,
-      "fail": 18
+      "pass": 31,
+      "warn": 20,
+      "fail": 36
     },
     "byCategory": {
       "Naming": {
-        "pass": 9,
-        "warn": 0,
-        "fail": 5
+        "pass": 12,
+        "warn": 1,
+        "fail": 6
       },
       "Properties": {
         "pass": 4,
-        "warn": 7,
-        "fail": 8
+        "warn": 14,
+        "fail": 25
       },
       "Tokens": {
         "pass": 1,
@@ -10255,26 +11626,39 @@
         "fail": 0
       },
       "Documentation": {
-        "pass": 6,
+        "pass": 10,
         "warn": 2,
         "fail": 0
       }
     },
     "byOwner": {
       "Design": {
-        "warn": 7,
-        "fail": 3
+        "warn": 9,
+        "fail": 4
       },
       "Dev": {
-        "warn": 1,
-        "fail": 8
+        "warn": 4,
+        "fail": 25
       },
       "Both": {
-        "warn": 4,
+        "warn": 7,
         "fail": 7
       }
     },
     "themes": [
+      {
+        "category": "Properties",
+        "title": "Figma property missing in code",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Date Picker",
+          "Radio Button",
+          "Select",
+          "Switch",
+          "Time Picker"
+        ]
+      },
       {
         "category": "Naming",
         "title": "Not built in Storybook",
@@ -10282,10 +11666,8 @@
         "owner": "Both",
         "components": [
           "Check Indicator",
-          "Date Picker",
           "Input",
-          "Password Criteria",
-          "Select"
+          "Password Criteria"
         ]
       },
       {
@@ -10300,14 +11682,13 @@
         ]
       },
       {
-        "category": "Properties",
-        "title": "Figma property missing in code",
+        "category": "Naming",
+        "title": "Component named differently in Figma and Storybook",
         "status": "fail",
-        "owner": "Dev",
+        "owner": "Both",
         "components": [
-          "Radio Button",
-          "Switch",
-          "Time Picker"
+          "Date Picker",
+          "Select"
         ]
       },
       {
@@ -10338,44 +11719,36 @@
         ]
       },
       {
+        "category": "Naming",
+        "title": "Semantic values filed under State",
+        "status": "fail",
+        "owner": "Design",
+        "components": [
+          "Select"
+        ]
+      },
+      {
         "category": "Properties",
         "title": "Code has props with no Figma property",
         "status": "warn",
         "owner": "Design",
         "components": [
           "Checkbox",
+          "Date Picker",
           "Radio Button",
+          "Select",
           "Switch",
           "Time Picker"
         ]
       },
       {
-        "category": "Documentation",
-        "title": "No description in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Radio Button",
-          "Time Picker"
-        ]
-      },
-      {
         "category": "Properties",
-        "title": "10 of 10 variants can't be shown in code",
+        "title": "24 of 24 variants can't be shown in code",
         "status": "warn",
         "owner": "Both",
         "components": [
-          "Radio Button",
-          "Switch"
-        ]
-      },
-      {
-        "category": "Rendering",
-        "title": "Console errors while rendering",
-        "status": "warn",
-        "owner": "Dev",
-        "components": [
-          "Checkbox"
+          "Date Picker",
+          "Select"
         ]
       }
     ],
@@ -10392,6 +11765,13 @@
           "Looks different from design",
           "Height differs from design",
           "Elements must meet minimum color contrast ratio thresholds"
+        ]
+      },
+      {
+        "name": "Select",
+        "key": "263:5381",
+        "reasons": [
+          "Text contrast is too low in Figma"
         ]
       }
     ],
@@ -10499,8 +11879,104 @@
         "category": "Naming",
         "subject": "name",
         "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/TimePicker, Data Entry/CalendarPicker. Rename it, or add it to components.aliases.",
+        "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "prop:Show Buttons",
+        "status": "fail",
+        "title": "Figma property \"Show Buttons\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "prop:Show Month and Year",
+        "status": "fail",
+        "title": "Figma property \"Show Month and Year\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "prop:Show Pagination",
+        "status": "fail",
+        "title": "Figma property \"Show Pagination\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "prop:Type",
+        "status": "fail",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "detail": "Values: Default, Today Selected, Day Selected, Date Range, Selecting Range",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "prop:Month",
+        "status": "fail",
+        "title": "Figma property \"Month\" has no equivalent in code",
+        "detail": "Values: One, Multiple",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "prop:Style",
+        "status": "fail",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "detail": "Values: Filled Background, No Background, No Stroke",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "title, description, selectionMode, monthMode, visible, footer, cancelText, confirmText, confirmButtonProps, cancelButtonProps, drawerProps, modalProps",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Date Picker",
+        "componentKey": "1617:15924",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "24 of 24 variants can't be shown in code",
+        "detail": "Type=Default, Month=Multiple, Style=Filled Background, Type=Today Selected, Type=Day Selected, Type=Date Range, Type=Selecting Range, Month=One, Style=No Background, Style=No Stroke",
         "owner": "Both",
         "brands": [],
         "variants": 0
@@ -10594,6 +12070,234 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Label",
+        "status": "fail",
+        "title": "Figma property \"Show Label\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Icon Left",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Icon Right",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Pill Right",
+        "status": "fail",
+        "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Pill Left",
+        "status": "fail",
+        "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Helper Text",
+        "status": "fail",
+        "title": "Figma property \"Show Helper Text\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Label",
+        "status": "warn",
+        "title": "Figma property \"Label\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Country Flag",
+        "status": "fail",
+        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Naming",
+        "subject": "prop:Show Placeholder",
+        "status": "warn",
+        "title": "Figma \"Show Placeholder\" is \"placeholder\" in code",
+        "detail": "Same words in a different order or form. Align the names so they map 1:1.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Selected Option",
+        "status": "warn",
+        "title": "Figma property \"Selected Option\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:content-left",
+        "status": "fail",
+        "title": "Figma property \"content-left\" has no equivalent in code",
+        "detail": "slot property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Show Label Icon",
+        "status": "fail",
+        "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Selected",
+        "status": "fail",
+        "title": "Figma property \"Selected\" has no equivalent in code",
+        "detail": "Values: False, Single, Multiple",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:State",
+        "status": "warn",
+        "title": "State values with no code equivalent: Error",
+        "detail": "Default → :rest · Hover → :hover · Error → missing · Disabled → disabled=true · Focus → :focus · Active → :active",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Naming",
+        "subject": "taxonomy:State",
+        "status": "fail",
+        "title": "Semantic values live under \"State\"",
+        "detail": "Error are semantic types, not interactive states. Use a \"Type\" property for them.",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "prop:Label Position",
+        "status": "fail",
+        "title": "Figma property \"Label Position\" has no equivalent in code",
+        "detail": "Values: Outside, Inside",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "dropdownMaxHeight, multiple, maxTagCount, value, defaultValue",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "24 of 24 variants can't be shown in code",
+        "detail": "Selected=False, Label Position=Outside, Label Position=Inside, Selected=Single, State=Error, Selected=Multiple",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -10605,18 +12309,6 @@
           "AeroBlue"
         ],
         "variants": 8
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/CalendarSelect, Data Entry/SelectInput, Data Entry/TimeSelect. Rename it, or add it to components.aliases.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
       },
       {
         "component": "Switch",
@@ -11080,5 +12772,120 @@
         "occurrences": 2
       }
     ]
+  },
+  "delta": {
+    "since": "2026-11-17T15:07:31.361Z",
+    "previousScore": 27,
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Date Picker",
+        "title": "Figma property \"Show Buttons\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Date Picker",
+        "title": "Figma property \"Show Month and Year\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Date Picker",
+        "title": "Figma property \"Show Pagination\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Date Picker",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Date Picker",
+        "title": "Figma property \"Month\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Date Picker",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Label\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Helper Text\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"content-left\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Selected\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Semantic values live under \"State\"",
+        "category": "Naming"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Label Position\" has no equivalent in code",
+        "category": "Properties"
+      }
+    ],
+    "fixed": []
   }
 }
