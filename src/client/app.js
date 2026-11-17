@@ -299,24 +299,44 @@
   let masonryFrame = 0;
   const sizeWatch = 'ResizeObserver' in window ? new ResizeObserver(() => { cancelAnimationFrame(masonryFrame); masonryFrame = requestAnimationFrame(layoutMasonry); }) : null;
   function layoutMasonry() {
-    const grid = $('grid');
-    const oneCol = getComputedStyle(grid).gridTemplateColumns.split(' ').length < 2;
-    grid.classList.toggle('masonry', !oneCol);
-    for (const el of grid.children) el.style.gridRowEnd = oneCol ? '' : 'span ' + Math.ceil((el.getBoundingClientRect().height + GAP) / ROW);
+    $('grid').querySelectorAll('.grid').forEach((grid) => {
+      const oneCol = getComputedStyle(grid).gridTemplateColumns.split(' ').length < 2;
+      grid.classList.toggle('masonry', !oneCol);
+      for (const el of grid.children) el.style.gridRowEnd = oneCol ? '' : 'span ' + Math.ceil((el.getBoundingClientRect().height + GAP) / ROW);
+    });
   }
   function masonry() {
-    if (sizeWatch) { sizeWatch.disconnect(); sizeWatch.observe($('grid')); for (const el of $('grid').children) sizeWatch.observe(el); }
+    if (sizeWatch) { sizeWatch.disconnect(); sizeWatch.observe($('grid')); $('grid').querySelectorAll('.grid > *').forEach((el) => sizeWatch.observe(el)); }
     layoutMasonry();
+  }
+  // Group checks the way the Figma library groups its pages (CORE COMPONENTS, IMAGES, OTHER), in Figma's order
+  const sentence = (s) => { const t = String(s || '').toLowerCase(); return t.charAt(0).toUpperCase() + t.slice(1); };
+  function figmaGroups(es) {
+    const groups = new Map();
+    es.forEach((e) => {
+      const g = e.place && e.place.group ? e.place.group : null;
+      const k = g || '~other';
+      if (!groups.has(k)) groups.set(k, { key: k, label: g ? sentence(g) : 'Other checks', order: Infinity, items: [] });
+      const grp = groups.get(k); grp.items.push(e);
+      if (e.place && e.place.order != null) grp.order = Math.min(grp.order, e.place.order);
+    });
+    const byOrder = (a, b) => ((a.place && a.place.order != null ? a.place.order : 1e9) - (b.place && b.place.order != null ? b.place.order : 1e9)) || String(a.name || a.id).localeCompare(String(b.name || b.id));
+    return [...groups.values()].sort((a, b) => a.order - b.order).map((g) => Object.assign(g, { items: g.items.sort(byOrder) }));
   }
 
   const openMenus = new Set(); const confirming = new Set(); const cardErrors = new Map();
   function renderChecks() {
-    const es = (status.entries || []).slice().sort((a, b) => (a.ok === true ? 0 : 1) - (b.ok === true ? 0 : 1) || (a.score == null ? 101 : a.score) - (b.score == null ? 101 : b.score));
+    const es = (status.entries || []).slice();
     $('count').textContent = es.length ? es.length : '';
     $('runAll').hidden = es.length < 2;
     const running = new Map(runs.filter((r) => r.state === 'waiting' || r.state === 'running' || r.state === 'publishing').map((r) => [r.checkId, r]));
     if (!es.length) { $('grid').innerHTML = '<div class="empty-state"><b>No checks yet</b>Paste a Figma page and its Storybook above to run the first one.</div>'; return; }
-    $('grid').innerHTML = es.map((e) => {
+    const groups = figmaGroups(es);
+    const plain = groups.length === 1 && groups[0].key === '~other';
+    $('grid').innerHTML = groups.map((g, gi) => (plain ? '<div class="group">' : '<section class="group" aria-labelledby="grp-' + gi + '"><div class="group-head"><h3 id="grp-' + gi + '">' + esc(g.label) + '</h3><span>' + g.items.length + ' ' + (g.items.length === 1 ? 'check' : 'checks') + '</span></div>') +
+      '<div class="grid">' + g.items.map(cardHtml).join('') + '</div>' + (plain ? '</div>' : '</section>')).join('');
+    masonry();
+    function cardHtml(e) {
       const isRunning = running.has(e.id);
       const name = esc(e.name || e.id);
       const menu = openMenus.has(e.id) ? '<div class="menu-list" role="menu">' + (e.figmaUrl ? '<a role="menuitem" href="' + esc(e.figmaUrl) + '" target="_blank" rel="noopener">Open in Figma</a>' : '') + (e.storybookUrl ? '<a role="menuitem" href="' + esc(e.storybookUrl) + '" target="_blank" rel="noopener">Open in Storybook</a>' : '') + (e.ok ? '<a role="menuitem" href="' + esc(e.id) + '/issues.csv">Download issues for Jira (CSV)</a>' : '') + '<button role="menuitem" class="danger" data-act="remove">Remove check</button></div>' : '';
@@ -345,8 +365,7 @@
       return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3><p class="sub">' + esc(e.headline || '') + '</p>' + tag + '</div>' +
         '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
         pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
-    }).join('');
-    masonry();
+    }
   }
 
   $('grid').addEventListener('click', async (ev) => {

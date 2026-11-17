@@ -100,6 +100,7 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
         score: s.score, headline: s.headline, counts: s.components, previousScore: results.delta?.previousScore ?? null,
         newFails: results.delta?.newFails?.length ?? 0, fixed: results.delta?.fixed?.length ?? 0, ranAt: results.meta.generatedAt,
         tokenSource: results.meta.figma.tokenSource, themes: s.themes.slice(0, 3).map((t) => t.title),
+        place: results.meta.figma.place ?? placeFromComponents(results.components),
         a11y: results.a11y ? { ran: results.a11y.ran, total: results.a11y.total, counts: results.a11y.counts, components: results.a11y.components, scans: results.a11y.scans, designChecks: results.a11y.designChecks, top: results.a11y.issues.slice(0, 3).map((i) => ({ title: i.title, impact: i.impact, owner: i.owner })) } : null,
       });
       delete entry.error;
@@ -138,4 +139,10 @@ function repoFromGit(dir) {
     if (m) return m[1];
   } catch { /* not a git folder */ }
   throw new Error('Could not tell which GitHub repository runs the checks. Set GITHUB_REPOSITORY=owner/repo.');
+}
+
+/** Where a check sits in the Figma library when its link wasn't a page or section: from its first component. */
+function placeFromComponents(components) {
+  const f = components.map((c) => c.figma).filter((x) => x && x.pageOrder != null).sort((a, b) => a.pageOrder - b.pageOrder)[0];
+  return f ? { group: f.group ?? null, section: f.section ?? null, order: f.pageOrder } : null;
 }

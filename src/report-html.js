@@ -56,7 +56,7 @@ ${FONTS}
   <section id="components" class="sec" aria-labelledby="comp-h">
     <div class="sec-head row"><h2 id="comp-h">Components</h2><label class="search"><span class="sr">Find a component</span><input type="search" id="q" placeholder="Find a component"></label></div>
     <div class="chips" id="chips" role="group" aria-label="Filter components by status"></div>
-    <div id="list" class="list"></div>
+    <div id="list" class="pages"></div>
   </section>
 
   <section id="tokens" class="sec" aria-labelledby="tok-h">
@@ -226,6 +226,9 @@ code{font:12.5px/1.4 var(--mono);background:var(--line-2);padding:2px 6px;border
 
 /* components */
 .list{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);overflow:hidden}
+.pages{display:flex;flex-direction:column;gap:22px}
+.pg-h{font:700 16px/1.3 var(--display);margin:0 0 10px;display:flex;align-items:baseline;gap:10px}
+.pg-h span{font:400 13.5px var(--text);color:var(--ink-3)}
 .comp{border-top:1px solid var(--line-2);scroll-margin-top:118px}
 .comp:first-child{border-top:0}
 .comp>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr) auto auto 20px;gap:18px;align-items:center;padding:14px 20px}
@@ -444,18 +447,32 @@ $('chips').innerHTML = ['<button class="chip" data-s="" aria-pressed="true">All 
 $('chips').onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; state.s = b.dataset.s; $('chips').querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); render(); };
 $('q').oninput = (e) => { state.q = e.target.value.toLowerCase(); render(); };
 
+function rowHtml(c) {
+  const f = c.checks.filter((x) => x.status === 'fail').length, w = c.checks.filter((x) => x.status === 'warn').length;
+  const counts = [f && f + ' failing', w && plural(w, 'warning')].filter(Boolean).join(', ');
+  const g = (c.gallery || []).find((x) => x.figma) || (c.gallery || []).find((x) => x.code);
+  const thumb = '<span class="thumb' + (g ? '' : ' none') + '" aria-hidden="true">' + (g ? '<img loading="lazy" alt="" src="' + esc(g.figma || g.code) + '">' : '') + '</span>';
+  return '<details class="comp" id="c-' + esc(c.key) + '" data-key="' + esc(c.key) + '"><summary>' + thumb + '<span class="nm">' + esc(c.name) + '<small>' + esc(c.code ? c.code.title : 'Only in Figma') + (counts ? ', ' + counts : '') + '</small></span>' +
+    '<span class="st"><i class="s-' + CLS[c.status] + '"></i>' + LABEL[c.status] + '</span>' +
+    '<span class="sc">' + (c.score != null ? c.score + '%' : '') + '</span></summary><div class="body"></div></details>';
+}
+// Components sit under their Figma page, in the order the library has them
+function pagesOf(items) {
+  const m = new Map();
+  for (const c of items) {
+    const k = c.figma ? (c.figma.page || 'Other') : 'Only in Storybook';
+    if (!m.has(k)) m.set(k, { name: k, order: c.figma ? (c.figma.pageOrder != null ? c.figma.pageOrder : 1e8) : 1e9, items: [] });
+    m.get(k).items.push(c);
+  }
+  const at = (c) => (c.figma && c.figma.order != null ? c.figma.order : 1e9);
+  return [...m.values()].sort((a, b) => a.order - b.order || a.name.localeCompare(b.name)).map((p) => Object.assign(p, { items: p.items.sort((a, b) => at(a) - at(b) || a.name.localeCompare(b.name)) }));
+}
 function render() {
-  const items = R.components.filter((c) => (!state.s || c.status === state.s) && (!state.q || (c.name + ' ' + (c.code ? c.code.title : '')).toLowerCase().includes(state.q)))
-    .sort((a, b) => ORDER[a.status] - ORDER[b.status] || (a.score ?? 101) - (b.score ?? 101) || a.name.localeCompare(b.name));
-  $('list').innerHTML = items.length ? items.map((c) => {
-    const f = c.checks.filter((x) => x.status === 'fail').length, w = c.checks.filter((x) => x.status === 'warn').length;
-    const counts = [f && f + ' failing', w && plural(w, 'warning')].filter(Boolean).join(', ');
-    const g = (c.gallery || []).find((x) => x.figma) || (c.gallery || []).find((x) => x.code);
-    const thumb = '<span class="thumb' + (g ? '' : ' none') + '" aria-hidden="true">' + (g ? '<img loading="lazy" alt="" src="' + esc(g.figma || g.code) + '">' : '') + '</span>';
-    return '<details class="comp" id="c-' + esc(c.key) + '" data-key="' + esc(c.key) + '"><summary>' + thumb + '<span class="nm">' + esc(c.name) + '<small>' + esc(c.code ? c.code.title : 'Only in Figma') + (counts ? ', ' + counts : '') + '</small></span>' +
-      '<span class="st"><i class="s-' + CLS[c.status] + '"></i>' + LABEL[c.status] + '</span>' +
-      '<span class="sc">' + (c.score != null ? c.score + '%' : '') + '</span></summary><div class="body"></div></details>';
-  }).join('') : '<p class="empty">No components match.</p>';
+  const items = R.components.filter((c) => (!state.s || c.status === state.s) && (!state.q || (c.name + ' ' + (c.code ? c.code.title : '') + ' ' + (c.figma ? c.figma.page : '')).toLowerCase().includes(state.q)));
+  if (!items.length) { $('list').innerHTML = '<p class="empty list">No components match.</p>'; return; }
+  const pages = pagesOf(items);
+  $('list').innerHTML = pages.length < 2 ? '<div class="list">' + pages[0].items.map(rowHtml).join('') + '</div>'
+    : pages.map((p) => '<div class="pgroup"><h3 class="pg-h">' + esc(p.name) + ' <span>' + plural(p.items.length, 'component') + '</span></h3><div class="list">' + p.items.map(rowHtml).join('') + '</div></div>').join('');
 }
 document.addEventListener('toggle', (e) => {
   const d = e.target; if (!d.classList || !d.classList.contains('comp') || !d.open) return;

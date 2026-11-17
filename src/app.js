@@ -75,7 +75,7 @@ ${FONTS}
       <h2 id="checksTitle" tabindex="-1">Checks <span id="count"></span></h2>
       <button class="btn ghost" id="runAll" type="button" hidden>Run all checks</button>
     </div>
-    <div class="grid" id="grid"><div class="empty-state"><b>Loading checks</b></div></div>
+    <div class="groups" id="grid"><div class="empty-state"><b>Loading checks</b></div></div>
   </section>
 </main>
 

@@ -100,6 +100,10 @@
 #count{font-weight:500;color:var(--ink-3);font-family:var(--text);font-size:18px;margin-left:4px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,500px),1fr));gap:20px;align-items:start}
 .grid.masonry{grid-auto-rows:4px;row-gap:0}
+.groups{display:flex;flex-direction:column;gap:40px}
+.group-head{display:flex;align-items:baseline;gap:12px;margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.group-head h3{font:700 18px/1.2 var(--display);letter-spacing:-.01em;margin:0}
+.group-head span{font-size:13.5px;color:var(--ink-3)}
 .grid.masonry>*{margin-bottom:20px}
 .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);padding:22px 22px 16px;display:flex;flex-direction:column;gap:16px;position:relative;box-shadow:var(--shadow);min-width:0}
 .card-head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:start}

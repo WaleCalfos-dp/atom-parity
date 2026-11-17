@@ -205,7 +205,7 @@ export async function manifestFromFigmaUrl(url, cfg, { token = process.env.FIGMA
       components.push({
         id: node.id, key: meta?.key ?? null, name: node.name, type: node.type,
         page: pageMeta ? cleanPageName(pageMeta.name) : null,
-        group: sections[id]?.group ?? null, section: sections[id]?.section ?? null,
+        group: sections[id]?.group ?? null, section: sections[id]?.section ?? null, pageOrder: pages.findIndex((p) => p.id === id),
         description: meta?.description ?? node.description ?? '', docLinks: (meta?.documentationLinks ?? []).map((l) => l.uri),
         properties, variants,
       });
@@ -238,6 +238,9 @@ export async function manifestFromFigmaUrl(url, cfg, { token = process.env.FIGMA
     exportedAt: new Date().toISOString(), exportedBy: null,
     file: { name: file.name, key: fileKey, lastModified: file.lastModified },
     scope, scopeLabel, figmaUrl: url,
+    // Where this check sits in the library, so results can be grouped the way Figma groups them
+    place: divider ? { group: divider.name.includes('━') ? scopeLabel : sections[roots[0]]?.group ?? null, section: divider.name.includes('━') ? null : scopeLabel, order: pages.indexOf(divider) }
+      : scope === 'page' ? { group: sections[nodeId]?.group ?? null, section: sections[nodeId]?.section ?? null, order: pages.findIndex((p) => p.id === nodeId) } : null,
     brandCollection: snapshot?.brandCollection ?? { name: null, modes: [{ name: defaultBrand }], defaultMode: defaultBrand },
     brands: snapshot?.brands ?? (cfg.brands?.figmaBrands?.length ? cfg.brands.figmaBrands : [defaultBrand]),
     renderScale: 2,

@@ -207,7 +207,7 @@ export async function run(cfg, opts = {}) {
       const list = checks.list();
       components.push({
         key: pair.figma.id, name: pair.figma.name, status: statusOf(list), score: scoreOf(list), match: pair.how,
-        figma: { id: pair.figma.id, name: pair.figma.name, page: pair.figma.page, section: pair.figma.section, variants: pair.figma.variants.length, url: manifest.file?.key ? `https://www.figma.com/design/${manifest.file.key}/?node-id=${pair.figma.id.replace(':', '-')}` : null },
+        figma: { id: pair.figma.id, name: pair.figma.name, page: pair.figma.page, section: pair.figma.section, group: pair.figma.group ?? null, order: manifest.components.indexOf(pair.figma), pageOrder: pair.figma.pageOrder ?? null, variants: pair.figma.variants.length, url: manifest.file?.key ? `https://www.figma.com/design/${manifest.file.key}/?node-id=${pair.figma.id.replace(':', '-')}` : null },
         code: { title: pair.code.title, stories: pair.code.stories.length, story: plan.story?.id ?? null, url: plan.story ? `${sb.base}?path=/story/${plan.story.id}` : null },
         props: propMatch, checks: list, gallery: gallery.sort((a, b) => (b.mismatch ?? -1) - (a.mismatch ?? -1)).slice(0, 48),
         rendered: plan.variants.length, unmapped: plan.unmapped.length,
@@ -219,7 +219,7 @@ export async function run(cfg, opts = {}) {
       checks.add({ category: 'Naming', subject: 'name', label: 'Component', status: 'fail', owner: 'Both', title: 'Not found in Storybook',
         detail: m.suggestions.length ? `Possible matches: ${m.suggestions.map((s) => s.title).join(', ')}. Rename it, or add it to components.aliases.` : 'No similar component in Storybook' });
       components.push({ key: m.figma.id, name: m.figma.name, status: 'Missing in code', score: 0, match: null, suggestions: m.suggestions,
-        figma: { id: m.figma.id, name: m.figma.name, page: m.figma.page, section: m.figma.section, variants: m.figma.variants.length, url: manifest.file?.key ? `https://www.figma.com/design/${manifest.file.key}/?node-id=${m.figma.id.replace(':', '-')}` : null },
+        figma: { id: m.figma.id, name: m.figma.name, page: m.figma.page, section: m.figma.section, group: m.figma.group ?? null, order: manifest.components.indexOf(m.figma), pageOrder: m.figma.pageOrder ?? null, variants: m.figma.variants.length, url: manifest.file?.key ? `https://www.figma.com/design/${manifest.file.key}/?node-id=${m.figma.id.replace(':', '-')}` : null },
         code: null, checks: checks.list(), gallery: [] });
     }
     for (const p of orphanPlans) {
@@ -247,7 +247,7 @@ export async function run(cfg, opts = {}) {
       meta: {
         generatedAt: new Date().toISOString(), durationMs: Date.now() - t0,
         storybook: { url: cfg.storybookUrl, base: sb.base, brandGlobal: sb.brandGlobal, brands: sb.brands, renderer: sb.renderer, components: codeComps.length },
-        figma: { file: manifest.file, exportedAt: manifest.exportedAt, exportedBy: manifest.exportedBy, brands: manifest.brands, components: figmaComps.length, renderScale: manifest.renderScale, source: manifest.source ?? 'plugin', url: manifest.figmaUrl ?? null, scope: manifest.scope ?? 'file', scopeLabel: manifest.scopeLabel ?? null, tokenSource: manifest.tokenSource ?? (manifest.source ? null : { exportedAt: manifest.exportedAt, stale: false }) },
+        figma: { file: manifest.file, exportedAt: manifest.exportedAt, exportedBy: manifest.exportedBy, brands: manifest.brands, components: figmaComps.length, renderScale: manifest.renderScale, source: manifest.source ?? 'plugin', url: manifest.figmaUrl ?? null, scope: manifest.scope ?? 'file', scopeLabel: manifest.scopeLabel ?? null, place: manifest.place ?? null, tokenSource: manifest.tokenSource ?? (manifest.source ? null : { exportedAt: manifest.exportedAt, stale: false }) },
         jobs: jobs.length, viewport: cfg.viewport, only: opts.only ?? null, figmaScope: manifest.scope ?? 'file',
       },
       brands: { pairs: brandMatch.pairs, onlyInCode: brandMatch.onlyInCode, default: defaultBrand?.figma ?? null },
