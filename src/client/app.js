@@ -1,7 +1,9 @@
 /* Atom parity — web app. Talks to the GitHub API with a key stored in this browser only. */
 (function () {
   'use strict';
-  const REPO = window.ATOM_PARITY.repo;
+  // Which GitHub repository runs the checks. Falls back to the site address (owner.github.io/repo).
+  const fromHost = /\.github\.io$/i.test(location.hostname) && location.pathname.split('/')[1] ? location.hostname.split('.')[0] + '/' + location.pathname.split('/')[1] : null;
+  const REPO = (window.ATOM_PARITY && window.ATOM_PARITY.repo) || fromHost;
   const WORKFLOW = 'atom-parity.yml';
   const API = 'https://api.github.com/repos/' + REPO;
   const $ = (id) => document.getElementById(id);
@@ -82,6 +84,7 @@
 
   // ------------------------------------------------------------- start runs
   async function dispatch(inputs, label, checkId) {
+    if (!REPO) return "This page doesn't know which GitHub repository runs the checks. Republish the site from GitHub Actions.";
     if (!key) { pendingAfterConnect = () => dispatch(inputs, label, checkId); openConnect('Connect GitHub once to run checks from this browser.'); return 'later'; }
     const req = Math.random().toString(36).slice(2, 10);
     const r = await fetch(API + '/actions/workflows/' + WORKFLOW + '/dispatches', {
@@ -306,7 +309,7 @@
     layoutMasonry();
   }
 
-  const openMenus = new Set(); const confirming = new Set();
+  const openMenus = new Set(); const confirming = new Set(); const cardErrors = new Map();
   function renderChecks() {
     const es = (status.entries || []).slice().sort((a, b) => (a.ok === true ? 0 : 1) - (b.ok === true ? 0 : 1) || (a.score == null ? 101 : a.score) - (b.score == null ? 101 : b.score));
     $('count').textContent = es.length ? es.length : '';
@@ -322,12 +325,13 @@
         '<button class="iconbtn" data-act="run" aria-label="Run ' + name + ' again" title="Run again"' + (isRunning ? ' disabled' : '') + '>' + ICON.rerun + '</button>' +
         '<div class="menu"><button class="iconbtn" data-act="menu" aria-haspopup="menu" aria-expanded="' + openMenus.has(e.id) + '" aria-label="More for ' + name + '">' + ICON.more + '</button>' + menu + '</div></div>';
       const confirm = confirming.has(e.id) ? '<div class="confirm" role="alertdialog" aria-label="Remove ' + name + '"><p>Remove <b>' + name + '</b> and its report? Nightly runs stop too.</p><button class="btn small danger" data-act="remove-yes">Remove</button><button class="btn small ghost" data-act="remove-no">Keep</button></div>' : '';
-      const tag = isRunning ? '<div class="running-tag">Running now</div>' : '';
+      const tag = (isRunning ? '<div class="running-tag">' + (running.get(e.id).kind === 'remove' ? 'Removing' : 'Running now') + '</div>' : '');
+      const cardErr = cardErrors.has(e.id) ? '<p class="err" role="alert">' + esc(cardErrors.get(e.id)) + '</p>' : '';
       if (e.ok === false) {
-        return '<article class="card failed" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="err">Couldn’t run: ' + esc(e.error) + '</p>' + confirm + foot + '</article>';
+        return '<article class="card failed" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="err">Couldn’t run: ' + esc(e.error) + '</p>' + cardErr + confirm + foot + '</article>';
       }
       if (!e.ok) {
-        return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="pending">' + (isRunning ? 'The first report is on its way.' : 'Not run yet.') + '</p>' + confirm + foot + '</article>';
+        return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="pending">' + (isRunning ? 'The first report is on its way.' : 'Not run yet.') + '</p>' + cardErr + confirm + foot + '</article>';
       }
       const k = countsOf(e.counts || {});
       const d = e.previousScore != null && e.score !== e.previousScore ? e.score - e.previousScore : null;
@@ -339,7 +343,7 @@
       const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i class="s-' + s[0] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
       return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3><p class="sub">' + esc(e.headline || '') + '</p>' + tag + '</div>' +
         '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
-        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + confirm + foot + '</article>';
+        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
     }).join('');
     masonry();
   }
@@ -350,14 +354,14 @@
     const act = b.dataset.act;
     if (act === 'menu') { if (openMenus.has(id)) openMenus.delete(id); else { openMenus.clear(); openMenus.add(id); } renderChecks(); return; }
     openMenus.clear();
-    if (act === 'run') { const r = await dispatch({ check_id: id }, e.name || id, id); if (typeof r === 'string' && r !== 'later') flash(card, r); }
+    cardErrors.delete(id);
+    if (act === 'run') { b.disabled = true; const r = await dispatch({ check_id: id }, e.name || id, id); if (typeof r === 'string' && r !== 'later') cardErrors.set(id, "Couldn't start the check. " + r); renderChecks(); }
     if (act === 'remove') { confirming.add(id); renderChecks(); }
     if (act === 'remove-no') { confirming.delete(id); renderChecks(); }
-    if (act === 'remove-yes') { confirming.delete(id); const r = await dispatch({ remove_id: id }, e.name || id, id); if (typeof r === 'string' && r !== 'later') flash(card, r); renderChecks(); }
+    if (act === 'remove-yes') { b.disabled = true; b.textContent = 'Removing…'; const r = await dispatch({ remove_id: id }, e.name || id, id); confirming.delete(id); if (typeof r === 'string' && r !== 'later') cardErrors.set(id, "Couldn't remove the check. " + r); renderChecks(); }
   });
   document.addEventListener('click', (ev) => { if (openMenus.size && !ev.target.closest('.menu')) { openMenus.clear(); renderChecks(); } });
   document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape' && openMenus.size) { openMenus.clear(); renderChecks(); } });
-  function flash(card, msg) { const p = document.createElement('p'); p.className = 'err'; p.setAttribute('role', 'alert'); p.textContent = msg; card.insertBefore(p, card.querySelector('.foot')); }
   $('runAll').addEventListener('click', () => dispatch({}, 'All checks', null));
 
   // ------------------------------------------------------------- start

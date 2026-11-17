@@ -1,3 +1,4 @@
+import { execFileSync } from 'node:child_process';
 // Saved checks (checks.json) → one report per check + an index page listing them all.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -59,7 +60,7 @@ export function writeSite({ checksFile, siteDir, entries = [], statusFrom, repo 
   const merged = checks.map((c) => fresh.get(c.id) ?? (old.get(c.id) ? { ...old.get(c.id), name: c.name ?? old.get(c.id).name, figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl } : { id: c.id, name: c.name, figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, ok: null }));
   fs.mkdirSync(siteDir, { recursive: true });
   writeJson(path.join(siteDir, 'checks-status.json'), { generatedAt: new Date().toISOString(), entries: merged });
-  fs.writeFileSync(path.join(siteDir, 'index.html'), appHtml({ repo: repo ?? process.env.GITHUB_REPOSITORY ?? null }));
+  fs.writeFileSync(path.join(siteDir, 'index.html'), appHtml({ repo: repo ?? process.env.GITHUB_REPOSITORY ?? repoFromGit(path.dirname(checksFile)) }));
   writeClient(siteDir);
   fs.writeFileSync(path.join(siteDir, '.nojekyll'), '');
   return merged;
@@ -111,3 +112,13 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
   return entries;
 }
 
+
+/** owner/repo from the git remote next to the saved checks, so a local publish knows where checks run. */
+function repoFromGit(dir) {
+  try {
+    const url = execFileSync('git', ['-C', dir, 'config', '--get', 'remote.origin.url'], { encoding: 'utf8' }).trim();
+    const m = url.match(/github\.com[:/]([^/]+\/[^/.]+?)(?:\.git)?$/);
+    if (m) return m[1];
+  } catch { /* not a git folder */ }
+  throw new Error('Could not tell which GitHub repository runs the checks. Set GITHUB_REPOSITORY=owner/repo.');
+}

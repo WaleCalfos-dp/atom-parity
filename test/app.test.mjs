@@ -37,12 +37,14 @@ const errors = []; page.on('pageerror', (e) => errors.push(e.message)); page.on(
 // A stale failed run saved by the old page must not appear
 await page.addInitScript(() => { if (!sessionStorage.getItem('seeded')) { localStorage.setItem('ap.runs', JSON.stringify([{ req: 'old12345', label: 'New check', startedAt: Date.now() - 60000, state: 'failed', step: "GitHub didn't start the check" }])); sessionStorage.setItem('seeded', '1'); } });
 
-const gh = { dispatched: [], req: null, polls: 0 };
+const gh = { dispatched: [], req: null, polls: 0, failNext: 0 };
 await page.route('https://api.github.com/**', async (route) => {
   const u = new URL(route.request().url());
   const authz = route.request().headers().authorization;
   const json = (body, status = 200) => route.fulfill({ status, contentType: 'application/json', body: JSON.stringify(body) });
   if (u.pathname.endsWith('/actions/workflows/atom-parity.yml') && route.request().method() === 'GET') return authz === 'Bearer good-key' ? json({ id: 1 }) : json({ message: 'Bad credentials' }, 401);
+  if (u.pathname.endsWith('/dispatches') && gh.failNext) { gh.failNext--; return json({ message: 'Server Error' }, 500); }
+  if (!u.pathname.startsWith('/repos/WaleCalfos-dp/atom-parity/')) return json({ message: 'Not Found' }, 404);
   if (u.pathname.endsWith('/dispatches')) { const b = JSON.parse(route.request().postData()); gh.dispatched.push(b); gh.req = b.inputs.request_id; gh.polls = 0; return route.fulfill({ status: 204 }); }
   if (u.pathname.endsWith('/runs')) return json({ workflow_runs: gh.req ? [{ id: 77, status: gh.polls < 2 ? 'queued' : 'in_progress', created_at: new Date().toISOString(), display_title: gh.polls < 2 ? 'Atom parity' : `Buttons [${gh.req}]` }] : [] });
   if (u.pathname.endsWith('/runs/77')) { gh.polls++; return json({ id: 77, html_url: 'https://github.com/x/runs/77', status: gh.polls < 2 ? 'queued' : gh.polls > 3 ? 'completed' : 'in_progress', conclusion: gh.polls > 3 ? 'success' : null }); }
@@ -86,6 +88,16 @@ assert.equal(await page.locator('.run').count(), 0, 'dismissed');
 await page.fill('#figma', 'https://example.com/x'); await page.click('#runBtn');
 assert.match(await page.textContent('#formErr'), /Figma design link/);
 await page.fill('#figma', '');
+
+// A failed remove shows an error on the card that stays visible
+gh.failNext = 1;
+await page.click('.card [data-act="menu"]');
+await page.click('.menu-list [data-act="remove"]');
+await page.click('.confirm [data-act="remove-yes"]');
+await page.waitForSelector('.card .err >> text=/Couldn.t remove/');
+assert.match(await page.locator('.card .err', { hasText: "Couldn't remove" }).textContent(), /Couldn't remove the check\. GitHub said 500/);
+await page.waitForTimeout(500);
+assert.equal(await page.locator('.card .err', { hasText: "Couldn't remove" }).count(), 1, 'error stays visible');
 
 // Menu → remove → confirm
 await page.click('.card [data-act="menu"]');
