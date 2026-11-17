@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T10:47:07.385Z",
-    "durationMs": 71978,
+    "generatedAt": "2026-11-17T14:51:48.795Z",
+    "durationMs": 67876,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T10:34:23Z"
+        "lastModified": "2026-11-17T13:49:53Z"
       },
-      "exportedAt": "2026-11-17T10:46:08.853Z",
+      "exportedAt": "2026-11-17T14:50:54.141Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -48,6 +48,8 @@
       "renderScale": 2,
       "source": "figma-rest",
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
+      "scope": "page",
+      "scopeLabel": null,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -4075,7 +4077,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-16T16:29:45.112Z",
+    "since": "2026-11-17T10:47:07.385Z",
     "previousScore": 45,
     "newFails": [],
     "fixed": []

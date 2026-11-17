@@ -1,0 +1,13 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Lightbox Image Viewer: Not found in Storybook","Possible matches: Basics/Image, Media/ImageViewer. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8469-708
+Report: https://walecalfos-dp.github.io/atom-parity/images/#c-8469%3A708
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Product Images: Not found in Storybook","Possible matches: Basics/Image. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8468-8021
+Report: https://walecalfos-dp.github.io/atom-parity/images/#c-8468%3A8021
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"

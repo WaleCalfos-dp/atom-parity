@@ -1,0 +1,224 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Check Indicator: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7342
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-13003%3A7342
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Checkbox: Code has props with no Figma property","indeterminate, block, defaultChecked
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+"[Atom parity] Checkbox: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+Brands: Dragonpass, Mastercard, Investec, AeroBlue
+Variants: State=Focus, Checked=False; State=Focus, Checked=True; State=Disabled, Checked=False; State=Default, Checked=True; State=Disabled, Checked=True; State=Hover, Checked=False; State=Hover, Checked=True; State=Default, Checked=False
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-rendering owner-dev","Atom Design System"
+"[Atom parity] Checkbox: Looks different from design","26.1% of pixels differ
+
+Brands: Dragonpass
+Variants: State=Focus, Checked=False; State=Focus, Checked=True; State=Hover, Checked=True; State=Pressed, Checked=True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-visual owner-both","Atom Design System"
+"[Atom parity] Checkbox: Height differs from design","Design 28px · Code 20px
+
+Brands: Dragonpass
+Variants: State=Focus, Checked=False; State=Focus, Checked=True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-visual owner-both","Atom Design System"
+"[Atom parity] Checkbox: Width differs from design","Design 28px · Code 20px
+
+Brands: Dragonpass
+Variants: State=Focus, Checked=False; State=Focus, Checked=True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-visual owner-both","Atom Design System"
+"[Atom parity] Checkbox: Elements must meet minimum color contrast ratio thresholds","serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
+
+Brands: AeroBlue
+Variants: State=Default, Checked=True; State=Default, Checked=False
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Date Picker: Not found in Storybook","Possible matches: Data Entry/TimePicker, Data Entry/CalendarPicker. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-1617%3A15924
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Input: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
+
+Brands: Dragonpass
+Variants: Type=Basic, Label Position=Outside, State=Default, Filled=No; Type=Basic, Label Position=Outside, State=Hover, Filled=No; Type=Basic, Label Position=Outside, State=Focus, Filled=No; Type=Basic, Label Position=Outside, State=Error, Filled=No; Type=Basic, Label Position=Inside, State=Focus, Filled=No; Type=Text Area, Label Position=Outside, State=Default, Filled=No; Type=Text Area, Label Position=Outside, State=Hover, Filled=No; Type=Text Area, Label Position=Outside, State=Focus, Filled=No (+25 more)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=269-9758
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-269%3A9758
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Input: Not found in Storybook","Possible matches: Data Entry/IntlTelInput, Data Entry/LabelInput, Data Entry/PinInput. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=269-9758
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-269%3A9758
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Password Criteria: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=443-14487
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-443%3A14487
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Radio Button: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7343
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-radio-button--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-13003%3A7343
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-documentation owner-design","Atom Design System"
+"[Atom parity] Radio Button: Figma property ""Active"" has no equivalent in code","Values: False, True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7343
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-radio-button--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-13003%3A7343
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Radio Button: Code has props with no Figma property","label, checked, allowClear, defaultChecked, prefix, suffix, role
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7343
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-radio-button--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-13003%3A7343
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+"[Atom parity] Radio Button: 10 of 10 variants can't be shown in code","Active=False, Active=True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7343
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-radio-button--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-13003%3A7343
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+"[Atom parity] Select: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
+
+Brands: Dragonpass, AeroBlue
+Variants: Selected=False, State=Default, Label Position=Outside; Selected=False, State=Hover, Label Position=Outside; Selected=False, State=Error, Label Position=Outside; Selected=False, State=Error, Label Position=Inside; Selected=False, State=Focus, Label Position=Outside; Selected=False, State=Active, Label Position=Outside; Selected=Single, State=Error, Label Position=Inside; Selected=Multiple, State=Error, Label Position=Inside
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Select: Not found in Storybook","Possible matches: Data Entry/CalendarSelect, Data Entry/SelectInput, Data Entry/TimeSelect. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Switch: Figma property ""Show Label"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Switch: Figma property ""On"" has no equivalent in code","Values: True, False
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Switch: Code has props with no Figma property","type, checked, loading, checkedText, uncheckedText, defaultChecked
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+"[Atom parity] Switch: 10 of 10 variants can't be shown in code","On=False, On=True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+"[Atom parity] Switch: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
+
+Brands: AeroBlue, Visa Affluent
+Variants: State=Hover, On=False; State=Pressed, On=False; State=Hover, On=True; State=Pressed, On=True
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Time Picker: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-documentation owner-design","Atom Design System"
+"[Atom parity] Time Picker: Figma property ""Show Buttons"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Time Picker: Figma property ""Show Before Time"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Time Picker: Figma property ""Show Current Time"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Time Picker: Figma property ""Show After Time"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Time Picker: Figma property ""Type"" has no equivalent in code","Values: Time Slots, Specific Time
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Time Picker: Code has props with no Figma property","title, description, visible, footer, cancelText, confirmText, value, defaultValue, min, max, interval, format, mouseWheel, drawerProps, modalProps
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+"[Atom parity] Time Picker: 2 of 2 variants can't be shown in code","Type=Specific Time, Type=Time Slots
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057
+
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"

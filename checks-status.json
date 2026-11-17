@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-17T14:07:27.062Z",
+  "generatedAt": "2026-11-17T15:15:46.893Z",
   "entries": [
     {
       "id": "buttons",
       "name": "Buttons",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=450-396167",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T10:44:22.126Z",
+      "ranAt": "2026-11-17T14:49:12.686Z",
       "ok": true,
       "history": [
         {
@@ -23,6 +23,10 @@
         },
         {
           "at": "2026-11-17T10:44:22.126Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-17T14:49:12.686Z",
           "score": 15
         }
       ],
@@ -117,7 +121,7 @@
       "name": "Typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=706-47512",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/basics-text--docs",
-      "ranAt": "2026-11-17T10:45:55.385Z",
+      "ranAt": "2026-11-17T14:50:40.893Z",
       "ok": true,
       "history": [
         {
@@ -134,6 +138,10 @@
         },
         {
           "at": "2026-11-17T10:45:55.385Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-17T14:50:40.893Z",
           "score": 0
         }
       ],
@@ -204,7 +212,7 @@
       "name": "Alert",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1333-30321",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/docs/system-feedback-alert--docs",
-      "ranAt": "2026-11-17T10:47:07.385Z",
+      "ranAt": "2026-11-17T14:51:48.795Z",
       "ok": true,
       "history": [
         {
@@ -221,6 +229,10 @@
         },
         {
           "at": "2026-11-17T10:47:07.385Z",
+          "score": 45
+        },
+        {
+          "at": "2026-11-17T14:51:48.795Z",
           "score": 45
         }
       ],
@@ -282,11 +294,15 @@
       "name": "Tag",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1885-4061",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component",
-      "ranAt": "2026-11-17T14:07:26.671Z",
+      "ranAt": "2026-11-17T14:53:27.548Z",
       "ok": true,
       "history": [
         {
           "at": "2026-11-17T14:07:26.671Z",
+          "score": 54
+        },
+        {
+          "at": "2026-11-17T14:53:27.548Z",
           "score": 54
         }
       ],
@@ -310,7 +326,7 @@
         "missingInCode": 0,
         "missingInDesign": 0
       },
-      "previousScore": null,
+      "previousScore": 54,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -338,6 +354,810 @@
           {
             "title": "Text contrast is too low in Figma",
             "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T14:56:11.541Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T14:56:11.541Z",
+          "score": 21
+        }
+      ],
+      "preview": {
+        "component": "Button",
+        "status": "Broken",
+        "variant": "Type=Primary, Size=Large, State=Disabled",
+        "brand": "AeroBlue",
+        "mismatch": 0.940158507223114,
+        "figma": "actions/assets/figma/1454779814547853aero-blue.png",
+        "code": "actions/assets/code/1454779814547853aero-blue.png"
+      },
+      "components": [
+        {
+          "name": "Button",
+          "status": "Broken",
+          "score": 59
+        },
+        {
+          "name": "Button Group",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "CTA with Content",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Icon Button",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Button",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Quantity Stepper",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Social Button",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Stepper",
+          "status": "Broken",
+          "score": 50
+        },
+        {
+          "name": "Tag",
+          "status": "Broken",
+          "score": 54
+        },
+        {
+          "name": "Toast",
+          "status": "Drifted",
+          "score": 46
+        }
+      ],
+      "score": 21,
+      "headline": "0 of 10 Figma components match Storybook. 1 has drifted, 3 are broken and 6 aren't built yet.",
+      "counts": {
+        "total": 10,
+        "figma": 10,
+        "paired": 4,
+        "aligned": 0,
+        "drifted": 1,
+        "broken": 3,
+        "missingInCode": 6,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Text contrast is too low in Figma",
+        "Property named differently in Figma and code"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 3,
+        "counts": {
+          "critical": 1,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 5,
+        "scans": 52,
+        "designChecks": 249,
+        "top": [
+          {
+            "title": "Button has no accessible name",
+            "impact": "critical",
+            "owner": "Dev"
+          },
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
+            "owner": "Design"
+          },
+          {
+            "title": "Text contrast is too low in Storybook",
+            "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "system-feedback",
+      "name": "System feedback",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T14:59:07.108Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T14:59:07.108Z",
+          "score": 14
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Alert",
+          "status": "Drifted",
+          "score": 45
+        },
+        {
+          "name": "Dialog",
+          "status": "Drifted",
+          "score": 40
+        },
+        {
+          "name": "Journey Wizard",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Loading Indicator",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Loading Modal",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Progress Bar / Animated",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Progress Bar / Percentage",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Progress Bar / Steps",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Progress Bar / Tracker",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Tooltip",
+          "status": "Drifted",
+          "score": 53
+        }
+      ],
+      "score": 14,
+      "headline": "0 of 10 Figma components match Storybook. 3 have drifted and 7 aren't built yet.",
+      "counts": {
+        "total": 10,
+        "figma": 10,
+        "paired": 3,
+        "aligned": 0,
+        "drifted": 3,
+        "broken": 0,
+        "missingInCode": 7,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Figma property missing in code",
+        "Property named differently in Figma and code"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 1,
+          "minor": 0
+        },
+        "components": 4,
+        "scans": 0,
+        "designChecks": 251,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "moderate",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "data-display",
+      "name": "Data display",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T15:03:38.782Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:03:38.782Z",
+          "score": 22
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Accordion",
+          "status": "Broken",
+          "score": 36
+        },
+        {
+          "name": "Badge",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Content Block",
+          "status": "Drifted",
+          "score": 79
+        },
+        {
+          "name": "Data Group",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Data Row",
+          "status": "Drifted",
+          "score": 34
+        },
+        {
+          "name": "Empty State",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Image Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "List",
+          "status": "Drifted",
+          "score": 50
+        },
+        {
+          "name": "Module Node",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "QR Code",
+          "status": "Drifted",
+          "score": 30
+        },
+        {
+          "name": "Slot",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Steps",
+          "status": "Drifted",
+          "score": 63
+        },
+        {
+          "name": "Text Card",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 22,
+      "headline": "0 of 13 Figma components match Storybook. 5 have drifted, 1 is broken and 7 aren't built yet.",
+      "counts": {
+        "total": 13,
+        "figma": 13,
+        "paired": 6,
+        "aligned": 0,
+        "drifted": 5,
+        "broken": 1,
+        "missingInCode": 7,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Figma property missing in code",
+        "Text contrast is too low in Figma"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 1,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 5,
+        "scans": 0,
+        "designChecks": 244,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "data-entry",
+      "name": "Data entry",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T15:07:31.361Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:07:31.361Z",
+          "score": 27
+        }
+      ],
+      "preview": {
+        "component": "Checkbox",
+        "status": "Broken",
+        "variant": "State=Hover, Checked=True",
+        "brand": "Dragonpass",
+        "mismatch": 0.890625,
+        "figma": "data-entry/assets/figma/360570171401648dragonpass.png",
+        "code": "data-entry/assets/code/360570171401648dragonpass.png"
+      },
+      "components": [
+        {
+          "name": "Check Indicator",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Checkbox",
+          "status": "Broken",
+          "score": 72
+        },
+        {
+          "name": "Date Picker",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Input",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Password Criteria",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Radio Button",
+          "status": "Drifted",
+          "score": 69
+        },
+        {
+          "name": "Select",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Switch",
+          "status": "Drifted",
+          "score": 65
+        },
+        {
+          "name": "Time Picker",
+          "status": "Drifted",
+          "score": 41
+        }
+      ],
+      "score": 27,
+      "headline": "0 of 9 Figma components match Storybook. 3 have drifted, 1 is broken and 5 aren't built yet.",
+      "counts": {
+        "total": 9,
+        "figma": 9,
+        "paired": 4,
+        "aligned": 0,
+        "drifted": 3,
+        "broken": 1,
+        "missingInCode": 5,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Text contrast is too low in Figma",
+        "Figma property missing in code"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 2,
+        "counts": {
+          "critical": 0,
+          "serious": 2,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 4,
+        "scans": 8,
+        "designChecks": 199,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
+            "owner": "Design"
+          },
+          {
+            "title": "Text contrast is too low in Storybook",
+            "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "layout",
+      "name": "Layout",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T15:09:25.994Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:09:25.994Z",
+          "score": 32
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Divider",
+          "status": "Drifted",
+          "score": 63
+        },
+        {
+          "name": "Overlay",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 32,
+      "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
+      "counts": {
+        "total": 2,
+        "figma": 2,
+        "paired": 1,
+        "aligned": 0,
+        "drifted": 1,
+        "broken": 0,
+        "missingInCode": 1,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Figma property missing in code",
+        "Not built in Storybook",
+        "Code has props with no Figma property"
+      ],
+      "a11y": {
+        "ran": false,
+        "total": 0,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 0,
+        "scans": 0,
+        "designChecks": 0,
+        "top": []
+      }
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T15:12:02.221Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:12:02.221Z",
+          "score": 24
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "App Header",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Bottom Navigation",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Breadcrumbs",
+          "status": "Drifted",
+          "score": 63
+        },
+        {
+          "name": "Burger Menu Triggered",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Footer",
+          "status": "Drifted",
+          "score": 43
+        },
+        {
+          "name": "Tabs",
+          "status": "Drifted",
+          "score": 63
+        },
+        {
+          "name": "Web Header",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 24,
+      "headline": "0 of 7 Figma components match Storybook. 3 have drifted and 4 aren't built yet.",
+      "counts": {
+        "total": 7,
+        "figma": 7,
+        "paired": 3,
+        "aligned": 0,
+        "drifted": 3,
+        "broken": 0,
+        "missingInCode": 4,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Figma property missing in code",
+        "Text contrast is too low in Figma"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 1,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 2,
+        "scans": 0,
+        "designChecks": 72,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "images",
+      "name": "Images",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T15:13:46.669Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:13:46.669Z",
+          "score": 0
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Lightbox Image Viewer",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Product Images",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 0,
+      "headline": "0 of 2 Figma components match Storybook. 2 aren't built yet.",
+      "counts": {
+        "total": 2,
+        "figma": 2,
+        "paired": 0,
+        "aligned": 0,
+        "drifted": 0,
+        "broken": 0,
+        "missingInCode": 2,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook"
+      ],
+      "a11y": {
+        "ran": false,
+        "total": 0,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 0,
+        "scans": 0,
+        "designChecks": 0,
+        "top": []
+      }
+    },
+    {
+      "id": "system-and-typography",
+      "name": "System and typography",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-17T15:15:46.265Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:15:46.265Z",
+          "score": 0
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Body",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Home Indicator",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "iPhone Keyboard",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Sheet Topper",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Status Bar",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Text Link",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Title",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 0,
+      "headline": "0 of 7 Figma components match Storybook. 7 aren't built yet.",
+      "counts": {
+        "total": 7,
+        "figma": 7,
+        "paired": 0,
+        "aligned": 0,
+        "drifted": 0,
+        "broken": 0,
+        "missingInCode": 7,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Text contrast is too low in Figma"
+      ],
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 1,
+          "minor": 0
+        },
+        "components": 3,
+        "scans": 0,
+        "designChecks": 200,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "moderate",
             "owner": "Design"
           }
         ]
