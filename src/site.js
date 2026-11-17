@@ -38,6 +38,7 @@ export function removeCheck(file, id) {
 
 /** After a concurrent run published first: keep their entries, swap in ours for the checks we ran. */
 export function mergeStatus({ base, fresh, ids, checksFile, out }) {
+  if (!fs.existsSync(checksFile)) throw new Error(`Saved checks file not found: ${checksFile}. Run this from the repository folder or pass --checks.`);
   const read = (f) => { try { return readJson(f).entries ?? []; } catch { return []; } };
   const ours = new Map(read(fresh).filter((e) => ids.includes(e.id)).map((e) => [e.id, e]));
   const theirs = new Map(read(base).map((e) => [e.id, e]));
@@ -49,6 +50,7 @@ export function mergeStatus({ base, fresh, ids, checksFile, out }) {
 
 /** Status for every saved check: this run's entries, plus earlier results for checks that didn't run. */
 export function writeSite({ checksFile, siteDir, entries = [], statusFrom, repo }) {
+  if (!fs.existsSync(checksFile)) throw new Error(`Saved checks file not found: ${checksFile}. Run this from the repository folder or pass --checks.`);
   const { checks } = readChecks(checksFile);
   let previous = [];
   if (statusFrom && fs.existsSync(statusFrom)) { try { previous = readJson(statusFrom).entries ?? []; } catch { previous = []; } }
