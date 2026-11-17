@@ -326,7 +326,8 @@
         '<div class="menu"><button class="iconbtn" data-act="menu" aria-haspopup="menu" aria-expanded="' + openMenus.has(e.id) + '" aria-label="More for ' + name + '">' + ICON.more + '</button>' + menu + '</div></div>';
       const confirm = confirming.has(e.id) ? '<div class="confirm" role="alertdialog" aria-label="Remove ' + name + '"><p>Remove <b>' + name + '</b> and its report? Nightly runs stop too.</p><button class="btn small danger" data-act="remove-yes">Remove</button><button class="btn small ghost" data-act="remove-no">Keep</button></div>' : '';
       const tag = (isRunning ? '<div class="running-tag">' + (running.get(e.id).kind === 'remove' ? 'Removing' : 'Running now') + '</div>' : '');
-      const cardErr = cardErrors.has(e.id) ? '<p class="err" role="alert">' + esc(cardErrors.get(e.id)) + '</p>' : '';
+      const cardErr = (cardErrors.has(e.id) ? '<p class="err" role="alert">' + esc(cardErrors.get(e.id)) + '</p>' : '') +
+        (e.stale ? '<p class="stale">The last run ' + ago(e.stale.at) + " couldn't refresh this check, so it shows the previous result. " + esc(e.stale.error) + '</p>' : '');
       if (e.ok === false) {
         return '<article class="card failed" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3>' + name + '</h3>' + tag + '</div></div><p class="err">Couldn’t run: ' + esc(e.error) + '</p>' + cardErr + confirm + foot + '</article>';
       }

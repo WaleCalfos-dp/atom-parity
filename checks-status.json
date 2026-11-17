@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:46:22.430Z",
+  "generatedAt": "2026-11-17T15:52:12.657Z",
   "entries": [
     {
       "id": "buttons",
@@ -1051,9 +1051,65 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:42:21.910Z",
-      "ok": false,
-      "error": "Couldn't find a Storybook index.json from https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/. Tried: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component/, https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/, https://dp-atom-ui-test.dragonpass.com.cn/"
+      "ranAt": "2026-11-17T15:52:12.296Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-17T15:52:12.296Z",
+          "score": 15
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Lightbox Image Viewer",
+          "status": "Drifted",
+          "score": 30
+        },
+        {
+          "name": "Product Images",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 15,
+      "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
+      "counts": {
+        "total": 2,
+        "figma": 2,
+        "paired": 1,
+        "aligned": 0,
+        "drifted": 1,
+        "broken": 0,
+        "missingInCode": 1,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Component named differently in Figma and Storybook",
+        "Figma property missing in code",
+        "Not built in Storybook"
+      ],
+      "a11y": {
+        "ran": false,
+        "total": 0,
+        "counts": {
+          "critical": 0,
+          "serious": 0,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 0,
+        "scans": 0,
+        "designChecks": 0,
+        "top": []
+      }
     },
     {
       "id": "system-and-typography",
