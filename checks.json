@@ -27,6 +27,62 @@
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1885-4061",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component",
       "addedAt": "2026-11-17T14:05:48.699Z"
+    },
+    {
+      "id": "actions",
+      "name": "Actions",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.827Z"
+    },
+    {
+      "id": "system-feedback",
+      "name": "System feedback",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.829Z"
+    },
+    {
+      "id": "data-display",
+      "name": "Data display",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.829Z"
+    },
+    {
+      "id": "data-entry",
+      "name": "Data entry",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.830Z"
+    },
+    {
+      "id": "layout",
+      "name": "Layout",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.831Z"
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.831Z"
+    },
+    {
+      "id": "images",
+      "name": "Images",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.831Z"
+    },
+    {
+      "id": "system-and-typography",
+      "name": "System and typography",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-17T14:45:51.832Z"
     }
   ]
 }

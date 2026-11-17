@@ -247,7 +247,7 @@ export async function run(cfg, opts = {}) {
       meta: {
         generatedAt: new Date().toISOString(), durationMs: Date.now() - t0,
         storybook: { url: cfg.storybookUrl, base: sb.base, brandGlobal: sb.brandGlobal, brands: sb.brands, renderer: sb.renderer, components: codeComps.length },
-        figma: { file: manifest.file, exportedAt: manifest.exportedAt, exportedBy: manifest.exportedBy, brands: manifest.brands, components: figmaComps.length, renderScale: manifest.renderScale, source: manifest.source ?? 'plugin', url: manifest.figmaUrl ?? null, tokenSource: manifest.tokenSource ?? (manifest.source ? null : { exportedAt: manifest.exportedAt, stale: false }) },
+        figma: { file: manifest.file, exportedAt: manifest.exportedAt, exportedBy: manifest.exportedBy, brands: manifest.brands, components: figmaComps.length, renderScale: manifest.renderScale, source: manifest.source ?? 'plugin', url: manifest.figmaUrl ?? null, scope: manifest.scope ?? 'file', scopeLabel: manifest.scopeLabel ?? null, tokenSource: manifest.tokenSource ?? (manifest.source ? null : { exportedAt: manifest.exportedAt, stale: false }) },
         jobs: jobs.length, viewport: cfg.viewport, only: opts.only ?? null, figmaScope: manifest.scope ?? 'file',
       },
       brands: { pairs: brandMatch.pairs, onlyInCode: brandMatch.onlyInCode, default: defaultBrand?.figma ?? null },

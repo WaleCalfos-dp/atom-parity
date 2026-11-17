@@ -347,6 +347,19 @@ assert.ok(c2('Button').checks.some((ch) => ch.subject === 'value:Background colo
 assert.ok(c2('Button').checks.some((ch) => ch.subject === 'token:Background colour' && /--aum-button-primary-bg-color/.test(ch.detail)), 'token names via snapshot');
 assert.ok(r2.tokens.rows.length > 10);
 
+// 2b. A link to a section divider page checks every component page in that section
+{
+  const div = pages.find((p) => p.name === 'DATA DISPLAY');
+  const f = path.join(OUT, 'rest-section.config.json');
+  fs.writeFileSync(f, JSON.stringify({ ...JSON.parse(fs.readFileSync(path.join(OUT, 'rest-link.config.json'), 'utf8')), figmaUrl: `https://www.figma.com/design/${KEY}/Component-Library?node-id=${div.id.replace(':', '-')}`, outDir: 'rest-section' }));
+  const r3 = await run(loadConfig(f), {});
+  const names = r3.components.filter((c) => c.figma).map((c) => c.name).sort();
+  assert.deepEqual(names, ['Accordion', 'Badge', 'Tags'], 'section link covers exactly its pages: ' + names);
+  assert.equal(r3.meta.figma.scope, 'section');
+  assert.ok(!r3.components.some((c) => c.status === 'Missing in design'), 'no "not in Figma" noise for a section');
+  console.log('✓ section link: ' + names.join(', '));
+}
+
 // 3. Saved checks → site
 const checksFile = path.join(OUT, 'checks.json');
 addCheck(checksFile, { name: 'Atom library', figmaUrl: `https://www.figma.com/design/${KEY}/Component-Library?t=abc`, storybookUrl: STORYBOOK_URL });

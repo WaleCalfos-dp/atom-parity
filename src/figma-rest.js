@@ -146,11 +146,19 @@ export async function manifestFromFigmaUrl(url, cfg, { token = process.env.FIGMA
   const skip = (cfg.figma?.skipPages ?? ['archive', 'deprecated', 'playground']).map((s) => s.toLowerCase());
   const opts = { privatePrefixes: cfg.figma?.privatePrefixes ?? ['.', '_'] };
 
-  let scope = 'file'; let roots;
-  if (nodeId && pages.some((p) => p.id === nodeId)) { scope = 'page'; roots = [nodeId]; }
+  const keep = (p) => include.some((i) => p.name.includes(i)) && !skip.some((s) => p.name.toLowerCase().includes(s));
+  let scope = 'file'; let roots; let scopeLabel = null;
+  const divider = nodeId ? pages.find((p) => p.id === nodeId && isSectionPage(p.name)) : null;
+  if (divider) {
+    // A link to a section divider page (ACTIONS, ━ CORE COMPONENTS ━) checks every component page in that section
+    const isGroup = divider.name.includes('━'); scopeLabel = cleanPageName(divider.name);
+    roots = pages.filter((p) => { const s = sections[p.id]; return s && (isGroup ? s.group === scopeLabel : s.section === scopeLabel) && keep(p); }).map((p) => p.id);
+    if (!roots.length) throw new Error(`No component pages found under "${scopeLabel}" in Figma. Link to a page whose name starts with ❖, or to the whole file.`);
+    scope = 'section';
+  } else if (nodeId && pages.some((p) => p.id === nodeId)) { scope = 'page'; roots = [nodeId]; }
   else if (nodeId) { scope = 'selection'; roots = [nodeId]; }
-  else roots = pages.filter((p) => include.some((i) => p.name.includes(i)) && !skip.some((s) => p.name.toLowerCase().includes(s))).map((p) => p.id);
-  log.info(`${file.name} · ${scope === 'file' ? `${roots.length} component pages` : `one ${scope}`} · last edited ${file.lastModified}`);
+  else roots = pages.filter(keep).map((p) => p.id);
+  log.info(`${file.name} · ${scope === 'file' ? `${roots.length} component pages` : scope === 'section' ? `${roots.length} component pages in ${scopeLabel}` : `one ${scope}`} · last edited ${file.lastModified}`);
 
   // Plugin snapshot: token names, brand modes, per-brand renders
   let snapshot = null;
@@ -169,7 +177,7 @@ export async function manifestFromFigmaUrl(url, cfg, { token = process.env.FIGMA
     const res = await figmaGet(`/v1/files/${fileKey}/nodes?ids=${encodeURIComponent(id)}`, token);
     const doc = res.nodes?.[id]?.document;
     if (!doc) {
-      if (scope !== 'file') throw new Error(`Figma couldn't find node ${id} in "${file.name}". The page may have been deleted or the link copied from another file.`);
+      if (scope === 'page' || scope === 'selection') throw new Error(`Figma couldn't find node ${id} in "${file.name}". The page may have been deleted or the link copied from another file.`);
       continue;
     }
     const ctx = { styles: res.nodes[id].styles ?? {}, components: res.nodes[id].components ?? {}, componentSets: res.nodes[id].componentSets ?? {} };
@@ -229,7 +237,7 @@ export async function manifestFromFigmaUrl(url, cfg, { token = process.env.FIGMA
     schema: 'atom-parity/figma@1', pluginVersion: 'rest', source: 'figma-rest',
     exportedAt: new Date().toISOString(), exportedBy: null,
     file: { name: file.name, key: fileKey, lastModified: file.lastModified },
-    scope, figmaUrl: url,
+    scope, scopeLabel, figmaUrl: url,
     brandCollection: snapshot?.brandCollection ?? { name: null, modes: [{ name: defaultBrand }], defaultMode: defaultBrand },
     brands: snapshot?.brands ?? (cfg.brands?.figmaBrands?.length ? cfg.brands.figmaBrands : [defaultBrand]),
     renderScale: 2,
