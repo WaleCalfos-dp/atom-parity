@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T12:43:22.795Z",
+  "generatedAt": "2026-11-17T14:04:40.664Z",
   "entries": [
     {
       "id": "buttons",
@@ -272,72 +272,6 @@
           {
             "title": "Text contrast is too low in Figma",
             "impact": "moderate",
-            "owner": "Design"
-          }
-        ]
-      }
-    },
-    {
-      "id": "figma-18854061",
-      "name": "Component Library",
-      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=1885-4061",
-      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component",
-      "ranAt": "2026-11-17T11:11:44.645Z",
-      "ok": true,
-      "history": [
-        {
-          "at": "2026-11-17T11:11:44.645Z",
-          "score": 54
-        }
-      ],
-      "preview": null,
-      "components": [
-        {
-          "name": "Tag",
-          "status": "Broken",
-          "score": 54
-        }
-      ],
-      "score": 54,
-      "headline": "0 of 1 Figma components match Storybook. 1 is broken.",
-      "counts": {
-        "total": 1,
-        "figma": 1,
-        "paired": 1,
-        "aligned": 0,
-        "drifted": 0,
-        "broken": 1,
-        "missingInCode": 0,
-        "missingInDesign": 0
-      },
-      "previousScore": null,
-      "newFails": 0,
-      "fixed": 0,
-      "tokenSource": {
-        "exportedAt": "2026-11-16T12:49:41.258Z",
-        "stale": true
-      },
-      "themes": [
-        "Figma property missing in code",
-        "Property values missing in code",
-        "Text contrast is too low in Figma"
-      ],
-      "a11y": {
-        "ran": true,
-        "total": 1,
-        "counts": {
-          "critical": 0,
-          "serious": 1,
-          "moderate": 0,
-          "minor": 0
-        },
-        "components": 1,
-        "scans": 0,
-        "designChecks": 40,
-        "top": [
-          {
-            "title": "Text contrast is too low in Figma",
-            "impact": "serious",
             "owner": "Design"
           }
         ]
