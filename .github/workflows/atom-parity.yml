@@ -123,5 +123,9 @@ jobs:
       - name: Flag new problems
         if: steps.run.outputs.exit != '' && steps.run.outputs.exit != '0'
         run: |
-          if [ "${{ steps.run.outputs.exit }}" = "2" ]; then echo "New problems since the last run: ${{ steps.site.outputs.url }}"; else echo "A check couldn't run: ${{ steps.site.outputs.url }}"; fi
-          exit 1
+          if [ "${{ steps.run.outputs.exit }}" = "2" ]; then
+            echo "::notice title=New problems found::New problems since the last run. See ${{ steps.site.outputs.url }}"
+          else
+            echo "::error title=A check couldn't run::See ${{ steps.site.outputs.url }}"
+            exit 1
+          fi
