@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:52:12.296Z",
-    "durationMs": 75067,
+    "generatedAt": "2026-11-17T16:46:08.730Z",
+    "durationMs": 118460,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T15:13:50Z"
+        "lastModified": "2026-11-17T16:29:38Z"
       },
-      "exportedAt": "2026-11-17T15:51:08.273Z",
+      "exportedAt": "2026-11-17T16:44:44.664Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -50,6 +50,11 @@
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "scope": "section",
       "scopeLabel": "IMAGES",
+      "place": {
+        "group": "IMAGES",
+        "section": null,
+        "order": 65
+      },
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1610,6 +1615,9 @@
         "name": "Lightbox Image Viewer",
         "page": "Lightbox Image Viewer",
         "section": null,
+        "group": "IMAGES",
+        "order": 0,
+        "pageOrder": 66,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8469-708"
       },
@@ -2041,6 +2049,9 @@
         "name": "Product Images",
         "page": "Product Images",
         "section": null,
+        "group": "IMAGES",
+        "order": 1,
+        "pageOrder": 67,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8468-8021"
       },
@@ -2334,5 +2345,11 @@
     "byBrand": {},
     "criteria": [],
     "issues": []
+  },
+  "delta": {
+    "since": "2026-11-17T15:52:12.296Z",
+    "previousScore": 15,
+    "newFails": [],
+    "fixed": []
   }
 }

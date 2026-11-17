@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:37:04.327Z",
-    "durationMs": 205866,
+    "generatedAt": "2026-11-17T16:39:39.451Z",
+    "durationMs": 217552,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T15:13:50Z"
+        "lastModified": "2026-11-17T16:29:38Z"
       },
-      "exportedAt": "2026-11-17T15:35:47.169Z",
+      "exportedAt": "2026-11-17T16:38:17.694Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -50,6 +50,11 @@
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "scope": "section",
       "scopeLabel": "DATA ENTRY",
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "DATA ENTRY",
+        "order": 38
+      },
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1611,6 +1616,9 @@
         "name": "Check Indicator",
         "page": "Check Indicator",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 1,
+        "pageOrder": 40,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7342"
       },
@@ -1661,6 +1669,9 @@
         "name": "Checkbox",
         "page": "Checkbox",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 0,
+        "pageOrder": 39,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017"
       },
@@ -2481,7 +2492,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Focus, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2501,7 +2512,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Focus, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2561,7 +2572,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Default, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2601,7 +2612,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2631,7 +2642,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -4331,6 +4342,9 @@
         "name": "Date Picker",
         "page": "Date Picker",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 4,
+        "pageOrder": 42,
         "variants": 30,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924"
       },
@@ -5540,6 +5554,9 @@
         "name": "Input",
         "page": "Input",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 2,
+        "pageOrder": 41,
         "variants": 140,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=269-9758"
       },
@@ -7332,6 +7349,9 @@
         "name": "Password Criteria",
         "page": "Input",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 3,
+        "pageOrder": 41,
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=443-14487"
       },
@@ -7428,6 +7448,9 @@
         "name": "Radio Button",
         "page": "Radio Button",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 5,
+        "pageOrder": 44,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7343"
       },
@@ -7799,6 +7822,9 @@
         "name": "Select",
         "page": "Select",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 6,
+        "pageOrder": 45,
         "variants": 36,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381"
       },
@@ -10059,6 +10085,9 @@
         "name": "Switch",
         "page": "Switch",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 7,
+        "pageOrder": 46,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228"
       },
@@ -11085,6 +11114,9 @@
         "name": "Time Picker",
         "page": "Time Picker",
         "section": "DATA ENTRY",
+        "group": "CORE COMPONENTS",
+        "order": 8,
+        "pageOrder": 47,
         "variants": 2,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057"
       },
@@ -12774,118 +12806,9 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T15:07:31.361Z",
-    "previousScore": 27,
-    "newFails": [
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma property \"Show Buttons\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma property \"Show Month and Year\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma property \"Show Pagination\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma property \"Month\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Label\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Pill Right\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Pill Left\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Helper Text\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"content-left\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Show Label Icon\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Selected\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Semantic values live under \"State\"",
-        "category": "Naming"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma property \"Label Position\" has no equivalent in code",
-        "category": "Properties"
-      }
-    ],
+    "since": "2026-11-17T15:37:04.327Z",
+    "previousScore": 35,
+    "newFails": [],
     "fixed": []
   }
 }

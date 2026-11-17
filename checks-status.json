@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-17T15:52:12.657Z",
+  "generatedAt": "2026-11-17T16:48:18.241Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:26:17.817Z",
+      "ranAt": "2026-11-17T16:29:26.174Z",
       "ok": true,
       "history": [
         {
@@ -15,6 +15,10 @@
         },
         {
           "at": "2026-11-17T15:26:17.817Z",
+          "score": 21
+        },
+        {
+          "at": "2026-11-17T16:29:26.174Z",
           "score": 21
         }
       ],
@@ -103,6 +107,11 @@
         "Text contrast is too low in Figma",
         "Property named differently in Figma and code"
       ],
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "ACTIONS",
+        "order": 12
+      },
       "a11y": {
         "ran": true,
         "total": 3,
@@ -139,7 +148,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:29:06.038Z",
+      "ranAt": "2026-11-17T16:31:47.978Z",
       "ok": true,
       "history": [
         {
@@ -148,6 +157,10 @@
         },
         {
           "at": "2026-11-17T15:29:06.038Z",
+          "score": 19
+        },
+        {
+          "at": "2026-11-17T16:31:47.978Z",
           "score": 19
         }
       ],
@@ -216,8 +229,8 @@
         "missingInCode": 6,
         "missingInDesign": 0
       },
-      "previousScore": 14,
-      "newFails": 1,
+      "previousScore": 19,
+      "newFails": 0,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -228,6 +241,11 @@
         "Figma property missing in code",
         "Property named differently in Figma and code"
       ],
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "SYSTEM FEEDBACK",
+        "order": 19
+      },
       "a11y": {
         "ran": true,
         "total": 1,
@@ -254,7 +272,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:33:38.433Z",
+      "ranAt": "2026-11-17T16:36:01.866Z",
       "ok": true,
       "history": [
         {
@@ -263,6 +281,10 @@
         },
         {
           "at": "2026-11-17T15:33:38.433Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-17T16:36:01.866Z",
           "score": 22
         }
       ],
@@ -358,6 +380,11 @@
         "Figma property missing in code",
         "Text contrast is too low in Figma"
       ],
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "DATA DISPLAY",
+        "order": 25
+      },
       "a11y": {
         "ran": true,
         "total": 1,
@@ -384,7 +411,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:37:04.327Z",
+      "ranAt": "2026-11-17T16:39:39.451Z",
       "ok": true,
       "history": [
         {
@@ -393,6 +420,10 @@
         },
         {
           "at": "2026-11-17T15:37:04.327Z",
+          "score": 35
+        },
+        {
+          "at": "2026-11-17T16:39:39.451Z",
           "score": 35
         }
       ],
@@ -464,8 +495,8 @@
         "missingInCode": 3,
         "missingInDesign": 0
       },
-      "previousScore": 27,
-      "newFails": 18,
+      "previousScore": 35,
+      "newFails": 0,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -476,6 +507,11 @@
         "Not built in Storybook",
         "Text contrast is too low in Figma"
       ],
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "DATA ENTRY",
+        "order": 38
+      },
       "a11y": {
         "ran": true,
         "total": 2,
@@ -507,7 +543,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:39:23.227Z",
+      "ranAt": "2026-11-17T16:41:27.875Z",
       "ok": true,
       "history": [
         {
@@ -516,6 +552,10 @@
         },
         {
           "at": "2026-11-17T15:39:23.227Z",
+          "score": 32
+        },
+        {
+          "at": "2026-11-17T16:41:27.875Z",
           "score": 32
         }
       ],
@@ -556,6 +596,11 @@
         "Not built in Storybook",
         "Code has props with no Figma property"
       ],
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "LAYOUT",
+        "order": 48
+      },
       "a11y": {
         "ran": false,
         "total": 0,
@@ -576,7 +621,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:42:21.877Z",
+      "ranAt": "2026-11-17T16:44:10.241Z",
       "ok": true,
       "history": [
         {
@@ -585,6 +630,10 @@
         },
         {
           "at": "2026-11-17T15:42:21.877Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-17T16:44:10.241Z",
           "score": 36
         }
       ],
@@ -638,8 +687,8 @@
         "missingInCode": 2,
         "missingInDesign": 0
       },
-      "previousScore": 24,
-      "newFails": 14,
+      "previousScore": 36,
+      "newFails": 0,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -650,6 +699,11 @@
         "Component named differently in Figma and Storybook",
         "Text contrast is too low in Figma"
       ],
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "NAVIGATION",
+        "order": 53
+      },
       "a11y": {
         "ran": true,
         "total": 1,
@@ -676,11 +730,15 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:52:12.296Z",
+      "ranAt": "2026-11-17T16:46:08.730Z",
       "ok": true,
       "history": [
         {
           "at": "2026-11-17T15:52:12.296Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-17T16:46:08.730Z",
           "score": 15
         }
       ],
@@ -709,7 +767,7 @@
         "missingInCode": 1,
         "missingInDesign": 0
       },
-      "previousScore": null,
+      "previousScore": 15,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -721,6 +779,11 @@
         "Figma property missing in code",
         "Not built in Storybook"
       ],
+      "place": {
+        "group": "IMAGES",
+        "section": null,
+        "order": 65
+      },
       "a11y": {
         "ran": false,
         "total": 0,
@@ -741,7 +804,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T15:46:21.889Z",
+      "ranAt": "2026-11-17T16:48:17.747Z",
       "ok": true,
       "history": [
         {
@@ -750,6 +813,10 @@
         },
         {
           "at": "2026-11-17T15:46:21.889Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-17T16:48:17.747Z",
           "score": 15
         }
       ],
@@ -803,8 +870,8 @@
         "missingInCode": 5,
         "missingInDesign": 0
       },
-      "previousScore": 0,
-      "newFails": 5,
+      "previousScore": 15,
+      "newFails": 0,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -815,6 +882,11 @@
         "Component named differently in Figma and Storybook",
         "Property values missing in code"
       ],
+      "place": {
+        "group": "OTHER",
+        "section": null,
+        "order": 68
+      },
       "a11y": {
         "ran": true,
         "total": 1,

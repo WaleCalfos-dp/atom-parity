@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:33:38.433Z",
-    "durationMs": 272370,
+    "generatedAt": "2026-11-17T16:36:01.866Z",
+    "durationMs": 253853,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T15:13:50Z"
+        "lastModified": "2026-11-17T16:29:38Z"
       },
-      "exportedAt": "2026-11-17T15:32:01.709Z",
+      "exportedAt": "2026-11-17T16:34:58.925Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -50,6 +50,11 @@
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "scope": "section",
       "scopeLabel": "DATA DISPLAY",
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "DATA DISPLAY",
+        "order": 25
+      },
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1610,6 +1615,9 @@
         "name": "Accordion",
         "page": "Accordion",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 0,
+        "pageOrder": 26,
         "variants": 32,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707"
       },
@@ -4321,6 +4329,9 @@
         "name": "Badge",
         "page": "Badge",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 1,
+        "pageOrder": 27,
         "variants": 24,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1888-5974"
       },
@@ -5755,6 +5766,9 @@
         "name": "Content Block",
         "page": "Content Block",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 4,
+        "pageOrder": 29,
         "variants": 20,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14347-6046"
       },
@@ -6293,6 +6307,9 @@
         "name": "Data Group",
         "page": "Data Group",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 5,
+        "pageOrder": 30,
         "variants": 15,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=4205-24535"
       },
@@ -6343,6 +6360,9 @@
         "name": "Data Row",
         "page": "Data Row",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 8,
+        "pageOrder": 33,
         "variants": 8,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143"
       },
@@ -7535,6 +7555,9 @@
         "name": "Empty State",
         "page": "Empty State",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 6,
+        "pageOrder": 31,
         "variants": 5,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15567-40690"
       },
@@ -8265,6 +8288,9 @@
         "name": "Image Card",
         "page": "Cards",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 2,
+        "pageOrder": 28,
         "variants": 16,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-82295"
       },
@@ -8315,6 +8341,9 @@
         "name": "List",
         "page": "List",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 9,
+        "pageOrder": 34,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14969-20257"
       },
@@ -8659,6 +8688,9 @@
         "name": "Module Node",
         "page": "Module node",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 10,
+        "pageOrder": 35,
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7653-2736"
       },
@@ -8864,6 +8896,9 @@
         "name": "QR Code",
         "page": "QR Code",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 7,
+        "pageOrder": 32,
         "variants": 21,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802"
       },
@@ -11505,6 +11540,9 @@
         "name": "Slot",
         "page": "Slot",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 11,
+        "pageOrder": 36,
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=399-5505"
       },
@@ -11555,6 +11593,9 @@
         "name": "Steps",
         "page": "Steps",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 12,
+        "pageOrder": 37,
         "variants": 44,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512"
       },
@@ -12062,6 +12103,9 @@
         "name": "Text Card",
         "page": "Cards",
         "section": "DATA DISPLAY",
+        "group": "CORE COMPONENTS",
+        "order": 3,
+        "pageOrder": 28,
         "variants": 4,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-82432"
       },
@@ -13928,7 +13972,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T15:03:38.782Z",
+    "since": "2026-11-17T15:33:38.433Z",
     "previousScore": 22,
     "newFails": [],
     "fixed": []

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:39:23.227Z",
-    "durationMs": 138871,
+    "generatedAt": "2026-11-17T16:41:27.875Z",
+    "durationMs": 108397,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T15:13:50Z"
+        "lastModified": "2026-11-17T16:29:38Z"
       },
-      "exportedAt": "2026-11-17T15:37:47.619Z",
+      "exportedAt": "2026-11-17T16:40:25.119Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -50,6 +50,11 @@
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "scope": "section",
       "scopeLabel": "LAYOUT",
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "LAYOUT",
+        "order": 48
+      },
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1610,6 +1615,9 @@
         "name": "Divider",
         "page": "Divider",
         "section": "LAYOUT",
+        "group": "CORE COMPONENTS",
+        "order": 0,
+        "pageOrder": 49,
         "variants": 4,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3058-1805"
       },
@@ -1940,6 +1948,9 @@
         "name": "Overlay",
         "page": "Overlay",
         "section": "LAYOUT",
+        "group": "CORE COMPONENTS",
+        "order": 1,
+        "pageOrder": 51,
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3211-21394"
       },
@@ -2178,7 +2189,7 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-17T15:09:25.994Z",
+    "since": "2026-11-17T15:39:23.227Z",
     "previousScore": 32,
     "newFails": [],
     "fixed": []

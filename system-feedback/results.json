@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T15:29:06.038Z",
-    "durationMs": 168190,
+    "generatedAt": "2026-11-17T16:31:47.978Z",
+    "durationMs": 141766,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T15:13:50Z"
+        "lastModified": "2026-11-17T16:29:30Z"
       },
-      "exportedAt": "2026-11-17T15:27:23.499Z",
+      "exportedAt": "2026-11-17T16:30:46.842Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -50,6 +50,11 @@
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "scope": "section",
       "scopeLabel": "SYSTEM FEEDBACK",
+      "place": {
+        "group": "CORE COMPONENTS",
+        "section": "SYSTEM FEEDBACK",
+        "order": 19
+      },
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1610,6 +1615,9 @@
         "name": "Alert",
         "page": "Alert",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 0,
+        "pageOrder": 20,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938"
       },
@@ -3673,6 +3681,9 @@
         "name": "Dialog",
         "page": "Dialog",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 1,
+        "pageOrder": 21,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620"
       },
@@ -5790,6 +5801,9 @@
         "name": "Journey Wizard",
         "page": "Progress Bar",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 7,
+        "pageOrder": 23,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16012-24876"
       },
@@ -6122,6 +6136,9 @@
         "name": "Loading Indicator",
         "page": "Loading Indicator",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 2,
+        "pageOrder": 22,
         "variants": 2,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832"
       },
@@ -6415,6 +6432,9 @@
         "name": "Loading Modal",
         "page": "Loading Indicator",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 3,
+        "pageOrder": 22,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17148-8917"
       },
@@ -6881,6 +6901,9 @@
         "name": "Progress Bar / Animated",
         "page": "Progress Bar",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 8,
+        "pageOrder": 23,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17074-30102"
       },
@@ -7036,6 +7059,9 @@
         "name": "Progress Bar / Percentage",
         "page": "Progress Bar",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 4,
+        "pageOrder": 23,
         "variants": 44,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1685-4000"
       },
@@ -8052,6 +8078,9 @@
         "name": "Progress Bar / Steps",
         "page": "Progress Bar",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 6,
+        "pageOrder": 23,
         "variants": 6,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12768-3167"
       },
@@ -8114,6 +8143,9 @@
         "name": "Progress Bar / Tracker",
         "page": "Progress Bar",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 5,
+        "pageOrder": 23,
         "variants": 6,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12738-392"
       },
@@ -8315,6 +8347,9 @@
         "name": "Tooltip",
         "page": "Tooltip",
         "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 9,
+        "pageOrder": 24,
         "variants": 8,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779"
       },
@@ -11135,16 +11170,9 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T14:59:07.108Z",
-    "previousScore": 14,
-    "newFails": [
-      {
-        "status": "fail",
-        "component": "Loading Indicator",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "category": "Properties"
-      }
-    ],
+    "since": "2026-11-17T15:29:06.038Z",
+    "previousScore": 19,
+    "newFails": [],
     "fixed": []
   }
 }
