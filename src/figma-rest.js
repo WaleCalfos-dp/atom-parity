@@ -32,14 +32,28 @@ async function figmaGet(path, token, attempt = 0) {
 }
 
 // ---------------------------------------------------------------- helpers shared with the plugin's logic
-const isSectionPage = (name) => {
+export const isSectionPage = (name) => {
   const n = name.trim();
   if (!n || /[❖↳]/.test(n)) return false;
   if (n.includes('━')) return true;
   return /^[A-Z][A-Z &/-]{2,}$/.test(n);
 };
-const cleanPageName = (name) => name.replace(/[━❖↳*]/g, '').replace(/\s+/g, ' ').trim();
-function sectionMap(pages) {
+/**
+ * Pages under a section or group divider. Every page counts, not only ❖ pages, so groups such as
+ * PRODUCT MODULES (emoji pages) and PATTERNS (↳ pages) are covered. Skipped: deprecated or archive pages,
+ * and placeholder pages with no letters in their name ("---").
+ */
+export function pagesInScope(pages, sections, divider, skip = []) {
+  const isGroup = divider.name.includes('━'); const label = cleanPageName(divider.name);
+  return pages.filter((p) => {
+    const s = sections[p.id];
+    if (!s || !(isGroup ? s.group === label : s.section === label)) return false;
+    if (skip.some((k) => p.name.toLowerCase().includes(k))) return false;
+    return /\p{L}/u.test(p.name);
+  }).map((p) => p.id);
+}
+export const cleanPageName = (name) => name.replace(/[━❖↳*]/g, '').replace(/\s+/g, ' ').trim();
+export function sectionMap(pages) {
   const map = {}; let current = null; let group = null;
   for (const p of pages) {
     if (isSectionPage(p.name)) { if (p.name.includes('━')) { group = cleanPageName(p.name); current = null; } else current = cleanPageName(p.name); continue; }
@@ -152,7 +166,7 @@ export async function manifestFromFigmaUrl(url, cfg, { token = process.env.FIGMA
   if (divider) {
     // A link to a section divider page (ACTIONS, ━ CORE COMPONENTS ━) checks every component page in that section
     const isGroup = divider.name.includes('━'); scopeLabel = cleanPageName(divider.name);
-    roots = pages.filter((p) => { const s = sections[p.id]; return s && (isGroup ? s.group === scopeLabel : s.section === scopeLabel) && keep(p); }).map((p) => p.id);
+    roots = pagesInScope(pages, sections, divider, skip);
     if (!roots.length) throw new Error(`No component pages found under "${scopeLabel}" in Figma. Link to a page whose name starts with ❖, or to the whole file.`);
     scope = 'section';
   } else if (nodeId && pages.some((p) => p.id === nodeId)) { scope = 'page'; roots = [nodeId]; }

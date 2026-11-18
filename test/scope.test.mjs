@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import { pagesInScope, sectionMap } from '../src/figma-rest.js';
+const names = ['━ CORE COMPONENTS ━━━','ACTIONS','      ❖ Button','━ PATTERNS ━━━━','      ↳ Bottom Sheet','━ PRODUCT MODULES ━━━','      🛋️ Lounge','      💳 Membership','---','━ DEPRECATED ━━━','      ❖ Cards (deprecated)'];
+const pages = names.map((name, i) => ({ id: `p${i}`, name }));
+const sections = sectionMap(pages);
+const pick = (n) => pagesInScope(pages, sections, pages.find((p) => p.name === n), ['archive', 'deprecated', 'playground']).map((id) => pages.find((p) => p.id === id).name.trim());
+assert.deepEqual(pick('━ PRODUCT MODULES ━━━'), ['🛋️ Lounge', '💳 Membership']);
+assert.deepEqual(pick('━ PATTERNS ━━━━'), ['↳ Bottom Sheet']);
+assert.deepEqual(pick('ACTIONS'), ['❖ Button']);
+assert.deepEqual(pick('━ DEPRECATED ━━━'), []);
+console.log('✓ scope pages');

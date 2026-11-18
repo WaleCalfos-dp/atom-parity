@@ -55,6 +55,20 @@
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "addedAt": "2026-11-17T14:45:51.832Z"
+    },
+    {
+      "id": "patterns",
+      "name": "Patterns",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-18T09:53:32.795Z"
+    },
+    {
+      "id": "product-modules",
+      "name": "Product modules",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "addedAt": "2026-11-18T09:53:32.797Z"
     }
   ]
 }
