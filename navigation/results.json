@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T14:29:50.179Z",
-    "durationMs": 154149,
+    "generatedAt": "2026-11-18T15:42:09.150Z",
+    "durationMs": 146982,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-18T14:25:14Z"
+        "lastModified": "2026-11-18T15:09:06Z"
       },
-      "exportedAt": "2026-11-18T14:28:45.238Z",
+      "exportedAt": "2026-11-18T15:41:11.623Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -62,7 +62,11 @@
       "deviceScaleFactor": 2
     },
     "only": null,
-    "figmaScope": "section"
+    "figmaScope": "section",
+    "check": {
+      "id": "navigation",
+      "repo": "WaleCalfos-dp/atom-parity"
+    }
   },
   "brands": {
     "pairs": [
@@ -7099,9 +7103,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-18T10:48:53.064Z",
+    "since": "2026-11-18T14:29:50.179Z",
     "previousScore": 36,
     "newFails": [],
     "fixed": []
-  }
+  },
+  "activity": []
 }

@@ -44,7 +44,7 @@ Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properti
 "[Atom parity] Button: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+10 more)
+Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+9 more)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
@@ -279,15 +279,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12845-6732
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12845%3A6732
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Payment Button: Text contrast is too low in Figma","3.13:1, needs 4.5:1 · #FFFFFF on #179BD7
-
-Brands: Dragonpass, Mastercard, Investec, Assurant, Visa Affluent
-Variants: Payment Option=PayPal, Size=Regular; Payment Option=PayPal, Size=Large
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12604-10709
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12604%3A10709
-
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Payment Button: Not found in Storybook","Possible matches: Basics/Button. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12604-10709
