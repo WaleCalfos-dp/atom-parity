@@ -8,6 +8,7 @@ import { run } from './run.js';
 import { writeReport } from './report.js';
 import { readJson, log } from './util.js';
 import { runAll, addCheck, removeCheck, writeSite, mergeStatus } from './site.js';
+import { changeIgnores } from './ignores.js';
 
 const HELP = `
 atom-parity: compare the Atom Figma library with Storybook
@@ -17,6 +18,7 @@ Usage
   atom-parity add-check --name "Button" --figma-url <link> --storybook <link>
                                   Save a check (a Figma link + a Storybook link)
   atom-parity remove-check --id <id>   Remove a saved check
+  atom-parity ignore              Ignore or restore issues; reads JSON from the IGNORE environment variable
   atom-parity site                Rewrite the site index and status without running anything
   atom-parity run [options]       Run one check from the config, write the report
   atom-parity report [options]    Rebuild the HTML report from an existing results.json
@@ -53,7 +55,7 @@ async function main() {
     },
   });
   const cmd = positionals[0] ?? 'run';
-  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'site', 'merge-status'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
+  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'ignore', 'site', 'merge-status'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
   log.quiet = !!values.quiet;
   const checksFile = path.resolve(values.checks ?? 'checks.json');
 
@@ -61,6 +63,12 @@ async function main() {
     const e = addCheck(checksFile, { name: values.name, figmaUrl: values['figma-url'], storybookUrl: values.storybook });
     console.log(`Saved check "${e.name ?? e.id}" (${e.id}) to ${checksFile}`);
     if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `id=${e.id}\n`);
+    return;
+  }
+  if (cmd === 'ignore') {
+    const r = changeIgnores(path.join(path.dirname(checksFile), 'ignores.json'), process.env.IGNORE ?? '');
+    console.log(`${r.action === 'add' ? 'Ignored' : 'Restored'} ${r.count} issue${r.count === 1 ? '' : 's'} in ${r.check}`);
+    if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `id=${r.check}\naction=${r.action}\n`);
     return;
   }
   if (cmd === 'remove-check') {

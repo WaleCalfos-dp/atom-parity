@@ -117,6 +117,33 @@ await page.screenshot({ path: '/tmp/report-1.png', fullPage: false });
 await page.click('.comp summary');
 await page.waitForSelector('.body .grp');
 await page.screenshot({ path: '/tmp/report-2.png' });
+// Ignore a line: dialog, dispatch with the ignore payload, the line moves to Ignored
+await page.evaluate(() => localStorage.setItem('ap.key', JSON.stringify('github_pat_test')));
+await page.reload(); await page.waitForSelector('.comp');
+await page.click('.comp summary'); await page.waitForSelector('.body .ck .ign');
+const lineTitle = (await page.locator('.body .ck').first().locator('span').nth(1).textContent()).trim();
+await page.locator('.body .ck .ign').first().click();
+await page.waitForSelector('#ignDlg[open]');
+await page.screenshot({ path: '/tmp/report-ignore-dialog.png' });
+await page.fill('#ignReason', 'Intentional for this brand');
+await page.click('#ignGo');
+await page.waitForSelector('#toast:not([hidden])');
+const ig = JSON.parse(gh.dispatched.at(-1).inputs.ignore);
+assert.equal(ig.action, 'add'); assert.equal(ig.check, firstId); assert.equal(ig.reason, 'Intentional for this brand'); assert.equal(ig.items.length, 1);
+assert.equal(ig.items[0].title, lineTitle);
+assert.ok(await page.locator('.body .ck.ignored', { hasText: lineTitle }).count() === 1, 'line moved to the Ignored group');
+assert.match(await page.textContent('#ignList'), new RegExp(lineTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+assert.equal(await page.textContent('#tabIgn'), '1');
+await page.screenshot({ path: '/tmp/report-ignored.png' });
+// It stays ignored after a reload (pending until the check reruns)
+await page.reload(); await page.waitForSelector('.comp');
+assert.equal(await page.textContent('#tabIgn'), '1', 'pending ignore survives a reload');
+// Ignoring a whole "Needs attention" line sends every component in it
+const themeBtn = page.locator('#themes .ign').first();
+if (await themeBtn.count()) { await themeBtn.click(); await page.waitForSelector('#ignDlg[open]'); await page.click('#ignGo'); await page.waitForSelector('#toast:not([hidden])'); assert.ok(JSON.parse(gh.dispatched.at(-1).inputs.ignore).items.length >= 1); }
+await page.evaluate(() => { for (const k of Object.keys(localStorage)) if (k.startsWith('ap.pending.')) localStorage.removeItem(k); });
+await page.reload(); await page.waitForSelector('.comp');
+await page.click('.comp summary'); await page.waitForSelector('.body .grp');
 // Accessibility section: issues with WCAG references and a Figma-vs-code verdict
 assert.ok(await page.locator('#accessibility .issue').count() > 0, 'accessibility issues listed');
 assert.match(await page.textContent('#accessibility'), /WCAG 1\.4\.3/);

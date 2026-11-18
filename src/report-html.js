@@ -40,7 +40,7 @@ ${FONTS}
   </header>
 
   <nav class="tabs" aria-label="Sections of this report"><div class="tabs-in" id="tabs">
-    <a href="#summary">Summary</a><a href="#accessibility">Accessibility <span id="tabA11y"></span></a><a href="#components">Components <span id="tabComp"></span></a><a href="#tokens">Tokens</a><a href="#brands">Brands</a><a href="#how">How to read this</a>
+    <a href="#summary">Summary</a><a href="#accessibility">Accessibility <span id="tabA11y"></span></a><a href="#components">Components <span id="tabComp"></span></a><a href="#tokens">Tokens</a><a href="#brands">Brands</a><a href="#ignored">Ignored <span id="tabIgn"></span></a><a href="#how">How to read this</a>
   </div></nav>
 
   <section id="summary" class="sec" aria-labelledby="sum-h">
@@ -70,6 +70,11 @@ ${FONTS}
     <ul class="brands" id="brandList"></ul>
   </section>
 
+  <section id="ignored" class="sec" aria-labelledby="ign-h">
+    <div class="sec-head"><h2 id="ign-h">Ignored</h2><p id="ignNote"></p></div>
+    <div id="ignList"></div>
+  </section>
+
   <section id="how" class="sec" aria-labelledby="how-h">
     <div class="sec-head"><h2 id="how-h">How to read this</h2></div>
     <dl class="how">
@@ -84,6 +89,18 @@ ${FONTS}
   </section>
   <footer class="foot" id="foot"></footer>
 </main>
+<dialog id="ignDlg" aria-labelledby="ignTitle">
+  <form class="dlg" id="ignForm">
+    <h2 id="ignTitle">Ignore this issue?</h2>
+    <p id="ignWhat"></p>
+    <p class="dlg-note">Ignored issues are hidden for everyone and left out of the score. You can restore them from Ignored, near the end of this report.</p>
+    <label for="ignReason">Reason <span>optional</span></label>
+    <input id="ignReason" maxlength="300" autocomplete="off" placeholder="For example: intentional difference, agreed with dev">
+    <p class="err" id="ignErr" role="alert"></p>
+    <div class="dlg-actions"><button class="btn" id="ignGo" type="submit">Ignore</button><button class="btn ghost" id="ignCancel" type="button">Cancel</button></div>
+  </form>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script type="application/json" id="data">${data}</script>
 <script>${JS}</script>
 </body>
@@ -143,7 +160,7 @@ h3{font:700 18px/1.3 var(--display);letter-spacing:-.01em;margin:0}
 
 /* needs attention */
 .att{list-style:none;margin:0;padding:0;counter-reset:a;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);overflow:hidden}
-.att li{counter-increment:a;display:grid;grid-template-columns:36px minmax(0,1fr) auto;gap:14px;align-items:center;padding:14px 18px;border-top:1px solid var(--line-2)}
+.att li{counter-increment:a;display:grid;grid-template-columns:36px minmax(0,1fr) auto auto;gap:14px;align-items:center;padding:14px 18px;border-top:1px solid var(--line-2)}
 .att li:first-child{border-top:0}
 .att li::before{content:counter(a);font:700 15px var(--display);color:var(--ink-3);text-align:center}
 .att .t{font-weight:600}
@@ -187,7 +204,7 @@ h3{font:700 18px/1.3 var(--display);letter-spacing:-.01em;margin:0}
 .issue-head h3{font-size:19px}
 .issue-head .ref{grid-column:2;margin:2px 0 0;font-size:13.5px;color:var(--ink-3)}
 .issue-head .ref a{color:var(--ink-2)}
-.issue-head .owner{grid-row:1;grid-column:3}
+.issue-head .head-act{grid-row:1;grid-column:3;display:flex;gap:8px;align-items:center}
 .wf{display:grid;grid-template-columns:1fr 1fr;gap:16px 28px;margin:16px 22px 0;padding:0}
 .wf dt{font-size:13px;font-weight:600;color:var(--ink-3);margin-bottom:4px}
 .wf dd{margin:0;font-size:14.5px;line-height:1.5;color:var(--ink)}
@@ -215,6 +232,35 @@ code{font:12.5px/1.4 var(--mono);background:var(--line-2);padding:2px 6px;border
 .linkbtn{appearance:none;border:0;background:none;padding:0;color:var(--d-ink);font:600 14px var(--text);cursor:pointer;text-decoration:underline;text-underline-offset:2px}
 .a11y-empty{display:flex;gap:16px;align-items:center;background:color-mix(in srgb,var(--ok-fill) 8%,var(--paper));border:1px solid color-mix(in srgb,var(--ok) 25%,var(--line));border-radius:var(--r-l);padding:20px 22px;font-size:15px}
 .a11y-empty svg{width:28px;height:28px;color:var(--ok);flex:none}
+
+/* ignoring */
+.ign{appearance:none;border:1px solid var(--line);background:var(--paper);color:var(--ink-2);font:500 12.5px var(--text);padding:4px 10px;border-radius:999px;cursor:pointer;white-space:nowrap;align-self:center}
+.ign:hover{border-color:var(--ink-3);color:var(--ink)}
+.ign:disabled{opacity:.6;cursor:progress}
+.where td.act{text-align:right;width:1%}
+.pend{font-size:12.5px;color:var(--ink-3);font-style:italic;white-space:nowrap;align-self:center}
+.ck.ignored{color:var(--ink-3)}
+.ck.ignored .status-dot{background:var(--line)}
+.s-ignored{background:var(--line)}
+.ign-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;padding:12px 18px;border-top:1px solid var(--line-2)}
+.ign-row:first-child{border-top:0}
+.ign-row .t{font-weight:600}
+.ign-row .t small{display:block;font-weight:400;color:var(--ink-3);font-size:13.5px;margin-top:2px}
+dialog{border:0;padding:0;border-radius:18px;background:var(--paper);color:var(--ink);width:min(520px,calc(100vw - 32px));box-shadow:0 30px 80px -20px rgba(0,0,0,.45)}
+dialog::backdrop{background:rgba(14,17,23,.45)}
+.dlg{padding:28px 28px 24px;display:flex;flex-direction:column;gap:10px}
+.dlg h2{font-size:22px}
+.dlg p{margin:0;color:var(--ink-2)}
+.dlg .dlg-note{font-size:14px;color:var(--ink-3)}
+.dlg label{font-size:13.5px;font-weight:600;color:var(--ink-2);margin-top:6px}
+.dlg label span{font-weight:400;color:var(--ink-3)}
+.dlg input{height:42px;border:1px solid var(--line);border-radius:var(--r-m);padding:0 12px;font:400 15px var(--text);background:var(--paper);color:var(--ink)}
+.dlg input:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus) 22%,transparent)}
+.dlg .err{color:var(--bad);font-size:14px}
+.dlg .err:empty{display:none}
+.dlg-actions{display:flex;gap:10px;margin-top:8px}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:40;background:var(--ink);color:var(--paper);padding:12px 18px;border-radius:12px;font-size:14.5px;box-shadow:0 12px 30px -10px rgba(0,0,0,.4);max-width:calc(100vw - 32px)}
+.toast a,.toast .linkbtn{color:inherit;font-weight:700}
 
 /* chips */
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px}
@@ -249,11 +295,11 @@ code{font:12.5px/1.4 var(--mono);background:var(--line-2);padding:2px 6px;border
 .links a{font-weight:600}
 .grp{margin-top:20px}
 .grp h4{font:700 14px/1.3 var(--display);margin:0 0 6px;color:var(--ink-2)}
-.ck{display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:2px 10px;padding:9px 0;border-top:1px solid var(--line);font-size:14.5px}
+.ck{display:grid;grid-template-columns:14px minmax(0,1fr) auto auto;gap:2px 10px;padding:9px 0;border-top:1px solid var(--line);font-size:14.5px}
 .grp h4+.ck{border-top:0}
 .ck .status-dot{margin-top:7px}
 .ck .owner{align-self:start}
-.ck .d{grid-column:2/4;color:var(--ink-3);font-size:13.5px;overflow-wrap:anywhere}
+.ck .d{grid-column:2/5;color:var(--ink-3);font-size:13.5px;overflow-wrap:anywhere}
 .passes{font-size:13.5px;color:var(--ink-3);margin:6px 0 0}
 table.map{width:100%;border-collapse:collapse;font-size:13.5px}
 table.map th,table.map td{text-align:left;padding:7px 10px 7px 0;border-top:1px solid var(--line);vertical-align:top}
@@ -314,7 +360,7 @@ td.differs{color:var(--bad)}td.missing{color:var(--ink-3)}
   .sevgrid div:nth-child(3){border-left:0}
   .sevgrid div:nth-child(n+3){border-top:1px solid var(--line-2)}
   .issue-head{grid-template-columns:1fr;padding:18px 16px 0}
-  .issue-head .ref,.issue-head .owner{grid-column:1;grid-row:auto;justify-self:start}
+  .issue-head .ref,.issue-head .head-act{grid-column:1;grid-row:auto;justify-self:start}
   .wf,.verdict{margin-left:16px;margin-right:16px}
   .where thead{display:none}
   .where tr{display:grid;grid-template-columns:1fr 1fr;padding:10px 16px;border-top:1px solid var(--line-2)}
@@ -332,15 +378,125 @@ const R = JSON.parse(document.getElementById('data').textContent);
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const S = R.summary;
-const LABEL = { 'Aligned': 'Aligned', 'Drifted': 'Drifted', 'Broken': 'Broken', 'Missing in code': 'Not built', 'Missing in design': 'Not in Figma' };
-const CLS = { 'Aligned': 'aligned', 'Drifted': 'drifted', 'Broken': 'broken', 'Missing in code': 'notbuilt', 'Missing in design': 'notfigma' };
-const ORDER = { 'Broken': 0, 'Drifted': 1, 'Missing in code': 2, 'Missing in design': 3, 'Aligned': 4 };
+const LABEL = { 'Aligned': 'Aligned', 'Drifted': 'Drifted', 'Broken': 'Broken', 'Missing in code': 'Not built', 'Missing in design': 'Not in Figma', 'Ignored': 'Ignored' };
+const CLS = { 'Aligned': 'aligned', 'Drifted': 'drifted', 'Broken': 'broken', 'Missing in code': 'notbuilt', 'Missing in design': 'notfigma', 'Ignored': 'ignored' };
+const ORDER = { 'Broken': 0, 'Drifted': 1, 'Missing in code': 2, 'Missing in design': 3, 'Aligned': 4, 'Ignored': 5 };
 const fmt = (iso) => iso ? new Date(iso).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : '';
 const OWNER = { Design: 'Fix in Figma', Dev: 'Fix in code', Both: 'Design and dev' };
 const owner = (o) => '<span class="owner ' + esc(o || 'Both') + '">' + (OWNER[o] || OWNER.Both) + '</span>';
 const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
 const list = (a) => a.length > 1 ? a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1] : (a[0] || '');
 const short = (v) => String(v || '').split(',').map((x) => x.split('=').pop().trim()).join(', ');
+
+// ---------------------------------------------------------------- ignoring issues
+// Saved ignores come with the report (status 'ignored'); new ones are pending in this browser until the check reruns.
+const CHECK_ID = (R.meta.check && R.meta.check.id) || location.pathname.split('/').filter(Boolean).filter((x) => x !== 'index.html').pop();
+const REPO = (R.meta.check && R.meta.check.repo) || (/[.]github[.]io$/i.test(location.hostname) && location.pathname.split('/')[1] ? location.hostname.split('.')[0] + '/' + location.pathname.split('/')[1] : null);
+const ik = (c, k) => c + ' :: ' + k;
+const saved = new Map((S.ignored || []).map((x) => [ik(x.componentKey, x.key), x]));
+const PKEY = 'ap.pending.' + CHECK_ID;
+const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } };
+const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode */ } };
+let pend = lsGet(PKEY, null) || { add: {}, remove: {}, at: 0 };
+// Drop pending changes the report already reflects, and any older than an hour
+Object.keys(pend.add).forEach((id) => { if (saved.has(id) || Date.now() - pend.at > 3600e3) delete pend.add[id]; });
+Object.keys(pend.remove).forEach((id) => { if (!saved.has(id) || Date.now() - pend.at > 3600e3) delete pend.remove[id]; });
+lsSet(PKEY, pend);
+const isIgn = (c, k) => { const id = ik(c, k); return pend.remove[id] ? false : saved.has(id) || !!pend.add[id]; };
+const isPending = (c, k) => { const id = ik(c, k); return !!(pend.add[id] || pend.remove[id]); };
+const ignBtn = (attrs, label) => '<button type="button" class="ign" ' + attrs + '>' + (label || 'Ignore') + '</button>';
+const enc = (o) => esc(encodeURIComponent(JSON.stringify(o)));
+const dec = (s) => JSON.parse(decodeURIComponent(s));
+function ignoredList() {
+  const out = [];
+  saved.forEach((x, id) => { if (!pend.remove[id]) out.push({ component: x.componentKey, key: x.key, title: x.title, componentName: x.component, reason: x.reason, at: x.at, pending: false }); });
+  Object.values(pend.add).forEach((x) => { if (!saved.has(ik(x.component, x.key))) out.push(Object.assign({}, x, { pending: true })); });
+  return out.sort((a, b) => String(a.componentName).localeCompare(String(b.componentName)) || String(a.title).localeCompare(String(b.title)));
+}
+async function sendIgnore(action, items, reason) {
+  const key = lsGet('ap.key', null);
+  if (!REPO) return "This report doesn't know which GitHub repository runs the checks.";
+  if (!key) return 'connect';
+  const r = await fetch('https://api.github.com/repos/' + REPO + '/actions/workflows/atom-parity.yml/dispatches', {
+    method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + key, Accept: 'application/vnd.github+json' },
+    body: JSON.stringify({ ref: 'main', inputs: { ignore: JSON.stringify({ action: action, check: CHECK_ID, reason: reason || '', items: items.map((i) => ({ component: i.component, key: i.key, title: i.title, componentName: i.componentName })) }), request_id: Math.random().toString(36).slice(2, 10) } }),
+  }).catch(() => null);
+  if (!r) return "Couldn't reach GitHub. Check your connection and try again.";
+  if (r.status === 401) return 'connect';
+  if (r.status === 403 || r.status === 404) return "Your GitHub key can't run checks. On the Atom parity page, connect again with a key that has Actions: Read and write.";
+  if (r.status !== 204) return 'GitHub said ' + r.status + '. Try again in a minute.';
+  items.forEach((i) => { const id = ik(i.component, i.key); if (action === 'add') { delete pend.remove[id]; if (!saved.has(id)) pend.add[id] = Object.assign({}, i, { reason: reason || null, at: new Date().toISOString() }); } else { delete pend.add[id]; if (saved.has(id)) pend.remove[id] = i; } });
+  pend.at = Date.now(); lsSet(PKEY, pend);
+  return true;
+}
+let toastTimer = 0;
+function toast(html, sticky) {
+  const t = $('toast'); t.innerHTML = html; t.hidden = false;
+  clearTimeout(toastTimer); if (!sticky) toastTimer = setTimeout(() => { t.hidden = true; }, 9000);
+}
+let watching = false;
+function watchForUpdate() {
+  if (watching) return; watching = true;
+  const tick = async () => {
+    const r = await fetch('results.json?ts=' + Date.now(), { cache: 'no-store' }).catch(() => null);
+    const j = r && r.ok ? await r.json().catch(() => null) : null;
+    if (j && j.meta && j.meta.generatedAt > R.meta.generatedAt) { toast('Scores are updated with your change. <button type="button" class="linkbtn" onclick="location.reload()">Reload the report</button>', true); return; }
+    setTimeout(tick, 30000);
+  };
+  setTimeout(tick, 30000);
+}
+if (Object.keys(pend.add).length || Object.keys(pend.remove).length) watchForUpdate();
+function rerender() { renderThemes(); if (A && A.ran && A.issues.length) issues(); render(); renderIgnored(); }
+
+// The ignore dialog
+let ignTarget = null;
+function askIgnore(items, what) {
+  ignTarget = items;
+  $('ignTitle').textContent = items.length > 1 ? 'Ignore this issue for ' + items.length + ' components?' : 'Ignore this issue?';
+  $('ignWhat').innerHTML = what;
+  $('ignReason').value = ''; $('ignErr').textContent = ''; $('ignGo').disabled = false; $('ignGo').textContent = 'Ignore';
+  $('ignDlg').showModal(); setTimeout(() => $('ignReason').focus(), 30);
+}
+$('ignCancel').onclick = () => $('ignDlg').close();
+$('ignForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  if (!ignTarget) return;
+  $('ignGo').disabled = true; $('ignGo').textContent = 'Ignoring…'; $('ignErr').textContent = '';
+  const r = await sendIgnore('add', ignTarget, $('ignReason').value.trim());
+  if (r === true) {
+    $('ignDlg').close(); rerender(); watchForUpdate();
+    toast('Ignored ' + plural(ignTarget.length, 'issue') + '. Scores update when this check reruns, in about 5 minutes.');
+    return;
+  }
+  $('ignGo').disabled = false; $('ignGo').textContent = 'Ignore';
+  $('ignErr').innerHTML = r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a>, choose Connect GitHub, then come back.' : esc(r);
+});
+document.addEventListener('click', async (e) => {
+  const b = e.target.closest('[data-ign]');
+  if (b) {
+    const items = dec(b.dataset.ign).filter((i) => !isIgn(i.component, i.key));
+    if (!items.length) return;
+    const names = [...new Set(items.map((i) => i.componentName))];
+    askIgnore(items, '<b>' + esc(b.dataset.title || items[0].title) + '</b><br>' + esc(names.length > 4 ? plural(names.length, 'component') : list(names)));
+    return;
+  }
+  const rb = e.target.closest('[data-restore]');
+  if (rb) {
+    const items = dec(rb.dataset.restore);
+    rb.disabled = true; rb.textContent = 'Restoring…';
+    const r = await sendIgnore('remove', items, '');
+    if (r === true) { rerender(); watchForUpdate(); toast('Restored. It counts again once this check reruns, in about 5 minutes.'); }
+    else { rb.disabled = false; rb.textContent = 'Restore'; toast(r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a> and choose Connect GitHub.' : esc(r)); }
+  }
+});
+function renderIgnored() {
+  const items = ignoredList();
+  $('tabIgn').textContent = items.length || '';
+  if (!items.length) { $('ignNote').textContent = 'Nothing is ignored. Use Ignore on any issue that is intentional, and it stops counting against the score.'; $('ignList').innerHTML = ''; return; }
+  $('ignNote').textContent = plural(items.length, 'issue') + ' left out of the score for everyone.';
+  $('ignList').innerHTML = '<div class="list ign-list">' + items.map((x) => '<div class="ign-row"><span class="t">' + esc(x.title) + '<small>' + esc(x.componentName) + (x.reason ? ', ' + esc(x.reason) : '') + (x.at ? ', ignored ' + fmt(x.at) : '') + '</small></span>' +
+    (x.pending ? '<span class="pend">Updating</span>' : '<button type="button" class="ign" data-restore="' + enc([{ component: x.component, key: x.key, title: x.title, componentName: x.componentName }]) + '">Restore</button>') + '</div>').join('') + '</div>';
+}
 
 $('when').textContent = 'Checked ' + fmt(R.meta.generatedAt);
 const SC = [['aligned', 'Aligned', 'Aligned'], ['drifted', 'Drifted', 'Drifted'], ['broken', 'Broken', 'Broken'], ['notbuilt', 'Not built', 'Missing in code'], ['notfigma', 'Not in Figma', 'Missing in design']];
@@ -355,10 +511,16 @@ if (R.delta) {
 }
 
 // ---------------------------------------------------------------- needs attention
-if (S.themes.length) {
-  $('sumNote').textContent = 'The most common problems in this check, worst first.';
-  $('themes').innerHTML = S.themes.slice(0, 8).map((t) => '<li><span class="t">' + esc(t.title) + '<small>' + esc(t.components.length > 3 ? plural(t.components.length, 'component') : list(t.components)) + '</small></span>' + owner(t.owner) + '</li>').join('');
-} else { $('sumNote').textContent = 'Nothing needs attention. Every component matches Figma.'; $('themes').hidden = true; }
+function renderThemes() {
+  const themes = S.themes.map((t) => Object.assign({}, t, { live: (t.items || []).filter((i) => !isIgn(i.component, i.key)) })).filter((t) => !t.items || t.live.length);
+  if (!themes.length) { $('sumNote').textContent = 'Nothing needs attention. Every component matches Figma.'; $('themes').hidden = true; return; }
+  $('sumNote').textContent = 'The most common problems in this check, worst first.'; $('themes').hidden = false;
+  $('themes').innerHTML = themes.slice(0, 8).map((t) => {
+    const names = t.items ? [...new Set(t.live.map((i) => i.componentName))] : t.components;
+    return '<li><span class="t">' + esc(t.title) + '<small>' + esc(names.length > 3 ? plural(names.length, 'component') : list(names)) + '</small></span>' + owner(t.owner) +
+      (t.items ? ignBtn('data-ign="' + enc(t.live) + '" data-title="' + esc(t.title) + '" aria-label="Ignore ' + esc(t.title) + '"') : '<span></span>') + '</li>';
+  }).join('');
+}
 
 // ---------------------------------------------------------------- accessibility
 const A = R.a11y;
@@ -420,16 +582,18 @@ function verdict(i) {
 }
 const shown = {};
 function issues() {
-  const items = A.issues.filter((i) => !a11yFilter || i.owner === a11yFilter);
+  const items = A.issues.map((i) => Object.assign({}, i, { live: (i.items || []).filter((x) => !isIgn(x.component, x.key)), where: i.where.filter((w) => !w.checkKey || !isIgn(w.componentKey, w.checkKey)) }))
+    .filter((i) => (!i.items || i.live.length) && (!a11yFilter || i.owner === a11yFilter));
+  if (!items.length) { $('issues').innerHTML = '<p class="empty list">Every issue here is ignored. See Ignored, near the end of the report.</p>'; return; }
   $('issues').innerHTML = items.map((i) => {
     const all = i.where;
     const rows = shown[i.rule] ? all : all.slice(0, 8);
     const crit = i.criterion ? '<a href="' + esc(i.criterion.url) + '" target="_blank" rel="noopener">WCAG ' + esc(i.criterion.sc) + ' ' + esc(i.criterion.name) + '</a>' + (i.criterion.level ? ', level ' + esc(i.criterion.level) : '') : 'Best practice';
-    return '<article class="issue" id="a-' + esc(i.rule) + '" aria-labelledby="ah-' + esc(i.rule) + '"><div class="issue-head"><span class="sev ' + i.impact + '">' + SEVNAME[i.impact] + '</span><h3 id="ah-' + esc(i.rule) + '">' + esc(i.title) + '</h3>' + owner(i.owner) + '<p class="ref">' + crit + (i.help ? ' &nbsp; <a href="' + esc(i.help) + '" target="_blank" rel="noopener">Rule details</a>' : '') + '</p></div>' +
+    return '<article class="issue" id="a-' + esc(i.rule) + '" aria-labelledby="ah-' + esc(i.rule) + '"><div class="issue-head"><span class="sev ' + i.impact + '">' + SEVNAME[i.impact] + '</span><h3 id="ah-' + esc(i.rule) + '">' + esc(i.title) + '</h3><div class="head-act">' + owner(i.owner) + (i.items ? ignBtn('data-ign="' + enc(i.live) + '" data-title="' + esc(i.title) + '" aria-label="Ignore ' + esc(i.title) + '"') : '') + '</div><p class="ref">' + crit + (i.help ? ' &nbsp; <a href="' + esc(i.help) + '" target="_blank" rel="noopener">Rule details</a>' : '') + '</p></div>' +
       (i.why || i.fix ? '<dl class="wf">' + (i.why ? '<div><dt>What it means for people</dt><dd>' + esc(i.why) + '</dd></div>' : '') + (i.fix ? '<div><dt>How to fix it</dt><dd>' + esc(i.fix) + '</dd></div>' : '') + '</dl>' : '') +
       verdict(i) +
-      '<table class="where"><thead><tr><th scope="col">Component</th><th scope="col">Brand</th><th scope="col">Variants</th><th scope="col">Result</th></tr></thead><tbody>' +
-      rows.map((w) => '<tr><td><a href="#c-' + esc(w.componentKey) + '" data-open="' + esc(w.componentKey) + '">' + esc(w.component) + '</a></td><td>' + esc(w.brand || 'All') + '</td><td>' + (w.variants.length ? esc(short(w.variants[0])) + (w.variants.length > 1 ? '<small>and ' + (w.variants.length - 1) + ' more</small>' : '') : '<small>Whole component</small>') + '</td><td>' + measure(i, w) + '</td></tr>').join('') +
+      '<table class="where"><thead><tr><th scope="col">Component</th><th scope="col">Brand</th><th scope="col">Variants</th><th scope="col">Result</th><th scope="col"><span class="sr">Ignore</span></th></tr></thead><tbody>' +
+      rows.map((w) => '<tr><td><a href="#c-' + esc(w.componentKey) + '" data-open="' + esc(w.componentKey) + '">' + esc(w.component) + '</a></td><td>' + esc(w.brand || 'All') + '</td><td>' + (w.variants.length ? esc(short(w.variants[0])) + (w.variants.length > 1 ? '<small>and ' + (w.variants.length - 1) + ' more</small>' : '') : '<small>Whole component</small>') + '</td><td>' + measure(i, w) + '</td><td class="act">' + (w.checkKey ? ignBtn('data-ign="' + enc([{ component: w.componentKey, key: w.checkKey, title: w.title || i.title, componentName: w.component }]) + '" data-title="' + esc(i.title) + '" aria-label="Ignore for ' + esc(w.component) + '"') : '') + '</td></tr>').join('') +
       '</tbody></table>' + (all.length > rows.length ? '<p class="more-rows"><button class="linkbtn" data-more="' + esc(i.rule) + '">Show all ' + all.length + ' rows</button></p>' : '') + '</article>';
   }).join('');
 }
@@ -448,7 +612,7 @@ $('chips').onclick = (e) => { const b = e.target.closest('.chip'); if (!b) retur
 $('q').oninput = (e) => { state.q = e.target.value.toLowerCase(); render(); };
 
 function rowHtml(c) {
-  const f = c.checks.filter((x) => x.status === 'fail').length, w = c.checks.filter((x) => x.status === 'warn').length;
+  const f = c.checks.filter((x) => x.status === 'fail' && !isIgn(c.key, x.key)).length, w = c.checks.filter((x) => x.status === 'warn' && !isIgn(c.key, x.key)).length;
   const counts = [f && f + ' failing', w && plural(w, 'warning')].filter(Boolean).join(', ');
   const g = (c.gallery || []).find((x) => x.figma) || (c.gallery || []).find((x) => x.code);
   const thumb = '<span class="thumb' + (g ? '' : ' none') + '" aria-hidden="true">' + (g ? '<img loading="lazy" alt="" src="' + esc(g.figma || g.code) + '">' : '') + '</span>';
@@ -468,11 +632,13 @@ function pagesOf(items) {
   return [...m.values()].sort((a, b) => a.order - b.order || a.name.localeCompare(b.name)).map((p) => Object.assign(p, { items: p.items.sort((a, b) => at(a) - at(b) || a.name.localeCompare(b.name)) }));
 }
 function render() {
+  const open = [...document.querySelectorAll('.comp[open]')].map((d) => d.dataset.key);
   const items = R.components.filter((c) => (!state.s || c.status === state.s) && (!state.q || (c.name + ' ' + (c.code ? c.code.title : '') + ' ' + (c.figma ? c.figma.page : '')).toLowerCase().includes(state.q)));
   if (!items.length) { $('list').innerHTML = '<p class="empty list">No components match.</p>'; return; }
   const pages = pagesOf(items);
   $('list').innerHTML = pages.length < 2 ? '<div class="list">' + pages[0].items.map(rowHtml).join('') + '</div>'
     : pages.map((p) => '<div class="pgroup"><h3 class="pg-h">' + esc(p.name) + ' <span>' + plural(p.items.length, 'component') + '</span></h3><div class="list">' + p.items.map(rowHtml).join('') + '</div></div>').join('');
+  open.forEach((k) => { const el = document.getElementById('c-' + k); if (el) el.open = true; });
 }
 document.addEventListener('toggle', (e) => {
   const d = e.target; if (!d.classList || !d.classList.contains('comp') || !d.open) return;
@@ -494,12 +660,20 @@ function detail(c) {
   let h = '<div class="links">' + (c.figma && c.figma.url ? '<a href="' + esc(c.figma.url) + '" target="_blank" rel="noopener">Open in Figma</a>' : '') + (c.code && c.code.url ? '<a href="' + esc(c.code.url) + '" target="_blank" rel="noopener">Open in Storybook</a>' : '') + '</div>';
   if (c.suggestions && c.suggestions.length) h += '<p class="passes">Possible matches: ' + esc(c.suggestions.map((s) => s.title || s.name).join(', ')) + '</p>';
   for (const cat of [...new Set(c.checks.map((x) => x.category))]) {
-    const items = c.checks.filter((x) => x.category === cat);
-    const bad = items.filter((x) => x.status !== 'pass').sort((a, b) => (b.status === 'fail') - (a.status === 'fail'));
-    const good = items.filter((x) => x.status === 'pass');
-    h += '<div class="grp"><h4>' + esc(cat) + '</h4>' + bad.map((x) => '<div class="ck"><span class="status-dot ' + x.status + '"></span><span>' + esc(x.title) + '</span>' + owner(x.owner) + (x.detail || x.brands.length || x.variants.length ? '<div class="d">' + esc(x.detail || '') + where(x) + '</div>' : '') + '</div>').join('') +
+    const st = (x) => (x.status === 'ignored' ? x.was : x.status);
+    const items = c.checks.filter((x) => x.category === cat && !isIgn(c.key, x.key));
+    if (!items.length) continue;
+    const bad = items.filter((x) => st(x) !== 'pass').sort((a, b) => (st(b) === 'fail') - (st(a) === 'fail'));
+    const good = items.filter((x) => st(x) === 'pass');
+    h += '<div class="grp"><h4>' + esc(cat) + '</h4>' + bad.map((x) => '<div class="ck"><span class="status-dot ' + st(x) + '"></span><span>' + esc(x.title) + '</span>' + owner(x.owner) +
+      (isPending(c.key, x.key) ? '<span class="pend">Restoring</span>' : ignBtn('data-ign="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '" aria-label="Ignore ' + esc(x.title) + '"')) +
+      (x.detail || x.brands.length || x.variants.length ? '<div class="d">' + esc(x.detail || '') + where(x) + '</div>' : '') + '</div>').join('') +
       (good.length ? '<p class="passes">' + good.length + ' passing: ' + esc(good.map((x) => x.label).slice(0, 6).join(', ')) + (good.length > 6 ? ' and more' : '') + '</p>' : '') + '</div>';
   }
+  const ign = c.checks.filter((x) => isIgn(c.key, x.key));
+  if (ign.length) h += '<div class="grp"><h4>Ignored</h4>' + ign.map((x) => '<div class="ck ignored"><span class="status-dot"></span><span>' + esc(x.title) + '</span><span></span>' +
+    (isPending(c.key, x.key) ? '<span class="pend">Updating</span>' : ignBtn('data-restore="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '"', 'Restore')) +
+    (x.ignored && x.ignored.reason ? '<div class="d">' + esc(x.ignored.reason) + '</div>' : '') + '</div>').join('') + '</div>';
   if (c.props && c.props.props && c.props.props.length) {
     h += '<div class="grp"><h4>Property mapping</h4><table class="map"><thead><tr><th>Figma</th><th>Code</th><th>Values</th></tr></thead><tbody>' + c.props.props.map((p) => '<tr><td>' + esc(p.figma) + '</td><td class="v-' + (p.how === 'state' ? 'exact' : p.how) + '">' + esc(p.how === 'state' ? 'states' : p.codeArg || 'missing') + '</td><td>' +
       p.values.map((v) => '<span class="v-' + (['interaction', 'boolean', 'enum', 'free'].includes(v.how) ? 'exact' : v.how) + '">' + esc(v.figma) + (v.code != null && String(v.code).toLowerCase() !== String(v.figma).toLowerCase() ? ' → ' + esc(v.code) : v.boolArg ? ' → ' + esc(v.boolArg) : '') + '</span>').join(', ') + '</td></tr>').join('') + '</tbody></table></div>';
@@ -510,6 +684,8 @@ function detail(c) {
 }
 const fig = (cap, cls, src) => '<figure class="' + cls + '"><figcaption><i></i>' + cap + '</figcaption><div class="im">' + (src ? '<img loading="lazy" alt="' + cap + '" src="' + esc(src) + '">' : '') + '</div></figure>';
 render();
+renderThemes();
+renderIgnored();
 
 // ---------------------------------------------------------------- tokens and brands
 const T = R.tokens; const brands = R.brands.pairs.filter((p) => p.code).map((p) => p.figma);

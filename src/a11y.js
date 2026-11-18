@@ -149,20 +149,22 @@ export function a11ySummary(components) {
       const info = ruleInfo(m.rule, m.tags);
       if (m.rule === 'design-contrast') designChecks += ch.instances.length;
       const sc = info.criterion?.sc;
-      if (sc) { const prev = tested.get(sc); const rank = { pass: 0, warn: 1, fail: 2 }; if (!prev || rank[ch.status] > rank[prev]) tested.set(sc, ch.status); }
-      if (ch.status === 'pass' || ch.status === 'info') continue;
+      const st = ch.status === 'ignored' || ch.status === 'info' ? 'pass' : ch.status;
+      if (sc) { const prev = tested.get(sc); const rank = { pass: 0, warn: 1, fail: 2 }; if (!prev || rank[st] > rank[prev]) tested.set(sc, st); }
+      if (st === 'pass') continue;
       const impact = m.rule === 'design-contrast' && ch.status === 'warn' ? 'moderate' : (m.impact ?? (ch.status === 'fail' ? 'serious' : 'moderate'));
       if (!issues.has(m.rule)) {
-        issues.set(m.rule, { rule: m.rule, criterion: info.criterion, title: info.title ?? ch.title, why: info.why, fix: info.fix, impact, status: ch.status, owner: ch.owner, source: m.source, help: m.source === 'code' && m.rule !== 'keyboard' && m.rule !== 'focus-visible' && m.rule !== 'target-size' ? ch.instances.find((i) => i.code)?.code ?? null : null, components: [], where: [] });
+        issues.set(m.rule, { items: [], rule: m.rule, criterion: info.criterion, title: info.title ?? ch.title, why: info.why, fix: info.fix, impact, status: ch.status, owner: ch.owner, source: m.source, help: m.source === 'code' && m.rule !== 'keyboard' && m.rule !== 'focus-visible' && m.rule !== 'target-size' ? ch.instances.find((i) => i.code)?.code ?? null : null, components: [], where: [] });
       }
       const it = issues.get(m.rule);
       if (IMPACT[impact] > IMPACT[it.impact]) it.impact = impact;
       if (ch.status === 'fail') it.status = 'fail';
       if (!it.components.some((x) => x.key === c.key)) it.components.push({ name: c.name, key: c.key });
+      it.items.push({ component: c.key, key: ch.key, title: ch.title, componentName: c.name });
       const groups = new Map();
       for (const i of ch.instances.filter((x) => x.status !== 'pass')) {
         const k = `${i.brand ?? ''}`;
-        if (!groups.has(k)) groups.set(k, { component: c.name, componentKey: c.key, brand: i.brand, variants: [], status: i.status, detail: i.detail, contrast: null, design: null, target: i.extra?.target ?? null, size: i.extra?.w ? { w: i.extra.w, h: i.extra.h, min: i.extra.min } : null });
+        if (!groups.has(k)) groups.set(k, { checkKey: ch.key, title: ch.title, component: c.name, componentKey: c.key, brand: i.brand, variants: [], status: i.status, detail: i.detail, contrast: null, design: null, target: i.extra?.target ?? null, size: i.extra?.w ? { w: i.extra.w, h: i.extra.h, min: i.extra.min } : null });
         const g = groups.get(k);
         if (i.variant && !g.variants.includes(i.variant)) g.variants.push(i.variant);
         if (i.status === 'fail') g.status = 'fail';

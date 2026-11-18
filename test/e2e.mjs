@@ -372,6 +372,32 @@ assert.ok(entries[0].ok && entries[0].score > 0, 'first check ran');
 assert.ok(!entries[1].ok && /couldn't find|isn't in this file/i.test(entries[1].error), 'bad link explained in plain words');
 assert.ok(!JSON.parse(fs.readFileSync(checksFile, 'utf8')).checks[0].figmaUrl.includes('t=abc'), 'tracking params stripped');
 assert.ok(fs.existsSync(path.join(OUT, 'site', 'index.html')) && fs.existsSync(path.join(OUT, 'site', entries[0].id, 'index.html')));
+// Ignoring: an ignored line leaves the score; ignoring "Not found in Storybook" takes the component out of the totals
+{
+  const id = entries[0].id;
+  const before = JSON.parse(fs.readFileSync(path.join(OUT, 'site', id, 'results.json'), 'utf8'));
+  const paired = before.components.find((c) => c.code && c.checks.some((x) => x.status === 'fail'));
+  const line = paired.checks.find((x) => x.status === 'fail');
+  const missing = before.components.find((c) => c.status === 'Missing in code');
+  const ignFile = path.join(path.dirname(checksFile), 'ignores.json');
+  const { changeIgnores } = await import('../src/ignores.js');
+  changeIgnores(ignFile, { action: 'add', check: id, reason: 'intentional', items: [{ component: paired.key, key: line.key, title: line.title, componentName: paired.name }, ...(missing ? [{ component: missing.key, key: 'Naming|name', title: 'Not found in Storybook', componentName: missing.name }] : [])] });
+  const ig = await runAll({ configFile: cfgBase, checksFile, siteDir: path.join(OUT, 'site-ign'), baselineDir: path.join(OUT, 'site'), statusFrom: path.join(OUT, 'site', 'checks-status.json'), siteUrl: null, only: [id] });
+  const after = JSON.parse(fs.readFileSync(path.join(OUT, 'site-ign', id, 'results.json'), 'utf8'));
+  const p2 = after.components.find((c) => c.key === paired.key);
+  const l2 = p2.checks.find((x) => x.key === line.key);
+  assert.equal(l2.status, 'ignored'); assert.equal(l2.was, 'fail'); assert.equal(l2.ignored.reason, 'intentional');
+  assert.ok(p2.score > paired.score, `score rises once the line is ignored (${paired.score} → ${p2.score})`);
+  assert.ok(after.summary.ignored.some((x) => x.key === line.key), 'listed under Ignored');
+  assert.ok(!after.summary.issues.some((x) => x.componentKey === paired.key && x.key === line.key), 'gone from the issues');
+  if (missing) {
+    assert.equal(after.components.find((c) => c.key === missing.key).status, 'Ignored');
+    assert.equal(after.summary.components.figma, before.summary.components.figma - 1, 'ignored component leaves the totals');
+  }
+  assert.ok(ig[0].ignored >= 1, 'status entry counts ignored issues');
+  fs.rmSync(ignFile);
+  console.log(`✓ ignoring: ${paired.name} ${paired.score}% → ${p2.score}%` + (missing ? `, ${missing.name} left out` : ''));
+}
 // A refresh that fails keeps the last good report instead of deleting it
 {
   process.env.PARITY_FAST_RETRY = '1';

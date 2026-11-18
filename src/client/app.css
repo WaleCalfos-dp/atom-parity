@@ -142,6 +142,7 @@
 .counts{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:13.5px;color:var(--ink-2)}
 .counts span{display:inline-flex;align-items:center;gap:6px}
 .counts i{width:9px;height:9px;border-radius:3px}
+.counts .ignored-n{color:var(--ink-3)}
 .spark{width:84px;height:24px;flex:none}
 .a11y-line{display:grid;grid-template-columns:20px minmax(0,1fr) auto;gap:12px;align-items:center;margin:0;padding:12px 14px;border-radius:var(--r-m);background:var(--line-2);font-size:14px;position:relative;z-index:1}
 .a11y-line svg{width:20px;height:20px;color:var(--ink-2)}

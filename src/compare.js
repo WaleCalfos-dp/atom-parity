@@ -38,7 +38,7 @@ export class Checks {
 }
 
 export function scoreOf(checks) {
-  const scored = checks.filter((c) => c.status !== 'info');
+  const scored = checks.filter((c) => c.status !== 'info' && c.status !== 'ignored');
   if (!scored.length) return null;
   const pts = scored.reduce((s, c) => s + (c.status === 'pass' ? 1 : c.status === 'warn' ? 0.5 : 0), 0);
   return Math.round((pts / scored.length) * 100);

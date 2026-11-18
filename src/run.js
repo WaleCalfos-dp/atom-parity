@@ -6,6 +6,7 @@ import { matchComponents, matchBrands, matchProps, argsForVariant, pickStory } f
 import { Checks, scoreOf, statusOf, tokenChecks, visualChecks, a11yChecks, interactionChecks, propertyChecks, componentNamingChecks, tokenTable, delta, CATEGORIES } from './compare.js';
 import { compareImages } from './visual.js';
 import { designA11yChecks, a11ySummary } from './a11y.js';
+import { markIgnored } from './ignores.js';
 import { manifestFromFigmaUrl } from './figma-rest.js';
 import { readJson, writeJson, ensureDir, slug, log, norm, figmaVarToCss, pool } from './util.js';
 
@@ -204,7 +205,7 @@ export async function run(cfg, opts = {}) {
           detail: 'The component can take keyboard focus, but the Figma component set has no Focus variant', meta: { rule: 'design-focus', source: 'design', impact: 'moderate' } });
       }
       for (const v of pair.figma.variants) designA11yChecks(checks, { variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
-      const list = checks.list();
+      const list = markIgnored(checks.list(), pair.figma.id, cfg.ignores);
       components.push({
         key: pair.figma.id, name: pair.figma.name, status: statusOf(list), score: scoreOf(list), match: pair.how,
         figma: { id: pair.figma.id, name: pair.figma.name, page: pair.figma.page, section: pair.figma.section, group: pair.figma.group ?? null, order: manifest.components.indexOf(pair.figma), pageOrder: pair.figma.pageOrder ?? null, variants: pair.figma.variants.length, url: manifest.file?.key ? `https://www.figma.com/design/${manifest.file.key}/?node-id=${pair.figma.id.replace(':', '-')}` : null },
@@ -218,9 +219,12 @@ export async function run(cfg, opts = {}) {
       for (const v of m.figma.variants) designA11yChecks(checks, { variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
       checks.add({ category: 'Naming', subject: 'name', label: 'Component', status: 'fail', owner: 'Both', title: 'Not found in Storybook',
         detail: m.suggestions.length ? `Possible matches: ${m.suggestions.map((s) => s.title).join(', ')}. Rename it, or add it to components.aliases.` : 'No similar component in Storybook' });
-      components.push({ key: m.figma.id, name: m.figma.name, status: 'Missing in code', score: 0, match: null, suggestions: m.suggestions,
+      const mlist = markIgnored(checks.list(), m.figma.id, cfg.ignores);
+      // Ignoring "Not found in Storybook" takes the component out of this check (not meant for the component library)
+      const skipped = mlist.some((c) => c.key === 'Naming|name' && c.status === 'ignored');
+      components.push({ key: m.figma.id, name: m.figma.name, status: skipped ? 'Ignored' : 'Missing in code', score: skipped ? null : 0, match: null, suggestions: m.suggestions,
         figma: { id: m.figma.id, name: m.figma.name, page: m.figma.page, section: m.figma.section, group: m.figma.group ?? null, order: manifest.components.indexOf(m.figma), pageOrder: m.figma.pageOrder ?? null, variants: m.figma.variants.length, url: manifest.file?.key ? `https://www.figma.com/design/${manifest.file.key}/?node-id=${m.figma.id.replace(':', '-')}` : null },
-        code: null, checks: checks.list(), gallery: [] });
+        code: null, checks: mlist, gallery: [] });
     }
     for (const p of orphanPlans) {
       const checks = new Checks();
@@ -268,19 +272,20 @@ export async function run(cfg, opts = {}) {
 
 export function summarise(results) {
   const comps = results.components;
-  const designComps = comps.filter((c) => c.status !== 'Missing in design');
+  const designComps = comps.filter((c) => c.status !== 'Missing in design' && c.status !== 'Ignored');
   const count = (s) => comps.filter((c) => c.status === s).length;
   const scored = designComps.map((c) => c.score ?? 0);
   const score = scored.length ? Math.round(scored.reduce((a, b) => a + b, 0) / scored.length) : 0;
 
   const byCategory = Object.fromEntries(CATEGORIES.map((k) => [k, { pass: 0, warn: 0, fail: 0 }]));
   const byOwner = { Design: { warn: 0, fail: 0 }, Dev: { warn: 0, fail: 0 }, Both: { warn: 0, fail: 0 } };
-  const issues = [];
+  const issues = []; const ignored = [];
   for (const c of comps) {
     for (const ch of c.checks) {
+      if (ch.status === 'ignored') { ignored.push({ component: c.name, componentKey: c.key, key: ch.key, category: ch.category, title: ch.title, was: ch.was, owner: ch.owner, reason: ch.ignored?.reason ?? null, at: ch.ignored?.at ?? null }); continue; }
       if (byCategory[ch.category] && ch.status !== 'info') byCategory[ch.category][ch.status]++;
       if ((ch.status === 'fail' || ch.status === 'warn') && byOwner[ch.owner]) byOwner[ch.owner][ch.status]++;
-      if (ch.status === 'fail' || ch.status === 'warn') issues.push({ component: c.name, componentKey: c.key, category: ch.category, subject: ch.subject, status: ch.status, title: ch.title, detail: ch.detail, owner: ch.owner, brands: ch.brands, variants: ch.variants.length });
+      if (ch.status === 'fail' || ch.status === 'warn') issues.push({ component: c.name, componentKey: c.key, key: ch.key, category: ch.category, subject: ch.subject, status: ch.status, title: ch.title, detail: ch.detail, owner: ch.owner, brands: ch.brands, variants: ch.variants.length });
     }
   }
   // Most common problems across the library (same title in many components)
@@ -298,8 +303,9 @@ export function summarise(results) {
   for (const i of issues) {
     const t0 = themeTitle(i);
     const k = `${i.category}|${t0}`;
-    if (!themes.has(k)) themes.set(k, { category: i.category, title: t0, status: i.status, owner: i.owner, components: new Set() });
+    if (!themes.has(k)) themes.set(k, { category: i.category, title: t0, status: i.status, owner: i.owner, components: new Set(), items: [] });
     const t = themes.get(k); t.components.add(i.component); if (i.status === 'fail') t.status = 'fail';
+    t.items.push({ component: i.componentKey, key: i.key, title: i.title, componentName: i.component });
   }
   const themeList = [...themes.values()].map((t) => ({ ...t, components: [...t.components] }))
     .sort((a, b) => (b.status === 'fail') - (a.status === 'fail') || b.components.length - a.components.length).slice(0, 10);
@@ -323,9 +329,9 @@ export function summarise(results) {
 
   return {
     score, headline,
-    components: { total: comps.length, figma: designComps.length, paired, aligned: count('Aligned'), drifted: count('Drifted'), broken: count('Broken'), missingInCode: count('Missing in code'), missingInDesign: count('Missing in design') },
+    components: { total: comps.length, figma: designComps.length, paired, aligned: count('Aligned'), drifted: count('Drifted'), broken: count('Broken'), missingInCode: count('Missing in code'), missingInDesign: count('Missing in design'), ignored: count('Ignored') },
     checks: { pass: issues.length ? comps.reduce((n, c) => n + c.checks.filter((x) => x.status === 'pass').length, 0) : comps.reduce((n, c) => n + c.checks.length, 0), warn: issues.filter((i) => i.status === 'warn').length, fail: issues.filter((i) => i.status === 'fail').length },
-    byCategory, byOwner, themes: themeList, works,
+    byCategory, byOwner, themes: themeList, works, ignored,
     brokenComponents: broken.map((c) => ({ name: c.name, key: c.key, reasons: c.checks.filter((x) => x.status === 'fail' && ['Visual', 'Accessibility', 'Interaction', 'Rendering'].includes(x.category)).map((x) => x.title).slice(0, 3) })),
     issues,
   };

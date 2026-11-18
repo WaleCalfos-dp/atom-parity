@@ -1,10 +1,11 @@
 name: Atom parity
-run-name: ${{ inputs.request_id && format('{0} [{1}]', inputs.remove_id && 'Remove' || (inputs.name || inputs.check_id || 'Check'), inputs.request_id) || 'Nightly check' }}
+run-name: ${{ inputs.request_id && format('{0} [{1}]', inputs.remove_id && 'Remove' || inputs.ignore && 'Ignore' || (inputs.name || inputs.check_id || 'Check'), inputs.request_id) || 'Nightly check' }}
 
 # Started from the web page (via the GitHub API) or on the nightly schedule.
 #   figma_url + storybook_url → save a new check and run it
 #   check_id                  → run one saved check
 #   remove_id                 → remove a saved check and its report
+#   ignore                    → ignore or restore issues (JSON from the report page), then rerun that check
 #   nothing                   → run every saved check
 on:
   workflow_dispatch:
@@ -14,6 +15,7 @@ on:
       storybook_url: { description: 'Storybook link', required: false }
       check_id: { description: 'Run one saved check', required: false }
       remove_id: { description: 'Remove a saved check', required: false }
+      ignore: { description: 'Ignore or restore issues (set by the report page)', required: false }
       request_id: { description: 'Set by the web page to follow this run', required: false }
   schedule:
     - cron: '17 2 * * 1-5'   # 02:17 UTC, Monday to Friday
@@ -59,8 +61,20 @@ jobs:
           STORYBOOK_LINK: ${{ inputs.storybook_url }}
           CHECK_ID: ${{ inputs.check_id }}
           REMOVE_ID: ${{ inputs.remove_id }}
+          IGNORE: ${{ inputs.ignore }}
         run: |
-          if [ -n "$REMOVE_ID" ]; then
+          if [ -n "$IGNORE" ]; then
+            # Save the change to ignores.json on main (retrying if someone else saved at the same time), then rerun that check
+            for attempt in 1 2 3 4 5; do
+              node src/cli.js ignore
+              git add ignores.json && git commit -qm "Update ignored issues" || break
+              git push -q && break
+              git fetch -q origin main && git reset -q --hard origin/main
+              sleep $((attempt * 3))
+            done
+            echo "id=$(node -e 'console.log(JSON.parse(process.env.IGNORE).check)')" >> "$GITHUB_OUTPUT"
+            echo "mode=one" >> "$GITHUB_OUTPUT"
+          elif [ -n "$REMOVE_ID" ]; then
             node src/cli.js remove-check --id "$REMOVE_ID"
             rm -rf "site/$REMOVE_ID"
             git add checks.json && git commit -qm "Remove parity check: $REMOVE_ID" && git push -q || true

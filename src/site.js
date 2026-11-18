@@ -1,3 +1,4 @@
+import { readIgnores } from './ignores.js';
 import { execFileSync } from 'node:child_process';
 // Saved checks (checks.json) → one report per check + an index page listing them all.
 import fs from 'node:fs';
@@ -84,7 +85,9 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
         figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, outDir,
         baseline: path.join(baselineDir, c.id, 'results.json'), ...(c.overrides ?? {}),
       });
+      cfg.ignores = readIgnores(path.join(path.dirname(checksFile), 'ignores.json')).filter((x) => x.check === c.id);
       const results = await run(cfg, {});
+      results.meta.check = { id: c.id, repo: process.env.GITHUB_REPOSITORY ?? safeRepo(path.dirname(checksFile)) };
       writeReport(results, outDir, { reportUrl: siteUrl ? `${siteUrl}/${c.id}/` : null, title: c.name });
       const s = results.summary;
       const prev = previous.find((p) => p.id === c.id);
@@ -99,7 +102,7 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
         components: results.components.map((x) => ({ name: x.name, status: x.status, score: x.score })),
         score: s.score, headline: s.headline, counts: s.components, previousScore: results.delta?.previousScore ?? null,
         newFails: results.delta?.newFails?.length ?? 0, fixed: results.delta?.fixed?.length ?? 0, ranAt: results.meta.generatedAt,
-        tokenSource: results.meta.figma.tokenSource, themes: s.themes.slice(0, 3).map((t) => t.title),
+        tokenSource: results.meta.figma.tokenSource, themes: s.themes.slice(0, 3).map((t) => t.title), ignored: (s.ignored ?? []).length,
         place: results.meta.figma.place ?? placeFromComponents(results.components),
         a11y: results.a11y ? { ran: results.a11y.ran, total: results.a11y.total, counts: results.a11y.counts, components: results.a11y.components, scans: results.a11y.scans, designChecks: results.a11y.designChecks, top: results.a11y.issues.slice(0, 3).map((i) => ({ title: i.title, impact: i.impact, owner: i.owner })) } : null,
       });
@@ -146,3 +149,5 @@ function placeFromComponents(components) {
   const f = components.map((c) => c.figma).filter((x) => x && x.pageOrder != null).sort((a, b) => a.pageOrder - b.pageOrder)[0];
   return f ? { group: f.group ?? null, section: f.section ?? null, order: f.pageOrder } : null;
 }
+
+function safeRepo(dir) { try { return repoFromGit(dir); } catch { return null; } }
