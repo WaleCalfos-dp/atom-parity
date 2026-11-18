@@ -1,0 +1,145 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Dual Input: Not found in Storybook","Possible matches: Data Entry/LabelInput, Data Entry/PinInput. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24026
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17603%3A24026
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] eSim / Data Balance: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2885-12852
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-2885%3A12852
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] eSim / Status Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=4446-136318
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-4446%3A136318
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] eSim / Tile: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=817-27434
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-817%3A27434
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Fitness / Class Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17503-16604
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17503%3A16604
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Flight Delay / Benefit Card: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
+
+Brands: Dragonpass
+Variants: State=Expired
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17636-37197
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17636%3A37197
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Flight Delay / Benefit Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17636-37197
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17636%3A37197
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
+
+Brands: AeroBlue
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Not found in Storybook","Possible matches: Data Display/Card, Business Components/FlightCard. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Membership / Entitlement Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10422-5934
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10422%3A5934
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Membership / Membership Card: Text contrast is too low in Figma","3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40
+
+Brands: AeroBlue
+Variants: Membership / Membership Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10419%3A5354
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Membership / Membership Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10419%3A5354
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Parking / Search Supercomponent: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18195-8619
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-18195%3A8619
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Product Details: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
+
+Brands: AeroBlue
+Variants: Type=Default
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16222-20620
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-16222%3A20620
+
+Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Product Details: Not found in Storybook","Possible matches: Business Components/ProductSelect. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16222-20620
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-16222%3A20620
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Transport / List Item: Not found in Storybook","Possible matches: Data Entry/List. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15617-26749
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-15617%3A26749
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
+
+Brands: Dragonpass
+Variants: Type=Default; Type=Applied; Type=Expired
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Not found in Storybook","Possible matches: Business Components/Promotion Panel. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Transport / Search Supercomponent: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24646
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17603%3A24646
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Web Page Details: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
+
+Brands: AeroBlue
+Variants: Breakpoint=Mobile; Breakpoint=Tablet; Breakpoint=Desktop
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17316-3291
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17316%3A3291
+
+Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
+"[Atom parity] Web Page Details: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17316-3291
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17316%3A3291
+
+Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"

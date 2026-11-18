@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T16:39:39.451Z",
-    "durationMs": 217552,
+    "generatedAt": "2026-11-18T10:07:06.720Z",
+    "durationMs": 190759,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T16:29:38Z"
+        "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-17T16:38:17.694Z",
+      "exportedAt": "2026-11-18T10:06:01.958Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2492,7 +2492,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Focus, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2572,7 +2572,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Default, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2622,7 +2622,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2632,7 +2632,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -12806,7 +12806,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T15:37:04.327Z",
+    "since": "2026-11-17T16:39:39.451Z",
     "previousScore": 35,
     "newFails": [],
     "fixed": []

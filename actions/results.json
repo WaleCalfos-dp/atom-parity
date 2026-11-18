@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T16:29:26.174Z",
-    "durationMs": 169302,
+    "generatedAt": "2026-11-18T09:57:30.205Z",
+    "durationMs": 154829,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T15:13:50Z"
+        "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-17T16:27:49.319Z",
+      "exportedAt": "2026-11-18T09:56:20.656Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -44,7 +44,7 @@
         "AeroBlue",
         "Visa Affluent"
       ],
-      "components": 10,
+      "components": 9,
       "renderScale": 2,
       "source": "figma-rest",
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
@@ -3111,7 +3111,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3131,7 +3131,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3151,7 +3151,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3181,7 +3181,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3191,7 +3191,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3211,7 +3211,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3261,7 +3261,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3271,7 +3271,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3281,7 +3281,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3341,7 +3341,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3351,7 +3351,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3381,7 +3381,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3471,7 +3471,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3481,7 +3481,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3501,6 +3501,16 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Primary, Size=Regular, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Regular, State=Hover",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -3611,7 +3621,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3731,7 +3741,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3741,7 +3751,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3750,7 +3760,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 68,
+            "warn": 69,
             "fail": 0,
             "info": 0
           },
@@ -3772,6 +3782,7 @@
             "Type=Primary, Size=Large, State=Disabled",
             "Type=Primary, Size=Large, State=Loading",
             "Type=Primary, Size=Regular, State=Default",
+            "Type=Primary, Size=Regular, State=Hover",
             "Type=Primary, Size=Regular, State=Disabled",
             "Type=Primary, Size=Regular, State=Loading",
             "Type=Primary, Size=Small, State=Hover",
@@ -30124,8 +30135,8 @@
         "page": "Tags",
         "section": "ACTIONS",
         "group": "CORE COMPONENTS",
-        "order": 9,
-        "pageOrder": 18,
+        "order": 8,
+        "pageOrder": 17,
         "variants": 12,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061"
       },
@@ -31523,833 +31534,36 @@
       "gallery": [],
       "rendered": 0,
       "unmapped": 12
-    },
-    {
-      "key": "7839:97889",
-      "name": "Toast",
-      "status": "Drifted",
-      "score": 46,
-      "match": "exact",
-      "figma": {
-        "id": "7839:97889",
-        "name": "Toast",
-        "page": "Toast",
-        "section": "ACTIONS",
-        "group": "CORE COMPONENTS",
-        "order": 8,
-        "pageOrder": 17,
-        "variants": 10,
-        "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889"
-      },
-      "code": {
-        "title": "System Feedback/Toast",
-        "stories": 3,
-        "story": "system-feedback-toast--usage",
-        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage"
-      },
-      "props": {
-        "props": [
-          {
-            "figma": "Show Icon Left",
-            "figmaType": "BOOLEAN",
-            "options": [],
-            "default": true,
-            "codeArg": null,
-            "how": "missing",
-            "values": []
-          },
-          {
-            "figma": "Description",
-            "figmaType": "TEXT",
-            "options": [],
-            "default": "Enter here your one-line message or multi-line message",
-            "codeArg": null,
-            "how": "missing",
-            "values": []
-          },
-          {
-            "figma": "Status",
-            "figmaType": "VARIANT",
-            "options": [
-              "Information",
-              "Success",
-              "Warning",
-              "Error",
-              "Muted"
-            ],
-            "default": "Information",
-            "codeArg": "type",
-            "how": "inferred",
-            "values": [
-              {
-                "figma": "Information",
-                "code": null,
-                "how": "missing",
-                "suggestion": "info"
-              },
-              {
-                "figma": "Success",
-                "code": "success",
-                "how": "exact"
-              },
-              {
-                "figma": "Warning",
-                "code": "warning",
-                "how": "exact"
-              },
-              {
-                "figma": "Error",
-                "code": "error",
-                "how": "exact"
-              },
-              {
-                "figma": "Muted",
-                "code": "muted",
-                "how": "exact"
-              }
-            ],
-            "codeType": "string",
-            "codeOptions": [
-              "success",
-              "error",
-              "info",
-              "warning",
-              "muted"
-            ],
-            "codeOnlyValues": [
-              "info"
-            ]
-          },
-          {
-            "figma": "Lines of Text",
-            "figmaType": "VARIANT",
-            "options": [
-              "Single",
-              "Multi"
-            ],
-            "default": "Single",
-            "codeArg": null,
-            "how": "missing",
-            "values": []
-          }
-        ],
-        "codeOnly": [
-          {
-            "name": "content",
-            "type": "string",
-            "options": []
-          },
-          {
-            "name": "position",
-            "type": "string",
-            "options": [
-              "top",
-              "bottom",
-              "center",
-              "top-left",
-              "top-right",
-              "bottom-left",
-              "bottom-right"
-            ]
-          },
-          {
-            "name": "duration",
-            "type": "number",
-            "options": []
-          },
-          {
-            "name": "showClose",
-            "type": "boolean",
-            "options": []
-          },
-          {
-            "name": "showIcon",
-            "type": "boolean",
-            "options": []
-          },
-          {
-            "name": "offsetX",
-            "options": []
-          },
-          {
-            "name": "offsetY",
-            "options": []
-          }
-        ]
-      },
-      "checks": [
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component name",
-          "status": "pass",
-          "title": "Name matches 1:1",
-          "owner": "Both",
-          "detail": "Toast ↔ System Feedback/Toast",
-          "meta": null,
-          "instances": [
-            {
-              "status": "pass",
-              "brand": null,
-              "variant": null,
-              "detail": "Toast ↔ System Feedback/Toast",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 1,
-            "warn": 0,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Naming|group",
-          "category": "Naming",
-          "subject": "group",
-          "label": "Category",
-          "status": "warn",
-          "title": "Grouped under a different category",
-          "owner": "Both",
-          "detail": "Figma \"ACTIONS\" · Storybook \"System Feedback\"",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "Figma \"ACTIONS\" · Storybook \"System Feedback\"",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Documentation|docs-code",
-          "category": "Documentation",
-          "subject": "docs-code",
-          "label": "Storybook docs",
-          "status": "pass",
-          "title": "Has a Storybook docs page",
-          "owner": "Dev",
-          "detail": null,
-          "meta": null,
-          "instances": [
-            {
-              "status": "pass",
-              "brand": null,
-              "variant": null,
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 1,
-            "warn": 0,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Documentation|docs-figma",
-          "category": "Documentation",
-          "subject": "docs-figma",
-          "label": "Figma description",
-          "status": "warn",
-          "title": "No description in Figma",
-          "owner": "Design",
-          "detail": null,
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Properties|prop:Show Icon Left",
-          "category": "Properties",
-          "subject": "prop:Show Icon Left",
-          "label": "Property \"Show Icon Left\"",
-          "status": "fail",
-          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-          "owner": "Dev",
-          "detail": "boolean property",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "boolean property",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Properties|prop:Description",
-          "category": "Properties",
-          "subject": "prop:Description",
-          "label": "Property \"Description\"",
-          "status": "warn",
-          "title": "Figma property \"Description\" has no equivalent in code",
-          "owner": "Dev",
-          "detail": "text property",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "text property",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Naming|prop:Status",
-          "category": "Naming",
-          "subject": "prop:Status",
-          "label": "Property \"Status\"",
-          "status": "fail",
-          "title": "Figma \"Status\" is \"type\" in code",
-          "owner": "Both",
-          "detail": "Rename one side so names match 1:1 (paired by matching values)",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Rename one side so names match 1:1 (paired by matching values)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Properties|values:Status",
-          "category": "Properties",
-          "subject": "values:Status",
-          "label": "Status values",
-          "status": "fail",
-          "title": "Status values missing in code",
-          "owner": "Both",
-          "detail": "Missing in code: Information (closest: info) · Only in code: info",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Missing in code: Information (closest: info) · Only in code: info",
-              "figma": "Information, Success, Warning, Error, Muted",
-              "code": "success, error, info, warning, muted",
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Naming|retired:Status:Error",
-          "category": "Naming",
-          "subject": "retired:Status:Error",
-          "label": "Retired term",
-          "status": "warn",
-          "title": "\"Error\" is a retired term",
-          "owner": "Design",
-          "detail": "Use \"danger\" instead (Status)",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "Use \"danger\" instead (Status)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Properties|prop:Lines of Text",
-          "category": "Properties",
-          "subject": "prop:Lines of Text",
-          "label": "Property \"Lines of Text\"",
-          "status": "fail",
-          "title": "Figma property \"Lines of Text\" has no equivalent in code",
-          "owner": "Dev",
-          "detail": "Values: Single, Multi",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Values: Single, Multi",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Naming|retired-code:type:error",
-          "category": "Naming",
-          "subject": "retired-code:type:error",
-          "label": "Retired term",
-          "status": "warn",
-          "title": "\"error\" is a retired term in code",
-          "owner": "Dev",
-          "detail": "Use \"danger\" instead (type)",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "Use \"danger\" instead (type)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Properties|code-only",
-          "category": "Properties",
-          "subject": "code-only",
-          "label": "Code-only props",
-          "status": "warn",
-          "title": "Code has props with no Figma property",
-          "owner": "Design",
-          "detail": "content, position, duration, showClose, showIcon, offsetX, offsetY",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "content, position, duration, showClose, showIcon, offsetX, offsetY",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Properties|coverage",
-          "category": "Properties",
-          "subject": "coverage",
-          "label": "Variant coverage",
-          "status": "warn",
-          "title": "10 of 10 variants can't be shown in code",
-          "owner": "Both",
-          "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Accessibility|design:contrast",
-          "category": "Accessibility",
-          "subject": "design:contrast",
-          "label": "Text contrast in Figma",
-          "status": "pass",
-          "title": "Text contrast passes in Figma",
-          "owner": "Design",
-          "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-          "meta": {
-            "rule": "design-contrast",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Error, Lines of Text=Single",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Error, Lines of Text=Multi",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Success, Lines of Text=Single",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Success, Lines of Text=Multi",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Information, Lines of Text=Single",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Information, Lines of Text=Multi",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Warning, Lines of Text=Single",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Warning, Lines of Text=Multi",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Muted, Lines of Text=Single",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Status=Muted, Lines of Text=Multi",
-              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.79,
-                "required": 4.5,
-                "fg": "#535252",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Enter here your one-line message or multi-line message",
-                "assumed": false
-              }
-            }
-          ],
-          "counts": {
-            "pass": 10,
-            "warn": 0,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        }
-      ],
-      "gallery": [],
-      "rendered": 0,
-      "unmapped": 10
     }
   ],
   "summary": {
-    "score": 21,
-    "headline": "0 of 10 Figma components match Storybook. 1 has drifted, 3 are broken and 6 aren't built yet.",
+    "score": 18,
+    "headline": "0 of 9 Figma components match Storybook. 3 are broken and 6 aren't built yet.",
     "components": {
-      "total": 10,
-      "figma": 10,
-      "paired": 4,
+      "total": 9,
+      "figma": 9,
+      "paired": 3,
       "aligned": 0,
-      "drifted": 1,
+      "drifted": 0,
       "broken": 3,
       "missingInCode": 6,
       "missingInDesign": 0
     },
     "checks": {
-      "pass": 32,
-      "warn": 40,
-      "fail": 32
+      "pass": 29,
+      "warn": 33,
+      "fail": 28
     },
     "byCategory": {
       "Naming": {
-        "pass": 10,
-        "warn": 8,
-        "fail": 8
+        "pass": 9,
+        "warn": 5,
+        "fail": 7
       },
       "Properties": {
         "pass": 1,
-        "warn": 11,
-        "fail": 7
+        "warn": 8,
+        "fail": 4
       },
       "Tokens": {
         "pass": 5,
@@ -32362,7 +31576,7 @@
         "fail": 2
       },
       "Accessibility": {
-        "pass": 4,
+        "pass": 3,
         "warn": 0,
         "fail": 7
       },
@@ -32377,23 +31591,23 @@
         "fail": 0
       },
       "Documentation": {
-        "pass": 7,
-        "warn": 1,
+        "pass": 6,
+        "warn": 0,
         "fail": 0
       }
     },
     "byOwner": {
       "Design": {
-        "warn": 9,
+        "warn": 6,
         "fail": 6
       },
       "Dev": {
-        "warn": 5,
-        "fail": 5
+        "warn": 3,
+        "fail": 3
       },
       "Both": {
-        "warn": 26,
-        "fail": 21
+        "warn": 24,
+        "fail": 19
       }
     },
     "themes": [
@@ -32430,19 +31644,7 @@
         "owner": "Both",
         "components": [
           "Button",
-          "Stepper",
-          "Toast"
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "Property values missing in code",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Stepper",
-          "Tag",
-          "Toast"
+          "Stepper"
         ]
       },
       {
@@ -32487,17 +31689,26 @@
       },
       {
         "category": "Properties",
-        "title": "Figma property missing in code",
+        "title": "Property values missing in code",
         "status": "fail",
-        "owner": "Dev",
+        "owner": "Both",
         "components": [
-          "Tag",
-          "Toast"
+          "Stepper",
+          "Tag"
         ]
       },
       {
         "category": "Tokens",
         "title": "Background colour differs from design",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Button"
+        ]
+      },
+      {
+        "category": "Tokens",
+        "title": "Label · Font size differs from design",
         "status": "fail",
         "owner": "Both",
         "components": [
@@ -32624,7 +31835,7 @@
           "Investec",
           "AeroBlue"
         ],
-        "variants": 17
+        "variants": 18
       },
       {
         "component": "Button",
@@ -33420,145 +32631,13 @@
           "Visa Affluent"
         ],
         "variants": 2
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Naming",
-        "subject": "group",
-        "status": "warn",
-        "title": "Grouped under a different category",
-        "detail": "Figma \"ACTIONS\" · Storybook \"System Feedback\"",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Documentation",
-        "subject": "docs-figma",
-        "status": "warn",
-        "title": "No description in Figma",
-        "detail": null,
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Properties",
-        "subject": "prop:Description",
-        "status": "warn",
-        "title": "Figma property \"Description\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Naming",
-        "subject": "prop:Status",
-        "status": "fail",
-        "title": "Figma \"Status\" is \"type\" in code",
-        "detail": "Rename one side so names match 1:1 (paired by matching values)",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Properties",
-        "subject": "values:Status",
-        "status": "fail",
-        "title": "Status values missing in code",
-        "detail": "Missing in code: Information (closest: info) · Only in code: info",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Naming",
-        "subject": "retired:Status:Error",
-        "status": "warn",
-        "title": "\"Error\" is a retired term",
-        "detail": "Use \"danger\" instead (Status)",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Properties",
-        "subject": "prop:Lines of Text",
-        "status": "fail",
-        "title": "Figma property \"Lines of Text\" has no equivalent in code",
-        "detail": "Values: Single, Multi",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Naming",
-        "subject": "retired-code:type:error",
-        "status": "warn",
-        "title": "\"error\" is a retired term in code",
-        "detail": "Use \"danger\" instead (type)",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "content, position, duration, showClose, showIcon, offsetX, offsetY",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "category": "Properties",
-        "subject": "coverage",
-        "status": "warn",
-        "title": "10 of 10 variants can't be shown in code",
-        "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
       }
     ]
   },
   "a11y": {
     "ran": true,
     "scans": 52,
-    "designChecks": 249,
+    "designChecks": 239,
     "brands": [
       "Dragonpass",
       "Mastercard",
@@ -34342,7 +33421,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T15:26:17.817Z",
+    "since": "2026-11-17T16:29:26.174Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []

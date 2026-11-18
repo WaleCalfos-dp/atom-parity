@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T16:31:47.978Z",
-    "durationMs": 141766,
+    "generatedAt": "2026-11-18T10:00:01.507Z",
+    "durationMs": 151257,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T16:29:30Z"
+        "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-17T16:30:46.842Z",
+      "exportedAt": "2026-11-18T09:59:05.790Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -44,7 +44,7 @@
         "AeroBlue",
         "Visa Affluent"
       ],
-      "components": 10,
+      "components": 11,
       "renderScale": 2,
       "source": "figma-rest",
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
@@ -53,7 +53,7 @@
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
-        "order": 19
+        "order": 18
       },
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -1617,7 +1617,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 0,
-        "pageOrder": 20,
+        "pageOrder": 19,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938"
       },
@@ -1753,10 +1753,10 @@
             "figma": "Style",
             "figmaType": "VARIANT",
             "options": [
-              "Top Border",
-              "Full Border"
+              "Full Border",
+              "Top Border"
             ],
-            "default": "Top Border",
+            "default": "Full Border",
             "codeArg": null,
             "how": "missing",
             "values": []
@@ -2251,14 +2251,14 @@
           "status": "fail",
           "title": "Figma property \"Style\" has no equivalent in code",
           "owner": "Dev",
-          "detail": "Values: Top Border, Full Border",
+          "detail": "Values: Full Border, Top Border",
           "meta": null,
           "instances": [
             {
               "status": "fail",
               "brand": null,
               "variant": null,
-              "detail": "Values: Top Border, Full Border",
+              "detail": "Values: Full Border, Top Border",
               "figma": null,
               "code": null,
               "image": null,
@@ -3683,7 +3683,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 1,
-        "pageOrder": 21,
+        "pageOrder": 20,
         "variants": 10,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620"
       },
@@ -5803,7 +5803,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 7,
-        "pageOrder": 23,
+        "pageOrder": 22,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16012-24876"
       },
@@ -6138,7 +6138,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 2,
-        "pageOrder": 22,
+        "pageOrder": 21,
         "variants": 2,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832"
       },
@@ -6434,7 +6434,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 3,
-        "pageOrder": 22,
+        "pageOrder": 21,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17148-8917"
       },
@@ -6903,7 +6903,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 8,
-        "pageOrder": 23,
+        "pageOrder": 22,
         "variants": 3,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17074-30102"
       },
@@ -7061,7 +7061,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 4,
-        "pageOrder": 23,
+        "pageOrder": 22,
         "variants": 44,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1685-4000"
       },
@@ -8080,7 +8080,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 6,
-        "pageOrder": 23,
+        "pageOrder": 22,
         "variants": 6,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12768-3167"
       },
@@ -8145,7 +8145,7 @@
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
         "order": 5,
-        "pageOrder": 23,
+        "pageOrder": 22,
         "variants": 6,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12738-392"
       },
@@ -8337,6 +8337,803 @@
       "gallery": []
     },
     {
+      "key": "7839:97889",
+      "name": "Toast",
+      "status": "Drifted",
+      "score": 50,
+      "match": "exact",
+      "figma": {
+        "id": "7839:97889",
+        "name": "Toast",
+        "page": "Toast",
+        "section": "SYSTEM FEEDBACK",
+        "group": "CORE COMPONENTS",
+        "order": 9,
+        "pageOrder": 23,
+        "variants": 10,
+        "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889"
+      },
+      "code": {
+        "title": "System Feedback/Toast",
+        "stories": 3,
+        "story": "system-feedback-toast--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Show Icon Left",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Description",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Enter here your one-line message or multi-line message",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Status",
+            "figmaType": "VARIANT",
+            "options": [
+              "Information",
+              "Success",
+              "Warning",
+              "Error",
+              "Muted"
+            ],
+            "default": "Information",
+            "codeArg": "type",
+            "how": "inferred",
+            "values": [
+              {
+                "figma": "Information",
+                "code": null,
+                "how": "missing",
+                "suggestion": "info"
+              },
+              {
+                "figma": "Success",
+                "code": "success",
+                "how": "exact"
+              },
+              {
+                "figma": "Warning",
+                "code": "warning",
+                "how": "exact"
+              },
+              {
+                "figma": "Error",
+                "code": "error",
+                "how": "exact"
+              },
+              {
+                "figma": "Muted",
+                "code": "muted",
+                "how": "exact"
+              }
+            ],
+            "codeType": "string",
+            "codeOptions": [
+              "success",
+              "error",
+              "info",
+              "warning",
+              "muted"
+            ],
+            "codeOnlyValues": [
+              "info"
+            ]
+          },
+          {
+            "figma": "Lines of Text",
+            "figmaType": "VARIANT",
+            "options": [
+              "Single",
+              "Multi"
+            ],
+            "default": "Single",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "content",
+            "type": "string",
+            "options": []
+          },
+          {
+            "name": "position",
+            "type": "string",
+            "options": [
+              "top",
+              "bottom",
+              "center",
+              "top-left",
+              "top-right",
+              "bottom-left",
+              "bottom-right"
+            ]
+          },
+          {
+            "name": "duration",
+            "type": "number",
+            "options": []
+          },
+          {
+            "name": "showClose",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "showIcon",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "offsetX",
+            "options": []
+          },
+          {
+            "name": "offsetY",
+            "options": []
+          }
+        ]
+      },
+      "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "pass",
+          "title": "Name matches 1:1",
+          "owner": "Both",
+          "detail": "Toast ↔ System Feedback/Toast",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Toast ↔ System Feedback/Toast",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|group",
+          "category": "Naming",
+          "subject": "group",
+          "label": "Category",
+          "status": "pass",
+          "title": "Grouped under the same category",
+          "owner": "Both",
+          "detail": "Figma \"SYSTEM FEEDBACK\" · Storybook \"System Feedback\"",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Figma \"SYSTEM FEEDBACK\" · Storybook \"System Feedback\"",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "warn",
+          "title": "No description in Figma",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Icon Left",
+          "category": "Properties",
+          "subject": "prop:Show Icon Left",
+          "label": "Property \"Show Icon Left\"",
+          "status": "fail",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Description",
+          "category": "Properties",
+          "subject": "prop:Description",
+          "label": "Property \"Description\"",
+          "status": "warn",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Status",
+          "category": "Naming",
+          "subject": "prop:Status",
+          "label": "Property \"Status\"",
+          "status": "fail",
+          "title": "Figma \"Status\" is \"type\" in code",
+          "owner": "Both",
+          "detail": "Rename one side so names match 1:1 (paired by matching values)",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so names match 1:1 (paired by matching values)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|values:Status",
+          "category": "Properties",
+          "subject": "values:Status",
+          "label": "Status values",
+          "status": "fail",
+          "title": "Status values missing in code",
+          "owner": "Both",
+          "detail": "Missing in code: Information (closest: info) · Only in code: info",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Missing in code: Information (closest: info) · Only in code: info",
+              "figma": "Information, Success, Warning, Error, Muted",
+              "code": "success, error, info, warning, muted",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|retired:Status:Error",
+          "category": "Naming",
+          "subject": "retired:Status:Error",
+          "label": "Retired term",
+          "status": "warn",
+          "title": "\"Error\" is a retired term",
+          "owner": "Design",
+          "detail": "Use \"danger\" instead (Status)",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Use \"danger\" instead (Status)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Lines of Text",
+          "category": "Properties",
+          "subject": "prop:Lines of Text",
+          "label": "Property \"Lines of Text\"",
+          "status": "fail",
+          "title": "Figma property \"Lines of Text\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Single, Multi",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Single, Multi",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|retired-code:type:error",
+          "category": "Naming",
+          "subject": "retired-code:type:error",
+          "label": "Retired term",
+          "status": "warn",
+          "title": "\"error\" is a retired term in code",
+          "owner": "Dev",
+          "detail": "Use \"danger\" instead (type)",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Use \"danger\" instead (type)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "content, position, duration, showClose, showIcon, offsetX, offsetY",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "content, position, duration, showClose, showIcon, offsetX, offsetY",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "10 of 10 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|design:contrast",
+          "category": "Accessibility",
+          "subject": "design:contrast",
+          "label": "Text contrast in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
+          "owner": "Design",
+          "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+          "meta": {
+            "rule": "design-contrast",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Error, Lines of Text=Single",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Error, Lines of Text=Multi",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Success, Lines of Text=Single",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Success, Lines of Text=Multi",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Information, Lines of Text=Single",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Information, Lines of Text=Multi",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Warning, Lines of Text=Single",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Warning, Lines of Text=Multi",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Muted, Lines of Text=Single",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Status=Muted, Lines of Text=Multi",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Enter here your one-line message or multi-line message",
+                "assumed": false
+              }
+            }
+          ],
+          "counts": {
+            "pass": 10,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        }
+      ],
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 10
+    },
+    {
       "key": "8560:2779",
       "name": "Tooltip",
       "status": "Drifted",
@@ -8348,7 +9145,7 @@
         "page": "Tooltip",
         "section": "SYSTEM FEEDBACK",
         "group": "CORE COMPONENTS",
-        "order": 9,
+        "order": 10,
         "pageOrder": 24,
         "variants": 8,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779"
@@ -10039,33 +10836,33 @@
     }
   ],
   "summary": {
-    "score": 19,
-    "headline": "0 of 10 Figma components match Storybook. 4 have drifted and 6 aren't built yet.",
+    "score": 22,
+    "headline": "0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.",
     "components": {
-      "total": 10,
-      "figma": 10,
-      "paired": 4,
+      "total": 11,
+      "figma": 11,
+      "paired": 5,
       "aligned": 0,
-      "drifted": 4,
+      "drifted": 5,
       "broken": 0,
       "missingInCode": 6,
       "missingInDesign": 0
     },
     "checks": {
-      "pass": 22,
-      "warn": 22,
-      "fail": 30
+      "pass": 26,
+      "warn": 28,
+      "fail": 34
     },
     "byCategory": {
       "Naming": {
-        "pass": 11,
-        "warn": 6,
-        "fail": 9
+        "pass": 13,
+        "warn": 8,
+        "fail": 10
       },
       "Properties": {
         "pass": 0,
-        "warn": 11,
-        "fail": 21
+        "warn": 14,
+        "fail": 24
       },
       "Tokens": {
         "pass": 0,
@@ -10078,7 +10875,7 @@
         "fail": 0
       },
       "Accessibility": {
-        "pass": 4,
+        "pass": 5,
         "warn": 4,
         "fail": 0
       },
@@ -10093,23 +10890,23 @@
         "fail": 0
       },
       "Documentation": {
-        "pass": 7,
-        "warn": 1,
+        "pass": 8,
+        "warn": 2,
         "fail": 0
       }
     },
     "byOwner": {
       "Design": {
-        "warn": 10,
+        "warn": 13,
         "fail": 0
       },
       "Dev": {
-        "warn": 4,
-        "fail": 19
+        "warn": 6,
+        "fail": 21
       },
       "Both": {
-        "warn": 8,
-        "fail": 11
+        "warn": 9,
+        "fail": 13
       }
     },
     "themes": [
@@ -10136,6 +10933,7 @@
           "Alert",
           "Dialog",
           "Loading Indicator",
+          "Toast",
           "Tooltip"
         ]
       },
@@ -10147,6 +10945,7 @@
         "components": [
           "Alert",
           "Dialog",
+          "Toast",
           "Tooltip"
         ]
       },
@@ -10157,6 +10956,7 @@
         "owner": "Both",
         "components": [
           "Alert",
+          "Toast",
           "Tooltip"
         ]
       },
@@ -10178,6 +10978,7 @@
           "Alert",
           "Dialog",
           "Loading Indicator",
+          "Toast",
           "Tooltip"
         ]
       },
@@ -10200,7 +11001,8 @@
         "owner": "Dev",
         "components": [
           "Alert",
-          "Dialog"
+          "Dialog",
+          "Toast"
         ]
       },
       {
@@ -10210,7 +11012,8 @@
         "owner": "Both",
         "components": [
           "Alert",
-          "Dialog"
+          "Dialog",
+          "Toast"
         ]
       },
       {
@@ -10219,7 +11022,8 @@
         "status": "warn",
         "owner": "Design",
         "components": [
-          "Alert"
+          "Alert",
+          "Toast"
         ]
       }
     ],
@@ -10344,7 +11148,7 @@
         "subject": "prop:Style",
         "status": "fail",
         "title": "Figma property \"Style\" has no equivalent in code",
-        "detail": "Values: Top Border, Full Border",
+        "detail": "Values: Full Border, Top Border",
         "owner": "Dev",
         "brands": [],
         "variants": 0
@@ -10740,6 +11544,126 @@
         "variants": 0
       },
       {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Documentation",
+        "subject": "docs-figma",
+        "status": "warn",
+        "title": "No description in Figma",
+        "detail": null,
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Properties",
+        "subject": "prop:Show Icon Left",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Properties",
+        "subject": "prop:Description",
+        "status": "warn",
+        "title": "Figma property \"Description\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Naming",
+        "subject": "prop:Status",
+        "status": "fail",
+        "title": "Figma \"Status\" is \"type\" in code",
+        "detail": "Rename one side so names match 1:1 (paired by matching values)",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Properties",
+        "subject": "values:Status",
+        "status": "fail",
+        "title": "Status values missing in code",
+        "detail": "Missing in code: Information (closest: info) · Only in code: info",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Naming",
+        "subject": "retired:Status:Error",
+        "status": "warn",
+        "title": "\"Error\" is a retired term",
+        "detail": "Use \"danger\" instead (Status)",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Properties",
+        "subject": "prop:Lines of Text",
+        "status": "fail",
+        "title": "Figma property \"Lines of Text\" has no equivalent in code",
+        "detail": "Values: Single, Multi",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Naming",
+        "subject": "retired-code:type:error",
+        "status": "warn",
+        "title": "\"error\" is a retired term in code",
+        "detail": "Use \"danger\" instead (type)",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "content, position, duration, showClose, showIcon, offsetX, offsetY",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "10 of 10 variants can't be shown in code",
+        "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
         "component": "Tooltip",
         "componentKey": "8560:2779",
         "category": "Properties",
@@ -10870,7 +11794,7 @@
   "a11y": {
     "ran": true,
     "scans": 0,
-    "designChecks": 251,
+    "designChecks": 261,
     "brands": [],
     "counts": {
       "critical": 0,
@@ -11170,9 +12094,34 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T15:29:06.038Z",
+    "since": "2026-11-17T16:31:47.978Z",
     "previousScore": 19,
-    "newFails": [],
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Toast",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Toast",
+        "title": "Figma \"Status\" is \"type\" in code",
+        "category": "Naming"
+      },
+      {
+        "status": "fail",
+        "component": "Toast",
+        "title": "Status values missing in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Toast",
+        "title": "Figma property \"Lines of Text\" has no equivalent in code",
+        "category": "Properties"
+      }
+    ],
     "fixed": []
   }
 }

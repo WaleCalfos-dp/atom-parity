@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-17T16:48:18.241Z",
+  "generatedAt": "2026-11-18T10:19:48.966Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:29:26.174Z",
+      "ranAt": "2026-11-18T09:57:30.205Z",
       "ok": true,
       "history": [
         {
@@ -20,6 +20,10 @@
         {
           "at": "2026-11-17T16:29:26.174Z",
           "score": 21
+        },
+        {
+          "at": "2026-11-18T09:57:30.205Z",
+          "score": 18
         }
       ],
       "preview": {
@@ -76,21 +80,16 @@
           "name": "Tag",
           "status": "Broken",
           "score": 54
-        },
-        {
-          "name": "Toast",
-          "status": "Drifted",
-          "score": 46
         }
       ],
-      "score": 21,
-      "headline": "0 of 10 Figma components match Storybook. 1 has drifted, 3 are broken and 6 aren't built yet.",
+      "score": 18,
+      "headline": "0 of 9 Figma components match Storybook. 3 are broken and 6 aren't built yet.",
       "counts": {
-        "total": 10,
-        "figma": 10,
-        "paired": 4,
+        "total": 9,
+        "figma": 9,
+        "paired": 3,
         "aligned": 0,
-        "drifted": 1,
+        "drifted": 0,
         "broken": 3,
         "missingInCode": 6,
         "missingInDesign": 0
@@ -123,7 +122,7 @@
         },
         "components": 5,
         "scans": 52,
-        "designChecks": 249,
+        "designChecks": 239,
         "top": [
           {
             "title": "Button has no accessible name",
@@ -148,7 +147,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:31:47.978Z",
+      "ranAt": "2026-11-18T10:00:01.507Z",
       "ok": true,
       "history": [
         {
@@ -162,6 +161,10 @@
         {
           "at": "2026-11-17T16:31:47.978Z",
           "score": 19
+        },
+        {
+          "at": "2026-11-18T10:00:01.507Z",
+          "score": 22
         }
       ],
       "preview": null,
@@ -212,25 +215,30 @@
           "score": 0
         },
         {
+          "name": "Toast",
+          "status": "Drifted",
+          "score": 50
+        },
+        {
           "name": "Tooltip",
           "status": "Drifted",
           "score": 53
         }
       ],
-      "score": 19,
-      "headline": "0 of 10 Figma components match Storybook. 4 have drifted and 6 aren't built yet.",
+      "score": 22,
+      "headline": "0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.",
       "counts": {
-        "total": 10,
-        "figma": 10,
-        "paired": 4,
+        "total": 11,
+        "figma": 11,
+        "paired": 5,
         "aligned": 0,
-        "drifted": 4,
+        "drifted": 5,
         "broken": 0,
         "missingInCode": 6,
         "missingInDesign": 0
       },
       "previousScore": 19,
-      "newFails": 0,
+      "newFails": 4,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -244,7 +252,7 @@
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
-        "order": 19
+        "order": 18
       },
       "a11y": {
         "ran": true,
@@ -257,7 +265,7 @@
         },
         "components": 4,
         "scans": 0,
-        "designChecks": 251,
+        "designChecks": 261,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -272,7 +280,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:36:01.866Z",
+      "ranAt": "2026-11-18T10:03:55.915Z",
       "ok": true,
       "history": [
         {
@@ -285,6 +293,10 @@
         },
         {
           "at": "2026-11-17T16:36:01.866Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-18T10:03:55.915Z",
           "score": 22
         }
       ],
@@ -411,7 +423,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:39:39.451Z",
+      "ranAt": "2026-11-18T10:07:06.720Z",
       "ok": true,
       "history": [
         {
@@ -424,6 +436,10 @@
         },
         {
           "at": "2026-11-17T16:39:39.451Z",
+          "score": 35
+        },
+        {
+          "at": "2026-11-18T10:07:06.720Z",
           "score": 35
         }
       ],
@@ -543,7 +559,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:41:27.875Z",
+      "ranAt": "2026-11-18T10:08:44.305Z",
       "ok": true,
       "history": [
         {
@@ -556,6 +572,10 @@
         },
         {
           "at": "2026-11-17T16:41:27.875Z",
+          "score": 32
+        },
+        {
+          "at": "2026-11-18T10:08:44.305Z",
           "score": 32
         }
       ],
@@ -621,7 +641,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:44:10.241Z",
+      "ranAt": "2026-11-18T10:11:07.005Z",
       "ok": true,
       "history": [
         {
@@ -634,6 +654,10 @@
         },
         {
           "at": "2026-11-17T16:44:10.241Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-18T10:11:07.005Z",
           "score": 36
         }
       ],
@@ -730,7 +754,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:46:08.730Z",
+      "ranAt": "2026-11-18T10:12:32.399Z",
       "ok": true,
       "history": [
         {
@@ -739,6 +763,10 @@
         },
         {
           "at": "2026-11-17T16:46:08.730Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-18T10:12:32.399Z",
           "score": 15
         }
       ],
@@ -804,7 +832,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-17T16:48:17.747Z",
+      "ranAt": "2026-11-18T10:14:04.242Z",
       "ok": true,
       "history": [
         {
@@ -817,6 +845,10 @@
         },
         {
           "at": "2026-11-17T16:48:17.747Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-18T10:14:04.242Z",
           "score": 15
         }
       ],
@@ -903,6 +935,346 @@
           {
             "title": "Text contrast is too low in Figma",
             "impact": "moderate",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "patterns",
+      "name": "Patterns",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-18T10:17:17.145Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-18T10:17:17.145Z",
+          "score": 0
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Booking Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Booking Details",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Booking Step Container",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Booking Steps",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Booking Widget",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Bottom Sheet",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Checkout",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Filters",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Global Search",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "LP / Description Section",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "LP / FAQ Section",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "LP / Hero",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "LP / How It Works Section",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "LP / How to register your flight?",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "LP / What's Included Section",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Order Details Container",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Order Status Container",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Order Status Header",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Accordion",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Breakdown",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Method",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Payment Providers",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Scroll Bar",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Search and Filters",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Web Payment ",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Web Search",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 0,
+      "headline": "0 of 27 Figma components match Storybook. 27 aren't built yet.",
+      "counts": {
+        "total": 27,
+        "figma": 27,
+        "paired": 0,
+        "aligned": 0,
+        "drifted": 0,
+        "broken": 0,
+        "missingInCode": 27,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Text contrast is too low in Figma"
+      ],
+      "place": {
+        "group": "PATTERNS",
+        "section": null,
+        "order": 71
+      },
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 1,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 10,
+        "scans": 0,
+        "designChecks": 249,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
+            "owner": "Design"
+          }
+        ]
+      }
+    },
+    {
+      "id": "product-modules",
+      "name": "Product modules",
+      "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
+      "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
+      "ranAt": "2026-11-18T10:19:48.297Z",
+      "ok": true,
+      "history": [
+        {
+          "at": "2026-11-18T10:19:48.297Z",
+          "score": 0
+        }
+      ],
+      "preview": null,
+      "components": [
+        {
+          "name": "Dual Input",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "eSim / Data Balance",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "eSim / Status Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "eSim / Tile",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Fitness / Class Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Flight Delay / Benefit Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Flight Delay / Flight Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Membership / Entitlement Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Membership / Membership Card",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Parking / Search Supercomponent",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Product Details",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Transport / List Item",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Transport / Promotion Panel",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Transport / Search Supercomponent",
+          "status": "Missing in code",
+          "score": 0
+        },
+        {
+          "name": "Web Page Details",
+          "status": "Missing in code",
+          "score": 0
+        }
+      ],
+      "score": 0,
+      "headline": "0 of 15 Figma components match Storybook. 15 aren't built yet.",
+      "counts": {
+        "total": 15,
+        "figma": 15,
+        "paired": 0,
+        "aligned": 0,
+        "drifted": 0,
+        "broken": 0,
+        "missingInCode": 15,
+        "missingInDesign": 0
+      },
+      "previousScore": null,
+      "newFails": 0,
+      "fixed": 0,
+      "tokenSource": {
+        "exportedAt": "2026-11-16T12:49:41.258Z",
+        "stale": true
+      },
+      "themes": [
+        "Not built in Storybook",
+        "Text contrast is too low in Figma"
+      ],
+      "place": {
+        "group": "PRODUCT MODULES",
+        "section": null,
+        "order": 77
+      },
+      "a11y": {
+        "ran": true,
+        "total": 1,
+        "counts": {
+          "critical": 0,
+          "serious": 1,
+          "moderate": 0,
+          "minor": 0
+        },
+        "components": 6,
+        "scans": 0,
+        "designChecks": 79,
+        "top": [
+          {
+            "title": "Text contrast is too low in Figma",
+            "impact": "serious",
             "owner": "Design"
           }
         ]
