@@ -6,9 +6,6 @@
 |---|---|---|---|---|
 | 0 | 0 | 3 | 6 | 0 |
 
-### 1 fixed
-- Payment Button: Text contrast is too low in Figma
-
 ### Biggest themes
 - 🔴 Not built in Storybook: 6 components (Both)
 - 🔴 Text contrast is too low in Figma: 3 components (Design)

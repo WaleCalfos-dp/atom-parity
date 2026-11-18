@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T15:28:28.021Z",
-    "durationMs": 155322,
+    "generatedAt": "2026-11-18T16:55:36.687Z",
+    "durationMs": 154777,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-18T15:09:06Z"
+        "lastModified": "2026-11-18T16:22:13Z"
       },
-      "exportedAt": "2026-11-18T15:27:12.819Z",
+      "exportedAt": "2026-11-18T16:54:21.901Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2790,7 +2790,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2820,7 +2820,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2850,7 +2850,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2860,7 +2860,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2880,7 +2880,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2890,7 +2890,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2900,7 +2900,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2910,7 +2910,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2950,7 +2950,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2960,7 +2960,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2970,7 +2970,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2980,7 +2980,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3081,6 +3081,16 @@
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Default",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Type=Primary, Size=Regular, State=Hover",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3250,7 +3260,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3269,7 +3279,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 51,
+            "warn": 52,
             "fail": 0,
             "info": 0
           },
@@ -3290,6 +3300,7 @@
             "Type=Primary, Size=Large, State=Disabled",
             "Type=Primary, Size=Large, State=Loading",
             "Type=Primary, Size=Regular, State=Default",
+            "Type=Primary, Size=Regular, State=Hover",
             "Type=Primary, Size=Regular, State=Disabled",
             "Type=Primary, Size=Regular, State=Loading",
             "Type=Primary, Size=Small, State=Hover",
@@ -22945,6 +22956,27 @@
             {
               "status": "warn",
               "brand": "Visa Affluent",
+              "variant": "Filled=False, Size=Large, State=Default",
+              "detail": "1.65:1, needs 4.5:1 · #FCC015 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.65,
+                "required": 4.5,
+                "fg": "#FCC015",
+                "bg": "#FFFFFF",
+                "fgToken": "components/button/secondary-color",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Button Label",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
               "variant": "Filled=False, Size=Large, State=Hover",
               "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -22987,6 +23019,27 @@
             {
               "status": "warn",
               "brand": "Visa Affluent",
+              "variant": "Filled=False, Size=Regular, State=Default",
+              "detail": "1.65:1, needs 4.5:1 · #FCC015 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.65,
+                "required": 4.5,
+                "fg": "#FCC015",
+                "bg": "#FFFFFF",
+                "fgToken": "components/button/secondary-color",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Button Label",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
               "variant": "Filled=False, Size=Regular, State=Hover",
               "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -23009,6 +23062,27 @@
               "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Filled=False, Size=Regular, State=Focus",
+              "detail": "1.65:1, needs 4.5:1 · #FCC015 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.65,
+                "required": 4.5,
+                "fg": "#FCC015",
+                "bg": "#FFFFFF",
+                "fgToken": "components/button/secondary-color",
+                "bgToken": null,
+                "size": 14,
+                "weight": 500,
+                "layer": "Button Label",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Filled=False, Size=Small, State=Default",
               "detail": "1.65:1, needs 4.5:1 · #FCC015 on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
               "code": null,
@@ -24152,7 +24226,7 @@
                 "required": 4.5,
                 "fg": "#0A2333",
                 "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
+                "fgToken": "components/button/secondary-color",
                 "bgToken": null,
                 "size": 14,
                 "weight": 500,
@@ -24173,7 +24247,7 @@
                 "required": 4.5,
                 "fg": "#171717",
                 "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
+                "fgToken": "components/button/secondary-color",
                 "bgToken": null,
                 "size": 14,
                 "weight": 500,
@@ -24194,7 +24268,7 @@
                 "required": 4.5,
                 "fg": "#343946",
                 "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
+                "fgToken": "components/button/secondary-color",
                 "bgToken": null,
                 "size": 14,
                 "weight": 500,
@@ -24215,28 +24289,7 @@
                 "required": 4.5,
                 "fg": "#01194D",
                 "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Button Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Filled=False, Size=Large, State=Default",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
+                "fgToken": "components/button/secondary-color",
                 "bgToken": null,
                 "size": 14,
                 "weight": 500,
@@ -24390,53 +24443,11 @@
                 "layer": "Button Label",
                 "assumed": true
               }
-            },
-            {
-              "status": "pass",
-              "brand": "Assurant",
-              "variant": "Filled=False, Size=Large, State=Focus",
-              "detail": "16.83:1, needs 4.5:1 · #01194D on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.83,
-                "required": 4.5,
-                "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "components/button/secondary-color",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Button Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Filled=False, Size=Large, State=Active",
-              "detail": "11.47:1, needs 4.5:1 · #063E56 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 11.47,
-                "required": 4.5,
-                "fg": "#063E56",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-pressed",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Button Label",
-                "assumed": true
-              }
             }
           ],
           "counts": {
-            "pass": 105,
-            "warn": 6,
+            "pass": 102,
+            "warn": 9,
             "fail": 9,
             "info": 0
           },
@@ -25009,7 +25020,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Style=Input",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -25019,7 +25030,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -25039,7 +25050,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -27550,7 +27561,7 @@
           "Mastercard",
           "Investec"
         ],
-        "variants": 17
+        "variants": 18
       },
       {
         "component": "Button",
@@ -28350,7 +28361,7 @@
       "Dragonpass": 3,
       "Mastercard": 5,
       "Investec": 8,
-      "Visa Affluent": 44,
+      "Visa Affluent": 47,
       "Assurant": 2
     },
     "criteria": [
@@ -28634,10 +28645,13 @@
               "Filled=True, Size=Small, State=Default",
               "Filled=True, Size=Small, State=Hover",
               "Filled=True, Size=Small, State=Focus",
+              "Filled=False, Size=Large, State=Default",
               "Filled=False, Size=Large, State=Hover",
               "Filled=False, Size=Large, State=Focus",
+              "Filled=False, Size=Regular, State=Default",
               "Filled=False, Size=Regular, State=Hover",
               "Filled=False, Size=Regular, State=Focus",
+              "Filled=False, Size=Small, State=Default",
               "Filled=False, Size=Small, State=Hover",
               "Filled=False, Size=Small, State=Focus"
             ],
@@ -28764,7 +28778,7 @@
             "size": null
           }
         ],
-        "occurrences": 52
+        "occurrences": 55
       },
       {
         "items": [
@@ -28840,18 +28854,58 @@
     ]
   },
   "delta": {
-    "since": "2026-11-18T14:12:54.704Z",
+    "since": "2026-11-18T15:28:28.021Z",
     "previousScore": 18,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Payment Button",
-        "title": "Text contrast is too low in Figma",
-        "category": "Accessibility",
-        "now": "pass"
-      }
-    ]
+    "fixed": []
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-18T16:46:58.735Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "w",
+      "github": "WaleCalfos-dp",
+      "text": "test",
+      "items": [
+        {
+          "component": "3098:42588",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Button Group"
+        },
+        {
+          "component": "14194:14015",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "CTA with Content"
+        },
+        {
+          "component": "12845:6732",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Icon Button"
+        },
+        {
+          "component": "12604:10709",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Button"
+        },
+        {
+          "component": "18198:9455",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Quantity Stepper"
+        },
+        {
+          "component": "12607:10742",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Social Button"
+        }
+      ],
+      "id": "0w4b1ak5soyz"
+    }
+  ]
 }

@@ -1,4 +1,5 @@
-/* Atom parity — web app. Talks to the GitHub API with a key stored in this browser only. */
+/* Atom parity — web app. Actions go through the team relay with the person's name (no GitHub account needed);
+   a GitHub key in this browser is only a fallback for the site owner when no relay is set up. */
 (function () {
   'use strict';
   // Which GitHub repository runs the checks. Falls back to the site address (owner.github.io/repo).
@@ -48,21 +49,47 @@
     return (days === 0 ? 'today' : days === 1 ? (t.getHours() < 6 ? 'tonight' : 'tomorrow') : t.toLocaleDateString('en-GB', { weekday: 'long' })) + ' at ' + time;
   }
 
-  // ------------------------------------------------------------- GitHub connection
+  // ------------------------------------------------------------- who is acting: a name (through the relay), or a GitHub key (fallback)
+  let RELAY = null;
+  let myName = store.get('name', '') || '';
   const dlg = $('connect');
   function renderConn() {
     const b = $('connBtn');
+    if (RELAY) {
+      b.className = 'conn ' + (myName ? 'on name' : 'off');
+      $('connLabel').textContent = myName || 'Add your name';
+      b.setAttribute('aria-label', myName ? 'Acting as ' + myName + '. Change name' : 'Add your name');
+      return;
+    }
     b.className = 'conn ' + (key ? 'on' : 'off');
     $('connLabel').textContent = key ? 'Connected to GitHub' : 'Connect GitHub';
     $('forget').hidden = !key;
   }
+  const relayReady = fetch('relay.json?ts=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+    .then((j) => { RELAY = j && j.url ? String(j.url).replace(/\/$/, '') : null; renderConn(); return RELAY; });
+  let pendingAfterName = null;
+  function askName(then) {
+    pendingAfterName = then || null;
+    $('nameInput').value = myName; $('nameErr').textContent = '';
+    $('nameDlg').showModal(); setTimeout(() => $('nameInput').focus(), 30);
+  }
+  $('nameForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const v = $('nameInput').value.trim();
+    if (!v) { $('nameErr').textContent = 'Add your name, so the team can see who made each change.'; return; }
+    myName = v.slice(0, 80); store.set('name', myName); renderConn(); $('nameDlg').close();
+    if (pendingAfterName) { const f = pendingAfterName; pendingAfterName = null; f(); }
+  });
+  $('nameCancel').addEventListener('click', () => { pendingAfterName = null; $('nameDlg').close(); });
+  // Read run progress: through the relay, or straight from GitHub with the fallback key
+  const ghGet = (path) => (RELAY ? fetch(RELAY + '/gh?path=' + encodeURIComponent(path)) : fetch(API + path, { headers: auth(key) })).then((x) => x.json());
   function openConnect(reason, isError) {
     $('keyErr').textContent = reason || '';
     $('keyErr').className = isError ? 'err' : 'note';
     if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
     setTimeout(() => $('key').focus(), 30);
   }
-  $('connBtn').addEventListener('click', () => openConnect());
+  $('connBtn').addEventListener('click', () => (RELAY ? askName() : openConnect()));
   $('closeDlg').addEventListener('click', () => dlg.close());
   $('keyForm').addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -84,6 +111,8 @@
 
   // ------------------------------------------------------------- start runs
   async function dispatch(inputs, label, checkId) {
+    await relayReady;
+    if (RELAY) return relayDispatch(inputs, label, checkId);
     if (!REPO) return "This page doesn't know which GitHub repository runs the checks. Republish the site from GitHub Actions.";
     if (!key) { pendingAfterConnect = () => dispatch(inputs, label, checkId); openConnect('Connect GitHub once to run checks from this browser.'); return 'later'; }
     const req = Math.random().toString(36).slice(2, 10);
@@ -95,6 +124,21 @@
     if (r.status === 401) { key = null; store.set('key', null); renderConn(); pendingAfterConnect = () => dispatch(inputs, label, checkId); openConnect('Your key has expired or was revoked. Add a new one.', true); return 'later'; }
     if (r.status === 403 || r.status === 404) { pendingAfterConnect = () => dispatch(inputs, label, checkId); openConnect("Your key can't run checks. It needs Actions: Read and write (step 3).", true); return 'later'; }
     if (r.status !== 204) return 'GitHub said ' + r.status + '. Try again in a minute.';
+    runs.unshift({ req: req, label: label, checkId: checkId, kind: inputs.remove_id ? 'remove' : 'run', startedAt: Date.now(), state: 'waiting', step: 0 });
+    saveRuns(); renderRuns(); renderChecks(); poll();
+    return true;
+  }
+
+  async function relayDispatch(inputs, label, checkId) {
+    if (!myName) { askName(() => dispatch(inputs, label, checkId)); return 'later'; }
+    const req = Math.random().toString(36).slice(2, 10);
+    const body = inputs.remove_id ? { action: 'remove-check', check: inputs.remove_id }
+      : inputs.figma_url ? { action: 'add-check', figmaUrl: inputs.figma_url, storybookUrl: inputs.storybook_url, checkName: inputs.name || '' }
+      : inputs.check_id ? { action: 'run', check: inputs.check_id } : { action: 'run-all' };
+    const r = await fetch(RELAY + '/action', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.assign(body, { name: myName, request_id: req })) }).catch(() => null);
+    if (!r) return "Couldn't reach the Atom parity relay. Check your connection and try again.";
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) return j.error || 'The relay said ' + r.status + '. Try again in a minute.';
     runs.unshift({ req: req, label: label, checkId: checkId, kind: inputs.remove_id ? 'remove' : 'run', startedAt: Date.now(), state: 'waiting', step: 0 });
     saveRuns(); renderRuns(); renderChecks(); poll();
     return true;
@@ -140,7 +184,7 @@
     if (!active.length) return;
     try {
       if (active.some((r) => !r.runId)) {
-        const list = await fetch(API + '/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=20', { headers: auth(key) }).then((x) => x.json());
+        const list = await ghGet('/actions/workflows/' + WORKFLOW + '/runs?event=workflow_dispatch&per_page=20');
         const wf = list.workflow_runs || [];
         const claimed = new Set(runs.map((r) => r.runId).filter(Boolean));
         active.filter((r) => !r.runId).sort((a, b) => a.startedAt - b.startedAt).forEach((r) => {
@@ -154,7 +198,7 @@
       for (const r of active) {
         if (!r.runId) { if (Date.now() - r.startedAt > 5 * 60000) fail(r, "GitHub didn't accept the check. Try again in a few minutes."); continue; }
         if (r.state === 'publishing') { await waitForSite(r); continue; }
-        const run = await fetch(API + '/actions/runs/' + r.runId, { headers: auth(key) }).then((x) => x.json());
+        const run = await ghGet('/actions/runs/' + r.runId);
         r.url = run.html_url;
         if (run.status === 'completed') {
           if (run.conclusion === 'success' || run.conclusion === 'failure') { r.state = 'publishing'; r.step = 3; r.conclusion = run.conclusion; r.completedAt = Date.now(); }
@@ -164,7 +208,7 @@
           if (Date.now() - r.startedAt > 30 * 60000) fail(r, 'GitHub queued the check but never started it. Try again later.');
         } else {
           r.state = 'running';
-          const jobs = await fetch(API + '/actions/runs/' + r.runId + '/jobs', { headers: auth(key) }).then((x) => x.json());
+          const jobs = await ghGet('/actions/runs/' + r.runId + '/jobs');
           const steps = (jobs.jobs && jobs.jobs[0] && jobs.jobs[0].steps) || [];
           const cur = steps.find((s) => s.status === 'in_progress') || steps.filter((s) => s.status === 'completed').pop();
           r.step = cur ? stepOf(cur.name) : 1;
@@ -245,6 +289,11 @@
       const names = [...new Set((x.items || []).map((i) => i.componentName))];
       const title = x.items && x.items.length && x.items.every((i) => i.title === x.items[0].title) ? x.items[0].title : plural((x.items || []).length, 'issue');
       const who = esc(x.by || x.github || 'Someone') + (x.github && x.by && x.github.toLowerCase() !== String(x.by).toLowerCase() ? ' <span class="gh">@' + esc(x.github) + '</span>' : '');
+      if (['run', 'run-all', 'add-check', 'remove-check'].indexOf(x.action) >= 0) {
+        const nm = x.checkName || (((status && status.entries) || []).find((e) => e.id === x.check) || {}).name || x.check;
+        const what = x.action === 'run-all' ? 'ran every check' : (x.action === 'run' ? 'ran ' : x.action === 'add-check' ? 'added the check ' : 'removed the check ') + (x.action === 'remove-check' ? esc(nm) : '<a href="' + esc(x.check) + '/">' + esc(nm) + '</a>');
+        return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + esc(x.by || 'Someone') + '</b> ' + what + '.</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
+      }
       const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
       const said = x.action === 'comment' ? x.text : x.reason;
       return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 3 ? plural(names.length, 'component') : names.join(', ')) + ' in <a href="' + esc(x.check) + '/' + (x.action === 'ignore' || x.action === 'restore' ? '#archive' : '') + '">' + esc(x.checkName || x.check) + '</a>.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
