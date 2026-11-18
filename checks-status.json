@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-18T10:55:14.820Z",
+  "generatedAt": "2026-11-18T14:41:40.590Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:40:36.065Z",
+      "ranAt": "2026-11-18T14:12:54.704Z",
       "ok": true,
       "history": [
         {
@@ -28,22 +28,26 @@
         {
           "at": "2026-11-18T10:40:36.065Z",
           "score": 18
+        },
+        {
+          "at": "2026-11-18T14:12:54.704Z",
+          "score": 18
         }
       ],
       "preview": {
         "component": "Button",
         "status": "Broken",
-        "variant": "Type=Primary, Size=Large, State=Disabled",
-        "brand": "AeroBlue",
-        "mismatch": 0.940158507223114,
-        "figma": "actions/assets/figma/1454779814547853aero-blue.png",
-        "code": "actions/assets/code/1454779814547853aero-blue.png"
+        "variant": "Type=Primary, Size=Regular, State=Active",
+        "brand": "Investec",
+        "mismatch": 0.8722444282945736,
+        "figma": "actions/assets/figma/1454779814548078investec.png",
+        "code": "actions/assets/code/1454779814548078investec.png"
       },
       "components": [
         {
           "name": "Button",
           "status": "Broken",
-          "score": 59
+          "score": 60
         },
         {
           "name": "Button Group",
@@ -78,7 +82,7 @@
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 50
+          "score": 52
         },
         {
           "name": "Tag",
@@ -126,9 +130,9 @@
           "moderate": 0,
           "minor": 0
         },
-        "components": 5,
-        "scans": 52,
-        "designChecks": 239,
+        "components": 4,
+        "scans": 39,
+        "designChecks": 227,
         "top": [
           {
             "title": "Button has no accessible name",
@@ -153,7 +157,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:42:04.794Z",
+      "ranAt": "2026-11-18T14:15:48.013Z",
       "ok": true,
       "history": [
         {
@@ -175,6 +179,10 @@
         {
           "at": "2026-11-18T10:42:04.794Z",
           "score": 22
+        },
+        {
+          "at": "2026-11-18T14:15:48.013Z",
+          "score": 22
         }
       ],
       "preview": null,
@@ -182,7 +190,7 @@
         {
           "name": "Alert",
           "status": "Drifted",
-          "score": 45
+          "score": 47
         },
         {
           "name": "Dialog",
@@ -275,9 +283,9 @@
           "moderate": 1,
           "minor": 0
         },
-        "components": 4,
+        "components": 1,
         "scans": 0,
-        "designChecks": 261,
+        "designChecks": 228,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -292,7 +300,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:44:19.290Z",
+      "ranAt": "2026-11-18T14:21:39.305Z",
       "ok": true,
       "history": [
         {
@@ -313,6 +321,10 @@
         },
         {
           "at": "2026-11-18T10:44:19.290Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-18T14:21:39.305Z",
           "score": 22
         }
       ],
@@ -424,9 +436,9 @@
           "moderate": 0,
           "minor": 0
         },
-        "components": 5,
+        "components": 3,
         "scans": 0,
-        "designChecks": 244,
+        "designChecks": 223,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -441,7 +453,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:46:12.520Z",
+      "ranAt": "2026-11-18T14:25:09.836Z",
       "ok": true,
       "history": [
         {
@@ -463,6 +475,10 @@
         {
           "at": "2026-11-18T10:46:12.520Z",
           "score": 35
+        },
+        {
+          "at": "2026-11-18T14:25:09.836Z",
+          "score": 35
         }
       ],
       "preview": {
@@ -483,7 +499,7 @@
         {
           "name": "Checkbox",
           "status": "Broken",
-          "score": 72
+          "score": 77
         },
         {
           "name": "Date Picker",
@@ -554,24 +570,19 @@
       },
       "a11y": {
         "ran": true,
-        "total": 2,
+        "total": 1,
         "counts": {
           "critical": 0,
-          "serious": 2,
+          "serious": 1,
           "moderate": 0,
           "minor": 0
         },
-        "components": 4,
-        "scans": 8,
-        "designChecks": 199,
+        "components": 3,
+        "scans": 6,
+        "designChecks": 189,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
-            "impact": "serious",
-            "owner": "Design"
-          },
-          {
-            "title": "Text contrast is too low in Storybook",
             "impact": "serious",
             "owner": "Design"
           }
@@ -583,7 +594,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:47:21.744Z",
+      "ranAt": "2026-11-18T14:27:16.009Z",
       "ok": true,
       "history": [
         {
@@ -604,6 +615,10 @@
         },
         {
           "at": "2026-11-18T10:47:21.744Z",
+          "score": 32
+        },
+        {
+          "at": "2026-11-18T14:27:16.009Z",
           "score": 32
         }
       ],
@@ -671,7 +686,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:48:53.064Z",
+      "ranAt": "2026-11-18T14:29:50.179Z",
       "ok": true,
       "history": [
         {
@@ -692,6 +707,10 @@
         },
         {
           "at": "2026-11-18T10:48:53.064Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-18T14:29:50.179Z",
           "score": 36
         }
       ],
@@ -756,7 +775,7 @@
       "themes": [
         "Figma property missing in code",
         "Component named differently in Figma and Storybook",
-        "Text contrast is too low in Figma"
+        "Not built in Storybook"
       ],
       "ignored": 0,
       "place": {
@@ -773,9 +792,9 @@
           "moderate": 0,
           "minor": 0
         },
-        "components": 2,
+        "components": 1,
         "scans": 0,
-        "designChecks": 72,
+        "designChecks": 62,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -790,7 +809,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:49:52.957Z",
+      "ranAt": "2026-11-18T14:31:49.716Z",
       "ok": true,
       "history": [
         {
@@ -807,6 +826,10 @@
         },
         {
           "at": "2026-11-18T10:49:52.957Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-18T14:31:49.716Z",
           "score": 15
         }
       ],
@@ -874,7 +897,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:51:27.919Z",
+      "ranAt": "2026-11-18T14:33:57.680Z",
       "ok": true,
       "history": [
         {
@@ -895,6 +918,10 @@
         },
         {
           "at": "2026-11-18T10:51:27.919Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-18T14:33:57.680Z",
           "score": 15
         }
       ],
@@ -978,7 +1005,7 @@
         },
         "components": 3,
         "scans": 0,
-        "designChecks": 200,
+        "designChecks": 180,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -993,7 +1020,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:53:15.793Z",
+      "ranAt": "2026-11-18T14:37:39.057Z",
       "ok": true,
       "history": [
         {
@@ -1002,6 +1029,10 @@
         },
         {
           "at": "2026-11-18T10:53:15.793Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-18T14:37:39.057Z",
           "score": 0
         }
       ],
@@ -1182,9 +1213,9 @@
           "moderate": 0,
           "minor": 0
         },
-        "components": 10,
+        "components": 1,
         "scans": 0,
-        "designChecks": 249,
+        "designChecks": 222,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -1199,7 +1230,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-18T10:55:07.510Z",
+      "ranAt": "2026-11-18T14:41:39.980Z",
       "ok": true,
       "history": [
         {
@@ -1213,6 +1244,10 @@
         {
           "at": "2026-11-18T10:55:07.510Z",
           "score": 6
+        },
+        {
+          "at": "2026-11-18T14:41:39.980Z",
+          "score": 7
         }
       ],
       "preview": {
@@ -1258,7 +1293,7 @@
         {
           "name": "Flight Delay / Flight Card",
           "status": "Broken",
-          "score": 62
+          "score": 63
         },
         {
           "name": "Membership / Entitlement Card",
@@ -1301,7 +1336,7 @@
           "score": 0
         }
       ],
-      "score": 6,
+      "score": 7,
       "headline": "0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.",
       "counts": {
         "total": 15,
@@ -1316,7 +1351,7 @@
       },
       "previousScore": 6,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 1,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1341,9 +1376,9 @@
           "moderate": 0,
           "minor": 0
         },
-        "components": 6,
-        "scans": 4,
-        "designChecks": 79,
+        "components": 2,
+        "scans": 3,
+        "designChecks": 67,
         "top": [
           {
             "title": "Text contrast is too low in Figma",

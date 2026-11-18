@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:51:27.919Z",
-    "durationMs": 94941,
+    "generatedAt": "2026-11-18T14:33:57.680Z",
+    "durationMs": 127940,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -19,10 +19,6 @@
         {
           "value": "master-card",
           "title": "Master Card"
-        },
-        {
-          "value": "areo-blue",
-          "title": "Areo Blue"
         }
       ],
       "renderer": null,
@@ -32,16 +28,15 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T23:41:07Z"
+        "lastModified": "2026-11-18T14:25:14Z"
       },
-      "exportedAt": "2026-11-18T10:50:10.209Z",
+      "exportedAt": "2026-11-18T14:32:32.695Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
         "Mastercard",
         "Investec",
         "Assurant",
-        "AeroBlue",
         "Visa Affluent"
       ],
       "components": 7,
@@ -92,11 +87,6 @@
         "how": "missing"
       },
       {
-        "figma": "AeroBlue",
-        "code": "areo-blue",
-        "how": "config"
-      },
-      {
         "figma": "Visa Affluent",
         "code": null,
         "how": "missing"
@@ -130,11 +120,6 @@
             "design": 1,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 1,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -160,11 +145,6 @@
             "status": "missing"
           },
           "Investec": {
-            "design": 2,
-            "code": null,
-            "status": "missing"
-          },
-          "AeroBlue": {
             "design": 2,
             "code": null,
             "status": "missing"
@@ -196,11 +176,6 @@
             "design": 24,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 24,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -229,11 +204,6 @@
             "design": "#343946",
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -259,11 +229,6 @@
             "status": "missing"
           },
           "Investec": {
-            "design": 400,
-            "code": null,
-            "status": "missing"
-          },
-          "AeroBlue": {
             "design": 400,
             "code": null,
             "status": "missing"
@@ -295,11 +260,6 @@
             "design": 500,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 500,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -328,11 +288,6 @@
             "design": "#5F1C0D",
             "code": "#5F1C0D",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -358,11 +313,6 @@
             "status": "differs"
           },
           "Investec": {
-            "design": 14,
-            "code": "16px",
-            "status": "differs"
-          },
-          "AeroBlue": {
             "design": 14,
             "code": "16px",
             "status": "differs"
@@ -394,11 +344,6 @@
             "design": "#343946",
             "code": "#343946",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
           }
         },
         "retired": null,
@@ -426,11 +371,6 @@
           "Investec": {
             "design": "#E4E5E7",
             "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D4066",
-            "code": "rgba(180, 109, 64, 0.4)",
             "status": "match"
           }
         },
@@ -460,11 +400,6 @@
             "design": "#232833",
             "code": "#232833",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
           }
         },
         "retired": null,
@@ -492,11 +427,6 @@
           "Investec": {
             "design": "#464C59",
             "code": "#464C59",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
             "status": "match"
           }
         },
@@ -526,11 +456,6 @@
             "design": "#FFFFFF",
             "code": "#FFFFFF",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
           }
         },
         "retired": null,
@@ -558,11 +483,6 @@
           "Investec": {
             "design": "#E4E5E7",
             "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D141A",
-            "code": "rgba(11, 13, 20, 0.1)",
             "status": "match"
           }
         },
@@ -592,11 +512,6 @@
             "design": "#EEEEEB",
             "code": "#EEEEEB",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
           }
         },
         "retired": null,
@@ -624,11 +539,6 @@
           "Investec": {
             "design": "#EEEEEB",
             "code": "#EEEEEB",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
             "status": "match"
           }
         },
@@ -658,11 +568,6 @@
             "design": "#C64221",
             "code": "#C64221",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D252580",
-            "code": "rgba(157, 37, 37, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -690,11 +595,6 @@
           "Investec": {
             "design": "#5F1C0D",
             "code": "#5F1C0D",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
             "status": "match"
           }
         },
@@ -724,11 +624,6 @@
             "design": "#8E1F00",
             "code": "#8E1F00",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
           }
         },
         "retired": null,
@@ -756,11 +651,6 @@
           "Investec": {
             "design": "#858A95",
             "code": "#858A95",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
             "status": "match"
           }
         },
@@ -790,11 +680,6 @@
             "design": "#C1C3C9",
             "code": "#C1C3C9",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C80",
-            "code": "rgba(255, 181, 156, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -822,11 +707,6 @@
           "Investec": {
             "design": "#131721",
             "code": "#131721",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59CB2",
-            "code": "rgba(255, 181, 156, 0.7)",
             "status": "match"
           }
         },
@@ -856,11 +736,6 @@
             "design": "#464C59",
             "code": "#464C59",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C4D",
-            "code": "rgba(255, 181, 156, 0.3)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -888,11 +763,6 @@
           "Investec": {
             "design": "#343946",
             "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
             "status": "match"
           }
         },
@@ -922,11 +792,6 @@
             "design": 999,
             "code": "999px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -954,11 +819,6 @@
           "Investec": {
             "design": "#343946",
             "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
             "status": "match"
           }
         },
@@ -988,11 +848,6 @@
             "design": "#F8F8F7",
             "code": "#F8F8F7",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1020,11 +875,6 @@
           "Investec": {
             "design": "#AE692F",
             "code": "#AE692F",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C",
-            "code": "#FFB59C",
             "status": "match"
           }
         },
@@ -1054,11 +904,6 @@
             "design": "#858A95",
             "code": "#858A95",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F080",
-            "code": "rgba(255, 244, 240, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1086,11 +931,6 @@
           "Investec": {
             "design": "#232833",
             "code": "#232833",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
             "status": "match"
           }
         },
@@ -1120,11 +960,6 @@
             "design": "#232833",
             "code": "#232833",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1152,11 +987,6 @@
           "Investec": {
             "design": "#C64221",
             "code": "#C64221",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
             "status": "match"
           }
         },
@@ -1186,11 +1016,6 @@
             "design": "#8E1F00",
             "code": "#8E1F00",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1216,11 +1041,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 2,
-            "code": "2px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 2,
             "code": "2px",
             "status": "match"
@@ -1252,11 +1072,6 @@
             "design": 999,
             "code": "999px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1282,11 +1097,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 10,
-            "code": "10px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 10,
             "code": "10px",
             "status": "match"
@@ -1318,11 +1128,6 @@
             "design": 12,
             "code": "12px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 12,
-            "code": "12px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1348,11 +1153,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 16,
             "code": "16px",
             "status": "match"
@@ -1384,11 +1184,6 @@
             "design": 20,
             "code": "20px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 20,
-            "code": "20px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1414,11 +1209,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 24,
-            "code": "24px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 24,
             "code": "24px",
             "status": "match"
@@ -1450,11 +1240,6 @@
             "design": 40,
             "code": "40px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 40,
-            "code": "40px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1480,11 +1265,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 48,
-            "code": "48px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 48,
             "code": "48px",
             "status": "match"
@@ -1516,11 +1296,6 @@
             "design": 56,
             "code": "56px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 56,
-            "code": "56px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1546,11 +1321,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 8,
-            "code": "8px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 8,
             "code": "8px",
             "status": "match"
@@ -1581,11 +1351,6 @@
           "Investec": {
             "design": "Inter",
             "code": "Inter, sans-serif",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "Manrope",
-            "code": "Manrope, sans-serif",
             "status": "match"
           }
         },
@@ -2233,27 +1998,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Large, weight=Regular, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 18,
-                "weight": 400,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Large, weight=Regular, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -2359,27 +2103,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 18,
-                "weight": 500,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Large, weight=Semi-Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -2485,27 +2208,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Large, weight=Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 18,
-                "weight": 700,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Large, weight=Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -2611,27 +2313,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Default, weight=Regular, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 16,
-                "weight": 400,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Default, weight=Regular, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -2737,27 +2418,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 16,
-                "weight": 500,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Default, weight=Semi-Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -2863,27 +2523,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Default, weight=Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 16,
-                "weight": 700,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Default, weight=Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -2989,27 +2628,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Small, weight=Regular, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Small, weight=Regular, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -3115,27 +2733,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Small, weight=Semi-Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -3241,27 +2838,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Small, weight=Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 14,
-                "weight": 700,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Small, weight=Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -3367,27 +2943,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=X-small, weight=Regular, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=X-small, weight=Regular, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -3493,27 +3048,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=X-small, weight=Semi-Bold, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -3608,27 +3142,6 @@
                 "ratio": 1,
                 "required": 4.5,
                 "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 700,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=X-small, weight=Bold, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/inverse",
                 "bgToken": null,
@@ -3745,27 +3258,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Caption, weight=Regular, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Body Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Caption, weight=Regular, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -3823,6 +3315,279 @@
                 "bgToken": null,
                 "size": 12,
                 "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 500,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Caption, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Caption, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Caption, weight=Bold, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Caption, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Caption, weight=Bold, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 12,
+                "weight": 700,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Size=Micro, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 10,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Size=Micro, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 10,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Size=Micro, weight=Regular, Shade=Light",
+              "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 4.5,
+                "fg": "#F8F8F7",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 10,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Size=Micro, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 10,
+                "weight": 400,
+                "layer": "Body Text",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Visa Affluent",
+              "variant": "Size=Micro, weight=Regular, Shade=Light",
+              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 4.5,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/inverse",
+                "bgToken": null,
+                "size": 10,
+                "weight": 400,
                 "layer": "Body Text",
                 "assumed": true
               }
@@ -3830,7 +3595,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 108,
+            "warn": 90,
             "fail": 0,
             "info": 0
           },
@@ -3839,7 +3604,6 @@
             "Mastercard",
             "Investec",
             "Assurant",
-            "AeroBlue",
             "Visa Affluent"
           ],
           "variants": [
@@ -4043,27 +3807,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "iPhone Keyboard",
-              "detail": "17.9:1, needs 4.5:1 · #000000 on #EBEDF0",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 17.9,
-                "required": 4.5,
-                "fg": "#000000",
-                "bg": "#EBEDF0",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 17,
-                "weight": 400,
-                "layer": "“The”",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Visa Affluent",
               "variant": "iPhone Keyboard",
               "detail": "17.9:1, needs 4.5:1 · #000000 on #EBEDF0",
@@ -4085,7 +3828,7 @@
             }
           ],
           "counts": {
-            "pass": 6,
+            "pass": 5,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -4319,27 +4062,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Mode=Light",
-              "detail": "21:1, needs 4.5:1 · #000000 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 21,
-                "required": 4.5,
-                "fg": "#000000",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "size": 17,
-                "weight": 590,
-                "layer": "Time",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Visa Affluent",
               "variant": "Mode=Light",
               "detail": "21:1, needs 4.5:1 · #000000 on #FFFFFF (no background in the component, measured on white)",
@@ -4361,7 +4083,7 @@
             }
           ],
           "counts": {
-            "pass": 6,
+            "pass": 5,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -4861,27 +4583,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Large, weight=Regular",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 18,
-                "weight": 400,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Investec",
               "variant": "Size=Large, weight=Semi-Bold",
               "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
@@ -4892,27 +4593,6 @@
                 "ratio": 4.32,
                 "required": 4.5,
                 "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 18,
-                "weight": 500,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Large, weight=Semi-Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action",
                 "bgToken": null,
@@ -4945,27 +4625,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Large, weight=Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 18,
-                "weight": 700,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Investec",
               "variant": "Size=Regular, weight=Regular",
               "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
@@ -4976,27 +4635,6 @@
                 "ratio": 4.32,
                 "required": 4.5,
                 "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 16,
-                "weight": 400,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Regular, weight=Regular",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action",
                 "bgToken": null,
@@ -5029,27 +4667,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Regular, weight=Semi-Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 16,
-                "weight": 500,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Investec",
               "variant": "Size=Regular, weight=Bold",
               "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
@@ -5060,27 +4677,6 @@
                 "ratio": 4.32,
                 "required": 4.5,
                 "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 16,
-                "weight": 700,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Regular, weight=Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action",
                 "bgToken": null,
@@ -5113,27 +4709,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Small, weight=Regular",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Investec",
               "variant": "Size=Small, weight=Semi-Bold",
               "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
@@ -5144,27 +4719,6 @@
                 "ratio": 4.32,
                 "required": 4.5,
                 "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Small, weight=Semi-Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action",
                 "bgToken": null,
@@ -5197,27 +4751,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Small, weight=Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 14,
-                "weight": 700,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Investec",
               "variant": "Size=X-small, weight=Regular",
               "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
@@ -5228,27 +4761,6 @@
                 "ratio": 4.32,
                 "required": 4.5,
                 "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=X-small, weight=Regular",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action",
                 "bgToken": null,
@@ -5281,27 +4793,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=X-small, weight=Semi-Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Investec",
               "variant": "Size=X-small, weight=Bold",
               "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
@@ -5312,27 +4803,6 @@
                 "ratio": 4.32,
                 "required": 4.5,
                 "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 12,
-                "weight": 700,
-                "layer": "Link Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=X-small, weight=Bold",
-              "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.7,
-                "required": 4.5,
-                "fg": "#FFB59C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action",
                 "bgToken": null,
@@ -6353,13 +5823,12 @@
           ],
           "counts": {
             "pass": 48,
-            "warn": 24,
+            "warn": 12,
             "fail": 0,
             "info": 0
           },
           "brands": [
-            "Investec",
-            "AeroBlue"
+            "Investec"
           ],
           "variants": [
             "Size=Large, weight=Regular",
@@ -6508,27 +5977,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=Hero, Shade=Light",
-              "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 3,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 28,
-                "weight": 700,
-                "layer": "Title Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=Hero, Shade=Light",
               "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -6623,27 +6071,6 @@
                 "ratio": 1,
                 "required": 3,
                 "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 26,
-                "weight": 700,
-                "layer": "Title Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=H1, Shade=Light",
-              "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 3,
-                "fg": "#FFF4F0",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/inverse",
                 "bgToken": null,
@@ -6760,27 +6187,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=H2, Shade=Light",
-              "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 3,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 24,
-                "weight": 600,
-                "layer": "Title Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=H2, Shade=Light",
               "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -6886,27 +6292,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=H3, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 22,
-                "weight": 600,
-                "layer": "Title Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=H3, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -7012,27 +6397,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=H4, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 20,
-                "weight": 500,
-                "layer": "Title Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Size=H4, Shade=Light",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -7127,27 +6491,6 @@
                 "ratio": 1,
                 "required": 4.5,
                 "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 18,
-                "weight": 500,
-                "layer": "Title Text",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Size=H5, Shade=Light",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/inverse",
                 "bgToken": null,
@@ -7181,7 +6524,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 36,
+            "warn": 30,
             "fail": 0,
             "info": 0
           },
@@ -7190,7 +6533,6 @@
             "Mastercard",
             "Investec",
             "Assurant",
-            "AeroBlue",
             "Visa Affluent"
           ],
           "variants": [
@@ -7626,7 +6968,6 @@
           "Mastercard",
           "Investec",
           "Assurant",
-          "AeroBlue",
           "Visa Affluent"
         ],
         "variants": 18
@@ -7759,8 +7100,7 @@
         "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
         "owner": "Design",
         "brands": [
-          "Investec",
-          "AeroBlue"
+          "Investec"
         ],
         "variants": 12
       },
@@ -7779,7 +7119,6 @@
           "Mastercard",
           "Investec",
           "Assurant",
-          "AeroBlue",
           "Visa Affluent"
         ],
         "variants": 6
@@ -7802,7 +7141,7 @@
   "a11y": {
     "ran": true,
     "scans": 0,
-    "designChecks": 200,
+    "designChecks": 180,
     "brands": [],
     "counts": {
       "critical": 0,
@@ -7813,12 +7152,11 @@
     "total": 1,
     "components": 3,
     "byBrand": {
-      "Dragonpass": 20,
-      "Mastercard": 20,
-      "Investec": 31,
-      "Assurant": 19,
-      "AeroBlue": 31,
-      "Visa Affluent": 19
+      "Dragonpass": 22,
+      "Mastercard": 22,
+      "Investec": 34,
+      "Assurant": 22,
+      "Visa Affluent": 22
     },
     "criteria": [
       {
@@ -7902,7 +7240,9 @@
               "Size=X-small, weight=Semi-Bold, Shade=Light",
               "Size=X-small, weight=Bold, Shade=Light",
               "Size=Caption, weight=Regular, Shade=Light",
-              "Size=Caption, weight=Semi-Bold, Shade=Light"
+              "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "Size=Caption, weight=Bold, Shade=Light",
+              "Size=Micro, weight=Regular, Shade=Light"
             ],
             "status": "warn",
             "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -7940,7 +7280,9 @@
               "Size=X-small, weight=Semi-Bold, Shade=Light",
               "Size=X-small, weight=Bold, Shade=Light",
               "Size=Caption, weight=Regular, Shade=Light",
-              "Size=Caption, weight=Semi-Bold, Shade=Light"
+              "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "Size=Caption, weight=Bold, Shade=Light",
+              "Size=Micro, weight=Regular, Shade=Light"
             ],
             "status": "warn",
             "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -7977,7 +7319,10 @@
               "Size=X-small, weight=Regular, Shade=Light",
               "Size=X-small, weight=Semi-Bold, Shade=Light",
               "Size=X-small, weight=Bold, Shade=Light",
-              "Size=Caption, weight=Regular, Shade=Light"
+              "Size=Caption, weight=Regular, Shade=Light",
+              "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "Size=Caption, weight=Bold, Shade=Light",
+              "Size=Micro, weight=Regular, Shade=Light"
             ],
             "status": "warn",
             "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
@@ -8014,7 +7359,10 @@
               "Size=X-small, weight=Regular, Shade=Light",
               "Size=X-small, weight=Semi-Bold, Shade=Light",
               "Size=X-small, weight=Bold, Shade=Light",
-              "Size=Caption, weight=Regular, Shade=Light"
+              "Size=Caption, weight=Regular, Shade=Light",
+              "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "Size=Caption, weight=Bold, Shade=Light",
+              "Size=Micro, weight=Regular, Shade=Light"
             ],
             "status": "warn",
             "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -8022,43 +7370,6 @@
               "ratio": 1,
               "required": 4.5,
               "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Large, weight=Regular, Shade=Light"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Body",
-            "componentKey": "1580:2636",
-            "brand": "AeroBlue",
-            "variants": [
-              "Size=Large, weight=Regular, Shade=Light",
-              "Size=Large, weight=Semi-Bold, Shade=Light",
-              "Size=Large, weight=Bold, Shade=Light",
-              "Size=Default, weight=Regular, Shade=Light",
-              "Size=Default, weight=Semi-Bold, Shade=Light",
-              "Size=Default, weight=Bold, Shade=Light",
-              "Size=Small, weight=Regular, Shade=Light",
-              "Size=Small, weight=Semi-Bold, Shade=Light",
-              "Size=Small, weight=Bold, Shade=Light",
-              "Size=X-small, weight=Regular, Shade=Light",
-              "Size=X-small, weight=Semi-Bold, Shade=Light",
-              "Size=X-small, weight=Bold, Shade=Light",
-              "Size=Caption, weight=Regular, Shade=Light"
-            ],
-            "status": "warn",
-            "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.08,
-              "required": 4.5,
-              "fg": "#FFF4F0",
               "bg": "#FFFFFF",
               "fgToken": "foreground/basic/inverse",
               "bgToken": null,
@@ -8088,7 +7399,10 @@
               "Size=X-small, weight=Regular, Shade=Light",
               "Size=X-small, weight=Semi-Bold, Shade=Light",
               "Size=X-small, weight=Bold, Shade=Light",
-              "Size=Caption, weight=Regular, Shade=Light"
+              "Size=Caption, weight=Regular, Shade=Light",
+              "Size=Caption, weight=Semi-Bold, Shade=Light",
+              "Size=Caption, weight=Bold, Shade=Light",
+              "Size=Micro, weight=Regular, Shade=Light"
             ],
             "status": "warn",
             "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -8132,42 +7446,6 @@
               "ratio": 4.32,
               "required": 4.5,
               "fg": "#AE692F",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Large, weight=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Text Link",
-            "componentKey": "1580:2709",
-            "brand": "AeroBlue",
-            "variants": [
-              "Size=Large, weight=Regular",
-              "Size=Large, weight=Semi-Bold",
-              "Size=Large, weight=Bold",
-              "Size=Regular, weight=Regular",
-              "Size=Regular, weight=Semi-Bold",
-              "Size=Regular, weight=Bold",
-              "Size=Small, weight=Regular",
-              "Size=Small, weight=Semi-Bold",
-              "Size=Small, weight=Bold",
-              "Size=X-small, weight=Regular",
-              "Size=X-small, weight=Semi-Bold",
-              "Size=X-small, weight=Bold"
-            ],
-            "status": "warn",
-            "detail": "1.7:1, needs 4.5:1 · #FFB59C on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.7,
-              "required": 4.5,
-              "fg": "#FFB59C",
               "bg": "#FFFFFF",
               "fgToken": "foreground/interactive/action",
               "bgToken": null,
@@ -8303,36 +7581,6 @@
             "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
-            "brand": "AeroBlue",
-            "variants": [
-              "Size=Hero, Shade=Light",
-              "Size=H1, Shade=Light",
-              "Size=H2, Shade=Light",
-              "Size=H3, Shade=Light",
-              "Size=H4, Shade=Light",
-              "Size=H5, Shade=Light"
-            ],
-            "status": "warn",
-            "detail": "1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.08,
-              "required": 3,
-              "fg": "#FFF4F0",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Hero, Shade=Light"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Title",
-            "componentKey": "706:50315",
             "brand": "Visa Affluent",
             "variants": [
               "Size=Hero, Shade=Light",
@@ -8359,12 +7607,12 @@
             "size": null
           }
         ],
-        "occurrences": 140
+        "occurrences": 122
       }
     ]
   },
   "delta": {
-    "since": "2026-11-18T10:14:04.242Z",
+    "since": "2026-11-18T10:51:27.919Z",
     "previousScore": 15,
     "newFails": [],
     "fixed": []

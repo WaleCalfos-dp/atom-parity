@@ -9,7 +9,7 @@
 ### Biggest themes
 - 🔴 Not built in Storybook: 7 components (Both)
 - 🔴 Figma property missing in code: 6 components (Dev)
-- 🔴 Text contrast is too low in Figma: 5 components (Design)
+- 🔴 Text contrast is too low in Figma: 3 components (Design)
 - 🔴 Property named differently in Figma and code: 2 components (Both)
 - 🔴 Property values missing in code: 2 components (Both)
 - 🔴 Component named differently in Figma and Storybook: 1 component (Both)

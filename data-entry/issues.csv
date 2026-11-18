@@ -14,7 +14,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Checkbox: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
-Brands: Dragonpass, Mastercard, Investec, AeroBlue
+Brands: Dragonpass, Mastercard, Investec
 Variants: State=Focus, Checked=False; State=Focus, Checked=True; State=Disabled, Checked=False; State=Default, Checked=True; State=Disabled, Checked=True; State=Hover, Checked=False; State=Hover, Checked=True; State=Default, Checked=False
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
@@ -52,16 +52,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-visual owner-both","Atom Design System"
-"[Atom parity] Checkbox: Elements must meet minimum color contrast ratio thresholds","serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
-
-Brands: AeroBlue
-Variants: State=Default, Checked=True; State=Default, Checked=False
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=360-57017
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage
-Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
-
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Date Picker: Figma ""Date Picker"" is ""CalendarPicker"" in Storybook","Rename one side so any developer can map code to the design system immediately.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1617-15924
@@ -307,8 +297,8 @@ Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-263%3A5381
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Select: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
 
-Brands: Dragonpass, AeroBlue
-Variants: Selected=False, State=Default, Label Position=Outside; Selected=False, State=Hover, Label Position=Outside; Selected=False, State=Error, Label Position=Outside; Selected=False, State=Error, Label Position=Inside; Selected=False, State=Focus, Label Position=Outside; Selected=False, State=Active, Label Position=Outside; Selected=Single, State=Error, Label Position=Inside; Selected=Multiple, State=Error, Label Position=Inside
+Brands: Dragonpass
+Variants: Selected=False, State=Default, Label Position=Outside; Selected=False, State=Hover, Label Position=Outside; Selected=False, State=Error, Label Position=Outside; Selected=False, State=Focus, Label Position=Outside; Selected=False, State=Active, Label Position=Outside
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=263-5381
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-selectinput--usage
@@ -343,10 +333,10 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Switch: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
+"[Atom parity] Switch: Text contrast is too low in Figma","4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)
 
-Brands: AeroBlue, Visa Affluent
-Variants: State=Hover, On=False; State=Pressed, On=False; State=Hover, On=True; State=Pressed, On=True
+Brands: Visa Affluent
+Variants: State=Hover, On=False; State=Hover, On=True
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage

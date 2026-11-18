@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:55:07.510Z",
-    "durationMs": 111685,
+    "generatedAt": "2026-11-18T14:41:39.980Z",
+    "durationMs": 240895,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -19,10 +19,6 @@
         {
           "value": "master-card",
           "title": "Master Card"
-        },
-        {
-          "value": "areo-blue",
-          "title": "Areo Blue"
         }
       ],
       "renderer": null,
@@ -32,16 +28,15 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T23:41:07Z"
+        "lastModified": "2026-11-18T14:37:43Z"
       },
-      "exportedAt": "2026-11-18T10:53:58.617Z",
+      "exportedAt": "2026-11-18T14:39:19.912Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
         "Mastercard",
         "Investec",
         "Assurant",
-        "AeroBlue",
         "Visa Affluent"
       ],
       "components": 15,
@@ -60,7 +55,7 @@
         "stale": true
       }
     },
-    "jobs": 4,
+    "jobs": 3,
     "viewport": {
       "width": 1440,
       "height": 900,
@@ -90,11 +85,6 @@
         "figma": "Assurant",
         "code": null,
         "how": "missing"
-      },
-      {
-        "figma": "AeroBlue",
-        "code": "areo-blue",
-        "how": "config"
       },
       {
         "figma": "Visa Affluent",
@@ -130,11 +120,6 @@
             "design": 1,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 1,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -160,11 +145,6 @@
             "status": "missing"
           },
           "Investec": {
-            "design": 2,
-            "code": null,
-            "status": "missing"
-          },
-          "AeroBlue": {
             "design": 2,
             "code": null,
             "status": "missing"
@@ -196,11 +176,6 @@
             "design": 24,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 24,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -229,11 +204,6 @@
             "design": "#343946",
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -259,11 +229,6 @@
             "status": "missing"
           },
           "Investec": {
-            "design": 400,
-            "code": null,
-            "status": "missing"
-          },
-          "AeroBlue": {
             "design": 400,
             "code": null,
             "status": "missing"
@@ -295,11 +260,6 @@
             "design": 500,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 500,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -328,11 +288,6 @@
             "design": "#5F1C0D",
             "code": "#5F1C0D",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -358,11 +313,6 @@
             "status": "differs"
           },
           "Investec": {
-            "design": 14,
-            "code": "16px",
-            "status": "differs"
-          },
-          "AeroBlue": {
             "design": 14,
             "code": "16px",
             "status": "differs"
@@ -394,11 +344,6 @@
             "design": "#343946",
             "code": "#343946",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
           }
         },
         "retired": null,
@@ -426,11 +371,6 @@
           "Investec": {
             "design": "#E4E5E7",
             "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D4066",
-            "code": "rgba(180, 109, 64, 0.4)",
             "status": "match"
           }
         },
@@ -460,11 +400,6 @@
             "design": "#232833",
             "code": "#232833",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
           }
         },
         "retired": null,
@@ -492,11 +427,6 @@
           "Investec": {
             "design": "#464C59",
             "code": "#464C59",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
             "status": "match"
           }
         },
@@ -526,11 +456,6 @@
             "design": "#FFFFFF",
             "code": "#FFFFFF",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
           }
         },
         "retired": null,
@@ -558,11 +483,6 @@
           "Investec": {
             "design": "#E4E5E7",
             "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D141A",
-            "code": "rgba(11, 13, 20, 0.1)",
             "status": "match"
           }
         },
@@ -592,11 +512,6 @@
             "design": "#EEEEEB",
             "code": "#EEEEEB",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
           }
         },
         "retired": null,
@@ -624,11 +539,6 @@
           "Investec": {
             "design": "#EEEEEB",
             "code": "#EEEEEB",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
             "status": "match"
           }
         },
@@ -658,11 +568,6 @@
             "design": "#C64221",
             "code": "#C64221",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D252580",
-            "code": "rgba(157, 37, 37, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -690,11 +595,6 @@
           "Investec": {
             "design": "#5F1C0D",
             "code": "#5F1C0D",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
             "status": "match"
           }
         },
@@ -724,11 +624,6 @@
             "design": "#8E1F00",
             "code": "#8E1F00",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
           }
         },
         "retired": null,
@@ -756,11 +651,6 @@
           "Investec": {
             "design": "#858A95",
             "code": "#858A95",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
             "status": "match"
           }
         },
@@ -790,11 +680,6 @@
             "design": "#C1C3C9",
             "code": "#C1C3C9",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C80",
-            "code": "rgba(255, 181, 156, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -822,11 +707,6 @@
           "Investec": {
             "design": "#131721",
             "code": "#131721",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59CB2",
-            "code": "rgba(255, 181, 156, 0.7)",
             "status": "match"
           }
         },
@@ -856,11 +736,6 @@
             "design": "#464C59",
             "code": "#464C59",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C4D",
-            "code": "rgba(255, 181, 156, 0.3)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -888,11 +763,6 @@
           "Investec": {
             "design": "#343946",
             "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
             "status": "match"
           }
         },
@@ -922,11 +792,6 @@
             "design": 999,
             "code": "999px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -954,11 +819,6 @@
           "Investec": {
             "design": "#343946",
             "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
             "status": "match"
           }
         },
@@ -988,11 +848,6 @@
             "design": "#F8F8F7",
             "code": "#F8F8F7",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1020,11 +875,6 @@
           "Investec": {
             "design": "#AE692F",
             "code": "#AE692F",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C",
-            "code": "#FFB59C",
             "status": "match"
           }
         },
@@ -1054,11 +904,6 @@
             "design": "#858A95",
             "code": "#858A95",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F080",
-            "code": "rgba(255, 244, 240, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1086,11 +931,6 @@
           "Investec": {
             "design": "#232833",
             "code": "#232833",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
             "status": "match"
           }
         },
@@ -1120,11 +960,6 @@
             "design": "#232833",
             "code": "#232833",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1152,11 +987,6 @@
           "Investec": {
             "design": "#C64221",
             "code": "#C64221",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
             "status": "match"
           }
         },
@@ -1186,11 +1016,6 @@
             "design": "#8E1F00",
             "code": "#8E1F00",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1216,11 +1041,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 2,
-            "code": "2px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 2,
             "code": "2px",
             "status": "match"
@@ -1252,11 +1072,6 @@
             "design": 999,
             "code": "999px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1282,11 +1097,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 10,
-            "code": "10px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 10,
             "code": "10px",
             "status": "match"
@@ -1318,11 +1128,6 @@
             "design": 12,
             "code": "12px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 12,
-            "code": "12px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1348,11 +1153,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 16,
             "code": "16px",
             "status": "match"
@@ -1384,11 +1184,6 @@
             "design": 20,
             "code": "20px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 20,
-            "code": "20px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1414,11 +1209,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 24,
-            "code": "24px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 24,
             "code": "24px",
             "status": "match"
@@ -1450,11 +1240,6 @@
             "design": 40,
             "code": "40px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 40,
-            "code": "40px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1480,11 +1265,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 48,
-            "code": "48px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 48,
             "code": "48px",
             "status": "match"
@@ -1516,11 +1296,6 @@
             "design": 56,
             "code": "56px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 56,
-            "code": "56px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1546,11 +1321,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 8,
-            "code": "8px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 8,
             "code": "8px",
             "status": "match"
@@ -1581,11 +1351,6 @@
           "Investec": {
             "design": "Inter",
             "code": "Inter, sans-serif",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "Manrope",
-            "code": "Manrope, sans-serif",
             "status": "match"
           }
         },
@@ -1790,27 +1555,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Status=Active - Full",
-              "detail": "17.98:1, needs 4.5:1 · #FFF4F0 on #0B0D14",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 17.98,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#0B0D14",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 14,
-                "weight": 500,
-                "layer": "Remaining Value",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Visa Affluent",
               "variant": "Status=Active - Full",
               "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF",
@@ -1874,7 +1618,7 @@
             }
           ],
           "counts": {
-            "pass": 8,
+            "pass": 7,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -2288,27 +2032,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Expired",
-              "detail": "1.04:1, needs 4.5:1 · #FFF9F7 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.04,
-                "required": 4.5,
-                "fg": "#FFF9F7",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-disabled",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Expiration date",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "State=Expired",
               "detail": "3.18:1, needs 4.5:1 · #9A8F7C on #FFFFFF (no background in the component, measured on white)",
@@ -2373,7 +2096,7 @@
           ],
           "counts": {
             "pass": 2,
-            "warn": 4,
+            "warn": 3,
             "fail": 1,
             "info": 0
           },
@@ -2422,7 +2145,7 @@
       "key": "17265:62617",
       "name": "Flight Delay / Flight Card",
       "status": "Broken",
-      "score": 62,
+      "score": 63,
       "match": "exact",
       "figma": {
         "id": "17265:62617",
@@ -3001,20 +2724,10 @@
               "code": null,
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 4,
+            "pass": 3,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3062,29 +2775,18 @@
               "code": null,
               "image": null,
               "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
             "pass": 0,
-            "warn": 4,
+            "warn": 3,
             "fail": 0,
             "info": 0
           },
           "brands": [
             "Dragonpass",
             "Mastercard",
-            "Investec",
-            "AeroBlue"
+            "Investec"
           ],
           "variants": [
             "Flight Delay / Flight Card"
@@ -3192,20 +2894,10 @@
               "code": "1px",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "Design 1px (no variable) · Code 1px",
-              "figma": "1px",
-              "code": "1px",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 4,
+            "pass": 3,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3253,20 +2945,10 @@
               "code": "8px",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "Design 8px (no variable) · Code 8px",
-              "figma": "8px",
-              "code": "8px",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 4,
+            "pass": 3,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3314,29 +2996,18 @@
               "code": "--aum-flight-card-border-radius",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
-              "figma": "8px",
-              "code": "--aum-flight-card-border-radius",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
             "pass": 0,
-            "warn": 4,
+            "warn": 3,
             "fail": 0,
             "info": 0
           },
           "brands": [
             "Dragonpass",
             "Mastercard",
-            "Investec",
-            "AeroBlue"
+            "Investec"
           ],
           "variants": [
             "Flight Delay / Flight Card"
@@ -3382,20 +3053,10 @@
               "code": "16px",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "Design 16px (space-16) · Code 16px",
-              "figma": "16px",
-              "code": "16px",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 4,
+            "pass": 3,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3443,29 +3104,18 @@
               "code": "--aum-spacing-16",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
-              "figma": "space-16",
-              "code": "--aum-spacing-16",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
             "pass": 0,
-            "warn": 4,
+            "warn": 3,
             "fail": 0,
             "info": 0
           },
           "brands": [
             "Dragonpass",
             "Mastercard",
-            "Investec",
-            "AeroBlue"
+            "Investec"
           ],
           "variants": [
             "Flight Delay / Flight Card"
@@ -3511,20 +3161,10 @@
               "code": "16px",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "Design 16px (space-16) · Code 16px",
-              "figma": "16px",
-              "code": "16px",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 4,
+            "pass": 3,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3572,29 +3212,18 @@
               "code": "--aum-spacing-16",
               "image": null,
               "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
-              "figma": "space-16",
-              "code": "--aum-spacing-16",
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
             "pass": 0,
-            "warn": 4,
+            "warn": 3,
             "fail": 0,
             "info": 0
           },
           "brands": [
             "Dragonpass",
             "Mastercard",
-            "Investec",
-            "AeroBlue"
+            "Investec"
           ],
           "variants": [
             "Flight Delay / Flight Card"
@@ -3919,20 +3548,10 @@
               "code": null,
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "0 rules failed",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 4,
+            "pass": 3,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3945,37 +3564,16 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
-          "title": "Text contrast is too low in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
           "owner": "Design",
-          "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+          "detail": "4.8:1, needs 4.5:1 · #737272 on #FFFFFF",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
             "impact": "serious"
           },
           "instances": [
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Flight Delay / Flight Card",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Flight Number",
-                "assumed": true
-              }
-            },
             {
               "status": "pass",
               "brand": "Dragonpass",
@@ -4084,16 +3682,12 @@
           ],
           "counts": {
             "pass": 5,
-            "warn": 1,
+            "warn": 0,
             "fail": 0,
             "info": 0
           },
-          "brands": [
-            "AeroBlue"
-          ],
-          "variants": [
-            "Flight Delay / Flight Card"
-          ]
+          "brands": [],
+          "variants": []
         }
       ],
       "gallery": [
@@ -4138,19 +3732,6 @@
           "interaction": null,
           "figma": null,
           "code": "assets/code/17265626171726562617investec.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage"
-        },
-        {
-          "variant": "Flight Delay / Flight Card",
-          "brand": "AeroBlue",
-          "interaction": null,
-          "figma": null,
-          "code": "assets/code/17265626171726562617aero-blue.png",
           "diff": null,
           "mismatch": null,
           "sizeDelta": null,
@@ -4320,37 +3901,16 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "fail",
-          "title": "Text contrast is too low in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
           "owner": "Design",
-          "detail": "3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40",
+          "detail": "16.14:1, needs 4.5:1 · #FFFFFF on #0A2333",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
             "impact": "serious"
           },
           "instances": [
-            {
-              "status": "fail",
-              "brand": "AeroBlue",
-              "variant": "Membership / Membership Card",
-              "detail": "3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 3.74,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#B46D40",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": "background/interactive/action",
-                "size": 22,
-                "weight": 600,
-                "layer": "Number of visit",
-                "assumed": false
-              }
-            },
             {
               "status": "pass",
               "brand": "Dragonpass",
@@ -4460,15 +4020,11 @@
           "counts": {
             "pass": 5,
             "warn": 0,
-            "fail": 1,
+            "fail": 0,
             "info": 0
           },
-          "brands": [
-            "AeroBlue"
-          ],
-          "variants": [
-            "Membership / Membership Card"
-          ]
+          "brands": [],
+          "variants": []
         },
         {
           "key": "Naming|name",
@@ -4589,37 +4145,16 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
-          "title": "Text contrast is too low in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
           "owner": "Design",
-          "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+          "detail": "4.8:1, needs 4.5:1 · #737272 on #FFFFFF (no background in the component, measured on white)",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
             "impact": "serious"
           },
           "instances": [
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Type=Default",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 22,
-                "weight": 600,
-                "layer": "Product Name",
-                "assumed": true
-              }
-            },
             {
               "status": "pass",
               "brand": "Dragonpass",
@@ -4728,16 +4263,12 @@
           ],
           "counts": {
             "pass": 5,
-            "warn": 1,
+            "warn": 0,
             "fail": 0,
             "info": 0
           },
-          "brands": [
-            "AeroBlue"
-          ],
-          "variants": [
-            "Type=Default"
-          ]
+          "brands": [],
+          "variants": []
         },
         {
           "key": "Naming|name",
@@ -5460,27 +4991,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Type=Default",
-              "detail": "1.04:1, needs 4.5:1 · #FFF9F7 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.04,
-                "required": 4.5,
-                "fg": "#FFF9F7",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-disabled",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Expiration date",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Type=Default",
               "detail": "3.18:1, needs 4.5:1 · #9A8F7C on #FFFFFF (no background in the component, measured on white)",
@@ -5533,27 +5043,6 @@
                 "ratio": 3.46,
                 "required": 4.5,
                 "fg": "#858A95",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-disabled",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Expiration date",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Type=Applied",
-              "detail": "1.04:1, needs 4.5:1 · #FFF9F7 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.04,
-                "required": 4.5,
-                "fg": "#FFF9F7",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action-disabled",
                 "bgToken": null,
@@ -5628,27 +5117,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Type=Expired",
-              "detail": "1.04:1, needs 4.5:1 · #FFF9F7 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.04,
-                "required": 4.5,
-                "fg": "#FFF9F7",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-disabled",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Promotion name",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "Type=Expired",
               "detail": "3.18:1, needs 4.5:1 · #9A8F7C on #FFFFFF (no background in the component, measured on white)",
@@ -5661,27 +5129,6 @@
                 "fg": "#9A8F7C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action-disabled",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Promotion name",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Type=Empty",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
                 "bgToken": null,
                 "size": 14,
                 "weight": 500,
@@ -5860,7 +5307,7 @@
           ],
           "counts": {
             "pass": 8,
-            "warn": 13,
+            "warn": 9,
             "fail": 3,
             "info": 0
           },
@@ -5957,79 +5404,16 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
-          "title": "Text contrast is too low in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
           "owner": "Design",
-          "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+          "detail": "16.14:1, needs 4.5:1 · #0A2333 on #FFFFFF (no background in the component, measured on white)",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
             "impact": "serious"
           },
           "instances": [
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Breakpoint=Mobile",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 22,
-                "weight": 600,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Breakpoint=Tablet",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 22,
-                "weight": 600,
-                "layer": "title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "Breakpoint=Desktop",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 22,
-                "weight": 600,
-                "layer": "title",
-                "assumed": true
-              }
-            },
             {
               "status": "pass",
               "brand": "Dragonpass",
@@ -6348,18 +5732,12 @@
           ],
           "counts": {
             "pass": 15,
-            "warn": 3,
+            "warn": 0,
             "fail": 0,
             "info": 0
           },
-          "brands": [
-            "AeroBlue"
-          ],
-          "variants": [
-            "Breakpoint=Mobile",
-            "Breakpoint=Tablet",
-            "Breakpoint=Desktop"
-          ]
+          "brands": [],
+          "variants": []
         },
         {
           "key": "Naming|name",
@@ -6397,7 +5775,7 @@
     }
   ],
   "summary": {
-    "score": 6,
+    "score": 7,
     "headline": "0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.",
     "components": {
       "total": 15,
@@ -6411,9 +5789,9 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 18,
-      "warn": 25,
-      "fail": 25
+      "pass": 22,
+      "warn": 22,
+      "fail": 24
     },
     "byCategory": {
       "Naming": {
@@ -6437,9 +5815,9 @@
         "fail": 1
       },
       "Accessibility": {
-        "pass": 5,
-        "warn": 3,
-        "fail": 3
+        "pass": 9,
+        "warn": 0,
+        "fail": 2
       },
       "Interaction": {
         "pass": 0,
@@ -6459,8 +5837,8 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 8,
-        "fail": 3
+        "warn": 5,
+        "fail": 2
       },
       "Dev": {
         "warn": 12,
@@ -6580,11 +5958,7 @@
         "owner": "Design",
         "components": [
           "Flight Delay / Benefit Card",
-          "Flight Delay / Flight Card",
-          "Membership / Membership Card",
-          "Product Details",
-          "Transport / Promotion Panel",
-          "Web Page Details"
+          "Transport / Promotion Panel"
         ],
         "items": [
           {
@@ -6594,34 +5968,10 @@
             "componentName": "Flight Delay / Benefit Card"
           },
           {
-            "component": "17265:62617",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "10419:5354",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Membership / Membership Card"
-          },
-          {
-            "component": "16222:20620",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Product Details"
-          },
-          {
             "component": "13192:28371",
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
             "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "17316:3291",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Web Page Details"
           }
         ]
       },
@@ -7108,8 +6458,7 @@
         "brands": [
           "Dragonpass",
           "Mastercard",
-          "Investec",
-          "AeroBlue"
+          "Investec"
         ],
         "variants": 1
       },
@@ -7126,8 +6475,7 @@
         "brands": [
           "Dragonpass",
           "Mastercard",
-          "Investec",
-          "AeroBlue"
+          "Investec"
         ],
         "variants": 1
       },
@@ -7144,8 +6492,7 @@
         "brands": [
           "Dragonpass",
           "Mastercard",
-          "Investec",
-          "AeroBlue"
+          "Investec"
         ],
         "variants": 1
       },
@@ -7162,8 +6509,7 @@
         "brands": [
           "Dragonpass",
           "Mastercard",
-          "Investec",
-          "AeroBlue"
+          "Investec"
         ],
         "variants": 1
       },
@@ -7258,21 +6604,6 @@
         "variants": 1
       },
       {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "AeroBlue"
-        ],
-        "variants": 1
-      },
-      {
         "component": "Membership / Entitlement Card",
         "componentKey": "10422:5934",
         "key": "Naming|name",
@@ -7284,21 +6615,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Membership / Membership Card",
-        "componentKey": "10419:5354",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "fail",
-        "title": "Text contrast is too low in Figma",
-        "detail": "3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40",
-        "owner": "Design",
-        "brands": [
-          "AeroBlue"
-        ],
-        "variants": 1
       },
       {
         "component": "Membership / Membership Card",
@@ -7325,21 +6641,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Product Details",
-        "componentKey": "16222:20620",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "AeroBlue"
-        ],
-        "variants": 1
       },
       {
         "component": "Product Details",
@@ -7541,21 +6842,6 @@
       {
         "component": "Web Page Details",
         "componentKey": "17316:3291",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "AeroBlue"
-        ],
-        "variants": 3
-      },
-      {
-        "component": "Web Page Details",
-        "componentKey": "17316:3291",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -7570,13 +6856,12 @@
   },
   "a11y": {
     "ran": true,
-    "scans": 4,
-    "designChecks": 79,
+    "scans": 3,
+    "designChecks": 67,
     "brands": [
       "Dragonpass",
       "Mastercard",
-      "Investec",
-      "AeroBlue"
+      "Investec"
     ],
     "counts": {
       "critical": 0,
@@ -7585,12 +6870,11 @@
       "minor": 0
     },
     "total": 1,
-    "components": 6,
+    "components": 2,
     "byBrand": {
       "Dragonpass": 4,
       "Mastercard": 4,
       "Investec": 4,
-      "AeroBlue": 11,
       "Visa Affluent": 4
     },
     "criteria": [
@@ -7637,34 +6921,10 @@
             "componentName": "Flight Delay / Benefit Card"
           },
           {
-            "component": "17265:62617",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "10419:5354",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Membership / Membership Card"
-          },
-          {
-            "component": "16222:20620",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Product Details"
-          },
-          {
             "component": "13192:28371",
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
             "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "17316:3291",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Web Page Details"
           }
         ],
         "rule": "design-contrast",
@@ -7688,24 +6948,8 @@
             "key": "17636:37197"
           },
           {
-            "name": "Flight Delay / Flight Card",
-            "key": "17265:62617"
-          },
-          {
-            "name": "Membership / Membership Card",
-            "key": "10419:5354"
-          },
-          {
-            "name": "Product Details",
-            "key": "16222:20620"
-          },
-          {
             "name": "Transport / Promotion Panel",
             "key": "13192:28371"
-          },
-          {
-            "name": "Web Page Details",
-            "key": "17316:3291"
           }
         ],
         "where": [
@@ -7789,31 +7033,6 @@
             "title": "Text contrast is too low in Figma",
             "component": "Flight Delay / Benefit Card",
             "componentKey": "17636:37197",
-            "brand": "AeroBlue",
-            "variants": [
-              "State=Expired"
-            ],
-            "status": "warn",
-            "detail": "1.04:1, needs 4.5:1 · #FFF9F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.04,
-              "required": 4.5,
-              "fg": "#FFF9F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action-disabled",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Expired"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Flight Delay / Benefit Card",
-            "componentKey": "17636:37197",
             "brand": "Visa Affluent",
             "variants": [
               "State=Expired"
@@ -7829,81 +7048,6 @@
               "bgToken": null,
               "assumed": true,
               "variant": "State=Expired"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Flight Delay / Flight Card",
-            "componentKey": "17265:62617",
-            "brand": "AeroBlue",
-            "variants": [
-              "Flight Delay / Flight Card"
-            ],
-            "status": "warn",
-            "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.08,
-              "required": 4.5,
-              "fg": "#FFF4F0",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/heading",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Flight Delay / Flight Card"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Membership / Membership Card",
-            "componentKey": "10419:5354",
-            "brand": "AeroBlue",
-            "variants": [
-              "Membership / Membership Card"
-            ],
-            "status": "fail",
-            "detail": "3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40",
-            "contrast": {
-              "ratio": 3.74,
-              "required": 4.5,
-              "fg": "#FFF4F0",
-              "bg": "#B46D40",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": "background/interactive/action",
-              "assumed": false,
-              "variant": "Membership / Membership Card"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Product Details",
-            "componentKey": "16222:20620",
-            "brand": "AeroBlue",
-            "variants": [
-              "Type=Default"
-            ],
-            "status": "warn",
-            "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.08,
-              "required": 4.5,
-              "fg": "#FFF4F0",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/heading",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=Default"
             },
             "design": null,
             "target": null,
@@ -7995,34 +7139,6 @@
             "title": "Text contrast is too low in Figma",
             "component": "Transport / Promotion Panel",
             "componentKey": "13192:28371",
-            "brand": "AeroBlue",
-            "variants": [
-              "Type=Default",
-              "Type=Applied",
-              "Type=Expired",
-              "Type=Empty"
-            ],
-            "status": "warn",
-            "detail": "1.04:1, needs 4.5:1 · #FFF9F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.04,
-              "required": 4.5,
-              "fg": "#FFF9F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action-disabled",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=Default"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Transport / Promotion Panel",
-            "componentKey": "13192:28371",
             "brand": "Visa Affluent",
             "variants": [
               "Type=Default",
@@ -8044,43 +7160,24 @@
             "design": null,
             "target": null,
             "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Web Page Details",
-            "componentKey": "17316:3291",
-            "brand": "AeroBlue",
-            "variants": [
-              "Breakpoint=Mobile",
-              "Breakpoint=Tablet",
-              "Breakpoint=Desktop"
-            ],
-            "status": "warn",
-            "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.08,
-              "required": 4.5,
-              "fg": "#FFF4F0",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/heading",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Breakpoint=Mobile"
-            },
-            "design": null,
-            "target": null,
-            "size": null
           }
         ],
-        "occurrences": 27
+        "occurrences": 16
       }
     ]
   },
   "delta": {
-    "since": "2026-11-18T10:24:49.816Z",
+    "since": "2026-11-18T10:55:07.510Z",
     "previousScore": 6,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Membership / Membership Card",
+        "title": "Text contrast is too low in Figma",
+        "category": "Accessibility",
+        "now": "pass"
+      }
+    ]
   }
 }

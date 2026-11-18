@@ -144,8 +144,8 @@ Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Badge: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Mastercard, Investec, Assurant, AeroBlue, Visa Affluent
-Variants: Status=Brand, Style=Rounded, Size=Regular; Status=Brand, Style=Rounded, Size=Large; Status=Brand, Style=Standard, Size=Regular; Status=Brand, Style=Standard, Size=Large; Status=Muted, Style=Rounded, Size=Regular; Status=Muted, Style=Rounded, Size=Large; Status=Muted, Style=Standard, Size=Regular; Status=Muted, Style=Standard, Size=Large
+Brands: Mastercard, Investec, Assurant, Visa Affluent
+Variants: Status=Brand, Style=Rounded, Size=Regular; Status=Brand, Style=Rounded, Size=Large; Status=Brand, Style=Standard, Size=Regular; Status=Brand, Style=Standard, Size=Large
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1888-5974
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1888%3A5974
@@ -329,15 +329,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Empty State: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Status=Muted; Status=Information; Status=Success; Status=Warning; Status=Error
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15567-40690
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15567%3A40690
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Empty State: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15567-40690
@@ -390,15 +381,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14969%3A20257
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Module Node: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: State=Default
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7653-2736
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-7653%3A2736
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Module Node: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7653-2736
@@ -594,7 +576,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] QR Code: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Mastercard, Investec, Assurant, AeroBlue, Visa Affluent
+Brands: Mastercard, Investec, Assurant, Visa Affluent
 Variants: Type=QR Code, State=Default, Style=Brand; Type=QR Code, State=Generating, Style=Brand; Type=QR Code, State=Failed, Style=Brand; Type=Bar Code, State=Default, Style=Brand; Type=Bar Code, State=Generating, Style=Brand; Type=Bar Code, State=Failed, Style=Brand; Type=Message, State=Default, Style=Brand
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802

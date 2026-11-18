@@ -1,43 +1,16 @@
 "Summary","Description","Issue Type","Priority","Labels","Component/s"
-"[Atom parity] Booking Card: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Type=Home Page; Type=Booking Page
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15258-5697
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15258%3A5697
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Booking Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15258-5697
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15258%3A5697
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Booking Details: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Background Fill=No; Background Fill=Yes
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8784-6542
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-8784%3A6542
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Booking Details: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8784-6542
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-8784%3A6542
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Booking Step Container: Text contrast is too low in Figma","1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Breakpoint=Desktop; Breakpoint=Tablet; Breakpoint=Mobile
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15854-36802
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15854%3A36802
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Booking Step Container: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15854-36802
@@ -50,15 +23,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16047-1891
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-16047%3A1891
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Booking Widget: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Type=No Pre-Select, Background Fill=Comfortable; Type=No Pre-Select, Background Fill=Cozy; Type=No Pre-Select, Background Fill=No; Type=Pre-Select, Background Fill=Comfortable; Type=Pre-Select, Background Fill=Cozy; Type=Pre-Select, Background Fill=No
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17104-34171
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17104%3A34171
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Booking Widget: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17104-34171
@@ -83,15 +47,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16640-23428
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-16640%3A23428
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Global Search: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: State=Empty, Breakpoint=Desktop, Focus=Yes; State=Empty, Breakpoint=Desktop, Focus=No; State=Empty, Breakpoint=Mobile, Focus=No; State=Empty, Breakpoint=Mobile, Focus=Yes
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15598-89150
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15598%3A89150
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Global Search: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15598-89150
@@ -140,30 +95,12 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17492-9098
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17492%3A9098
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Order Status Container: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Status=Processing; Status=Confirmed; Status=Error
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17022-7662
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17022%3A7662
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Order Status Container: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17022-7662
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17022%3A7662
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Order Status Header: Text contrast is too low in Figma","1.08:1, needs 3:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Status=Processing; Status=Confirmed; Status=Error
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17165-13507
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17165%3A13507
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Order Status Header: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17165-13507
@@ -185,15 +122,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12877-4669
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-12877%3A4669
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Payment Breakdown: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Background Fill=No; Background Fill=White; Background Fill=Gray
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8094-11608
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-8094%3A11608
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Payment Breakdown: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8094-11608
@@ -236,15 +164,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7811-32360
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-7811%3A32360
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Web Search: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Type=Default
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8086-14805
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-8086%3A14805
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Web Search: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8086-14805

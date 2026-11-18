@@ -90,16 +90,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Alert: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Status=Information, Style=Top Border; Status=Information, Style=Full Border; Status=Success, Style=Top Border; Status=Success, Style=Full Border; Status=Warning, Style=Top Border; Status=Warning, Style=Full Border; Status=Error, Style=Top Border; Status=Error, Style=Full Border (+2 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Description"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
@@ -205,15 +195,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Journey Wizard: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Breakpoint=Mobile; Breakpoint=Tablet
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16012-24876
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-16012%3A24876
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Journey Wizard: Not found in Storybook","Possible matches: Business Components/Journey. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16012-24876
@@ -253,15 +234,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Loading Modal: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Breakpoint=Desktop; Breakpoint=Tablet; Breakpoint=Mobile
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17148-8917
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-17148%3A8917
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Loading Modal: Not found in Storybook","Possible matches: System Feedback/Loading, System Feedback/Modal. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17148-8917
@@ -425,7 +397,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A27
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Tooltip: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Mastercard, Investec, Assurant, AeroBlue, Visa Affluent
+Brands: Mastercard, Investec, Assurant, Visa Affluent
 Variants: Tip Direction=Down, Tip Centred=No; Tip Direction=Right, Tip Centred=No; Tip Direction=Left, Tip Centred=No; Tip Direction=Up, Tip Centred=No; Tip Direction=Down, Tip Centred=Yes; Tip Direction=Right, Tip Centred=Yes; Tip Direction=Left, Tip Centred=Yes; Tip Direction=Up, Tip Centred=Yes
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779

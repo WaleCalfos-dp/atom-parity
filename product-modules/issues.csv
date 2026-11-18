@@ -114,7 +114,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A6
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
-Brands: Dragonpass, Mastercard, Investec, AeroBlue
+Brands: Dragonpass, Mastercard, Investec
 Variants: Flight Delay / Flight Card
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
@@ -124,7 +124,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A6
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-rendering owner-dev","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Corner radius isn't linked to a variable in Figma","Figma layer ""Flight Delay / Flight Card"" uses a raw 8px · Code uses --aum-flight-card-border-radius
 
-Brands: Dragonpass, Mastercard, Investec, AeroBlue
+Brands: Dragonpass, Mastercard, Investec
 Variants: Flight Delay / Flight Card
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
@@ -134,7 +134,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A6
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-tokens owner-design","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Horizontal padding uses the design token under a different name","space-16 is --aum-spacing-16 in code (convention: --aum-space-16)
 
-Brands: Dragonpass, Mastercard, Investec, AeroBlue
+Brands: Dragonpass, Mastercard, Investec
 Variants: Flight Delay / Flight Card
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
@@ -144,7 +144,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A6
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-tokens owner-both","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Vertical padding uses the design token under a different name","space-16 is --aum-spacing-16 in code (convention: --aum-space-16)
 
-Brands: Dragonpass, Mastercard, Investec, AeroBlue
+Brands: Dragonpass, Mastercard, Investec
 Variants: Flight Delay / Flight Card
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
@@ -212,31 +212,12 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-visual owner-both","Atom Design System"
-"[Atom parity] Flight Delay / Flight Card: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Flight Delay / Flight Card
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Membership / Entitlement Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10422-5934
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10422%3A5934
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Membership / Membership Card: Text contrast is too low in Figma","3.74:1, needs 4.5:1 · #FFF4F0 on #B46D40
-
-Brands: AeroBlue
-Variants: Membership / Membership Card
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10419%3A5354
-
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Membership / Membership Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354
@@ -249,15 +230,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18195-8619
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-18195%3A8619
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Product Details: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Type=Default
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16222-20620
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-16222%3A20620
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Product Details: Not found in Storybook","Possible matches: Business Components/ProductSelect. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16222-20620
@@ -361,15 +333,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24646
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17603%3A24646
 
 Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Web Page Details: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Breakpoint=Mobile; Breakpoint=Tablet; Breakpoint=Desktop
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17316-3291
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17316%3A3291
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Web Page Details: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17316-3291

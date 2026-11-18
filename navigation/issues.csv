@@ -219,15 +219,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-14347%3A1286
 
 Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Burger Menu Triggered: Text contrast is too low in Figma","1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)
-
-Brands: AeroBlue
-Variants: Breakpoint=Desktop; Breakpoint=Tablet; Breakpoint=Mobile
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14933-17211
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-14933%3A17211
-
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Burger Menu Triggered: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14933-17211

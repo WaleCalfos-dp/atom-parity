@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:46:12.520Z",
-    "durationMs": 113196,
+    "generatedAt": "2026-11-18T14:25:09.836Z",
+    "durationMs": 210503,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -19,10 +19,6 @@
         {
           "value": "master-card",
           "title": "Master Card"
-        },
-        {
-          "value": "areo-blue",
-          "title": "Areo Blue"
         }
       ],
       "renderer": null,
@@ -32,16 +28,15 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T23:41:07Z"
+        "lastModified": "2026-11-18T14:21:44Z"
       },
-      "exportedAt": "2026-11-18T10:45:16.988Z",
+      "exportedAt": "2026-11-18T14:23:53.954Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
         "Mastercard",
         "Investec",
         "Assurant",
-        "AeroBlue",
         "Visa Affluent"
       ],
       "components": 9,
@@ -60,7 +55,7 @@
         "stale": true
       }
     },
-    "jobs": 40,
+    "jobs": 30,
     "viewport": {
       "width": 1440,
       "height": 900,
@@ -90,11 +85,6 @@
         "figma": "Assurant",
         "code": null,
         "how": "missing"
-      },
-      {
-        "figma": "AeroBlue",
-        "code": "areo-blue",
-        "how": "config"
       },
       {
         "figma": "Visa Affluent",
@@ -130,11 +120,6 @@
             "design": 1,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 1,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -160,11 +145,6 @@
             "status": "missing"
           },
           "Investec": {
-            "design": 2,
-            "code": null,
-            "status": "missing"
-          },
-          "AeroBlue": {
             "design": 2,
             "code": null,
             "status": "missing"
@@ -196,11 +176,6 @@
             "design": 24,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 24,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -229,11 +204,6 @@
             "design": "#343946",
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -259,11 +229,6 @@
             "status": "missing"
           },
           "Investec": {
-            "design": 400,
-            "code": null,
-            "status": "missing"
-          },
-          "AeroBlue": {
             "design": 400,
             "code": null,
             "status": "missing"
@@ -295,11 +260,6 @@
             "design": 500,
             "code": null,
             "status": "missing"
-          },
-          "AeroBlue": {
-            "design": 500,
-            "code": null,
-            "status": "missing"
           }
         },
         "retired": null,
@@ -328,11 +288,6 @@
             "design": "#5F1C0D",
             "code": "#5F1C0D",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -358,11 +313,6 @@
             "status": "differs"
           },
           "Investec": {
-            "design": 14,
-            "code": "16px",
-            "status": "differs"
-          },
-          "AeroBlue": {
             "design": 14,
             "code": "16px",
             "status": "differs"
@@ -394,11 +344,6 @@
             "design": "#343946",
             "code": "#343946",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
           }
         },
         "retired": null,
@@ -426,11 +371,6 @@
           "Investec": {
             "design": "#E4E5E7",
             "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D4066",
-            "code": "rgba(180, 109, 64, 0.4)",
             "status": "match"
           }
         },
@@ -460,11 +400,6 @@
             "design": "#232833",
             "code": "#232833",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
           }
         },
         "retired": null,
@@ -492,11 +427,6 @@
           "Investec": {
             "design": "#464C59",
             "code": "#464C59",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
             "status": "match"
           }
         },
@@ -526,11 +456,6 @@
             "design": "#FFFFFF",
             "code": "#FFFFFF",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
           }
         },
         "retired": null,
@@ -558,11 +483,6 @@
           "Investec": {
             "design": "#E4E5E7",
             "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D141A",
-            "code": "rgba(11, 13, 20, 0.1)",
             "status": "match"
           }
         },
@@ -592,11 +512,6 @@
             "design": "#EEEEEB",
             "code": "#EEEEEB",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
           }
         },
         "retired": null,
@@ -624,11 +539,6 @@
           "Investec": {
             "design": "#EEEEEB",
             "code": "#EEEEEB",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
             "status": "match"
           }
         },
@@ -658,11 +568,6 @@
             "design": "#C64221",
             "code": "#C64221",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D252580",
-            "code": "rgba(157, 37, 37, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -690,11 +595,6 @@
           "Investec": {
             "design": "#5F1C0D",
             "code": "#5F1C0D",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
             "status": "match"
           }
         },
@@ -724,11 +624,6 @@
             "design": "#8E1F00",
             "code": "#8E1F00",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
           }
         },
         "retired": null,
@@ -756,11 +651,6 @@
           "Investec": {
             "design": "#858A95",
             "code": "#858A95",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
             "status": "match"
           }
         },
@@ -790,11 +680,6 @@
             "design": "#C1C3C9",
             "code": "#C1C3C9",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C80",
-            "code": "rgba(255, 181, 156, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -822,11 +707,6 @@
           "Investec": {
             "design": "#131721",
             "code": "#131721",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59CB2",
-            "code": "rgba(255, 181, 156, 0.7)",
             "status": "match"
           }
         },
@@ -856,11 +736,6 @@
             "design": "#464C59",
             "code": "#464C59",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C4D",
-            "code": "rgba(255, 181, 156, 0.3)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -888,11 +763,6 @@
           "Investec": {
             "design": "#343946",
             "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
             "status": "match"
           }
         },
@@ -922,11 +792,6 @@
             "design": 999,
             "code": "999px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -954,11 +819,6 @@
           "Investec": {
             "design": "#343946",
             "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
             "status": "match"
           }
         },
@@ -988,11 +848,6 @@
             "design": "#F8F8F7",
             "code": "#F8F8F7",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1020,11 +875,6 @@
           "Investec": {
             "design": "#AE692F",
             "code": "#AE692F",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C",
-            "code": "#FFB59C",
             "status": "match"
           }
         },
@@ -1054,11 +904,6 @@
             "design": "#858A95",
             "code": "#858A95",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F080",
-            "code": "rgba(255, 244, 240, 0.5)",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1086,11 +931,6 @@
           "Investec": {
             "design": "#232833",
             "code": "#232833",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
             "status": "match"
           }
         },
@@ -1120,11 +960,6 @@
             "design": "#232833",
             "code": "#232833",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1152,11 +987,6 @@
           "Investec": {
             "design": "#C64221",
             "code": "#C64221",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
             "status": "match"
           }
         },
@@ -1186,11 +1016,6 @@
             "design": "#8E1F00",
             "code": "#8E1F00",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1216,11 +1041,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 2,
-            "code": "2px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 2,
             "code": "2px",
             "status": "match"
@@ -1252,11 +1072,6 @@
             "design": 999,
             "code": "999px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1282,11 +1097,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 10,
-            "code": "10px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 10,
             "code": "10px",
             "status": "match"
@@ -1318,11 +1128,6 @@
             "design": 12,
             "code": "12px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 12,
-            "code": "12px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1348,11 +1153,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 16,
             "code": "16px",
             "status": "match"
@@ -1384,11 +1184,6 @@
             "design": 20,
             "code": "20px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 20,
-            "code": "20px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1414,11 +1209,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 24,
-            "code": "24px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 24,
             "code": "24px",
             "status": "match"
@@ -1450,11 +1240,6 @@
             "design": 40,
             "code": "40px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 40,
-            "code": "40px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1480,11 +1265,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 48,
-            "code": "48px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 48,
             "code": "48px",
             "status": "match"
@@ -1516,11 +1296,6 @@
             "design": 56,
             "code": "56px",
             "status": "match"
-          },
-          "AeroBlue": {
-            "design": 56,
-            "code": "56px",
-            "status": "match"
           }
         },
         "retired": null,
@@ -1546,11 +1321,6 @@
             "status": "match"
           },
           "Investec": {
-            "design": 8,
-            "code": "8px",
-            "status": "match"
-          },
-          "AeroBlue": {
             "design": 8,
             "code": "8px",
             "status": "match"
@@ -1581,11 +1351,6 @@
           "Investec": {
             "design": "Inter",
             "code": "Inter, sans-serif",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "Manrope",
-            "code": "Manrope, sans-serif",
             "status": "match"
           }
         },
@@ -1662,7 +1427,7 @@
       "key": "360:57017",
       "name": "Checkbox",
       "status": "Broken",
-      "score": 72,
+      "score": 77,
       "match": "exact",
       "figma": {
         "id": "360:57017",
@@ -2059,16 +1824,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "State=Focus, Checked=False",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "State=Focus, Checked=True",
               "detail": null,
@@ -2090,16 +1845,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Focus, Checked=True",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Focus, Checked=True",
               "detail": null,
               "figma": null,
@@ -2139,16 +1884,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "State=Disabled, Checked=False",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "State=Default, Checked=True",
               "detail": null,
@@ -2170,16 +1905,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Default, Checked=True",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Default, Checked=True",
               "detail": null,
               "figma": null,
@@ -2210,16 +1935,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Disabled, Checked=True",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Disabled, Checked=True",
               "detail": null,
               "figma": null,
@@ -2250,16 +1965,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Hover, Checked=False",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Hover, Checked=False",
               "detail": null,
               "figma": null,
@@ -2290,16 +1995,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Pressed, Checked=False",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Pressed, Checked=False",
               "detail": null,
               "figma": null,
@@ -2330,16 +2025,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Hover, Checked=True",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Hover, Checked=True",
               "detail": null,
               "figma": null,
@@ -2370,16 +2055,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Pressed, Checked=True",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Pressed, Checked=True",
               "detail": null,
               "figma": null,
@@ -2410,16 +2085,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Default, Checked=False",
-              "detail": null,
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Default, Checked=False",
               "detail": null,
               "figma": null,
@@ -2429,7 +2094,7 @@
             }
           ],
           "counts": {
-            "pass": 40,
+            "pass": 30,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -2480,16 +2145,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Focus, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Focus, Checked=True",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -2502,16 +2157,6 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Focus, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Focus, Checked=True",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -2520,7 +2165,7 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
+              "brand": "Investec",
               "variant": "State=Focus, Checked=True",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -2560,16 +2205,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Disabled, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Default, Checked=True",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -2591,16 +2226,6 @@
             {
               "status": "warn",
               "brand": "Investec",
-              "variant": "State=Default, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
               "variant": "State=Default, Checked=True",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -2640,16 +2265,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Hover, Checked=False",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -2680,16 +2295,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Hover, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Hover, Checked=True",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -2702,7 +2307,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2712,17 +2317,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2751,16 +2346,6 @@
             {
               "status": "warn",
               "brand": "Investec",
-              "variant": "State=Default, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
               "variant": "State=Default, Checked=False",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -2771,15 +2356,14 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 32,
+            "warn": 24,
             "fail": 0,
             "info": 0
           },
           "brands": [
             "Dragonpass",
             "Mastercard",
-            "Investec",
-            "AeroBlue"
+            "Investec"
           ],
           "variants": [
             "State=Focus, Checked=False",
@@ -3245,16 +2829,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "State=Focus, Checked=False",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
               "brand": "Mastercard",
               "variant": "State=Focus, Checked=True",
               "detail": "Design 20px (no variable) · Code 20px",
@@ -3275,16 +2849,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "State=Focus, Checked=True",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
               "brand": "Mastercard",
               "variant": "State=Disabled, Checked=False",
               "detail": "Design 20px (no variable) · Code 20px",
@@ -3296,16 +2860,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Disabled, Checked=False",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Disabled, Checked=False",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3326,16 +2880,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Default, Checked=True",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Default, Checked=True",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3356,16 +2900,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Disabled, Checked=True",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Disabled, Checked=True",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3386,16 +2920,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Hover, Checked=False",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Hover, Checked=False",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3416,16 +2940,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Pressed, Checked=False",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Pressed, Checked=False",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3446,16 +2960,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Hover, Checked=True",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Hover, Checked=True",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3476,16 +2980,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Pressed, Checked=True",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Pressed, Checked=True",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3506,16 +3000,6 @@
             {
               "status": "pass",
               "brand": "Investec",
-              "variant": "State=Default, Checked=False",
-              "detail": "Design 20px (no variable) · Code 20px",
-              "figma": "20px",
-              "code": "20px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
               "variant": "State=Default, Checked=False",
               "detail": "Design 20px (no variable) · Code 20px",
               "figma": "20px",
@@ -3525,7 +3009,7 @@
             }
           ],
           "counts": {
-            "pass": 30,
+            "pass": 20,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3579,16 +3063,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "State=Default, Checked=True",
-              "detail": "1 rule failed",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "State=Default, Checked=False",
               "detail": "0 rules failed",
@@ -3616,104 +3090,16 @@
               "code": null,
               "image": null,
               "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "State=Default, Checked=False",
-              "detail": "1 rule failed",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
             }
           ],
           "counts": {
-            "pass": 8,
+            "pass": 6,
             "warn": 0,
             "fail": 0,
             "info": 0
           },
           "brands": [],
           "variants": []
-        },
-        {
-          "key": "Accessibility|axe:color-contrast",
-          "category": "Accessibility",
-          "subject": "axe:color-contrast",
-          "label": "Elements must meet minimum color contrast ratio thresholds",
-          "status": "fail",
-          "title": "Elements must meet minimum color contrast ratio thresholds",
-          "owner": "Design",
-          "detail": "serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-          "meta": {
-            "rule": "color-contrast",
-            "impact": "serious",
-            "tags": [
-              "cat.color",
-              "wcag2aa",
-              "wcag143",
-              "TTv5",
-              "TT13.c",
-              "EN-301-549",
-              "EN-9.1.4.3",
-              "ACT"
-            ],
-            "source": "code"
-          },
-          "instances": [
-            {
-              "status": "fail",
-              "brand": "AeroBlue",
-              "variant": "State=Default, Checked=True",
-              "detail": "serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
-              "image": null,
-              "extra": {
-                "ratio": 1.53,
-                "fg": "#333333",
-                "bg": "#0b0d14",
-                "required": 4.5,
-                "size": 16,
-                "weight": "normal",
-                "target": ".adm-checkbox-content",
-                "nodes": 1
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "AeroBlue",
-              "variant": "State=Default, Checked=False",
-              "detail": "serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
-              "image": null,
-              "extra": {
-                "ratio": 1.53,
-                "fg": "#333333",
-                "bg": "#0b0d14",
-                "required": 4.5,
-                "size": 16,
-                "weight": "normal",
-                "target": ".adm-checkbox-content",
-                "nodes": 1
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 2,
-            "info": 0
-          },
-          "brands": [
-            "AeroBlue"
-          ],
-          "variants": [
-            "State=Default, Checked=True",
-            "State=Default, Checked=False"
-          ]
         }
       ],
       "gallery": [
@@ -3964,19 +3350,6 @@
           "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
         },
         {
-          "variant": "State=Focus, Checked=False",
-          "brand": "AeroBlue",
-          "interaction": "focus",
-          "figma": null,
-          "code": "assets/code/36057017130039126aero-blue.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
           "variant": "State=Focus, Checked=True",
           "brand": "Mastercard",
           "interaction": "focus",
@@ -3995,19 +3368,6 @@
           "interaction": "focus",
           "figma": null,
           "code": "assets/code/36057017130039129investec.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
-          "variant": "State=Focus, Checked=True",
-          "brand": "AeroBlue",
-          "interaction": "focus",
-          "figma": null,
-          "code": "assets/code/36057017130039129aero-blue.png",
           "diff": null,
           "mismatch": null,
           "sizeDelta": null,
@@ -4042,19 +3402,6 @@
           "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
         },
         {
-          "variant": "State=Disabled, Checked=False",
-          "brand": "AeroBlue",
-          "interaction": null,
-          "figma": null,
-          "code": "assets/code/3605701736511429aero-blue.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
           "variant": "State=Default, Checked=True",
           "brand": "Mastercard",
           "interaction": null,
@@ -4073,19 +3420,6 @@
           "interaction": null,
           "figma": null,
           "code": "assets/code/3605701736057020investec.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
-          "variant": "State=Default, Checked=True",
-          "brand": "AeroBlue",
-          "interaction": null,
-          "figma": null,
-          "code": "assets/code/3605701736057020aero-blue.png",
           "diff": null,
           "mismatch": null,
           "sizeDelta": null,
@@ -4120,19 +3454,6 @@
           "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
         },
         {
-          "variant": "State=Disabled, Checked=True",
-          "brand": "AeroBlue",
-          "interaction": null,
-          "figma": null,
-          "code": "assets/code/36057017263426299aero-blue.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
           "variant": "State=Hover, Checked=False",
           "brand": "Mastercard",
           "interaction": "hover",
@@ -4151,19 +3472,6 @@
           "interaction": "hover",
           "figma": null,
           "code": "assets/code/360570171401642investec.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
-          "variant": "State=Hover, Checked=False",
-          "brand": "AeroBlue",
-          "interaction": "hover",
-          "figma": null,
-          "code": "assets/code/360570171401642aero-blue.png",
           "diff": null,
           "mismatch": null,
           "sizeDelta": null,
@@ -4198,19 +3506,6 @@
           "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
         },
         {
-          "variant": "State=Pressed, Checked=False",
-          "brand": "AeroBlue",
-          "interaction": "active",
-          "figma": null,
-          "code": "assets/code/360570171401645aero-blue.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
           "variant": "State=Hover, Checked=True",
           "brand": "Mastercard",
           "interaction": "hover",
@@ -4229,19 +3524,6 @@
           "interaction": "hover",
           "figma": null,
           "code": "assets/code/360570171401648investec.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
-          "variant": "State=Hover, Checked=True",
-          "brand": "AeroBlue",
-          "interaction": "hover",
-          "figma": null,
-          "code": "assets/code/360570171401648aero-blue.png",
           "diff": null,
           "mismatch": null,
           "sizeDelta": null,
@@ -4276,19 +3558,6 @@
           "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
         },
         {
-          "variant": "State=Pressed, Checked=True",
-          "brand": "AeroBlue",
-          "interaction": "active",
-          "figma": null,
-          "code": "assets/code/360570171401655aero-blue.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
           "variant": "State=Default, Checked=False",
           "brand": "Mastercard",
           "interaction": null,
@@ -4307,19 +3576,6 @@
           "interaction": null,
           "figma": null,
           "code": "assets/code/3605701736057018investec.png",
-          "diff": null,
-          "mismatch": null,
-          "sizeDelta": null,
-          "figmaSize": null,
-          "codeSize": null,
-          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-checkbox--usage"
-        },
-        {
-          "variant": "State=Default, Checked=False",
-          "brand": "AeroBlue",
-          "interaction": null,
-          "figma": null,
-          "code": "assets/code/3605701736057018aero-blue.png",
           "diff": null,
           "mismatch": null,
           "sizeDelta": null,
@@ -8852,27 +8108,6 @@
             },
             {
               "status": "fail",
-              "brand": "AeroBlue",
-              "variant": "Selected=False, State=Error, Label Position=Inside",
-              "detail": "2.52:1, needs 4.5:1 · #9D2525 on #0B0D14",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 2.52,
-                "required": 4.5,
-                "fg": "#9D2525",
-                "bg": "#0B0D14",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": "background/interactive/control",
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": false
-              }
-            },
-            {
-              "status": "fail",
               "brand": "Dragonpass",
               "variant": "Selected=False, State=Focus, Label Position=Outside",
               "detail": "3.19:1, needs 4.5:1 · #91908F on #FFFFFF",
@@ -8910,48 +8145,6 @@
                 "size": 14,
                 "weight": 400,
                 "layer": "Placeholder",
-                "assumed": false
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "AeroBlue",
-              "variant": "Selected=Single, State=Error, Label Position=Inside",
-              "detail": "2.52:1, needs 4.5:1 · #9D2525 on #0B0D14",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 2.52,
-                "required": 4.5,
-                "fg": "#9D2525",
-                "bg": "#0B0D14",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": "background/interactive/control",
-                "size": 12,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": false
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "AeroBlue",
-              "variant": "Selected=Multiple, State=Error, Label Position=Inside",
-              "detail": "2.52:1, needs 4.5:1 · #9D2525 on #0B0D14",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 2.52,
-                "required": 4.5,
-                "fg": "#9D2525",
-                "bg": "#0B0D14",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": "background/interactive/control",
-                "size": 12,
-                "weight": 400,
-                "layer": "Label",
                 "assumed": false
               }
             },
@@ -9093,27 +8286,6 @@
                 "ratio": 5.34,
                 "required": 4.5,
                 "fg": "#D80303",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Selected=False, State=Error, Label Position=Outside",
-              "detail": "7.71:1, needs 4.5:1 · #9D2525 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.71,
-                "required": 4.5,
-                "fg": "#9D2525",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/danger",
                 "bgToken": null,
@@ -9545,27 +8717,6 @@
             },
             {
               "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Selected=Single, State=Error, Label Position=Outside",
-              "detail": "7.71:1, needs 4.5:1 · #9D2525 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.71,
-                "required": 4.5,
-                "fg": "#9D2525",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Visa Affluent",
               "variant": "Selected=Single, State=Error, Label Position=Outside",
               "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF (no background in the component, measured on white)",
@@ -9765,27 +8916,6 @@
                 "ratio": 5.34,
                 "required": 4.5,
                 "fg": "#D80303",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "AeroBlue",
-              "variant": "Selected=Multiple, State=Error, Label Position=Outside",
-              "detail": "7.71:1, needs 4.5:1 · #9D2525 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 7.71,
-                "required": 4.5,
-                "fg": "#9D2525",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/danger",
                 "bgToken": null,
@@ -10049,24 +9179,20 @@
             }
           ],
           "counts": {
-            "pass": 52,
+            "pass": 49,
             "warn": 0,
-            "fail": 8,
+            "fail": 5,
             "info": 0
           },
           "brands": [
-            "Dragonpass",
-            "AeroBlue"
+            "Dragonpass"
           ],
           "variants": [
             "Selected=False, State=Default, Label Position=Outside",
             "Selected=False, State=Hover, Label Position=Outside",
             "Selected=False, State=Error, Label Position=Outside",
-            "Selected=False, State=Error, Label Position=Inside",
             "Selected=False, State=Focus, Label Position=Outside",
-            "Selected=False, State=Active, Label Position=Outside",
-            "Selected=Single, State=Error, Label Position=Inside",
-            "Selected=Multiple, State=Error, Label Position=Inside"
+            "Selected=False, State=Active, Label Position=Outside"
           ]
         }
       ],
@@ -10485,7 +9611,7 @@
           "status": "warn",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
-          "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+          "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
@@ -10494,27 +9620,6 @@
           "instances": [
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Hover, On=False",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-hover",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Off",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "State=Hover, On=False",
               "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
@@ -10536,48 +9641,6 @@
             },
             {
               "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Pressed, On=False",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-pressed",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Off",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Hover, On=True",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-hover",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "On",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Visa Affluent",
               "variant": "State=Hover, On=True",
               "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
@@ -10590,27 +9653,6 @@
                 "fg": "#5B71DB",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action-hover",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "On",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "AeroBlue",
-              "variant": "State=Pressed, On=True",
-              "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.08,
-                "required": 4.5,
-                "fg": "#FFF4F0",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-pressed",
                 "bgToken": null,
                 "size": 12,
                 "weight": 400,
@@ -11083,19 +10125,16 @@
           ],
           "counts": {
             "pass": 22,
-            "warn": 6,
+            "warn": 2,
             "fail": 0,
             "info": 0
           },
           "brands": [
-            "AeroBlue",
             "Visa Affluent"
           ],
           "variants": [
             "State=Hover, On=False",
-            "State=Pressed, On=False",
-            "State=Hover, On=True",
-            "State=Pressed, On=True"
+            "State=Hover, On=True"
           ]
         }
       ],
@@ -11620,7 +10659,7 @@
     "checks": {
       "pass": 31,
       "warn": 20,
-      "fail": 36
+      "fail": 35
     },
     "byCategory": {
       "Naming": {
@@ -11646,7 +10685,7 @@
       "Accessibility": {
         "pass": 3,
         "warn": 1,
-        "fail": 3
+        "fail": 2
       },
       "Interaction": {
         "pass": 0,
@@ -11667,7 +10706,7 @@
     "byOwner": {
       "Design": {
         "warn": 9,
-        "fail": 4
+        "fail": 3
       },
       "Dev": {
         "warn": 4,
@@ -11965,23 +11004,6 @@
         ]
       },
       {
-        "category": "Accessibility",
-        "title": "Elements must meet minimum color contrast ratio thresholds",
-        "status": "fail",
-        "owner": "Design",
-        "components": [
-          "Checkbox"
-        ],
-        "items": [
-          {
-            "component": "360:57017",
-            "key": "Accessibility|axe:color-contrast",
-            "title": "Elements must meet minimum color contrast ratio thresholds",
-            "componentName": "Checkbox"
-          }
-        ]
-      },
-      {
         "category": "Naming",
         "title": "Semantic values filed under State",
         "status": "fail",
@@ -12073,6 +11095,30 @@
             "componentName": "Select"
           }
         ]
+      },
+      {
+        "category": "Documentation",
+        "title": "No description in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Radio Button",
+          "Time Picker"
+        ],
+        "items": [
+          {
+            "component": "13003:7343",
+            "key": "Documentation|docs-figma",
+            "title": "No description in Figma",
+            "componentName": "Radio Button"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Documentation|docs-figma",
+            "title": "No description in Figma",
+            "componentName": "Time Picker"
+          }
+        ]
       }
     ],
     "works": [
@@ -12087,8 +11133,7 @@
         "key": "360:57017",
         "reasons": [
           "Looks different from design",
-          "Height differs from design",
-          "Elements must meet minimum color contrast ratio thresholds"
+          "Height differs from design"
         ]
       },
       {
@@ -12139,8 +11184,7 @@
         "brands": [
           "Dragonpass",
           "Mastercard",
-          "Investec",
-          "AeroBlue"
+          "Investec"
         ],
         "variants": 8
       },
@@ -12186,21 +11230,6 @@
         "owner": "Both",
         "brands": [
           "Dragonpass"
-        ],
-        "variants": 2
-      },
-      {
-        "component": "Checkbox",
-        "componentKey": "360:57017",
-        "key": "Accessibility|axe:color-contrast",
-        "category": "Accessibility",
-        "subject": "axe:color-contrast",
-        "status": "fail",
-        "title": "Elements must meet minimum color contrast ratio thresholds",
-        "detail": "serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "owner": "Design",
-        "brands": [
-          "AeroBlue"
         ],
         "variants": 2
       },
@@ -12672,10 +11701,9 @@
         "detail": "3.19:1, needs 4.5:1 · #91908F on #FFFFFF",
         "owner": "Design",
         "brands": [
-          "Dragonpass",
-          "AeroBlue"
+          "Dragonpass"
         ],
-        "variants": 8
+        "variants": 5
       },
       {
         "component": "Switch",
@@ -12737,13 +11765,12 @@
         "subject": "design:contrast",
         "status": "warn",
         "title": "Text contrast is too low in Figma",
-        "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
+        "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
         "owner": "Design",
         "brands": [
-          "AeroBlue",
           "Visa Affluent"
         ],
-        "variants": 4
+        "variants": 2
       },
       {
         "component": "Time Picker",
@@ -12853,25 +11880,23 @@
   },
   "a11y": {
     "ran": true,
-    "scans": 8,
-    "designChecks": 199,
+    "scans": 6,
+    "designChecks": 189,
     "brands": [
       "Dragonpass",
       "Mastercard",
-      "Investec",
-      "AeroBlue"
+      "Investec"
     ],
     "counts": {
       "critical": 0,
-      "serious": 2,
+      "serious": 1,
       "moderate": 0,
       "minor": 0
     },
-    "total": 2,
-    "components": 4,
+    "total": 1,
+    "components": 3,
     "byBrand": {
       "Dragonpass": 38,
-      "AeroBlue": 9,
       "Visa Affluent": 2
     },
     "criteria": [
@@ -12897,7 +11922,7 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "status": "fail",
-        "issues": 2
+        "issues": 1
       },
       {
         "sc": "4.1.2",
@@ -13049,61 +12074,6 @@
           {
             "checkKey": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
-            "component": "Select",
-            "componentKey": "263:5381",
-            "brand": "AeroBlue",
-            "variants": [
-              "Selected=False, State=Error, Label Position=Inside",
-              "Selected=Single, State=Error, Label Position=Inside",
-              "Selected=Multiple, State=Error, Label Position=Inside"
-            ],
-            "status": "fail",
-            "detail": "2.52:1, needs 4.5:1 · #9D2525 on #0B0D14",
-            "contrast": {
-              "ratio": 2.52,
-              "required": 4.5,
-              "fg": "#9D2525",
-              "bg": "#0B0D14",
-              "fgToken": "foreground/interactive/danger",
-              "bgToken": "background/interactive/control",
-              "assumed": false,
-              "variant": "Selected=False, State=Error, Label Position=Inside"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Switch",
-            "componentKey": "299:228",
-            "brand": "AeroBlue",
-            "variants": [
-              "State=Hover, On=False",
-              "State=Pressed, On=False",
-              "State=Hover, On=True",
-              "State=Pressed, On=True"
-            ],
-            "status": "warn",
-            "detail": "1.08:1, needs 4.5:1 · #FFF4F0 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.08,
-              "required": 4.5,
-              "fg": "#FFF4F0",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action-hover",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Hover, On=False"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
             "component": "Switch",
             "componentKey": "299:228",
             "brand": "Visa Affluent",
@@ -13128,73 +12098,12 @@
             "size": null
           }
         ],
-        "occurrences": 47
-      },
-      {
-        "items": [
-          {
-            "component": "360:57017",
-            "key": "Accessibility|axe:color-contrast",
-            "title": "Elements must meet minimum color contrast ratio thresholds",
-            "componentName": "Checkbox"
-          }
-        ],
-        "rule": "color-contrast",
-        "criterion": {
-          "sc": "1.4.3",
-          "name": "Contrast (minimum)",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
-        },
-        "title": "Text contrast is too low in Storybook",
-        "why": "People with low vision, or reading in bright light, can't make out the text.",
-        "fix": "Pair text and background tokens that reach 4.5:1, or 3:1 for text 24px and larger (19px bold).",
-        "impact": "serious",
-        "status": "fail",
-        "owner": "Design",
-        "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
-        "components": [
-          {
-            "name": "Checkbox",
-            "key": "360:57017"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|axe:color-contrast",
-            "title": "Elements must meet minimum color contrast ratio thresholds",
-            "component": "Checkbox",
-            "componentKey": "360:57017",
-            "brand": "AeroBlue",
-            "variants": [
-              "State=Default, Checked=True",
-              "State=Default, Checked=False"
-            ],
-            "status": "fail",
-            "detail": "serious · 1 element · .adm-checkbox-content · Fix any of the following: Element has insufficient color contrast of 1.53 (foreground color: #333333, background color: #0b0d14, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-            "contrast": {
-              "ratio": 1.53,
-              "required": 4.5,
-              "fg": "#333333",
-              "bg": "#0b0d14",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": false,
-              "variant": "State=Default, Checked=True"
-            },
-            "design": null,
-            "target": ".adm-checkbox-content",
-            "size": null
-          }
-        ],
-        "verdict": null,
-        "occurrences": 2
+        "occurrences": 40
       }
     ]
   },
   "delta": {
-    "since": "2026-11-18T10:07:06.720Z",
+    "since": "2026-11-18T10:46:12.520Z",
     "previousScore": 35,
     "newFails": [],
     "fixed": []
