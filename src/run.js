@@ -47,6 +47,11 @@ export async function run(cfg, opts = {}) {
   }
   if (!manifest.file?.key && cfg.figmaFileKey) manifest.file = { ...(manifest.file ?? {}), key: cfg.figmaFileKey };
   if (!String(manifest.schema ?? '').startsWith('atom-parity/figma@')) throw new Error('That file is not an Atom Parity Exporter snapshot.');
+  // Brands left out of every check (brands.exclude), on both sides: the Figma mode and its Storybook theme
+  const excluded = new Set((cfg.brands?.exclude ?? []).map(norm));
+  const excludedCode = new Set((cfg.brands?.exclude ?? []).map((b) => cfg.brands?.map?.[b]).filter(Boolean).map(norm));
+  const keepCodeBrand = (b) => !excludedCode.has(norm(b.value)) && !excluded.has(norm(b.value)) && !excluded.has(norm(b.title ?? ''));
+  if (excluded.size) manifest.brands = manifest.brands.filter((b) => !excluded.has(norm(b)));
   const onlySet = opts.only?.length ? new Set(opts.only.map(norm)) : null;
   const figmaComps = manifest.components.filter((c) => !onlySet || onlySet.has(norm(c.name)));
   log.info(`${manifest.file?.name ?? 'Figma'} · ${figmaComps.length} components · brands: ${manifest.brands.join(', ')} · exported ${manifest.exportedAt}`);
@@ -54,6 +59,7 @@ export async function run(cfg, opts = {}) {
   const browser = await launchBrowser(cfg);
   try {
     const sb = await readStorybook(browser, cfg);
+    if (excluded.size) sb.brands = sb.brands.filter(keepCodeBrand);
     const codeComps = sb.components.filter((c) => c.stories.length || c.hasDocs).filter((c) => !onlySet || onlySet.has(norm(c.name)) || figmaComps.some((f) => norm(cfg.components.aliases?.[f.name] ?? '') === norm(c.name)));
 
     // ---------------------------------------------------------- matching

@@ -21,7 +21,10 @@
       "AeroBlue",
       "Visa Affluent"
     ],
-    "figmaDefault": "Dragonpass"
+    "figmaDefault": "Dragonpass",
+    "exclude": [
+      "AeroBlue"
+    ]
   },
   "components": {
     "aliases": {

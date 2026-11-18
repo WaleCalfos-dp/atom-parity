@@ -360,6 +360,18 @@ assert.ok(r2.tokens.rows.length > 10);
   console.log('✓ section link: ' + names.join(', '));
 }
 
+// 2c. An excluded brand is left out on both sides
+{
+  const f = path.join(OUT, 'rest-exclude.config.json');
+  const base = JSON.parse(fs.readFileSync(path.join(OUT, 'rest-link.config.json'), 'utf8'));
+  fs.writeFileSync(f, JSON.stringify({ ...base, outDir: 'rest-exclude', brands: { ...(base.brands ?? {}), exclude: ['Mastercard'] } }));
+  const r4 = await run(loadConfig(f), {});
+  const seen = JSON.stringify(r4.components.map((c) => c.checks)) + JSON.stringify(r4.a11y) + JSON.stringify(r4.brands);
+  assert.ok(!/Mastercard/i.test(seen), 'excluded brand appears nowhere in the results');
+  assert.ok(!r4.brands.onlyInCode.some((b) => /master/i.test(b)), 'its Storybook theme is not listed as code-only');
+  console.log('✓ excluded brand: ' + r4.brands.pairs.map((p) => p.figma).join(', '));
+}
+
 // 3. Saved checks → site
 const checksFile = path.join(OUT, 'checks.json');
 addCheck(checksFile, { name: 'Atom library', figmaUrl: `https://www.figma.com/design/${KEY}/Component-Library?t=abc`, storybookUrl: STORYBOOK_URL });
