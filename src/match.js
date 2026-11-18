@@ -32,6 +32,12 @@ export function matchComponents(figmaComps, codeComps, cfg) {
       const exact = byNorm.get(norm(f.name));
       if (exact?.length) { code = exact[0]; how = 'exact'; }
     }
+    if (!code && f.name.includes('/') && leaf(f.name).split(/\s+/).length >= 2) {
+      // "Flight Delay / Flight Card": the part before the slash is a Figma folder, so match on the last part.
+      // Only names of two or more words: a generic word ("Progress Bar / Steps") would pair with an unrelated component.
+      const exact = byNorm.get(norm(leaf(f.name)));
+      if (exact?.length && !usedCode.has(exact[0].title)) { code = exact[0]; how = 'exact'; }
+    }
     if (!code) {
       // Plurals and near-identical spellings ("Tags" ↔ "Tag") are paired automatically, but flagged.
       let best = null; let bestScore = 0;

@@ -9,3 +9,14 @@ assert.deepEqual(pick('━ PATTERNS ━━━━'), ['↳ Bottom Sheet']);
 assert.deepEqual(pick('ACTIONS'), ['❖ Button']);
 assert.deepEqual(pick('━ DEPRECATED ━━━'), []);
 console.log('✓ scope pages');
+
+// Figma folder prefixes: "Flight Delay / Flight Card" pairs with FlightCard; a generic last word does not
+import { matchComponents } from '../src/match.js';
+{
+  const code = ['Business Components/FlightCard', 'Business Components/Promotion Panel', 'Data Display/Steps'].map((t) => ({ title: t, name: t.split('/').pop() }));
+  const fig = ['Flight Delay / Flight Card', 'Transport / Promotion Panel', 'Progress Bar / Steps'].map((name) => ({ name }));
+  const r = matchComponents(fig, code, { components: { aliases: {} } });
+  assert.deepEqual(r.pairs.map((p) => p.code.title), ['Business Components/FlightCard', 'Business Components/Promotion Panel']);
+  assert.deepEqual(r.missingInCode.map((m) => m.figma.name), ['Progress Bar / Steps']);
+  console.log('✓ folder-prefixed names');
+}
