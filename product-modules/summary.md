@@ -1,26 +1,13 @@
-## Atom parity: 6% (+6 since last run)
+## Atom parity: 0%
 
-0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.
+0 of 15 Figma components match Storybook. 15 aren't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
-| 0 | 0 | 2 | 13 | 0 |
-
-### 7 new failures
-- **Flight Delay / Flight Card**: Label · Text colour differs from design _(Tokens)_
-- **Flight Delay / Flight Card**: Label · Font size differs from design _(Tokens)_
-- **Flight Delay / Flight Card**: Label · Line height differs from design _(Tokens)_
-- **Flight Delay / Flight Card**: Height differs from design _(Visual)_
-- **Transport / Promotion Panel**: Figma property "Show Tag Icon" has no equivalent in code _(Properties)_
-- **Transport / Promotion Panel**: Figma property "Show Promotion Condition" has no equivalent in code _(Properties)_
-- **Transport / Promotion Panel**: Figma property "Type" has no equivalent in code _(Properties)_
+| 0 | 0 | 0 | 15 | 0 |
 
 ### Biggest themes
-- 🔴 Not built in Storybook: 13 components (Both)
+- 🔴 Not built in Storybook: 15 components (Both)
 - 🔴 Text contrast is too low in Figma: 6 components (Design)
-- 🔴 Component named differently in Figma and Storybook: 2 components (Both)
-- 🔴 Label · Text colour differs from design: 1 component (Both)
-- 🔴 Label · Font size differs from design: 1 component (Both)
-- 🔴 Label · Line height differs from design: 1 component (Both)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/product-modules/)

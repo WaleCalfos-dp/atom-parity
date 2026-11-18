@@ -5,31 +5,31 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3058-1805
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-divider--usage
 Report: https://walecalfos-dp.github.io/atom-parity/layout/#c-3058%3A1805
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Divider: Figma property ""Subtle"" has no equivalent in code","Values: No, Yes
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3058-1805
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-divider--usage
 Report: https://walecalfos-dp.github.io/atom-parity/layout/#c-3058%3A1805
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Divider: Code has props with no Figma property","direction, contentPosition, variant
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3058-1805
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-divider--usage
 Report: https://walecalfos-dp.github.io/atom-parity/layout/#c-3058%3A1805
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Divider: 4 of 4 variants can't be shown in code","Style=Solid, Subtle=No, Subtle=Yes, Style=Dashed
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3058-1805
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-divider--usage
 Report: https://walecalfos-dp.github.io/atom-parity/layout/#c-3058%3A1805
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-17","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Overlay: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3211-21394
 Report: https://walecalfos-dp.github.io/atom-parity/layout/#c-3211%3A21394
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-17","Task","High","atom-parity parity-naming owner-both","Atom Design System"
