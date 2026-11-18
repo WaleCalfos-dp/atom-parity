@@ -1,4 +1,51 @@
 {
-  "generatedAt": "2026-11-18T15:51:20.798Z",
-  "comments": []
+  "generatedAt": "2026-11-18T16:47:00.564Z",
+  "comments": [
+    {
+      "id": "0w4b1ak5soyz",
+      "check": "actions",
+      "items": [
+        {
+          "component": "3098:42588",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Button Group"
+        },
+        {
+          "component": "14194:14015",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "CTA with Content"
+        },
+        {
+          "component": "12845:6732",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Icon Button"
+        },
+        {
+          "component": "12604:10709",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Button"
+        },
+        {
+          "component": "18198:9455",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Quantity Stepper"
+        },
+        {
+          "component": "12607:10742",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Social Button"
+        }
+      ],
+      "text": "test",
+      "by": "w",
+      "github": "WaleCalfos-dp",
+      "at": "2026-11-18T16:46:58.735Z"
+    }
+  ]
 }
