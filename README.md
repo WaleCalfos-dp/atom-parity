@@ -37,6 +37,20 @@ Figma's Pro plan doesn't let outside tools read variable names, so the nightly c
 
 The report says when this snapshot is out of date.
 
+## Sharing with your team
+
+Anyone with the link can read the reports. To ignore, restore or comment, each person needs their own GitHub connection:
+
+1. The repository owner adds them on GitHub: **Settings → Collaborators → Add people** (they need a free GitHub account).
+2. They open the Atom parity page, choose **Connect GitHub**, and follow the three steps to make their own key.
+
+Every ignore, restore and comment is saved with the name the person types and the GitHub account that made it, so the
+**Archive** in each report and **Team activity** on the home page show who did what. The history is kept in
+`team-log.json`; ignored issues in `ignores.json`; comments in `comments.json`.
+
+- **Ignore** moves an issue to the report's Archive and leaves it out of the score for everyone. The check reruns, so scores update in about 5 minutes. **Restore** brings it back.
+- **Comment** adds a note to an issue's thread. Comments show in about a minute, with no rerun.
+
 ## One-time setup (already done for Atom)
 
 1. Create a GitHub repository and push this folder to it.

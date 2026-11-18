@@ -122,24 +122,51 @@ await page.evaluate(() => localStorage.setItem('ap.key', JSON.stringify('github_
 await page.reload(); await page.waitForSelector('.comp');
 await page.click('.comp summary'); await page.waitForSelector('.body .ck .ign');
 const lineTitle = (await page.locator('.body .ck').first().locator('span').nth(1).textContent()).trim();
-await page.locator('.body .ck .ign').first().click();
+await page.locator('.body .ck .ign:not(.cmt)').first().click();
 await page.waitForSelector('#ignDlg[open]');
 await page.screenshot({ path: '/tmp/report-ignore-dialog.png' });
+// A name is required, then remembered
 await page.fill('#ignReason', 'Intentional for this brand');
+await page.click('#ignGo');
+assert.match(await page.textContent('#ignErr'), /Add your name/);
+await page.fill('#ignName', 'Wale Calfos');
 await page.click('#ignGo');
 await page.waitForSelector('#toast:not([hidden])');
 const ig = JSON.parse(gh.dispatched.at(-1).inputs.ignore);
 assert.equal(ig.action, 'add'); assert.equal(ig.check, firstId); assert.equal(ig.reason, 'Intentional for this brand'); assert.equal(ig.items.length, 1);
 assert.equal(ig.items[0].title, lineTitle);
+assert.equal(ig.by, 'Wale Calfos', 'name sent with the ignore');
+gh.firstLine = ig.items[0];
 assert.ok(await page.locator('.body .ck.ignored', { hasText: lineTitle }).count() === 1, 'line moved to the Ignored group');
 assert.match(await page.textContent('#ignList'), new RegExp(lineTitle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 assert.equal(await page.textContent('#tabIgn'), '1');
+assert.match(await page.textContent('#ignList'), /Ignored by Wale Calfos/);
+assert.match(await page.textContent('#activity'), /Wale Calfos ignored/);
+await page.locator('#archive').scrollIntoViewIfNeeded();
 await page.screenshot({ path: '/tmp/report-ignored.png' });
 // It stays ignored after a reload (pending until the check reruns)
 await page.reload(); await page.waitForSelector('.comp');
 assert.equal(await page.textContent('#tabIgn'), '1', 'pending ignore survives a reload');
+// Comments: live comments show on their line; posting sends the name, text and issue
+await page.route('**/comments.json*', (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ comments: [{ id: 'x1', check: firstId, by: 'Yana', github: 'yana-dp', at: '2026-11-18T10:00:00Z', text: 'Dev agreed to fix this in the next sprint.', items: [{ component: gh.firstLine.component, key: gh.firstLine.key, title: gh.firstLine.title, componentName: 'x' }] }] }) }));
+await page.reload(); await page.waitForSelector('.comp');
+await page.click('.comp summary'); await page.waitForSelector('.body .ck .cmt');
+assert.equal(await page.locator('.body .ck .cmt.has').count() >= 1, true, 'a line with a comment shows its count');
+await page.locator('.body .ck .cmt.has').first().click();
+await page.waitForSelector('#cmtDlg[open]');
+assert.match(await page.textContent('#cmtThread'), /Dev agreed to fix this/);
+assert.equal(await page.inputValue('#cmtName'), 'Wale Calfos', 'name remembered from the ignore');
+await page.fill('#cmtText', 'Thanks, tracking it in Jira.');
+await page.click('#cmtGo');
+await page.waitForSelector('#cmtThread li:nth-child(2)');
+const cm = JSON.parse(gh.dispatched.at(-1).inputs.comment);
+assert.equal(cm.action, 'add'); assert.equal(cm.by, 'Wale Calfos'); assert.equal(cm.text, 'Thanks, tracking it in Jira.'); assert.equal(cm.check, firstId);
+assert.match(await page.textContent('#cmtThread'), /Posting/);
+await page.screenshot({ path: '/tmp/report-comments.png' });
+await page.click('#cmtClose');
+await page.unroute('**/comments.json*');
 // Ignoring a whole "Needs attention" line sends every component in it
-const themeBtn = page.locator('#themes .ign').first();
+const themeBtn = page.locator('#themes .ign:not(.cmt)').first();
 if (await themeBtn.count()) { await themeBtn.click(); await page.waitForSelector('#ignDlg[open]'); await page.click('#ignGo'); await page.waitForSelector('#toast:not([hidden])'); assert.ok(JSON.parse(gh.dispatched.at(-1).inputs.ignore).items.length >= 1); }
 await page.evaluate(() => { for (const k of Object.keys(localStorage)) if (k.startsWith('ap.pending.')) localStorage.removeItem(k); });
 await page.reload(); await page.waitForSelector('.comp');

@@ -1,4 +1,4 @@
-import { readIgnores } from './ignores.js';
+import { readIgnores, readActivity, readComments } from './ignores.js';
 import { execFileSync } from 'node:child_process';
 // Saved checks (checks.json) → one report per check + an index page listing them all.
 import fs from 'node:fs';
@@ -63,6 +63,12 @@ export function writeSite({ checksFile, siteDir, entries = [], statusFrom, repo 
   writeJson(path.join(siteDir, 'checks-status.json'), { generatedAt: new Date().toISOString(), entries: merged });
   fs.writeFileSync(path.join(siteDir, 'index.html'), appHtml({ repo: repo ?? process.env.GITHUB_REPOSITORY ?? repoFromGit(path.dirname(checksFile)) }));
   writeClient(siteDir);
+  // The team's activity log: who ignored or restored what, newest first
+  const names = new Map(checks.map((c) => [c.id, c.name ?? c.id]));
+  const log = readActivity(path.join(path.dirname(checksFile), 'ignores.json')).slice(-300).reverse().map((x) => ({ ...x, checkName: names.get(x.check) ?? x.check }));
+  writeJson(path.join(siteDir, 'activity.json'), { generatedAt: new Date().toISOString(), log });
+  // Comments are read live by the reports, so posting one needs no rerun
+  writeJson(path.join(siteDir, 'comments.json'), { generatedAt: new Date().toISOString(), comments: readComments(path.join(path.dirname(checksFile), 'checks.json')) });
   fs.writeFileSync(path.join(siteDir, '.nojekyll'), '');
   return merged;
 }
@@ -85,9 +91,12 @@ export async function runAll({ configFile, checksFile, siteDir, baselineDir, sit
         figmaUrl: c.figmaUrl, storybookUrl: c.storybookUrl, outDir,
         baseline: path.join(baselineDir, c.id, 'results.json'), ...(c.overrides ?? {}),
       });
-      cfg.ignores = readIgnores(path.join(path.dirname(checksFile), 'ignores.json')).filter((x) => x.check === c.id);
+      const ignFile = path.join(path.dirname(checksFile), 'ignores.json');
+      cfg.ignores = readIgnores(ignFile).filter((x) => x.check === c.id);
       const results = await run(cfg, {});
       results.meta.check = { id: c.id, repo: process.env.GITHUB_REPOSITORY ?? safeRepo(path.dirname(checksFile)) };
+      results.activity = readActivity(ignFile).filter((x) => x.check === c.id).slice(-200).reverse();
+      writeJson(path.join(outDir, 'results.json'), results);
       writeReport(results, outDir, { reportUrl: siteUrl ? `${siteUrl}/${c.id}/` : null, title: c.name });
       const s = results.summary;
       const prev = previous.find((p) => p.id === c.id);

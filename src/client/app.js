@@ -234,6 +234,25 @@
   const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
   const SHIELD = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M10 2.5l6 2.3v4.6c0 3.9-2.6 6.9-6 8.1-3.4-1.2-6-4.2-6-8.1V4.8z"/><circle cx="10" cy="7.3" r="1.2" fill="currentColor" stroke="none"/><path d="M7 9.6l3 .7 3-.7M10 10.3v2.4M8.4 15l1.6-2.3 1.6 2.3"/></svg>';
 
+  // Team activity: who ignored or restored what, across every check
+  let activityAll = false, activityLog = null;
+  function renderActivity() {
+    const el = $('activity'); if (!el) return;
+    if (!activityLog) return;
+    if (!activityLog.length) { el.innerHTML = '<li class="none">No activity yet. When someone ignores, restores or comments on an issue in a report, it shows here with their name.</li>'; return; }
+    const shown = activityAll ? activityLog : activityLog.slice(0, 10);
+    el.innerHTML = shown.map((x) => {
+      const names = [...new Set((x.items || []).map((i) => i.componentName))];
+      const title = x.items && x.items.length && x.items.every((i) => i.title === x.items[0].title) ? x.items[0].title : plural((x.items || []).length, 'issue');
+      const who = esc(x.by || x.github || 'Someone') + (x.github && x.by && x.github.toLowerCase() !== String(x.by).toLowerCase() ? ' <span class="gh">@' + esc(x.github) + '</span>' : '');
+      const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
+      const said = x.action === 'comment' ? x.text : x.reason;
+      return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 3 ? plural(names.length, 'component') : names.join(', ')) + ' in <a href="' + esc(x.check) + '/' + (x.action === 'ignore' || x.action === 'restore' ? '#archive' : '') + '">' + esc(x.checkName || x.check) + '</a>.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
+    }).join('') + (activityLog.length > shown.length ? '<li class="none"><button type="button" class="linkbtn" id="actMore">Show all ' + activityLog.length + ' entries</button></li>' : '');
+    const m = $('actMore'); if (m) m.onclick = () => { activityAll = true; renderActivity(); };
+  }
+  fetch('activity.json?ts=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : { log: [] })).catch(() => ({ log: [] })).then((j) => { activityLog = j.log || []; renderActivity(); });
+
   let settled = false;
   function renderOverview() {
     const es = (status.entries || []).filter((e) => e.ok);
@@ -362,7 +381,7 @@
         '<p class="caption">Most different: <b>' + esc(p.component) + '</b>, ' + esc(variant) + (p.brand ? ' in ' + esc(p.brand) : '') + '.' + (p.mismatch != null ? ' ' + Math.round(p.mismatch * 100) + '% of pixels differ.' : '') + '</p>'
         : '<div class="proof empty">' + (k.notbuilt && !k.aligned && !k.drifted && !k.broken ? 'None of these components are in Storybook yet, so there is nothing to compare side by side.' : 'No side-by-side pictures for this check.') + '</div>';
       const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i class="s-' + s[0] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
-      const ignoredNote = e.ignored ? '<span class="ignored-n">' + e.ignored + ' ignored</span>' : '';
+      const ignoredNote = e.ignored ? '<a class="ignored-n" href="' + esc(e.id) + '/#archive">' + e.ignored + ' archived</a>' : '';
       return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3><p class="sub">' + esc(e.headline || '') + '</p>' + tag + '</div>' +
         '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
         pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + ignoredNote + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';

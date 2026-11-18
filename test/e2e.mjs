@@ -393,7 +393,7 @@ assert.ok(fs.existsSync(path.join(OUT, 'site', 'index.html')) && fs.existsSync(p
   const missing = before.components.find((c) => c.status === 'Missing in code');
   const ignFile = path.join(path.dirname(checksFile), 'ignores.json');
   const { changeIgnores } = await import('../src/ignores.js');
-  changeIgnores(ignFile, { action: 'add', check: id, reason: 'intentional', items: [{ component: paired.key, key: line.key, title: line.title, componentName: paired.name }, ...(missing ? [{ component: missing.key, key: 'Naming|name', title: 'Not found in Storybook', componentName: missing.name }] : [])] });
+  changeIgnores(ignFile, { action: 'add', check: id, reason: 'intentional', by: 'Wale Calfos', items: [{ component: paired.key, key: line.key, title: line.title, componentName: paired.name }, ...(missing ? [{ component: missing.key, key: 'Naming|name', title: 'Not found in Storybook', componentName: missing.name }] : [])] }, { github: 'WaleCalfos-dp' });
   const ig = await runAll({ configFile: cfgBase, checksFile, siteDir: path.join(OUT, 'site-ign'), baselineDir: path.join(OUT, 'site'), statusFrom: path.join(OUT, 'site', 'checks-status.json'), siteUrl: null, only: [id] });
   const after = JSON.parse(fs.readFileSync(path.join(OUT, 'site-ign', id, 'results.json'), 'utf8'));
   const p2 = after.components.find((c) => c.key === paired.key);
@@ -407,7 +407,33 @@ assert.ok(fs.existsSync(path.join(OUT, 'site', 'index.html')) && fs.existsSync(p
     assert.equal(after.summary.components.figma, before.summary.components.figma - 1, 'ignored component leaves the totals');
   }
   assert.ok(ig[0].ignored >= 1, 'status entry counts ignored issues');
-  fs.rmSync(ignFile);
+  assert.equal(l2.ignored.by, 'Wale Calfos'); assert.equal(l2.ignored.github, 'WaleCalfos-dp');
+  assert.equal(after.summary.ignored.find((x) => x.key === line.key).by, 'Wale Calfos', 'archive keeps the name');
+  assert.equal(after.activity[0].action, 'ignore'); assert.equal(after.activity[0].by, 'Wale Calfos');
+  const act = JSON.parse(fs.readFileSync(path.join(OUT, 'site-ign', 'activity.json'), 'utf8'));
+  assert.equal(act.log[0].by, 'Wale Calfos'); assert.ok(act.log[0].checkName, 'site activity names the check');
+  // A restore is logged too, and the log keeps both entries
+  changeIgnores(ignFile, { action: 'remove', check: id, by: 'Yana', items: [{ component: paired.key, key: line.key }] }, { github: 'yana-dp' });
+  const { readActivity, readIgnores } = await import('../src/ignores.js');
+  assert.deepEqual(readActivity(ignFile).map((x) => x.action + ':' + x.by), ['ignore:Wale Calfos', 'restore:Yana']);
+  assert.ok(!readIgnores(ignFile).some((x) => x.key === line.key && x.component === paired.key), 'restored line leaves the archive');
+  // Comments: saved with the name and account, logged, and deletable
+  const { changeComments, readComments } = await import('../src/ignores.js');
+  const c1 = changeComments(checksFile, { action: 'add', check: id, id: 'c1', by: 'Yana', text: 'Agreed with dev, fix next sprint', items: [{ component: paired.key, key: line.key, title: line.title, componentName: paired.name }] }, { github: 'yana-dp' });
+  assert.equal(c1.id, 'c1');
+  assert.equal(readComments(checksFile)[0].by, 'Yana'); assert.equal(readComments(checksFile)[0].github, 'yana-dp');
+  changeComments(checksFile, { action: 'add', check: id, id: 'c1', by: 'Yana', text: 'duplicate send', items: [{ component: paired.key, key: line.key }] });
+  assert.equal(readComments(checksFile).length, 1, 'the same comment sent twice is saved once');
+  assert.throws(() => changeComments(checksFile, { action: 'add', check: id, by: 'Yana', text: '   ', items: [{ component: paired.key, key: line.key }] }), /needs some text/);
+  const { writeSite } = await import('../src/site.js');
+  writeSite({ checksFile, siteDir: path.join(OUT, 'site-notes'), statusFrom: path.join(OUT, 'site', 'checks-status.json') });
+  assert.equal(JSON.parse(fs.readFileSync(path.join(OUT, 'site-notes', 'comments.json'), 'utf8')).comments[0].text, 'Agreed with dev, fix next sprint');
+  assert.equal(JSON.parse(fs.readFileSync(path.join(OUT, 'site-notes', 'activity.json'), 'utf8')).log[0].action, 'comment');
+  changeComments(checksFile, { action: 'delete', check: id, id: 'c1', by: 'Yana' });
+  assert.equal(readComments(checksFile).length, 0);
+  assert.deepEqual(readActivity(ignFile).map((x) => x.action), ['ignore', 'restore', 'comment', 'delete-comment']);
+  for (const f of ['comments.json', 'team-log.json']) fs.rmSync(path.join(path.dirname(checksFile), f), { force: true });
+  fs.rmSync(ignFile, { force: true });
   console.log(`✓ ignoring: ${paired.name} ${paired.score}% → ${p2.score}%` + (missing ? `, ${missing.name} left out` : ''));
 }
 // A refresh that fails keeps the last good report instead of deleting it

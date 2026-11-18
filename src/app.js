@@ -77,6 +77,11 @@ ${FONTS}
     </div>
     <div class="groups" id="grid"><div class="empty-state"><b>Loading checks</b></div></div>
   </section>
+
+  <section class="team" aria-labelledby="actTitle">
+    <div class="sec-head"><h2 id="actTitle">Team activity</h2><span class="sec-note">Every ignore, restore and comment, newest first</span></div>
+    <ol class="activity" id="activity"><li class="none">Loading activity</li></ol>
+  </section>
 </main>
 
 <footer class="site"><div class="in"><span>Reports are public to anyone with the link. Accessibility results come from automated checks, which find about a third of issues.</span>${repo ? `<a href="https://github.com/${esc(repo)}">Source and settings</a>` : ''}</div></footer>

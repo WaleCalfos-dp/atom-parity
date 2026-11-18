@@ -40,7 +40,7 @@ ${FONTS}
   </header>
 
   <nav class="tabs" aria-label="Sections of this report"><div class="tabs-in" id="tabs">
-    <a href="#summary">Summary</a><a href="#accessibility">Accessibility <span id="tabA11y"></span></a><a href="#components">Components <span id="tabComp"></span></a><a href="#tokens">Tokens</a><a href="#brands">Brands</a><a href="#ignored">Ignored <span id="tabIgn"></span></a><a href="#how">How to read this</a>
+    <a href="#summary">Summary</a><a href="#accessibility">Accessibility <span id="tabA11y"></span></a><a href="#components">Components <span id="tabComp"></span></a><a href="#tokens">Tokens</a><a href="#brands">Brands</a><a href="#archive">Archive <span id="tabIgn"></span></a><a href="#how">How to read this</a>
   </div></nav>
 
   <section id="summary" class="sec" aria-labelledby="sum-h">
@@ -70,9 +70,11 @@ ${FONTS}
     <ul class="brands" id="brandList"></ul>
   </section>
 
-  <section id="ignored" class="sec" aria-labelledby="ign-h">
-    <div class="sec-head"><h2 id="ign-h">Ignored</h2><p id="ignNote"></p></div>
+  <section id="archive" class="sec" aria-labelledby="ign-h">
+    <div class="sec-head"><h2 id="ign-h">Archive</h2><p id="ignNote"></p></div>
     <div id="ignList"></div>
+    <h3 class="sub-h" id="actH">Activity</h3>
+    <ol class="activity" id="activity" aria-labelledby="actH"></ol>
   </section>
 
   <section id="how" class="sec" aria-labelledby="how-h">
@@ -93,12 +95,29 @@ ${FONTS}
   <form class="dlg" id="ignForm">
     <h2 id="ignTitle">Ignore this issue?</h2>
     <p id="ignWhat"></p>
-    <p class="dlg-note">Ignored issues are hidden for everyone and left out of the score. You can restore them from Ignored, near the end of this report.</p>
-    <label for="ignReason">Reason <span>optional</span></label>
+    <p class="dlg-note" id="ignNoteDlg">Ignored issues move to the archive, near the end of this report. They're hidden for everyone, left out of the score, and logged with your name.</p>
+    <label for="ignName">Your name</label>
+    <input id="ignName" maxlength="80" autocomplete="name" aria-required="true" placeholder="First and last name">
+    <label for="ignReason" id="ignReasonLabel">Reason <span>optional</span></label>
     <input id="ignReason" maxlength="300" autocomplete="off" placeholder="For example: intentional difference, agreed with dev">
     <p class="err" id="ignErr" role="alert"></p>
     <div class="dlg-actions"><button class="btn" id="ignGo" type="submit">Ignore</button><button class="btn ghost" id="ignCancel" type="button">Cancel</button></div>
   </form>
+</dialog>
+<dialog id="cmtDlg" aria-labelledby="cmtTitle">
+  <div class="dlg">
+    <div class="cmt-head"><h2 id="cmtTitle">Comments</h2><button type="button" class="x" id="cmtClose" aria-label="Close"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg></button></div>
+    <p id="cmtWhat"></p>
+    <ol class="thread" id="cmtThread"></ol>
+    <form id="cmtForm" class="cmt-form">
+      <label for="cmtName">Your name</label>
+      <input id="cmtName" maxlength="80" autocomplete="name" aria-required="true" placeholder="First and last name">
+      <label for="cmtText">Comment</label>
+      <textarea id="cmtText" maxlength="2000" rows="3" placeholder="What should the team know about this issue?"></textarea>
+      <p class="err" id="cmtErr" role="alert"></p>
+      <div class="dlg-actions"><button class="btn" id="cmtGo" type="submit">Post comment</button></div>
+    </form>
+  </div>
 </dialog>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script type="application/json" id="data">${data}</script>
@@ -262,6 +281,35 @@ dialog::backdrop{background:rgba(14,17,23,.45)}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:40;background:var(--ink);color:var(--paper);padding:12px 18px;border-radius:12px;font-size:14.5px;box-shadow:0 12px 30px -10px rgba(0,0,0,.4);max-width:calc(100vw - 32px)}
 .toast a,.toast .linkbtn{color:inherit;font-weight:700}
 
+.sub-h{font:700 18px/1.3 var(--display);margin:32px 0 12px}
+.activity{list-style:none;margin:0;padding:0;border-left:2px solid var(--line);margin-left:6px}
+.activity li{position:relative;display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px;padding:0 0 18px 0}
+.activity li .dot{width:12px;height:12px;border-radius:50%;margin:5px 0 0 -7px;background:var(--paper);border:2px solid var(--ink-3)}
+.activity li.ignore .dot{border-color:var(--ink-2);background:var(--ink-2)}
+.activity li.restore .dot{border-color:var(--ok);background:var(--paper)}
+.activity p{margin:0;font-size:14.5px;line-height:1.5}
+.activity q{color:var(--ink-2);font-style:italic}
+.activity time{display:block;font-size:13px;color:var(--ink-3);margin-top:2px}
+.activity li.none{display:block;padding-left:16px;color:var(--ink-3);font-size:14px}
+.gh{font-weight:400;color:var(--ink-3)}
+.ign-row q{font-style:italic}
+.acts{display:inline-flex;gap:6px;align-items:center;align-self:center}
+.ign.cmt.has{border-color:color-mix(in srgb,var(--plate-d) 45%,var(--line));color:var(--d-ink)}
+.cmt-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.x{appearance:none;border:0;background:transparent;color:var(--ink-3);width:32px;height:32px;border-radius:var(--r-s);display:grid;place-items:center;cursor:pointer}
+.x:hover{background:var(--line-2);color:var(--ink)}
+.x svg{width:18px;height:18px}
+.thread{list-style:none;margin:6px 0 4px;padding:0;display:flex;flex-direction:column;gap:10px;max-height:min(42vh,360px);overflow:auto}
+.thread li{background:var(--line-2);border-radius:12px;padding:10px 14px}
+.thread li.none{background:none;padding:4px 0;color:var(--ink-3);font-size:14px}
+.thread .who{display:flex;justify-content:space-between;gap:12px;font-size:13.5px}
+.thread time{color:var(--ink-3);font-size:12.5px;white-space:nowrap}
+.thread p{margin:4px 0 0;font-size:14.5px;line-height:1.5;color:var(--ink);overflow-wrap:anywhere}
+.thread .del{font-size:12.5px;margin-top:6px;color:var(--bad)}
+.cmt-form{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--line);padding-top:14px;margin-top:4px}
+.cmt-form textarea{border:1px solid var(--line);border-radius:var(--r-m);padding:10px 12px;font:400 15px/1.5 var(--text);background:var(--paper);color:var(--ink);resize:vertical;min-height:72px}
+.cmt-form textarea:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px color-mix(in srgb,var(--focus) 22%,transparent)}
+.activity li.comment .dot{border-color:var(--plate-d);background:var(--plate-d)}
 /* chips */
 .chips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 14px}
 .chip{appearance:none;border:1px solid var(--line);background:var(--paper);cursor:pointer;font:500 13.5px var(--text);padding:7px 13px;border-radius:999px;color:var(--ink-2)}
@@ -397,11 +445,14 @@ const saved = new Map((S.ignored || []).map((x) => [ik(x.componentKey, x.key), x
 const PKEY = 'ap.pending.' + CHECK_ID;
 const lsGet = (k, d) => { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode */ } };
-let pend = lsGet(PKEY, null) || { add: {}, remove: {}, at: 0 };
+let pend = lsGet(PKEY, null) || {};
+pend = { add: pend.add || {}, remove: pend.remove || {}, events: pend.events || [], at: pend.at || 0 };
 // Drop pending changes the report already reflects, and any older than an hour
 Object.keys(pend.add).forEach((id) => { if (saved.has(id) || Date.now() - pend.at > 3600e3) delete pend.add[id]; });
 Object.keys(pend.remove).forEach((id) => { if (!saved.has(id) || Date.now() - pend.at > 3600e3) delete pend.remove[id]; });
+pend.events = pend.events.filter((ev) => ev.items.some((i) => (ev.action === 'ignore' ? pend.add : pend.remove)[ik(i.component, i.key)]));
 lsSet(PKEY, pend);
+const myName = () => lsGet('ap.name', '') || '';
 const isIgn = (c, k) => { const id = ik(c, k); return pend.remove[id] ? false : saved.has(id) || !!pend.add[id]; };
 const isPending = (c, k) => { const id = ik(c, k); return !!(pend.add[id] || pend.remove[id]); };
 const ignBtn = (attrs, label) => '<button type="button" class="ign" ' + attrs + '>' + (label || 'Ignore') + '</button>';
@@ -409,23 +460,25 @@ const enc = (o) => esc(encodeURIComponent(JSON.stringify(o)));
 const dec = (s) => JSON.parse(decodeURIComponent(s));
 function ignoredList() {
   const out = [];
-  saved.forEach((x, id) => { if (!pend.remove[id]) out.push({ component: x.componentKey, key: x.key, title: x.title, componentName: x.component, reason: x.reason, at: x.at, pending: false }); });
+  saved.forEach((x, id) => { if (!pend.remove[id]) out.push({ component: x.componentKey, key: x.key, title: x.title, componentName: x.component, reason: x.reason, at: x.at, by: x.by, github: x.github, pending: false }); });
   Object.values(pend.add).forEach((x) => { if (!saved.has(ik(x.component, x.key))) out.push(Object.assign({}, x, { pending: true })); });
   return out.sort((a, b) => String(a.componentName).localeCompare(String(b.componentName)) || String(a.title).localeCompare(String(b.title)));
 }
-async function sendIgnore(action, items, reason) {
+async function sendIgnore(action, items, reason, by) {
   const key = lsGet('ap.key', null);
   if (!REPO) return "This report doesn't know which GitHub repository runs the checks.";
   if (!key) return 'connect';
   const r = await fetch('https://api.github.com/repos/' + REPO + '/actions/workflows/atom-parity.yml/dispatches', {
     method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + key, Accept: 'application/vnd.github+json' },
-    body: JSON.stringify({ ref: 'main', inputs: { ignore: JSON.stringify({ action: action, check: CHECK_ID, reason: reason || '', items: items.map((i) => ({ component: i.component, key: i.key, title: i.title, componentName: i.componentName })) }), request_id: Math.random().toString(36).slice(2, 10) } }),
+    body: JSON.stringify({ ref: 'main', inputs: { ignore: JSON.stringify({ action: action, check: CHECK_ID, reason: reason || '', by: by || '', items: items.map((i) => ({ component: i.component, key: i.key, title: i.title, componentName: i.componentName })) }), request_id: Math.random().toString(36).slice(2, 10) } }),
   }).catch(() => null);
   if (!r) return "Couldn't reach GitHub. Check your connection and try again.";
   if (r.status === 401) return 'connect';
   if (r.status === 403 || r.status === 404) return "Your GitHub key can't run checks. On the Atom parity page, connect again with a key that has Actions: Read and write.";
   if (r.status !== 204) return 'GitHub said ' + r.status + '. Try again in a minute.';
-  items.forEach((i) => { const id = ik(i.component, i.key); if (action === 'add') { delete pend.remove[id]; if (!saved.has(id)) pend.add[id] = Object.assign({}, i, { reason: reason || null, at: new Date().toISOString() }); } else { delete pend.add[id]; if (saved.has(id)) pend.remove[id] = i; } });
+  const at = new Date().toISOString();
+  items.forEach((i) => { const id = ik(i.component, i.key); if (action === 'add') { delete pend.remove[id]; if (!saved.has(id)) pend.add[id] = Object.assign({}, i, { reason: reason || null, by: by, at: at }); } else { delete pend.add[id]; if (saved.has(id)) pend.remove[id] = i; } });
+  pend.events.unshift({ at: at, action: action === 'add' ? 'ignore' : 'restore', by: by, reason: reason || '', items: items, pending: true });
   pend.at = Date.now(); lsSet(PKEY, pend);
   return true;
 }
@@ -446,56 +499,166 @@ function watchForUpdate() {
   setTimeout(tick, 30000);
 }
 if (Object.keys(pend.add).length || Object.keys(pend.remove).length) watchForUpdate();
-function rerender() { renderThemes(); if (A && A.ran && A.issues.length) issues(); render(); renderIgnored(); }
+function rerender() { renderThemes(); if (A && A.ran && A.issues.length) issues(); render(); renderIgnored(); renderActivity(); }
 
-// The ignore dialog
-let ignTarget = null;
-function askIgnore(items, what) {
-  ignTarget = items;
-  $('ignTitle').textContent = items.length > 1 ? 'Ignore this issue for ' + items.length + ' components?' : 'Ignore this issue?';
+// The ignore and restore dialog: asks for a name, so the archive and the activity log show who did what
+let ignTarget = null, ignMode = 'add';
+function askIgnore(items, what, mode) {
+  ignTarget = items; ignMode = mode || 'add';
+  const restoring = ignMode === 'remove';
+  $('ignTitle').textContent = restoring ? 'Restore this issue?' : items.length > 1 ? 'Ignore this issue for ' + items.length + ' components?' : 'Ignore this issue?';
   $('ignWhat').innerHTML = what;
-  $('ignReason').value = ''; $('ignErr').textContent = ''; $('ignGo').disabled = false; $('ignGo').textContent = 'Ignore';
-  $('ignDlg').showModal(); setTimeout(() => $('ignReason').focus(), 30);
+  $('ignNoteDlg').textContent = restoring ? 'It counts against the score again once this check reruns, and the restore is logged with your name.' : "Ignored issues move to the archive, near the end of this report. They're hidden for everyone, left out of the score, and logged with your name.";
+  $('ignReasonLabel').innerHTML = (restoring ? 'Note' : 'Reason') + ' <span>optional</span>';
+  $('ignReason').placeholder = restoring ? 'For example: no longer intentional' : 'For example: intentional difference, agreed with dev';
+  $('ignName').value = myName(); $('ignReason').value = ''; $('ignErr').textContent = '';
+  $('ignGo').disabled = false; $('ignGo').textContent = restoring ? 'Restore' : 'Ignore';
+  $('ignDlg').showModal(); setTimeout(() => (myName() ? $('ignReason') : $('ignName')).focus(), 30);
 }
 $('ignCancel').onclick = () => $('ignDlg').close();
 $('ignForm').addEventListener('submit', async (e) => {
   e.preventDefault();
   if (!ignTarget) return;
-  $('ignGo').disabled = true; $('ignGo').textContent = 'Ignoring…'; $('ignErr').textContent = '';
-  const r = await sendIgnore('add', ignTarget, $('ignReason').value.trim());
+  const name = $('ignName').value.trim();
+  if (!name) { $('ignErr').textContent = 'Add your name, so the team can see who made this change.'; $('ignName').focus(); return; }
+  lsSet('ap.name', name);
+  const restoring = ignMode === 'remove';
+  $('ignGo').disabled = true; $('ignGo').textContent = restoring ? 'Restoring…' : 'Ignoring…'; $('ignErr').textContent = '';
+  const r = await sendIgnore(ignMode, ignTarget, $('ignReason').value.trim(), name);
   if (r === true) {
     $('ignDlg').close(); rerender(); watchForUpdate();
-    toast('Ignored ' + plural(ignTarget.length, 'issue') + '. Scores update when this check reruns, in about 5 minutes.');
+    toast(restoring ? 'Restored. It counts again once this check reruns, in about 5 minutes.' : 'Moved ' + plural(ignTarget.length, 'issue') + ' to the archive. Scores update when this check reruns, in about 5 minutes.');
     return;
   }
-  $('ignGo').disabled = false; $('ignGo').textContent = 'Ignore';
+  $('ignGo').disabled = false; $('ignGo').textContent = restoring ? 'Restore' : 'Ignore';
   $('ignErr').innerHTML = r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a>, choose Connect GitHub, then come back.' : esc(r);
 });
-document.addEventListener('click', async (e) => {
+const whatOf = (items, title) => { const names = [...new Set(items.map((i) => i.componentName))]; return '<b>' + esc(title || items[0].title) + '</b><br>' + esc(names.length > 4 ? plural(names.length, 'component') : list(names)); };
+document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-ign]');
   if (b) {
     const items = dec(b.dataset.ign).filter((i) => !isIgn(i.component, i.key));
-    if (!items.length) return;
-    const names = [...new Set(items.map((i) => i.componentName))];
-    askIgnore(items, '<b>' + esc(b.dataset.title || items[0].title) + '</b><br>' + esc(names.length > 4 ? plural(names.length, 'component') : list(names)));
+    if (items.length) askIgnore(items, whatOf(items, b.dataset.title), 'add');
     return;
   }
   const rb = e.target.closest('[data-restore]');
-  if (rb) {
-    const items = dec(rb.dataset.restore);
-    rb.disabled = true; rb.textContent = 'Restoring…';
-    const r = await sendIgnore('remove', items, '');
-    if (r === true) { rerender(); watchForUpdate(); toast('Restored. It counts again once this check reruns, in about 5 minutes.'); }
-    else { rb.disabled = false; rb.textContent = 'Restore'; toast(r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a> and choose Connect GitHub.' : esc(r)); }
-  }
+  if (rb) { const items = dec(rb.dataset.restore); askIgnore(items, whatOf(items), 'remove'); return; }
+  const more = e.target.closest('[data-act-more]');
+  if (more) { actAll = true; renderActivity(); }
 });
+const who = (x) => esc(x.by || x.github || 'Someone') + (x.github && x.by && x.github.toLowerCase() !== String(x.by).toLowerCase() ? ' <span class="gh">@' + esc(x.github) + '</span>' : '');
+let actAll = false;
+function renderActivity() {
+  const ev = pend.events.concat(R.activity || []);
+  if (!ev.length) { $('activity').innerHTML = '<li class="none">No activity yet. Each ignore and restore is logged here with who made it.</li>'; return; }
+  const shown = actAll ? ev : ev.slice(0, 12);
+  $('activity').innerHTML = shown.map((x) => {
+    const names = [...new Set(x.items.map((i) => i.componentName))];
+    const title = x.items.length && x.items.every((i) => i.title === x.items[0].title) ? x.items[0].title : plural(x.items.length, 'issue');
+    const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
+    const said = x.action === 'comment' ? x.text : x.reason;
+    return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who(x) + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 4 ? plural(names.length, 'component') : list(names)) + '.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + (x.pending ? 'Just now, saving' : fmt(x.at)) + '</time></div></li>';
+  }).join('') + (ev.length > shown.length ? '<li class="none"><button type="button" class="linkbtn" data-act-more>Show all ' + ev.length + ' entries</button></li>' : '');
+}
+// ---------------------------------------------------------------- comments
+// Comments are read live from the site (../comments.json), so a new one shows without rerunning the check.
+const CKEY = 'ap.comments.' + CHECK_ID;
+let comments = [];
+let cpend = lsGet(CKEY, null) || {};
+cpend = { add: cpend.add || [], del: cpend.del || [], mine: cpend.mine || [] };
+const touches = (c, items) => c.items.some((a) => items.some((b) => a.component === b.component && a.key === b.key));
+function allComments() {
+  const live = comments.filter((c) => cpend.del.indexOf(c.id) < 0);
+  return live.concat(cpend.add.filter((p) => !comments.some((c) => c.id === p.id)).map((p) => Object.assign({}, p, { pending: true })));
+}
+const threadFor = (items) => allComments().filter((c) => touches(c, items)).sort((a, b) => String(a.at).localeCompare(String(b.at)));
+const cmtBtn = (items, title) => {
+  const n = threadFor(items).length;
+  return '<button type="button" class="ign cmt' + (n ? ' has' : '') + '" data-cmt="' + enc(items) + '"' + (title ? ' data-title="' + esc(title) + '"' : '') + ' aria-label="' + (n ? plural(n, 'comment') : 'Comment') + ' on ' + esc(title || items[0].title) + '">' + (n ? plural(n, 'comment') : 'Comment') + '</button>';
+};
+function loadNotes() {
+  const bust = '?ts=' + Date.now();
+  fetch('../comments.json' + bust, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null).then((j) => {
+    if (!j) return;
+    comments = (j.comments || []).filter((c) => c.check === CHECK_ID);
+    cpend.add = cpend.add.filter((p) => !comments.some((c) => c.id === p.id) && Date.now() - Date.parse(p.at) < 3600e3);
+    cpend.del = cpend.del.filter((id) => comments.some((c) => c.id === id));
+    lsSet(CKEY, cpend); rerender(); if (cmtTarget) renderThread();
+    if (cpend.add.length || cpend.del.length) setTimeout(loadNotes, 20000);
+  });
+  fetch('../activity.json' + bust, { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null).then((j) => {
+    if (j && j.log) { R.activity = j.log.filter((x) => x.check === CHECK_ID); renderActivity(); }
+  });
+}
+async function sendComment(payload) {
+  const key = lsGet('ap.key', null);
+  if (!REPO) return "This report doesn't know which GitHub repository runs the checks.";
+  if (!key) return 'connect';
+  const r = await fetch('https://api.github.com/repos/' + REPO + '/actions/workflows/atom-parity.yml/dispatches', {
+    method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + key, Accept: 'application/vnd.github+json' },
+    body: JSON.stringify({ ref: 'main', inputs: { comment: JSON.stringify(Object.assign({ check: CHECK_ID }, payload)), request_id: Math.random().toString(36).slice(2, 10) } }),
+  }).catch(() => null);
+  if (!r) return "Couldn't reach GitHub. Check your connection and try again.";
+  if (r.status === 401) return 'connect';
+  if (r.status === 403 || r.status === 404) return "Your GitHub key can't run checks. On the Atom parity page, connect again with a key that has Actions: Read and write.";
+  if (r.status !== 204) return 'GitHub said ' + r.status + '. Try again in a minute.';
+  return true;
+}
+let cmtTarget = null;
+function openComments(items, title) {
+  cmtTarget = { items: items, title: title || items[0].title };
+  const names = [...new Set(items.map((i) => i.componentName))];
+  $('cmtWhat').innerHTML = '<b>' + esc(cmtTarget.title) + '</b><br>' + esc(names.length > 4 ? plural(names.length, 'component') : list(names));
+  $('cmtName').value = myName(); $('cmtText').value = ''; $('cmtErr').textContent = ''; $('cmtGo').disabled = false;
+  renderThread();
+  $('cmtDlg').showModal(); setTimeout(() => (myName() ? $('cmtText') : $('cmtName')).focus(), 30);
+}
+function renderThread() {
+  const t = threadFor(cmtTarget.items);
+  $('cmtTitle').textContent = t.length ? plural(t.length, 'comment') : 'Comments';
+  $('cmtThread').innerHTML = t.length ? t.map((c) => '<li><div class="who"><b>' + who(c) + '</b><time datetime="' + esc(c.at) + '">' + (c.pending ? 'Posting' : fmt(c.at)) + '</time></div><p>' + esc(c.text).replace(/\\n/g, '<br>') + '</p>' +
+    (!c.pending && cpend.mine.indexOf(c.id) >= 0 ? '<button type="button" class="linkbtn del" data-del="' + esc(c.id) + '">Delete</button>' : '') + '</li>').join('')
+    : '<li class="none">No comments yet. Start the conversation: what should the team know about this issue?</li>';
+}
+$('cmtClose').onclick = () => { $('cmtDlg').close(); cmtTarget = null; };
+$('cmtDlg').addEventListener('close', () => { cmtTarget = null; });
+$('cmtForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const name = $('cmtName').value.trim(), text = $('cmtText').value.trim();
+  if (!name) { $('cmtErr').textContent = 'Add your name, so the team knows who commented.'; $('cmtName').focus(); return; }
+  if (!text) { $('cmtErr').textContent = 'Write a comment first.'; $('cmtText').focus(); return; }
+  lsSet('ap.name', name);
+  const id = Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
+  const items = cmtTarget.items.map((i) => ({ component: i.component, key: i.key, title: i.title, componentName: i.componentName }));
+  $('cmtGo').disabled = true; $('cmtGo').textContent = 'Posting…'; $('cmtErr').textContent = '';
+  const r = await sendComment({ action: 'add', id: id, items: items, text: text, by: name });
+  $('cmtGo').disabled = false; $('cmtGo').textContent = 'Post comment';
+  if (r === true) {
+    cpend.add.push({ id: id, check: CHECK_ID, items: items, text: text, by: name, at: new Date().toISOString() }); cpend.mine.push(id); lsSet(CKEY, cpend);
+    $('cmtText').value = ''; renderThread(); rerender(); setTimeout(loadNotes, 20000);
+    toast('Comment posted. The team sees it in about a minute.');
+    return;
+  }
+  $('cmtErr').innerHTML = r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a>, choose Connect GitHub, then come back.' : esc(r);
+});
+$('cmtThread').addEventListener('click', async (e) => {
+  const d = e.target.closest('[data-del]'); if (!d) return;
+  d.disabled = true; d.textContent = 'Deleting…';
+  const r = await sendComment({ action: 'delete', id: d.dataset.del, by: myName() });
+  if (r === true) { cpend.del.push(d.dataset.del); lsSet(CKEY, cpend); renderThread(); rerender(); setTimeout(loadNotes, 20000); }
+  else { d.disabled = false; d.textContent = 'Delete'; $('cmtErr').innerHTML = r === 'connect' ? 'Connect GitHub first on the <a href="../">Atom parity page</a>.' : esc(r); }
+});
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-cmt]'); if (b) openComments(dec(b.dataset.cmt), b.dataset.title);
+});
+
 function renderIgnored() {
   const items = ignoredList();
   $('tabIgn').textContent = items.length || '';
-  if (!items.length) { $('ignNote').textContent = 'Nothing is ignored. Use Ignore on any issue that is intentional, and it stops counting against the score.'; $('ignList').innerHTML = ''; return; }
-  $('ignNote').textContent = plural(items.length, 'issue') + ' left out of the score for everyone.';
-  $('ignList').innerHTML = '<div class="list ign-list">' + items.map((x) => '<div class="ign-row"><span class="t">' + esc(x.title) + '<small>' + esc(x.componentName) + (x.reason ? ', ' + esc(x.reason) : '') + (x.at ? ', ignored ' + fmt(x.at) : '') + '</small></span>' +
-    (x.pending ? '<span class="pend">Updating</span>' : '<button type="button" class="ign" data-restore="' + enc([{ component: x.component, key: x.key, title: x.title, componentName: x.componentName }]) + '">Restore</button>') + '</div>').join('') + '</div>';
+  if (!items.length) { $('ignNote').textContent = 'The archive is empty. Use Ignore on any issue that is intentional: it moves here, stops counting against the score, and is logged with your name.'; $('ignList').innerHTML = ''; return; }
+  $('ignNote').textContent = plural(items.length, 'issue') + ' in the archive, left out of the score for everyone.';
+  $('ignList').innerHTML = '<div class="list ign-list">' + items.map((x) => '<div class="ign-row"><span class="t">' + esc(x.title) + '<small>' + esc(x.componentName) + '. Ignored by ' + who(x) + (x.at ? ' on ' + fmt(x.at) : '') + '.' + (x.reason ? ' <q>' + esc(x.reason) + '</q>' : '') + '</small></span>' +
+    '<span class="acts">' + cmtBtn([{ component: x.component, key: x.key, title: x.title, componentName: x.componentName }]) + (x.pending ? '<span class="pend">Updating</span>' : '<button type="button" class="ign" data-restore="' + enc([{ component: x.component, key: x.key, title: x.title, componentName: x.componentName }]) + '">Restore</button>') + '</span></div>').join('') + '</div>';
 }
 
 $('when').textContent = 'Checked ' + fmt(R.meta.generatedAt);
@@ -518,7 +681,7 @@ function renderThemes() {
   $('themes').innerHTML = themes.slice(0, 8).map((t) => {
     const names = t.items ? [...new Set(t.live.map((i) => i.componentName))] : t.components;
     return '<li><span class="t">' + esc(t.title) + '<small>' + esc(names.length > 3 ? plural(names.length, 'component') : list(names)) + '</small></span>' + owner(t.owner) +
-      (t.items ? ignBtn('data-ign="' + enc(t.live) + '" data-title="' + esc(t.title) + '" aria-label="Ignore ' + esc(t.title) + '"') : '<span></span>') + '</li>';
+      (t.items ? '<span class="acts">' + cmtBtn(t.live, t.title) + ignBtn('data-ign="' + enc(t.live) + '" data-title="' + esc(t.title) + '" aria-label="Ignore ' + esc(t.title) + '"') + '</span>' : '<span></span>') + '</li>';
   }).join('');
 }
 
@@ -589,7 +752,7 @@ function issues() {
     const all = i.where;
     const rows = shown[i.rule] ? all : all.slice(0, 8);
     const crit = i.criterion ? '<a href="' + esc(i.criterion.url) + '" target="_blank" rel="noopener">WCAG ' + esc(i.criterion.sc) + ' ' + esc(i.criterion.name) + '</a>' + (i.criterion.level ? ', level ' + esc(i.criterion.level) : '') : 'Best practice';
-    return '<article class="issue" id="a-' + esc(i.rule) + '" aria-labelledby="ah-' + esc(i.rule) + '"><div class="issue-head"><span class="sev ' + i.impact + '">' + SEVNAME[i.impact] + '</span><h3 id="ah-' + esc(i.rule) + '">' + esc(i.title) + '</h3><div class="head-act">' + owner(i.owner) + (i.items ? ignBtn('data-ign="' + enc(i.live) + '" data-title="' + esc(i.title) + '" aria-label="Ignore ' + esc(i.title) + '"') : '') + '</div><p class="ref">' + crit + (i.help ? ' &nbsp; <a href="' + esc(i.help) + '" target="_blank" rel="noopener">Rule details</a>' : '') + '</p></div>' +
+    return '<article class="issue" id="a-' + esc(i.rule) + '" aria-labelledby="ah-' + esc(i.rule) + '"><div class="issue-head"><span class="sev ' + i.impact + '">' + SEVNAME[i.impact] + '</span><h3 id="ah-' + esc(i.rule) + '">' + esc(i.title) + '</h3><div class="head-act">' + owner(i.owner) + (i.items ? cmtBtn(i.live, i.title) : '') + (i.items ? ignBtn('data-ign="' + enc(i.live) + '" data-title="' + esc(i.title) + '" aria-label="Ignore ' + esc(i.title) + '"') : '') + '</div><p class="ref">' + crit + (i.help ? ' &nbsp; <a href="' + esc(i.help) + '" target="_blank" rel="noopener">Rule details</a>' : '') + '</p></div>' +
       (i.why || i.fix ? '<dl class="wf">' + (i.why ? '<div><dt>What it means for people</dt><dd>' + esc(i.why) + '</dd></div>' : '') + (i.fix ? '<div><dt>How to fix it</dt><dd>' + esc(i.fix) + '</dd></div>' : '') + '</dl>' : '') +
       verdict(i) +
       '<table class="where"><thead><tr><th scope="col">Component</th><th scope="col">Brand</th><th scope="col">Variants</th><th scope="col">Result</th><th scope="col"><span class="sr">Ignore</span></th></tr></thead><tbody>' +
@@ -666,14 +829,14 @@ function detail(c) {
     const bad = items.filter((x) => st(x) !== 'pass').sort((a, b) => (st(b) === 'fail') - (st(a) === 'fail'));
     const good = items.filter((x) => st(x) === 'pass');
     h += '<div class="grp"><h4>' + esc(cat) + '</h4>' + bad.map((x) => '<div class="ck"><span class="status-dot ' + st(x) + '"></span><span>' + esc(x.title) + '</span>' + owner(x.owner) +
-      (isPending(c.key, x.key) ? '<span class="pend">Restoring</span>' : ignBtn('data-ign="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '" aria-label="Ignore ' + esc(x.title) + '"')) +
+      '<span class="acts">' + cmtBtn([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + (isPending(c.key, x.key) ? '<span class="pend">Restoring</span>' : ignBtn('data-ign="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '" aria-label="Ignore ' + esc(x.title) + '"')) + '</span>' +
       (x.detail || x.brands.length || x.variants.length ? '<div class="d">' + esc(x.detail || '') + where(x) + '</div>' : '') + '</div>').join('') +
       (good.length ? '<p class="passes">' + good.length + ' passing: ' + esc(good.map((x) => x.label).slice(0, 6).join(', ')) + (good.length > 6 ? ' and more' : '') + '</p>' : '') + '</div>';
   }
   const ign = c.checks.filter((x) => isIgn(c.key, x.key));
-  if (ign.length) h += '<div class="grp"><h4>Ignored</h4>' + ign.map((x) => '<div class="ck ignored"><span class="status-dot"></span><span>' + esc(x.title) + '</span><span></span>' +
-    (isPending(c.key, x.key) ? '<span class="pend">Updating</span>' : ignBtn('data-restore="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '"', 'Restore')) +
-    (x.ignored && x.ignored.reason ? '<div class="d">' + esc(x.ignored.reason) + '</div>' : '') + '</div>').join('') + '</div>';
+  if (ign.length) h += '<div class="grp"><h4>Archived</h4>' + ign.map((x) => '<div class="ck ignored"><span class="status-dot"></span><span>' + esc(x.title) + '</span><span></span>' +
+    '<span class="acts">' + cmtBtn([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + (isPending(c.key, x.key) ? '<span class="pend">Updating</span>' : ignBtn('data-restore="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '"', 'Restore')) + '</span>' +
+    (x.ignored ? '<div class="d">Ignored by ' + who(x.ignored) + (x.ignored.at ? ' on ' + fmt(x.ignored.at) : '') + (x.ignored.reason ? '. ' + esc(x.ignored.reason) : '') + '</div>' : '') + '</div>').join('') + '</div>';
   if (c.props && c.props.props && c.props.props.length) {
     h += '<div class="grp"><h4>Property mapping</h4><table class="map"><thead><tr><th>Figma</th><th>Code</th><th>Values</th></tr></thead><tbody>' + c.props.props.map((p) => '<tr><td>' + esc(p.figma) + '</td><td class="v-' + (p.how === 'state' ? 'exact' : p.how) + '">' + esc(p.how === 'state' ? 'states' : p.codeArg || 'missing') + '</td><td>' +
       p.values.map((v) => '<span class="v-' + (['interaction', 'boolean', 'enum', 'free'].includes(v.how) ? 'exact' : v.how) + '">' + esc(v.figma) + (v.code != null && String(v.code).toLowerCase() !== String(v.figma).toLowerCase() ? ' → ' + esc(v.code) : v.boolArg ? ' → ' + esc(v.boolArg) : '') + '</span>').join(', ') + '</td></tr>').join('') + '</tbody></table></div>';
@@ -686,6 +849,8 @@ const fig = (cap, cls, src) => '<figure class="' + cls + '"><figcaption><i></i>'
 render();
 renderThemes();
 renderIgnored();
+renderActivity();
+loadNotes();
 
 // ---------------------------------------------------------------- tokens and brands
 const T = R.tokens; const brands = R.brands.pairs.filter((p) => p.code).map((p) => p.figma);

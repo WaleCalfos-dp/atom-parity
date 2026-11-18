@@ -1,11 +1,12 @@
 name: Atom parity
-run-name: ${{ inputs.request_id && format('{0} [{1}]', inputs.remove_id && 'Remove' || inputs.ignore && 'Ignore' || (inputs.name || inputs.check_id || 'Check'), inputs.request_id) || 'Nightly check' }}
+run-name: ${{ inputs.request_id && format('{0} [{1}]', inputs.remove_id && 'Remove' || inputs.ignore && 'Ignore' || inputs.comment && 'Comment' || (inputs.name || inputs.check_id || 'Check'), inputs.request_id) || 'Nightly check' }}
 
 # Started from the web page (via the GitHub API) or on the nightly schedule.
 #   figma_url + storybook_url → save a new check and run it
 #   check_id                  → run one saved check
 #   remove_id                 → remove a saved check and its report
 #   ignore                    → ignore or restore issues (JSON from the report page), then rerun that check
+#   comment                   → add or delete a comment on an issue, then republish (no rerun)
 #   nothing                   → run every saved check
 on:
   workflow_dispatch:
@@ -16,6 +17,7 @@ on:
       check_id: { description: 'Run one saved check', required: false }
       remove_id: { description: 'Remove a saved check', required: false }
       ignore: { description: 'Ignore or restore issues (set by the report page)', required: false }
+      comment: { description: 'Add or delete a comment (set by the report page)', required: false }
       request_id: { description: 'Set by the web page to follow this run', required: false }
   schedule:
     - cron: '17 2 * * 1-5'   # 02:17 UTC, Monday to Friday
@@ -62,12 +64,22 @@ jobs:
           CHECK_ID: ${{ inputs.check_id }}
           REMOVE_ID: ${{ inputs.remove_id }}
           IGNORE: ${{ inputs.ignore }}
+          COMMENT: ${{ inputs.comment }}
         run: |
-          if [ -n "$IGNORE" ]; then
+          if [ -n "$COMMENT" ]; then
+            for attempt in 1 2 3 4 5; do
+              node src/cli.js comment
+              git add comments.json team-log.json && git commit -qm "Update comments" || break
+              git push -q && break
+              git fetch -q origin main && git reset -q --hard origin/main
+              sleep $((attempt * 3))
+            done
+            echo "mode=notes" >> "$GITHUB_OUTPUT"
+          elif [ -n "$IGNORE" ]; then
             # Save the change to ignores.json on main (retrying if someone else saved at the same time), then rerun that check
             for attempt in 1 2 3 4 5; do
               node src/cli.js ignore
-              git add ignores.json && git commit -qm "Update ignored issues" || break
+              git add ignores.json team-log.json && git commit -qm "Update ignored issues" || break
               git push -q && break
               git fetch -q origin main && git reset -q --hard origin/main
               sleep $((attempt * 3))
@@ -91,12 +103,12 @@ jobs:
           fi
 
       - name: Install the browser
-        if: steps.plan.outputs.mode != 'remove'
+        if: steps.plan.outputs.mode != 'remove' && steps.plan.outputs.mode != 'notes'
         run: npx playwright install --with-deps chromium
 
       - name: Compare Figma with Storybook
         id: run
-        if: steps.plan.outputs.mode != 'remove'
+        if: steps.plan.outputs.mode != 'remove' && steps.plan.outputs.mode != 'notes'
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN || secrets.FIGMA }}
           PARITY_REPORT_URL: ${{ steps.site.outputs.url }}
@@ -123,6 +135,8 @@ jobs:
             if [ -n "$IDS" ]; then
               node src/cli.js merge-status site/checks-status.json site-new/checks-status.json site/checks-status.json --only "$IDS"
               cp site-new/index.html site-new/app.css site-new/app.js site/
+              [ -f site-new/activity.json ] && cp site-new/activity.json site/
+              [ -f site-new/comments.json ] && cp site-new/comments.json site/
             else
               node src/cli.js site --site site --status-from site/checks-status.json
             fi

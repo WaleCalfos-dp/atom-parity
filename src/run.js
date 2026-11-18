@@ -288,7 +288,7 @@ export function summarise(results) {
   const issues = []; const ignored = [];
   for (const c of comps) {
     for (const ch of c.checks) {
-      if (ch.status === 'ignored') { ignored.push({ component: c.name, componentKey: c.key, key: ch.key, category: ch.category, title: ch.title, was: ch.was, owner: ch.owner, reason: ch.ignored?.reason ?? null, at: ch.ignored?.at ?? null }); continue; }
+      if (ch.status === 'ignored') { ignored.push({ component: c.name, componentKey: c.key, key: ch.key, category: ch.category, title: ch.title, was: ch.was, owner: ch.owner, reason: ch.ignored?.reason ?? null, at: ch.ignored?.at ?? null, by: ch.ignored?.by ?? null, github: ch.ignored?.github ?? null }); continue; }
       if (byCategory[ch.category] && ch.status !== 'info') byCategory[ch.category][ch.status]++;
       if ((ch.status === 'fail' || ch.status === 'warn') && byOwner[ch.owner]) byOwner[ch.owner][ch.status]++;
       if (ch.status === 'fail' || ch.status === 'warn') issues.push({ component: c.name, componentKey: c.key, key: ch.key, category: ch.category, subject: ch.subject, status: ch.status, title: ch.title, detail: ch.detail, owner: ch.owner, brands: ch.brands, variants: ch.variants.length });
