@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:19:48.297Z",
-    "durationMs": 151128,
+    "generatedAt": "2026-11-18T10:24:49.816Z",
+    "durationMs": 105049,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:18:55.456Z",
+      "exportedAt": "2026-11-18T10:23:48.398Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -60,7 +60,7 @@
         "stale": true
       }
     },
-    "jobs": 0,
+    "jobs": 4,
     "viewport": {
       "width": 1440,
       "height": 900,
@@ -1600,7 +1600,7 @@
       "missing": 6,
       "unknown": 0,
       "renamed": 13,
-      "definedInCode": 273
+      "definedInCode": 336
     }
   },
   "components": [
@@ -2421,21 +2421,9 @@
     {
       "key": "17265:62617",
       "name": "Flight Delay / Flight Card",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [
-        {
-          "name": "Card",
-          "title": "Data Display/Card",
-          "score": 0.75
-        },
-        {
-          "name": "FlightCard",
-          "title": "Business Components/FlightCard",
-          "score": 0.75
-        }
-      ],
+      "status": "Broken",
+      "score": 62,
+      "match": "exact",
       "figma": {
         "id": "17265:62617",
         "name": "Flight Delay / Flight Card",
@@ -2447,8 +2435,1511 @@
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617"
       },
-      "code": null,
+      "code": {
+        "title": "Business Components/FlightCard",
+        "stories": 2,
+        "story": "business-components-flightcard--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Airline Name",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Emirates Airlines",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Flight Number",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "BA 113",
+            "codeArg": "flightNumber",
+            "how": "exact",
+            "values": [],
+            "codeType": "other",
+            "codeOptions": []
+          },
+          {
+            "figma": "Departure Date",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "JUN 1",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Departure Time",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "10:00",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Departure Airport",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "MAN",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Flight Type",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Direct",
+            "codeArg": "flightType",
+            "how": "exact",
+            "values": [],
+            "codeType": "other",
+            "codeOptions": []
+          },
+          {
+            "figma": "Arrival Date",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "JUN 2",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Arrival Time",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "22:00",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Arrival Airport",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "SIN",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "airline",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "from",
+            "type": "object",
+            "options": []
+          },
+          {
+            "name": "to",
+            "type": "object",
+            "options": []
+          },
+          {
+            "name": "airlineLogo",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "description",
+            "type": "other",
+            "options": []
+          }
+        ]
+      },
       "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "fail",
+          "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+          "owner": "Both",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "warn",
+          "title": "No description in Figma",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Airline Name",
+          "category": "Properties",
+          "subject": "prop:Airline Name",
+          "label": "Property \"Airline Name\"",
+          "status": "warn",
+          "title": "Figma property \"Airline Name\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Flight Number",
+          "category": "Naming",
+          "subject": "prop:Flight Number",
+          "label": "Property \"Flight Number\"",
+          "status": "pass",
+          "title": "\"Flight Number\" matches \"flightNumber\"",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Departure Date",
+          "category": "Properties",
+          "subject": "prop:Departure Date",
+          "label": "Property \"Departure Date\"",
+          "status": "warn",
+          "title": "Figma property \"Departure Date\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Departure Time",
+          "category": "Properties",
+          "subject": "prop:Departure Time",
+          "label": "Property \"Departure Time\"",
+          "status": "warn",
+          "title": "Figma property \"Departure Time\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Departure Airport",
+          "category": "Properties",
+          "subject": "prop:Departure Airport",
+          "label": "Property \"Departure Airport\"",
+          "status": "warn",
+          "title": "Figma property \"Departure Airport\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|prop:Flight Type",
+          "category": "Naming",
+          "subject": "prop:Flight Type",
+          "label": "Property \"Flight Type\"",
+          "status": "pass",
+          "title": "\"Flight Type\" matches \"flightType\"",
+          "owner": "Both",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Arrival Date",
+          "category": "Properties",
+          "subject": "prop:Arrival Date",
+          "label": "Property \"Arrival Date\"",
+          "status": "warn",
+          "title": "Figma property \"Arrival Date\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Arrival Time",
+          "category": "Properties",
+          "subject": "prop:Arrival Time",
+          "label": "Property \"Arrival Time\"",
+          "status": "warn",
+          "title": "Figma property \"Arrival Time\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Arrival Airport",
+          "category": "Properties",
+          "subject": "prop:Arrival Airport",
+          "label": "Property \"Arrival Airport\"",
+          "status": "warn",
+          "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "airline, from, to, airlineLogo, description",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "airline, from, to, airlineLogo, description",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Rendering|render",
+          "category": "Rendering",
+          "subject": "render",
+          "label": "Story renders",
+          "status": "pass",
+          "title": "Renders without errors",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Rendering|console",
+          "category": "Rendering",
+          "subject": "console",
+          "label": "Console",
+          "status": "warn",
+          "title": "Console errors while rendering",
+          "owner": "Dev",
+          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 4,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "AeroBlue"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Tokens|value:Background colour",
+          "category": "Tokens",
+          "subject": "value:Background colour",
+          "label": "Background colour",
+          "status": "pass",
+          "title": "Background colour matches design",
+          "owner": "Both",
+          "detail": "Design #FFFFFF (linked variable) · Code #FFFFFF",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design #FFFFFF (linked variable) · Code #FFFFFF",
+              "figma": "#FFFFFF",
+              "code": "#FFFFFF",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|value:Border colour",
+          "category": "Tokens",
+          "subject": "value:Border colour",
+          "label": "Border colour",
+          "status": "pass",
+          "title": "Border colour matches design",
+          "owner": "Both",
+          "detail": "Design #CECCCC (linked variable) · Code #CECCCC",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design #CECCCC (linked variable) · Code #CECCCC",
+              "figma": "#CECCCC",
+              "code": "#CECCCC",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|value:Border width",
+          "category": "Tokens",
+          "subject": "value:Border width",
+          "label": "Border width",
+          "status": "pass",
+          "title": "Border width matches design",
+          "owner": "Both",
+          "detail": "Design 1px (no variable) · Code 1px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 1px (no variable) · Code 1px",
+              "figma": "1px",
+              "code": "1px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 1px (no variable) · Code 1px",
+              "figma": "1px",
+              "code": "1px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 1px (no variable) · Code 1px",
+              "figma": "1px",
+              "code": "1px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 1px (no variable) · Code 1px",
+              "figma": "1px",
+              "code": "1px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|value:Corner radius",
+          "category": "Tokens",
+          "subject": "value:Corner radius",
+          "label": "Corner radius",
+          "status": "pass",
+          "title": "Corner radius matches design",
+          "owner": "Both",
+          "detail": "Design 8px (no variable) · Code 8px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 8px (no variable) · Code 8px",
+              "figma": "8px",
+              "code": "8px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 8px (no variable) · Code 8px",
+              "figma": "8px",
+              "code": "8px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 8px (no variable) · Code 8px",
+              "figma": "8px",
+              "code": "8px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 8px (no variable) · Code 8px",
+              "figma": "8px",
+              "code": "8px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|token:Corner radius",
+          "category": "Tokens",
+          "subject": "token:Corner radius",
+          "label": "Corner radius",
+          "status": "warn",
+          "title": "Corner radius isn't linked to a variable in Figma",
+          "owner": "Design",
+          "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
+              "figma": "8px",
+              "code": "--aum-flight-card-border-radius",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
+              "figma": "8px",
+              "code": "--aum-flight-card-border-radius",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
+              "figma": "8px",
+              "code": "--aum-flight-card-border-radius",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
+              "figma": "8px",
+              "code": "--aum-flight-card-border-radius",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 4,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "AeroBlue"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Tokens|value:Horizontal padding",
+          "category": "Tokens",
+          "subject": "value:Horizontal padding",
+          "label": "Horizontal padding",
+          "status": "pass",
+          "title": "Horizontal padding matches design",
+          "owner": "Both",
+          "detail": "Design 16px (space-16) · Code 16px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|token:Horizontal padding",
+          "category": "Tokens",
+          "subject": "token:Horizontal padding",
+          "label": "Horizontal padding",
+          "status": "warn",
+          "title": "Horizontal padding uses the design token under a different name",
+          "owner": "Both",
+          "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 4,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "AeroBlue"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Tokens|value:Vertical padding",
+          "category": "Tokens",
+          "subject": "value:Vertical padding",
+          "label": "Vertical padding",
+          "status": "pass",
+          "title": "Vertical padding matches design",
+          "owner": "Both",
+          "detail": "Design 16px (space-16) · Code 16px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 16px (space-16) · Code 16px",
+              "figma": "16px",
+              "code": "16px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|token:Vertical padding",
+          "category": "Tokens",
+          "subject": "token:Vertical padding",
+          "label": "Vertical padding",
+          "status": "warn",
+          "title": "Vertical padding uses the design token under a different name",
+          "owner": "Both",
+          "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+              "figma": "space-16",
+              "code": "--aum-spacing-16",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 4,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "AeroBlue"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Tokens|value:Label · Text colour",
+          "category": "Tokens",
+          "subject": "value:Label · Text colour",
+          "label": "Label · Text colour",
+          "status": "fail",
+          "title": "Label · Text colour differs from design",
+          "owner": "Both",
+          "detail": "Design #535252 (linked variable) · Code #333333",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design #535252 (linked variable) · Code #333333",
+              "figma": "#535252",
+              "code": "#333333",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Tokens|value:Label · Font size",
+          "category": "Tokens",
+          "subject": "value:Label · Font size",
+          "label": "Label · Font size",
+          "status": "fail",
+          "title": "Label · Font size differs from design",
+          "owner": "Both",
+          "detail": "Design 12px (linked variable) · Code 14px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 12px (linked variable) · Code 14px",
+              "figma": "12px",
+              "code": "14px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Tokens|value:Label · Font weight",
+          "category": "Tokens",
+          "subject": "value:Label · Font weight",
+          "label": "Label · Font weight",
+          "status": "pass",
+          "title": "Label · Font weight matches design",
+          "owner": "Both",
+          "detail": "Design 400 (linked variable) · Code 400",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 400 (linked variable) · Code 400",
+              "figma": "400",
+              "code": "400",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|value:Label · Font family",
+          "category": "Tokens",
+          "subject": "value:Label · Font family",
+          "label": "Label · Font family",
+          "status": "pass",
+          "title": "Label · Font family matches design",
+          "owner": "Both",
+          "detail": "Design Poppins (linked variable) · Code Poppins",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design Poppins (linked variable) · Code Poppins",
+              "figma": "Poppins",
+              "code": "Poppins",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Tokens|value:Label · Line height",
+          "category": "Tokens",
+          "subject": "value:Label · Line height",
+          "label": "Label · Line height",
+          "status": "fail",
+          "title": "Label · Line height differs from design",
+          "owner": "Both",
+          "detail": "Design 14px (linked variable) · Code 20px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 14px (linked variable) · Code 20px",
+              "figma": "14px",
+              "code": "20px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Visual|pixels",
+          "category": "Visual",
+          "subject": "pixels",
+          "label": "Appearance",
+          "status": "warn",
+          "title": "Visual differences",
+          "owner": "Both",
+          "detail": "6.3% of pixels differ",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "6.3% of pixels differ",
+              "figma": "6.3%",
+              "code": null,
+              "image": {
+                "figma": "assets/figma/17265626171726562617dragonpass.png",
+                "code": "assets/code/17265626171726562617dragonpass.png",
+                "diff": "assets/diff/17265626171726562617dragonpass.png"
+              },
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Visual|height",
+          "category": "Visual",
+          "subject": "height",
+          "label": "Height",
+          "status": "fail",
+          "title": "Height differs from design",
+          "owner": "Both",
+          "detail": "Design 136px · Code 146px",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 136px · Code 146px",
+              "figma": "136px",
+              "code": "146px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Visual|width",
+          "category": "Visual",
+          "subject": "width",
+          "label": "Width",
+          "status": "warn",
+          "title": "Width differs from design",
+          "owner": "Both",
+          "detail": "Design 327px · Code 376px (label text may differ)",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "Design 327px · Code 376px (label text may differ)",
+              "figma": "327px",
+              "code": "376px",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Accessibility|axe",
+          "category": "Accessibility",
+          "subject": "axe",
+          "label": "Automated WCAG 2.2 AA scan",
+          "status": "pass",
+          "title": "Automated scan ran",
+          "owner": "Dev",
+          "detail": "0 rules failed",
+          "meta": {
+            "rule": "scan",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "0 rules failed",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "0 rules failed",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "0 rules failed",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
+              "brand": "AeroBlue",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "0 rules failed",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -2603,40 +4094,73 @@
           "variants": [
             "Flight Delay / Flight Card"
           ]
-        },
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component",
-          "status": "fail",
-          "title": "Not found in Storybook",
-          "owner": "Both",
-          "detail": "Possible matches: Data Display/Card, Business Components/FlightCard. Rename it, or add it to components.aliases.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Possible matches: Data Display/Card, Business Components/FlightCard. Rename it, or add it to components.aliases.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [
+        {
+          "variant": "Flight Delay / Flight Card",
+          "brand": "Dragonpass",
+          "interaction": null,
+          "figma": "assets/figma/17265626171726562617dragonpass.png",
+          "code": "assets/code/17265626171726562617dragonpass.png",
+          "diff": "assets/diff/17265626171726562617dragonpass.png",
+          "mismatch": 0.06323641842057924,
+          "sizeDelta": {
+            "w": 49,
+            "h": 10
+          },
+          "figmaSize": {
+            "w": 327,
+            "h": 136
+          },
+          "codeSize": {
+            "w": 376,
+            "h": 146
+          },
+          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage"
+        },
+        {
+          "variant": "Flight Delay / Flight Card",
+          "brand": "Mastercard",
+          "interaction": null,
+          "figma": null,
+          "code": "assets/code/17265626171726562617mastercard.png",
+          "diff": null,
+          "mismatch": null,
+          "sizeDelta": null,
+          "figmaSize": null,
+          "codeSize": null,
+          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage"
+        },
+        {
+          "variant": "Flight Delay / Flight Card",
+          "brand": "Investec",
+          "interaction": null,
+          "figma": null,
+          "code": "assets/code/17265626171726562617investec.png",
+          "diff": null,
+          "mismatch": null,
+          "sizeDelta": null,
+          "figmaSize": null,
+          "codeSize": null,
+          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage"
+        },
+        {
+          "variant": "Flight Delay / Flight Card",
+          "brand": "AeroBlue",
+          "interaction": null,
+          "figma": null,
+          "code": "assets/code/17265626171726562617aero-blue.png",
+          "diff": null,
+          "mismatch": null,
+          "sizeDelta": null,
+          "figmaSize": null,
+          "codeSize": null,
+          "storyUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage"
+        }
+      ],
+      "rendered": 1,
+      "unmapped": 0
     },
     {
       "key": "10422:5934",
@@ -3312,16 +4836,9 @@
     {
       "key": "13192:28371",
       "name": "Transport / Promotion Panel",
-      "status": "Missing in code",
-      "score": 0,
-      "match": null,
-      "suggestions": [
-        {
-          "name": "Promotion Panel",
-          "title": "Business Components/Promotion Panel",
-          "score": 0.75
-        }
-      ],
+      "status": "Broken",
+      "score": 35,
+      "match": "exact",
       "figma": {
         "id": "13192:28371",
         "name": "Transport / Promotion Panel",
@@ -3333,8 +4850,494 @@
         "variants": 4,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371"
       },
-      "code": null,
+      "code": {
+        "title": "Business Components/Promotion Panel",
+        "stories": 3,
+        "story": "business-components-promotion-panel--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage"
+      },
+      "props": {
+        "props": [
+          {
+            "figma": "Promotion Name",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Promotion name",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Condition",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Promotion conditions",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Expiry",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "Expires 08/10/26 • 11:59 GMT",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Voucher Code Text",
+            "figmaType": "TEXT",
+            "options": [],
+            "default": "XONSUWOS",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Tag Icon",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Show Promotion Condition",
+            "figmaType": "BOOLEAN",
+            "options": [],
+            "default": true,
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          },
+          {
+            "figma": "Type",
+            "figmaType": "VARIANT",
+            "options": [
+              "Default",
+              "Applied",
+              "Expired",
+              "Empty"
+            ],
+            "default": "Default",
+            "codeArg": null,
+            "how": "missing",
+            "values": []
+          }
+        ],
+        "codeOnly": [
+          {
+            "name": "title",
+            "type": "union",
+            "options": []
+          },
+          {
+            "name": "description",
+            "type": "union",
+            "options": []
+          },
+          {
+            "name": "drawerProps",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "modalProps",
+            "type": "other",
+            "options": []
+          },
+          {
+            "name": "visible",
+            "type": "boolean",
+            "options": []
+          },
+          {
+            "name": "list",
+            "type": "array",
+            "options": []
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "options": []
+          }
+        ]
+      },
       "checks": [
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component name",
+          "status": "fail",
+          "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+          "owner": "Both",
+          "detail": "Rename one side so any developer can map code to the design system immediately.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Rename one side so any developer can map code to the design system immediately.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-code",
+          "category": "Documentation",
+          "subject": "docs-code",
+          "label": "Storybook docs",
+          "status": "pass",
+          "title": "Has a Storybook docs page",
+          "owner": "Dev",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Documentation|docs-figma",
+          "category": "Documentation",
+          "subject": "docs-figma",
+          "label": "Figma description",
+          "status": "warn",
+          "title": "No description in Figma",
+          "owner": "Design",
+          "detail": null,
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Promotion Name",
+          "category": "Properties",
+          "subject": "prop:Promotion Name",
+          "label": "Property \"Promotion Name\"",
+          "status": "warn",
+          "title": "Figma property \"Promotion Name\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Condition",
+          "category": "Properties",
+          "subject": "prop:Condition",
+          "label": "Property \"Condition\"",
+          "status": "warn",
+          "title": "Figma property \"Condition\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Expiry",
+          "category": "Properties",
+          "subject": "prop:Expiry",
+          "label": "Property \"Expiry\"",
+          "status": "warn",
+          "title": "Figma property \"Expiry\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Voucher Code Text",
+          "category": "Properties",
+          "subject": "prop:Voucher Code Text",
+          "label": "Property \"Voucher Code Text\"",
+          "status": "warn",
+          "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "text property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Tag Icon",
+          "category": "Properties",
+          "subject": "prop:Show Tag Icon",
+          "label": "Property \"Show Tag Icon\"",
+          "status": "fail",
+          "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Show Promotion Condition",
+          "category": "Properties",
+          "subject": "prop:Show Promotion Condition",
+          "label": "Property \"Show Promotion Condition\"",
+          "status": "fail",
+          "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "boolean property",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "boolean property",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|prop:Type",
+          "category": "Properties",
+          "subject": "prop:Type",
+          "label": "Property \"Type\"",
+          "status": "fail",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "Values: Default, Applied, Expired, Empty",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Values: Default, Applied, Expired, Empty",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|code-only",
+          "category": "Properties",
+          "subject": "code-only",
+          "label": "Code-only props",
+          "status": "warn",
+          "title": "Code has props with no Figma property",
+          "owner": "Design",
+          "detail": "title, description, drawerProps, modalProps, visible, list, value",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "title, description, drawerProps, modalProps, visible, list, value",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|coverage",
+          "category": "Properties",
+          "subject": "coverage",
+          "label": "Variant coverage",
+          "status": "warn",
+          "title": "4 of 4 variants can't be shown in code",
+          "owner": "Both",
+          "detail": "Type=Default, Type=Applied, Type=Expired, Type=Empty",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Type=Default, Type=Applied, Type=Expired, Type=Empty",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -3869,40 +5872,11 @@
             "Type=Applied",
             "Type=Expired"
           ]
-        },
-        {
-          "key": "Naming|name",
-          "category": "Naming",
-          "subject": "name",
-          "label": "Component",
-          "status": "fail",
-          "title": "Not found in Storybook",
-          "owner": "Both",
-          "detail": "Possible matches: Business Components/Promotion Panel. Rename it, or add it to components.aliases.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "fail",
-              "brand": null,
-              "variant": null,
-              "detail": "Possible matches: Business Components/Promotion Panel. Rename it, or add it to components.aliases.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 1,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
         }
       ],
-      "gallery": []
+      "gallery": [],
+      "rendered": 0,
+      "unmapped": 4
     },
     {
       "key": "17603:24646",
@@ -4423,46 +6397,46 @@
     }
   ],
   "summary": {
-    "score": 0,
-    "headline": "0 of 15 Figma components match Storybook. 15 aren't built yet.",
+    "score": 6,
+    "headline": "0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.",
     "components": {
       "total": 15,
       "figma": 15,
-      "paired": 0,
+      "paired": 2,
       "aligned": 0,
       "drifted": 0,
-      "broken": 0,
-      "missingInCode": 15,
+      "broken": 2,
+      "missingInCode": 13,
       "missingInDesign": 0
     },
     "checks": {
-      "pass": 4,
-      "warn": 3,
-      "fail": 18
+      "pass": 18,
+      "warn": 25,
+      "fail": 25
     },
     "byCategory": {
       "Naming": {
-        "pass": 0,
+        "pass": 2,
         "warn": 0,
         "fail": 15
       },
       "Properties": {
         "pass": 0,
-        "warn": 0,
-        "fail": 0
+        "warn": 14,
+        "fail": 3
       },
       "Tokens": {
-        "pass": 0,
-        "warn": 0,
-        "fail": 0
+        "pass": 8,
+        "warn": 3,
+        "fail": 3
       },
       "Visual": {
         "pass": 0,
-        "warn": 0,
-        "fail": 0
+        "warn": 2,
+        "fail": 1
       },
       "Accessibility": {
-        "pass": 4,
+        "pass": 5,
         "warn": 3,
         "fail": 3
       },
@@ -4472,28 +6446,28 @@
         "fail": 0
       },
       "Rendering": {
-        "pass": 0,
-        "warn": 0,
+        "pass": 1,
+        "warn": 1,
         "fail": 0
       },
       "Documentation": {
-        "pass": 0,
-        "warn": 0,
+        "pass": 2,
+        "warn": 2,
         "fail": 0
       }
     },
     "byOwner": {
       "Design": {
-        "warn": 3,
+        "warn": 8,
         "fail": 3
       },
       "Dev": {
-        "warn": 0,
-        "fail": 0
+        "warn": 12,
+        "fail": 3
       },
       "Both": {
-        "warn": 0,
-        "fail": 15
+        "warn": 5,
+        "fail": 19
       }
     },
     "themes": [
@@ -4509,13 +6483,11 @@
           "eSim / Tile",
           "Fitness / Class Card",
           "Flight Delay / Benefit Card",
-          "Flight Delay / Flight Card",
           "Membership / Entitlement Card",
           "Membership / Membership Card",
           "Parking / Search Supercomponent",
           "Product Details",
           "Transport / List Item",
-          "Transport / Promotion Panel",
           "Transport / Search Supercomponent",
           "Web Page Details"
         ]
@@ -4533,12 +6505,104 @@
           "Transport / Promotion Panel",
           "Web Page Details"
         ]
+      },
+      {
+        "category": "Naming",
+        "title": "Component named differently in Figma and Storybook",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card",
+          "Transport / Promotion Panel"
+        ]
+      },
+      {
+        "category": "Tokens",
+        "title": "Label · Text colour differs from design",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card"
+        ]
+      },
+      {
+        "category": "Tokens",
+        "title": "Label · Font size differs from design",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card"
+        ]
+      },
+      {
+        "category": "Tokens",
+        "title": "Label · Line height differs from design",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card"
+        ]
+      },
+      {
+        "category": "Visual",
+        "title": "Height differs from design",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "Figma property missing in code",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Transport / Promotion Panel"
+        ]
+      },
+      {
+        "category": "Documentation",
+        "title": "No description in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Flight Delay / Flight Card",
+          "Transport / Promotion Panel"
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "State values without a code equivalent",
+        "status": "warn",
+        "owner": "Dev",
+        "components": [
+          "Flight Delay / Flight Card",
+          "Transport / Promotion Panel"
+        ]
       }
     ],
     "works": [
-      "37 of 45 design tokens have the same value in code across every brand"
+      "37 of 45 design tokens have the same value in code across every brand",
+      "No failures in: Rendering, Documentation",
+      "1 components render in Storybook without errors"
     ],
-    "brokenComponents": [],
+    "brokenComponents": [
+      {
+        "name": "Flight Delay / Flight Card",
+        "key": "17265:62617",
+        "reasons": [
+          "Height differs from design"
+        ]
+      },
+      {
+        "name": "Transport / Promotion Panel",
+        "key": "13192:28371",
+        "reasons": [
+          "Text contrast is too low in Figma"
+        ]
+      }
+    ],
     "issues": [
       {
         "component": "Dual Input",
@@ -4629,6 +6693,278 @@
       {
         "component": "Flight Delay / Flight Card",
         "componentKey": "17265:62617",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Documentation",
+        "subject": "docs-figma",
+        "status": "warn",
+        "title": "No description in Figma",
+        "detail": null,
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Airline Name",
+        "status": "warn",
+        "title": "Figma property \"Airline Name\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Departure Date",
+        "status": "warn",
+        "title": "Figma property \"Departure Date\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Departure Time",
+        "status": "warn",
+        "title": "Figma property \"Departure Time\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Departure Airport",
+        "status": "warn",
+        "title": "Figma property \"Departure Airport\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Arrival Date",
+        "status": "warn",
+        "title": "Figma property \"Arrival Date\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Arrival Time",
+        "status": "warn",
+        "title": "Figma property \"Arrival Time\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "prop:Arrival Airport",
+        "status": "warn",
+        "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "airline, from, to, airlineLogo, description",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Rendering",
+        "subject": "console",
+        "status": "warn",
+        "title": "Console errors while rendering",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "owner": "Dev",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "AeroBlue"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Tokens",
+        "subject": "token:Corner radius",
+        "status": "warn",
+        "title": "Corner radius isn't linked to a variable in Figma",
+        "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "AeroBlue"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Tokens",
+        "subject": "token:Horizontal padding",
+        "status": "warn",
+        "title": "Horizontal padding uses the design token under a different name",
+        "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "AeroBlue"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Tokens",
+        "subject": "token:Vertical padding",
+        "status": "warn",
+        "title": "Vertical padding uses the design token under a different name",
+        "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "AeroBlue"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Tokens",
+        "subject": "value:Label · Text colour",
+        "status": "fail",
+        "title": "Label · Text colour differs from design",
+        "detail": "Design #535252 (linked variable) · Code #333333",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Tokens",
+        "subject": "value:Label · Font size",
+        "status": "fail",
+        "title": "Label · Font size differs from design",
+        "detail": "Design 12px (linked variable) · Code 14px",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Tokens",
+        "subject": "value:Label · Line height",
+        "status": "fail",
+        "title": "Label · Line height differs from design",
+        "detail": "Design 14px (linked variable) · Code 20px",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Visual",
+        "subject": "pixels",
+        "status": "warn",
+        "title": "Visual differences",
+        "detail": "6.3% of pixels differ",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Visual",
+        "subject": "height",
+        "status": "fail",
+        "title": "Height differs from design",
+        "detail": "Design 136px · Code 146px",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "category": "Visual",
+        "subject": "width",
+        "status": "warn",
+        "title": "Width differs from design",
+        "detail": "Design 327px · Code 376px (label text may differ)",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -4639,18 +6975,6 @@
           "AeroBlue"
         ],
         "variants": 1
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card, Business Components/FlightCard. Rename it, or add it to components.aliases.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
       },
       {
         "component": "Membership / Entitlement Card",
@@ -4743,6 +7067,138 @@
       {
         "component": "Transport / Promotion Panel",
         "componentKey": "13192:28371",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Documentation",
+        "subject": "docs-figma",
+        "status": "warn",
+        "title": "No description in Figma",
+        "detail": null,
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Promotion Name",
+        "status": "warn",
+        "title": "Figma property \"Promotion Name\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Condition",
+        "status": "warn",
+        "title": "Figma property \"Condition\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Expiry",
+        "status": "warn",
+        "title": "Figma property \"Expiry\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Voucher Code Text",
+        "status": "warn",
+        "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Show Tag Icon",
+        "status": "fail",
+        "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Show Promotion Condition",
+        "status": "fail",
+        "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "prop:Type",
+        "status": "fail",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "detail": "Values: Default, Applied, Expired, Empty",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "title, description, drawerProps, modalProps, visible, list, value",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "category": "Properties",
+        "subject": "coverage",
+        "status": "warn",
+        "title": "4 of 4 variants can't be shown in code",
+        "detail": "Type=Default, Type=Applied, Type=Expired, Type=Empty",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -4753,18 +7209,6 @@
           "Dragonpass"
         ],
         "variants": 3
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Business Components/Promotion Panel. Rename it, or add it to components.aliases.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
       },
       {
         "component": "Transport / Search Supercomponent",
@@ -4808,9 +7252,14 @@
   },
   "a11y": {
     "ran": true,
-    "scans": 0,
+    "scans": 4,
     "designChecks": 79,
-    "brands": [],
+    "brands": [
+      "Dragonpass",
+      "Mastercard",
+      "Investec",
+      "AeroBlue"
+    ],
     "counts": {
       "critical": 0,
       "serious": 1,
@@ -4828,12 +7277,36 @@
     },
     "criteria": [
       {
+        "sc": "1.1.1",
+        "name": "Non-text content",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content",
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "1.3.1",
+        "name": "Info and relationships",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships",
+        "status": "pass",
+        "issues": 0
+      },
+      {
         "sc": "1.4.3",
         "name": "Contrast (minimum)",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "status": "fail",
         "issues": 1
+      },
+      {
+        "sc": "4.1.2",
+        "name": "Name, role, value",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value",
+        "status": "pass",
+        "issues": 0
       }
     ],
     "issues": [
@@ -5219,5 +7692,54 @@
         "occurrences": 27
       }
     ]
+  },
+  "delta": {
+    "since": "2026-11-18T10:19:48.297Z",
+    "previousScore": 0,
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Flight Delay / Flight Card",
+        "title": "Label · Text colour differs from design",
+        "category": "Tokens"
+      },
+      {
+        "status": "fail",
+        "component": "Flight Delay / Flight Card",
+        "title": "Label · Font size differs from design",
+        "category": "Tokens"
+      },
+      {
+        "status": "fail",
+        "component": "Flight Delay / Flight Card",
+        "title": "Label · Line height differs from design",
+        "category": "Tokens"
+      },
+      {
+        "status": "fail",
+        "component": "Flight Delay / Flight Card",
+        "title": "Height differs from design",
+        "category": "Visual"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Promotion Panel",
+        "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Promotion Panel",
+        "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+        "category": "Properties"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Promotion Panel",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "category": "Properties"
+      }
+    ],
+    "fixed": []
   }
 }
