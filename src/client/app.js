@@ -283,7 +283,7 @@
   function renderActivity() {
     const el = $('activity'); if (!el) return;
     if (!activityLog) return;
-    if (!activityLog.length) { el.innerHTML = '<li class="none">No activity yet. When someone ignores, restores or comments on an issue in a report, it shows here with their name.</li>'; return; }
+    if (!activityLog.length) { el.innerHTML = '<li class="none">No activity yet. When someone runs a check, or ignores, restores or comments on an issue, it shows here with their name.</li>'; return; }
     const shown = activityAll ? activityLog : activityLog.slice(0, 10);
     el.innerHTML = shown.map((x) => {
       const names = [...new Set((x.items || []).map((i) => i.componentName))];
@@ -292,15 +292,44 @@
       if (['run', 'run-all', 'add-check', 'remove-check'].indexOf(x.action) >= 0) {
         const nm = x.checkName || (((status && status.entries) || []).find((e) => e.id === x.check) || {}).name || x.check;
         const what = x.action === 'run-all' ? 'ran every check' : (x.action === 'run' ? 'ran ' : x.action === 'add-check' ? 'added the check ' : 'removed the check ') + (x.action === 'remove-check' ? esc(nm) : '<a href="' + esc(x.check) + '/">' + esc(nm) + '</a>');
-        return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + esc(x.by || 'Someone') + '</b> ' + what + '.</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
+        return '<li class="ev-' + esc(x.action) + isNew(x) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + esc(x.by || 'Someone') + '</b> ' + what + '.</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
       }
       const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
       const said = x.action === 'comment' ? x.text : x.reason;
-      return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 3 ? plural(names.length, 'component') : names.join(', ')) + ' in <a href="' + esc(x.check) + '/' + (x.action === 'ignore' || x.action === 'restore' ? '#archive' : '') + '">' + esc(x.checkName || x.check) + '</a>.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
+      return '<li class="ev-' + esc(x.action) + isNew(x) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 3 ? plural(names.length, 'component') : names.join(', ')) + ' in <a href="' + esc(x.check) + '/' + (x.action === 'ignore' || x.action === 'restore' ? '#archive' : '') + '">' + esc(x.checkName || x.check) + '</a>.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
     }).join('') + (activityLog.length > shown.length ? '<li class="none"><button type="button" class="linkbtn" id="actMore">Show all ' + activityLog.length + ' entries</button></li>' : '');
     const m = $('actMore'); if (m) m.onclick = () => { activityAll = true; renderActivity(); };
   }
-  fetch('activity.json?ts=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : { log: [] })).catch(() => ({ log: [] })).then((j) => { activityLog = j.log || []; renderActivity(); });
+  // The menu in the top bar: a count of what's new since you last opened it, refreshed every minute
+  let seenAt = store.get('actSeen', null);
+  let lastSeen = seenAt;
+  const isNew = (x) => (lastSeen && x.at > lastSeen ? ' new' : '');
+  function renderUnread() {
+    const n = (activityLog || []).filter((x) => !seenAt || x.at > seenAt).length;
+    const u = $('actUnread'); const b = $('actBtn');
+    u.hidden = !n || !seenAt; u.textContent = n > 9 ? '9+' : String(n);
+    b.setAttribute('aria-label', 'Team activity' + (n && seenAt ? ', ' + n + ' new' : ''));
+  }
+  function loadActivity() {
+    return fetch('activity.json?ts=' + Date.now(), { cache: 'no-store' }).then((r) => (r.ok ? r.json() : null)).catch(() => null).then((j) => {
+      if (!j) { if (!activityLog) { activityLog = []; renderActivity(); } return; }
+      activityLog = j.log || [];
+      if (!seenAt) { seenAt = activityLog[0] ? activityLog[0].at : new Date().toISOString(); store.set('actSeen', seenAt); lastSeen = seenAt; }
+      renderActivity(); renderUnread();
+    });
+  }
+  loadActivity(); setInterval(() => { if (!document.hidden) loadActivity(); }, 60000);
+  function setActOpen(open, focusBack) {
+    $('actPanel').hidden = !open; $('actBtn').setAttribute('aria-expanded', String(open));
+    if (open) {
+      lastSeen = seenAt; renderActivity();
+      if (activityLog && activityLog[0]) { seenAt = activityLog[0].at; store.set('actSeen', seenAt); }
+      renderUnread();
+    } else if (focusBack) $('actBtn').focus();
+  }
+  $('actBtn').addEventListener('click', () => setActOpen($('actPanel').hidden));
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('actPanel').hidden) setActOpen(false, true); });
+  document.addEventListener('click', (e) => { if (!$('actPanel').hidden && !e.target.closest('.actmenu')) setActOpen(false); });
 
   let settled = false;
   function renderOverview() {

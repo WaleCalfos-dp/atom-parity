@@ -201,6 +201,30 @@ await page.emulateMedia({ colorScheme: 'light' });
 await page.reload(); await page.waitForSelector('.card'); await page.waitForTimeout(1600);
 await axeCheck('home');
 
+// ---- Team activity lives in a menu in the top bar, with a count of what's new
+await page.route('**/activity.json*', (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify({ log: [
+  { at: '2026-11-18T17:25:00Z', action: 'run', check: st.entries[0].id, checkName: st.entries[0].name, by: 'Yana Petrova', items: [] },
+  { at: '2026-11-18T16:40:00Z', action: 'ignore', check: st.entries[0].id, by: 'Wale Calfos', reason: 'Brand exception', items: [{ component: 'a', key: 'k', title: 'Height differs', componentName: 'Button' }] },
+] }) }));
+await page.evaluate(() => localStorage.setItem('ap.actSeen', JSON.stringify('2026-11-18T17:00:00Z')));
+await page.goto(BASE); await page.waitForSelector('.card');
+assert.equal(await page.locator('#activity').isVisible(), false, 'activity is tucked into the menu');
+await page.waitForFunction(() => document.getElementById('actUnread').textContent === '1' && !document.getElementById('actUnread').hidden);
+await page.click('#actBtn');
+await page.waitForSelector('#actPanel:not([hidden])');
+assert.match(await page.textContent('#activity'), /Yana Petrova ran/);
+assert.match(await page.textContent('#activity'), /Wale Calfos ignored/);
+assert.equal(await page.locator('#activity li.new').count(), 1, 'the new entry is marked');
+assert.equal(await page.isHidden('#actUnread'), true, 'opening clears the count');
+assert.equal(await page.getAttribute('#actBtn', 'aria-expanded'), 'true');
+await page.screenshot({ path: '/tmp/app-activity.png' });
+await axeCheck('activity menu');
+await page.keyboard.press('Escape');
+assert.equal(await page.isHidden('#actPanel'), true, 'Escape closes the menu');
+assert.equal(await page.evaluate(() => document.activeElement.id), 'actBtn', 'focus returns to the button');
+await page.click('#actBtn'); await page.click('h1'); assert.equal(await page.isHidden('#actPanel'), true, 'clicking outside closes it');
+await page.unroute('**/activity.json*');
+
 // ---- Team relay: no GitHub account, just a name
 fs.writeFileSync(path.join(SITE, 'relay.json'), JSON.stringify({ url: 'https://relay.test/' }));
 const rl = { posts: [], reads: [] };

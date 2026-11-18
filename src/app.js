@@ -39,6 +39,13 @@ ${FONTS}
 <header class="topbar"><div class="in">
   <a class="home" href="./">${MARK}<span class="brand"><b>Atom parity</b><span>Atom Design System</span></span></a>
   <span class="spacer"></span>
+  <div class="actmenu">
+    <button class="actbtn" id="actBtn" type="button" aria-expanded="false" aria-controls="actPanel"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 5.5V10l3 2"/><circle cx="10" cy="10" r="7"/></svg><span>Activity</span><b class="unread" id="actUnread" hidden></b></button>
+    <div class="actpanel" id="actPanel" role="region" aria-labelledby="actTitle" hidden>
+      <div class="actpanel-head"><h2 id="actTitle">Team activity</h2><span>Who ran, ignored, restored and commented</span></div>
+      <ol class="activity" id="activity"><li class="none">Loading activity</li></ol>
+    </div>
+  </div>
   <button class="conn off" id="connBtn" type="button"><i aria-hidden="true"></i><span id="connLabel">Connect GitHub</span></button>
 </div></header>
 
@@ -78,10 +85,6 @@ ${FONTS}
     <div class="groups" id="grid"><div class="empty-state"><b>Loading checks</b></div></div>
   </section>
 
-  <section class="team" aria-labelledby="actTitle">
-    <div class="sec-head"><h2 id="actTitle">Team activity</h2><span class="sec-note">Every run, ignore, restore and comment, with who did it. Newest first.</span></div>
-    <ol class="activity" id="activity"><li class="none">Loading activity</li></ol>
-  </section>
 </main>
 
 <footer class="site"><div class="in"><span>Reports are public to anyone with the link. Accessibility results come from automated checks, which find about a third of issues.</span>${repo ? `<a href="https://github.com/${esc(repo)}">Source and settings</a>` : ''}</div></footer>
