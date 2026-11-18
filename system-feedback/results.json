@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:12:39.271Z",
-    "durationMs": 137690,
+    "generatedAt": "2026-11-18T10:42:04.794Z",
+    "durationMs": 88689,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:11:31.337Z",
+      "exportedAt": "2026-11-18T10:41:18.918Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -10846,7 +10846,8 @@
       "drifted": 5,
       "broken": 0,
       "missingInCode": 6,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 26,
@@ -10922,6 +10923,44 @@
           "Progress Bar / Percentage",
           "Progress Bar / Steps",
           "Progress Bar / Tracker"
+        ],
+        "items": [
+          {
+            "component": "16012:24876",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Journey Wizard"
+          },
+          {
+            "component": "17148:8917",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Loading Modal"
+          },
+          {
+            "component": "17074:30102",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Progress Bar / Animated"
+          },
+          {
+            "component": "1685:4000",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Progress Bar / Percentage"
+          },
+          {
+            "component": "12768:3167",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Progress Bar / Steps"
+          },
+          {
+            "component": "12738:392",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Progress Bar / Tracker"
+          }
         ]
       },
       {
@@ -10935,6 +10974,134 @@
           "Loading Indicator",
           "Toast",
           "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "1151:40938",
+            "key": "Properties|prop:Show Button",
+            "title": "Figma property \"Show Button\" has no equivalent in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "1151:40938",
+            "key": "Properties|prop:Show Description",
+            "title": "Figma property \"Show Description\" has no equivalent in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "1151:40938",
+            "key": "Properties|prop:Show Close Icon",
+            "title": "Figma property \"Show Close Icon\" has no equivalent in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "1151:40938",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Buttons",
+            "title": "Figma property \"Show Buttons\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Slot 2",
+            "title": "Figma property \"Show Slot 2\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Slot 1",
+            "title": "Figma property \"Show Slot 1\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Description",
+            "title": "Figma property \"Show Description\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Icon",
+            "title": "Figma property \"Show Icon\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Close Icon",
+            "title": "Figma property \"Show Close Icon\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Show Subtitle",
+            "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Status",
+            "title": "Figma property \"Status\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Breakpoint",
+            "title": "Figma property \"Breakpoint\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "15577:80832",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "Loading Indicator"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Toast"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Properties|prop:Lines of Text",
+            "title": "Figma property \"Lines of Text\" has no equivalent in code",
+            "componentName": "Toast"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|prop:Show Icon Right",
+            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|prop:Tip Centred",
+            "title": "Figma property \"Tip Centred\" has no equivalent in code",
+            "componentName": "Tooltip"
+          }
         ]
       },
       {
@@ -10947,6 +11114,50 @@
           "Dialog",
           "Toast",
           "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Naming|prop:Show Title",
+            "title": "Figma \"Show Title\" is \"title\" in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "1151:40938",
+            "key": "Naming|prop:Status",
+            "title": "Figma \"Status\" is \"type\" in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Naming|prop:Show Title",
+            "title": "Figma \"Show Title\" is \"title\" in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Naming|prop:Status",
+            "title": "Figma \"Status\" is \"type\" in code",
+            "componentName": "Toast"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Naming|prop:Show Title",
+            "title": "Figma \"Show Title\" is \"title\" in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Naming|prop:Show Description",
+            "title": "Figma \"Show Description\" is \"description\" in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Naming|prop:Tip Direction",
+            "title": "Figma \"Tip Direction\" is \"placement\" in code",
+            "componentName": "Tooltip"
+          }
         ]
       },
       {
@@ -10958,6 +11169,26 @@
           "Alert",
           "Toast",
           "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Properties|values:Status",
+            "title": "Status values missing in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Properties|values:Status",
+            "title": "Status values missing in code",
+            "componentName": "Toast"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|values:Tip Direction",
+            "title": "Tip Direction values missing in code",
+            "componentName": "Tooltip"
+          }
         ]
       },
       {
@@ -10967,6 +11198,14 @@
         "owner": "Both",
         "components": [
           "Loading Indicator"
+        ],
+        "items": [
+          {
+            "component": "15577:80832",
+            "key": "Naming|name",
+            "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
+            "componentName": "Loading Indicator"
+          }
         ]
       },
       {
@@ -10980,6 +11219,38 @@
           "Loading Indicator",
           "Toast",
           "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Alert"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "15577:80832",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Loading Indicator"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Toast"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Tooltip"
+          }
         ]
       },
       {
@@ -10992,6 +11263,32 @@
           "Journey Wizard",
           "Loading Modal",
           "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Alert"
+          },
+          {
+            "component": "16012:24876",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Journey Wizard"
+          },
+          {
+            "component": "17148:8917",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Loading Modal"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Tooltip"
+          }
         ]
       },
       {
@@ -11003,6 +11300,32 @@
           "Alert",
           "Dialog",
           "Toast"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Properties|prop:Description",
+            "title": "Figma property \"Description\" has no equivalent in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Description",
+            "title": "Figma property \"Description\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Subtitle",
+            "title": "Figma property \"Subtitle\" has no equivalent in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Properties|prop:Description",
+            "title": "Figma property \"Description\" has no equivalent in code",
+            "componentName": "Toast"
+          }
         ]
       },
       {
@@ -11014,6 +11337,26 @@
           "Alert",
           "Dialog",
           "Toast"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Properties|coverage",
+            "title": "10 of 10 variants can't be shown in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|coverage",
+            "title": "10 of 10 variants can't be shown in code",
+            "componentName": "Dialog"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Properties|coverage",
+            "title": "10 of 10 variants can't be shown in code",
+            "componentName": "Toast"
+          }
         ]
       },
       {
@@ -11024,6 +11367,32 @@
         "components": [
           "Alert",
           "Toast"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Naming|retired:Status:Error",
+            "title": "\"Error\" is a retired term",
+            "componentName": "Alert"
+          },
+          {
+            "component": "1151:40938",
+            "key": "Naming|retired-code:type:error",
+            "title": "\"error\" is a retired term in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Naming|retired:Status:Error",
+            "title": "\"Error\" is a retired term",
+            "componentName": "Toast"
+          },
+          {
+            "component": "7839:97889",
+            "key": "Naming|retired-code:type:error",
+            "title": "\"error\" is a retired term in code",
+            "componentName": "Toast"
+          }
         ]
       }
     ],
@@ -11031,11 +11400,13 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Accessibility, Documentation"
     ],
+    "ignored": [],
     "brokenComponents": [],
     "issues": [
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -11048,6 +11419,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Button",
         "category": "Properties",
         "subject": "prop:Show Button",
         "status": "fail",
@@ -11060,6 +11432,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Naming|prop:Show Title",
         "category": "Naming",
         "subject": "prop:Show Title",
         "status": "warn",
@@ -11072,6 +11445,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Description",
         "category": "Properties",
         "subject": "prop:Show Description",
         "status": "fail",
@@ -11084,6 +11458,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Close Icon",
         "category": "Properties",
         "subject": "prop:Show Close Icon",
         "status": "fail",
@@ -11096,6 +11471,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Description",
         "category": "Properties",
         "subject": "prop:Description",
         "status": "warn",
@@ -11108,6 +11484,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Naming|prop:Status",
         "category": "Naming",
         "subject": "prop:Status",
         "status": "fail",
@@ -11120,6 +11497,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|values:Status",
         "category": "Properties",
         "subject": "values:Status",
         "status": "fail",
@@ -11132,6 +11510,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Naming|retired:Status:Error",
         "category": "Naming",
         "subject": "retired:Status:Error",
         "status": "warn",
@@ -11144,6 +11523,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -11156,6 +11536,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Naming|retired-code:type:error",
         "category": "Naming",
         "subject": "retired-code:type:error",
         "status": "warn",
@@ -11168,6 +11549,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11180,6 +11562,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -11192,6 +11575,7 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -11206,6 +11590,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Description",
         "category": "Properties",
         "subject": "prop:Description",
         "status": "warn",
@@ -11218,6 +11603,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Buttons",
         "category": "Properties",
         "subject": "prop:Show Buttons",
         "status": "fail",
@@ -11230,6 +11616,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Slot 2",
         "category": "Properties",
         "subject": "prop:Show Slot 2",
         "status": "fail",
@@ -11242,6 +11629,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Slot 1",
         "category": "Properties",
         "subject": "prop:Show Slot 1",
         "status": "fail",
@@ -11254,6 +11642,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Description",
         "category": "Properties",
         "subject": "prop:Show Description",
         "status": "fail",
@@ -11266,6 +11655,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Naming|prop:Show Title",
         "category": "Naming",
         "subject": "prop:Show Title",
         "status": "warn",
@@ -11278,6 +11668,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Icon",
         "category": "Properties",
         "subject": "prop:Show Icon",
         "status": "fail",
@@ -11290,6 +11681,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Close Icon",
         "category": "Properties",
         "subject": "prop:Show Close Icon",
         "status": "fail",
@@ -11302,6 +11694,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Subtitle",
         "category": "Properties",
         "subject": "prop:Show Subtitle",
         "status": "fail",
@@ -11314,6 +11707,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Subtitle",
         "category": "Properties",
         "subject": "prop:Subtitle",
         "status": "warn",
@@ -11326,6 +11720,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -11338,6 +11733,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Status",
         "category": "Properties",
         "subject": "prop:Status",
         "status": "fail",
@@ -11350,6 +11746,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Breakpoint",
         "category": "Properties",
         "subject": "prop:Breakpoint",
         "status": "fail",
@@ -11362,6 +11759,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11374,6 +11772,7 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -11386,6 +11785,7 @@
       {
         "component": "Journey Wizard",
         "componentKey": "16012:24876",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -11400,6 +11800,7 @@
       {
         "component": "Journey Wizard",
         "componentKey": "16012:24876",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11412,6 +11813,7 @@
       {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11424,6 +11826,7 @@
       {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -11436,6 +11839,7 @@
       {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -11448,6 +11852,7 @@
       {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11460,6 +11865,7 @@
       {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -11472,6 +11878,7 @@
       {
         "component": "Loading Modal",
         "componentKey": "17148:8917",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -11486,6 +11893,7 @@
       {
         "component": "Loading Modal",
         "componentKey": "17148:8917",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11498,6 +11906,7 @@
       {
         "component": "Progress Bar / Animated",
         "componentKey": "17074:30102",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11510,6 +11919,7 @@
       {
         "component": "Progress Bar / Percentage",
         "componentKey": "1685:4000",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11522,6 +11932,7 @@
       {
         "component": "Progress Bar / Steps",
         "componentKey": "12768:3167",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11534,6 +11945,7 @@
       {
         "component": "Progress Bar / Tracker",
         "componentKey": "12738:392",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11546,6 +11958,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -11558,6 +11971,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -11570,6 +11984,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|prop:Description",
         "category": "Properties",
         "subject": "prop:Description",
         "status": "warn",
@@ -11582,6 +11997,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Naming|prop:Status",
         "category": "Naming",
         "subject": "prop:Status",
         "status": "fail",
@@ -11594,6 +12010,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|values:Status",
         "category": "Properties",
         "subject": "values:Status",
         "status": "fail",
@@ -11606,6 +12023,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Naming|retired:Status:Error",
         "category": "Naming",
         "subject": "retired:Status:Error",
         "status": "warn",
@@ -11618,6 +12036,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|prop:Lines of Text",
         "category": "Properties",
         "subject": "prop:Lines of Text",
         "status": "fail",
@@ -11630,6 +12049,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Naming|retired-code:type:error",
         "category": "Naming",
         "subject": "retired-code:type:error",
         "status": "warn",
@@ -11642,6 +12062,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11654,6 +12075,7 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -11666,6 +12088,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -11678,6 +12101,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Naming|prop:Show Title",
         "category": "Naming",
         "subject": "prop:Show Title",
         "status": "warn",
@@ -11690,6 +12114,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Naming|prop:Show Description",
         "category": "Naming",
         "subject": "prop:Show Description",
         "status": "warn",
@@ -11702,6 +12127,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Right",
         "category": "Properties",
         "subject": "prop:Show Icon Right",
         "status": "fail",
@@ -11714,6 +12140,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Naming|prop:Tip Direction",
         "category": "Naming",
         "subject": "prop:Tip Direction",
         "status": "fail",
@@ -11726,6 +12153,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|values:Tip Direction",
         "category": "Properties",
         "subject": "values:Tip Direction",
         "status": "fail",
@@ -11738,6 +12166,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|prop:Tip Centred",
         "category": "Properties",
         "subject": "prop:Tip Centred",
         "status": "fail",
@@ -11750,6 +12179,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11762,6 +12192,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -11774,6 +12205,7 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -11823,6 +12255,32 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Alert"
+          },
+          {
+            "component": "16012:24876",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Journey Wizard"
+          },
+          {
+            "component": "17148:8917",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Loading Modal"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Tooltip"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -11858,6 +12316,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Alert",
             "componentKey": "1151:40938",
             "brand": "AeroBlue",
@@ -11890,6 +12350,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Journey Wizard",
             "componentKey": "16012:24876",
             "brand": "AeroBlue",
@@ -11914,6 +12376,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Loading Modal",
             "componentKey": "17148:8917",
             "brand": "AeroBlue",
@@ -11939,6 +12403,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tooltip",
             "componentKey": "8560:2779",
             "brand": "Mastercard",
@@ -11969,6 +12435,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tooltip",
             "componentKey": "8560:2779",
             "brand": "Investec",
@@ -11999,6 +12467,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tooltip",
             "componentKey": "8560:2779",
             "brand": "Assurant",
@@ -12029,6 +12499,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tooltip",
             "componentKey": "8560:2779",
             "brand": "AeroBlue",
@@ -12059,6 +12531,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tooltip",
             "componentKey": "8560:2779",
             "brand": "Visa Affluent",
@@ -12094,34 +12568,9 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T16:31:47.978Z",
-    "previousScore": 19,
-    "newFails": [
-      {
-        "status": "fail",
-        "component": "Toast",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Toast",
-        "title": "Figma \"Status\" is \"type\" in code",
-        "category": "Naming"
-      },
-      {
-        "status": "fail",
-        "component": "Toast",
-        "title": "Status values missing in code",
-        "category": "Properties"
-      },
-      {
-        "status": "fail",
-        "component": "Toast",
-        "title": "Figma property \"Lines of Text\" has no equivalent in code",
-        "category": "Properties"
-      }
-    ],
+    "since": "2026-11-18T10:00:01.507Z",
+    "previousScore": 22,
+    "newFails": [],
     "fixed": []
   }
 }

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T16:36:01.866Z",
-    "durationMs": 253853,
+    "generatedAt": "2026-11-18T10:44:19.290Z",
+    "durationMs": 134454,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T16:29:38Z"
+        "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-17T16:34:58.925Z",
+      "exportedAt": "2026-11-18T10:43:32.284Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -12157,7 +12157,8 @@
       "drifted": 5,
       "broken": 1,
       "missingInCode": 7,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 31,
@@ -12234,6 +12235,50 @@
           "Module Node",
           "Slot",
           "Text Card"
+        ],
+        "items": [
+          {
+            "component": "1888:5974",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Badge"
+          },
+          {
+            "component": "4205:24535",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Data Group"
+          },
+          {
+            "component": "15567:40690",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Empty State"
+          },
+          {
+            "component": "15169:82295",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Image Card"
+          },
+          {
+            "component": "7653:2736",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Module Node"
+          },
+          {
+            "component": "399:5505",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Slot"
+          },
+          {
+            "component": "15169:82432",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Text Card"
+          }
         ]
       },
       {
@@ -12248,6 +12293,272 @@
           "List",
           "QR Code",
           "Steps"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Subtitle",
+            "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Badge",
+            "title": "Figma property \"Show Badge\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Slot",
+            "title": "Figma property \"Show Slot\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Country Flag",
+            "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Expanded Description",
+            "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Supportive Text",
+            "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Show Supportive Content",
+            "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Opened",
+            "title": "Figma property \"Opened\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "14347:6046",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "Content Block"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Chevron Right",
+            "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Badge",
+            "title": "Figma property \"Show Badge\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Content Right",
+            "title": "Figma property \"Show Content Right\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Country Flags",
+            "title": "Figma property \"Show Country Flags\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Data 1",
+            "title": "Figma property \"Show Data 1\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Data 2",
+            "title": "Figma property \"Show Data 2\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Data 3",
+            "title": "Figma property \"Show Data 3\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Button",
+            "title": "Figma property \"Show Button\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Show Icon Right",
+            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Position",
+            "title": "Figma property \"Position\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "14969:20257",
+            "key": "Properties|prop:container",
+            "title": "Figma property \"container\" has no equivalent in code",
+            "componentName": "List"
+          },
+          {
+            "component": "14969:20257",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "List"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Content Top",
+            "title": "Figma property \"Show Content Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Logo",
+            "title": "Figma property \"Show Logo\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Subtitle Top",
+            "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Offer",
+            "title": "Figma property \"Show Offer\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Description",
+            "title": "Figma property \"Show Description\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Name and Card Number",
+            "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Details with Logo",
+            "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Body",
+            "title": "Figma property \"Show Body\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Description Slot",
+            "title": "Figma property \"Show Description Slot\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Icon Top",
+            "title": "Figma property \"Show Icon Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Title Top",
+            "title": "Figma property \"Show Title Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Button",
+            "title": "Figma property \"Show Button\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Slot Top",
+            "title": "Figma property \"Show Slot Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Code Status",
+            "title": "Figma property \"Show Code Status\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Code",
+            "title": "Figma property \"Show Code\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Show Counter",
+            "title": "Figma property \"Show Counter\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Properties|prop:Count",
+            "title": "Figma property \"Count\" has no equivalent in code",
+            "componentName": "Steps"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Properties|prop:Background Fill",
+            "title": "Figma property \"Background Fill\" has no equivalent in code",
+            "componentName": "Steps"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "Steps"
+          }
         ]
       },
       {
@@ -12261,6 +12572,38 @@
           "Empty State",
           "Module Node",
           "QR Code"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "1888:5974",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Badge"
+          },
+          {
+            "component": "15567:40690",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Empty State"
+          },
+          {
+            "component": "7653:2736",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Module Node"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "QR Code"
+          }
         ]
       },
       {
@@ -12271,6 +12614,20 @@
         "components": [
           "Data Row",
           "QR Code"
+        ],
+        "items": [
+          {
+            "component": "2991:63143",
+            "key": "Naming|prop:Type",
+            "title": "Figma \"Type\" is \"direction\" in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Naming|prop:Show Caption",
+            "title": "Figma \"Show Caption\" is \"caption\" in code",
+            "componentName": "QR Code"
+          }
         ]
       },
       {
@@ -12281,6 +12638,20 @@
         "components": [
           "Data Row",
           "QR Code"
+        ],
+        "items": [
+          {
+            "component": "2991:63143",
+            "key": "Properties|values:Type",
+            "title": "Type values missing in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|values:Type",
+            "title": "Type values missing in code",
+            "componentName": "QR Code"
+          }
         ]
       },
       {
@@ -12290,6 +12661,14 @@
         "owner": "Both",
         "components": [
           "Accordion"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Naming|name",
+            "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
+            "componentName": "Accordion"
+          }
         ]
       },
       {
@@ -12304,6 +12683,44 @@
           "List",
           "QR Code",
           "Steps"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "14347:6046",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Content Block"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "14969:20257",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "List"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Steps"
+          }
         ]
       },
       {
@@ -12316,6 +12733,32 @@
           "Data Row",
           "QR Code",
           "Steps"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Properties|default:Filled",
+            "title": "Default Filled differs",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|default:Type",
+            "title": "Default Type differs",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|default:Type",
+            "title": "Default Type differs",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Properties|default:Direction",
+            "title": "Default Direction differs",
+            "componentName": "Steps"
+          }
         ]
       },
       {
@@ -12327,6 +12770,86 @@
           "Accordion",
           "Data Row",
           "QR Code"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Title",
+            "title": "Figma property \"Title\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Subtitle",
+            "title": "Figma property \"Subtitle\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Expanded Description",
+            "title": "Figma property \"Expanded Description\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Supportive Text",
+            "title": "Figma property \"Supportive Text\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:State",
+            "title": "State values with no code equivalent: Disabled",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Label",
+            "title": "Figma property \"Label\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Data 1",
+            "title": "Figma property \"Data 1\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Data 2",
+            "title": "Figma property \"Data 2\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Data 3",
+            "title": "Figma property \"Data 3\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Subtitle Top",
+            "title": "Figma property \"Subtitle Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Title Top",
+            "title": "Figma property \"Title Top\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:Code Status",
+            "title": "Figma property \"Code Status\" has no equivalent in code",
+            "componentName": "QR Code"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:State",
+            "title": "State values with no code equivalent: Generating",
+            "componentName": "QR Code"
+          }
         ]
       },
       {
@@ -12338,6 +12861,26 @@
           "Content Block",
           "List",
           "QR Code"
+        ],
+        "items": [
+          {
+            "component": "14347:6046",
+            "key": "Documentation|docs-figma",
+            "title": "No description in Figma",
+            "componentName": "Content Block"
+          },
+          {
+            "component": "14969:20257",
+            "key": "Documentation|docs-figma",
+            "title": "No description in Figma",
+            "componentName": "List"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Documentation|docs-figma",
+            "title": "No description in Figma",
+            "componentName": "QR Code"
+          }
         ]
       }
     ],
@@ -12345,6 +12888,7 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
+    "ignored": [],
     "brokenComponents": [
       {
         "name": "Accordion",
@@ -12358,6 +12902,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12370,6 +12915,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -12382,6 +12928,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Subtitle",
         "category": "Properties",
         "subject": "prop:Show Subtitle",
         "status": "fail",
@@ -12394,6 +12941,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Badge",
         "category": "Properties",
         "subject": "prop:Show Badge",
         "status": "fail",
@@ -12406,6 +12954,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Slot",
         "category": "Properties",
         "subject": "prop:Show Slot",
         "status": "fail",
@@ -12418,6 +12967,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Title",
         "category": "Properties",
         "subject": "prop:Title",
         "status": "warn",
@@ -12430,6 +12980,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Subtitle",
         "category": "Properties",
         "subject": "prop:Subtitle",
         "status": "warn",
@@ -12442,6 +12993,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Expanded Description",
         "category": "Properties",
         "subject": "prop:Expanded Description",
         "status": "warn",
@@ -12454,6 +13006,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Country Flag",
         "category": "Properties",
         "subject": "prop:Show Country Flag",
         "status": "fail",
@@ -12466,6 +13019,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Expanded Description",
         "category": "Properties",
         "subject": "prop:Show Expanded Description",
         "status": "fail",
@@ -12478,6 +13032,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Supportive Text",
         "category": "Properties",
         "subject": "prop:Supportive Text",
         "status": "warn",
@@ -12490,6 +13045,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Supportive Text",
         "category": "Properties",
         "subject": "prop:Show Supportive Text",
         "status": "fail",
@@ -12502,6 +13058,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Show Supportive Content",
         "category": "Properties",
         "subject": "prop:Show Supportive Content",
         "status": "fail",
@@ -12514,6 +13071,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:State",
         "category": "Properties",
         "subject": "prop:State",
         "status": "warn",
@@ -12526,6 +13084,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -12538,6 +13097,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|prop:Opened",
         "category": "Properties",
         "subject": "prop:Opened",
         "status": "fail",
@@ -12550,6 +13110,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|default:Filled",
         "category": "Properties",
         "subject": "default:Filled",
         "status": "warn",
@@ -12562,6 +13123,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12574,6 +13136,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12586,6 +13149,7 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -12600,6 +13164,7 @@
       {
         "component": "Badge",
         "componentKey": "1888:5974",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -12618,6 +13183,7 @@
       {
         "component": "Badge",
         "componentKey": "1888:5974",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12630,6 +13196,7 @@
       {
         "component": "Content Block",
         "componentKey": "14347:6046",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -12642,6 +13209,7 @@
       {
         "component": "Content Block",
         "componentKey": "14347:6046",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -12654,6 +13222,7 @@
       {
         "component": "Content Block",
         "componentKey": "14347:6046",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12666,6 +13235,7 @@
       {
         "component": "Content Block",
         "componentKey": "14347:6046",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12678,6 +13248,7 @@
       {
         "component": "Data Group",
         "componentKey": "4205:24535",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12690,6 +13261,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Chevron Right",
         "category": "Properties",
         "subject": "prop:Show Chevron Right",
         "status": "fail",
@@ -12702,6 +13274,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Label",
         "category": "Properties",
         "subject": "prop:Label",
         "status": "warn",
@@ -12714,6 +13287,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Badge",
         "category": "Properties",
         "subject": "prop:Show Badge",
         "status": "fail",
@@ -12726,6 +13300,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Data 1",
         "category": "Properties",
         "subject": "prop:Data 1",
         "status": "warn",
@@ -12738,6 +13313,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -12750,6 +13326,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Content Right",
         "category": "Properties",
         "subject": "prop:Show Content Right",
         "status": "fail",
@@ -12762,6 +13339,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Country Flags",
         "category": "Properties",
         "subject": "prop:Show Country Flags",
         "status": "fail",
@@ -12774,6 +13352,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Data 1",
         "category": "Properties",
         "subject": "prop:Show Data 1",
         "status": "fail",
@@ -12786,6 +13365,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Data 2",
         "category": "Properties",
         "subject": "prop:Show Data 2",
         "status": "fail",
@@ -12798,6 +13378,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Data 3",
         "category": "Properties",
         "subject": "prop:Show Data 3",
         "status": "fail",
@@ -12810,6 +13391,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Data 2",
         "category": "Properties",
         "subject": "prop:Data 2",
         "status": "warn",
@@ -12822,6 +13404,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Data 3",
         "category": "Properties",
         "subject": "prop:Data 3",
         "status": "warn",
@@ -12834,6 +13417,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Button",
         "category": "Properties",
         "subject": "prop:Show Button",
         "status": "fail",
@@ -12846,6 +13430,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Icon Right",
         "category": "Properties",
         "subject": "prop:Show Icon Right",
         "status": "fail",
@@ -12858,6 +13443,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Naming|prop:Type",
         "category": "Naming",
         "subject": "prop:Type",
         "status": "fail",
@@ -12870,6 +13456,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|values:Type",
         "category": "Properties",
         "subject": "values:Type",
         "status": "fail",
@@ -12882,6 +13469,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|default:Type",
         "category": "Properties",
         "subject": "default:Type",
         "status": "warn",
@@ -12894,6 +13482,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|prop:Position",
         "category": "Properties",
         "subject": "prop:Position",
         "status": "fail",
@@ -12906,6 +13495,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12918,6 +13508,7 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12930,6 +13521,7 @@
       {
         "component": "Empty State",
         "componentKey": "15567:40690",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -12944,6 +13536,7 @@
       {
         "component": "Empty State",
         "componentKey": "15567:40690",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12956,6 +13549,7 @@
       {
         "component": "Image Card",
         "componentKey": "15169:82295",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12968,6 +13562,7 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
+        "key": "Naming|group",
         "category": "Naming",
         "subject": "group",
         "status": "warn",
@@ -12980,6 +13575,7 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -12992,6 +13588,7 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
+        "key": "Properties|prop:container",
         "category": "Properties",
         "subject": "prop:container",
         "status": "fail",
@@ -13004,6 +13601,7 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -13016,6 +13614,7 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -13028,6 +13627,7 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -13040,6 +13640,7 @@
       {
         "component": "Module Node",
         "componentKey": "7653:2736",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -13054,6 +13655,7 @@
       {
         "component": "Module Node",
         "componentKey": "7653:2736",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -13066,6 +13668,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -13078,6 +13681,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Content Top",
         "category": "Properties",
         "subject": "prop:Show Content Top",
         "status": "fail",
@@ -13090,6 +13694,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Logo",
         "category": "Properties",
         "subject": "prop:Show Logo",
         "status": "fail",
@@ -13102,6 +13707,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Subtitle Top",
         "category": "Properties",
         "subject": "prop:Show Subtitle Top",
         "status": "fail",
@@ -13114,6 +13720,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Offer",
         "category": "Properties",
         "subject": "prop:Show Offer",
         "status": "fail",
@@ -13126,6 +13733,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Description",
         "category": "Properties",
         "subject": "prop:Show Description",
         "status": "fail",
@@ -13138,6 +13746,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Name and Card Number",
         "category": "Properties",
         "subject": "prop:Show Name and Card Number",
         "status": "fail",
@@ -13150,6 +13759,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Details with Logo",
         "category": "Properties",
         "subject": "prop:Show Details with Logo",
         "status": "fail",
@@ -13162,6 +13772,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Body",
         "category": "Properties",
         "subject": "prop:Show Body",
         "status": "fail",
@@ -13174,6 +13785,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Subtitle Top",
         "category": "Properties",
         "subject": "prop:Subtitle Top",
         "status": "warn",
@@ -13186,6 +13798,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Description Slot",
         "category": "Properties",
         "subject": "prop:Show Description Slot",
         "status": "fail",
@@ -13198,6 +13811,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Icon Top",
         "category": "Properties",
         "subject": "prop:Show Icon Top",
         "status": "fail",
@@ -13210,6 +13824,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Title Top",
         "category": "Properties",
         "subject": "prop:Show Title Top",
         "status": "fail",
@@ -13222,6 +13837,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Title Top",
         "category": "Properties",
         "subject": "prop:Title Top",
         "status": "warn",
@@ -13234,6 +13850,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Naming|prop:Show Caption",
         "category": "Naming",
         "subject": "prop:Show Caption",
         "status": "warn",
@@ -13246,6 +13863,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Button",
         "category": "Properties",
         "subject": "prop:Show Button",
         "status": "fail",
@@ -13258,6 +13876,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Slot Top",
         "category": "Properties",
         "subject": "prop:Show Slot Top",
         "status": "fail",
@@ -13270,6 +13889,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Code Status",
         "category": "Properties",
         "subject": "prop:Show Code Status",
         "status": "fail",
@@ -13282,6 +13902,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Code Status",
         "category": "Properties",
         "subject": "prop:Code Status",
         "status": "warn",
@@ -13294,6 +13915,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Code",
         "category": "Properties",
         "subject": "prop:Show Code",
         "status": "fail",
@@ -13306,6 +13928,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Counter",
         "category": "Properties",
         "subject": "prop:Show Counter",
         "status": "fail",
@@ -13318,6 +13941,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|values:Type",
         "category": "Properties",
         "subject": "values:Type",
         "status": "fail",
@@ -13330,6 +13954,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|default:Type",
         "category": "Properties",
         "subject": "default:Type",
         "status": "warn",
@@ -13342,6 +13967,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:State",
         "category": "Properties",
         "subject": "prop:State",
         "status": "warn",
@@ -13354,6 +13980,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -13366,6 +13993,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -13378,6 +14006,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -13390,6 +14019,7 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -13408,6 +14038,7 @@
       {
         "component": "Slot",
         "componentKey": "399:5505",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -13420,6 +14051,7 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
+        "key": "Properties|default:Direction",
         "category": "Properties",
         "subject": "default:Direction",
         "status": "warn",
@@ -13432,6 +14064,7 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
+        "key": "Properties|prop:Count",
         "category": "Properties",
         "subject": "prop:Count",
         "status": "fail",
@@ -13444,6 +14077,7 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
+        "key": "Properties|prop:Background Fill",
         "category": "Properties",
         "subject": "prop:Background Fill",
         "status": "fail",
@@ -13456,6 +14090,7 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -13468,6 +14103,7 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -13480,6 +14116,7 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -13492,6 +14129,7 @@
       {
         "component": "Text Card",
         "componentKey": "15169:82432",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -13535,6 +14173,38 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "1888:5974",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Badge"
+          },
+          {
+            "component": "15567:40690",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Empty State"
+          },
+          {
+            "component": "7653:2736",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Module Node"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "QR Code"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -13574,6 +14244,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Accordion",
             "componentKey": "218:1707",
             "brand": "Visa Affluent",
@@ -13604,6 +14276,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Accordion",
             "componentKey": "218:1707",
             "brand": "AeroBlue",
@@ -13638,6 +14312,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Badge",
             "componentKey": "1888:5974",
             "brand": "Mastercard",
@@ -13664,6 +14340,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Badge",
             "componentKey": "1888:5974",
             "brand": "Investec",
@@ -13690,6 +14368,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Badge",
             "componentKey": "1888:5974",
             "brand": "Assurant",
@@ -13716,6 +14396,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Badge",
             "componentKey": "1888:5974",
             "brand": "AeroBlue",
@@ -13746,6 +14428,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Badge",
             "componentKey": "1888:5974",
             "brand": "Visa Affluent",
@@ -13772,6 +14456,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Empty State",
             "componentKey": "15567:40690",
             "brand": "AeroBlue",
@@ -13799,6 +14485,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Module Node",
             "componentKey": "7653:2736",
             "brand": "AeroBlue",
@@ -13822,6 +14510,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "QR Code",
             "componentKey": "15027:1802",
             "brand": "Mastercard",
@@ -13851,6 +14541,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "QR Code",
             "componentKey": "15027:1802",
             "brand": "Investec",
@@ -13880,6 +14572,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "QR Code",
             "componentKey": "15027:1802",
             "brand": "Assurant",
@@ -13909,6 +14603,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "QR Code",
             "componentKey": "15027:1802",
             "brand": "AeroBlue",
@@ -13938,6 +14634,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "QR Code",
             "componentKey": "15027:1802",
             "brand": "Visa Affluent",
@@ -13972,7 +14670,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T15:33:38.433Z",
+    "since": "2026-11-18T10:03:55.915Z",
     "previousScore": 22,
     "newFails": [],
     "fixed": []

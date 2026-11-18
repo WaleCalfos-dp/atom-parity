@@ -249,7 +249,7 @@
     es.slice().sort((a, b) => new Date(a.ranAt) - new Date(b.ranAt)).forEach((e) => (e.components || []).forEach((c) => seen.set(c.name, c)));
     const c = { aligned: 0, drifted: 0, broken: 0, notbuilt: 0, notfigma: 0 };
     let sum = 0, n = 0;
-    if (seen.size) seen.forEach((x) => { c[{ Aligned: 'aligned', Drifted: 'drifted', Broken: 'broken', 'Missing in code': 'notbuilt', 'Missing in design': 'notfigma' }[x.status]]++; if (x.status !== 'Missing in design') { sum += x.score || 0; n++; } });
+    if (seen.size) seen.forEach((x) => { const k = { Aligned: 'aligned', Drifted: 'drifted', Broken: 'broken', 'Missing in code': 'notbuilt', 'Missing in design': 'notfigma' }[x.status]; if (!k) return; c[k]++; if (x.status !== 'Missing in design') { sum += x.score || 0; n++; } });
     else es.forEach((e) => { const k = countsOf(e.counts || {}); Object.keys(c).forEach((x) => { c[x] += k[x]; }); sum += (e.score || 0) * ((e.counts && e.counts.figma) || 1); n += (e.counts && e.counts.figma) || 1; });
     const score = n ? Math.round(sum / n) : 0;
     const figmaTotal = c.aligned + c.drifted + c.broken + c.notbuilt;
@@ -362,9 +362,10 @@
         '<p class="caption">Most different: <b>' + esc(p.component) + '</b>, ' + esc(variant) + (p.brand ? ' in ' + esc(p.brand) : '') + '.' + (p.mismatch != null ? ' ' + Math.round(p.mismatch * 100) + '% of pixels differ.' : '') + '</p>'
         : '<div class="proof empty">' + (k.notbuilt && !k.aligned && !k.drifted && !k.broken ? 'None of these components are in Storybook yet, so there is nothing to compare side by side.' : 'No side-by-side pictures for this check.') + '</div>';
       const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i class="s-' + s[0] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
+      const ignoredNote = e.ignored ? '<span class="ignored-n">' + e.ignored + ' ignored</span>' : '';
       return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3><p class="sub">' + esc(e.headline || '') + '</p>' + tag + '</div>' +
         '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
-        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
+        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + ignoredNote + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
     }
   }
 

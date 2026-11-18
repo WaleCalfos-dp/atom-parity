@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:10:21.539Z",
-    "durationMs": 135781,
+    "generatedAt": "2026-11-18T10:40:36.065Z",
+    "durationMs": 115474,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:09:04.717Z",
+      "exportedAt": "2026-11-18T10:39:18.391Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3111,7 +3111,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3131,7 +3131,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3151,7 +3151,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3161,7 +3161,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3181,7 +3181,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3201,7 +3201,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3211,7 +3211,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3221,7 +3221,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3231,7 +3231,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3241,7 +3241,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3301,7 +3301,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3351,7 +3351,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3361,7 +3361,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3431,7 +3431,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3491,7 +3491,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3501,7 +3501,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3509,7 +3509,7 @@
             },
             {
               "status": "warn",
-              "brand": "Dragonpass",
+              "brand": "Mastercard",
               "variant": "Type=Primary, Size=Regular, State=Hover",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -3519,7 +3519,7 @@
             },
             {
               "status": "warn",
-              "brand": "Investec",
+              "brand": "AeroBlue",
               "variant": "Type=Primary, Size=Regular, State=Hover",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -3721,7 +3721,7 @@
               "status": "warn",
               "brand": "AeroBlue",
               "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3741,7 +3741,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -31557,7 +31557,8 @@
       "drifted": 0,
       "broken": 3,
       "missingInCode": 6,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 29,
@@ -31633,6 +31634,44 @@
           "Payment Button",
           "Quantity Stepper",
           "Social Button"
+        ],
+        "items": [
+          {
+            "component": "3098:42588",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Button Group"
+          },
+          {
+            "component": "14194:14015",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "CTA with Content"
+          },
+          {
+            "component": "12845:6732",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Icon Button"
+          },
+          {
+            "component": "12604:10709",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Payment Button"
+          },
+          {
+            "component": "18198:9455",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Quantity Stepper"
+          },
+          {
+            "component": "12607:10742",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Social Button"
+          }
         ]
       },
       {
@@ -31645,6 +31684,32 @@
           "Payment Button",
           "Social Button",
           "Tag"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Button"
+          },
+          {
+            "component": "12604:10709",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Payment Button"
+          },
+          {
+            "component": "12607:10742",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Social Button"
+          },
+          {
+            "component": "1885:4061",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Tag"
+          }
         ]
       },
       {
@@ -31655,6 +31720,26 @@
         "components": [
           "Button",
           "Stepper"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Naming|prop:Show Icon Left",
+            "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+            "componentName": "Button"
+          },
+          {
+            "component": "1454:7798",
+            "key": "Naming|prop:Show Icon Right",
+            "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Naming|prop:Style",
+            "title": "Figma \"Style\" is \"variant\" in code",
+            "componentName": "Stepper"
+          }
         ]
       },
       {
@@ -31665,6 +31750,20 @@
         "components": [
           "Button",
           "Stepper"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Tokens|value:Horizontal padding",
+            "title": "Horizontal padding differs from design",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Tokens|value:Horizontal padding",
+            "title": "Horizontal padding differs from design",
+            "componentName": "Stepper"
+          }
         ]
       },
       {
@@ -31675,6 +31774,20 @@
         "components": [
           "Button",
           "Stepper"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Tokens|value:Vertical padding",
+            "title": "Vertical padding differs from design",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Tokens|value:Vertical padding",
+            "title": "Vertical padding differs from design",
+            "componentName": "Stepper"
+          }
         ]
       },
       {
@@ -31685,6 +31798,20 @@
         "components": [
           "Button",
           "Stepper"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Visual|height",
+            "title": "Height differs from design",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Visual|height",
+            "title": "Height differs from design",
+            "componentName": "Stepper"
+          }
         ]
       },
       {
@@ -31695,6 +31822,20 @@
         "components": [
           "Button",
           "Stepper"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "componentName": "Stepper"
+          }
         ]
       },
       {
@@ -31705,6 +31846,20 @@
         "components": [
           "Stepper",
           "Tag"
+        ],
+        "items": [
+          {
+            "component": "1702:72060",
+            "key": "Properties|values:Style",
+            "title": "Style values missing in code",
+            "componentName": "Stepper"
+          },
+          {
+            "component": "1885:4061",
+            "key": "Properties|values:Size",
+            "title": "Size values missing in code",
+            "componentName": "Tag"
+          }
         ]
       },
       {
@@ -31714,6 +31869,14 @@
         "owner": "Both",
         "components": [
           "Button"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Tokens|value:Background colour",
+            "title": "Background colour differs from design",
+            "componentName": "Button"
+          }
         ]
       },
       {
@@ -31723,6 +31886,14 @@
         "owner": "Both",
         "components": [
           "Button"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Tokens|value:Label · Font size",
+            "title": "Label · Font size differs from design",
+            "componentName": "Button"
+          }
         ]
       }
     ],
@@ -31731,6 +31902,7 @@
       "No failures in: Interaction, Rendering, Documentation",
       "2 components render in Storybook without errors"
     ],
+    "ignored": [],
     "brokenComponents": [
       {
         "name": "Button",
@@ -31761,6 +31933,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Naming|group",
         "category": "Naming",
         "subject": "group",
         "status": "warn",
@@ -31773,6 +31946,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Naming|prop:Show Icon Left",
         "category": "Naming",
         "subject": "prop:Show Icon Left",
         "status": "warn",
@@ -31785,6 +31959,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Naming|prop:Show Icon Right",
         "category": "Naming",
         "subject": "prop:Show Icon Right",
         "status": "warn",
@@ -31797,6 +31972,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Properties|values:Type",
         "category": "Properties",
         "subject": "values:Type",
         "status": "warn",
@@ -31809,6 +31985,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Properties|values:Size",
         "category": "Properties",
         "subject": "values:Size",
         "status": "warn",
@@ -31821,6 +31998,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -31833,6 +32011,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Rendering|console",
         "category": "Rendering",
         "subject": "console",
         "status": "warn",
@@ -31850,6 +32029,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|value:Background colour",
         "category": "Tokens",
         "subject": "value:Background colour",
         "status": "fail",
@@ -31866,6 +32046,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Background colour",
         "category": "Tokens",
         "subject": "token:Background colour",
         "status": "warn",
@@ -31883,6 +32064,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|value:Corner radius",
         "category": "Tokens",
         "subject": "value:Corner radius",
         "status": "warn",
@@ -31897,6 +32079,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Corner radius",
         "category": "Tokens",
         "subject": "token:Corner radius",
         "status": "warn",
@@ -31914,6 +32097,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|value:Horizontal padding",
         "category": "Tokens",
         "subject": "value:Horizontal padding",
         "status": "fail",
@@ -31928,6 +32112,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Horizontal padding",
         "category": "Tokens",
         "subject": "token:Horizontal padding",
         "status": "warn",
@@ -31945,6 +32130,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|value:Vertical padding",
         "category": "Tokens",
         "subject": "value:Vertical padding",
         "status": "fail",
@@ -31959,6 +32145,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Vertical padding",
         "category": "Tokens",
         "subject": "token:Vertical padding",
         "status": "warn",
@@ -31976,6 +32163,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Text colour",
         "category": "Tokens",
         "subject": "token:Label · Text colour",
         "status": "warn",
@@ -31993,6 +32181,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|value:Label · Font size",
         "category": "Tokens",
         "subject": "value:Label · Font size",
         "status": "fail",
@@ -32010,6 +32199,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Font size",
         "category": "Tokens",
         "subject": "token:Label · Font size",
         "status": "warn",
@@ -32027,6 +32217,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|value:Label · Font weight",
         "category": "Tokens",
         "subject": "value:Label · Font weight",
         "status": "fail",
@@ -32044,6 +32235,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Font weight",
         "category": "Tokens",
         "subject": "token:Label · Font weight",
         "status": "warn",
@@ -32061,6 +32253,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Font family",
         "category": "Tokens",
         "subject": "token:Label · Font family",
         "status": "warn",
@@ -32078,6 +32271,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Line height",
         "category": "Tokens",
         "subject": "token:Label · Line height",
         "status": "warn",
@@ -32095,6 +32289,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Visual|pixels",
         "category": "Visual",
         "subject": "pixels",
         "status": "warn",
@@ -32112,6 +32307,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Visual|height",
         "category": "Visual",
         "subject": "height",
         "status": "fail",
@@ -32129,6 +32325,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Visual|width",
         "category": "Visual",
         "subject": "width",
         "status": "warn",
@@ -32146,6 +32343,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Accessibility|axe:color-contrast",
         "category": "Accessibility",
         "subject": "axe:color-contrast",
         "status": "fail",
@@ -32161,6 +32359,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Border colour",
         "category": "Tokens",
         "subject": "token:Border colour",
         "status": "warn",
@@ -32178,6 +32377,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Accessibility|axe:button-name",
         "category": "Accessibility",
         "subject": "axe:button-name",
         "status": "fail",
@@ -32195,6 +32395,7 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -32210,6 +32411,7 @@
       {
         "component": "Button Group",
         "componentKey": "3098:42588",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -32222,6 +32424,7 @@
       {
         "component": "CTA with Content",
         "componentKey": "14194:14015",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -32234,6 +32437,7 @@
       {
         "component": "Icon Button",
         "componentKey": "12845:6732",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -32246,6 +32450,7 @@
       {
         "component": "Payment Button",
         "componentKey": "12604:10709",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -32265,6 +32470,7 @@
       {
         "component": "Payment Button",
         "componentKey": "12604:10709",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -32277,6 +32483,7 @@
       {
         "component": "Quantity Stepper",
         "componentKey": "18198:9455",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -32289,6 +32496,7 @@
       {
         "component": "Social Button",
         "componentKey": "12607:10742",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -32303,6 +32511,7 @@
       {
         "component": "Social Button",
         "componentKey": "12607:10742",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -32315,6 +32524,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Naming|group",
         "category": "Naming",
         "subject": "group",
         "status": "warn",
@@ -32327,6 +32537,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Naming|prop:Style",
         "category": "Naming",
         "subject": "prop:Style",
         "status": "fail",
@@ -32339,6 +32550,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Properties|values:Style",
         "category": "Properties",
         "subject": "values:Style",
         "status": "fail",
@@ -32351,6 +32563,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -32363,6 +32576,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -32375,6 +32589,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Rendering|console",
         "category": "Rendering",
         "subject": "console",
         "status": "warn",
@@ -32392,6 +32607,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Visual|pixels",
         "category": "Visual",
         "subject": "pixels",
         "status": "warn",
@@ -32406,6 +32622,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Visual|height",
         "category": "Visual",
         "subject": "height",
         "status": "fail",
@@ -32420,6 +32637,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Visual|width",
         "category": "Visual",
         "subject": "width",
         "status": "warn",
@@ -32434,6 +32652,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Accessibility|axe:color-contrast",
         "category": "Accessibility",
         "subject": "axe:color-contrast",
         "status": "fail",
@@ -32448,6 +32667,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Tokens|value:Border colour",
         "category": "Tokens",
         "subject": "value:Border colour",
         "status": "fail",
@@ -32462,6 +32682,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Tokens|value:Border width",
         "category": "Tokens",
         "subject": "value:Border width",
         "status": "warn",
@@ -32479,6 +32700,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Tokens|value:Corner radius",
         "category": "Tokens",
         "subject": "value:Corner radius",
         "status": "warn",
@@ -32496,6 +32718,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Tokens|token:Corner radius",
         "category": "Tokens",
         "subject": "token:Corner radius",
         "status": "warn",
@@ -32513,6 +32736,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Tokens|value:Horizontal padding",
         "category": "Tokens",
         "subject": "value:Horizontal padding",
         "status": "fail",
@@ -32530,6 +32754,7 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Tokens|value:Vertical padding",
         "category": "Tokens",
         "subject": "value:Vertical padding",
         "status": "fail",
@@ -32547,6 +32772,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Naming|group",
         "category": "Naming",
         "subject": "group",
         "status": "warn",
@@ -32559,6 +32785,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -32571,6 +32798,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|prop:Show Icon Right",
         "category": "Properties",
         "subject": "prop:Show Icon Right",
         "status": "fail",
@@ -32583,6 +32811,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|prop:State",
         "category": "Properties",
         "subject": "prop:State",
         "status": "warn",
@@ -32595,6 +32824,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|values:Size",
         "category": "Properties",
         "subject": "values:Size",
         "status": "fail",
@@ -32607,6 +32837,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -32619,6 +32850,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -32631,6 +32863,7 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -32722,6 +32955,14 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Accessibility|axe:button-name",
+            "title": "Buttons must have discernible text",
+            "componentName": "Button"
+          }
+        ],
         "rule": "button-name",
         "criterion": {
           "sc": "4.1.2",
@@ -32745,6 +32986,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|axe:button-name",
+            "title": "Buttons must have discernible text",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "Dragonpass",
@@ -32761,6 +33004,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|axe:button-name",
+            "title": "Buttons must have discernible text",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "Mastercard",
@@ -32777,6 +33022,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|axe:button-name",
+            "title": "Buttons must have discernible text",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "Investec",
@@ -32793,6 +33040,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|axe:button-name",
+            "title": "Buttons must have discernible text",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "AeroBlue",
@@ -32812,6 +33061,32 @@
         "occurrences": 12
       },
       {
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Button"
+          },
+          {
+            "component": "12604:10709",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Payment Button"
+          },
+          {
+            "component": "12607:10742",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Social Button"
+          },
+          {
+            "component": "1885:4061",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Tag"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -32847,6 +33122,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "AeroBlue",
@@ -32903,6 +33180,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "Visa Affluent",
@@ -32950,6 +33229,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "Investec",
@@ -32974,6 +33255,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Button",
             "componentKey": "12604:10709",
             "brand": "Dragonpass",
@@ -32998,6 +33281,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Button",
             "componentKey": "12604:10709",
             "brand": "Mastercard",
@@ -33022,6 +33307,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Button",
             "componentKey": "12604:10709",
             "brand": "Investec",
@@ -33046,6 +33333,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Button",
             "componentKey": "12604:10709",
             "brand": "Assurant",
@@ -33070,6 +33359,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Button",
             "componentKey": "12604:10709",
             "brand": "AeroBlue",
@@ -33094,6 +33385,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Button",
             "componentKey": "12604:10709",
             "brand": "Visa Affluent",
@@ -33118,6 +33411,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Social Button",
             "componentKey": "12607:10742",
             "brand": "Visa Affluent",
@@ -33155,6 +33450,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Social Button",
             "componentKey": "12607:10742",
             "brand": "AeroBlue",
@@ -33189,6 +33486,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tag",
             "componentKey": "1885:4061",
             "brand": "Visa Affluent",
@@ -33215,6 +33514,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tag",
             "componentKey": "1885:4061",
             "brand": "Mastercard",
@@ -33239,6 +33540,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tag",
             "componentKey": "1885:4061",
             "brand": "Investec",
@@ -33263,6 +33566,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tag",
             "componentKey": "1885:4061",
             "brand": "Assurant",
@@ -33287,6 +33592,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Tag",
             "componentKey": "1885:4061",
             "brand": "AeroBlue",
@@ -33314,6 +33621,20 @@
         "occurrences": 112
       },
       {
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "componentName": "Stepper"
+          }
+        ],
         "rule": "color-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -33341,6 +33662,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "AeroBlue",
@@ -33367,6 +33690,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
             "component": "Button",
             "componentKey": "1454:7798",
             "brand": "Investec",
@@ -33401,6 +33726,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
             "component": "Stepper",
             "componentKey": "1702:72060",
             "brand": "AeroBlue",
@@ -33431,8 +33758,8 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T16:29:26.174Z",
-    "previousScore": 21,
+    "since": "2026-11-18T09:57:30.205Z",
+    "previousScore": 18,
     "newFails": [],
     "fixed": []
   }

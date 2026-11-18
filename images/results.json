@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:44:16.567Z",
-    "durationMs": 74758,
+    "generatedAt": "2026-11-18T10:49:52.957Z",
+    "durationMs": 59869,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:43:13.037Z",
+      "exportedAt": "2026-11-18T10:49:03.186Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2103,7 +2103,8 @@
       "drifted": 1,
       "broken": 0,
       "missingInCode": 1,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 2,
@@ -2174,6 +2175,14 @@
         "owner": "Both",
         "components": [
           "Lightbox Image Viewer"
+        ],
+        "items": [
+          {
+            "component": "8469:708",
+            "key": "Naming|name",
+            "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
+            "componentName": "Lightbox Image Viewer"
+          }
         ]
       },
       {
@@ -2183,6 +2192,38 @@
         "owner": "Dev",
         "components": [
           "Lightbox Image Viewer"
+        ],
+        "items": [
+          {
+            "component": "8469:708",
+            "key": "Properties|prop:Show Previous Button",
+            "title": "Figma property \"Show Previous Button\" has no equivalent in code",
+            "componentName": "Lightbox Image Viewer"
+          },
+          {
+            "component": "8469:708",
+            "key": "Properties|prop:Show Next Button",
+            "title": "Figma property \"Show Next Button\" has no equivalent in code",
+            "componentName": "Lightbox Image Viewer"
+          },
+          {
+            "component": "8469:708",
+            "key": "Properties|prop:Show Counter",
+            "title": "Figma property \"Show Counter\" has no equivalent in code",
+            "componentName": "Lightbox Image Viewer"
+          },
+          {
+            "component": "8469:708",
+            "key": "Properties|prop:Show Close Button",
+            "title": "Figma property \"Show Close Button\" has no equivalent in code",
+            "componentName": "Lightbox Image Viewer"
+          },
+          {
+            "component": "8469:708",
+            "key": "Properties|prop:Breakpoint",
+            "title": "Figma property \"Breakpoint\" has no equivalent in code",
+            "componentName": "Lightbox Image Viewer"
+          }
         ]
       },
       {
@@ -2192,6 +2233,14 @@
         "owner": "Both",
         "components": [
           "Product Images"
+        ],
+        "items": [
+          {
+            "component": "8468:8021",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Product Images"
+          }
         ]
       },
       {
@@ -2201,6 +2250,14 @@
         "owner": "Design",
         "components": [
           "Lightbox Image Viewer"
+        ],
+        "items": [
+          {
+            "component": "8469:708",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Lightbox Image Viewer"
+          }
         ]
       },
       {
@@ -2210,6 +2267,14 @@
         "owner": "Both",
         "components": [
           "Lightbox Image Viewer"
+        ],
+        "items": [
+          {
+            "component": "8469:708",
+            "key": "Properties|coverage",
+            "title": "3 of 3 variants can't be shown in code",
+            "componentName": "Lightbox Image Viewer"
+          }
         ]
       }
     ],
@@ -2217,11 +2282,13 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
+    "ignored": [],
     "brokenComponents": [],
     "issues": [
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -2234,6 +2301,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|prop:Show Previous Button",
         "category": "Properties",
         "subject": "prop:Show Previous Button",
         "status": "fail",
@@ -2246,6 +2314,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|prop:Show Next Button",
         "category": "Properties",
         "subject": "prop:Show Next Button",
         "status": "fail",
@@ -2258,6 +2327,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|prop:Show Counter",
         "category": "Properties",
         "subject": "prop:Show Counter",
         "status": "fail",
@@ -2270,6 +2340,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|prop:Show Close Button",
         "category": "Properties",
         "subject": "prop:Show Close Button",
         "status": "fail",
@@ -2282,6 +2353,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|prop:Breakpoint",
         "category": "Properties",
         "subject": "prop:Breakpoint",
         "status": "fail",
@@ -2294,6 +2366,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -2306,6 +2379,7 @@
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -2318,6 +2392,7 @@
       {
         "component": "Product Images",
         "componentKey": "8468:8021",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -2347,7 +2422,7 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-17T16:46:08.730Z",
+    "since": "2026-11-18T10:12:32.399Z",
     "previousScore": 15,
     "newFails": [],
     "fixed": []

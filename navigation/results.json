@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:41:48.020Z",
-    "durationMs": 259737,
+    "generatedAt": "2026-11-18T10:48:53.064Z",
+    "durationMs": 91300,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:38:07.056Z",
+      "exportedAt": "2026-11-18T10:47:58.695Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -6177,7 +6177,8 @@
       "drifted": 4,
       "broken": 1,
       "missingInCode": 2,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 20,
@@ -6252,6 +6253,170 @@
           "Breadcrumbs",
           "Footer",
           "Tabs"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Icon Right",
+            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Nav Bar",
+            "title": "Figma property \"Show Nav Bar\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Title and Subtitle",
+            "title": "Figma property \"Show Title and Subtitle\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Tabs",
+            "title": "Figma property \"Show Tabs\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Counter Badge",
+            "title": "Figma property \"Show Counter Badge\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Filter Icon",
+            "title": "Figma property \"Show Filter Icon\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Page Title",
+            "title": "Figma property \"Show Page Title\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Header Title",
+            "title": "Figma property \"Show Header Title\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Subtitle",
+            "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:brand-logos",
+            "title": "Figma property \"brand-logos\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Show Amount",
+            "title": "Figma property \"Show Amount\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "781:17271",
+            "key": "Properties|prop:Count",
+            "title": "Figma property \"Count\" has no equivalent in code",
+            "componentName": "Bottom Navigation"
+          },
+          {
+            "component": "14347:1286",
+            "key": "Properties|prop:Divider Type",
+            "title": "Figma property \"Divider Type\" has no equivalent in code",
+            "componentName": "Breadcrumbs"
+          },
+          {
+            "component": "14347:1286",
+            "key": "Properties|prop:Count",
+            "title": "Figma property \"Count\" has no equivalent in code",
+            "componentName": "Breadcrumbs"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Show Social Icons",
+            "title": "Figma property \"Show Social Icons\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Show Divider",
+            "title": "Figma property \"Show Divider\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Show Company Information 1",
+            "title": "Figma property \"Show Company Information 1\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Show Company Information 2",
+            "title": "Figma property \"Show Company Information 2\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Show Company Information",
+            "title": "Figma property \"Show Company Information\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:social-icons",
+            "title": "Figma property \"social-icons\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:footer-links",
+            "title": "Figma property \"footer-links\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Breakpoint",
+            "title": "Figma property \"Breakpoint\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "1491:5016",
+            "key": "Properties|prop:container",
+            "title": "Figma property \"container\" has no equivalent in code",
+            "componentName": "Tabs"
+          },
+          {
+            "component": "1491:5016",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "Tabs"
+          }
         ]
       },
       {
@@ -6262,6 +6427,20 @@
         "components": [
           "App Header",
           "Bottom Navigation"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Naming|name",
+            "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+            "componentName": "App Header"
+          },
+          {
+            "component": "781:17271",
+            "key": "Naming|name",
+            "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
+            "componentName": "Bottom Navigation"
+          }
         ]
       },
       {
@@ -6272,6 +6451,20 @@
         "components": [
           "App Header",
           "Burger Menu Triggered"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "App Header"
+          },
+          {
+            "component": "14933:17211",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Burger Menu Triggered"
+          }
         ]
       },
       {
@@ -6282,6 +6475,20 @@
         "components": [
           "Burger Menu Triggered",
           "Web Header"
+        ],
+        "items": [
+          {
+            "component": "14933:17211",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Burger Menu Triggered"
+          },
+          {
+            "component": "8210:74296",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Web Header"
+          }
         ]
       },
       {
@@ -6295,6 +6502,38 @@
           "Breadcrumbs",
           "Footer",
           "Tabs"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "App Header"
+          },
+          {
+            "component": "781:17271",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Bottom Navigation"
+          },
+          {
+            "component": "14347:1286",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Breadcrumbs"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Footer"
+          },
+          {
+            "component": "1491:5016",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Tabs"
+          }
         ]
       },
       {
@@ -6305,6 +6544,56 @@
         "components": [
           "App Header",
           "Footer"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Page Title",
+            "title": "Figma property \"Page Title\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Header Title",
+            "title": "Figma property \"Header Title\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Subtitle",
+            "title": "Figma property \"Subtitle\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Departure Text",
+            "title": "Figma property \"Departure Text\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Destination Text",
+            "title": "Figma property \"Destination Text\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "3156:2880",
+            "key": "Properties|prop:Amount",
+            "title": "Figma property \"Amount\" has no equivalent in code",
+            "componentName": "App Header"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Company Information 1",
+            "title": "Figma property \"Company Information 1\" has no equivalent in code",
+            "componentName": "Footer"
+          },
+          {
+            "component": "15169:84760",
+            "key": "Properties|prop:Company Information 2",
+            "title": "Figma property \"Company Information 2\" has no equivalent in code",
+            "componentName": "Footer"
+          }
         ]
       },
       {
@@ -6314,6 +6603,14 @@
         "owner": "Both",
         "components": [
           "App Header"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Properties|coverage",
+            "title": "15 of 15 variants can't be shown in code",
+            "componentName": "App Header"
+          }
         ]
       },
       {
@@ -6323,6 +6620,14 @@
         "owner": "Both",
         "components": [
           "Bottom Navigation"
+        ],
+        "items": [
+          {
+            "component": "781:17271",
+            "key": "Properties|coverage",
+            "title": "3 of 3 variants can't be shown in code",
+            "componentName": "Bottom Navigation"
+          }
         ]
       },
       {
@@ -6332,6 +6637,14 @@
         "owner": "Both",
         "components": [
           "Breadcrumbs"
+        ],
+        "items": [
+          {
+            "component": "14347:1286",
+            "key": "Properties|coverage",
+            "title": "10 of 10 variants can't be shown in code",
+            "componentName": "Breadcrumbs"
+          }
         ]
       },
       {
@@ -6341,6 +6654,14 @@
         "owner": "Both",
         "components": [
           "Footer"
+        ],
+        "items": [
+          {
+            "component": "15169:84760",
+            "key": "Naming|group",
+            "title": "Grouped under a different category",
+            "componentName": "Footer"
+          }
         ]
       }
     ],
@@ -6348,6 +6669,7 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
+    "ignored": [],
     "brokenComponents": [
       {
         "name": "App Header",
@@ -6361,6 +6683,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -6373,6 +6696,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Icon Right",
         "category": "Properties",
         "subject": "prop:Show Icon Right",
         "status": "fail",
@@ -6385,6 +6709,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -6397,6 +6722,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Page Title",
         "category": "Properties",
         "subject": "prop:Page Title",
         "status": "warn",
@@ -6409,6 +6735,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Header Title",
         "category": "Properties",
         "subject": "prop:Header Title",
         "status": "warn",
@@ -6421,6 +6748,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Subtitle",
         "category": "Properties",
         "subject": "prop:Subtitle",
         "status": "warn",
@@ -6433,6 +6761,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Nav Bar",
         "category": "Properties",
         "subject": "prop:Show Nav Bar",
         "status": "fail",
@@ -6445,6 +6774,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Title and Subtitle",
         "category": "Properties",
         "subject": "prop:Show Title and Subtitle",
         "status": "fail",
@@ -6457,6 +6787,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Departure Text",
         "category": "Properties",
         "subject": "prop:Departure Text",
         "status": "warn",
@@ -6469,6 +6800,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Destination Text",
         "category": "Properties",
         "subject": "prop:Destination Text",
         "status": "warn",
@@ -6481,6 +6813,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Tabs",
         "category": "Properties",
         "subject": "prop:Show Tabs",
         "status": "fail",
@@ -6493,6 +6826,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Counter Badge",
         "category": "Properties",
         "subject": "prop:Show Counter Badge",
         "status": "fail",
@@ -6505,6 +6839,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Filter Icon",
         "category": "Properties",
         "subject": "prop:Show Filter Icon",
         "status": "fail",
@@ -6517,6 +6852,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Page Title",
         "category": "Properties",
         "subject": "prop:Show Page Title",
         "status": "fail",
@@ -6529,6 +6865,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Header Title",
         "category": "Properties",
         "subject": "prop:Show Header Title",
         "status": "fail",
@@ -6541,6 +6878,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Subtitle",
         "category": "Properties",
         "subject": "prop:Show Subtitle",
         "status": "fail",
@@ -6553,6 +6891,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:brand-logos",
         "category": "Properties",
         "subject": "prop:brand-logos",
         "status": "fail",
@@ -6565,6 +6904,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Show Amount",
         "category": "Properties",
         "subject": "prop:Show Amount",
         "status": "fail",
@@ -6577,6 +6917,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Amount",
         "category": "Properties",
         "subject": "prop:Amount",
         "status": "warn",
@@ -6589,6 +6930,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -6601,6 +6943,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -6613,6 +6956,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -6625,6 +6969,7 @@
       {
         "component": "App Header",
         "componentKey": "3156:2880",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -6639,6 +6984,7 @@
       {
         "component": "Bottom Navigation",
         "componentKey": "781:17271",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -6651,6 +6997,7 @@
       {
         "component": "Bottom Navigation",
         "componentKey": "781:17271",
+        "key": "Properties|prop:Count",
         "category": "Properties",
         "subject": "prop:Count",
         "status": "fail",
@@ -6663,6 +7010,7 @@
       {
         "component": "Bottom Navigation",
         "componentKey": "781:17271",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -6675,6 +7023,7 @@
       {
         "component": "Bottom Navigation",
         "componentKey": "781:17271",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -6687,6 +7036,7 @@
       {
         "component": "Breadcrumbs",
         "componentKey": "14347:1286",
+        "key": "Properties|prop:Divider Type",
         "category": "Properties",
         "subject": "prop:Divider Type",
         "status": "fail",
@@ -6699,6 +7049,7 @@
       {
         "component": "Breadcrumbs",
         "componentKey": "14347:1286",
+        "key": "Properties|prop:Count",
         "category": "Properties",
         "subject": "prop:Count",
         "status": "fail",
@@ -6711,6 +7062,7 @@
       {
         "component": "Breadcrumbs",
         "componentKey": "14347:1286",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -6723,6 +7075,7 @@
       {
         "component": "Breadcrumbs",
         "componentKey": "14347:1286",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -6735,6 +7088,7 @@
       {
         "component": "Burger Menu Triggered",
         "componentKey": "14933:17211",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -6749,6 +7103,7 @@
       {
         "component": "Burger Menu Triggered",
         "componentKey": "14933:17211",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -6761,6 +7116,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Naming|group",
         "category": "Naming",
         "subject": "group",
         "status": "warn",
@@ -6773,6 +7129,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -6785,6 +7142,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Show Social Icons",
         "category": "Properties",
         "subject": "prop:Show Social Icons",
         "status": "fail",
@@ -6797,6 +7155,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Show Divider",
         "category": "Properties",
         "subject": "prop:Show Divider",
         "status": "fail",
@@ -6809,6 +7168,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Show Company Information 1",
         "category": "Properties",
         "subject": "prop:Show Company Information 1",
         "status": "fail",
@@ -6821,6 +7181,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Company Information 1",
         "category": "Properties",
         "subject": "prop:Company Information 1",
         "status": "warn",
@@ -6833,6 +7194,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Show Company Information 2",
         "category": "Properties",
         "subject": "prop:Show Company Information 2",
         "status": "fail",
@@ -6845,6 +7207,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Company Information 2",
         "category": "Properties",
         "subject": "prop:Company Information 2",
         "status": "warn",
@@ -6857,6 +7220,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Show Company Information",
         "category": "Properties",
         "subject": "prop:Show Company Information",
         "status": "fail",
@@ -6869,6 +7233,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:social-icons",
         "category": "Properties",
         "subject": "prop:social-icons",
         "status": "fail",
@@ -6881,6 +7246,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:footer-links",
         "category": "Properties",
         "subject": "prop:footer-links",
         "status": "fail",
@@ -6893,6 +7259,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Breakpoint",
         "category": "Properties",
         "subject": "prop:Breakpoint",
         "status": "fail",
@@ -6905,6 +7272,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -6917,6 +7285,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -6929,6 +7298,7 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -6941,6 +7311,7 @@
       {
         "component": "Tabs",
         "componentKey": "1491:5016",
+        "key": "Properties|prop:container",
         "category": "Properties",
         "subject": "prop:container",
         "status": "fail",
@@ -6953,6 +7324,7 @@
       {
         "component": "Tabs",
         "componentKey": "1491:5016",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -6965,6 +7337,7 @@
       {
         "component": "Tabs",
         "componentKey": "1491:5016",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -6977,6 +7350,7 @@
       {
         "component": "Tabs",
         "componentKey": "1491:5016",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -6989,6 +7363,7 @@
       {
         "component": "Web Header",
         "componentKey": "8210:74296",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7033,6 +7408,20 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "App Header"
+          },
+          {
+            "component": "14933:17211",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Burger Menu Triggered"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -7060,6 +7449,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "App Header",
             "componentKey": "3156:2880",
             "brand": "Dragonpass",
@@ -7083,6 +7474,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "App Header",
             "componentKey": "3156:2880",
             "brand": "AeroBlue",
@@ -7112,6 +7505,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "App Header",
             "componentKey": "3156:2880",
             "brand": "Mastercard",
@@ -7136,6 +7531,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "App Header",
             "componentKey": "3156:2880",
             "brand": "Investec",
@@ -7160,6 +7557,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "App Header",
             "componentKey": "3156:2880",
             "brand": "Assurant",
@@ -7184,6 +7583,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "App Header",
             "componentKey": "3156:2880",
             "brand": "Visa Affluent",
@@ -7208,6 +7609,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Burger Menu Triggered",
             "componentKey": "14933:17211",
             "brand": "AeroBlue",
@@ -7238,7 +7641,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T16:44:10.241Z",
+    "since": "2026-11-18T10:11:07.005Z",
     "previousScore": 36,
     "newFails": [],
     "fixed": []

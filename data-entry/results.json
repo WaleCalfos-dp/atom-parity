@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:32:09.631Z",
-    "durationMs": 158401,
+    "generatedAt": "2026-11-18T10:46:12.520Z",
+    "durationMs": 113196,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:30:30.201Z",
+      "exportedAt": "2026-11-18T10:45:16.988Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -118,6 +118,7 @@
         "brands": {
           "Dragonpass": {
             "design": 1,
+            "code": null,
             "status": "missing"
           },
           "Mastercard": {
@@ -150,6 +151,7 @@
         "brands": {
           "Dragonpass": {
             "design": 2,
+            "code": null,
             "status": "missing"
           },
           "Mastercard": {
@@ -182,6 +184,7 @@
         "brands": {
           "Dragonpass": {
             "design": 24,
+            "code": null,
             "status": "missing"
           },
           "Mastercard": {
@@ -214,6 +217,7 @@
         "brands": {
           "Dragonpass": {
             "design": "#0A2333",
+            "code": null,
             "status": "missing"
           },
           "Mastercard": {
@@ -246,6 +250,7 @@
         "brands": {
           "Dragonpass": {
             "design": 400,
+            "code": null,
             "status": "missing"
           },
           "Mastercard": {
@@ -278,6 +283,7 @@
         "brands": {
           "Dragonpass": {
             "design": 500,
+            "code": null,
             "status": "missing"
           },
           "Mastercard": {
@@ -300,774 +306,6 @@
         "status": "missing"
       },
       {
-        "id": "VariableID:5235b73f5e6ffe3d78126c6e3476c29e374702ee/17786:247",
-        "figma": "background/interactive/action",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-action",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#0A2333",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#CF4500",
-            "code": "#CF4500",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#343946",
-            "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:319aae518325896792e869c39e53a0f940845132/17786:253",
-        "figma": "background/interactive/action-disabled",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-action-disabled",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#ECEAE9",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#F5F5F5",
-            "code": "#F5F5F5",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#E4E5E7",
-            "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D4066",
-            "code": "rgba(180, 109, 64, 0.4)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:1ad8934322a8090c0bc8374ef31436d35759a2d2/17786:256",
-        "figma": "background/interactive/action-hover",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-action-hover",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#0E5475",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#9A3412",
-            "code": "#9A3412",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#232833",
-            "code": "#232833",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:1f1900029f8c7cef1ee2edde076207a8cc77f51c/17786:257",
-        "figma": "background/interactive/action-pressed",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-action-pressed",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#0D3C55",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#7C2D12",
-            "code": "#7C2D12",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#464C59",
-            "code": "#464C59",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#B46D40",
-            "code": "#B46D40",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:ee9e400c6513e3f3e0fa3ca7fcf1e625ee7e473d/17299:669",
-        "figma": "background/interactive/control",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-control",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#FFFFFF",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#FFFFFF",
-            "code": "#FFFFFF",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#FFFFFF",
-            "code": "#FFFFFF",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:a5956899e7f78a73399501e8f76606f48f58f1ce/17786:264",
-        "figma": "background/interactive/control-disabled",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-control-disabled",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#FAF8F7",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#F5F5F5",
-            "code": "#F5F5F5",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#E4E5E7",
-            "code": "#E4E5E7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D141A",
-            "code": "rgba(11, 13, 20, 0.1)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:2ccde939ea0db6f208f8d14c44ef32f843896f8f/17299:694",
-        "figma": "background/interactive/control-hover",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-control-hover",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#FAF8F7",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#FAFAFA",
-            "code": "#FAFAFA",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#EEEEEB",
-            "code": "#EEEEEB",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:0580c235c5cd966f9d8bdf2b4a2ac0535912e657/17786:258",
-        "figma": "background/interactive/control-pressed",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-control-pressed",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#FAF8F7",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#FAFAFA",
-            "code": "#FAFAFA",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#EEEEEB",
-            "code": "#EEEEEB",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#0B0D14",
-            "code": "#0B0D14",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:3c13e4de6af2998c9bd45d903ea9509627ea364a/17786:277",
-        "figma": "background/interactive/danger",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-danger",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#C2082A",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#DC2626",
-            "code": "#DC2626",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#C64221",
-            "code": "#C64221",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D252580",
-            "code": "rgba(157, 37, 37, 0.5)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:d712cf7413fcf75d364070918b9ff408b3a2c8db/17786:278",
-        "figma": "background/interactive/danger-hover",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-danger-hover",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#7D051A",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#7F1D1D",
-            "code": "#7F1D1D",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#5F1C0D",
-            "code": "#5F1C0D",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525CC",
-            "code": "rgba(157, 37, 37, 0.8)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:8a1dcc54a49396d067300a5b5e2ecf53c44953ad/17786:279",
-        "figma": "background/interactive/danger-pressed",
-        "collection": "Theme",
-        "css": "--aum-background-interactive-danger-pressed",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#9E001F",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#B91C1C",
-            "code": "#B91C1C",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#8E1F00",
-            "code": "#8E1F00",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:c01644b458be83e279215a75b5cb142ab8d9b244/17786:265",
-        "figma": "border/basic/strong",
-        "collection": "Theme",
-        "css": "--aum-border-basic-strong",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#0A2333",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#171717",
-            "code": "#171717",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#858A95",
-            "code": "#858A95",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:466f814ad16eadfd94a2edcf6316c48c0ef84979/17786:281",
-        "figma": "border/interactive/action-disabled",
-        "collection": "Theme",
-        "css": "--aum-border-interactive-action-disabled",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#CECCCC",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#E5E5E5",
-            "code": "#E5E5E5",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#C1C3C9",
-            "code": "#C1C3C9",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C80",
-            "code": "rgba(255, 181, 156, 0.5)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:614b7b67e1aed704ffa923faa5fa1fc9eb3987e5/17786:269",
-        "figma": "border/interactive/action-hover",
-        "collection": "Theme",
-        "css": "--aum-border-interactive-action-hover",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#045477",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#9A3412",
-            "code": "#9A3412",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#131721",
-            "code": "#131721",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59CB2",
-            "code": "rgba(255, 181, 156, 0.7)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:2fa0bbcb09635ed75c5b8c749bddfc224004dd1b/17786:268",
-        "figma": "border/interactive/action-pressed",
-        "collection": "Theme",
-        "css": "--aum-border-interactive-action-pressed",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#063E56",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#171717",
-            "code": "#171717",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#464C59",
-            "code": "#464C59",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C4D",
-            "code": "rgba(255, 181, 156, 0.3)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:d48032b7cbc8ac70588cedd0dbca94c0f3935342/17786:263",
-        "figma": "border/interactive/action-selected",
-        "collection": "Theme",
-        "css": "--aum-border-interactive-action-selected",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#0A2333",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#171717",
-            "code": "#171717",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#343946",
-            "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0CC",
-            "code": "rgba(255, 244, 240, 0.8)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:373ed7b8e496574b1fe39ee2f9de477900597b20/17299:713",
-        "figma": "components/button/radius",
-        "collection": "Theme",
-        "css": "--aum-button-radius",
-        "conventional": null,
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 999,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:7eb376f3a6d7a633e567397206711e1594e34d28/17786:246",
-        "figma": "foreground/basic/heading",
-        "collection": "Theme",
-        "css": "--aum-foreground-basic-heading",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#0A2333",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#171717",
-            "code": "#171717",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#343946",
-            "code": "#343946",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:c063391674c0e866efe8eba314472a39721fb3e5/17299:674",
-        "figma": "foreground/basic/inverse",
-        "collection": "Theme",
-        "css": "--aum-foreground-basic-inverse",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#FFFFFF",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#FFFFFF",
-            "code": "#FFFFFF",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#F8F8F7",
-            "code": "#F8F8F7",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:e1662d14189765657dd312f72859c6b0e65f94ce/17786:255",
-        "figma": "foreground/interactive/action",
-        "collection": "Theme",
-        "css": "--aum-foreground-interactive-action",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#006B99",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#CF4500",
-            "code": "#CF4500",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#AE692F",
-            "code": "#AE692F",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFB59C",
-            "code": "#FFB59C",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:001fadd60dd20599168bef29c4bbf97da46d9fe2/17786:251",
-        "figma": "foreground/interactive/action-disabled",
-        "collection": "Theme",
-        "css": "--aum-foreground-interactive-action-disabled",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#91908F",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#D4D4D4",
-            "code": "#D4D4D4",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#858A95",
-            "code": "#858A95",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F080",
-            "code": "rgba(255, 244, 240, 0.5)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:3ea1adb1807c5257c77df41a2baca999cff8c74a/17786:266",
-        "figma": "foreground/interactive/action-hover",
-        "collection": "Theme",
-        "css": "--aum-foreground-interactive-action-hover",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#045477",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#9A3412",
-            "code": "#9A3412",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#232833",
-            "code": "#232833",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:4ce2c32fc60632a98b1ee59704c31ae7b41ceb9e/17786:267",
-        "figma": "foreground/interactive/action-pressed",
-        "collection": "Theme",
-        "css": "--aum-foreground-interactive-action-pressed",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#063E56",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#171717",
-            "code": "#171717",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#232833",
-            "code": "#232833",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#FFF4F0",
-            "code": "#FFF4F0",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:f2d4ee68ca7cf38af75690b05015d7e383b8b82e/17786:250",
-        "figma": "foreground/interactive/danger",
-        "collection": "Theme",
-        "css": "--aum-foreground-interactive-danger",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#C2082A",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#DC2626",
-            "code": "#DC2626",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#C64221",
-            "code": "#C64221",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
         "id": "VariableID:1e79d966cfc7c1e6cc236cf9e50361a018d29bfa/17786:283",
         "figma": "foreground/interactive/danger-hover",
         "collection": "Theme",
@@ -1078,7 +316,8 @@
         "brands": {
           "Dragonpass": {
             "design": "#6A1512",
-            "status": "missing"
+            "code": "#7D051A",
+            "status": "differs"
           },
           "Mastercard": {
             "design": "#7F1D1D",
@@ -1093,422 +332,6 @@
           "AeroBlue": {
             "design": "#9D2525CC",
             "code": "rgba(157, 37, 37, 0.8)",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:e36a30ae0e0681293dd01d98f3a3d3b6888eb9f2/17786:282",
-        "figma": "foreground/interactive/danger-pressed",
-        "collection": "Theme",
-        "css": "--aum-foreground-interactive-danger-pressed",
-        "conventional": null,
-        "type": "COLOR",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "#9E001F",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "#B91C1C",
-            "code": "#B91C1C",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "#8E1F00",
-            "code": "#8E1F00",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "#9D2525",
-            "code": "#9D2525",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:51ea9b43fac99f523c123e3d4514d2a299c81c72/16377:1094",
-        "figma": "radius-2",
-        "collection": "Semantic Radius",
-        "css": "--aum-radius-2",
-        "conventional": null,
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 2,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 2,
-            "code": "2px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 2,
-            "code": "2px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 2,
-            "code": "2px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:12a3f08677f0aa1a7879957e7b002a66241b816d/16377:1107",
-        "figma": "radius-999",
-        "collection": "Semantic Radius",
-        "css": "--aum-radius-999",
-        "conventional": null,
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 999,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 999,
-            "code": "999px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:a67a43a54ad5005b275921a0de37f90749f6d268/16377:1109",
-        "figma": "space-10",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-10",
-        "conventional": "--aum-space-10",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 10,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 10,
-            "code": "10px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 10,
-            "code": "10px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 10,
-            "code": "10px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:0d8fa622650ec413cf65d31b60eee5b79f69b4e1/16377:1088",
-        "figma": "space-12",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-12",
-        "conventional": "--aum-space-12",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 12,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 12,
-            "code": "12px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 12,
-            "code": "12px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 12,
-            "code": "12px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:0b4be998b2959787d587b30e2832434dad64afed/16377:165",
-        "figma": "space-16",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-16",
-        "conventional": "--aum-space-16",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 16,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 16,
-            "code": "16px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:f8a4c142641dec9cb50514c3e7fc1df571123055/16377:952",
-        "figma": "space-20",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-20",
-        "conventional": "--aum-space-20",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 20,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 20,
-            "code": "20px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 20,
-            "code": "20px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 20,
-            "code": "20px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:1b0676d85c10baa9d16ac6832edd6ed1c81fffc4/16377:170",
-        "figma": "space-24",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-24",
-        "conventional": "--aum-space-24",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 24,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 24,
-            "code": "24px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 24,
-            "code": "24px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 24,
-            "code": "24px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:0196ee007ac691e052a4f22ebae05543e3de3328/16377:1111",
-        "figma": "space-40",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-40",
-        "conventional": "--aum-space-40",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 40,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 40,
-            "code": "40px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 40,
-            "code": "40px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 40,
-            "code": "40px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:584435feec0c336d23be2fd60dd51269ed0b89b8/16377:948",
-        "figma": "space-48",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-48",
-        "conventional": "--aum-space-48",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 48,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 48,
-            "code": "48px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 48,
-            "code": "48px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 48,
-            "code": "48px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:76eb81e73ee18485c2d8e3f0cb3d63989632ddb0/17327:1",
-        "figma": "space-56",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-56",
-        "conventional": "--aum-space-56",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 56,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 56,
-            "code": "56px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 56,
-            "code": "56px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 56,
-            "code": "56px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:28b50d2c7099c85eeaf0d87852a5fcab7297a3ce/16377:164",
-        "figma": "space-8",
-        "collection": "Semantic Spacing",
-        "css": "--aum-spacing-8",
-        "conventional": "--aum-space-8",
-        "type": "FLOAT",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": 8,
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": 8,
-            "code": "8px",
-            "status": "match"
-          },
-          "Investec": {
-            "design": 8,
-            "code": "8px",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": 8,
-            "code": "8px",
-            "status": "match"
-          }
-        },
-        "retired": null,
-        "status": "differs"
-      },
-      {
-        "id": "VariableID:a430ff4961236f5eef378069cc06408ba99d2db5/17786:301",
-        "figma": "typography/body/family",
-        "collection": "Theme",
-        "css": "--aum-body-font-family",
-        "conventional": "--aum-typography-body-family",
-        "type": "STRING",
-        "definedInCode": true,
-        "brands": {
-          "Dragonpass": {
-            "design": "Poppins",
-            "status": "missing"
-          },
-          "Mastercard": {
-            "design": "Mark Offc For MC",
-            "code": "Mark Offc For MC, sans-serif",
-            "status": "match"
-          },
-          "Investec": {
-            "design": "Inter",
-            "code": "Inter, sans-serif",
-            "status": "match"
-          },
-          "AeroBlue": {
-            "design": "Manrope",
-            "code": "Manrope, sans-serif",
             "status": "match"
           }
         },
@@ -1526,7 +349,8 @@
         "brands": {
           "Dragonpass": {
             "design": 14,
-            "status": "missing"
+            "code": "16px",
+            "status": "differs"
           },
           "Mastercard": {
             "design": 14,
@@ -1546,12 +370,1233 @@
         },
         "retired": null,
         "status": "differs"
+      },
+      {
+        "id": "VariableID:5235b73f5e6ffe3d78126c6e3476c29e374702ee/17786:247",
+        "figma": "background/interactive/action",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-action",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#0A2333",
+            "code": "#0A2333",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#CF4500",
+            "code": "#CF4500",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#343946",
+            "code": "#343946",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#B46D40",
+            "code": "#B46D40",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:319aae518325896792e869c39e53a0f940845132/17786:253",
+        "figma": "background/interactive/action-disabled",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-action-disabled",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#ECEAE9",
+            "code": "#ECEAE9",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#F5F5F5",
+            "code": "#F5F5F5",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#E4E5E7",
+            "code": "#E4E5E7",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#B46D4066",
+            "code": "rgba(180, 109, 64, 0.4)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:1ad8934322a8090c0bc8374ef31436d35759a2d2/17786:256",
+        "figma": "background/interactive/action-hover",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-action-hover",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#0E5475",
+            "code": "#0E5475",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#9A3412",
+            "code": "#9A3412",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#232833",
+            "code": "#232833",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#B46D40",
+            "code": "#B46D40",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:1f1900029f8c7cef1ee2edde076207a8cc77f51c/17786:257",
+        "figma": "background/interactive/action-pressed",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-action-pressed",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#0D3C55",
+            "code": "#0D3C55",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#7C2D12",
+            "code": "#7C2D12",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#464C59",
+            "code": "#464C59",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#B46D40",
+            "code": "#B46D40",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:ee9e400c6513e3f3e0fa3ca7fcf1e625ee7e473d/17299:669",
+        "figma": "background/interactive/control",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-control",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#FFFFFF",
+            "code": "#FFFFFF",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#FFFFFF",
+            "code": "#FFFFFF",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#FFFFFF",
+            "code": "#FFFFFF",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#0B0D14",
+            "code": "#0B0D14",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:a5956899e7f78a73399501e8f76606f48f58f1ce/17786:264",
+        "figma": "background/interactive/control-disabled",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-control-disabled",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#FAF8F7",
+            "code": "#FAF8F7",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#F5F5F5",
+            "code": "#F5F5F5",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#E4E5E7",
+            "code": "#E4E5E7",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#0B0D141A",
+            "code": "rgba(11, 13, 20, 0.1)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:2ccde939ea0db6f208f8d14c44ef32f843896f8f/17299:694",
+        "figma": "background/interactive/control-hover",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-control-hover",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#FAF8F7",
+            "code": "#FAF8F7",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#FAFAFA",
+            "code": "#FAFAFA",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#EEEEEB",
+            "code": "#EEEEEB",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#0B0D14",
+            "code": "#0B0D14",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:0580c235c5cd966f9d8bdf2b4a2ac0535912e657/17786:258",
+        "figma": "background/interactive/control-pressed",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-control-pressed",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#FAF8F7",
+            "code": "#FAF8F7",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#FAFAFA",
+            "code": "#FAFAFA",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#EEEEEB",
+            "code": "#EEEEEB",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#0B0D14",
+            "code": "#0B0D14",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:3c13e4de6af2998c9bd45d903ea9509627ea364a/17786:277",
+        "figma": "background/interactive/danger",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-danger",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#C2082A",
+            "code": "#C2082A",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#DC2626",
+            "code": "#DC2626",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#C64221",
+            "code": "#C64221",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#9D252580",
+            "code": "rgba(157, 37, 37, 0.5)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:d712cf7413fcf75d364070918b9ff408b3a2c8db/17786:278",
+        "figma": "background/interactive/danger-hover",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-danger-hover",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#7D051A",
+            "code": "#7D051A",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#7F1D1D",
+            "code": "#7F1D1D",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#5F1C0D",
+            "code": "#5F1C0D",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#9D2525CC",
+            "code": "rgba(157, 37, 37, 0.8)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:8a1dcc54a49396d067300a5b5e2ecf53c44953ad/17786:279",
+        "figma": "background/interactive/danger-pressed",
+        "collection": "Theme",
+        "css": "--aum-background-interactive-danger-pressed",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#9E001F",
+            "code": "#9E001F",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#B91C1C",
+            "code": "#B91C1C",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#8E1F00",
+            "code": "#8E1F00",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#9D2525",
+            "code": "#9D2525",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:c01644b458be83e279215a75b5cb142ab8d9b244/17786:265",
+        "figma": "border/basic/strong",
+        "collection": "Theme",
+        "css": "--aum-border-basic-strong",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#0A2333",
+            "code": "#0A2333",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#171717",
+            "code": "#171717",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#858A95",
+            "code": "#858A95",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F0CC",
+            "code": "rgba(255, 244, 240, 0.8)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:466f814ad16eadfd94a2edcf6316c48c0ef84979/17786:281",
+        "figma": "border/interactive/action-disabled",
+        "collection": "Theme",
+        "css": "--aum-border-interactive-action-disabled",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#CECCCC",
+            "code": "#CECCCC",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#E5E5E5",
+            "code": "#E5E5E5",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#C1C3C9",
+            "code": "#C1C3C9",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFB59C80",
+            "code": "rgba(255, 181, 156, 0.5)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:614b7b67e1aed704ffa923faa5fa1fc9eb3987e5/17786:269",
+        "figma": "border/interactive/action-hover",
+        "collection": "Theme",
+        "css": "--aum-border-interactive-action-hover",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#045477",
+            "code": "#045477",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#9A3412",
+            "code": "#9A3412",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#131721",
+            "code": "#131721",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFB59CB2",
+            "code": "rgba(255, 181, 156, 0.7)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:2fa0bbcb09635ed75c5b8c749bddfc224004dd1b/17786:268",
+        "figma": "border/interactive/action-pressed",
+        "collection": "Theme",
+        "css": "--aum-border-interactive-action-pressed",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#063E56",
+            "code": "#063E56",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#171717",
+            "code": "#171717",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#464C59",
+            "code": "#464C59",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFB59C4D",
+            "code": "rgba(255, 181, 156, 0.3)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:d48032b7cbc8ac70588cedd0dbca94c0f3935342/17786:263",
+        "figma": "border/interactive/action-selected",
+        "collection": "Theme",
+        "css": "--aum-border-interactive-action-selected",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#0A2333",
+            "code": "#0A2333",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#171717",
+            "code": "#171717",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#343946",
+            "code": "#343946",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F0CC",
+            "code": "rgba(255, 244, 240, 0.8)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:373ed7b8e496574b1fe39ee2f9de477900597b20/17299:713",
+        "figma": "components/button/radius",
+        "collection": "Theme",
+        "css": "--aum-button-radius",
+        "conventional": null,
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 16,
+            "code": "16px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:7eb376f3a6d7a633e567397206711e1594e34d28/17786:246",
+        "figma": "foreground/basic/heading",
+        "collection": "Theme",
+        "css": "--aum-foreground-basic-heading",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#0A2333",
+            "code": "#0A2333",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#171717",
+            "code": "#171717",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#343946",
+            "code": "#343946",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F0",
+            "code": "#FFF4F0",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:c063391674c0e866efe8eba314472a39721fb3e5/17299:674",
+        "figma": "foreground/basic/inverse",
+        "collection": "Theme",
+        "css": "--aum-foreground-basic-inverse",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#FFFFFF",
+            "code": "#FFFFFF",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#FFFFFF",
+            "code": "#FFFFFF",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#F8F8F7",
+            "code": "#F8F8F7",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F0",
+            "code": "#FFF4F0",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:e1662d14189765657dd312f72859c6b0e65f94ce/17786:255",
+        "figma": "foreground/interactive/action",
+        "collection": "Theme",
+        "css": "--aum-foreground-interactive-action",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#006B99",
+            "code": "#006B99",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#CF4500",
+            "code": "#CF4500",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#AE692F",
+            "code": "#AE692F",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFB59C",
+            "code": "#FFB59C",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:001fadd60dd20599168bef29c4bbf97da46d9fe2/17786:251",
+        "figma": "foreground/interactive/action-disabled",
+        "collection": "Theme",
+        "css": "--aum-foreground-interactive-action-disabled",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#91908F",
+            "code": "#91908F",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#D4D4D4",
+            "code": "#D4D4D4",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#858A95",
+            "code": "#858A95",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F080",
+            "code": "rgba(255, 244, 240, 0.5)",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:3ea1adb1807c5257c77df41a2baca999cff8c74a/17786:266",
+        "figma": "foreground/interactive/action-hover",
+        "collection": "Theme",
+        "css": "--aum-foreground-interactive-action-hover",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#045477",
+            "code": "#045477",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#9A3412",
+            "code": "#9A3412",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#232833",
+            "code": "#232833",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F0",
+            "code": "#FFF4F0",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:4ce2c32fc60632a98b1ee59704c31ae7b41ceb9e/17786:267",
+        "figma": "foreground/interactive/action-pressed",
+        "collection": "Theme",
+        "css": "--aum-foreground-interactive-action-pressed",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#063E56",
+            "code": "#063E56",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#171717",
+            "code": "#171717",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#232833",
+            "code": "#232833",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#FFF4F0",
+            "code": "#FFF4F0",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:f2d4ee68ca7cf38af75690b05015d7e383b8b82e/17786:250",
+        "figma": "foreground/interactive/danger",
+        "collection": "Theme",
+        "css": "--aum-foreground-interactive-danger",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#C2082A",
+            "code": "#C2082A",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#DC2626",
+            "code": "#DC2626",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#C64221",
+            "code": "#C64221",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#9D2525",
+            "code": "#9D2525",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:e36a30ae0e0681293dd01d98f3a3d3b6888eb9f2/17786:282",
+        "figma": "foreground/interactive/danger-pressed",
+        "collection": "Theme",
+        "css": "--aum-foreground-interactive-danger-pressed",
+        "conventional": null,
+        "type": "COLOR",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "#9E001F",
+            "code": "#9E001F",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "#B91C1C",
+            "code": "#B91C1C",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "#8E1F00",
+            "code": "#8E1F00",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "#9D2525",
+            "code": "#9D2525",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:51ea9b43fac99f523c123e3d4514d2a299c81c72/16377:1094",
+        "figma": "radius-2",
+        "collection": "Semantic Radius",
+        "css": "--aum-radius-2",
+        "conventional": null,
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 2,
+            "code": "2px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 2,
+            "code": "2px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 2,
+            "code": "2px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 2,
+            "code": "2px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:12a3f08677f0aa1a7879957e7b002a66241b816d/16377:1107",
+        "figma": "radius-999",
+        "collection": "Semantic Radius",
+        "css": "--aum-radius-999",
+        "conventional": null,
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 999,
+            "code": "999px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:a67a43a54ad5005b275921a0de37f90749f6d268/16377:1109",
+        "figma": "space-10",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-10",
+        "conventional": "--aum-space-10",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 10,
+            "code": "10px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 10,
+            "code": "10px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 10,
+            "code": "10px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 10,
+            "code": "10px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:0d8fa622650ec413cf65d31b60eee5b79f69b4e1/16377:1088",
+        "figma": "space-12",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-12",
+        "conventional": "--aum-space-12",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 12,
+            "code": "12px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 12,
+            "code": "12px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 12,
+            "code": "12px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 12,
+            "code": "12px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:0b4be998b2959787d587b30e2832434dad64afed/16377:165",
+        "figma": "space-16",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-16",
+        "conventional": "--aum-space-16",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 16,
+            "code": "16px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 16,
+            "code": "16px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 16,
+            "code": "16px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 16,
+            "code": "16px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:f8a4c142641dec9cb50514c3e7fc1df571123055/16377:952",
+        "figma": "space-20",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-20",
+        "conventional": "--aum-space-20",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 20,
+            "code": "20px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 20,
+            "code": "20px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 20,
+            "code": "20px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 20,
+            "code": "20px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:1b0676d85c10baa9d16ac6832edd6ed1c81fffc4/16377:170",
+        "figma": "space-24",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-24",
+        "conventional": "--aum-space-24",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 24,
+            "code": "24px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 24,
+            "code": "24px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 24,
+            "code": "24px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 24,
+            "code": "24px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:0196ee007ac691e052a4f22ebae05543e3de3328/16377:1111",
+        "figma": "space-40",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-40",
+        "conventional": "--aum-space-40",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 40,
+            "code": "40px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 40,
+            "code": "40px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 40,
+            "code": "40px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 40,
+            "code": "40px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:584435feec0c336d23be2fd60dd51269ed0b89b8/16377:948",
+        "figma": "space-48",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-48",
+        "conventional": "--aum-space-48",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 48,
+            "code": "48px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 48,
+            "code": "48px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 48,
+            "code": "48px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 48,
+            "code": "48px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:76eb81e73ee18485c2d8e3f0cb3d63989632ddb0/17327:1",
+        "figma": "space-56",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-56",
+        "conventional": "--aum-space-56",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 56,
+            "code": "56px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 56,
+            "code": "56px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 56,
+            "code": "56px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 56,
+            "code": "56px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:28b50d2c7099c85eeaf0d87852a5fcab7297a3ce/16377:164",
+        "figma": "space-8",
+        "collection": "Semantic Spacing",
+        "css": "--aum-spacing-8",
+        "conventional": "--aum-space-8",
+        "type": "FLOAT",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": 8,
+            "code": "8px",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": 8,
+            "code": "8px",
+            "status": "match"
+          },
+          "Investec": {
+            "design": 8,
+            "code": "8px",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": 8,
+            "code": "8px",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
+      },
+      {
+        "id": "VariableID:a430ff4961236f5eef378069cc06408ba99d2db5/17786:301",
+        "figma": "typography/body/family",
+        "collection": "Theme",
+        "css": "--aum-body-font-family",
+        "conventional": "--aum-typography-body-family",
+        "type": "STRING",
+        "definedInCode": true,
+        "brands": {
+          "Dragonpass": {
+            "design": "Poppins",
+            "code": "Poppins",
+            "status": "match"
+          },
+          "Mastercard": {
+            "design": "Mark Offc For MC",
+            "code": "Mark Offc For MC, sans-serif",
+            "status": "match"
+          },
+          "Investec": {
+            "design": "Inter",
+            "code": "Inter, sans-serif",
+            "status": "match"
+          },
+          "AeroBlue": {
+            "design": "Manrope",
+            "code": "Manrope, sans-serif",
+            "status": "match"
+          }
+        },
+        "retired": null,
+        "status": "match"
       }
     ],
     "summary": {
       "total": 45,
-      "match": 0,
-      "differs": 39,
+      "match": 37,
+      "differs": 2,
       "missing": 6,
       "unknown": 0,
       "renamed": 13,
@@ -2457,7 +2502,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Focus, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2567,7 +2612,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2657,7 +2702,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Hover, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -11569,7 +11614,8 @@
       "drifted": 4,
       "broken": 2,
       "missingInCode": 3,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 31,
@@ -11644,6 +11690,158 @@
           "Select",
           "Switch",
           "Time Picker"
+        ],
+        "items": [
+          {
+            "component": "1617:15924",
+            "key": "Properties|prop:Show Buttons",
+            "title": "Figma property \"Show Buttons\" has no equivalent in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "1617:15924",
+            "key": "Properties|prop:Show Month and Year",
+            "title": "Figma property \"Show Month and Year\" has no equivalent in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "1617:15924",
+            "key": "Properties|prop:Show Pagination",
+            "title": "Figma property \"Show Pagination\" has no equivalent in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "1617:15924",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "1617:15924",
+            "key": "Properties|prop:Month",
+            "title": "Figma property \"Month\" has no equivalent in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "1617:15924",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "13003:7343",
+            "key": "Properties|prop:Active",
+            "title": "Figma property \"Active\" has no equivalent in code",
+            "componentName": "Radio Button"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Label",
+            "title": "Figma property \"Show Label\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Icon Right",
+            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Pill Right",
+            "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Pill Left",
+            "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Helper Text",
+            "title": "Figma property \"Show Helper Text\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Country Flag",
+            "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:content-left",
+            "title": "Figma property \"content-left\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Show Label Icon",
+            "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Selected",
+            "title": "Figma property \"Selected\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|prop:Label Position",
+            "title": "Figma property \"Label Position\" has no equivalent in code",
+            "componentName": "Select"
+          },
+          {
+            "component": "299:228",
+            "key": "Properties|prop:Show Label",
+            "title": "Figma property \"Show Label\" has no equivalent in code",
+            "componentName": "Switch"
+          },
+          {
+            "component": "299:228",
+            "key": "Properties|prop:On",
+            "title": "Figma property \"On\" has no equivalent in code",
+            "componentName": "Switch"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Properties|prop:Show Buttons",
+            "title": "Figma property \"Show Buttons\" has no equivalent in code",
+            "componentName": "Time Picker"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Properties|prop:Show Before Time",
+            "title": "Figma property \"Show Before Time\" has no equivalent in code",
+            "componentName": "Time Picker"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Properties|prop:Show Current Time",
+            "title": "Figma property \"Show Current Time\" has no equivalent in code",
+            "componentName": "Time Picker"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Properties|prop:Show After Time",
+            "title": "Figma property \"Show After Time\" has no equivalent in code",
+            "componentName": "Time Picker"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Properties|prop:Type",
+            "title": "Figma property \"Type\" has no equivalent in code",
+            "componentName": "Time Picker"
+          }
         ]
       },
       {
@@ -11655,6 +11853,26 @@
           "Check Indicator",
           "Input",
           "Password Criteria"
+        ],
+        "items": [
+          {
+            "component": "13003:7342",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Check Indicator"
+          },
+          {
+            "component": "269:9758",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Input"
+          },
+          {
+            "component": "443:14487",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Password Criteria"
+          }
         ]
       },
       {
@@ -11666,6 +11884,26 @@
           "Input",
           "Select",
           "Switch"
+        ],
+        "items": [
+          {
+            "component": "269:9758",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Input"
+          },
+          {
+            "component": "263:5381",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Select"
+          },
+          {
+            "component": "299:228",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Switch"
+          }
         ]
       },
       {
@@ -11676,6 +11914,20 @@
         "components": [
           "Date Picker",
           "Select"
+        ],
+        "items": [
+          {
+            "component": "1617:15924",
+            "key": "Naming|name",
+            "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "263:5381",
+            "key": "Naming|name",
+            "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
+            "componentName": "Select"
+          }
         ]
       },
       {
@@ -11685,6 +11937,14 @@
         "owner": "Both",
         "components": [
           "Checkbox"
+        ],
+        "items": [
+          {
+            "component": "360:57017",
+            "key": "Visual|pixels",
+            "title": "Looks different from design",
+            "componentName": "Checkbox"
+          }
         ]
       },
       {
@@ -11694,6 +11954,14 @@
         "owner": "Both",
         "components": [
           "Checkbox"
+        ],
+        "items": [
+          {
+            "component": "360:57017",
+            "key": "Visual|height",
+            "title": "Height differs from design",
+            "componentName": "Checkbox"
+          }
         ]
       },
       {
@@ -11703,6 +11971,14 @@
         "owner": "Design",
         "components": [
           "Checkbox"
+        ],
+        "items": [
+          {
+            "component": "360:57017",
+            "key": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "componentName": "Checkbox"
+          }
         ]
       },
       {
@@ -11712,6 +11988,14 @@
         "owner": "Design",
         "components": [
           "Select"
+        ],
+        "items": [
+          {
+            "component": "263:5381",
+            "key": "Naming|taxonomy:State",
+            "title": "Semantic values live under \"State\"",
+            "componentName": "Select"
+          }
         ]
       },
       {
@@ -11726,6 +12010,44 @@
           "Select",
           "Switch",
           "Time Picker"
+        ],
+        "items": [
+          {
+            "component": "360:57017",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Checkbox"
+          },
+          {
+            "component": "1617:15924",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "13003:7343",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Radio Button"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Select"
+          },
+          {
+            "component": "299:228",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Switch"
+          },
+          {
+            "component": "15113:67057",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Time Picker"
+          }
         ]
       },
       {
@@ -11736,14 +12058,29 @@
         "components": [
           "Date Picker",
           "Select"
+        ],
+        "items": [
+          {
+            "component": "1617:15924",
+            "key": "Properties|coverage",
+            "title": "24 of 24 variants can't be shown in code",
+            "componentName": "Date Picker"
+          },
+          {
+            "component": "263:5381",
+            "key": "Properties|coverage",
+            "title": "24 of 24 variants can't be shown in code",
+            "componentName": "Select"
+          }
         ]
       }
     ],
     "works": [
-      "0 of 45 design tokens have the same value in code across every brand",
+      "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Tokens, Rendering, Documentation",
       "1 components render in Storybook without errors"
     ],
+    "ignored": [],
     "brokenComponents": [
       {
         "name": "Checkbox",
@@ -11766,6 +12103,7 @@
       {
         "component": "Check Indicator",
         "componentKey": "13003:7342",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11778,6 +12116,7 @@
       {
         "component": "Checkbox",
         "componentKey": "360:57017",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11790,6 +12129,7 @@
       {
         "component": "Checkbox",
         "componentKey": "360:57017",
+        "key": "Rendering|console",
         "category": "Rendering",
         "subject": "console",
         "status": "warn",
@@ -11807,6 +12147,7 @@
       {
         "component": "Checkbox",
         "componentKey": "360:57017",
+        "key": "Visual|pixels",
         "category": "Visual",
         "subject": "pixels",
         "status": "fail",
@@ -11821,6 +12162,7 @@
       {
         "component": "Checkbox",
         "componentKey": "360:57017",
+        "key": "Visual|height",
         "category": "Visual",
         "subject": "height",
         "status": "fail",
@@ -11835,6 +12177,7 @@
       {
         "component": "Checkbox",
         "componentKey": "360:57017",
+        "key": "Visual|width",
         "category": "Visual",
         "subject": "width",
         "status": "warn",
@@ -11849,6 +12192,7 @@
       {
         "component": "Checkbox",
         "componentKey": "360:57017",
+        "key": "Accessibility|axe:color-contrast",
         "category": "Accessibility",
         "subject": "axe:color-contrast",
         "status": "fail",
@@ -11863,6 +12207,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11875,6 +12220,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|prop:Show Buttons",
         "category": "Properties",
         "subject": "prop:Show Buttons",
         "status": "fail",
@@ -11887,6 +12233,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|prop:Show Month and Year",
         "category": "Properties",
         "subject": "prop:Show Month and Year",
         "status": "fail",
@@ -11899,6 +12246,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|prop:Show Pagination",
         "category": "Properties",
         "subject": "prop:Show Pagination",
         "status": "fail",
@@ -11911,6 +12259,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -11923,6 +12272,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|prop:Month",
         "category": "Properties",
         "subject": "prop:Month",
         "status": "fail",
@@ -11935,6 +12285,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -11947,6 +12298,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -11959,6 +12311,7 @@
       {
         "component": "Date Picker",
         "componentKey": "1617:15924",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -11971,6 +12324,7 @@
       {
         "component": "Input",
         "componentKey": "269:9758",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -11985,6 +12339,7 @@
       {
         "component": "Input",
         "componentKey": "269:9758",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -11997,6 +12352,7 @@
       {
         "component": "Password Criteria",
         "componentKey": "443:14487",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12009,6 +12365,7 @@
       {
         "component": "Radio Button",
         "componentKey": "13003:7343",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -12021,6 +12378,7 @@
       {
         "component": "Radio Button",
         "componentKey": "13003:7343",
+        "key": "Properties|prop:Active",
         "category": "Properties",
         "subject": "prop:Active",
         "status": "fail",
@@ -12033,6 +12391,7 @@
       {
         "component": "Radio Button",
         "componentKey": "13003:7343",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12045,6 +12404,7 @@
       {
         "component": "Radio Button",
         "componentKey": "13003:7343",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12057,6 +12417,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -12069,6 +12430,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Label",
         "category": "Properties",
         "subject": "prop:Show Label",
         "status": "fail",
@@ -12081,6 +12443,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Icon Left",
         "category": "Properties",
         "subject": "prop:Show Icon Left",
         "status": "fail",
@@ -12093,6 +12456,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Icon Right",
         "category": "Properties",
         "subject": "prop:Show Icon Right",
         "status": "fail",
@@ -12105,6 +12469,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Pill Right",
         "category": "Properties",
         "subject": "prop:Show Pill Right",
         "status": "fail",
@@ -12117,6 +12482,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Pill Left",
         "category": "Properties",
         "subject": "prop:Show Pill Left",
         "status": "fail",
@@ -12129,6 +12495,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Helper Text",
         "category": "Properties",
         "subject": "prop:Show Helper Text",
         "status": "fail",
@@ -12141,6 +12508,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Label",
         "category": "Properties",
         "subject": "prop:Label",
         "status": "warn",
@@ -12153,6 +12521,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Country Flag",
         "category": "Properties",
         "subject": "prop:Show Country Flag",
         "status": "fail",
@@ -12165,6 +12534,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Naming|prop:Show Placeholder",
         "category": "Naming",
         "subject": "prop:Show Placeholder",
         "status": "warn",
@@ -12177,6 +12547,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Selected Option",
         "category": "Properties",
         "subject": "prop:Selected Option",
         "status": "warn",
@@ -12189,6 +12560,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:content-left",
         "category": "Properties",
         "subject": "prop:content-left",
         "status": "fail",
@@ -12201,6 +12573,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Label Icon",
         "category": "Properties",
         "subject": "prop:Show Label Icon",
         "status": "fail",
@@ -12213,6 +12586,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Selected",
         "category": "Properties",
         "subject": "prop:Selected",
         "status": "fail",
@@ -12225,6 +12599,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:State",
         "category": "Properties",
         "subject": "prop:State",
         "status": "warn",
@@ -12237,6 +12612,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Naming|taxonomy:State",
         "category": "Naming",
         "subject": "taxonomy:State",
         "status": "fail",
@@ -12249,6 +12625,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Label Position",
         "category": "Properties",
         "subject": "prop:Label Position",
         "status": "fail",
@@ -12261,6 +12638,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12273,6 +12651,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12285,6 +12664,7 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -12300,6 +12680,7 @@
       {
         "component": "Switch",
         "componentKey": "299:228",
+        "key": "Properties|prop:Show Label",
         "category": "Properties",
         "subject": "prop:Show Label",
         "status": "fail",
@@ -12312,6 +12693,7 @@
       {
         "component": "Switch",
         "componentKey": "299:228",
+        "key": "Properties|prop:On",
         "category": "Properties",
         "subject": "prop:On",
         "status": "fail",
@@ -12324,6 +12706,7 @@
       {
         "component": "Switch",
         "componentKey": "299:228",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12336,6 +12719,7 @@
       {
         "component": "Switch",
         "componentKey": "299:228",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12348,6 +12732,7 @@
       {
         "component": "Switch",
         "componentKey": "299:228",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -12363,6 +12748,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
         "status": "warn",
@@ -12375,6 +12761,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|prop:Show Buttons",
         "category": "Properties",
         "subject": "prop:Show Buttons",
         "status": "fail",
@@ -12387,6 +12774,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|prop:Show Before Time",
         "category": "Properties",
         "subject": "prop:Show Before Time",
         "status": "fail",
@@ -12399,6 +12787,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|prop:Show Current Time",
         "category": "Properties",
         "subject": "prop:Show Current Time",
         "status": "fail",
@@ -12411,6 +12800,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|prop:Show After Time",
         "category": "Properties",
         "subject": "prop:Show After Time",
         "status": "fail",
@@ -12423,6 +12813,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|prop:Type",
         "category": "Properties",
         "subject": "prop:Type",
         "status": "fail",
@@ -12435,6 +12826,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -12447,6 +12839,7 @@
       {
         "component": "Time Picker",
         "componentKey": "15113:67057",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -12517,6 +12910,26 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "269:9758",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Input"
+          },
+          {
+            "component": "263:5381",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Select"
+          },
+          {
+            "component": "299:228",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Switch"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -12548,6 +12961,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Input",
             "componentKey": "269:9758",
             "brand": "Dragonpass",
@@ -12603,6 +13018,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Select",
             "componentKey": "263:5381",
             "brand": "Dragonpass",
@@ -12630,6 +13047,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Select",
             "componentKey": "263:5381",
             "brand": "AeroBlue",
@@ -12655,6 +13074,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Switch",
             "componentKey": "299:228",
             "brand": "AeroBlue",
@@ -12681,6 +13102,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Switch",
             "componentKey": "299:228",
             "brand": "Visa Affluent",
@@ -12708,6 +13131,14 @@
         "occurrences": 47
       },
       {
+        "items": [
+          {
+            "component": "360:57017",
+            "key": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "componentName": "Checkbox"
+          }
+        ],
         "rule": "color-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -12731,6 +13162,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|axe:color-contrast",
+            "title": "Elements must meet minimum color contrast ratio thresholds",
             "component": "Checkbox",
             "componentKey": "360:57017",
             "brand": "AeroBlue",
@@ -12761,7 +13194,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T16:39:39.451Z",
+    "since": "2026-11-18T10:07:06.720Z",
     "previousScore": 35,
     "newFails": [],
     "fixed": []

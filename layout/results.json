@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-17T16:41:27.875Z",
-    "durationMs": 108397,
+    "generatedAt": "2026-11-18T10:47:21.744Z",
+    "durationMs": 69190,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -32,9 +32,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-17T16:29:38Z"
+        "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-17T16:40:25.119Z",
+      "exportedAt": "2026-11-18T10:46:32.730Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2002,7 +2002,8 @@
       "drifted": 1,
       "broken": 0,
       "missingInCode": 1,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 4,
@@ -2073,6 +2074,20 @@
         "owner": "Dev",
         "components": [
           "Divider"
+        ],
+        "items": [
+          {
+            "component": "3058:1805",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "Divider"
+          },
+          {
+            "component": "3058:1805",
+            "key": "Properties|prop:Subtle",
+            "title": "Figma property \"Subtle\" has no equivalent in code",
+            "componentName": "Divider"
+          }
         ]
       },
       {
@@ -2082,6 +2097,14 @@
         "owner": "Both",
         "components": [
           "Overlay"
+        ],
+        "items": [
+          {
+            "component": "3211:21394",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Overlay"
+          }
         ]
       },
       {
@@ -2091,6 +2114,14 @@
         "owner": "Design",
         "components": [
           "Divider"
+        ],
+        "items": [
+          {
+            "component": "3058:1805",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Divider"
+          }
         ]
       },
       {
@@ -2100,6 +2131,14 @@
         "owner": "Both",
         "components": [
           "Divider"
+        ],
+        "items": [
+          {
+            "component": "3058:1805",
+            "key": "Properties|coverage",
+            "title": "4 of 4 variants can't be shown in code",
+            "componentName": "Divider"
+          }
         ]
       }
     ],
@@ -2107,11 +2146,13 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
+    "ignored": [],
     "brokenComponents": [],
     "issues": [
       {
         "component": "Divider",
         "componentKey": "3058:1805",
+        "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
         "status": "fail",
@@ -2124,6 +2165,7 @@
       {
         "component": "Divider",
         "componentKey": "3058:1805",
+        "key": "Properties|prop:Subtle",
         "category": "Properties",
         "subject": "prop:Subtle",
         "status": "fail",
@@ -2136,6 +2178,7 @@
       {
         "component": "Divider",
         "componentKey": "3058:1805",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -2148,6 +2191,7 @@
       {
         "component": "Divider",
         "componentKey": "3058:1805",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -2160,6 +2204,7 @@
       {
         "component": "Overlay",
         "componentKey": "3211:21394",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -2189,7 +2234,7 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-17T15:39:23.227Z",
+    "since": "2026-11-18T10:08:44.305Z",
     "previousScore": 32,
     "newFails": [],
     "fixed": []

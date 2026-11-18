@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:45:48.457Z",
-    "durationMs": 91869,
+    "generatedAt": "2026-11-18T10:51:27.919Z",
+    "durationMs": 94941,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:44:34.558Z",
+      "exportedAt": "2026-11-18T10:50:10.209Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7248,7 +7248,8 @@
       "drifted": 2,
       "broken": 0,
       "missingInCode": 5,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 10,
@@ -7323,6 +7324,38 @@
           "Sheet Topper",
           "Status Bar",
           "Title"
+        ],
+        "items": [
+          {
+            "component": "3096:9618",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Home Indicator"
+          },
+          {
+            "component": "3553:44797",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "iPhone Keyboard"
+          },
+          {
+            "component": "15660:22906",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Sheet Topper"
+          },
+          {
+            "component": "3096:10157",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Status Bar"
+          },
+          {
+            "component": "706:50315",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Title"
+          }
         ]
       },
       {
@@ -7333,6 +7366,20 @@
         "components": [
           "Body",
           "Text Link"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Naming|name",
+            "title": "Figma \"Body\" is \"Text\" in Storybook",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2709",
+            "key": "Naming|name",
+            "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+            "componentName": "Text Link"
+          }
         ]
       },
       {
@@ -7343,6 +7390,20 @@
         "components": [
           "Body",
           "Text Link"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Properties|values:Size",
+            "title": "Size values missing in code",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2709",
+            "key": "Properties|values:Size",
+            "title": "Size values missing in code",
+            "componentName": "Text Link"
+          }
         ]
       },
       {
@@ -7353,6 +7414,26 @@
         "components": [
           "Body",
           "Text Link"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Properties|prop:weight",
+            "title": "Figma property \"weight\" has no equivalent in code",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2636",
+            "key": "Properties|prop:Shade",
+            "title": "Figma property \"Shade\" has no equivalent in code",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2709",
+            "key": "Properties|prop:weight",
+            "title": "Figma property \"weight\" has no equivalent in code",
+            "componentName": "Text Link"
+          }
         ]
       },
       {
@@ -7364,6 +7445,26 @@
           "Body",
           "Text Link",
           "Title"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2709",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Text Link"
+          },
+          {
+            "component": "706:50315",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Title"
+          }
         ]
       },
       {
@@ -7374,6 +7475,20 @@
         "components": [
           "Body",
           "Text Link"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2709",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Text Link"
+          }
         ]
       },
       {
@@ -7383,6 +7498,14 @@
         "owner": "Both",
         "components": [
           "Body"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Properties|coverage",
+            "title": "24 of 24 variants can't be shown in code",
+            "componentName": "Body"
+          }
         ]
       },
       {
@@ -7392,6 +7515,14 @@
         "owner": "Both",
         "components": [
           "Text Link"
+        ],
+        "items": [
+          {
+            "component": "1580:2709",
+            "key": "Properties|coverage",
+            "title": "12 of 12 variants can't be shown in code",
+            "componentName": "Text Link"
+          }
         ]
       }
     ],
@@ -7399,11 +7530,13 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Accessibility, Documentation"
     ],
+    "ignored": [],
     "brokenComponents": [],
     "issues": [
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7416,6 +7549,7 @@
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Properties|values:Size",
         "category": "Properties",
         "subject": "values:Size",
         "status": "fail",
@@ -7428,6 +7562,7 @@
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Properties|prop:weight",
         "category": "Properties",
         "subject": "prop:weight",
         "status": "fail",
@@ -7440,6 +7575,7 @@
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Properties|prop:Shade",
         "category": "Properties",
         "subject": "prop:Shade",
         "status": "fail",
@@ -7452,6 +7588,7 @@
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -7464,6 +7601,7 @@
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -7476,6 +7614,7 @@
       {
         "component": "Body",
         "componentKey": "1580:2636",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -7495,6 +7634,7 @@
       {
         "component": "Home Indicator",
         "componentKey": "3096:9618",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7507,6 +7647,7 @@
       {
         "component": "iPhone Keyboard",
         "componentKey": "3553:44797",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7519,6 +7660,7 @@
       {
         "component": "Sheet Topper",
         "componentKey": "15660:22906",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7531,6 +7673,7 @@
       {
         "component": "Status Bar",
         "componentKey": "3096:10157",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7543,6 +7686,7 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7555,6 +7699,7 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Properties|values:Size",
         "category": "Properties",
         "subject": "values:Size",
         "status": "fail",
@@ -7567,6 +7712,7 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Properties|prop:weight",
         "category": "Properties",
         "subject": "prop:weight",
         "status": "fail",
@@ -7579,6 +7725,7 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
         "status": "warn",
@@ -7591,6 +7738,7 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
         "status": "warn",
@@ -7603,6 +7751,7 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -7618,6 +7767,7 @@
       {
         "component": "Title",
         "componentKey": "706:50315",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -7637,6 +7787,7 @@
       {
         "component": "Title",
         "componentKey": "706:50315",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -7681,6 +7832,26 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Body"
+          },
+          {
+            "component": "1580:2709",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Text Link"
+          },
+          {
+            "component": "706:50315",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Title"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -7712,6 +7883,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Body",
             "componentKey": "1580:2636",
             "brand": "Dragonpass",
@@ -7748,6 +7921,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Body",
             "componentKey": "1580:2636",
             "brand": "Mastercard",
@@ -7784,6 +7959,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Body",
             "componentKey": "1580:2636",
             "brand": "Investec",
@@ -7819,6 +7996,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Body",
             "componentKey": "1580:2636",
             "brand": "Assurant",
@@ -7854,6 +8033,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Body",
             "componentKey": "1580:2636",
             "brand": "AeroBlue",
@@ -7889,6 +8070,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Body",
             "componentKey": "1580:2636",
             "brand": "Visa Affluent",
@@ -7924,6 +8107,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Text Link",
             "componentKey": "1580:2709",
             "brand": "Investec",
@@ -7958,6 +8143,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Text Link",
             "componentKey": "1580:2709",
             "brand": "AeroBlue",
@@ -7992,6 +8179,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
             "brand": "Dragonpass",
@@ -8020,6 +8209,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
             "brand": "Mastercard",
@@ -8048,6 +8239,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
             "brand": "Investec",
@@ -8076,6 +8269,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
             "brand": "Assurant",
@@ -8104,6 +8299,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
             "brand": "AeroBlue",
@@ -8132,6 +8329,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Title",
             "componentKey": "706:50315",
             "brand": "Visa Affluent",
@@ -8165,7 +8364,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-17T16:48:17.747Z",
+    "since": "2026-11-18T10:14:04.242Z",
     "previousScore": 15,
     "newFails": [],
     "fixed": []

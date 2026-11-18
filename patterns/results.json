@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T10:47:42.737Z",
-    "durationMs": 114256,
+    "generatedAt": "2026-11-18T10:53:15.793Z",
+    "durationMs": 107851,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -34,7 +34,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-17T23:41:07Z"
       },
-      "exportedAt": "2026-11-18T10:46:39.093Z",
+      "exportedAt": "2026-11-18T10:52:15.815Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -8744,7 +8744,8 @@
       "drifted": 0,
       "broken": 0,
       "missingInCode": 27,
-      "missingInDesign": 0
+      "missingInDesign": 0,
+      "ignored": 0
     },
     "checks": {
       "pass": 3,
@@ -8841,6 +8842,170 @@
           "Search and Filters",
           "Web Payment ",
           "Web Search"
+        ],
+        "items": [
+          {
+            "component": "15258:5697",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Booking Card"
+          },
+          {
+            "component": "8784:6542",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Booking Details"
+          },
+          {
+            "component": "15854:36802",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Booking Step Container"
+          },
+          {
+            "component": "16047:1891",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Booking Steps"
+          },
+          {
+            "component": "17104:34171",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Booking Widget"
+          },
+          {
+            "component": "15327:32950",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Bottom Sheet"
+          },
+          {
+            "component": "15759:2797",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Checkout"
+          },
+          {
+            "component": "16640:23428",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Filters"
+          },
+          {
+            "component": "15598:89150",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Global Search"
+          },
+          {
+            "component": "16857:70583",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "LP / Description Section"
+          },
+          {
+            "component": "16857:70520",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "LP / FAQ Section"
+          },
+          {
+            "component": "16857:70176",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "LP / Hero"
+          },
+          {
+            "component": "16857:70496",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "LP / How It Works Section"
+          },
+          {
+            "component": "16857:70611",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "LP / How to register your flight?"
+          },
+          {
+            "component": "16857:70548",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "LP / What's Included Section"
+          },
+          {
+            "component": "17492:9098",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Order Details Container"
+          },
+          {
+            "component": "17022:7662",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Order Status Container"
+          },
+          {
+            "component": "17165:13507",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Order Status Header"
+          },
+          {
+            "component": "12877:4669",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Payment Accordion"
+          },
+          {
+            "component": "8094:11608",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Payment Breakdown"
+          },
+          {
+            "component": "15695:14328",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Payment Card"
+          },
+          {
+            "component": "15733:36277",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Payment Method"
+          },
+          {
+            "component": "3298:3183",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Payment Providers"
+          },
+          {
+            "component": "15598:87162",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Scroll Bar"
+          },
+          {
+            "component": "15802:23527",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Search and Filters"
+          },
+          {
+            "component": "7811:32360",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Web Payment "
+          },
+          {
+            "component": "8086:14805",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Web Search"
+          }
         ]
       },
       {
@@ -8859,17 +9024,81 @@
           "Payment Accordion",
           "Payment Breakdown",
           "Web Search"
+        ],
+        "items": [
+          {
+            "component": "15258:5697",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Card"
+          },
+          {
+            "component": "8784:6542",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Details"
+          },
+          {
+            "component": "15854:36802",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Step Container"
+          },
+          {
+            "component": "17104:34171",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Widget"
+          },
+          {
+            "component": "15598:89150",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Global Search"
+          },
+          {
+            "component": "17022:7662",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Order Status Container"
+          },
+          {
+            "component": "17165:13507",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Order Status Header"
+          },
+          {
+            "component": "12877:4669",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Payment Accordion"
+          },
+          {
+            "component": "8094:11608",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Payment Breakdown"
+          },
+          {
+            "component": "8086:14805",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Web Search"
+          }
         ]
       }
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand"
     ],
+    "ignored": [],
     "brokenComponents": [],
     "issues": [
       {
         "component": "Booking Card",
         "componentKey": "15258:5697",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -8884,6 +9113,7 @@
       {
         "component": "Booking Card",
         "componentKey": "15258:5697",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -8896,6 +9126,7 @@
       {
         "component": "Booking Details",
         "componentKey": "8784:6542",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -8910,6 +9141,7 @@
       {
         "component": "Booking Details",
         "componentKey": "8784:6542",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -8922,6 +9154,7 @@
       {
         "component": "Booking Step Container",
         "componentKey": "15854:36802",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -8936,6 +9169,7 @@
       {
         "component": "Booking Step Container",
         "componentKey": "15854:36802",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -8948,6 +9182,7 @@
       {
         "component": "Booking Steps",
         "componentKey": "16047:1891",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -8960,6 +9195,7 @@
       {
         "component": "Booking Widget",
         "componentKey": "17104:34171",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -8974,6 +9210,7 @@
       {
         "component": "Booking Widget",
         "componentKey": "17104:34171",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -8986,6 +9223,7 @@
       {
         "component": "Bottom Sheet",
         "componentKey": "15327:32950",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -8998,6 +9236,7 @@
       {
         "component": "Checkout",
         "componentKey": "15759:2797",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9010,6 +9249,7 @@
       {
         "component": "Filters",
         "componentKey": "16640:23428",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9022,6 +9262,7 @@
       {
         "component": "Global Search",
         "componentKey": "15598:89150",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -9036,6 +9277,7 @@
       {
         "component": "Global Search",
         "componentKey": "15598:89150",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9048,6 +9290,7 @@
       {
         "component": "LP / Description Section",
         "componentKey": "16857:70583",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9060,6 +9303,7 @@
       {
         "component": "LP / FAQ Section",
         "componentKey": "16857:70520",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9072,6 +9316,7 @@
       {
         "component": "LP / Hero",
         "componentKey": "16857:70176",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9084,6 +9329,7 @@
       {
         "component": "LP / How It Works Section",
         "componentKey": "16857:70496",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9096,6 +9342,7 @@
       {
         "component": "LP / How to register your flight?",
         "componentKey": "16857:70611",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9108,6 +9355,7 @@
       {
         "component": "LP / What's Included Section",
         "componentKey": "16857:70548",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9120,6 +9368,7 @@
       {
         "component": "Order Details Container",
         "componentKey": "17492:9098",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9132,6 +9381,7 @@
       {
         "component": "Order Status Container",
         "componentKey": "17022:7662",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -9146,6 +9396,7 @@
       {
         "component": "Order Status Container",
         "componentKey": "17022:7662",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9158,6 +9409,7 @@
       {
         "component": "Order Status Header",
         "componentKey": "17165:13507",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -9172,6 +9424,7 @@
       {
         "component": "Order Status Header",
         "componentKey": "17165:13507",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9184,6 +9437,7 @@
       {
         "component": "Payment Accordion",
         "componentKey": "12877:4669",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "fail",
@@ -9198,6 +9452,7 @@
       {
         "component": "Payment Accordion",
         "componentKey": "12877:4669",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9210,6 +9465,7 @@
       {
         "component": "Payment Breakdown",
         "componentKey": "8094:11608",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -9224,6 +9480,7 @@
       {
         "component": "Payment Breakdown",
         "componentKey": "8094:11608",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9236,6 +9493,7 @@
       {
         "component": "Payment Card",
         "componentKey": "15695:14328",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9248,6 +9506,7 @@
       {
         "component": "Payment Method",
         "componentKey": "15733:36277",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9260,6 +9519,7 @@
       {
         "component": "Payment Providers",
         "componentKey": "3298:3183",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9272,6 +9532,7 @@
       {
         "component": "Scroll Bar",
         "componentKey": "15598:87162",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9284,6 +9545,7 @@
       {
         "component": "Search and Filters",
         "componentKey": "15802:23527",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9296,6 +9558,7 @@
       {
         "component": "Web Payment ",
         "componentKey": "7811:32360",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9308,6 +9571,7 @@
       {
         "component": "Web Search",
         "componentKey": "8086:14805",
+        "key": "Accessibility|design:contrast",
         "category": "Accessibility",
         "subject": "design:contrast",
         "status": "warn",
@@ -9322,6 +9586,7 @@
       {
         "component": "Web Search",
         "componentKey": "8086:14805",
+        "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
         "status": "fail",
@@ -9362,6 +9627,68 @@
     ],
     "issues": [
       {
+        "items": [
+          {
+            "component": "15258:5697",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Card"
+          },
+          {
+            "component": "8784:6542",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Details"
+          },
+          {
+            "component": "15854:36802",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Step Container"
+          },
+          {
+            "component": "17104:34171",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Booking Widget"
+          },
+          {
+            "component": "15598:89150",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Global Search"
+          },
+          {
+            "component": "17022:7662",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Order Status Container"
+          },
+          {
+            "component": "17165:13507",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Order Status Header"
+          },
+          {
+            "component": "12877:4669",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Payment Accordion"
+          },
+          {
+            "component": "8094:11608",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Payment Breakdown"
+          },
+          {
+            "component": "8086:14805",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Web Search"
+          }
+        ],
         "rule": "design-contrast",
         "criterion": {
           "sc": "1.4.3",
@@ -9421,6 +9748,8 @@
         ],
         "where": [
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Booking Card",
             "componentKey": "15258:5697",
             "brand": "AeroBlue",
@@ -9445,6 +9774,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Booking Details",
             "componentKey": "8784:6542",
             "brand": "AeroBlue",
@@ -9469,6 +9800,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Booking Step Container",
             "componentKey": "15854:36802",
             "brand": "AeroBlue",
@@ -9494,6 +9827,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Booking Widget",
             "componentKey": "17104:34171",
             "brand": "AeroBlue",
@@ -9522,6 +9857,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Global Search",
             "componentKey": "15598:89150",
             "brand": "AeroBlue",
@@ -9548,6 +9885,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Order Status Container",
             "componentKey": "17022:7662",
             "brand": "AeroBlue",
@@ -9573,6 +9912,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Order Status Header",
             "componentKey": "17165:13507",
             "brand": "AeroBlue",
@@ -9598,6 +9939,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Accordion",
             "componentKey": "12877:4669",
             "brand": "Visa Affluent",
@@ -9626,6 +9969,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Payment Breakdown",
             "componentKey": "8094:11608",
             "brand": "AeroBlue",
@@ -9651,6 +9996,8 @@
             "size": null
           },
           {
+            "checkKey": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "component": "Web Search",
             "componentKey": "8086:14805",
             "brand": "AeroBlue",
@@ -9677,5 +10024,11 @@
         "occurrences": 33
       }
     ]
+  },
+  "delta": {
+    "since": "2026-11-18T10:17:17.145Z",
+    "previousScore": 0,
+    "newFails": [],
+    "fixed": []
   }
 }
