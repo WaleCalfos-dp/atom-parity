@@ -1,0 +1,70 @@
+name: Deploy relay
+
+# Publishes the relay (relay/worker.js) to Cloudflare Workers, gives it the GitHub key it uses to start checks,
+# and tells the site its address (relay.json on the published site).
+# Needs two repository secrets: CLOUDFLARE_API_TOKEN (Edit Cloudflare Workers) and DISPATCH_TOKEN
+# (a GitHub fine-grained token for this repository with Actions: Read and write).
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['relay/**', '.github/workflows/deploy-relay.yml']
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check the keys are in place
+        id: keys
+        env:
+          EVENT: ${{ github.event_name }}
+          CF: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          GHT: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          missing=""
+          [ -n "$CF" ] || missing="$missing CLOUDFLARE_API_TOKEN"
+          [ -n "$GHT" ] || missing="$missing DISPATCH_TOKEN"
+          if [ -z "$missing" ]; then echo "ready=yes" >> "$GITHUB_OUTPUT"; exit 0; fi
+          # On a code push, skip quietly until the keys exist; when run by hand, say what's missing
+          if [ "$EVENT" = "push" ]; then echo "::notice title=Relay not deployed yet::Add these repository secrets, then run Deploy relay:$missing"; exit 0; fi
+          echo "::error title=Relay not deployed::Add these repository secrets first:$missing"; exit 1
+
+      - name: Deploy the relay
+        id: deploy
+        if: steps.keys.outputs.ready == 'yes'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: relay
+          secrets: |
+            GH_TOKEN
+        env:
+          GH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+
+      - name: Tell the site where the relay is
+        if: steps.keys.outputs.ready == 'yes'
+        env:
+          RELAY_URL: ${{ steps.deploy.outputs.deployment-url }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          URL="${RELAY_URL%/}"
+          if [ -z "$URL" ]; then echo "::error::Cloudflare didn't return the relay address. Turn on the workers.dev subdomain in Cloudflare, then run this again."; exit 1; fi
+          curl -fsS "$URL/health" && echo
+          git config --global user.name "atom-parity"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git clone -q --depth 1 --branch gh-pages "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" site
+          cd site
+          for attempt in 1 2 3 4 5; do
+            printf '{"url":"%s","deployedAt":"%s"}\n' "$URL" "$(date -u +%FT%TZ)" > relay.json
+            git add relay.json
+            git diff --cached --quiet && break
+            git commit -qm "Relay address" && git push -q origin gh-pages && break
+            git fetch -q origin gh-pages && git reset -q --hard origin/gh-pages
+            sleep $((attempt * 3))
+          done
+          echo "::notice title=Relay ready::$URL"

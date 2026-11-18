@@ -201,6 +201,60 @@ await page.emulateMedia({ colorScheme: 'light' });
 await page.reload(); await page.waitForSelector('.card'); await page.waitForTimeout(1600);
 await axeCheck('home');
 
+// ---- Team relay: no GitHub account, just a name
+fs.writeFileSync(path.join(SITE, 'relay.json'), JSON.stringify({ url: 'https://relay.test/' }));
+const rl = { posts: [], reads: [] };
+await page.route('https://relay.test/**', async (route) => {
+  const u = new URL(route.request().url());
+  const json = (body, status = 200) => route.fulfill({ status, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify(body) });
+  if (u.pathname === '/action') { const b = JSON.parse(route.request().postData()); rl.posts.push(b); gh.req = b.request_id; gh.polls = 0; return json({ ok: true }); }
+  if (u.pathname === '/gh') {
+    const p = u.searchParams.get('path'); rl.reads.push(p);
+    if (/\/runs\?/.test(p)) return json({ workflow_runs: [{ id: 78, status: 'in_progress', created_at: new Date().toISOString(), display_title: 'Run [' + gh.req + ']' }] });
+    if (/\/runs\/78\/jobs/.test(p)) return json({ jobs: [{ steps: [{ name: 'Compare Figma with Storybook', status: 'in_progress' }] }] });
+    if (/\/runs\/78$/.test(p)) return json({ id: 78, html_url: 'https://github.com/x/runs/78', status: 'in_progress', conclusion: null });
+  }
+  return json({ error: 'nope' }, 404);
+});
+await page.evaluate(() => { localStorage.clear(); });
+const ghBefore = gh.dispatched.length;
+await page.goto(BASE); await page.waitForSelector('.card');
+await page.waitForFunction(() => /Add your name/.test(document.getElementById('connLabel').textContent));
+// Running a check asks for a name first, then carries on
+await page.click('.card [data-act="run"]');
+await page.waitForSelector('#nameDlg[open]');
+await page.click('#nameForm button[type=submit]');
+assert.match(await page.textContent('#nameErr'), /Add your name/);
+await page.screenshot({ path: '/tmp/app-name.png' });
+await axeCheck('name dialog');
+await page.fill('#nameInput', 'Yana Petrova'); await page.click('#nameForm button[type=submit]');
+await page.waitForSelector('.run');
+assert.equal(rl.posts.at(-1).action, 'run'); assert.equal(rl.posts.at(-1).name, 'Yana Petrova'); assert.ok(rl.posts.at(-1).check);
+assert.equal(gh.dispatched.length, ghBefore, 'nothing went to GitHub directly');
+assert.match(await page.textContent('#connLabel'), /Yana Petrova/);
+await page.waitForFunction(() => /Comparing/.test(document.getElementById('runs').textContent), null, { timeout: 30000 });
+assert.ok(rl.reads.some((p) => /\/runs\/78\/jobs/.test(p)), 'progress read through the relay');
+await page.click('.run [data-dismiss]');
+// Report: ignore and comment go through the relay with the name
+await page.goto(BASE + firstId + '/'); await page.waitForSelector('.comp');
+await page.click('.comp summary'); await page.waitForSelector('.body .ck .ign');
+await page.locator('.body .ck .ign:not(.cmt)').first().click();
+await page.waitForSelector('#ignDlg[open]');
+assert.equal(await page.inputValue('#ignName'), 'Yana Petrova', 'name carried over from the home page');
+await page.fill('#ignReason', 'Brand exception'); await page.click('#ignGo');
+await page.waitForSelector('#toast:not([hidden])');
+const rIg = rl.posts.at(-1);
+assert.equal(rIg.action, 'ignore'); assert.equal(rIg.name, 'Yana Petrova'); assert.equal(rIg.check, firstId); assert.equal(rIg.reason, 'Brand exception'); assert.equal(rIg.items.length, 1);
+assert.match(await page.textContent('#activity'), /Yana Petrova ignored/);
+await page.locator('.body .ck .cmt').first().click(); await page.waitForSelector('#cmtDlg[open]');
+await page.fill('#cmtText', 'Checking with dev.'); await page.click('#cmtGo');
+await page.waitForFunction(() => /Posting/.test(document.getElementById('cmtThread').textContent));
+assert.equal(rl.posts.at(-1).action, 'comment'); assert.equal(rl.posts.at(-1).text, 'Checking with dev.'); assert.equal(rl.posts.at(-1).name, 'Yana Petrova');
+await page.click('#cmtClose');
+assert.equal(gh.dispatched.length, ghBefore, 'report sent nothing to GitHub directly');
+fs.unlinkSync(path.join(SITE, 'relay.json'));
+await page.evaluate(() => localStorage.clear());
+
 await page.setViewportSize({ width: 390, height: 844 });
 await page.goto(BASE);
 await page.waitForSelector('.card');

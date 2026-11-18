@@ -8,7 +8,7 @@ import { run } from './run.js';
 import { writeReport } from './report.js';
 import { readJson, log } from './util.js';
 import { runAll, addCheck, removeCheck, writeSite, mergeStatus } from './site.js';
-import { changeIgnores, changeComments } from './ignores.js';
+import { changeIgnores, changeComments, appendLog } from './ignores.js';
 
 const HELP = `
 atom-parity: compare the Atom Figma library with Storybook
@@ -49,14 +49,14 @@ async function main() {
     allowPositionals: true,
     options: {
       config: { type: 'string', short: 'c' }, storybook: { type: 'string', short: 's' }, figma: { type: 'string', short: 'f' },
-      'figma-url': { type: 'string', short: 'u' }, name: { type: 'string' }, id: { type: 'string' }, 'status-from': { type: 'string' }, checks: { type: 'string' }, site: { type: 'string' }, baselines: { type: 'string' },
+      'figma-url': { type: 'string', short: 'u' }, name: { type: 'string' }, id: { type: 'string' }, action: { type: 'string' }, 'status-from': { type: 'string' }, checks: { type: 'string' }, site: { type: 'string' }, baselines: { type: 'string' },
       out: { type: 'string', short: 'o' }, baseline: { type: 'string', short: 'b' }, only: { type: 'string' },
       'skip-visual': { type: 'boolean' }, 'skip-a11y': { type: 'boolean' }, 'report-url': { type: 'string' }, 'fail-on': { type: 'string' },
       quiet: { type: 'boolean', short: 'q' }, help: { type: 'boolean', short: 'h' },
     },
   });
   const cmd = positionals[0] ?? 'run';
-  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'ignore', 'comment', 'site', 'merge-status'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
+  if (values.help || !['run', 'report', 'run-all', 'add-check', 'remove-check', 'ignore', 'comment', 'log', 'site', 'merge-status'].includes(cmd)) { console.log(HELP); process.exit(values.help ? 0 : 1); }
   log.quiet = !!values.quiet;
   const checksFile = path.resolve(values.checks ?? 'checks.json');
 
@@ -66,13 +66,20 @@ async function main() {
     if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `id=${e.id}\n`);
     return;
   }
+  if (cmd === 'log') {
+    const by = String(process.env.BY ?? '').trim().slice(0, 80);
+    if (!by) return;
+    appendLog(checksFile, { at: new Date().toISOString(), action: String(values.action ?? 'run').slice(0, 40), check: values.id || null, by, github: null, items: [] });
+    console.log(`Logged: ${by} ${values.action} ${values.id ?? ''}`);
+    return;
+  }
   if (cmd === 'comment') {
-    const r = changeComments(checksFile, process.env.COMMENT ?? '', { github: process.env.GITHUB_TRIGGERING_ACTOR || process.env.GITHUB_ACTOR || null });
+    const r = changeComments(checksFile, process.env.COMMENT ?? '', { github: process.env.BY ? null : (process.env.GITHUB_TRIGGERING_ACTOR || process.env.GITHUB_ACTOR || null) });
     console.log(`${r.by} ${r.action === 'add' ? 'commented on' : 'deleted a comment in'} ${r.check}`);
     return;
   }
   if (cmd === 'ignore') {
-    const r = changeIgnores(path.join(path.dirname(checksFile), 'ignores.json'), process.env.IGNORE ?? '', { github: process.env.GITHUB_TRIGGERING_ACTOR || process.env.GITHUB_ACTOR || null });
+    const r = changeIgnores(path.join(path.dirname(checksFile), 'ignores.json'), process.env.IGNORE ?? '', { github: process.env.BY ? null : (process.env.GITHUB_TRIGGERING_ACTOR || process.env.GITHUB_ACTOR || null) });
     console.log(`${r.by} ${r.action === 'add' ? 'ignored' : 'restored'} ${r.count} issue${r.count === 1 ? '' : 's'} in ${r.check}`);
     if (process.env.GITHUB_OUTPUT) fs.appendFileSync(process.env.GITHUB_OUTPUT, `id=${r.check}\naction=${r.action}\n`);
     return;

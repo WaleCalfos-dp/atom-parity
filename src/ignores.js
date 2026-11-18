@@ -10,7 +10,7 @@ import crypto from 'node:crypto';
 const LOG_LIMIT = 3000;
 const readJsonFile = (file, key) => { if (!file || !fs.existsSync(file)) return []; try { return JSON.parse(fs.readFileSync(file, 'utf8'))[key] ?? []; } catch { return []; } };
 const logFile = (file) => path.join(path.dirname(file), 'team-log.json');
-function appendLog(file, event) {
+export function appendLog(file, event) {
   const lf = logFile(file);
   const log = readJsonFile(lf, 'log').concat(event).slice(-LOG_LIMIT);
   fs.writeFileSync(lf, JSON.stringify({ log }, null, 2) + '\n');

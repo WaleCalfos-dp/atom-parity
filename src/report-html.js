@@ -464,7 +464,29 @@ function ignoredList() {
   Object.values(pend.add).forEach((x) => { if (!saved.has(ik(x.component, x.key))) out.push(Object.assign({}, x, { pending: true })); });
   return out.sort((a, b) => String(a.componentName).localeCompare(String(b.componentName)) || String(a.title).localeCompare(String(b.title)));
 }
+// Changes go through the team relay with the person's name; a GitHub key in this browser is only a fallback.
+let relayUrl;
+async function relay() {
+  if (relayUrl !== undefined) return relayUrl;
+  const r = await fetch('../relay.json?ts=' + Date.now(), { cache: 'no-store' }).catch(() => null);
+  const j = r && r.ok ? await r.json().catch(() => null) : null;
+  relayUrl = j && j.url ? String(j.url).replace(/[/]$/, '') : null;
+  return relayUrl;
+}
+async function viaRelay(body) {
+  const url = await relay();
+  if (!url) return null;
+  const r = await fetch(url + '/action', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(Object.assign({ check: CHECK_ID, request_id: Math.random().toString(36).slice(2, 10) }, body)) }).catch(() => false);
+  if (r === false) return "Couldn't reach the Atom parity relay. Check your connection and try again.";
+  if (r.ok) return true;
+  const j = await r.json().catch(() => ({}));
+  return j.error || 'The relay said ' + r.status + '. Try again in a minute.';
+}
+const plainItems = (items) => items.map((i) => ({ component: i.component, key: i.key, title: i.title, componentName: i.componentName }));
 async function sendIgnore(action, items, reason, by) {
+  const viaR = await viaRelay({ action: action === 'add' ? 'ignore' : 'restore', name: by, reason: reason || '', items: plainItems(items) });
+  if (viaR !== null && viaR !== true) return viaR;
+  if (viaR === true) return markSent(action, items, reason, by);
   const key = lsGet('ap.key', null);
   if (!REPO) return "This report doesn't know which GitHub repository runs the checks.";
   if (!key) return 'connect';
@@ -476,6 +498,9 @@ async function sendIgnore(action, items, reason, by) {
   if (r.status === 401) return 'connect';
   if (r.status === 403 || r.status === 404) return "Your GitHub key can't run checks. On the Atom parity page, connect again with a key that has Actions: Read and write.";
   if (r.status !== 204) return 'GitHub said ' + r.status + '. Try again in a minute.';
+  return markSent(action, items, reason, by);
+}
+function markSent(action, items, reason, by) {
   const at = new Date().toISOString();
   items.forEach((i) => { const id = ik(i.component, i.key); if (action === 'add') { delete pend.remove[id]; if (!saved.has(id)) pend.add[id] = Object.assign({}, i, { reason: reason || null, by: by, at: at }); } else { delete pend.add[id]; if (saved.has(id)) pend.remove[id] = i; } });
   pend.events.unshift({ at: at, action: action === 'add' ? 'ignore' : 'restore', by: by, reason: reason || '', items: items, pending: true });
@@ -531,7 +556,7 @@ $('ignForm').addEventListener('submit', async (e) => {
     return;
   }
   $('ignGo').disabled = false; $('ignGo').textContent = restoring ? 'Restore' : 'Ignore';
-  $('ignErr').innerHTML = r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a>, choose Connect GitHub, then come back.' : esc(r);
+  $('ignErr').innerHTML = r === 'connect' ? "Changes from the report aren't switched on yet. Ask the site owner to set up the team relay (see Sharing with your team in the README)." : esc(r);
 });
 const whatOf = (items, title) => { const names = [...new Set(items.map((i) => i.componentName))]; return '<b>' + esc(title || items[0].title) + '</b><br>' + esc(names.length > 4 ? plural(names.length, 'component') : list(names)); };
 document.addEventListener('click', (e) => {
@@ -550,9 +575,13 @@ const who = (x) => esc(x.by || x.github || 'Someone') + (x.github && x.by && x.g
 let actAll = false;
 function renderActivity() {
   const ev = pend.events.concat(R.activity || []);
-  if (!ev.length) { $('activity').innerHTML = '<li class="none">No activity yet. Each ignore and restore is logged here with who made it.</li>'; return; }
+  if (!ev.length) { $('activity').innerHTML = '<li class="none">No activity yet. Each run, ignore, restore and comment is logged here with who made it.</li>'; return; }
   const shown = actAll ? ev : ev.slice(0, 12);
   $('activity').innerHTML = shown.map((x) => {
+    if (!x.items || !x.items.length) {
+      const what = { run: 'ran this check', 'run-all': 'ran every check', 'add-check': 'added this check', 'remove-check': 'removed this check' }[x.action] || x.action;
+      return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who(x) + '</b> ' + esc(what) + '.</p><time datetime="' + esc(x.at) + '">' + fmt(x.at) + '</time></div></li>';
+    }
     const names = [...new Set(x.items.map((i) => i.componentName))];
     const title = x.items.length && x.items.every((i) => i.title === x.items[0].title) ? x.items[0].title : plural(x.items.length, 'issue');
     const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
@@ -591,6 +620,9 @@ function loadNotes() {
   });
 }
 async function sendComment(payload) {
+  const viaR = await viaRelay(payload.action === 'delete' ? { action: 'delete-comment', name: payload.by, id: payload.id }
+    : { action: 'comment', name: payload.by, id: payload.id, items: payload.items, text: payload.text });
+  if (viaR !== null) return viaR;
   const key = lsGet('ap.key', null);
   if (!REPO) return "This report doesn't know which GitHub repository runs the checks.";
   if (!key) return 'connect';
@@ -639,14 +671,14 @@ $('cmtForm').addEventListener('submit', async (e) => {
     toast('Comment posted. The team sees it in about a minute.');
     return;
   }
-  $('cmtErr').innerHTML = r === 'connect' ? 'Connect GitHub first: open the <a href="../">Atom parity page</a>, choose Connect GitHub, then come back.' : esc(r);
+  $('cmtErr').innerHTML = r === 'connect' ? "Changes from the report aren't switched on yet. Ask the site owner to set up the team relay (see Sharing with your team in the README)." : esc(r);
 });
 $('cmtThread').addEventListener('click', async (e) => {
   const d = e.target.closest('[data-del]'); if (!d) return;
   d.disabled = true; d.textContent = 'Deleting…';
   const r = await sendComment({ action: 'delete', id: d.dataset.del, by: myName() });
   if (r === true) { cpend.del.push(d.dataset.del); lsSet(CKEY, cpend); renderThread(); rerender(); setTimeout(loadNotes, 20000); }
-  else { d.disabled = false; d.textContent = 'Delete'; $('cmtErr').innerHTML = r === 'connect' ? 'Connect GitHub first on the <a href="../">Atom parity page</a>.' : esc(r); }
+  else { d.disabled = false; d.textContent = 'Delete'; $('cmtErr').innerHTML = r === 'connect' ? "Changes from the report aren't switched on yet. Ask the site owner to set up the team relay." : esc(r); }
 });
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-cmt]'); if (b) openComments(dec(b.dataset.cmt), b.dataset.title);

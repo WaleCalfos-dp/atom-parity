@@ -39,17 +39,37 @@ The report says when this snapshot is out of date.
 
 ## Sharing with your team
 
-Anyone with the link can read the reports. To ignore, restore or comment, each person needs their own GitHub connection:
+Anyone with the link can read the reports **and** run checks, ignore, restore and comment. Nobody needs a GitHub
+account: the site asks for their name the first time they do something, and remembers it in that browser. Click the
+name at the top of the page to change it.
 
-1. The repository owner adds them on GitHub: **Settings → Collaborators → Add people** (they need a free GitHub account).
-2. They open the Atom parity page, choose **Connect GitHub**, and follow the three steps to make their own key.
-
-Every ignore, restore and comment is saved with the name the person types and the GitHub account that made it, so the
-**Archive** in each report and **Team activity** on the home page show who did what. The history is kept in
-`team-log.json`; ignored issues in `ignores.json`; comments in `comments.json`.
+Every action is saved with that name, so the **Archive** in each report and **Team activity** on the home page show who
+did what. The history is kept in `team-log.json`; ignored issues in `ignores.json`; comments in `comments.json`.
 
 - **Ignore** moves an issue to the report's Archive and leaves it out of the score for everyone. The check reruns, so scores update in about 5 minutes. **Restore** brings it back.
 - **Comment** adds a note to an issue's thread. Comments show in about a minute, with no rerun.
+
+### How it works without accounts: the team relay
+
+A small Cloudflare Worker (`relay/worker.js`) holds one GitHub key on the team's behalf and turns each request from the
+site into a run of the Atom parity workflow, with the person's name attached. It only accepts requests from the
+Atom parity site, checks every input, allows 20 changes a minute per visitor, and can only run this workflow and read
+its progress.
+
+Because nobody signs in, names are taken on trust: anyone with the link could act under any name. Every change is
+logged and can be undone (Restore, delete a comment, add a check back), so keep the link inside the team.
+
+**Set up once (site owner):**
+
+1. **Cloudflare key.** In Cloudflare, go to **My Profile → API Tokens → Create Token**, use the **Edit Cloudflare
+   Workers** template, limit it to your account, and create it. In this repository, add it under
+   **Settings → Secrets and variables → Actions → New repository secret** as `CLOUDFLARE_API_TOKEN`.
+2. **GitHub key for the relay.** Create a [fine-grained token](https://github.com/settings/personal-access-tokens/new)
+   with access to only this repository and **Actions: Read and write**. Add it as the secret `DISPATCH_TOKEN`.
+3. **Deploy.** Go to **Actions → Deploy relay → Run workflow**. It publishes the Worker and tells the site where it is
+   (`relay.json`). Rerun it whenever `relay/` changes or the GitHub key is renewed.
+
+If the relay isn't set up, the site falls back to asking for a personal GitHub key (Connect GitHub), as before.
 
 ## One-time setup (already done for Atom)
 

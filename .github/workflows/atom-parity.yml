@@ -18,6 +18,7 @@ on:
       remove_id: { description: 'Remove a saved check', required: false }
       ignore: { description: 'Ignore or restore issues (set by the report page)', required: false }
       comment: { description: 'Add or delete a comment (set by the report page)', required: false }
+      by: { description: 'Name of the person, given on the site', required: false }
       request_id: { description: 'Set by the web page to follow this run', required: false }
   schedule:
     - cron: '17 2 * * 1-5'   # 02:17 UTC, Monday to Friday
@@ -65,40 +66,46 @@ jobs:
           REMOVE_ID: ${{ inputs.remove_id }}
           IGNORE: ${{ inputs.ignore }}
           COMMENT: ${{ inputs.comment }}
+          BY: ${{ inputs.by }}
         run: |
-          if [ -n "$COMMENT" ]; then
+          # save <message> <command...>: run the command, commit what it changed on main, push; redo it if someone saved at the same time
+          save() {
+            msg="$1"; shift
             for attempt in 1 2 3 4 5; do
-              node src/cli.js comment
-              git add comments.json team-log.json && git commit -qm "Update comments" || break
-              git push -q && break
+              "$@"
+              for f in checks.json ignores.json comments.json team-log.json; do [ -e "$f" ] && git add "$f"; done
+              git diff --cached --quiet && return 0
+              git commit -qm "$msg" && git push -q && return 0
               git fetch -q origin main && git reset -q --hard origin/main
               sleep $((attempt * 3))
             done
+            echo "::warning::Couldn't save to main after 5 tries"
+          }
+          # Runs, new checks and removals are logged with the name given on the site (comments and ignores log themselves)
+          log_action() { if [ -n "$BY" ]; then node src/cli.js log --action "$1" --id "$2"; fi; }
+          add_check() { node src/cli.js add-check --name "$NAME" --figma-url "$FIGMA_LINK" --storybook "$STORYBOOK_LINK" && log_action add-check "$(tail -n1 "$GITHUB_OUTPUT" | sed 's/^id=//')"; }
+          remove_check() { node src/cli.js remove-check --id "$REMOVE_ID" && log_action remove-check "$REMOVE_ID"; }
+
+          if [ -n "$COMMENT" ]; then
+            save "Update comments" node src/cli.js comment
             echo "mode=notes" >> "$GITHUB_OUTPUT"
           elif [ -n "$IGNORE" ]; then
-            # Save the change to ignores.json on main (retrying if someone else saved at the same time), then rerun that check
-            for attempt in 1 2 3 4 5; do
-              node src/cli.js ignore
-              git add ignores.json team-log.json && git commit -qm "Update ignored issues" || break
-              git push -q && break
-              git fetch -q origin main && git reset -q --hard origin/main
-              sleep $((attempt * 3))
-            done
+            save "Update ignored issues" node src/cli.js ignore
             echo "id=$(node -e 'console.log(JSON.parse(process.env.IGNORE).check)')" >> "$GITHUB_OUTPUT"
             echo "mode=one" >> "$GITHUB_OUTPUT"
           elif [ -n "$REMOVE_ID" ]; then
-            node src/cli.js remove-check --id "$REMOVE_ID"
+            save "Remove parity check: $REMOVE_ID" remove_check
             rm -rf "site/$REMOVE_ID"
-            git add checks.json && git commit -qm "Remove parity check: $REMOVE_ID" && git push -q || true
             echo "mode=remove" >> "$GITHUB_OUTPUT"
           elif [ -n "$FIGMA_LINK" ] && [ -n "$STORYBOOK_LINK" ]; then
-            node src/cli.js add-check --name "$NAME" --figma-url "$FIGMA_LINK" --storybook "$STORYBOOK_LINK"
-            git add checks.json && git commit -qm "Save parity check: ${NAME:-new links}" && git push -q || true
+            save "Save parity check: ${NAME:-new links}" add_check
             echo "mode=one" >> "$GITHUB_OUTPUT"
           elif [ -n "$CHECK_ID" ]; then
+            [ -n "$BY" ] && save "Log run" log_action run "$CHECK_ID"
             echo "id=$CHECK_ID" >> "$GITHUB_OUTPUT"
             echo "mode=one" >> "$GITHUB_OUTPUT"
           else
+            [ -n "$BY" ] && save "Log run" log_action run-all ""
             echo "mode=all" >> "$GITHUB_OUTPUT"
           fi
 

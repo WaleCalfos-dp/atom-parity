@@ -1,0 +1,10 @@
+name = "atom-parity-relay"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[vars]
+REPO = "WaleCalfos-dp/atom-parity"
+ALLOWED_ORIGINS = "https://walecalfos-dp.github.io"
+
+# GH_TOKEN is a secret, set by the deploy workflow from the repository secret DISPATCH_TOKEN.
