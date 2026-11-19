@@ -107,15 +107,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17165-13507
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17165%3A13507
 
 Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Payment Accordion: Text contrast is too low in Figma","4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF
-
-Brands: Visa Affluent
-Variants: State=Hover, Type=GPay, Opened=False; State=Hover, Type=GPay, Opened=True; State=Hover, Type=ApplePay, Opened=False; State=Hover, Type=ApplePay, Opened=True; State=Hover, Type=PayPal, Opened=False; State=Hover, Type=PayPal, Opened=True
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12877-4669
-Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-12877%3A4669
-
-Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Payment Accordion: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12877-4669

@@ -333,16 +333,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
 
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Switch: Text contrast is too low in Figma","4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)
-
-Brands: Visa Affluent
-Variants: State=Hover, On=False; State=Hover, On=True
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=299-228
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-switch--usage
-Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-299%3A228
-
-Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Time Picker: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15113-67057
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-timepicker--usage
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-15113%3A67057

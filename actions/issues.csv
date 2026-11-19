@@ -44,7 +44,7 @@ Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properti
 "[Atom parity] Button: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+9 more)
+Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+10 more)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
@@ -251,16 +251,16 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-dev","Atom Design System"
-"[Atom parity] Button: Text contrast is too low in Figma","4.34:1, needs 4.5:1 · #FFFFFF on #5B71DB
+"[Atom parity] Button: Text contrast is too low in Figma","4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)
 
-Brands: Visa Affluent
-Variants: Type=Primary, Size=Large, State=Hover; Type=Primary, Size=Large, State=Active; Type=Primary, Size=Regular, State=Hover; Type=Primary, Size=Regular, State=Active; Type=Primary, Size=Small, State=Hover; Type=Primary, Size=Small, State=Active; Type=Inverse, Size=Large, State=Default; Type=Inverse, Size=Large, State=Hover (+7 more)
+Brands: Investec
+Variants: Type=Tertiary, Size=Regular, State=Default; Type=Tertiary, Size=Regular, State=Focus
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
-Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Button Group: Not found in Storybook","Possible matches: Basics/Button, Data Entry/Checkbox Button Group, Data Entry/Radio Button Group. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3098-42588
@@ -291,15 +291,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18198-9455
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-18198%3A9455
 
 Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Social Button: Text contrast is too low in Figma","1.65:1, needs 4.5:1 · #FCC015 on #FFFFFF
-
-Brands: Visa Affluent
-Variants: Filled=True, Size=Large, State=Default; Filled=True, Size=Large, State=Hover; Filled=True, Size=Large, State=Focus; Filled=True, Size=Regular, State=Default; Filled=True, Size=Regular, State=Hover; Filled=True, Size=Regular, State=Focus; Filled=True, Size=Small, State=Default; Filled=True, Size=Small, State=Hover (+1 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12607-10742
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12607%3A10742
-
-Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Social Button: Not found in Storybook","Possible matches: Basics/Button, Data Entry/Radio Button. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12607-10742
@@ -490,13 +481,13 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Tag: Text contrast is too low in Figma","4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF
+"[Atom parity] Tag: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Visa Affluent
-Variants: State=Hover, Size=Regular; State=Hover, Size=Small
+Brands: Mastercard, Investec, Assurant
+Variants: State=Selected, Size=Regular; State=Selected, Size=Small
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
-Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"

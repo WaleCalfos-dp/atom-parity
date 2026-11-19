@@ -397,7 +397,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A27
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Tooltip: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Mastercard, Investec, Assurant, Visa Affluent
+Brands: Mastercard, Investec, Assurant
 Variants: Tip Direction=Down, Tip Centred=No; Tip Direction=Right, Tip Centred=No; Tip Direction=Left, Tip Centred=No; Tip Direction=Up, Tip Centred=No; Tip Direction=Down, Tip Centred=Yes; Tip Direction=Right, Tip Centred=Yes; Tip Direction=Left, Tip Centred=Yes; Tip Direction=Up, Tip Centred=Yes
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-19T10:33:56.248Z",
-    "durationMs": 95453,
+    "generatedAt": "2026-11-19T10:52:12.113Z",
+    "durationMs": 76363,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,14 +30,13 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-19T10:33:00.132Z",
+      "exportedAt": "2026-11-19T10:51:15.328Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
         "Mastercard",
         "Investec",
-        "Assurant",
-        "Visa Affluent"
+        "Assurant"
       ],
       "components": 2,
       "renderScale": 2,
@@ -87,11 +86,6 @@
       },
       {
         "figma": "Assurant",
-        "code": null,
-        "how": "missing"
-      },
-      {
-        "figma": "Visa Affluent",
         "code": null,
         "how": "missing"
       }

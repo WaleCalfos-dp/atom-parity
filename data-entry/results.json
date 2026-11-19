@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-19T10:32:20.761Z",
-    "durationMs": 205786,
+    "generatedAt": "2026-11-19T10:50:55.715Z",
+    "durationMs": 127645,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,14 +30,13 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-19T10:31:09.795Z",
+      "exportedAt": "2026-11-19T10:49:46.866Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
         "Mastercard",
         "Investec",
-        "Assurant",
-        "Visa Affluent"
+        "Assurant"
       ],
       "components": 9,
       "renderScale": 2,
@@ -87,11 +86,6 @@
       },
       {
         "figma": "Assurant",
-        "code": null,
-        "how": "missing"
-      },
-      {
-        "figma": "Visa Affluent",
         "code": null,
         "how": "missing"
       }
@@ -2251,7 +2245,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2261,7 +2255,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -8301,27 +8295,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Selected=False, State=Error, Label Position=Outside",
-              "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.56,
-                "required": 4.5,
-                "fg": "#E02D3C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Selected=False, State=Error, Label Position=Inside",
               "detail": "6.25:1, needs 4.5:1 · #C2082A on #FFFFFF",
@@ -8395,27 +8368,6 @@
                 "ratio": 5.34,
                 "required": 4.5,
                 "fg": "#D80303",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": "background/interactive/control",
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Selected=False, State=Error, Label Position=Inside",
-              "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.56,
-                "required": 4.5,
-                "fg": "#E02D3C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/danger",
                 "bgToken": "background/interactive/control",
@@ -8721,27 +8673,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Selected=Single, State=Error, Label Position=Outside",
-              "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.56,
-                "required": 4.5,
-                "fg": "#E02D3C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Selected=Single, State=Error, Label Position=Inside",
               "detail": "6.25:1, needs 4.5:1 · #C2082A on #FFFFFF",
@@ -8815,27 +8746,6 @@
                 "ratio": 5.34,
                 "required": 4.5,
                 "fg": "#D80303",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": "background/interactive/control",
-                "size": 12,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Selected=Single, State=Error, Label Position=Inside",
-              "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.56,
-                "required": 4.5,
-                "fg": "#E02D3C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/danger",
                 "bgToken": "background/interactive/control",
@@ -8931,27 +8841,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Selected=Multiple, State=Error, Label Position=Outside",
-              "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.56,
-                "required": 4.5,
-                "fg": "#E02D3C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Selected=Multiple, State=Error, Label Position=Inside",
               "detail": "6.25:1, needs 4.5:1 · #C2082A on #FFFFFF",
@@ -9025,27 +8914,6 @@
                 "ratio": 5.34,
                 "required": 4.5,
                 "fg": "#D80303",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/danger",
-                "bgToken": "background/interactive/control",
-                "size": 12,
-                "weight": 400,
-                "layer": "Label",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Selected=Multiple, State=Error, Label Position=Inside",
-              "detail": "4.56:1, needs 4.5:1 · #E02D3C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.56,
-                "required": 4.5,
-                "fg": "#E02D3C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/danger",
                 "bgToken": "background/interactive/control",
@@ -9183,7 +9051,7 @@
             }
           ],
           "counts": {
-            "pass": 49,
+            "pass": 43,
             "warn": 0,
             "fail": 5,
             "info": 0
@@ -9208,7 +9076,7 @@
       "key": "299:228",
       "name": "Switch",
       "status": "Drifted",
-      "score": 65,
+      "score": 70,
       "match": "exact",
       "figma": {
         "id": "299:228",
@@ -9612,58 +9480,16 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
-          "title": "Text contrast is too low in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
           "owner": "Design",
-          "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
+          "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF (no background in the component, measured on white)",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
             "impact": "serious"
           },
           "instances": [
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
-              "variant": "State=Hover, On=False",
-              "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.34,
-                "required": 4.5,
-                "fg": "#5B71DB",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-hover",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Off",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
-              "variant": "State=Hover, On=True",
-              "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.34,
-                "required": 4.5,
-                "fg": "#5B71DB",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-hover",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "On",
-                "assumed": true
-              }
-            },
             {
               "status": "pass",
               "brand": "Dragonpass",
@@ -9865,27 +9691,6 @@
                 "ratio": 21,
                 "required": 4.5,
                 "fg": "#000000",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-pressed",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "Off",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "State=Pressed, On=False",
-              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 8.81,
-                "required": 4.5,
-                "fg": "#1434CB",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/interactive/action-pressed",
                 "bgToken": null,
@@ -10104,42 +9909,16 @@
                 "layer": "On",
                 "assumed": true
               }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "State=Pressed, On=True",
-              "detail": "8.81:1, needs 4.5:1 · #1434CB on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 8.81,
-                "required": 4.5,
-                "fg": "#1434CB",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action-pressed",
-                "bgToken": null,
-                "size": 12,
-                "weight": 400,
-                "layer": "On",
-                "assumed": true
-              }
             }
           ],
           "counts": {
-            "pass": 22,
-            "warn": 2,
+            "pass": 20,
+            "warn": 0,
             "fail": 0,
             "info": 0
           },
-          "brands": [
-            "Visa Affluent"
-          ],
-          "variants": [
-            "State=Hover, On=False",
-            "State=Hover, On=True"
-          ]
+          "brands": [],
+          "variants": []
         }
       ],
       "gallery": [],
@@ -10647,7 +10426,7 @@
     }
   ],
   "summary": {
-    "score": 35,
+    "score": 36,
     "headline": "0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.",
     "components": {
       "total": 9,
@@ -10661,8 +10440,8 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 31,
-      "warn": 20,
+      "pass": 32,
+      "warn": 19,
       "fail": 35
     },
     "byCategory": {
@@ -10687,8 +10466,8 @@
         "fail": 2
       },
       "Accessibility": {
-        "pass": 3,
-        "warn": 1,
+        "pass": 4,
+        "warn": 0,
         "fail": 2
       },
       "Interaction": {
@@ -10709,7 +10488,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 9,
+        "warn": 8,
         "fail": 3
       },
       "Dev": {
@@ -10919,37 +10698,6 @@
         ]
       },
       {
-        "category": "Accessibility",
-        "title": "Text contrast is too low in Figma",
-        "status": "fail",
-        "owner": "Design",
-        "components": [
-          "Input",
-          "Select",
-          "Switch"
-        ],
-        "items": [
-          {
-            "component": "269:9758",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Input"
-          },
-          {
-            "component": "263:5381",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Select"
-          },
-          {
-            "component": "299:228",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Switch"
-          }
-        ]
-      },
-      {
         "category": "Naming",
         "title": "Component named differently in Figma and Storybook",
         "status": "fail",
@@ -10969,6 +10717,30 @@
             "component": "263:5381",
             "key": "Naming|name",
             "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
+            "componentName": "Select"
+          }
+        ]
+      },
+      {
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "status": "fail",
+        "owner": "Design",
+        "components": [
+          "Input",
+          "Select"
+        ],
+        "items": [
+          {
+            "component": "269:9758",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Input"
+          },
+          {
+            "component": "263:5381",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "componentName": "Select"
           }
         ]
@@ -11762,21 +11534,6 @@
         "variants": 0
       },
       {
-        "component": "Switch",
-        "componentKey": "299:228",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Visa Affluent"
-        ],
-        "variants": 2
-      },
-      {
         "component": "Time Picker",
         "componentKey": "15113:67057",
         "key": "Documentation|docs-figma",
@@ -11885,7 +11642,7 @@
   "a11y": {
     "ran": true,
     "scans": 6,
-    "designChecks": 189,
+    "designChecks": 179,
     "brands": [
       "Dragonpass",
       "Mastercard",
@@ -11898,10 +11655,9 @@
       "minor": 0
     },
     "total": 1,
-    "components": 3,
+    "components": 2,
     "byBrand": {
-      "Dragonpass": 38,
-      "Visa Affluent": 2
+      "Dragonpass": 38
     },
     "criteria": [
       {
@@ -11951,12 +11707,6 @@
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
             "componentName": "Select"
-          },
-          {
-            "component": "299:228",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Switch"
           }
         ],
         "rule": "design-contrast",
@@ -11982,10 +11732,6 @@
           {
             "name": "Select",
             "key": "263:5381"
-          },
-          {
-            "name": "Switch",
-            "key": "299:228"
           }
         ],
         "where": [
@@ -12074,35 +11820,9 @@
             "design": null,
             "target": null,
             "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Switch",
-            "componentKey": "299:228",
-            "brand": "Visa Affluent",
-            "variants": [
-              "State=Hover, On=False",
-              "State=Hover, On=True"
-            ],
-            "status": "warn",
-            "detail": "4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 4.34,
-              "required": 4.5,
-              "fg": "#5B71DB",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action-hover",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Hover, On=False"
-            },
-            "design": null,
-            "target": null,
-            "size": null
           }
         ],
-        "occurrences": 40
+        "occurrences": 38
       }
     ]
   },

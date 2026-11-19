@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-19T10:24:34.621Z",
-    "durationMs": 161945,
+    "generatedAt": "2026-11-19T10:46:21.024Z",
+    "durationMs": 102002,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,14 +30,13 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-19T10:23:26.297Z",
+      "exportedAt": "2026-11-19T10:45:25.141Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
         "Mastercard",
         "Investec",
-        "Assurant",
-        "Visa Affluent"
+        "Assurant"
       ],
       "components": 11,
       "renderScale": 2,
@@ -87,11 +86,6 @@
       },
       {
         "figma": "Assurant",
-        "code": null,
-        "how": "missing"
-      },
-      {
-        "figma": "Visa Affluent",
         "code": null,
         "how": "missing"
       }
@@ -2237,27 +2231,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Information, Style=Top Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Status=Information, Style=Full Border",
               "detail": "7.26:1, needs 4.5:1 · #535252 on #F2F8FA",
@@ -2342,27 +2315,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Information, Style=Full Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Status=Success, Style=Top Border",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -2436,27 +2388,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Success, Style=Top Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": null,
@@ -2552,27 +2483,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Success, Style=Full Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Status=Warning, Style=Top Border",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -2646,27 +2556,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Warning, Style=Top Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": null,
@@ -2762,27 +2651,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Warning, Style=Full Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Status=Error, Style=Top Border",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -2856,27 +2724,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Error, Style=Top Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": null,
@@ -2972,27 +2819,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Error, Style=Full Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Status=Muted, Style=Top Border",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -3066,27 +2892,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Muted, Style=Top Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": null,
@@ -3179,31 +2984,10 @@
                 "layer": "Title",
                 "assumed": true
               }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Status=Muted, Style=Full Border",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 14,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
             }
           ],
           "counts": {
-            "pass": 50,
+            "pass": 40,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -4140,27 +3924,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Error, Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 20,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Customizable, Status=Info, Breakpoint=Mobile",
               "detail": "16.14:1, needs 4.5:1 · #0A2333 on #FFFFFF",
@@ -4245,27 +4008,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Customizable, Status=Info, Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 20,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Critical, Status=Info, Breakpoint=Mobile",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -4339,27 +4081,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 20,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Info, Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": "background/interactive/control",
@@ -4455,27 +4176,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Warning, Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 20,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Critical, Status=Success, Breakpoint=Mobile",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -4549,27 +4249,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 20,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Success, Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": "background/interactive/control",
@@ -4654,27 +4333,6 @@
                 "ratio": 16.83,
                 "required": 3,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 24,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Info, Breakpoint=Desktop",
-              "detail": "16.25:1, needs 3:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 3,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": "background/interactive/control",
@@ -4770,27 +4428,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Customizable, Status=Info, Breakpoint=Desktop",
-              "detail": "16.25:1, needs 3:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 3,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 24,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Critical, Status=Error, Breakpoint=Desktop",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -4864,27 +4501,6 @@
                 "ratio": 16.83,
                 "required": 3,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 24,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Error, Breakpoint=Desktop",
-              "detail": "16.25:1, needs 3:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 3,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": "background/interactive/control",
@@ -4980,27 +4596,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Success, Breakpoint=Desktop",
-              "detail": "16.25:1, needs 3:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 3,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 24,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Critical, Status=Warning, Breakpoint=Desktop",
               "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
@@ -5074,27 +4669,6 @@
                 "ratio": 16.83,
                 "required": 3,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": "background/interactive/control",
-                "size": 24,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": false
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Type=Critical, Status=Warning, Breakpoint=Desktop",
-              "detail": "16.25:1, needs 3:1 · #021E4C on #FFFFFF",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 3,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": "background/interactive/control",
@@ -5106,7 +4680,7 @@
             }
           ],
           "counts": {
-            "pass": 50,
+            "pass": 40,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -5246,27 +4820,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 18,
-                "weight": 500,
-                "layer": "Amount",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Breakpoint=Tablet",
               "detail": "16.14:1, needs 4.5:1 · #0A2333 on #FFFFFF",
@@ -5348,31 +4901,10 @@
                 "layer": "Amount",
                 "assumed": true
               }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Breakpoint=Tablet",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 20,
-                "weight": 500,
-                "layer": "Amount",
-                "assumed": true
-              }
             }
           ],
           "counts": {
-            "pass": 10,
+            "pass": 8,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -5830,27 +5362,6 @@
             },
             {
               "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Breakpoint=Desktop",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 22,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
               "brand": "Dragonpass",
               "variant": "Breakpoint=Tablet",
               "detail": "4.8:1, needs 4.5:1 · #737272 on #FFFFFF",
@@ -5924,27 +5435,6 @@
                 "ratio": 16.83,
                 "required": 4.5,
                 "fg": "#01194D",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 20,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Breakpoint=Tablet",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
                 "bg": "#FFFFFF",
                 "fgToken": "foreground/basic/heading",
                 "bgToken": null,
@@ -6037,31 +5527,10 @@
                 "layer": "Title",
                 "assumed": true
               }
-            },
-            {
-              "status": "pass",
-              "brand": "Visa Affluent",
-              "variant": "Breakpoint=Mobile",
-              "detail": "16.25:1, needs 4.5:1 · #021E4C on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 16.25,
-                "required": 4.5,
-                "fg": "#021E4C",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/heading",
-                "bgToken": null,
-                "size": 18,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
             }
           ],
           "counts": {
-            "pass": 15,
+            "pass": 12,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -9081,27 +8550,6 @@
             },
             {
               "status": "warn",
-              "brand": "Visa Affluent",
-              "variant": "Tip Direction=Down, Tip Centred=No",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Mastercard",
               "variant": "Tip Direction=Right, Tip Centred=No",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -9145,27 +8593,6 @@
             {
               "status": "warn",
               "brand": "Assurant",
-              "variant": "Tip Direction=Right, Tip Centred=No",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
               "variant": "Tip Direction=Right, Tip Centred=No",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -9249,27 +8676,6 @@
             },
             {
               "status": "warn",
-              "brand": "Visa Affluent",
-              "variant": "Tip Direction=Left, Tip Centred=No",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
               "brand": "Mastercard",
               "variant": "Tip Direction=Up, Tip Centred=No",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -9313,27 +8719,6 @@
             {
               "status": "warn",
               "brand": "Assurant",
-              "variant": "Tip Direction=Up, Tip Centred=No",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
               "variant": "Tip Direction=Up, Tip Centred=No",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -9397,27 +8782,6 @@
             {
               "status": "warn",
               "brand": "Assurant",
-              "variant": "Tip Direction=Down, Tip Centred=Yes",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
               "variant": "Tip Direction=Down, Tip Centred=Yes",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -9481,27 +8845,6 @@
             {
               "status": "warn",
               "brand": "Assurant",
-              "variant": "Tip Direction=Right, Tip Centred=Yes",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
               "variant": "Tip Direction=Right, Tip Centred=Yes",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -9565,27 +8908,6 @@
             {
               "status": "warn",
               "brand": "Assurant",
-              "variant": "Tip Direction=Left, Tip Centred=Yes",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
               "variant": "Tip Direction=Left, Tip Centred=Yes",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -9649,27 +8971,6 @@
             {
               "status": "warn",
               "brand": "Assurant",
-              "variant": "Tip Direction=Up, Tip Centred=Yes",
-              "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 4.5,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/basic/inverse",
-                "bgToken": null,
-                "size": 12,
-                "weight": 500,
-                "layer": "Title",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Visa Affluent",
               "variant": "Tip Direction=Up, Tip Centred=Yes",
               "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
               "figma": null,
@@ -9859,15 +9160,14 @@
           ],
           "counts": {
             "pass": 8,
-            "warn": 32,
+            "warn": 24,
             "fail": 0,
             "info": 0
           },
           "brands": [
             "Mastercard",
             "Investec",
-            "Assurant",
-            "Visa Affluent"
+            "Assurant"
           ],
           "variants": [
             "Tip Direction=Down, Tip Centred=No",
@@ -11207,8 +10507,7 @@
         "brands": [
           "Mastercard",
           "Investec",
-          "Assurant",
-          "Visa Affluent"
+          "Assurant"
         ],
         "variants": 8
       }
@@ -11217,7 +10516,7 @@
   "a11y": {
     "ran": true,
     "scans": 0,
-    "designChecks": 228,
+    "designChecks": 195,
     "brands": [],
     "counts": {
       "critical": 0,
@@ -11230,8 +10529,7 @@
     "byBrand": {
       "Mastercard": 8,
       "Investec": 8,
-      "Assurant": 8,
-      "Visa Affluent": 8
+      "Assurant": 8
     },
     "criteria": [
       {
@@ -11370,41 +10668,9 @@
             "design": null,
             "target": null,
             "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tooltip",
-            "componentKey": "8560:2779",
-            "brand": "Visa Affluent",
-            "variants": [
-              "Tip Direction=Down, Tip Centred=No",
-              "Tip Direction=Right, Tip Centred=No",
-              "Tip Direction=Left, Tip Centred=No",
-              "Tip Direction=Up, Tip Centred=No",
-              "Tip Direction=Down, Tip Centred=Yes",
-              "Tip Direction=Right, Tip Centred=Yes",
-              "Tip Direction=Left, Tip Centred=Yes",
-              "Tip Direction=Up, Tip Centred=Yes"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Tip Direction=Down, Tip Centred=No"
-            },
-            "design": null,
-            "target": null,
-            "size": null
           }
         ],
-        "occurrences": 32
+        "occurrences": 24
       }
     ]
   },

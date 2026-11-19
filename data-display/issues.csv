@@ -132,19 +132,9 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
 
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Accordion: Text contrast is too low in Figma","4.34:1, needs 4.5:1 · #5B71DB on #FFFFFF
-
-Brands: Visa Affluent
-Variants: State=Hover, Style=Full Border, Opened=False, Filled=True; State=Hover, Style=Bottom Border, Opened=False, Filled=True; State=Hover, Style=Full Border, Opened=True, Filled=True; State=Hover, Style=Bottom Border, Opened=True, Filled=True
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
-
-Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Badge: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Mastercard, Investec, Assurant, Visa Affluent
+Brands: Mastercard, Investec, Assurant
 Variants: Status=Brand, Style=Rounded, Size=Regular; Status=Brand, Style=Rounded, Size=Large; Status=Brand, Style=Standard, Size=Regular; Status=Brand, Style=Standard, Size=Large
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1888-5974
@@ -576,7 +566,7 @@ Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] QR Code: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
-Brands: Mastercard, Investec, Assurant, Visa Affluent
+Brands: Mastercard, Investec, Assurant
 Variants: Type=QR Code, State=Default, Style=Brand; Type=QR Code, State=Generating, Style=Brand; Type=QR Code, State=Failed, Style=Brand; Type=Bar Code, State=Default, Style=Brand; Type=Bar Code, State=Generating, Style=Brand; Type=Bar Code, State=Failed, Style=Brand; Type=Message, State=Default, Style=Brand
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
