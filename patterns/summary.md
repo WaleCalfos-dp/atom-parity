@@ -6,9 +6,6 @@
 |---|---|---|---|---|
 | 0 | 0 | 0 | 27 | 0 |
 
-### 1 fixed
-- Payment Accordion: Text contrast is too low in Figma
-
 ### Biggest themes
 - 🔴 Not built in Storybook: 27 components (Both)
 

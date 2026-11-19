@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-19T10:48:48.036Z",
-    "durationMs": 146959,
+    "generatedAt": "2026-11-19T11:58:29.727Z",
+    "durationMs": 184149,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-19T10:47:50.146Z",
+      "exportedAt": "2026-11-19T11:57:41.176Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -13274,31 +13274,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-18T15:34:42.912Z",
-    "previousScore": 22,
-    "newFails": [
-      {
-        "status": "fail",
-        "component": "Steps",
-        "title": "Figma \"Type\" is \"finishIconType\" in code",
-        "category": "Naming"
-      },
-      {
-        "status": "fail",
-        "component": "Steps",
-        "title": "Type values missing in code",
-        "category": "Properties"
-      }
-    ],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Text contrast is too low in Figma",
-        "category": "Accessibility",
-        "now": "pass"
-      }
-    ]
+    "since": "2026-11-19T10:48:48.036Z",
+    "previousScore": 23,
+    "newFails": [],
+    "fixed": []
   },
   "activity": []
 }

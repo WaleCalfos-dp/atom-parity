@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T11:01:02.429Z",
+  "generatedAt": "2026-11-19T12:16:17.599Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:44:38.971Z",
+      "ranAt": "2026-11-19T11:53:24.790Z",
       "ok": true,
       "history": [
         {
@@ -52,6 +52,10 @@
         {
           "at": "2026-11-19T10:44:38.971Z",
           "score": 19
+        },
+        {
+          "at": "2026-11-19T11:53:24.790Z",
+          "score": 19
         }
       ],
       "preview": {
@@ -67,7 +71,7 @@
         {
           "name": "Button",
           "status": "Broken",
-          "score": 61
+          "score": 62
         },
         {
           "name": "Button Group",
@@ -123,9 +127,9 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 18,
+      "previousScore": 19,
       "newFails": 0,
-      "fixed": 3,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -143,9 +147,9 @@
       },
       "a11y": {
         "ran": true,
-        "total": 3,
+        "total": 2,
         "counts": {
-          "critical": 1,
+          "critical": 0,
           "serious": 1,
           "moderate": 1,
           "minor": 0
@@ -154,11 +158,6 @@
         "scans": 39,
         "designChecks": 215,
         "top": [
-          {
-            "title": "Button has no accessible name",
-            "impact": "critical",
-            "owner": "Dev"
-          },
           {
             "title": "Text contrast is too low in Storybook",
             "impact": "serious",
@@ -177,7 +176,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:46:21.024Z",
+      "ranAt": "2026-11-19T11:55:25.549Z",
       "ok": true,
       "history": [
         {
@@ -210,6 +209,10 @@
         },
         {
           "at": "2026-11-19T10:46:21.024Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-19T11:55:25.549Z",
           "score": 22
         }
       ],
@@ -328,7 +331,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:48:48.036Z",
+      "ranAt": "2026-11-19T11:58:29.727Z",
       "ok": true,
       "history": [
         {
@@ -361,6 +364,10 @@
         },
         {
           "at": "2026-11-19T10:48:48.036Z",
+          "score": 23
+        },
+        {
+          "at": "2026-11-19T11:58:29.727Z",
           "score": 23
         }
       ],
@@ -445,9 +452,9 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 22,
-      "newFails": 2,
-      "fixed": 1,
+      "previousScore": 23,
+      "newFails": 0,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -489,7 +496,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:50:55.715Z",
+      "ranAt": "2026-11-19T12:01:51.560Z",
       "ok": true,
       "history": [
         {
@@ -522,6 +529,10 @@
         },
         {
           "at": "2026-11-19T10:50:55.715Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-19T12:01:51.560Z",
           "score": 36
         }
       ],
@@ -594,7 +605,7 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 35,
+      "previousScore": 36,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -638,7 +649,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:52:12.113Z",
+      "ranAt": "2026-11-19T12:03:30.066Z",
       "ok": true,
       "history": [
         {
@@ -671,6 +682,10 @@
         },
         {
           "at": "2026-11-19T10:52:12.113Z",
+          "score": 32
+        },
+        {
+          "at": "2026-11-19T12:03:30.066Z",
           "score": 32
         }
       ],
@@ -738,7 +753,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:53:47.208Z",
+      "ranAt": "2026-11-19T12:05:48.135Z",
       "ok": true,
       "history": [
         {
@@ -771,6 +786,10 @@
         },
         {
           "at": "2026-11-19T10:53:47.208Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-19T12:05:48.135Z",
           "score": 36
         }
       ],
@@ -869,7 +888,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:55:12.580Z",
+      "ranAt": "2026-11-19T12:07:43.765Z",
       "ok": true,
       "history": [
         {
@@ -898,6 +917,10 @@
         },
         {
           "at": "2026-11-19T10:55:12.580Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-19T12:07:43.765Z",
           "score": 15
         }
       ],
@@ -965,7 +988,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:56:45.594Z",
+      "ranAt": "2026-11-19T12:09:29.526Z",
       "ok": true,
       "history": [
         {
@@ -998,6 +1021,10 @@
         },
         {
           "at": "2026-11-19T10:56:45.594Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-19T12:09:29.526Z",
           "score": 15
         }
       ],
@@ -1096,7 +1123,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T10:58:44.493Z",
+      "ranAt": "2026-11-19T12:12:55.126Z",
       "ok": true,
       "history": [
         {
@@ -1117,6 +1144,10 @@
         },
         {
           "at": "2026-11-19T10:58:44.493Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-19T12:12:55.126Z",
           "score": 0
         }
       ],
@@ -1273,7 +1304,7 @@
       },
       "previousScore": 0,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1307,7 +1338,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T11:00:55.332Z",
+      "ranAt": "2026-11-19T12:16:17.024Z",
       "ok": true,
       "history": [
         {
@@ -1332,6 +1363,10 @@
         },
         {
           "at": "2026-11-19T11:00:55.332Z",
+          "score": 7
+        },
+        {
+          "at": "2026-11-19T12:16:17.024Z",
           "score": 7
         }
       ],

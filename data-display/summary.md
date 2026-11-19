@@ -1,17 +1,10 @@
-## Atom parity: 23% (+1 since last run)
+## Atom parity: 23% (+0 since last run)
 
 0 of 13 Figma components match Storybook. 6 have drifted and 7 aren't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 6 | 0 | 7 | 0 |
-
-### 2 new failures
-- **Steps**: Figma "Type" is "finishIconType" in code _(Naming)_
-- **Steps**: Type values missing in code _(Properties)_
-
-### 1 fixed
-- Accordion: Text contrast is too low in Figma
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 7 components (Both)

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-19T10:44:38.971Z",
-    "durationMs": 115448,
+    "generatedAt": "2026-11-19T11:53:24.790Z",
+    "durationMs": 129829,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-19T10:43:22.944Z",
+      "exportedAt": "2026-11-19T11:52:17.434Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 61,
+      "score": 62,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -2784,7 +2784,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2804,7 +2804,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2824,7 +2824,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2834,7 +2834,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2854,7 +2854,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2894,7 +2894,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2924,7 +2924,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2944,7 +2944,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2964,7 +2964,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3064,7 +3064,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3074,6 +3074,16 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Regular, State=Hover",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -3164,7 +3174,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3184,7 +3194,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3254,7 +3264,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3274,7 +3284,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3283,7 +3293,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 53,
+            "warn": 54,
             "fail": 0,
             "info": 0
           },
@@ -18359,7 +18369,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18369,7 +18379,7 @@
               "status": "pass",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18379,7 +18389,7 @@
               "status": "pass",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18419,7 +18429,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18429,7 +18439,7 @@
               "status": "pass",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18439,7 +18449,7 @@
               "status": "pass",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18449,7 +18459,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18459,7 +18469,7 @@
               "status": "pass",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18469,7 +18479,7 @@
               "status": "pass",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "1 rule failed",
+              "detail": "0 rules failed",
               "figma": null,
               "code": null,
               "image": null,
@@ -18700,177 +18710,6 @@
           ],
           "variants": [
             "Type=Tertiary, Size=Regular, State=Default"
-          ]
-        },
-        {
-          "key": "Accessibility|axe:button-name",
-          "category": "Accessibility",
-          "subject": "axe:button-name",
-          "label": "Buttons must have discernible text",
-          "status": "fail",
-          "title": "Buttons must have discernible text",
-          "owner": "Dev",
-          "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-          "meta": {
-            "rule": "button-name",
-            "impact": "critical",
-            "tags": [
-              "cat.name-role-value",
-              "wcag2a",
-              "wcag412",
-              "section508",
-              "section508.22.a",
-              "TTv5",
-              "TT6.a",
-              "EN-301-549",
-              "EN-9.4.1.2",
-              "ACT"
-            ],
-            "source": "code"
-          },
-          "instances": [
-            {
-              "status": "fail",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Investec",
-              "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Investec",
-              "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            },
-            {
-              "status": "fail",
-              "brand": "Investec",
-              "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-              "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-              "image": null,
-              "extra": {
-                "target": ".adm-button",
-                "nodes": 1,
-                "impact": "critical"
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 0,
-            "fail": 9,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass",
-            "Mastercard",
-            "Investec"
-          ],
-          "variants": [
-            "Type=Primary, Size=Large, State=Loading",
-            "Type=Primary, Size=Regular, State=Loading",
-            "Type=Primary, Size=Small, State=Loading"
           ]
         },
         {
@@ -24883,7 +24722,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -26845,7 +26684,7 @@
     "checks": {
       "pass": 32,
       "warn": 34,
-      "fail": 23
+      "fail": 22
     },
     "byCategory": {
       "Naming": {
@@ -26871,7 +26710,7 @@
       "Accessibility": {
         "pass": 5,
         "warn": 2,
-        "fail": 2
+        "fail": 1
       },
       "Interaction": {
         "pass": 3,
@@ -26896,7 +26735,7 @@
       },
       "Dev": {
         "warn": 3,
-        "fail": 3
+        "fail": 2
       },
       "Both": {
         "warn": 23,
@@ -27163,8 +27002,7 @@
         "key": "1454:7798",
         "reasons": [
           "Height differs from design",
-          "Elements must meet minimum color contrast ratio thresholds",
-          "Buttons must have discernible text"
+          "Elements must meet minimum color contrast ratio thresholds"
         ]
       },
       {
@@ -27587,23 +27425,6 @@
           "Investec"
         ],
         "variants": 1
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Accessibility|axe:button-name",
-        "category": "Accessibility",
-        "subject": "axe:button-name",
-        "status": "fail",
-        "title": "Buttons must have discernible text",
-        "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-        "owner": "Dev",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 3
       },
       {
         "component": "Button",
@@ -28045,17 +27866,16 @@
       "Investec"
     ],
     "counts": {
-      "critical": 1,
+      "critical": 0,
       "serious": 1,
       "moderate": 1,
       "minor": 0
     },
-    "total": 3,
+    "total": 2,
     "components": 2,
     "byBrand": {
-      "Dragonpass": 3,
-      "Mastercard": 5,
-      "Investec": 8,
+      "Investec": 5,
+      "Mastercard": 2,
       "Assurant": 2
     },
     "criteria": [
@@ -28104,99 +27924,11 @@
         "name": "Name, role, value",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value",
-        "status": "fail",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       }
     ],
     "issues": [
-      {
-        "items": [
-          {
-            "component": "1454:7798",
-            "key": "Accessibility|axe:button-name",
-            "title": "Buttons must have discernible text",
-            "componentName": "Button"
-          }
-        ],
-        "rule": "button-name",
-        "criterion": {
-          "sc": "4.1.2",
-          "name": "Name, role, value",
-          "level": "A",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value"
-        },
-        "title": "Button has no accessible name",
-        "why": "Screen readers announce only \"button\", so people can't tell what it does.",
-        "fix": "Give the button a name screen readers can read: visible text, or aria-label for icon-only and loading states.",
-        "impact": "critical",
-        "status": "fail",
-        "owner": "Dev",
-        "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
-        "components": [
-          {
-            "name": "Button",
-            "key": "1454:7798"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|axe:button-name",
-            "title": "Buttons must have discernible text",
-            "component": "Button",
-            "componentKey": "1454:7798",
-            "brand": "Dragonpass",
-            "variants": [
-              "Type=Primary, Size=Large, State=Loading",
-              "Type=Primary, Size=Regular, State=Loading",
-              "Type=Primary, Size=Small, State=Loading"
-            ],
-            "status": "fail",
-            "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-            "contrast": null,
-            "design": null,
-            "target": ".adm-button",
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|axe:button-name",
-            "title": "Buttons must have discernible text",
-            "component": "Button",
-            "componentKey": "1454:7798",
-            "brand": "Mastercard",
-            "variants": [
-              "Type=Primary, Size=Large, State=Loading",
-              "Type=Primary, Size=Regular, State=Loading",
-              "Type=Primary, Size=Small, State=Loading"
-            ],
-            "status": "fail",
-            "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-            "contrast": null,
-            "design": null,
-            "target": ".adm-button",
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|axe:button-name",
-            "title": "Buttons must have discernible text",
-            "component": "Button",
-            "componentKey": "1454:7798",
-            "brand": "Investec",
-            "variants": [
-              "Type=Primary, Size=Large, State=Loading",
-              "Type=Primary, Size=Regular, State=Loading",
-              "Type=Primary, Size=Small, State=Loading"
-            ],
-            "status": "fail",
-            "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
-            "contrast": null,
-            "design": null,
-            "target": ".adm-button",
-            "size": null
-          }
-        ],
-        "occurrences": 9
-      },
       {
         "items": [
           {
@@ -28419,32 +28151,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-18T17:36:33.358Z",
-    "previousScore": 18,
+    "since": "2026-11-19T10:44:38.971Z",
+    "previousScore": 19,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Button",
-        "title": "Text contrast is too low in Figma",
-        "category": "Accessibility",
-        "now": "warn"
-      },
-      {
-        "status": "fail",
-        "component": "Social Button",
-        "title": "Text contrast is too low in Figma",
-        "category": "Accessibility",
-        "now": "pass"
-      },
-      {
-        "status": "fail",
-        "component": "Tag",
-        "title": "Text contrast is too low in Figma",
-        "category": "Accessibility",
-        "now": "warn"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

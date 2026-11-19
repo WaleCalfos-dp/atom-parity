@@ -241,16 +241,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
-"[Atom parity] Button: Buttons must have discernible text","critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute 
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Loading; Type=Primary, Size=Regular, State=Loading; Type=Primary, Size=Small, State=Loading
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-accessibility owner-dev","Atom Design System"
 "[Atom parity] Button: Text contrast is too low in Figma","4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)
 
 Brands: Investec
