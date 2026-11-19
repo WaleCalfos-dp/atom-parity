@@ -11,6 +11,7 @@ assert.equal(isDisabledState(V('Disabled=True, Size=Small')), true);
 assert.equal(isDisabledState(V('Disabled=False, Size=Small')), false, 'Disabled=False is the enabled state');
 assert.equal(isDisabledState(V('Status=Inactive')), true);
 assert.equal(isDisabledState(V('State=Expired')), false, 'expired is not disabled');
+assert.equal(isDisabledState(V('Type=Primary, State=Loading'), { loading: true }), false, 'loading is its own state, even if code disables the button');
 assert.equal(isDisabledState(V('Type=Primary'), { disabled: true }), true);
 assert.equal(isDisabledState(V('Type=Primary'), { disabled: false }), false);
 assert.equal(isDisabledState(V('Type=Primary'), { state: 'disabled' }), true);

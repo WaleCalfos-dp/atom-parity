@@ -319,9 +319,9 @@ async function runGroup(page, sb, group, cfg, assetsDir, results, consoleErrors)
       if (job.a11y) {
         res.a11y = await page.evaluate(async (tags) => {
           if (!window.axe) return { error: 'axe-core not loaded' };
-          // Disabled controls inside a story are left out too (WCAG exempts inactive components)
-          const ctx = { include: [['#storybook-root'], ['body > *:not(#storybook-root):not(#storybook-docs):not(script):not(style):not(.sb-wrapper):not(.sb-errordisplay):not(.sb-nopreview):not(.sb-preparing-story):not(.sb-preparing-docs)']],
-            exclude: [['[disabled]'], ['[aria-disabled="true"]'], ['fieldset[disabled] *']] };
+          // Disabled states are skipped by variant (State=Disabled), not by what the code switches off: a Loading
+          // button is disabled in code but is its own state in Figma, and screen readers still land on it.
+          const ctx = { include: [['#storybook-root'], ['body > *:not(#storybook-root):not(#storybook-docs):not(script):not(style):not(.sb-wrapper):not(.sb-errordisplay):not(.sb-nopreview):not(.sb-preparing-story):not(.sb-preparing-docs)']] };
           const r = await window.axe.run(ctx, { runOnly: { type: 'tag', values: tags }, resultTypes: ['violations'] });
           const aa = /^wcag2(1|2)?a{1,2}$/;
           return { violations: r.violations.filter((v) => v.tags.some((t) => aa.test(t)) && !v.tags.includes('experimental')).map((v) => ({ id: v.id, impact: v.impact, help: v.help, helpUrl: v.helpUrl, tags: v.tags, nodes: v.nodes.length, target: v.nodes[0]?.target?.join(' ') ?? '', summary: (v.nodes[0]?.failureSummary ?? '').slice(0, 300) })) };
