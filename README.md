@@ -97,6 +97,7 @@ When the Figma token expires, the report shows "Figma refused the request". Make
 | Key | Purpose |
 |---|---|
 | `brands.map` | Figma brand name → Storybook `biz` value, when they're spelled differently (AeroBlue is `areo-blue` in code) |
+| `brands.exclude` | Brands left out of every check, in Figma and Storybook (currently AeroBlue and Visa Affluent) |
 | `brands.figmaBrands` | Figma brand names to check when no plugin snapshot is available |
 | `components.aliases` | Pair differently named components so their other checks still run. The naming check still fails, on purpose. |
 | `props.map` | Known value renames, e.g. Button Size "Regular" is `middle` |

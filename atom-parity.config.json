@@ -23,7 +23,8 @@
     ],
     "figmaDefault": "Dragonpass",
     "exclude": [
-      "AeroBlue"
+      "AeroBlue",
+      "Visa Affluent"
     ]
   },
   "components": {
