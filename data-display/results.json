@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T15:34:42.912Z",
-    "durationMs": 239215,
+    "generatedAt": "2026-11-19T10:28:54.938Z",
+    "durationMs": 260276,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-18T15:09:06Z"
+        "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-18T15:33:36.805Z",
+      "exportedAt": "2026-11-19T10:27:37.198Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -10896,7 +10896,7 @@
       "key": "1658:46512",
       "name": "Steps",
       "status": "Drifted",
-      "score": 63,
+      "score": 61,
       "match": "exact",
       "figma": {
         "id": "1658:46512",
@@ -10911,7 +10911,7 @@
       },
       "code": {
         "title": "Data Display/Steps",
-        "stories": 6,
+        "stories": 8,
         "story": "data-display-steps--usage",
         "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage"
       },
@@ -10984,9 +10984,30 @@
               "Icon"
             ],
             "default": "Number",
-            "codeArg": null,
-            "how": "missing",
-            "values": []
+            "codeArg": "finishIconType",
+            "how": "inferred",
+            "values": [
+              {
+                "figma": "Number",
+                "code": "number",
+                "how": "exact"
+              },
+              {
+                "figma": "Icon",
+                "code": null,
+                "how": "missing",
+                "suggestion": null
+              }
+            ],
+            "codeType": "enum",
+            "codeOptions": [
+              "number",
+              "check"
+            ],
+            "codeDefault": "'number'",
+            "codeOnlyValues": [
+              "check"
+            ]
           }
         ],
         "codeOnly": [
@@ -11288,21 +11309,21 @@
           "variants": []
         },
         {
-          "key": "Properties|prop:Type",
-          "category": "Properties",
+          "key": "Naming|prop:Type",
+          "category": "Naming",
           "subject": "prop:Type",
           "label": "Property \"Type\"",
           "status": "fail",
-          "title": "Figma property \"Type\" has no equivalent in code",
-          "owner": "Dev",
-          "detail": "Values: Number, Icon",
+          "title": "Figma \"Type\" is \"finishIconType\" in code",
+          "owner": "Both",
+          "detail": "Rename one side so names match 1:1 (paired by matching values)",
           "meta": null,
           "instances": [
             {
               "status": "fail",
               "brand": null,
               "variant": null,
-              "detail": "Values: Number, Icon",
+              "detail": "Rename one side so names match 1:1 (paired by matching values)",
               "figma": null,
               "code": null,
               "image": null,
@@ -11313,6 +11334,68 @@
             "pass": 0,
             "warn": 0,
             "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|values:Type",
+          "category": "Properties",
+          "subject": "values:Type",
+          "label": "Type values",
+          "status": "fail",
+          "title": "Type values missing in code",
+          "owner": "Both",
+          "detail": "Missing in code: Icon · Only in code: check",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Missing in code: Icon · Only in code: check",
+              "figma": "Number, Icon",
+              "code": "number, check",
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Properties|default:Type",
+          "category": "Properties",
+          "subject": "default:Type",
+          "label": "Type default",
+          "status": "pass",
+          "title": "Default Type matches",
+          "owner": "Both",
+          "detail": "Design Number · Code number",
+          "meta": null,
+          "instances": [
+            {
+              "status": "pass",
+              "brand": null,
+              "variant": null,
+              "detail": "Design Number · Code number",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
             "info": 0
           },
           "brands": [],
@@ -11357,14 +11440,14 @@
           "status": "warn",
           "title": "24 of 24 variants can't be shown in code",
           "owner": "Both",
-          "detail": "Count=2, Background Fill=Off, Type=Number, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8",
+          "detail": "Count=2, Background Fill=Off, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8",
           "meta": null,
           "instances": [
             {
               "status": "warn",
               "brand": null,
               "variant": null,
-              "detail": "Count=2, Background Fill=Off, Type=Number, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8",
+              "detail": "Count=2, Background Fill=Off, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8",
               "figma": null,
               "code": null,
               "image": null,
@@ -11471,18 +11554,18 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 33,
+      "pass": 34,
       "warn": 36,
-      "fail": 56
+      "fail": 57
     },
     "byCategory": {
       "Naming": {
         "pass": 19,
         "warn": 2,
-        "fail": 9
+        "fail": 10
       },
       "Properties": {
-        "pass": 2,
+        "pass": 3,
         "warn": 29,
         "fail": 46
       },
@@ -11524,11 +11607,11 @@
       },
       "Dev": {
         "warn": 13,
-        "fail": 44
+        "fail": 43
       },
       "Both": {
         "warn": 12,
-        "fail": 11
+        "fail": 13
       }
     },
     "themes": [
@@ -11862,12 +11945,6 @@
             "key": "Properties|prop:Background Fill",
             "title": "Figma property \"Background Fill\" has no equivalent in code",
             "componentName": "Steps"
-          },
-          {
-            "component": "1658:46512",
-            "key": "Properties|prop:Type",
-            "title": "Figma property \"Type\" has no equivalent in code",
-            "componentName": "Steps"
           }
         ]
       },
@@ -11909,7 +11986,8 @@
         "owner": "Both",
         "components": [
           "Data Row",
-          "QR Code"
+          "QR Code",
+          "Steps"
         ],
         "items": [
           {
@@ -11923,6 +12001,12 @@
             "key": "Naming|prop:Show Caption",
             "title": "Figma \"Show Caption\" is \"caption\" in code",
             "componentName": "QR Code"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Naming|prop:Type",
+            "title": "Figma \"Type\" is \"finishIconType\" in code",
+            "componentName": "Steps"
           }
         ]
       },
@@ -11933,7 +12017,8 @@
         "owner": "Both",
         "components": [
           "Data Row",
-          "QR Code"
+          "QR Code",
+          "Steps"
         ],
         "items": [
           {
@@ -11947,6 +12032,12 @@
             "key": "Properties|values:Type",
             "title": "Type values missing in code",
             "componentName": "QR Code"
+          },
+          {
+            "component": "1658:46512",
+            "key": "Properties|values:Type",
+            "title": "Type values missing in code",
+            "componentName": "Steps"
           }
         ]
       },
@@ -13354,13 +13445,26 @@
       {
         "component": "Steps",
         "componentKey": "1658:46512",
-        "key": "Properties|prop:Type",
-        "category": "Properties",
+        "key": "Naming|prop:Type",
+        "category": "Naming",
         "subject": "prop:Type",
         "status": "fail",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "detail": "Values: Number, Icon",
-        "owner": "Dev",
+        "title": "Figma \"Type\" is \"finishIconType\" in code",
+        "detail": "Rename one side so names match 1:1 (paired by matching values)",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Steps",
+        "componentKey": "1658:46512",
+        "key": "Properties|values:Type",
+        "category": "Properties",
+        "subject": "values:Type",
+        "status": "fail",
+        "title": "Type values missing in code",
+        "detail": "Missing in code: Icon · Only in code: check",
+        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -13385,7 +13489,7 @@
         "subject": "coverage",
         "status": "warn",
         "title": "24 of 24 variants can't be shown in code",
-        "detail": "Count=2, Background Fill=Off, Type=Number, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8",
+        "detail": "Count=2, Background Fill=Off, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8",
         "owner": "Both",
         "brands": [],
         "variants": 0
@@ -13760,9 +13864,22 @@
     ]
   },
   "delta": {
-    "since": "2026-11-18T14:21:39.305Z",
+    "since": "2026-11-18T15:34:42.912Z",
     "previousScore": 22,
-    "newFails": [],
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Steps",
+        "title": "Figma \"Type\" is \"finishIconType\" in code",
+        "category": "Naming"
+      },
+      {
+        "status": "fail",
+        "component": "Steps",
+        "title": "Type values missing in code",
+        "category": "Properties"
+      }
+    ],
     "fixed": []
   },
   "activity": []

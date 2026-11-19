@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-18T15:45:09.148Z",
-    "durationMs": 92647,
+    "generatedAt": "2026-11-19T10:39:48.424Z",
+    "durationMs": 103247,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-18T15:09:06Z"
+        "lastModified": "2026-11-19T10:19:18Z"
       },
-      "exportedAt": "2026-11-18T15:44:12.937Z",
+      "exportedAt": "2026-11-19T10:38:46.197Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7616,7 +7616,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-18T14:33:57.680Z",
+    "since": "2026-11-18T15:45:09.148Z",
     "previousScore": 15,
     "newFails": [],
     "fixed": []

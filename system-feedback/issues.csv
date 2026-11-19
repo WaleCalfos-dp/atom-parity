@@ -5,396 +5,396 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Alert: Figma property ""Show Button"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Alert: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Alert: Figma property ""Show Description"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Alert: Figma property ""Show Close Icon"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Alert: Figma property ""Description"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Alert: Figma ""Status"" is ""type"" in code","Rename one side so names match 1:1 (paired by matching values)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Alert: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Alert: ""Error"" is a retired term","Use ""danger"" instead (Status)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-design","Atom Design System"
 "[Atom parity] Alert: Figma property ""Style"" has no equivalent in code","Values: Full Border, Top Border
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Alert: ""error"" is a retired term in code","Use ""danger"" instead (type)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-dev","Atom Design System"
 "[Atom parity] Alert: Code has props with no Figma property","content, variant, showClose, showIcon, showShadow, duration, alertId, customIcon
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Alert: 10 of 10 variants can't be shown in code","Status=Information, Style=Top Border, Style=Full Border
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Description"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Buttons"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Slot 2"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Slot 1"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Description"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Icon"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Close Icon"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Subtitle"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Subtitle"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Type"" has no equivalent in code","Values: Critical, Customizable
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Status"" has no equivalent in code","Values: Info, Success, Warning, Error
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Breakpoint"" has no equivalent in code","Values: Mobile, Desktop
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Dialog: Code has props with no Figma property","content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Dialog: 10 of 10 variants can't be shown in code","Type=Critical, Status=Error, Breakpoint=Mobile, Type=Customizable, Status=Info, Status=Warning, Status=Success, Breakpoint=Desktop
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Journey Wizard: Not found in Storybook","Possible matches: Business Components/Journey. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16012-24876
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-16012%3A24876
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Loading Indicator: Figma ""Loading Indicator"" is ""Loading"" in Storybook","Rename one side so any developer can map code to the design system immediately.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Loading Indicator: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-documentation owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-documentation owner-design","Atom Design System"
 "[Atom parity] Loading Indicator: Figma property ""Type"" has no equivalent in code","Values: Spinner, Skeleton
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Loading Indicator: Code has props with no Figma property","showMask, spinnerSize, inline, maskColor
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Loading Indicator: 2 of 2 variants can't be shown in code","Type=Spinner, Type=Skeleton
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Loading Modal: Not found in Storybook","Possible matches: System Feedback/Loading, System Feedback/Modal. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17148-8917
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-17148%3A8917
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Progress Bar / Animated: Not found in Storybook","Possible matches: Data Display/ProgressBar. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17074-30102
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-17074%3A30102
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Progress Bar / Percentage: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/Tag, Data Display/ProgressSegment. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1685-4000
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1685%3A4000
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Progress Bar / Steps: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12768-3167
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-12768%3A3167
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Progress Bar / Tracker: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/ProgressCircle. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12738-392
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-12738%3A392
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Toast: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-documentation owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-documentation owner-design","Atom Design System"
 "[Atom parity] Toast: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Toast: Figma property ""Description"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Toast: Figma ""Status"" is ""type"" in code","Rename one side so names match 1:1 (paired by matching values)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Toast: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Toast: ""Error"" is a retired term","Use ""danger"" instead (Status)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-design","Atom Design System"
 "[Atom parity] Toast: Figma property ""Lines of Text"" has no equivalent in code","Values: Single, Multi
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Toast: ""error"" is a retired term in code","Use ""danger"" instead (type)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-dev","Atom Design System"
 "[Atom parity] Toast: Code has props with no Figma property","content, position, duration, showClose, showIcon, offsetX, offsetY
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Toast: 10 of 10 variants can't be shown in code","Lines of Text=Single, Lines of Text=Multi, Status=Information
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Tooltip: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Tooltip: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Tooltip: Figma ""Show Description"" is ""description"" in code","Same words in a different order or form. Align the names so they map 1:1.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Tooltip: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Tooltip: Figma ""Tip Direction"" is ""placement"" in code","Rename one side so names match 1:1 (paired by matching values)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-naming owner-both","Atom Design System"
 "[Atom parity] Tooltip: Tip Direction values missing in code","Missing in code: Down, Up · Only in code: top, bottom
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Tooltip: Figma property ""Tip Centred"" has no equivalent in code","Values: No, Yes
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","High","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Tooltip: Code has props with no Figma property","trigger, showArrow, prefix, suffix, offset, defaultVisible
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Tooltip: 8 of 8 variants can't be shown in code","Tip Direction=Down, Tip Centred=No, Tip Direction=Up, Tip Centred=Yes
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
 "[Atom parity] Tooltip: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
 Brands: Mastercard, Investec, Assurant, Visa Affluent
@@ -404,4 +404,4 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
-Found by atom-parity on 2026-11-18","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
