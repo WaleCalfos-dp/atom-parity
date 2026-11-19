@@ -63,6 +63,13 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Flight Number"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Figma property ""Departure Date"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
@@ -78,6 +85,13 @@ Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A6
 
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Figma property ""Departure Airport"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Flight Type"" has no equivalent in code","text property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
@@ -105,13 +119,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
 Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-dev","Atom Design System"
-"[Atom parity] Flight Delay / Flight Card: Code has props with no Figma property","airline, from, to, airlineLogo, description
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
-
-Found by atom-parity on 2026-11-19","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec

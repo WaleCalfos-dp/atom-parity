@@ -350,36 +350,24 @@
     else es.forEach((e) => { const k = countsOf(e.counts || {}); Object.keys(c).forEach((x) => { c[x] += k[x]; }); sum += (e.score || 0) * ((e.counts && e.counts.figma) || 1); n += (e.counts && e.counts.figma) || 1; });
     const score = n ? Math.round(sum / n) : 0;
     const figmaTotal = c.aligned + c.drifted + c.broken + c.notbuilt;
-    const need = c.drifted + c.broken + c.notbuilt;
     $('ovTitle').innerHTML = 'Storybook is at <span class="num">' + score + '%</span> parity with Figma';
     const built = c.aligned + c.drifted + c.broken;
     $('ovLede').textContent = figmaTotal
-      ? (built ? built + ' of ' + figmaTotal + ' Figma components are built in Storybook' + (c.aligned ? ', and ' + c.aligned + ' match exactly.' : ', and none match exactly yet.') : 'None of the ' + figmaTotal + ' Figma components checked are in Storybook yet.') + ' Every check compares names, properties, tokens, looks and accessibility across each brand.'
+      ? (built ? built + ' of ' + figmaTotal + ' Figma components are built in Storybook' + (c.aligned ? ', and ' + c.aligned + ' match exactly.' : ', and none match exactly yet.') : 'None of the ' + figmaTotal + ' Figma components checked are in Storybook yet.')
       : 'No components checked yet.';
     // Accessibility across all checks
     const a = { total: 0, counts: { critical: 0, serious: 0, moderate: 0, minor: 0 }, comps: 0, ran: false, worst: null };
     es.forEach((e) => { if (!e.a11y) return; a.ran = a.ran || e.a11y.ran; a.total += e.a11y.total || 0; a.comps += e.a11y.components || 0; SEV.forEach((k) => { a.counts[k] += (e.a11y.counts && e.a11y.counts[k]) || 0; }); if (e.a11y.total && (!a.worst || (e.a11y.counts.critical || 0) > (a.worst.a11y.counts.critical || 0))) a.worst = e; });
     const last = es.map((e) => e.ranAt).filter(Boolean).sort().pop();
     const facts = [
-      '<li><b>' + (figmaTotal ? need + ' of ' + figmaTotal : '0') + '</b><span>components need attention</span></li>',
       a.ran ? '<li><a href="' + (a.worst ? esc(a.worst.id) + '/#accessibility' : '#checksTitle') + '"><b>' + (a.total ? plural(a.total, 'accessibility issue') : 'No accessibility issues') + '</b><span>' + (a.total ? 'in ' + plural(a.comps, 'component') : 'found by automated checks') + '</span></a>' + (a.total ? '<div>' + sevList(a.counts, 1) + '</div>' : '') + '</li>' : '',
       '<li><b>' + (last ? ago(last).replace(/^./, (x) => x.toUpperCase()) : 'Not yet') + '</b><span>last checked, next run ' + nextNightly() + '</span></li>',
     ];
     $('ovFacts').innerHTML = facts.join('');
     $('ovMeter').innerHTML = meter(c);
     $('ovLegend').innerHTML = STATUS.filter((s) => c[s[0]] || s[0] !== 'notfigma').map((s) => '<li><i class="s-' + s[0] + '"></i>' + s[1] + ' <b>' + c[s[0]] + '</b></li>').join('');
-    $('ovMark').innerHTML = regMark(score, !settled) + '<figcaption><i class="k-d"></i>Figma and <i class="k-c"></i>Storybook sit closer together as parity rises.</figcaption>';
+    $('ovMark').innerHTML = regMark(score, !settled) + '<figcaption><i class="k-d"></i>Figma <i class="k-c"></i>Storybook</figcaption>';
     settled = true;
-  }
-
-  function spark(h) {
-    if (!h || h.length < 2) return '';
-    const pts = h.slice(-12); const w = 84, hh = 24, pad = 3;
-    const xs = (i) => pad + (i * (w - 2 * pad)) / (pts.length - 1);
-    const ys = (v) => hh - pad - (v / 100) * (hh - 2 * pad);
-    const d = pts.map((p, i) => (i ? 'L' : 'M') + xs(i).toFixed(1) + ' ' + ys(p.score).toFixed(1)).join(' ');
-    const last = pts[pts.length - 1];
-    return '<svg class="spark" viewBox="0 0 ' + w + ' ' + hh + '" role="img" aria-label="Parity over the last ' + pts.length + ' runs, now ' + last.score + '%"><path d="' + d + '" fill="none" stroke="var(--ink-3)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="' + xs(pts.length - 1).toFixed(1) + '" cy="' + ys(last.score).toFixed(1) + '" r="2.75" fill="var(--ink)"/></svg>';
   }
 
   function a11yLine(e) {
@@ -428,9 +416,12 @@
     $('runAll').hidden = es.length < 2;
     const running = new Map(runs.filter((r) => r.state === 'waiting' || r.state === 'running' || r.state === 'publishing').map((r) => [r.checkId, r]));
     if (!es.length) { $('grid').innerHTML = '<div class="empty-state"><b>No checks yet</b>Paste a Figma page and its Storybook above to run the first one.</div>'; return; }
-    const groups = figmaGroups(es);
-    const plain = groups.length === 1 && groups[0].key === '~other';
-    $('grid').innerHTML = groups.map((g, gi) => (plain ? '<div class="group">' : '<section class="group" aria-labelledby="grp-' + gi + '"><div class="group-head"><h3 id="grp-' + gi + '">' + esc(g.label) + '</h3><span>' + g.items.length + ' ' + (g.items.length === 1 ? 'check' : 'checks') + '</span></div>') +
+    // Figma groups with several checks get a heading; one-check groups are named by their card, so they share one grid
+    const all = figmaGroups(es);
+    const multi = all.filter((g) => g.items.length > 1), singles = all.filter((g) => g.items.length === 1);
+    const groups = multi.length ? multi.concat(singles.length ? [{ key: '~rest', label: 'Other sections', order: Infinity, items: [].concat(...singles.map((g) => g.items)) }] : []) : [{ key: '~all', items: es }];
+    const plain = groups.length === 1;
+    $('grid').innerHTML = groups.map((g, gi) => (plain ? '<div class="group">' : '<section class="group" aria-labelledby="grp-' + gi + '"><div class="group-head"><h3 id="grp-' + gi + '">' + esc(g.label) + '</h3></div>') +
       '<div class="grid">' + g.items.map(cardHtml).join('') + '</div>' + (plain ? '</div>' : '</section>')).join('');
     masonry();
     function cardHtml(e) {
@@ -457,12 +448,12 @@
       const variant = p ? String(p.variant || '').split(',').map((x) => x.split('=').pop().trim()).join(', ') : '';
       const pair = p ? '<div class="proof"><figure class="d"><figcaption><i></i>Figma</figcaption><div class="img"><img loading="lazy" alt="' + esc(p.component) + ' in Figma" src="' + esc(p.figma) + '"></div></figure><figure class="c"><figcaption><i></i>Storybook</figcaption><div class="img"><img loading="lazy" alt="' + esc(p.component) + ' in Storybook" src="' + esc(p.code) + '"></div></figure></div>' +
         '<p class="caption">Most different: <b>' + esc(p.component) + '</b>, ' + esc(variant) + (p.brand ? ' in ' + esc(p.brand) : '') + '.' + (p.mismatch != null ? ' ' + Math.round(p.mismatch * 100) + '% of pixels differ.' : '') + '</p>'
-        : '<div class="proof empty">' + (k.notbuilt && !k.aligned && !k.drifted && !k.broken ? 'None of these components are in Storybook yet, so there is nothing to compare side by side.' : 'No side-by-side pictures for this check.') + '</div>';
+        : '';
       const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i class="s-' + s[0] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
       const ignoredNote = e.ignored ? '<a class="ignored-n" href="' + esc(e.id) + '/#archive">' + e.ignored + ' archived</a>' : '';
-      return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3><p class="sub">' + esc(e.headline || '') + '</p>' + tag + '</div>' +
+      return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3>' + tag + '</div>' +
         '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
-        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + ignoredNote + '</div>' + spark(e.history) + '</div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
+        pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + ignoredNote + '</div></div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
     }
   }
 

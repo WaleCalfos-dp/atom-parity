@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-19T12:16:17.024Z",
-    "durationMs": 201870,
+    "generatedAt": "2026-11-19T14:18:25.505Z",
+    "durationMs": 327391,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-19T12:12:59Z"
+        "lastModified": "2026-11-19T12:58:26Z"
       },
-      "exportedAt": "2026-11-19T12:14:51.200Z",
+      "exportedAt": "2026-11-19T14:14:27.849Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2101,7 +2101,7 @@
       "key": "17265:62617",
       "name": "Flight Delay / Flight Card",
       "status": "Broken",
-      "score": 63,
+      "score": 62,
       "match": "exact",
       "figma": {
         "id": "17265:62617",
@@ -2136,11 +2136,9 @@
             "figmaType": "TEXT",
             "options": [],
             "default": "BA 113",
-            "codeArg": "flightNumber",
-            "how": "exact",
-            "values": [],
-            "codeType": "other",
-            "codeOptions": []
+            "codeArg": null,
+            "how": "missing",
+            "values": []
           },
           {
             "figma": "Departure Date",
@@ -2174,11 +2172,9 @@
             "figmaType": "TEXT",
             "options": [],
             "default": "Direct",
-            "codeArg": "flightType",
-            "how": "exact",
-            "values": [],
-            "codeType": "other",
-            "codeOptions": []
+            "codeArg": null,
+            "how": "missing",
+            "values": []
           },
           {
             "figma": "Arrival Date",
@@ -2208,33 +2204,7 @@
             "values": []
           }
         ],
-        "codeOnly": [
-          {
-            "name": "airline",
-            "type": "other",
-            "options": []
-          },
-          {
-            "name": "from",
-            "type": "object",
-            "options": []
-          },
-          {
-            "name": "to",
-            "type": "object",
-            "options": []
-          },
-          {
-            "name": "airlineLogo",
-            "type": "other",
-            "options": []
-          },
-          {
-            "name": "description",
-            "type": "other",
-            "options": []
-          }
-        ]
+        "codeOnly": []
       },
       "checks": [
         {
@@ -2362,21 +2332,21 @@
           "variants": []
         },
         {
-          "key": "Naming|prop:Flight Number",
-          "category": "Naming",
+          "key": "Properties|prop:Flight Number",
+          "category": "Properties",
           "subject": "prop:Flight Number",
           "label": "Property \"Flight Number\"",
-          "status": "pass",
-          "title": "\"Flight Number\" matches \"flightNumber\"",
-          "owner": "Both",
-          "detail": null,
+          "status": "warn",
+          "title": "Figma property \"Flight Number\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
           "meta": null,
           "instances": [
             {
-              "status": "pass",
+              "status": "warn",
               "brand": null,
               "variant": null,
-              "detail": null,
+              "detail": "text property",
               "figma": null,
               "code": null,
               "image": null,
@@ -2384,8 +2354,8 @@
             }
           ],
           "counts": {
-            "pass": 1,
-            "warn": 0,
+            "pass": 0,
+            "warn": 1,
             "fail": 0,
             "info": 0
           },
@@ -2486,21 +2456,21 @@
           "variants": []
         },
         {
-          "key": "Naming|prop:Flight Type",
-          "category": "Naming",
+          "key": "Properties|prop:Flight Type",
+          "category": "Properties",
           "subject": "prop:Flight Type",
           "label": "Property \"Flight Type\"",
-          "status": "pass",
-          "title": "\"Flight Type\" matches \"flightType\"",
-          "owner": "Both",
-          "detail": null,
+          "status": "warn",
+          "title": "Figma property \"Flight Type\" has no equivalent in code",
+          "owner": "Dev",
+          "detail": "text property",
           "meta": null,
           "instances": [
             {
-              "status": "pass",
+              "status": "warn",
               "brand": null,
               "variant": null,
-              "detail": null,
+              "detail": "text property",
               "figma": null,
               "code": null,
               "image": null,
@@ -2508,8 +2478,8 @@
             }
           ],
           "counts": {
-            "pass": 1,
-            "warn": 0,
+            "pass": 0,
+            "warn": 1,
             "fail": 0,
             "info": 0
           },
@@ -2614,17 +2584,17 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
-          "title": "Code has props with no Figma property",
+          "status": "pass",
+          "title": "Every code prop exists in Figma",
           "owner": "Design",
-          "detail": "airline, from, to, airlineLogo, description",
+          "detail": null,
           "meta": null,
           "instances": [
             {
-              "status": "warn",
+              "status": "pass",
               "brand": null,
               "variant": null,
-              "detail": "airline, from, to, airlineLogo, description",
+              "detail": null,
               "figma": null,
               "code": null,
               "image": null,
@@ -2632,8 +2602,8 @@
             }
           ],
           "counts": {
-            "pass": 0,
-            "warn": 1,
+            "pass": 1,
+            "warn": 0,
             "fail": 0,
             "info": 0
           },
@@ -5521,7 +5491,7 @@
     }
   ],
   "summary": {
-    "score": 7,
+    "score": 6,
     "headline": "0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.",
     "components": {
       "total": 15,
@@ -5535,19 +5505,19 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 22,
-      "warn": 22,
+      "pass": 21,
+      "warn": 23,
       "fail": 24
     },
     "byCategory": {
       "Naming": {
-        "pass": 2,
+        "pass": 0,
         "warn": 0,
         "fail": 15
       },
       "Properties": {
-        "pass": 0,
-        "warn": 14,
+        "pass": 1,
+        "warn": 15,
         "fail": 3
       },
       "Tokens": {
@@ -5583,11 +5553,11 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 4,
         "fail": 2
       },
       "Dev": {
-        "warn": 12,
+        "warn": 14,
         "fail": 3
       },
       "Both": {
@@ -5884,6 +5854,12 @@
           },
           {
             "component": "17265:62617",
+            "key": "Properties|prop:Flight Number",
+            "title": "Figma property \"Flight Number\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
             "key": "Properties|prop:Departure Date",
             "title": "Figma property \"Departure Date\" has no equivalent in code",
             "componentName": "Flight Delay / Flight Card"
@@ -5898,6 +5874,12 @@
             "component": "17265:62617",
             "key": "Properties|prop:Departure Airport",
             "title": "Figma property \"Departure Airport\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Flight Type",
+            "title": "Figma property \"Flight Type\" has no equivalent in code",
             "componentName": "Flight Delay / Flight Card"
           },
           {
@@ -6103,6 +6085,19 @@
       {
         "component": "Flight Delay / Flight Card",
         "componentKey": "17265:62617",
+        "key": "Properties|prop:Flight Number",
+        "category": "Properties",
+        "subject": "prop:Flight Number",
+        "status": "warn",
+        "title": "Figma property \"Flight Number\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
         "key": "Properties|prop:Departure Date",
         "category": "Properties",
         "subject": "prop:Departure Date",
@@ -6134,6 +6129,19 @@
         "subject": "prop:Departure Airport",
         "status": "warn",
         "title": "Figma property \"Departure Airport\" has no equivalent in code",
+        "detail": "text property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Flight Type",
+        "category": "Properties",
+        "subject": "prop:Flight Type",
+        "status": "warn",
+        "title": "Figma property \"Flight Type\" has no equivalent in code",
         "detail": "text property",
         "owner": "Dev",
         "brands": [],
@@ -6175,19 +6183,6 @@
         "title": "Figma property \"Arrival Airport\" has no equivalent in code",
         "detail": "text property",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "airline, from, to, airlineLogo, description",
-        "owner": "Design",
         "brands": [],
         "variants": 0
       },
@@ -6860,7 +6855,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-19T11:00:55.332Z",
+    "since": "2026-11-19T12:16:17.024Z",
     "previousScore": 7,
     "newFails": [],
     "fixed": []
