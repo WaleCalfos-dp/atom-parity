@@ -64,7 +64,7 @@ ${FONTS}
   <section class="compose" aria-labelledby="composeTitle">
     <div class="compose-head">
       <h2 id="composeTitle">New check</h2>
-      <p>Paste a Figma page and the Storybook it should match. The report is ready in about 5 minutes, then reruns every weekday night.</p>
+      <p>Paste a Figma page and the Storybook it should match. The report is ready in about 5 minutes.</p>
     </div>
     <form id="form" class="compose-form" novalidate>
       <div class="fld d"><label for="figma"><i aria-hidden="true"></i>Figma page</label><input id="figma" type="url" inputmode="url" autocomplete="off" spellcheck="false" placeholder="figma.com/design/…" aria-describedby="figmaHint"></div>

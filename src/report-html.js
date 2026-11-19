@@ -28,7 +28,6 @@ ${FONTS}
     <div class="hero-text">
       <p class="crumb"><a href="../">All checks</a></p>
       <h1>${esc(title)}</h1>
-      <p class="lede" id="headline"></p>
       <p class="delta" id="delta"></p>
       <div class="hero-meter" id="meter"></div>
       <ul class="legend" id="legend"></ul>
@@ -191,16 +190,10 @@ h3{font:700 18px/1.3 var(--display);letter-spacing:-.01em;margin:0}
 .status-dot.fail{background:var(--bad-fill)}.status-dot.warn{background:var(--warn-fill)}.status-dot.pass{background:var(--ok-fill)}
 
 /* accessibility */
-.a11y-top{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px}
 .panel{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);padding:20px 22px}
 .panel h3{font-size:15px;margin-bottom:12px}
-.sevgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-radius:var(--r-l);overflow:hidden;border:1px solid var(--line);background:var(--paper)}
-.sevgrid div{padding:18px 18px 16px;border-left:1px solid var(--line-2);display:flex;flex-direction:column;gap:10px;align-items:flex-start}
-.sevgrid div:first-child{border-left:0}
-.sevgrid b{font:800 40px/1 var(--display);letter-spacing:-.03em;font-variant-numeric:tabular-nums}
-.sevgrid .zero b{color:var(--ink-3)}
-.sevgrid .zero .sev{color:var(--ink-3);background:transparent;border-color:var(--line)}
-.scope{font-size:14px;color:var(--ink-2);margin:14px 0 0;line-height:1.55}
+.scope{font-size:14px;color:var(--ink-2);margin:0 0 16px;line-height:1.55;max-width:72ch}
+#a11y>.panel{max-width:720px}
 .crit{list-style:none;margin:0;padding:0;display:grid;gap:2px}
 .crit li{display:grid;grid-template-columns:22px 52px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:14px;padding:6px 0;border-top:1px solid var(--line-2)}
 .crit li:first-child{border-top:0}
@@ -210,11 +203,6 @@ h3{font:700 18px/1.3 var(--display);letter-spacing:-.01em;margin:0}
 .crit .r{font-size:13px;font-weight:600}
 .crit .fail .r{color:var(--bad)}.crit .warn .r{color:var(--warn)}.crit .pass .r{color:var(--ok)}
 .ico{width:18px;height:18px;display:block}
-.bybrand{display:grid;gap:8px;margin-top:4px}
-.bybrand div{display:grid;grid-template-columns:110px minmax(0,1fr) 28px;gap:10px;align-items:center;font-size:13.5px}
-.bybrand .bar{height:8px;border-radius:999px;background:var(--line-2);overflow:hidden}
-.bybrand .bar i{display:block;height:100%;background:var(--ink-2);border-radius:999px}
-.bybrand b{text-align:right;font-variant-numeric:tabular-nums}
 .a11y-filters{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:28px 0 14px;flex-wrap:wrap}
 .a11y-filters h3{font-size:18px}
 .issue{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-l);margin-top:14px;overflow:hidden;scroll-margin-top:118px}
@@ -397,16 +385,12 @@ td.differs{color:var(--bad)}td.missing{color:var(--ink-3)}
   .hero-score{flex-direction:row;order:-1;justify-content:flex-start;gap:16px}
   .hero-score .reg{width:84px;height:84px}
   .hero-score p{align-items:flex-start}
-  .a11y-top{grid-template-columns:1fr}
   .wf{grid-template-columns:1fr}
 }
 @media (max-width:600px){
   .topbar .in,.wrap{padding-left:18px;padding-right:18px}
   .tabs{margin:0 -18px;padding:0 18px}
   .when{display:none}
-  .sevgrid{grid-template-columns:repeat(2,1fr)}
-  .sevgrid div:nth-child(3){border-left:0}
-  .sevgrid div:nth-child(n+3){border-top:1px solid var(--line-2)}
   .issue-head{grid-template-columns:1fr;padding:18px 16px 0}
   .issue-head .ref,.issue-head .head-act{grid-column:1;grid-row:auto;justify-self:start}
   .wf,.verdict{margin-left:16px;margin-right:16px}
@@ -698,7 +682,6 @@ const SC = [['aligned', 'Aligned', 'Aligned'], ['drifted', 'Drifted', 'Drifted']
 const cnt = {}; SC.forEach((x) => { cnt[x[0]] = R.components.filter((c) => c.status === x[2]).length; });
 $('meter').innerHTML = '<div class="meter" role="img" aria-label="' + SC.filter((x) => cnt[x[0]]).map((x) => cnt[x[0]] + ' ' + x[1].toLowerCase()).join(', ') + '">' + SC.filter((x) => cnt[x[0]]).map((x) => '<i class="s-' + x[0] + '" style="flex:' + cnt[x[0]] + '"></i>').join('') + '</div>';
 $('legend').innerHTML = SC.filter((x) => cnt[x[0]]).map((x) => '<li><i class="s-' + x[0] + '"></i>' + x[1] + ' <b>' + cnt[x[0]] + '</b></li>').join('');
-$('headline').textContent = S.headline;
 if (R.delta) {
   const d = R.delta.previousScore != null ? S.score - R.delta.previousScore : null;
   $('delta').innerHTML = (d ? '<b class="' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? 'Up ' : 'Down ') + Math.abs(d) + ' points</b> since the last run. ' : '') +
@@ -738,19 +721,14 @@ function a11y() {
   }
   $('tabA11y').textContent = A.total || '';
   if (A.counts.critical || A.counts.serious) $('tabA11y').className = 'hot';
-  const design = A.issues.filter((i) => i.owner === 'Design').length, code = A.issues.filter((i) => i.owner === 'Dev').length;
   $('a11yLede').textContent = A.total
-    ? plural(A.total, 'issue') + ' in ' + plural(A.components, 'component') + '. ' + [design && design + ' start' + (design === 1 ? 's' : '') + ' in Figma', code && code + ' in code'].filter(Boolean).join(', ') + (design || code ? '.' : '')
+    ? plural(A.total, 'issue') + ' in ' + plural(A.components, 'component') + '.'
     : 'No issues found by the automated checks.';
   const brandsTxt = A.brands.length ? list(A.brands) : '';
-  const scope = (A.scans ? 'Scanned ' + plural(A.scans, 'rendered variant') + (brandsTxt ? ' in ' + brandsTxt : '') + ' against WCAG 2.2 AA. ' : '') +
+  const scope = (A.scans ? 'Scanned ' + plural(A.scans, 'rendered variant') + (brandsTxt ? ' in ' + brandsTxt : '') + ' against WCAG 2.2 A and AA. ' : '') +
     (A.designChecks ? 'Checked text contrast in Figma for ' + plural(A.designChecks, 'variant and brand pair') + ', using each brand\\'s token values.' : '');
-  const sev = '<div class="sevgrid" role="list" aria-label="Issues by severity">' + SEV.map((k) => '<div role="listitem" class="' + (A.counts[k] ? '' : 'zero') + '"><b>' + (A.counts[k] || 0) + '</b><span class="sev ' + k + '">' + SEVNAME[k] + '</span></div>').join('') + '</div>';
   const crit = '<ul class="crit">' + A.criteria.map((c) => '<li class="' + c.status + '">' + ICON[c.status] + '<span class="n">' + esc(c.sc) + '</span><span><a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.name) + '</a> <span class="lv">' + esc(c.level) + '</span></span><span class="r">' + RES[c.status] + '</span></li>').join('') + '</ul>';
-  const bb = Object.entries(A.byBrand || {}).sort((a, b) => b[1] - a[1]);
-  const maxB = Math.max(1, ...bb.map((x) => x[1]));
-  const brands = bb.length > 1 ? '<div class="panel" style="margin-top:20px"><h3>Where issues appear, by brand</h3><div class="bybrand">' + bb.map(([b, n]) => '<div><span>' + esc(b) + '</span><span class="bar"><i style="width:' + Math.round((n / maxB) * 100) + '%"></i></span><b>' + n + '</b></div>').join('') + '</div></div>' : '';
-  let h = '<div class="a11y-top"><div>' + sev + '<p class="scope">' + esc(scope) + '</p>' + brands + '</div><div class="panel"><h3>WCAG criteria checked</h3>' + crit + '</div></div>';
+  let h = '<p class="scope">' + esc(scope) + '</p><div class="panel"><h3>WCAG criteria checked</h3>' + crit + '</div>';
   if (!A.issues.length) { $('a11y').innerHTML = h + '<div class="a11y-empty" style="margin-top:20px">' + ICON.shield + '<span>No accessibility issues found. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</span></div>'; return; }
   const owners = [...new Set(A.issues.map((i) => i.owner))];
   h += '<div class="a11y-filters"><h3>Issues, most severe first</h3>' + (owners.length > 1 ? '<div class="chips" id="a11yChips" role="group" aria-label="Filter issues by who fixes them" style="margin:0"><button class="chip" data-o="" aria-pressed="true">All ' + A.issues.length + '</button>' + ['Design', 'Dev', 'Both'].filter((o) => owners.includes(o)).map((o) => '<button class="chip" data-o="' + o + '" aria-pressed="false">' + OWNER[o] + ' ' + A.issues.filter((i) => i.owner === o).length + '</button>').join('') + '</div>' : '') + '</div><div id="issues"></div>';
@@ -811,7 +789,7 @@ function rowHtml(c) {
   const counts = [f && f + ' failing', w && plural(w, 'warning')].filter(Boolean).join(', ');
   const g = (c.gallery || []).find((x) => x.figma) || (c.gallery || []).find((x) => x.code);
   const thumb = '<span class="thumb' + (g ? '' : ' none') + '" aria-hidden="true">' + (g ? '<img loading="lazy" alt="" src="' + esc(g.figma || g.code) + '">' : '') + '</span>';
-  return '<details class="comp" id="c-' + esc(c.key) + '" data-key="' + esc(c.key) + '"><summary>' + thumb + '<span class="nm">' + esc(c.name) + '<small>' + esc(c.code ? c.code.title : 'Only in Figma') + (counts ? ', ' + counts : '') + '</small></span>' +
+  return '<details class="comp" id="c-' + esc(c.key) + '" data-key="' + esc(c.key) + '"><summary>' + thumb + '<span class="nm">' + esc(c.name) + (c.code ? '<small>' + esc(c.code.title) + (counts ? ', ' + counts : '') + '</small>' : '') + '</span>' +
     '<span class="st"><i class="s-' + CLS[c.status] + '"></i>' + LABEL[c.status] + '</span>' +
     '<span class="sc">' + (c.score != null ? c.score + '%' : '') + '</span></summary><div class="body"></div></details>';
 }
@@ -832,7 +810,7 @@ function render() {
   if (!items.length) { $('list').innerHTML = '<p class="empty list">No components match.</p>'; return; }
   const pages = pagesOf(items);
   $('list').innerHTML = pages.length < 2 ? '<div class="list">' + pages[0].items.map(rowHtml).join('') + '</div>'
-    : pages.map((p) => '<div class="pgroup"><h3 class="pg-h">' + esc(p.name) + ' <span>' + plural(p.items.length, 'component') + '</span></h3><div class="list">' + p.items.map(rowHtml).join('') + '</div></div>').join('');
+    : pages.map((p) => '<div class="pgroup"><h3 class="pg-h">' + esc(p.name) + '</h3><div class="list">' + p.items.map(rowHtml).join('') + '</div></div>').join('');
   open.forEach((k) => { const el = document.getElementById('c-' + k); if (el) el.open = true; });
 }
 document.addEventListener('toggle', (e) => {
@@ -897,7 +875,7 @@ function tokens() {
 $('tokAll').onchange = tokens; if (T.rows.length) tokens();
 $('brandList').innerHTML = R.brands.pairs.map((p) => '<li class="' + (p.code ? '' : 'off') + '"><b>' + esc(p.figma) + '</b><span>' + (p.code ? 'Storybook theme <code>' + esc(p.code) + '</code>' : 'No Storybook theme. Checked in Figma only.') + '</span></li>').join('') + R.brands.onlyInCode.map((b) => '<li class="off"><b><code>' + esc(b) + '</code></b><span>Only in Storybook, not checked</span></li>').join('');
 const ts = R.meta.figma.tokenSource;
-$('foot').innerHTML = '<span>Figma: ' + esc((R.meta.figma.file && R.meta.figma.file.name) || '') + (R.meta.figma.url ? ' (<a href="' + esc(R.meta.figma.url) + '">open</a>)' : '') + '</span><span>Storybook: <a href="' + esc(R.meta.storybook.url) + '">open</a></span>' + (ts ? '<span>Token data from ' + fmt(ts.exportedAt) + (ts.stale ? ', out of date' : '') + '</span>' : '') + '<span><a href="issues.csv">Download issues for Jira (CSV)</a></span>';
+$('foot').innerHTML = '<span>Figma: ' + esc((R.meta.figma.file && R.meta.figma.file.name) || '') + (R.meta.figma.url ? ' (<a href="' + esc(R.meta.figma.url) + '">open</a>)' : '') + '</span><span>Storybook: <a href="' + esc(R.meta.storybook.url) + '">open</a></span>' + (ts ? '<span>Token data from ' + fmt(ts.exportedAt) + (ts.stale ? ', out of date' : '') + '</span>' : '') ;
 
 // ---------------------------------------------------------------- section nav
 const links = [...document.querySelectorAll('#tabs a')];
