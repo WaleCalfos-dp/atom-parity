@@ -87,7 +87,7 @@ ${FONTS}
       <div><dt>Parity</dt><dd>Share of checks passed across the Figma components. A warning counts as half; not built counts as zero.</dd></div>
       <div><dt>Severity</dt><dd><span class="sev critical">Critical</span> blocks people from using the component. <span class="sev serious">Serious</span> makes it very hard. <span class="sev moderate">Moderate</span> makes it harder. <span class="sev minor">Minor</span> is an annoyance.</dd></div>
     </dl>
-    <p class="fine">Accessibility results come from axe-core (WCAG 2.2 AA) on each rendered story, keyboard and touch-target probes, and a text contrast check on Figma's own token values for every brand. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</p>
+    <p class="fine">Accessibility is checked against WCAG 2.2 level A and AA, the minimum standard; level AAA and best-practice rules aren't counted. Disabled states are skipped, because WCAG exempts them. Results come from axe-core on each rendered story, keyboard and touch-target probes, and a text contrast check on Figma's own token values for every brand. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</p>
   </section>
   <footer class="foot" id="foot"></footer>
 </main>

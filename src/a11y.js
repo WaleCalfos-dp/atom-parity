@@ -85,10 +85,28 @@ function valueFor(layer, key, brand, variables, defaultBrand) {
   return raw === undefined || raw === null ? null : { value: raw, token: v && !v.unknown ? v.name : null };
 }
 
+// Only WCAG level A and AA count. axe tags each rule with its level; AAA (wcag2aaa…), best-practice and experimental never do.
+const AA_TAG = /^wcag2(1|2)?a{1,2}$/;
+export const isAtMostAA = (tags = []) => tags.some((t) => AA_TAG.test(t)) && !tags.includes('experimental');
+
+/** A disabled (inactive) state, from the Figma variant ("State=Disabled", "Disabled=True") or the Storybook args
+ *  (disabled: true, state: 'disabled'). WCAG exempts these from contrast, and nobody can use them, so they aren't checked. */
+const OFF = /\b(disabled?|inactive)\b/i;
+export function isDisabledState(variant = {}, args = {}) {
+  const props = variant.props ?? {};
+  if (OFF.test(variant.name ?? '')) {
+    // "Disabled=False" names the property, not the state
+    const named = Object.entries(props).filter(([k]) => OFF.test(k));
+    if (!named.length || named.some(([, v]) => /^(true|yes|on)$/i.test(String(v)))) return true;
+    if (Object.entries(props).some(([k, v]) => !OFF.test(k) && OFF.test(String(v)))) return true;
+  } else if (Object.values(props).some((v) => OFF.test(String(v)))) return true;
+  return Object.entries(args).some(([k, v]) => (OFF.test(k) && (v === true || /^(true|yes)$/i.test(String(v)))) || (typeof v === 'string' && OFF.test(v)));
+}
+
 /** Checks the Figma design itself: text contrast per brand, read from token values. Skips disabled states (WCAG exempts them). */
 export function designA11yChecks(checks, { variant, brands, variables = {}, defaultBrand }) {
+  if (isDisabledState(variant)) return;
   const label = `${variant.name} ${Object.values(variant.props ?? {}).join(' ')}`;
-  if (/disabled|inactive/i.test(label)) return;
   const layers = variant.layers ?? [];
   const texts = layers.filter((l) => l.type === 'TEXT' && String(l.raw?.characters ?? 'x').trim()).slice(0, 4);
   if (!texts.length) return;

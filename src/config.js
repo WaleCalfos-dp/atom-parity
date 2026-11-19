@@ -54,9 +54,11 @@ export const DEFAULTS = {
   visual: { enabled: true, maxVariantsPerComponent: 24, thresholds: { pass: 0.05, warn: 0.15 }, sizeTolerancePx: 1 },
   a11y: {
     enabled: true,
+    // WCAG 2.2 level A and AA: the minimum standard. Level AAA and axe's best-practice rules are never counted.
     tags: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'],
+    // Disabled states are skipped: WCAG exempts inactive components from contrast, and they can't be used
     skipDisabled: true,
-    designRules: ['color-contrast', 'color-contrast-enhanced', 'link-in-text-block', 'target-size'],
+    designRules: ['color-contrast', 'link-in-text-block', 'target-size'],
   },
   interaction: { enabled: true, minTargetSize: 24 },
 };

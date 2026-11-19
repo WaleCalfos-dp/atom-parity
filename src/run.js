@@ -5,7 +5,7 @@ import { readStorybook, runRenders, readTokenValues, launchBrowser, saveFigmaRen
 import { matchComponents, matchBrands, matchProps, argsForVariant, pickStory } from './match.js';
 import { Checks, scoreOf, statusOf, tokenChecks, visualChecks, a11yChecks, interactionChecks, propertyChecks, componentNamingChecks, tokenTable, delta, CATEGORIES } from './compare.js';
 import { compareImages } from './visual.js';
-import { designA11yChecks, a11ySummary } from './a11y.js';
+import { designA11yChecks, a11ySummary, isDisabledState } from './a11y.js';
 import { markIgnored } from './ignores.js';
 import { manifestFromFigmaUrl } from './figma-rest.js';
 import { readJson, writeJson, ensureDir, slug, log, norm, figmaVarToCss, pool } from './util.js';
@@ -91,7 +91,7 @@ export async function run(cfg, opts = {}) {
       for (const v of variants) {
         const { args, interaction, unmapped } = argsForVariant(v, propMatch);
         if (unmapped.length) { plan.unmapped.push({ variant: v.name, unmapped }); continue; }
-        const disabled = Object.entries(args).some(([k, val]) => /disabled/i.test(k) && val === true);
+        const disabled = isDisabledState(v, args);
         const vplan = { variant: v, args, interaction, disabled, jobs: [] };
         for (const bp of activeBrands) {
           const key = `${pair.figma.id}|${v.id}|${bp.figma}`;

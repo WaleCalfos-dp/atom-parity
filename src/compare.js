@@ -219,7 +219,9 @@ export function visualChecks(checks, { variant, figmaBrand, vis, cfg, images, si
 export function a11yChecks(checks, { result, brand, variant, cfg }) {
   if (!result || result.error) return;
   const designRules = new Set(cfg.a11y.designRules);
-  for (const v of result.violations) {
+  // Minimum AA: anything tagged only AAA, best-practice or experimental is not counted
+  const aa = /^wcag2(1|2)?a{1,2}$/;
+  for (const v of result.violations.filter((x) => !x.tags || (x.tags.some((t) => aa.test(t)) && !x.tags.includes('experimental')))) {
     const serious = v.impact === 'serious' || v.impact === 'critical';
     const extra = v.id === 'color-contrast' ? parseAxeContrast(v.summary) : null;
     checks.add({ category: 'Accessibility', subject: `axe:${v.id}`, label: v.help, status: serious ? 'fail' : 'warn', owner: designRules.has(v.id) ? 'Design' : 'Dev',
