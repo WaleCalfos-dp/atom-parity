@@ -165,7 +165,7 @@ export function designA11yChecks(checks, { component = '', variant, brands, vari
   const label = `${variant.name} ${Object.values(variant.props ?? {}).join(' ')}`;
   const layers = variant.layers ?? [];
   const texts = layers.filter((l) => l.type === 'TEXT' && String(l.raw?.characters ?? 'x').trim()).slice(0, 4);
-  designNonText(checks, { component, variant, label, layers, texts, brands, variables, defaultBrand });
+  designNonText(checks, { component, variant, layers, texts, brands, variables, defaultBrand });
   if (!texts.length) return;
   const onDark = /inverse|dark|reverse|on.?colou?r|on.?brand|overlay|on.?image/i.test(label);
   for (const brand of brands) {
@@ -205,12 +205,15 @@ export function designA11yChecks(checks, { component = '', variant, brands, vari
 
 // Non-text contrast in Figma (1.4.11): a field needs a border or fill that reaches 3:1 against what's around it
 // (measured on white, the usual surface); a variant with no text is identified by its icon, which needs 3:1 too.
-const FIELDISH = /input|field|text ?area|select|dropdown|search|check ?box|radio|switch|toggle|stepper|slider|otp|pin ?code/i;
+const FIELDISH = /\b(input|field|text ?area|select|dropdown|search ?bar|search ?input|check ?box|radio|switch|toggle|stepper|slider|otp|pin ?code)\b/i;
 const SHAPES = new Set(['VECTOR', 'BOOLEAN_OPERATION', 'ELLIPSE', 'STAR', 'LINE', 'REGULAR_POLYGON', 'RECTANGLE']);
-function designNonText(checks, { component, variant, label, layers, texts, brands, variables, defaultBrand }) {
-  const isField = FIELDISH.test(component) || FIELDISH.test(label);
+function designNonText(checks, { component, variant, layers, texts, brands, variables, defaultBrand }) {
+  // Which layers are fields: ones named like a field, or the component itself when it is one
+  const named = layers.filter((l) => l.type !== 'TEXT' && FIELDISH.test(l.name) && !/label|helper|hint|error|icon/i.test(l.name));
+  const minDepth = Math.min(...layers.map((l) => l.depth ?? 0));
+  const fields = named.length ? named : FIELDISH.test(component) ? layers.filter((l) => (l.depth ?? 0) === minDepth) : [];
   const iconOnly = !texts.length;
-  if (!isField && !iconOnly) return;
+  if (!fields.length && !iconOnly) return;
   const colourOf = (l, key, brand) => { const v = valueFor(l, key, brand, variables, defaultBrand); const c = v && parseColor(v.value); return c && c.a > 0 ? { c, token: v.token } : null; };
   const behindOf = (l, brand) => {
     const anc = layers.filter((a) => a !== l && l.path.startsWith(`${a.path} / `)).sort((a, b) => b.depth - a.depth);
@@ -218,40 +221,43 @@ function designNonText(checks, { component, variant, label, layers, texts, brand
     return { c: WHITE, token: null, assumed: true };
   };
   for (const brand of brands) {
-    let best = null;
-    if (isField) {
-      // The edge: a stroke or fill on the component or the frames just inside it
-      const minDepth = Math.min(...layers.map((l) => l.depth ?? 0));
-      for (const l of layers.filter((x) => (x.depth ?? 0) <= minDepth + 2 && x.type !== 'TEXT')) {
+    let worst = null, unknown = false;
+    // Each field needs one edge (a border or fill on it, or on a frame just inside it) that reaches 3:1
+    for (const f of fields) {
+      let best = null;
+      const parts = layers.filter((x) => x.type !== 'TEXT' && (x === f || (x.path.startsWith(`${f.path} / `) && (x.depth ?? 0) <= (f.depth ?? 0) + 2)));
+      for (const l of parts) {
         const out = behindOf(l, brand);
         for (const key of ['strokes', 'fills']) {
           if (key === 'strokes' && !(l.raw?.strokeWeight > 0)) continue;
-          const f = colourOf(l, key, brand);
-          if (!f) continue;
-          const fg = over(f.c, out.c);
+          const col = colourOf(l, key, brand);
+          if (!col) { if (key === 'strokes' || l.bindings?.fills) unknown = true; continue; }
+          const fg = over(col.c, out.c);
           const r = Math.round(contrast(fg, out.c) * 100) / 100;
-          if (!best || r > best.ratio) best = { ratio: r, required: 3, fg: colorToHex(fg), bg: colorToHex(out.c), fgToken: f.token, bgToken: out.token, part: key === 'strokes' ? 'border' : 'fill', layer: l.name, assumed: !!out.assumed };
+          if (!best || r > best.ratio) best = { ratio: r, required: 3, fg: colorToHex(fg), bg: colorToHex(out.c), fgToken: col.token, bgToken: out.token, part: key === 'strokes' ? 'border' : 'fill', layer: f.name, assumed: !!out.assumed };
         }
       }
-    } else {
-      // Icon-only: the weakest icon shape against what's behind it
+      if (best && (!worst || best.ratio < worst.ratio)) worst = best;
+    }
+    if (!fields.length) {
+      // Icon-only: one clearly visible shape is enough to identify it
       for (const l of layers.filter((x) => SHAPES.has(x.type))) {
-        const f = colourOf(l, 'fills', brand) || (l.raw?.strokeWeight > 0 ? colourOf(l, 'strokes', brand) : null);
-        if (!f) continue;
+        const col = colourOf(l, 'fills', brand) || (l.raw?.strokeWeight > 0 ? colourOf(l, 'strokes', brand) : null);
+        if (!col) { if (l.bindings?.fills || l.bindings?.strokes) unknown = true; continue; }
         const out = behindOf(l, brand);
         if (l.type === 'RECTANGLE' && !out.assumed) continue; // a background plate, not the icon
-        const fg = over({ ...f.c, a: (f.c.a ?? 1) * (l.raw?.opacity ?? 1) }, out.c);
+        const fg = over({ ...col.c, a: (col.c.a ?? 1) * (l.raw?.opacity ?? 1) }, out.c);
         const r = Math.round(contrast(fg, out.c) * 100) / 100;
-        const hit = { ratio: r, required: 3, fg: colorToHex(fg), bg: colorToHex(out.c), fgToken: f.token, bgToken: out.token, part: 'icon', layer: l.name, assumed: !!out.assumed };
-        if (!best || r > best.ratio) best = hit; // one clearly visible shape is enough to identify it
+        if (!worst || r > worst.ratio) worst = { ratio: r, required: 3, fg: colorToHex(fg), bg: colorToHex(out.c), fgToken: col.token, bgToken: out.token, part: 'icon', layer: l.name, assumed: !!out.assumed };
       }
     }
-    if (!best) continue;
-    const ok = best.ratio >= 3;
-    checks.add({ category: 'Accessibility', subject: 'design:non-text', label: 'Non-text contrast in Figma', status: ok ? 'pass' : best.assumed ? 'warn' : 'fail', owner: 'Design',
-      title: ok ? 'Field edges and icons reach 3:1 in Figma' : best.part === 'icon' ? 'Icon is hard to see in Figma' : 'Field edge is hard to see in Figma',
-      detail: `${best.part} ${best.ratio}:1, needs 3:1 · ${best.fg} on ${best.bg}${best.assumed ? ' (measured on white)' : ''}`,
-      brand, variant: variant.name, meta: { rule: 'design-non-text', source: 'design', impact: 'serious' }, extra: best });
+    if (!worst) continue;
+    const ok = worst.ratio >= 3;
+    if (!ok && unknown) continue; // a border or icon colour we can't read for this brand: don't guess
+    checks.add({ category: 'Accessibility', subject: 'design:non-text', label: 'Non-text contrast in Figma', status: ok ? 'pass' : worst.assumed ? 'warn' : 'fail', owner: 'Design',
+      title: ok ? 'Field edges and icons reach 3:1 in Figma' : worst.part === 'icon' ? 'Icon is hard to see in Figma' : 'Field edge is hard to see in Figma',
+      detail: `${worst.layer}: ${worst.part} ${worst.ratio}:1, needs 3:1 · ${worst.fg} on ${worst.bg}${worst.assumed ? ' (measured on white)' : ''}`,
+      brand, variant: variant.name, meta: { rule: 'design-non-text', source: 'design', impact: 'serious' }, extra: worst });
   }
 }
 

@@ -25,6 +25,7 @@ assert.equal(q.labels[0].visible, 'Send');
 const full = await fullAA(page);
 const items = full.kbd.items;
 assert.equal(full.kbd.trapped, false);
+assert.ok(!items.some((i) => !i.pointerOnly && !i.reached && i.target !== 'button'), 'controls taken out of the tab order on purpose (tabindex=-1) are not flagged');
 assert.ok(items.find((i) => i.text === 'Open details' && i.pointerOnly && !i.reached), 'clickable div is not reachable');
 assert.equal(items.find((i) => i.text === 'Plain').visible, false, 'button with outline:none shows no focus');
 assert.equal(items.find((i) => i.text === 'Send').visible, true, 'default focus ring counts');

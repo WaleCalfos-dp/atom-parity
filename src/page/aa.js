@@ -37,7 +37,7 @@ export function aaPage({ cmd, arg }) {
   // ------------------------------------------------------------ which elements are controls
   const CONTROL = 'a[href],button,input:not([type=hidden]),select,textarea,summary,[tabindex]:not([tabindex="-1"]),[contenteditable="true"],[role=button],[role=link],[role=checkbox],[role=radio],[role=switch],[role=tab],[role=menuitem],[role=option],[role=slider],[role=spinbutton],[role=textbox],[role=combobox],[role=searchbox]';
   const FIELD = 'input:not([type=hidden]):not([type=button]):not([type=submit]):not([type=reset]):not([type=image]),select,textarea,[role=textbox],[role=combobox],[role=searchbox],[role=spinbutton],[role=checkbox],[role=radio],[role=switch],[role=slider]';
-  const off = (el) => el.matches('[disabled],[aria-disabled="true"]') || !!el.closest('fieldset[disabled]');
+  const off = (el) => el.matches('[disabled],[aria-disabled="true"],[tabindex="-1"]') || !!el.closest('fieldset[disabled]');
   const shown = (el) => {
     const r = el.getBoundingClientRect(); const cs = getComputedStyle(el);
     return r.width > 0 && r.height > 0 && cs.visibility !== 'hidden' && cs.display !== 'none' && parseFloat(cs.opacity) > 0;
@@ -72,8 +72,10 @@ export function aaPage({ cmd, arg }) {
       // A field needs a visible edge: its border or its fill, against what's around it (1.4.11)
       if (isField(el)) {
         // The visible edge may be on the field, a box drawn inside it, or the wrapper around it
-        const wrap = el.parentElement && el.parentElement !== root && el.parentElement.children.length <= 2 ? el.parentElement : null;
-        const box = [...new Set([el, ...[...el.querySelectorAll('*')].slice(0, 8), wrap])].filter((n) => n && n.nodeType === 1 && root.contains(n) && shown(n));
+        // Wrappers count when they hug the field (a stepper's box, an input's frame), not a whole card or list
+        const fr = el.getBoundingClientRect(); const wraps = [];
+        for (let n = el.parentElement, i = 0; n && n !== root && i < 3; n = n.parentElement, i++) { const r = n.getBoundingClientRect(); if (r.height <= fr.height * 1.8 + 8) wraps.push(n); else break; }
+        const box = [...new Set([el, ...[...el.querySelectorAll('*')].slice(0, 8), ...wraps])].filter((n) => n && n.nodeType === 1 && root.contains(n) && shown(n));
         let best = null;
         for (const n of box) {
           const cs = getComputedStyle(n);
