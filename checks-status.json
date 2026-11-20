@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-19T14:18:26.097Z",
+  "generatedAt": "2026-11-20T10:25:04.447Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T13:50:49.846Z",
+      "ranAt": "2026-11-20T10:03:10.507Z",
       "ok": true,
       "history": [
         {
@@ -63,6 +63,10 @@
         },
         {
           "at": "2026-11-19T13:50:49.846Z",
+          "score": 19
+        },
+        {
+          "at": "2026-11-20T10:03:10.507Z",
           "score": 19
         }
       ],
@@ -189,7 +193,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T13:53:17.286Z",
+      "ranAt": "2026-11-20T10:05:36.669Z",
       "ok": true,
       "history": [
         {
@@ -230,6 +234,10 @@
         },
         {
           "at": "2026-11-19T13:53:17.286Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-20T10:05:36.669Z",
           "score": 22
         }
       ],
@@ -348,7 +356,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T13:57:22.807Z",
+      "ranAt": "2026-11-20T10:09:33.378Z",
       "ok": true,
       "history": [
         {
@@ -389,6 +397,10 @@
         },
         {
           "at": "2026-11-19T13:57:22.807Z",
+          "score": 23
+        },
+        {
+          "at": "2026-11-20T10:09:33.378Z",
           "score": 23
         }
       ],
@@ -517,7 +529,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:00:38.170Z",
+      "ranAt": "2026-11-20T10:12:46.194Z",
       "ok": true,
       "history": [
         {
@@ -558,6 +570,10 @@
         },
         {
           "at": "2026-11-19T14:00:38.170Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-20T10:12:46.194Z",
           "score": 36
         }
       ],
@@ -674,7 +690,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:02:10.718Z",
+      "ranAt": "2026-11-20T10:14:15.796Z",
       "ok": true,
       "history": [
         {
@@ -715,6 +731,10 @@
         },
         {
           "at": "2026-11-19T14:02:10.718Z",
+          "score": 32
+        },
+        {
+          "at": "2026-11-20T10:14:15.796Z",
           "score": 32
         }
       ],
@@ -782,7 +802,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:05:17.962Z",
+      "ranAt": "2026-11-20T10:16:34.030Z",
       "ok": true,
       "history": [
         {
@@ -823,6 +843,10 @@
         },
         {
           "at": "2026-11-19T14:05:17.962Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-20T10:16:34.030Z",
           "score": 36
         }
       ],
@@ -921,7 +945,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:07:05.545Z",
+      "ranAt": "2026-11-20T10:17:55.519Z",
       "ok": true,
       "history": [
         {
@@ -958,6 +982,10 @@
         },
         {
           "at": "2026-11-19T14:07:05.545Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-20T10:17:55.519Z",
           "score": 15
         }
       ],
@@ -1025,7 +1053,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:09:02.224Z",
+      "ranAt": "2026-11-20T10:19:25.976Z",
       "ok": true,
       "history": [
         {
@@ -1066,6 +1094,10 @@
         },
         {
           "at": "2026-11-19T14:09:02.224Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-20T10:19:25.976Z",
           "score": 15
         }
       ],
@@ -1164,7 +1196,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:12:58.088Z",
+      "ranAt": "2026-11-20T10:22:29.680Z",
       "ok": true,
       "history": [
         {
@@ -1193,6 +1225,10 @@
         },
         {
           "at": "2026-11-19T14:12:58.088Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-20T10:22:29.680Z",
           "score": 0
         }
       ],
@@ -1383,7 +1419,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-19T14:18:25.505Z",
+      "ranAt": "2026-11-20T10:25:03.857Z",
       "ok": true,
       "history": [
         {
@@ -1417,6 +1453,10 @@
         {
           "at": "2026-11-19T14:18:25.505Z",
           "score": 6
+        },
+        {
+          "at": "2026-11-20T10:25:03.857Z",
+          "score": 7
         }
       ],
       "preview": {
@@ -1462,7 +1502,7 @@
         {
           "name": "Flight Delay / Flight Card",
           "status": "Broken",
-          "score": 62
+          "score": 63
         },
         {
           "name": "Membership / Entitlement Card",
@@ -1505,7 +1545,7 @@
           "score": 0
         }
       ],
-      "score": 6,
+      "score": 7,
       "headline": "0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.",
       "counts": {
         "total": 15,
@@ -1518,7 +1558,7 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 7,
+      "previousScore": 6,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
