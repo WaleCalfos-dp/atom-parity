@@ -209,10 +209,12 @@ const FIELDISH = /\b(input|field|text ?area|select|dropdown|search ?bar|search ?
 const SHAPES = new Set(['VECTOR', 'BOOLEAN_OPERATION', 'ELLIPSE', 'STAR', 'LINE', 'REGULAR_POLYGON', 'RECTANGLE']);
 function designNonText(checks, { component, variant, layers, texts, brands, variables, defaultBrand }) {
   // Which layers are fields: ones named like a field, or the component itself when it is one
-  const named = layers.filter((l) => l.type !== 'TEXT' && FIELDISH.test(l.name) && !/label|helper|hint|error|icon/i.test(l.name));
   const minDepth = Math.min(...layers.map((l) => l.depth ?? 0));
+  // (the top layer is named after the variant, e.g. "Type=No Pre-Select", so it doesn't count as a named field)
+  const named = layers.filter((l) => l.type !== 'TEXT' && (l.depth ?? 0) > minDepth && FIELDISH.test(l.name) && !/label|helper|hint|error|icon/i.test(l.name));
   const fields = named.length ? named : FIELDISH.test(component) ? layers.filter((l) => (l.depth ?? 0) === minDepth) : [];
-  const iconOnly = !texts.length;
+  // Icon-only controls are identified by their icon; decorative shapes (dividers, home indicators) aren't controls
+  const iconOnly = !texts.length && /icon|button|close|chevron|arrow|tab|nav|fab|menu|back/i.test(`${component} ${variant.name}`);
   if (!fields.length && !iconOnly) return;
   const colourOf = (l, key, brand) => { const v = valueFor(l, key, brand, variables, defaultBrand); const c = v && parseColor(v.value); return c && c.a > 0 ? { c, token: v.token } : null; };
   const behindOf = (l, brand) => {
