@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>AA fixture</title>
+<style>
+body{margin:0;font:16px/1.4 sans-serif;background:#fff}
+#storybook-root{padding:16px}
+.field{border:1px solid #DDDDDD;padding:8px;font:inherit}
+.ok-field{border:1px solid #767676;padding:8px;font:inherit}
+.icon-btn{width:40px;height:40px;border:0;background:#fff;color:#E0E0E0}
+.icon-btn svg path{fill:currentColor}
+.good-icon{width:40px;height:40px;border:0;background:#fff;color:#333}
+.good-icon svg path{fill:currentColor}
+.nofocus:focus{outline:none}
+.clickable{cursor:pointer;padding:8px;background:#eee;margin-top:8px}
+.box{height:22px;overflow:hidden;width:200px}
+.wide{width:420px;background:#f0f0f0;margin-top:8px}
+.covered-wrap{position:relative;margin-top:8px}
+.cover{position:absolute;inset:0;background:#fff}
+</style></head><body>
+<div id="storybook-root">
+  <input class="field" aria-label="Email" placeholder="Email">
+  <input class="ok-field" aria-label="Name">
+  <button class="icon-btn" aria-label="Close"><svg width="20" height="20" viewBox="0 0 20 20"><path d="M2 2h16v16H2z"/></svg></button>
+  <button class="good-icon" aria-label="Search"><svg width="20" height="20" viewBox="0 0 20 20"><path d="M2 2h16v16H2z"/></svg></button>
+  <button aria-label="Submit form">Send</button>
+  <button aria-label="Save changes">Save</button>
+  <button class="nofocus" style="border:0;background:none">Plain</button>
+  <div class="clickable">Open details</div>
+  <div class="box">Short label that fits</div>
+  <div class="wide">This block is 420 pixels wide no matter what</div>
+  <div class="covered-wrap"><button>Hidden</button><div class="cover"></div></div>
+</div></body></html>

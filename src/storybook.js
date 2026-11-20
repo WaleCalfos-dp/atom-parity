@@ -4,6 +4,7 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { chromium } from 'playwright';
 import { collect, targetStyles, tokenValues, definedTokens } from './page/collector.js';
+import { aaPage } from './page/aa.js';
 import { leaf, log, slug, ensureDir } from './util.js';
 
 const require = createRequire(import.meta.url);
@@ -322,11 +323,17 @@ async function runGroup(page, sb, group, cfg, assetsDir, results, consoleErrors)
           // Disabled states are skipped by variant (State=Disabled), not by what the code switches off: a Loading
           // button is disabled in code but is its own state in Figma, and screen readers still land on it.
           const ctx = { include: [['#storybook-root'], ['body > *:not(#storybook-root):not(#storybook-docs):not(script):not(style):not(.sb-wrapper):not(.sb-errordisplay):not(.sb-nopreview):not(.sb-preparing-story):not(.sb-preparing-docs)']] };
-          const r = await window.axe.run(ctx, { runOnly: { type: 'tag', values: tags }, resultTypes: ['violations'] });
+          const r = await window.axe.run(ctx, { runOnly: { type: 'tag', values: tags }, resultTypes: ['violations', 'passes'] });
           const aa = /^wcag2(1|2)?a{1,2}$/;
-          return { violations: r.violations.filter((v) => v.tags.some((t) => aa.test(t)) && !v.tags.includes('experimental')).map((v) => ({ id: v.id, impact: v.impact, help: v.help, helpUrl: v.helpUrl, tags: v.tags, nodes: v.nodes.length, target: v.nodes[0]?.target?.join(' ') ?? '', summary: (v.nodes[0]?.failureSummary ?? '').slice(0, 300) })) };
+          // Which criteria a rule actually tested here (passed or failed), so the report doesn't claim the rest
+          const covers = [...new Set([...r.passes, ...r.violations].filter((v) => v.tags.some((t) => aa.test(t))).flatMap((v) => v.tags.map((t) => (t.match(/^wcag(\d)(\d)(\d+)$/) || []).slice(1).join('.')).filter(Boolean)))];
+          return { covers, violations: r.violations.filter((v) => v.tags.some((t) => aa.test(t)) && !v.tags.includes('experimental')).map((v) => ({ id: v.id, impact: v.impact, help: v.help, helpUrl: v.helpUrl, tags: v.tags, nodes: v.nodes.length, target: v.nodes[0]?.target?.join(' ') ?? '', summary: (v.nodes[0]?.failureSummary ?? '').slice(0, 300) })) };
         }, cfg.a11y.tags).catch((e) => ({ error: e.message }));
+        // AA checks axe doesn't make: non-text contrast (1.4.11) and label in name (2.5.3)
+        res.aaQuick = await page.evaluate(aaPage, { cmd: 'quick' }).catch((e) => ({ error: e.message }));
       }
+      // Once per component: keyboard walk and layout stress tests
+      if (job.aaFull) res.aa = await fullAA(page).catch((e) => ({ error: e.message.split('\n')[0] }));
       res.ok = true;
     } catch (e) {
       res.ok = false;
@@ -336,6 +343,42 @@ async function runGroup(page, sb, group, cfg, assetsDir, results, consoleErrors)
     res.consoleErrors = [...new Set([...loadConsole, ...consoleErrors])].slice(0, 5);
     results[job.key] = res;
   }
+}
+
+// ---------------------------------------------------------------- AA: keyboard and layout
+// Tabs through every control (2.1.1 keyboard, 2.1.2 no trap, 2.4.7 focus visible, 2.4.11 focus not obscured), then
+// checks the story at 200% text (1.4.4), with WCAG text spacing (1.4.12) and at 320px wide (1.4.10).
+export async function fullAA(page) {
+  const out = { kbd: null, layout: {} };
+  const start = await page.evaluate(aaPage, { cmd: 'kbdStart' });
+  if (start.controls + start.pointer > 0) {
+    const max = Math.min(80, (start.controls + start.pointer) * 2 + 8);
+    let entered = false, escaped = false, last = null;
+    for (let i = 0; i < max; i++) {
+      await page.keyboard.press('Tab');
+      last = await page.evaluate(aaPage, { cmd: 'kbdStep' });
+      if (last.where === 'after') { escaped = true; break; }
+      if (last.where === 'inside') entered = true;
+    }
+    const items = await page.evaluate(aaPage, { cmd: 'kbdEnd' });
+    out.kbd = { ...start, items, entered, trapped: entered && !escaped && last?.where === 'inside' };
+  } else await page.evaluate(aaPage, { cmd: 'kbdEnd' });
+
+  await page.evaluate(aaPage, { cmd: 'clipBase' });
+  for (const kind of ['text', 'spacing']) {
+    out.layout[kind] = await page.evaluate(aaPage, { cmd: 'stress', arg: kind });
+    await page.evaluate(aaPage, { cmd: 'unstress', arg: kind });
+  }
+  const vp = page.viewportSize();
+  if (vp && vp.width > 320) {
+    await page.setViewportSize({ width: 320, height: vp.height });
+    await page.waitForTimeout(150);
+    out.layout.reflow = await page.evaluate(aaPage, { cmd: 'stress', arg: 'reflow' });
+    await page.evaluate(aaPage, { cmd: 'unstress', arg: 'reflow' });
+    await page.setViewportSize(vp);
+    await page.waitForTimeout(100);
+  }
+  return out;
 }
 
 // ---------------------------------------------------------------- token values per brand

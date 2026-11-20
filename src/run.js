@@ -5,7 +5,7 @@ import { readStorybook, runRenders, readTokenValues, launchBrowser, saveFigmaRen
 import { matchComponents, matchBrands, matchProps, argsForVariant, pickStory } from './match.js';
 import { Checks, scoreOf, statusOf, tokenChecks, visualChecks, a11yChecks, interactionChecks, propertyChecks, componentNamingChecks, tokenTable, delta, CATEGORIES } from './compare.js';
 import { compareImages } from './visual.js';
-import { designA11yChecks, a11ySummary, isDisabledState } from './a11y.js';
+import { designA11yChecks, a11ySummary, isDisabledState, aaQuickChecks, aaFullChecks } from './a11y.js';
 import { markIgnored } from './ignores.js';
 import { manifestFromFigmaUrl } from './figma-rest.js';
 import { readJson, writeJson, ensureDir, slug, log, norm, figmaVarToCss, pool } from './util.js';
@@ -87,7 +87,7 @@ export async function run(cfg, opts = {}) {
       // Figma parts switched on by default that the story can't switch on (e.g. icons): pixels will differ
       plan.visualCaveats = propMatch.props.filter((p) => p.figmaType === 'BOOLEAN' && p.default === true && (!p.codeArg || p.codeType !== 'boolean')).map((p) => p.figma);
       plan.designHasFocus = designHasState('focus');
-      let probeAssigned = false;
+      let probeAssigned = false, aaAssigned = false;
       for (const v of variants) {
         const { args, interaction, unmapped } = argsForVariant(v, propMatch);
         if (unmapped.length) { plan.unmapped.push({ variant: v.name, unmapped }); continue; }
@@ -97,12 +97,14 @@ export async function run(cfg, opts = {}) {
           const key = `${pair.figma.id}|${v.id}|${bp.figma}`;
           const probe = !probeAssigned && !interaction && !disabled && bp === defaultBrand && cfg.interaction.enabled;
           if (probe) probeAssigned = true;
+          const aaFull = !aaAssigned && !interaction && !disabled && bp === defaultBrand && cfg.a11y.enabled && !opts.skipA11y;
+          if (aaFull) aaAssigned = true;
           const job = {
             key, storyId: story.id, brandCode: bp.code, brandFigma: bp.figma, args, interaction,
             figmaSize: { width: v.width, height: v.height, sizingH: v.sizing?.h },
             rootSelector: cfg.components.rootSelectors?.[pair.figma.name],
             a11y: cfg.a11y.enabled && !opts.skipA11y && !(cfg.a11y.skipDisabled && disabled) && !interaction,
-            interactionProbe: probe, screenshot: true,
+            interactionProbe: probe, aaFull, screenshot: true,
           };
           jobs.push(job); vplan.jobs.push(job);
         }
@@ -119,7 +121,7 @@ export async function run(cfg, opts = {}) {
       const p = { code: m.code, suggestions: m.suggestions, jobs: [] };
       stories.forEach((s, i) => {
         const job = { key: `code|${m.code.title}|${s.id}`, storyId: s.id, brandCode: defaultBrand?.code ?? null, brandFigma: defaultBrand?.figma, args: null,
-          a11y: cfg.a11y.enabled && !opts.skipA11y, interactionProbe: i === 0 && cfg.interaction.enabled, screenshot: true };
+          a11y: cfg.a11y.enabled && !opts.skipA11y, interactionProbe: i === 0 && cfg.interaction.enabled, aaFull: i === 0 && cfg.a11y.enabled && !opts.skipA11y, screenshot: true };
         jobs.push(job); p.jobs.push(job);
       });
       orphanPlans.push(p);
@@ -196,6 +198,8 @@ export async function run(cfg, opts = {}) {
           tokenChecks(checks, { variant: vp.variant, figmaBrand: job.brandFigma, codeBrand: job.brandCode, dom: r.dom, variables: manifest.variables ?? {}, cfg, definedTokens, hasVisual, defaultBrand: defaultBrand?.figma });
           if (hasVisual) visualChecks(checks, { variant: vp.variant, figmaBrand: job.brandFigma, vis, cfg, images: vis.images, sizing: vp.variant.sizing, hasText: vp.variant.layers?.some((l) => l.type === 'TEXT'), caveats: plan.visualCaveats });
           if (r.a11y) a11yChecks(checks, { result: r.a11y, brand: job.brandFigma, variant: vp.variant.name, cfg });
+          if (r.aaQuick) aaQuickChecks(checks, { result: r.aaQuick, ...ctx });
+          if (r.aa) aaFullChecks(checks, { result: r.aa, ...ctx });
           if (r.probe) probe = r.probe;
           gallery.push({
             variant: vp.variant.name, brand: job.brandFigma, interaction: vp.interaction,
@@ -210,7 +214,7 @@ export async function run(cfg, opts = {}) {
         checks.add({ category: 'Accessibility', subject: 'design:focus-state', label: 'Focus state in Figma', status: 'warn', owner: 'Design', title: 'No Focus state in Figma',
           detail: 'The component can take keyboard focus, but the Figma component set has no Focus variant', meta: { rule: 'design-focus', source: 'design', impact: 'moderate' } });
       }
-      for (const v of pair.figma.variants) designA11yChecks(checks, { variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
+      for (const v of pair.figma.variants) designA11yChecks(checks, { component: pair.figma.name, variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
       const list = markIgnored(checks.list(), pair.figma.id, cfg.ignores);
       components.push({
         key: pair.figma.id, name: pair.figma.name, status: statusOf(list), score: scoreOf(list), match: pair.how,
@@ -222,7 +226,7 @@ export async function run(cfg, opts = {}) {
     }
     for (const m of comp.missingInCode) {
       const checks = new Checks();
-      for (const v of m.figma.variants) designA11yChecks(checks, { variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
+      for (const v of m.figma.variants) designA11yChecks(checks, { component: m.figma.name, variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
       checks.add({ category: 'Naming', subject: 'name', label: 'Component', status: 'fail', owner: 'Both', title: 'Not found in Storybook',
         detail: m.suggestions.length ? `Possible matches: ${m.suggestions.map((s) => s.title).join(', ')}. Rename it, or add it to components.aliases.` : 'No similar component in Storybook' });
       const mlist = markIgnored(checks.list(), m.figma.id, cfg.ignores);
@@ -242,6 +246,8 @@ export async function run(cfg, opts = {}) {
         if (!r.ok) { checks.add({ category: 'Rendering', subject: 'render', label: 'Story renders', status: r.renderError ? 'fail' : 'warn', owner: 'Dev', title: r.renderError ? 'Story fails to render' : "Couldn't measure", detail: r.error, variant: job.storyId }); continue; }
         checks.add({ category: 'Rendering', subject: 'render', label: 'Story renders', status: 'pass', owner: 'Dev', title: 'Renders without errors', variant: job.storyId });
         if (r.a11y) a11yChecks(checks, { result: r.a11y, brand: job.brandFigma, variant: job.storyId, cfg });
+        if (r.aaQuick) aaQuickChecks(checks, { result: r.aaQuick, brand: job.brandFigma, variant: job.storyId });
+        if (r.aa) aaFullChecks(checks, { result: r.aa, brand: job.brandFigma, variant: job.storyId });
         if (r.probe && !probe) probe = r.probe;
         gallery.push({ variant: job.storyId, brand: job.brandFigma, code: r.screenshot, storyUrl: `${sb.base}?path=/story/${job.storyId}` });
       }

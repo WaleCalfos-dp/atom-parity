@@ -86,7 +86,7 @@ ${FONTS}
       <div><dt>Parity</dt><dd>Share of checks passed across the Figma components. A warning counts as half; not built counts as zero.</dd></div>
       <div><dt>Severity</dt><dd><span class="sev critical">Critical</span> blocks people from using the component. <span class="sev serious">Serious</span> makes it very hard. <span class="sev moderate">Moderate</span> makes it harder. <span class="sev minor">Minor</span> is an annoyance.</dd></div>
     </dl>
-    <p class="fine">Accessibility is checked against WCAG 2.2 level A and AA, the minimum standard; level AAA and best-practice rules aren't counted. Disabled states are skipped, because WCAG exempts them. Results come from axe-core on each rendered story, keyboard and touch-target probes, and a text contrast check on Figma's own token values for every brand. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</p>
+    <p class="fine">Accessibility is checked against WCAG 2.2 level A and AA, the minimum standard; level AAA and best-practice rules aren't counted. Criteria that automated checks can't judge are listed for a manual review. Disabled states are skipped, because WCAG exempts them. Results come from axe-core on each rendered story, keyboard and touch-target probes, and a text contrast check on Figma's own token values for every brand. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</p>
   </section>
   <footer class="foot" id="foot"></footer>
 </main>
@@ -201,6 +201,10 @@ h3{font:700 18px/1.3 var(--display);letter-spacing:-.01em;margin:0}
 .crit a{color:var(--ink);text-decoration:none}.crit a:hover{text-decoration:underline}
 .crit .lv{font-size:12px;color:var(--ink-3)}
 .crit .r{font-size:13px;font-weight:600}
+.manual{margin-top:14px;border-top:1px solid var(--line-2);padding-top:12px}
+.manual summary{cursor:pointer;font-weight:600;font-size:14px}
+.manual p{font-size:13px;color:var(--ink-2);margin:8px 0}
+.crit .todo .r{color:var(--ink-3);font-weight:500}
 .crit .fail .r{color:var(--bad)}.crit .warn .r{color:var(--warn)}.crit .pass .r{color:var(--ok)}
 .ico{width:18px;height:18px;display:block}
 .a11y-filters{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:28px 0 14px;flex-wrap:wrap}
@@ -726,9 +730,14 @@ function a11y() {
     : 'No issues found by the automated checks.';
   const brandsTxt = A.brands.length ? list(A.brands) : '';
   const scope = (A.scans ? 'Scanned ' + plural(A.scans, 'rendered variant') + (brandsTxt ? ' in ' + brandsTxt : '') + ' against WCAG 2.2 A and AA. ' : '') +
-    (A.designChecks ? 'Checked text contrast in Figma for ' + plural(A.designChecks, 'variant and brand pair') + ', using each brand\\'s token values.' : '');
+    (A.designChecks ? 'Checked contrast in Figma for ' + plural(A.designChecks, 'variant and brand pair') + ', using each brand\\'s token values. ' : '') + (A.scans ? 'Each component was also tabbed through with the keyboard and checked at 200% text, with wider text spacing and at 320px wide.' : '');
   const crit = '<ul class="crit">' + A.criteria.map((c) => '<li class="' + c.status + '">' + ICON[c.status] + '<span class="n">' + esc(c.sc) + '</span><span><a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.name) + '</a> <span class="lv">' + esc(c.level) + '</span></span><span class="r">' + RES[c.status] + '</span></li>').join('') + '</ul>';
-  let h = '<p class="scope">' + esc(scope) + '</p><div class="panel"><h3>WCAG criteria checked</h3>' + crit + '</div>';
+  // Every A and AA criterion: what was tested automatically, and what still needs a person
+  const man = A.manual || [];
+  const cov = A.coverage ? A.coverage.tested + ' of ' + A.coverage.total + ' A and AA criteria tested automatically' : 'Criteria tested automatically';
+  const manual = man.length ? '<details class="manual"><summary>' + man.length + ' need a manual review</summary><p>These need a person, or apply to whole pages rather than components. Check them with a screen reader and keyboard before release.</p><ul class="crit">' +
+    man.map((c) => '<li class="todo"><span></span><span class="n">' + esc(c.sc) + '</span><span><a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.name) + '</a> <span class="lv">' + esc(c.level) + '</span></span><span class="r">Manual</span></li>').join('') + '</ul></details>' : '';
+  let h = '<p class="scope">' + esc(scope) + '</p><div class="panel"><h3>' + esc(cov) + '</h3>' + crit + manual + '</div>';
   if (!A.issues.length) { $('a11y').innerHTML = h + '<div class="a11y-empty" style="margin-top:20px">' + ICON.shield + '<span>No accessibility issues found. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</span></div>'; return; }
   const owners = [...new Set(A.issues.map((i) => i.owner))];
   h += '<div class="a11y-filters"><h3>Issues, most severe first</h3>' + (owners.length > 1 ? '<div class="chips" id="a11yChips" role="group" aria-label="Filter issues by who fixes them" style="margin:0"><button class="chip" data-o="" aria-pressed="true">All ' + A.issues.length + '</button>' + ['Design', 'Dev', 'Both'].filter((o) => owners.includes(o)).map((o) => '<button class="chip" data-o="' + o + '" aria-pressed="false">' + OWNER[o] + ' ' + A.issues.filter((i) => i.owner === o).length + '</button>').join('') + '</div>' : '') + '</div><div id="issues"></div>';

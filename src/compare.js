@@ -228,7 +228,7 @@ export function a11yChecks(checks, { result, brand, variant, cfg }) {
       title: v.help, detail: `${v.impact} · ${v.nodes} element${v.nodes === 1 ? '' : 's'} · ${v.target}${v.summary ? ` · ${v.summary.replace(/\s+/g, ' ')}` : ''}`,
       code: v.helpUrl, brand, variant, meta: { rule: v.id, impact: v.impact, tags: v.tags ?? [], source: 'code' }, extra: extra ? { ...extra, target: v.target, nodes: v.nodes } : { target: v.target, nodes: v.nodes, impact: v.impact } });
   }
-  checks.add({ category: 'Accessibility', subject: 'axe', label: 'Automated WCAG 2.2 AA scan', status: 'pass', owner: 'Dev', title: 'Automated scan ran', detail: `${result.violations.length} rule${result.violations.length === 1 ? '' : 's'} failed`, brand, variant, meta: { rule: 'scan', source: 'code' } });
+  checks.add({ category: 'Accessibility', subject: 'axe', label: 'Automated WCAG 2.2 A and AA scan', status: 'pass', owner: 'Dev', title: 'Automated scan ran', detail: `${result.violations.length} rule${result.violations.length === 1 ? '' : 's'} failed`, brand, variant, meta: { rule: 'scan', source: 'code' }, extra: { covers: result.covers ?? [] } });
 }
 export function parseAxeContrast(summary) {
   const s = String(summary ?? '');
@@ -256,6 +256,7 @@ export function interactionChecks(checks, { probe, designHasHover, designHasFocu
   if (!focus) {
     checks.add({ category: 'Interaction', subject: 'focus', label: 'Keyboard focus', status: 'fail', owner: 'Dev', title: "Can't be reached with the keyboard", detail: 'Tabbing through the story never lands on the component', brand, meta: { rule: 'keyboard', source: 'code', impact: 'critical' } });
   } else {
+    checks.add({ category: 'Interaction', subject: 'keyboard', label: 'Keyboard', status: 'pass', owner: 'Dev', title: 'Can be reached with the keyboard', brand, meta: { rule: 'keyboard', source: 'code' } });
     const ringKeys = ['outline-style', 'outline-width', 'outline-color', 'box-shadow', 'border-top-color', 'border-top-width', 'background-color', '::before outline', '::before border', '::before box-shadow', '::after outline', '::after border', '::after box-shadow'];
     const visible = (focus['outline-style'] !== 'none' && parseFloat(focus['outline-width']) > 0) || changed(rest, focus, ringKeys.filter((k) => !k.startsWith('outline')));
     checks.add({ category: 'Interaction', subject: 'focus', label: 'Focus indicator', status: visible ? 'pass' : 'fail', owner: designHasFocus ? 'Dev' : 'Both',
