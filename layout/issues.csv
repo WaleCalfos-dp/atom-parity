@@ -27,7 +27,7 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/layout/#c-3058%3A1805
 
 Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-properties owner-both","Atom Design System"
-"[Atom parity] Divider: Icon is hard to see in Figma","icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)
+"[Atom parity] Divider: Icon is hard to see in Figma","Line 1: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)
 
 Brands: Dragonpass
 Variants: Style=Solid, Subtle=Yes; Style=Dashed, Subtle=Yes

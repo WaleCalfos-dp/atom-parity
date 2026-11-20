@@ -1,4 +1,4 @@
-## Atom parity: 20% (+1 since last run)
+## Atom parity: 21% (+1 since last run)
 
 0 of 9 Figma components match Storybook. 1 has drifted, 2 are broken and 6 aren't built yet.
 
@@ -6,9 +6,9 @@
 |---|---|---|---|---|
 | 0 | 1 | 2 | 6 | 0 |
 
-### 2 new failures
-- **Stepper**: Field edge is hard to see _(Accessibility)_
-- **Stepper**: A control can't be reached with the keyboard _(Accessibility)_
+### 2 fixed
+- Stepper: Field edge is hard to see
+- Stepper: A control can't be reached with the keyboard
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 6 components (Both)

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T11:54:20.162Z",
-    "durationMs": 212209,
+    "generatedAt": "2026-11-20T12:26:00.869Z",
+    "durationMs": 136444,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:49Z"
+        "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T11:51:08.009Z",
+      "exportedAt": "2026-11-20T12:24:25.751Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1657,7 +1657,7 @@
           "status": "warn",
           "title": "Icon is hard to see in Figma",
           "owner": "Design",
-          "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+          "detail": "Line 1: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
           "meta": {
             "rule": "design-non-text",
             "source": "design",
@@ -1668,7 +1668,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Solid, Subtle=Yes",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Line 1: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -1688,7 +1688,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Dashed, Subtle=Yes",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Line 1: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -1708,7 +1708,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Style=Solid, Subtle=No",
-              "detail": "icon 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
+              "detail": "Line 1: icon 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -1728,7 +1728,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Style=Dashed, Subtle=No",
-              "detail": "icon 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
+              "detail": "Line 1: icon 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -2054,7 +2054,7 @@
         "subject": "design:non-text",
         "status": "warn",
         "title": "Icon is hard to see in Figma",
-        "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+        "detail": "Line 1: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
         "owner": "Design",
         "brands": [
           "Dragonpass"
@@ -2477,7 +2477,7 @@
               "Style=Dashed, Subtle=Yes"
             ],
             "status": "warn",
-            "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+            "detail": "Line 1: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1.6,
               "required": 3,
@@ -2498,8 +2498,8 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T10:14:15.796Z",
-    "previousScore": 32,
+    "since": "2026-11-20T11:54:20.162Z",
+    "previousScore": 31,
     "newFails": [],
     "fixed": []
   },

@@ -163,16 +163,16 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-3156%3A2880
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
-"[Atom parity] App Header: Field edge is hard to see in Figma","fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)
+"[Atom parity] App Header: Field edge is hard to see in Figma","input-top: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF
 
 Brands: Dragonpass
-Variants: Type=Search
+Variants: Type=Transport
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3156-2880
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-navheader--usage
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-3156%3A2880
 
-Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
+Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Bottom Navigation: Figma ""Bottom Navigation"" is ""TabBar"" in Storybook","Rename one side so any developer can map code to the design system immediately.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=781-17271

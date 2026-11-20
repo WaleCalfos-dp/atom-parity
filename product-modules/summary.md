@@ -6,9 +6,6 @@
 |---|---|---|---|---|
 | 0 | 0 | 2 | 13 | 0 |
 
-### 1 new failure
-- **Flight Delay / Flight Card**: Text gets cut off at 200% size _(Accessibility)_
-
 ### Biggest themes
 - 🔴 Not built in Storybook: 13 components (Both)
 - 🔴 Text contrast is too low in Figma: 2 components (Design)

@@ -285,15 +285,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12604-10709
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12604%3A10709
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Quantity Stepper: Field edge is hard to see in Figma","border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)
-
-Brands: Dragonpass, Mastercard, Investec, Assurant
-Variants: Style=Default; Style=No Border
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18198-9455
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-18198%3A9455
-
-Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Quantity Stepper: Not found in Storybook","Possible matches: Data Entry/Stepper. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18198-9455
@@ -381,26 +372,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-visual owner-both","Atom Design System"
-"[Atom parity] Stepper: Field edge is hard to see","1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Style=Input; Style=Card
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-accessibility owner-dev","Atom Design System"
-"[Atom parity] Stepper: A control can't be reached with the keyboard","input.aum-stepper-field never receives focus when tabbing
-
-Brands: Dragonpass
-Variants: Style=Input
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-accessibility owner-dev","Atom Design System"
 "[Atom parity] Stepper: Border colour differs from design","Design #CECCCC (linked variable) · Code #91908F
 
 Brands: Dragonpass
@@ -461,10 +432,10 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-tokens owner-both","Atom Design System"
-"[Atom parity] Stepper: Field edge is hard to see in Figma","fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
+"[Atom parity] Stepper: Field edge is hard to see in Figma","Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)
 
-Brands: Mastercard, Investec, Assurant, Dragonpass
-Variants: Style=Input; Style=Card
+Brands: Dragonpass
+Variants: Style=Card
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage

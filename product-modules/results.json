@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T12:07:12.716Z",
-    "durationMs": 106568,
+    "generatedAt": "2026-11-20T12:39:46.974Z",
+    "durationMs": 192197,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:49Z"
+        "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T12:06:08.743Z",
+      "exportedAt": "2026-11-20T12:38:10.803Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -4125,97 +4125,6 @@
       "code": null,
       "checks": [
         {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Field edge is hard to see in Figma",
-          "owner": "Design",
-          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Breakpoint=Desktop",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "container",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Breakpoint=Tablet",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "container",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Breakpoint=Mobile",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "container",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 3,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass"
-          ],
-          "variants": [
-            "Breakpoint=Desktop",
-            "Breakpoint=Tablet",
-            "Breakpoint=Mobile"
-          ]
-        },
-        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -5376,160 +5285,6 @@
       "code": null,
       "checks": [
         {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Field edge is hard to see in Figma",
-          "owner": "Design",
-          "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=From Airport, Breakpoint=Desktop",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.06,
-                "required": 3,
-                "fg": "#FAF8F7",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Tabs",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=To Airport, Breakpoint=Desktop",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.06,
-                "required": 3,
-                "fg": "#FAF8F7",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Tabs",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=From Airport, Breakpoint=Tablet",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.06,
-                "required": 3,
-                "fg": "#FAF8F7",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Tabs",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=To Airport, Breakpoint=Tablet",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.06,
-                "required": 3,
-                "fg": "#FAF8F7",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Tabs",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=From Airport, Breakpoint=Mobile",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.06,
-                "required": 3,
-                "fg": "#FAF8F7",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Tabs",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=To Airport, Breakpoint=Mobile",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.06,
-                "required": 3,
-                "fg": "#FAF8F7",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Tabs",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 6,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass"
-          ],
-          "variants": [
-            "Type=From Airport, Breakpoint=Desktop",
-            "Type=To Airport, Breakpoint=Desktop",
-            "Type=From Airport, Breakpoint=Tablet",
-            "Type=To Airport, Breakpoint=Tablet",
-            "Type=From Airport, Breakpoint=Mobile",
-            "Type=To Airport, Breakpoint=Mobile"
-          ]
-        },
-        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -5911,7 +5666,7 @@
     },
     "checks": {
       "pass": 24,
-      "warn": 24,
+      "warn": 22,
       "fail": 25
     },
     "byCategory": {
@@ -5937,7 +5692,7 @@
       },
       "Accessibility": {
         "pass": 11,
-        "warn": 2,
+        "warn": 0,
         "fail": 3
       },
       "Interaction": {
@@ -5958,7 +5713,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 7,
+        "warn": 5,
         "fail": 2
       },
       "Dev": {
@@ -6708,21 +6463,6 @@
       {
         "component": "Parking / Search Supercomponent",
         "componentKey": "18195:8619",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 3
-      },
-      {
-        "component": "Parking / Search Supercomponent",
-        "componentKey": "18195:8619",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -6920,21 +6660,6 @@
       {
         "component": "Transport / Search Supercomponent",
         "componentKey": "17603:24646",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 6
-      },
-      {
-        "component": "Transport / Search Supercomponent",
-        "componentKey": "17603:24646",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -6963,7 +6688,7 @@
   "a11y": {
     "ran": true,
     "scans": 3,
-    "designChecks": 64,
+    "designChecks": 55,
     "brands": [
       "Dragonpass",
       "Mastercard",
@@ -6972,13 +6697,13 @@
     "counts": {
       "critical": 0,
       "serious": 2,
-      "moderate": 1,
+      "moderate": 0,
       "minor": 0
     },
-    "total": 3,
-    "components": 5,
+    "total": 2,
+    "components": 3,
     "byBrand": {
-      "Dragonpass": 14,
+      "Dragonpass": 5,
       "Mastercard": 4,
       "Investec": 4
     },
@@ -7027,15 +6752,6 @@
         "auto": true,
         "status": "pass",
         "issues": 0
-      },
-      {
-        "sc": "1.4.11",
-        "name": "Non-text contrast",
-        "level": "AA",
-        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
-        "auto": true,
-        "status": "warn",
-        "issues": 1
       },
       {
         "sc": "1.4.12",
@@ -7137,6 +6853,12 @@
         "name": "Images of text",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text"
+      },
+      {
+        "sc": "1.4.11",
+        "name": "Non-text contrast",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast"
       },
       {
         "sc": "1.4.13",
@@ -7344,7 +7066,7 @@
       }
     ],
     "coverage": {
-      "tested": 9,
+      "tested": 8,
       "total": 55
     },
     "issues": [
@@ -7599,122 +7321,13 @@
           }
         ],
         "occurrences": 1
-      },
-      {
-        "items": [
-          {
-            "component": "18195:8619",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Parking / Search Supercomponent"
-          },
-          {
-            "component": "17603:24646",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Transport / Search Supercomponent"
-          }
-        ],
-        "rule": "design-non-text",
-        "criterion": {
-          "sc": "1.4.11",
-          "name": "Non-text contrast",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
-          "auto": true
-        },
-        "title": "Field edge or icon is hard to see in Figma",
-        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
-        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Parking / Search Supercomponent",
-            "key": "18195:8619"
-          },
-          {
-            "name": "Transport / Search Supercomponent",
-            "key": "17603:24646"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Parking / Search Supercomponent",
-            "componentKey": "18195:8619",
-            "brand": "Dragonpass",
-            "variants": [
-              "Breakpoint=Desktop",
-              "Breakpoint=Tablet",
-              "Breakpoint=Mobile"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Breakpoint=Desktop"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Transport / Search Supercomponent",
-            "componentKey": "17603:24646",
-            "brand": "Dragonpass",
-            "variants": [
-              "Type=From Airport, Breakpoint=Desktop",
-              "Type=To Airport, Breakpoint=Desktop",
-              "Type=From Airport, Breakpoint=Tablet",
-              "Type=To Airport, Breakpoint=Tablet",
-              "Type=From Airport, Breakpoint=Mobile",
-              "Type=To Airport, Breakpoint=Mobile"
-            ],
-            "status": "warn",
-            "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 3,
-              "fg": "#FAF8F7",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=From Airport, Breakpoint=Desktop"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 9
       }
     ]
   },
   "delta": {
-    "since": "2026-11-20T10:25:03.857Z",
+    "since": "2026-11-20T12:07:12.716Z",
     "previousScore": 7,
-    "newFails": [
-      {
-        "status": "fail",
-        "component": "Flight Delay / Flight Card",
-        "title": "Text gets cut off at 200% size",
-        "category": "Accessibility"
-      }
-    ],
+    "newFails": [],
     "fixed": []
   },
   "activity": []

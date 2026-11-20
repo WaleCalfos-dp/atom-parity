@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T11:48:38.208Z",
-    "durationMs": 231665,
+    "generatedAt": "2026-11-20T12:20:07.977Z",
+    "durationMs": 243361,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:49Z"
+        "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T11:47:42.852Z",
+      "exportedAt": "2026-11-20T12:19:05.155Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -5737,7 +5737,7 @@
           "status": "pass",
           "title": "Field edges and icons reach 3:1 in Figma",
           "owner": "Design",
-          "detail": "icon 7.79:1, needs 3:1 · #535252 on #FFFFFF",
+          "detail": "dot: icon 7.79:1, needs 3:1 · #535252 on #FFFFFF",
           "meta": {
             "rule": "design-non-text",
             "source": "design",
@@ -5748,7 +5748,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Transport Multiple, Background Fill=Yes, Border=No",
-              "detail": "icon 7.79:1, needs 3:1 · #535252 on #FFFFFF",
+              "detail": "dot: icon 7.79:1, needs 3:1 · #535252 on #FFFFFF",
               "figma": null,
               "code": null,
               "image": null,
@@ -5768,7 +5768,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Transport Multiple, Background Fill=No, Border=No",
-              "detail": "icon 7.79:1, needs 3:1 · #535252 on #FFFFFF (measured on white)",
+              "detail": "dot: icon 7.79:1, needs 3:1 · #535252 on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -5788,7 +5788,7 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Transport Multiple, Background Fill=Yes, Border=Yes",
-              "detail": "icon 7.79:1, needs 3:1 · #535252 on #FFFFFF",
+              "detail": "dot: icon 7.79:1, needs 3:1 · #535252 on #FFFFFF",
               "figma": null,
               "code": null,
               "image": null,
@@ -13694,7 +13694,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T10:09:33.378Z",
+    "since": "2026-11-20T11:48:38.208Z",
     "previousScore": 23,
     "newFails": [],
     "fixed": []

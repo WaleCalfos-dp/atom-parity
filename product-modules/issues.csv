@@ -234,15 +234,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10419%3A5354
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
-"[Atom parity] Parking / Search Supercomponent: Field edge is hard to see in Figma","fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
-
-Brands: Dragonpass
-Variants: Breakpoint=Desktop; Breakpoint=Tablet; Breakpoint=Mobile
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18195-8619
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-18195%3A8619
-
-Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Parking / Search Supercomponent: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18195-8619
@@ -346,15 +337,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
-"[Atom parity] Transport / Search Supercomponent: Field edge is hard to see in Figma","fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)
-
-Brands: Dragonpass
-Variants: Type=From Airport, Breakpoint=Desktop; Type=To Airport, Breakpoint=Desktop; Type=From Airport, Breakpoint=Tablet; Type=To Airport, Breakpoint=Tablet; Type=From Airport, Breakpoint=Mobile; Type=To Airport, Breakpoint=Mobile
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24646
-Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17603%3A24646
-
-Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Transport / Search Supercomponent: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24646

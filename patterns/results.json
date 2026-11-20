@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T12:05:26.122Z",
-    "durationMs": 198301,
+    "generatedAt": "2026-11-20T12:36:34.747Z",
+    "durationMs": 211636,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:49Z"
+        "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T12:02:55.484Z",
+      "exportedAt": "2026-11-20T12:35:21.319Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2286,7 +2286,7 @@
           "status": "warn",
           "title": "Field edge is hard to see in Figma",
           "owner": "Design",
-          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+          "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
           "meta": {
             "rule": "design-non-text",
             "source": "design",
@@ -2297,7 +2297,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=No Pre-Select, Background Fill=Comfortable",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -2317,7 +2317,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=No Pre-Select, Background Fill=Cozy",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "Type=No Pre-Select, Background Fill=Cozy: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -2337,7 +2337,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Pre-Select, Background Fill=Comfortable",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "Type=Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -2357,7 +2357,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Pre-Select, Background Fill=Cozy",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "Type=Pre-Select, Background Fill=Cozy: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -3047,7 +3047,7 @@
           "status": "warn",
           "title": "Field edge is hard to see in Figma",
           "owner": "Design",
-          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+          "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
           "meta": {
             "rule": "design-non-text",
             "source": "design",
@@ -3058,7 +3058,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Discount Code Field",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -3078,7 +3078,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Discount Code Field",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -3098,7 +3098,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Discount Code Field",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -3118,7 +3118,7 @@
               "status": "warn",
               "brand": "Assurant",
               "variant": "State=Discount Code Field",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -3265,901 +3265,6 @@
       },
       "code": null,
       "checks": [
-        {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Field edge is hard to see in Figma",
-          "owner": "Design",
-          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=True Empty, Breakpoint=Desktop, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=True Empty, Breakpoint=Desktop, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=True Empty, Breakpoint=Desktop, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=True Empty, Breakpoint=Desktop, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Empty, Breakpoint=Desktop, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Empty, Breakpoint=Desktop, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Empty, Breakpoint=Desktop, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Empty, Breakpoint=Desktop, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Empty, Breakpoint=Mobile, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Empty, Breakpoint=Mobile, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Results, Breakpoint=Mobile, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Results, Breakpoint=Mobile, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Results, Breakpoint=Mobile, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=No Result, Breakpoint=Mobile, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=No Result, Breakpoint=Mobile, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=No Result, Breakpoint=Mobile, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Warning, Breakpoint=Mobile, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Warning, Breakpoint=Mobile, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Warning, Breakpoint=Mobile, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=True Empty, Breakpoint=Mobile, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=True Empty, Breakpoint=Mobile, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Loading, Breakpoint=Mobile, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Loading, Breakpoint=Mobile, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Loading, Breakpoint=Mobile, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Empty, Breakpoint=Mobile, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=Empty, Breakpoint=Mobile, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Keyboard",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Results, Breakpoint=Desktop, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Results, Breakpoint=Desktop, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Results, Breakpoint=Desktop, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Results, Breakpoint=Desktop, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=No Result, Breakpoint=Desktop, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=No Result, Breakpoint=Desktop, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=No Result, Breakpoint=Desktop, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=No Result, Breakpoint=Desktop, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Warning, Breakpoint=Desktop, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Warning, Breakpoint=Desktop, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Warning, Breakpoint=Desktop, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Warning, Breakpoint=Desktop, Focus=No",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Loading, Breakpoint=Desktop, Focus=Yes",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Loading, Breakpoint=Desktop, Focus=Yes",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Loading, Breakpoint=Desktop, Focus=No",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Loading, Breakpoint=Desktop, Focus=No",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 42,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass",
-            "Mastercard",
-            "Investec",
-            "Assurant"
-          ],
-          "variants": [
-            "State=True Empty, Breakpoint=Desktop, Focus=Yes",
-            "State=True Empty, Breakpoint=Desktop, Focus=No",
-            "State=Empty, Breakpoint=Desktop, Focus=Yes",
-            "State=Empty, Breakpoint=Desktop, Focus=No",
-            "State=Empty, Breakpoint=Mobile, Focus=No",
-            "State=Results, Breakpoint=Mobile, Focus=Yes",
-            "State=Results, Breakpoint=Mobile, Focus=No",
-            "State=No Result, Breakpoint=Mobile, Focus=Yes",
-            "State=No Result, Breakpoint=Mobile, Focus=No",
-            "State=Warning, Breakpoint=Mobile, Focus=Yes",
-            "State=Warning, Breakpoint=Mobile, Focus=No",
-            "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-            "State=True Empty, Breakpoint=Mobile, Focus=No",
-            "State=Loading, Breakpoint=Mobile, Focus=Yes",
-            "State=Loading, Breakpoint=Mobile, Focus=No",
-            "State=Empty, Breakpoint=Mobile, Focus=Yes",
-            "State=Results, Breakpoint=Desktop, Focus=Yes",
-            "State=Results, Breakpoint=Desktop, Focus=No",
-            "State=No Result, Breakpoint=Desktop, Focus=Yes",
-            "State=No Result, Breakpoint=Desktop, Focus=No",
-            "State=Warning, Breakpoint=Desktop, Focus=Yes",
-            "State=Warning, Breakpoint=Desktop, Focus=No",
-            "State=Loading, Breakpoint=Desktop, Focus=Yes",
-            "State=Loading, Breakpoint=Desktop, Focus=No"
-          ]
-        },
         {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
@@ -7731,360 +6836,6 @@
       "code": null,
       "checks": [
         {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Field edge is hard to see in Figma",
-          "owner": "Design",
-          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Expired=No, Type=Selector Right",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Expired=No, Type=Selector Right",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "Expired=No, Type=Selector Right",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Expired=No, Type=Selector Left",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Expired=No, Type=Selector Left",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "Expired=No, Type=Selector Left",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Expired=Yes, Type=Selector Right",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Expired=Yes, Type=Selector Right",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "Expired=Yes, Type=Selector Right",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Expired=Yes, Type=Selector Left",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Expired=Yes, Type=Selector Left",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "Expired=Yes, Type=Selector Left",
-              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Expired=No, Type=Selector Right",
-              "detail": "border 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 3.19,
-                "required": 3,
-                "fg": "#91908F",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "border",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Expired=No, Type=Selector Left",
-              "detail": "border 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 3.19,
-                "required": 3,
-                "fg": "#91908F",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "border",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Expired=Yes, Type=Selector Right",
-              "detail": "border 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 3.19,
-                "required": 3,
-                "fg": "#91908F",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "border",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            },
-            {
-              "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Expired=Yes, Type=Selector Left",
-              "detail": "border 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 3.19,
-                "required": 3,
-                "fg": "#91908F",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "border",
-                "layer": "_List Item",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 4,
-            "warn": 12,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Mastercard",
-            "Investec",
-            "Assurant"
-          ],
-          "variants": [
-            "Expired=No, Type=Selector Right",
-            "Expired=No, Type=Selector Left",
-            "Expired=Yes, Type=Selector Right",
-            "Expired=Yes, Type=Selector Left"
-          ]
-        },
-        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -8306,7 +7057,7 @@
           "status": "warn",
           "title": "Icon is hard to see in Figma",
           "owner": "Design",
-          "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+          "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
           "meta": {
             "rule": "design-non-text",
             "source": "design",
@@ -8317,7 +7068,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Vertical=Default, Length=25%",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -8337,7 +7088,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Vertical=Vertical4, Length=75%",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -8357,7 +7108,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Vertical=Vertical3, Length=50%",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -8377,7 +7128,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Vertical=Horizontal, Length=25%",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -8397,7 +7148,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Vertical=Vertical5, Length=50%",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -8417,7 +7168,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Vertical=Vertical6, Length=75%",
-              "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
               "figma": null,
               "code": null,
               "image": null,
@@ -8615,6 +7366,111 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "pass",
+          "title": "Field edges and icons reach 3:1 in Figma",
+          "owner": "Design",
+          "detail": "search-input-and-button: fill 16.14:1, needs 3:1 · #0A2333 on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Default",
+              "detail": "search-input-and-button: fill 16.14:1, needs 3:1 · #0A2333 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 16.14,
+                "required": 3,
+                "fg": "#0A2333",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/action",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "search-input-and-button",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Type=Default",
+              "detail": "search-input-and-button: fill 4.66:1, needs 3:1 · #CF4500 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 4.66,
+                "required": 3,
+                "fg": "#CF4500",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/action",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "search-input-and-button",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Type=Default",
+              "detail": "search-input-and-button: fill 11.54:1, needs 3:1 · #343946 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 11.54,
+                "required": 3,
+                "fg": "#343946",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/action",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "search-input-and-button",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Type=Default",
+              "detail": "search-input-and-button: fill 7.3:1, needs 3:1 · #1A54A8 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.3,
+                "required": 3,
+                "fg": "#1A54A8",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/action",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "search-input-and-button",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
           "subject": "design:contrast",
@@ -8773,8 +7629,8 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 13,
-      "warn": 5,
+      "pass": 14,
+      "warn": 3,
       "fail": 27
     },
     "byCategory": {
@@ -8799,8 +7655,8 @@
         "fail": 0
       },
       "Accessibility": {
-        "pass": 13,
-        "warn": 5,
+        "pass": 14,
+        "warn": 3,
         "fail": 0
       },
       "Interaction": {
@@ -8821,7 +7677,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 3,
         "fail": 0
       },
       "Dev": {
@@ -9040,9 +7896,7 @@
         "owner": "Design",
         "components": [
           "Booking Widget",
-          "Checkout",
-          "Global Search",
-          "Payment Card"
+          "Checkout"
         ],
         "items": [
           {
@@ -9056,18 +7910,6 @@
             "key": "Accessibility|design:non-text",
             "title": "Field edge is hard to see in Figma",
             "componentName": "Checkout"
-          },
-          {
-            "component": "15598:89150",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Global Search"
-          },
-          {
-            "component": "15695:14328",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Payment Card"
           }
         ]
       },
@@ -9156,7 +7998,7 @@
         "subject": "design:non-text",
         "status": "warn",
         "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+        "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
         "owner": "Design",
         "brands": [
           "Dragonpass"
@@ -9197,7 +8039,7 @@
         "subject": "design:non-text",
         "status": "warn",
         "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+        "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
         "owner": "Design",
         "brands": [
           "Dragonpass",
@@ -9232,24 +8074,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Global Search",
-        "componentKey": "15598:89150",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 24
       },
       {
         "component": "Global Search",
@@ -9410,23 +8234,6 @@
       {
         "component": "Payment Card",
         "componentKey": "15695:14328",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 4
-      },
-      {
-        "component": "Payment Card",
-        "componentKey": "15695:14328",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -9471,7 +8278,7 @@
         "subject": "design:non-text",
         "status": "warn",
         "title": "Icon is hard to see in Figma",
-        "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+        "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
         "owner": "Design",
         "brands": [
           "Dragonpass"
@@ -9535,7 +8342,7 @@
   "a11y": {
     "ran": true,
     "scans": 0,
-    "designChecks": 259,
+    "designChecks": 205,
     "brands": [],
     "counts": {
       "critical": 0,
@@ -9544,12 +8351,12 @@
       "minor": 0
     },
     "total": 1,
-    "components": 5,
+    "components": 3,
     "byBrand": {
-      "Dragonpass": 35,
-      "Mastercard": 11,
-      "Investec": 11,
-      "Assurant": 11
+      "Dragonpass": 11,
+      "Mastercard": 1,
+      "Investec": 1,
+      "Assurant": 1
     },
     "criteria": [
       {
@@ -9911,18 +8718,6 @@
             "componentName": "Checkout"
           },
           {
-            "component": "15598:89150",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Global Search"
-          },
-          {
-            "component": "15695:14328",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Payment Card"
-          },
-          {
             "component": "15598:87162",
             "key": "Accessibility|design:non-text",
             "title": "Icon is hard to see in Figma",
@@ -9955,14 +8750,6 @@
             "key": "15759:2797"
           },
           {
-            "name": "Global Search",
-            "key": "15598:89150"
-          },
-          {
-            "name": "Payment Card",
-            "key": "15695:14328"
-          },
-          {
             "name": "Scroll Bar",
             "key": "15598:87162"
           }
@@ -9981,7 +8768,7 @@
               "Type=Pre-Select, Background Fill=Cozy"
             ],
             "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1,
               "required": 3,
@@ -10006,7 +8793,7 @@
               "State=Discount Code Field"
             ],
             "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1,
               "required": 3,
@@ -10031,7 +8818,7 @@
               "State=Discount Code Field"
             ],
             "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1,
               "required": 3,
@@ -10056,7 +8843,7 @@
               "State=Discount Code Field"
             ],
             "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1,
               "required": 3,
@@ -10081,7 +8868,7 @@
               "State=Discount Code Field"
             ],
             "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1,
               "required": 3,
@@ -10091,228 +8878,6 @@
               "bgToken": null,
               "assumed": true,
               "variant": "State=Discount Code Field"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Global Search",
-            "componentKey": "15598:89150",
-            "brand": "Dragonpass",
-            "variants": [
-              "State=True Empty, Breakpoint=Desktop, Focus=Yes",
-              "State=True Empty, Breakpoint=Desktop, Focus=No",
-              "State=Empty, Breakpoint=Desktop, Focus=Yes",
-              "State=Empty, Breakpoint=Desktop, Focus=No",
-              "State=Empty, Breakpoint=Mobile, Focus=No",
-              "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "State=Results, Breakpoint=Mobile, Focus=No",
-              "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "State=No Result, Breakpoint=Mobile, Focus=No",
-              "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "State=Warning, Breakpoint=Mobile, Focus=No",
-              "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "State=True Empty, Breakpoint=Mobile, Focus=No",
-              "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "State=Loading, Breakpoint=Mobile, Focus=No",
-              "State=Empty, Breakpoint=Mobile, Focus=Yes",
-              "State=Results, Breakpoint=Desktop, Focus=Yes",
-              "State=Results, Breakpoint=Desktop, Focus=No",
-              "State=No Result, Breakpoint=Desktop, Focus=Yes",
-              "State=No Result, Breakpoint=Desktop, Focus=No",
-              "State=Warning, Breakpoint=Desktop, Focus=Yes",
-              "State=Warning, Breakpoint=Desktop, Focus=No",
-              "State=Loading, Breakpoint=Desktop, Focus=Yes",
-              "State=Loading, Breakpoint=Desktop, Focus=No"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=True Empty, Breakpoint=Desktop, Focus=Yes"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Global Search",
-            "componentKey": "15598:89150",
-            "brand": "Mastercard",
-            "variants": [
-              "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "State=Empty, Breakpoint=Mobile, Focus=Yes"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Global Search",
-            "componentKey": "15598:89150",
-            "brand": "Investec",
-            "variants": [
-              "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "State=Empty, Breakpoint=Mobile, Focus=Yes"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Global Search",
-            "componentKey": "15598:89150",
-            "brand": "Assurant",
-            "variants": [
-              "State=Results, Breakpoint=Mobile, Focus=Yes",
-              "State=No Result, Breakpoint=Mobile, Focus=Yes",
-              "State=Warning, Breakpoint=Mobile, Focus=Yes",
-              "State=True Empty, Breakpoint=Mobile, Focus=Yes",
-              "State=Loading, Breakpoint=Mobile, Focus=Yes",
-              "State=Empty, Breakpoint=Mobile, Focus=Yes"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Results, Breakpoint=Mobile, Focus=Yes"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Payment Card",
-            "componentKey": "15695:14328",
-            "brand": "Mastercard",
-            "variants": [
-              "Expired=No, Type=Selector Right",
-              "Expired=No, Type=Selector Left",
-              "Expired=Yes, Type=Selector Right",
-              "Expired=Yes, Type=Selector Left"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Expired=No, Type=Selector Right"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Payment Card",
-            "componentKey": "15695:14328",
-            "brand": "Investec",
-            "variants": [
-              "Expired=No, Type=Selector Right",
-              "Expired=No, Type=Selector Left",
-              "Expired=Yes, Type=Selector Right",
-              "Expired=Yes, Type=Selector Left"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Expired=No, Type=Selector Right"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Payment Card",
-            "componentKey": "15695:14328",
-            "brand": "Assurant",
-            "variants": [
-              "Expired=No, Type=Selector Right",
-              "Expired=No, Type=Selector Left",
-              "Expired=Yes, Type=Selector Right",
-              "Expired=Yes, Type=Selector Left"
-            ],
-            "status": "warn",
-            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Expired=No, Type=Selector Right"
             },
             "design": null,
             "target": null,
@@ -10333,7 +8898,7 @@
               "Vertical=Vertical6, Length=75%"
             ],
             "status": "warn",
-            "detail": "icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+            "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
             "contrast": {
               "ratio": 1.6,
               "required": 3,
@@ -10349,12 +8914,12 @@
             "size": null
           }
         ],
-        "occurrences": 68
+        "occurrences": 14
       }
     ]
   },
   "delta": {
-    "since": "2026-11-20T10:22:29.680Z",
+    "since": "2026-11-20T12:05:26.122Z",
     "previousScore": 0,
     "newFails": [],
     "fixed": []

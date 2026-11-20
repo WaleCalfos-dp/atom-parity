@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T11:56:06.946Z",
-    "durationMs": 106759,
+    "generatedAt": "2026-11-20T12:28:49.227Z",
+    "durationMs": 168334,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:49Z"
+        "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T11:54:57.399Z",
+      "exportedAt": "2026-11-20T12:27:31.309Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "3156:2880",
       "name": "App Header",
       "status": "Broken",
-      "score": 28,
+      "score": 26,
       "match": "alias",
       "figma": {
         "id": "3156:2880",
@@ -3044,10 +3044,10 @@
           "category": "Accessibility",
           "subject": "design:non-text",
           "label": "Non-text contrast in Figma",
-          "status": "warn",
+          "status": "fail",
           "title": "Field edge is hard to see in Figma",
           "owner": "Design",
-          "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+          "detail": "input-top: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF",
           "meta": {
             "rule": "design-non-text",
             "source": "design",
@@ -3055,37 +3055,37 @@
           },
           "instances": [
             {
-              "status": "warn",
+              "status": "fail",
               "brand": "Dragonpass",
-              "variant": "Type=Search",
-              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "variant": "Type=Transport",
+              "detail": "input-top: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF",
               "figma": null,
               "code": null,
               "image": null,
               "extra": {
-                "ratio": 1.06,
+                "ratio": 1.6,
                 "required": 3,
-                "fg": "#FAF8F7",
+                "fg": "#CECCCC",
                 "bg": "#FFFFFF",
                 "fgToken": null,
                 "bgToken": null,
-                "part": "fill",
-                "layer": "Type=Search",
-                "assumed": true
+                "part": "border",
+                "layer": "input-top",
+                "assumed": false
               }
             }
           ],
           "counts": {
             "pass": 0,
-            "warn": 1,
-            "fail": 0,
+            "warn": 0,
+            "fail": 1,
             "info": 0
           },
           "brands": [
             "Dragonpass"
           ],
           "variants": [
-            "Type=Search"
+            "Type=Transport"
           ]
         }
       ],
@@ -5568,8 +5568,8 @@
     },
     "checks": {
       "pass": 21,
-      "warn": 21,
-      "fail": 32
+      "warn": 20,
+      "fail": 33
     },
     "byCategory": {
       "Naming": {
@@ -5594,8 +5594,8 @@
       },
       "Accessibility": {
         "pass": 2,
-        "warn": 1,
-        "fail": 1
+        "warn": 0,
+        "fail": 2
       },
       "Interaction": {
         "pass": 0,
@@ -5615,8 +5615,8 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 7,
-        "fail": 1
+        "warn": 6,
+        "fail": 2
       },
       "Dev": {
         "warn": 8,
@@ -5871,6 +5871,23 @@
         ]
       },
       {
+        "category": "Accessibility",
+        "title": "Field edge is hard to see in Figma",
+        "status": "fail",
+        "owner": "Design",
+        "components": [
+          "App Header"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "componentName": "App Header"
+          }
+        ]
+      },
+      {
         "category": "Properties",
         "title": "Code has props with no Figma property",
         "status": "warn",
@@ -5993,23 +6010,6 @@
         ]
       },
       {
-        "category": "Accessibility",
-        "title": "Field edge is hard to see in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "App Header"
-        ],
-        "items": [
-          {
-            "component": "3156:2880",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "App Header"
-          }
-        ]
-      },
-      {
         "category": "Properties",
         "title": "3 of 3 variants can't be shown in code",
         "status": "warn",
@@ -6054,7 +6054,8 @@
         "name": "App Header",
         "key": "3156:2880",
         "reasons": [
-          "Text contrast is too low in Figma"
+          "Text contrast is too low in Figma",
+          "Field edge is hard to see in Figma"
         ]
       }
     ],
@@ -6366,9 +6367,9 @@
         "key": "Accessibility|design:non-text",
         "category": "Accessibility",
         "subject": "design:non-text",
-        "status": "warn",
+        "status": "fail",
         "title": "Field edge is hard to see in Figma",
-        "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+        "detail": "input-top: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF",
         "owner": "Design",
         "brands": [
           "Dragonpass"
@@ -6761,8 +6762,8 @@
     "brands": [],
     "counts": {
       "critical": 0,
-      "serious": 1,
-      "moderate": 1,
+      "serious": 2,
+      "moderate": 0,
       "minor": 0
     },
     "total": 2,
@@ -6789,7 +6790,7 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
         "auto": true,
-        "status": "warn",
+        "status": "fail",
         "issues": 1
       }
     ],
@@ -7276,8 +7277,8 @@
         "title": "Field edge or icon is hard to see in Figma",
         "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
         "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
-        "impact": "moderate",
-        "status": "warn",
+        "impact": "serious",
+        "status": "fail",
         "owner": "Design",
         "source": "design",
         "help": null,
@@ -7295,19 +7296,19 @@
             "componentKey": "3156:2880",
             "brand": "Dragonpass",
             "variants": [
-              "Type=Search"
+              "Type=Transport"
             ],
-            "status": "warn",
-            "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+            "status": "fail",
+            "detail": "input-top: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF",
             "contrast": {
-              "ratio": 1.06,
+              "ratio": 1.6,
               "required": 3,
-              "fg": "#FAF8F7",
+              "fg": "#CECCCC",
               "bg": "#FFFFFF",
               "fgToken": null,
               "bgToken": null,
-              "assumed": true,
-              "variant": "Type=Search"
+              "assumed": false,
+              "variant": "Type=Transport"
             },
             "design": null,
             "target": null,
@@ -7319,9 +7320,16 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T10:16:34.030Z",
+    "since": "2026-11-20T11:56:06.946Z",
     "previousScore": 36,
-    "newFails": [],
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "App Header",
+        "title": "Field edge is hard to see in Figma",
+        "category": "Accessibility"
+      }
+    ],
     "fixed": []
   },
   "activity": []
