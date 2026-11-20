@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T10:05:36.669Z",
-    "durationMs": 146110,
+    "generatedAt": "2026-11-20T11:44:46.500Z",
+    "durationMs": 143664,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:48Z"
+        "lastModified": "2026-11-20T10:00:49Z"
       },
-      "exportedAt": "2026-11-20T10:04:45.504Z",
+      "exportedAt": "2026-11-20T11:43:56.218Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -10537,10 +10537,341 @@
         "name": "Contrast (minimum)",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+        "auto": true,
         "status": "warn",
         "issues": 1
       }
     ],
+    "manual": [
+      {
+        "sc": "1.1.1",
+        "name": "Non-text content",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content"
+      },
+      {
+        "sc": "1.2.1",
+        "name": "Audio-only and video-only (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded"
+      },
+      {
+        "sc": "1.2.2",
+        "name": "Captions (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded"
+      },
+      {
+        "sc": "1.2.3",
+        "name": "Audio description or media alternative (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded"
+      },
+      {
+        "sc": "1.2.4",
+        "name": "Captions (live)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live"
+      },
+      {
+        "sc": "1.2.5",
+        "name": "Audio description (prerecorded)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded"
+      },
+      {
+        "sc": "1.3.1",
+        "name": "Info and relationships",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"
+      },
+      {
+        "sc": "1.3.2",
+        "name": "Meaningful sequence",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence"
+      },
+      {
+        "sc": "1.3.3",
+        "name": "Sensory characteristics",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics"
+      },
+      {
+        "sc": "1.3.4",
+        "name": "Orientation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/orientation"
+      },
+      {
+        "sc": "1.3.5",
+        "name": "Identify input purpose",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose"
+      },
+      {
+        "sc": "1.4.1",
+        "name": "Use of colour",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color"
+      },
+      {
+        "sc": "1.4.2",
+        "name": "Audio control",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control"
+      },
+      {
+        "sc": "1.4.4",
+        "name": "Resize text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text"
+      },
+      {
+        "sc": "1.4.5",
+        "name": "Images of text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text"
+      },
+      {
+        "sc": "1.4.10",
+        "name": "Reflow",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow"
+      },
+      {
+        "sc": "1.4.11",
+        "name": "Non-text contrast",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast"
+      },
+      {
+        "sc": "1.4.12",
+        "name": "Text spacing",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing"
+      },
+      {
+        "sc": "1.4.13",
+        "name": "Content on hover or focus",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus"
+      },
+      {
+        "sc": "2.1.1",
+        "name": "Keyboard",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard"
+      },
+      {
+        "sc": "2.1.2",
+        "name": "No keyboard trap",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap"
+      },
+      {
+        "sc": "2.1.4",
+        "name": "Character key shortcuts",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts"
+      },
+      {
+        "sc": "2.2.1",
+        "name": "Timing adjustable",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable"
+      },
+      {
+        "sc": "2.2.2",
+        "name": "Pause, stop, hide",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide"
+      },
+      {
+        "sc": "2.3.1",
+        "name": "Three flashes or below threshold",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold"
+      },
+      {
+        "sc": "2.4.1",
+        "name": "Bypass blocks",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks"
+      },
+      {
+        "sc": "2.4.2",
+        "name": "Page titled",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled"
+      },
+      {
+        "sc": "2.4.3",
+        "name": "Focus order",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order"
+      },
+      {
+        "sc": "2.4.4",
+        "name": "Link purpose (in context)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context"
+      },
+      {
+        "sc": "2.4.5",
+        "name": "Multiple ways",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways"
+      },
+      {
+        "sc": "2.4.6",
+        "name": "Headings and labels",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels"
+      },
+      {
+        "sc": "2.4.7",
+        "name": "Focus visible",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible"
+      },
+      {
+        "sc": "2.4.11",
+        "name": "Focus not obscured (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum"
+      },
+      {
+        "sc": "2.5.1",
+        "name": "Pointer gestures",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures"
+      },
+      {
+        "sc": "2.5.2",
+        "name": "Pointer cancellation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation"
+      },
+      {
+        "sc": "2.5.3",
+        "name": "Label in name",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name"
+      },
+      {
+        "sc": "2.5.4",
+        "name": "Motion actuation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation"
+      },
+      {
+        "sc": "2.5.7",
+        "name": "Dragging movements",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements"
+      },
+      {
+        "sc": "2.5.8",
+        "name": "Target size (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum"
+      },
+      {
+        "sc": "3.1.1",
+        "name": "Language of page",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page"
+      },
+      {
+        "sc": "3.1.2",
+        "name": "Language of parts",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts"
+      },
+      {
+        "sc": "3.2.1",
+        "name": "On focus",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus"
+      },
+      {
+        "sc": "3.2.2",
+        "name": "On input",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-input"
+      },
+      {
+        "sc": "3.2.3",
+        "name": "Consistent navigation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation"
+      },
+      {
+        "sc": "3.2.4",
+        "name": "Consistent identification",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification"
+      },
+      {
+        "sc": "3.2.6",
+        "name": "Consistent help",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help"
+      },
+      {
+        "sc": "3.3.1",
+        "name": "Error identification",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+      },
+      {
+        "sc": "3.3.2",
+        "name": "Labels or instructions",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions"
+      },
+      {
+        "sc": "3.3.3",
+        "name": "Error suggestion",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion"
+      },
+      {
+        "sc": "3.3.4",
+        "name": "Error prevention (legal, financial, data)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data"
+      },
+      {
+        "sc": "3.3.7",
+        "name": "Redundant entry",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry"
+      },
+      {
+        "sc": "3.3.8",
+        "name": "Accessible authentication (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum"
+      },
+      {
+        "sc": "4.1.2",
+        "name": "Name, role, value",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value"
+      },
+      {
+        "sc": "4.1.3",
+        "name": "Status messages",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages"
+      }
+    ],
+    "coverage": {
+      "tested": 1,
+      "total": 55
+    },
     "issues": [
       {
         "items": [
@@ -10556,7 +10887,8 @@
           "sc": "1.4.3",
           "name": "Contrast (minimum)",
           "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+          "auto": true
         },
         "title": "Text contrast is too low in Figma",
         "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
@@ -10675,7 +11007,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-19T13:53:17.286Z",
+    "since": "2026-11-20T10:05:36.669Z",
     "previousScore": 22,
     "newFails": [],
     "fixed": []

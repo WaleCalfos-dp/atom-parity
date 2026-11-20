@@ -1,4 +1,4 @@
-## Atom parity: 32% (+0 since last run)
+## Atom parity: 31% (-1 since last run)
 
 0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.
 
@@ -11,5 +11,6 @@
 - 🔴 Not built in Storybook: 1 component (Both)
 - 🟠 Code has props with no Figma property: 1 component (Design)
 - 🟠 4 of 4 variants can't be shown in code: 1 component (Both)
+- 🟠 Icon is hard to see in Figma: 1 component (Design)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/layout/)

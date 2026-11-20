@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T10:25:03.857Z",
-    "durationMs": 154152,
+    "generatedAt": "2026-11-20T12:07:12.716Z",
+    "durationMs": 106568,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-20T10:00:49Z"
       },
-      "exportedAt": "2026-11-20T10:24:04.640Z",
+      "exportedAt": "2026-11-20T12:06:08.743Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2101,7 +2101,7 @@
       "key": "17265:62617",
       "name": "Flight Delay / Flight Card",
       "status": "Broken",
-      "score": 63,
+      "score": 64,
       "match": "exact",
       "figma": {
         "id": "17265:62617",
@@ -3465,7 +3465,7 @@
           "key": "Accessibility|axe",
           "category": "Accessibility",
           "subject": "axe",
-          "label": "Automated WCAG 2.2 AA scan",
+          "label": "Automated WCAG 2.2 A and AA scan",
           "status": "pass",
           "title": "Automated scan ran",
           "owner": "Dev",
@@ -3483,7 +3483,14 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -3493,7 +3500,14 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -3503,11 +3517,127 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.1.2"
+                ]
+              }
             }
           ],
           "counts": {
             "pass": 3,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:resize-text",
+          "category": "Accessibility",
+          "subject": "aa:resize-text",
+          "label": "Resize text",
+          "status": "fail",
+          "title": "Text gets cut off at 200% size",
+          "owner": "Both",
+          "detail": "At 200% text: 1 text element is cut off: \"Emirates Airlines\"",
+          "meta": {
+            "rule": "resize-text",
+            "source": "code",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": "At 200% text: 1 text element is cut off: \"Emirates Airlines\"",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "target": "div.aum-flight-card-airline-name"
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Flight Delay / Flight Card"
+          ]
+        },
+        {
+          "key": "Accessibility|aa:text-spacing",
+          "category": "Accessibility",
+          "subject": "aa:text-spacing",
+          "label": "Text spacing",
+          "status": "pass",
+          "title": "Nothing is cut off with wider text spacing",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "text-spacing",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:reflow",
+          "category": "Accessibility",
+          "subject": "aa:reflow",
+          "label": "Reflow",
+          "status": "pass",
+          "title": "Fits a 320px-wide screen",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "reflow",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Flight Delay / Flight Card",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -3994,6 +4124,97 @@
       },
       "code": null,
       "checks": [
+        {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "warn",
+          "title": "Field edge is hard to see in Figma",
+          "owner": "Design",
+          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Desktop",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Tablet",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Mobile",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 3,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Breakpoint=Desktop",
+            "Breakpoint=Tablet",
+            "Breakpoint=Mobile"
+          ]
+        },
         {
           "key": "Naming|name",
           "category": "Naming",
@@ -5155,6 +5376,160 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "warn",
+          "title": "Field edge is hard to see in Figma",
+          "owner": "Design",
+          "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=From Airport, Breakpoint=Desktop",
+              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#FAF8F7",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "Tabs",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=To Airport, Breakpoint=Desktop",
+              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#FAF8F7",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "Tabs",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=From Airport, Breakpoint=Tablet",
+              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#FAF8F7",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "Tabs",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=To Airport, Breakpoint=Tablet",
+              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#FAF8F7",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "Tabs",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=From Airport, Breakpoint=Mobile",
+              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#FAF8F7",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "Tabs",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=To Airport, Breakpoint=Mobile",
+              "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.06,
+                "required": 3,
+                "fg": "#FAF8F7",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "Tabs",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 6,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Type=From Airport, Breakpoint=Desktop",
+            "Type=To Airport, Breakpoint=Desktop",
+            "Type=From Airport, Breakpoint=Tablet",
+            "Type=To Airport, Breakpoint=Tablet",
+            "Type=From Airport, Breakpoint=Mobile",
+            "Type=To Airport, Breakpoint=Mobile"
+          ]
+        },
+        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -5535,9 +5910,9 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 22,
-      "warn": 22,
-      "fail": 24
+      "pass": 24,
+      "warn": 24,
+      "fail": 25
     },
     "byCategory": {
       "Naming": {
@@ -5561,9 +5936,9 @@
         "fail": 1
       },
       "Accessibility": {
-        "pass": 9,
-        "warn": 0,
-        "fail": 2
+        "pass": 11,
+        "warn": 2,
+        "fail": 3
       },
       "Interaction": {
         "pass": 0,
@@ -5583,7 +5958,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 7,
         "fail": 2
       },
       "Dev": {
@@ -5592,7 +5967,7 @@
       },
       "Both": {
         "warn": 5,
-        "fail": 19
+        "fail": 20
       }
     },
     "themes": [
@@ -5814,6 +6189,23 @@
         ]
       },
       {
+        "category": "Accessibility",
+        "title": "Text gets cut off at 200% size",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card"
+        ],
+        "items": [
+          {
+            "component": "17265:62617",
+            "key": "Accessibility|aa:resize-text",
+            "title": "Text gets cut off at 200% size",
+            "componentName": "Flight Delay / Flight Card"
+          }
+        ]
+      },
+      {
         "category": "Properties",
         "title": "Figma property missing in code",
         "status": "fail",
@@ -5865,84 +6257,6 @@
             "componentName": "Transport / Promotion Panel"
           }
         ]
-      },
-      {
-        "category": "Properties",
-        "title": "State values without a code equivalent",
-        "status": "warn",
-        "owner": "Dev",
-        "components": [
-          "Flight Delay / Flight Card",
-          "Transport / Promotion Panel"
-        ],
-        "items": [
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Airline Name",
-            "title": "Figma property \"Airline Name\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Departure Date",
-            "title": "Figma property \"Departure Date\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Departure Time",
-            "title": "Figma property \"Departure Time\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Departure Airport",
-            "title": "Figma property \"Departure Airport\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Arrival Date",
-            "title": "Figma property \"Arrival Date\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Arrival Time",
-            "title": "Figma property \"Arrival Time\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Arrival Airport",
-            "title": "Figma property \"Arrival Airport\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Promotion Name",
-            "title": "Figma property \"Promotion Name\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Condition",
-            "title": "Figma property \"Condition\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Expiry",
-            "title": "Figma property \"Expiry\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Voucher Code Text",
-            "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          }
-        ]
       }
     ],
     "works": [
@@ -5956,7 +6270,8 @@
         "name": "Flight Delay / Flight Card",
         "key": "17265:62617",
         "reasons": [
-          "Height differs from design"
+          "Height differs from design",
+          "Text gets cut off at 200% size"
         ]
       },
       {
@@ -6350,6 +6665,21 @@
         "variants": 1
       },
       {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Accessibility|aa:resize-text",
+        "category": "Accessibility",
+        "subject": "aa:resize-text",
+        "status": "fail",
+        "title": "Text gets cut off at 200% size",
+        "detail": "At 200% text: 1 text element is cut off: \"Emirates Airlines\"",
+        "owner": "Both",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
         "component": "Membership / Entitlement Card",
         "componentKey": "10422:5934",
         "key": "Naming|name",
@@ -6374,6 +6704,21 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
+      },
+      {
+        "component": "Parking / Search Supercomponent",
+        "componentKey": "18195:8619",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "subject": "design:non-text",
+        "status": "warn",
+        "title": "Field edge is hard to see in Figma",
+        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 3
       },
       {
         "component": "Parking / Search Supercomponent",
@@ -6575,6 +6920,21 @@
       {
         "component": "Transport / Search Supercomponent",
         "componentKey": "17603:24646",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "subject": "design:non-text",
+        "status": "warn",
+        "title": "Field edge is hard to see in Figma",
+        "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 6
+      },
+      {
+        "component": "Transport / Search Supercomponent",
+        "componentKey": "17603:24646",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -6603,7 +6963,7 @@
   "a11y": {
     "ran": true,
     "scans": 3,
-    "designChecks": 55,
+    "designChecks": 64,
     "brands": [
       "Dragonpass",
       "Mastercard",
@@ -6611,14 +6971,14 @@
     ],
     "counts": {
       "critical": 0,
-      "serious": 1,
-      "moderate": 0,
+      "serious": 2,
+      "moderate": 1,
       "minor": 0
     },
-    "total": 1,
-    "components": 2,
+    "total": 3,
+    "components": 5,
     "byBrand": {
-      "Dragonpass": 4,
+      "Dragonpass": 14,
       "Mastercard": 4,
       "Investec": 4
     },
@@ -6628,6 +6988,7 @@
         "name": "Non-text content",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content",
+        "auto": true,
         "status": "pass",
         "issues": 0
       },
@@ -6636,6 +6997,7 @@
         "name": "Info and relationships",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships",
+        "auto": true,
         "status": "pass",
         "issues": 0
       },
@@ -6644,18 +7006,347 @@
         "name": "Contrast (minimum)",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+        "auto": true,
         "status": "fail",
         "issues": 1
+      },
+      {
+        "sc": "1.4.4",
+        "name": "Resize text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text",
+        "auto": true,
+        "status": "fail",
+        "issues": 1
+      },
+      {
+        "sc": "1.4.10",
+        "name": "Reflow",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "1.4.11",
+        "name": "Non-text contrast",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+        "auto": true,
+        "status": "warn",
+        "issues": 1
+      },
+      {
+        "sc": "1.4.12",
+        "name": "Text spacing",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "3.1.2",
+        "name": "Language of parts",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts",
+        "auto": false,
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "4.1.2",
         "name": "Name, role, value",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value",
+        "auto": true,
         "status": "pass",
         "issues": 0
       }
     ],
+    "manual": [
+      {
+        "sc": "1.2.1",
+        "name": "Audio-only and video-only (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded"
+      },
+      {
+        "sc": "1.2.2",
+        "name": "Captions (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded"
+      },
+      {
+        "sc": "1.2.3",
+        "name": "Audio description or media alternative (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded"
+      },
+      {
+        "sc": "1.2.4",
+        "name": "Captions (live)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live"
+      },
+      {
+        "sc": "1.2.5",
+        "name": "Audio description (prerecorded)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded"
+      },
+      {
+        "sc": "1.3.2",
+        "name": "Meaningful sequence",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence"
+      },
+      {
+        "sc": "1.3.3",
+        "name": "Sensory characteristics",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics"
+      },
+      {
+        "sc": "1.3.4",
+        "name": "Orientation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/orientation"
+      },
+      {
+        "sc": "1.3.5",
+        "name": "Identify input purpose",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose"
+      },
+      {
+        "sc": "1.4.1",
+        "name": "Use of colour",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color"
+      },
+      {
+        "sc": "1.4.2",
+        "name": "Audio control",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control"
+      },
+      {
+        "sc": "1.4.5",
+        "name": "Images of text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text"
+      },
+      {
+        "sc": "1.4.13",
+        "name": "Content on hover or focus",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus"
+      },
+      {
+        "sc": "2.1.1",
+        "name": "Keyboard",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard"
+      },
+      {
+        "sc": "2.1.2",
+        "name": "No keyboard trap",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap"
+      },
+      {
+        "sc": "2.1.4",
+        "name": "Character key shortcuts",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts"
+      },
+      {
+        "sc": "2.2.1",
+        "name": "Timing adjustable",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable"
+      },
+      {
+        "sc": "2.2.2",
+        "name": "Pause, stop, hide",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide"
+      },
+      {
+        "sc": "2.3.1",
+        "name": "Three flashes or below threshold",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold"
+      },
+      {
+        "sc": "2.4.1",
+        "name": "Bypass blocks",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks"
+      },
+      {
+        "sc": "2.4.2",
+        "name": "Page titled",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled"
+      },
+      {
+        "sc": "2.4.3",
+        "name": "Focus order",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order"
+      },
+      {
+        "sc": "2.4.4",
+        "name": "Link purpose (in context)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context"
+      },
+      {
+        "sc": "2.4.5",
+        "name": "Multiple ways",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways"
+      },
+      {
+        "sc": "2.4.6",
+        "name": "Headings and labels",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels"
+      },
+      {
+        "sc": "2.4.7",
+        "name": "Focus visible",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible"
+      },
+      {
+        "sc": "2.4.11",
+        "name": "Focus not obscured (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum"
+      },
+      {
+        "sc": "2.5.1",
+        "name": "Pointer gestures",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures"
+      },
+      {
+        "sc": "2.5.2",
+        "name": "Pointer cancellation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation"
+      },
+      {
+        "sc": "2.5.3",
+        "name": "Label in name",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name"
+      },
+      {
+        "sc": "2.5.4",
+        "name": "Motion actuation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation"
+      },
+      {
+        "sc": "2.5.7",
+        "name": "Dragging movements",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements"
+      },
+      {
+        "sc": "2.5.8",
+        "name": "Target size (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum"
+      },
+      {
+        "sc": "3.1.1",
+        "name": "Language of page",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page"
+      },
+      {
+        "sc": "3.2.1",
+        "name": "On focus",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus"
+      },
+      {
+        "sc": "3.2.2",
+        "name": "On input",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-input"
+      },
+      {
+        "sc": "3.2.3",
+        "name": "Consistent navigation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation"
+      },
+      {
+        "sc": "3.2.4",
+        "name": "Consistent identification",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification"
+      },
+      {
+        "sc": "3.2.6",
+        "name": "Consistent help",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help"
+      },
+      {
+        "sc": "3.3.1",
+        "name": "Error identification",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+      },
+      {
+        "sc": "3.3.2",
+        "name": "Labels or instructions",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions"
+      },
+      {
+        "sc": "3.3.3",
+        "name": "Error suggestion",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion"
+      },
+      {
+        "sc": "3.3.4",
+        "name": "Error prevention (legal, financial, data)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data"
+      },
+      {
+        "sc": "3.3.7",
+        "name": "Redundant entry",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry"
+      },
+      {
+        "sc": "3.3.8",
+        "name": "Accessible authentication (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum"
+      },
+      {
+        "sc": "4.1.3",
+        "name": "Status messages",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages"
+      }
+    ],
+    "coverage": {
+      "tested": 9,
+      "total": 55
+    },
     "issues": [
       {
         "items": [
@@ -6677,7 +7368,8 @@
           "sc": "1.4.3",
           "name": "Contrast (minimum)",
           "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+          "auto": true
         },
         "title": "Text contrast is too low in Figma",
         "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
@@ -6856,13 +7548,173 @@
           }
         ],
         "occurrences": 12
+      },
+      {
+        "items": [
+          {
+            "component": "17265:62617",
+            "key": "Accessibility|aa:resize-text",
+            "title": "Text gets cut off at 200% size",
+            "componentName": "Flight Delay / Flight Card"
+          }
+        ],
+        "rule": "resize-text",
+        "criterion": {
+          "sc": "1.4.4",
+          "name": "Resize text",
+          "level": "AA",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text",
+          "auto": true
+        },
+        "title": "Text gets cut off at 200% size",
+        "why": "People who enlarge text lose part of the content.",
+        "fix": "Let containers grow with the text: avoid fixed heights and widths with overflow hidden around text.",
+        "impact": "serious",
+        "status": "fail",
+        "owner": "Both",
+        "source": "code",
+        "help": null,
+        "components": [
+          {
+            "name": "Flight Delay / Flight Card",
+            "key": "17265:62617"
+          }
+        ],
+        "where": [
+          {
+            "checkKey": "Accessibility|aa:resize-text",
+            "title": "Text gets cut off at 200% size",
+            "component": "Flight Delay / Flight Card",
+            "componentKey": "17265:62617",
+            "brand": "Dragonpass",
+            "variants": [
+              "Flight Delay / Flight Card"
+            ],
+            "status": "fail",
+            "detail": "At 200% text: 1 text element is cut off: \"Emirates Airlines\"",
+            "contrast": null,
+            "design": null,
+            "target": "div.aum-flight-card-airline-name",
+            "size": null
+          }
+        ],
+        "occurrences": 1
+      },
+      {
+        "items": [
+          {
+            "component": "18195:8619",
+            "key": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "componentName": "Parking / Search Supercomponent"
+          },
+          {
+            "component": "17603:24646",
+            "key": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "componentName": "Transport / Search Supercomponent"
+          }
+        ],
+        "rule": "design-non-text",
+        "criterion": {
+          "sc": "1.4.11",
+          "name": "Non-text contrast",
+          "level": "AA",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+          "auto": true
+        },
+        "title": "Field edge or icon is hard to see in Figma",
+        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
+        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
+        "impact": "moderate",
+        "status": "warn",
+        "owner": "Design",
+        "source": "design",
+        "help": null,
+        "components": [
+          {
+            "name": "Parking / Search Supercomponent",
+            "key": "18195:8619"
+          },
+          {
+            "name": "Transport / Search Supercomponent",
+            "key": "17603:24646"
+          }
+        ],
+        "where": [
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Parking / Search Supercomponent",
+            "componentKey": "18195:8619",
+            "brand": "Dragonpass",
+            "variants": [
+              "Breakpoint=Desktop",
+              "Breakpoint=Tablet",
+              "Breakpoint=Mobile"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Breakpoint=Desktop"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Transport / Search Supercomponent",
+            "componentKey": "17603:24646",
+            "brand": "Dragonpass",
+            "variants": [
+              "Type=From Airport, Breakpoint=Desktop",
+              "Type=To Airport, Breakpoint=Desktop",
+              "Type=From Airport, Breakpoint=Tablet",
+              "Type=To Airport, Breakpoint=Tablet",
+              "Type=From Airport, Breakpoint=Mobile",
+              "Type=To Airport, Breakpoint=Mobile"
+            ],
+            "status": "warn",
+            "detail": "fill 1.06:1, needs 3:1 · #FAF8F7 on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1.06,
+              "required": 3,
+              "fg": "#FAF8F7",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Type=From Airport, Breakpoint=Desktop"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          }
+        ],
+        "occurrences": 9
       }
     ]
   },
   "delta": {
-    "since": "2026-11-19T14:18:25.505Z",
-    "previousScore": 6,
-    "newFails": [],
+    "since": "2026-11-20T10:25:03.857Z",
+    "previousScore": 7,
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Flight Delay / Flight Card",
+        "title": "Text gets cut off at 200% size",
+        "category": "Accessibility"
+      }
+    ],
     "fixed": []
   },
   "activity": []

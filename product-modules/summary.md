@@ -1,10 +1,13 @@
-## Atom parity: 7% (+1 since last run)
+## Atom parity: 7% (+0 since last run)
 
 0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 0 | 2 | 13 | 0 |
+
+### 1 new failure
+- **Flight Delay / Flight Card**: Text gets cut off at 200% size _(Accessibility)_
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 13 components (Both)

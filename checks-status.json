@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T10:25:04.447Z",
+  "generatedAt": "2026-11-20T12:07:13.168Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:03:10.507Z",
+      "ranAt": "2026-11-20T11:42:22.802Z",
       "ok": true,
       "history": [
         {
@@ -68,6 +68,10 @@
         {
           "at": "2026-11-20T10:03:10.507Z",
           "score": 19
+        },
+        {
+          "at": "2026-11-20T11:42:22.802Z",
+          "score": 20
         }
       ],
       "preview": {
@@ -83,7 +87,7 @@
         {
           "name": "Button",
           "status": "Broken",
-          "score": 61
+          "score": 65
         },
         {
           "name": "Button Group",
@@ -118,15 +122,15 @@
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 52
+          "score": 58
         },
         {
           "name": "Tag",
           "status": "Drifted",
-          "score": 58
+          "score": 61
         }
       ],
-      "score": 19,
+      "score": 20,
       "headline": "0 of 9 Figma components match Storybook. 1 has drifted, 2 are broken and 6 aren't built yet.",
       "counts": {
         "total": 9,
@@ -140,7 +144,7 @@
         "ignored": 0
       },
       "previousScore": 19,
-      "newFails": 0,
+      "newFails": 2,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -159,16 +163,16 @@
       },
       "a11y": {
         "ran": true,
-        "total": 3,
+        "total": 6,
         "counts": {
-          "critical": 1,
-          "serious": 1,
-          "moderate": 1,
+          "critical": 2,
+          "serious": 2,
+          "moderate": 2,
           "minor": 0
         },
-        "components": 2,
+        "components": 4,
         "scans": 39,
-        "designChecks": 215,
+        "designChecks": 230,
         "top": [
           {
             "title": "Button has no accessible name",
@@ -176,14 +180,14 @@
             "owner": "Dev"
           },
           {
-            "title": "Text contrast is too low in Storybook",
-            "impact": "serious",
-            "owner": "Design"
+            "title": "Can't be reached with the keyboard",
+            "impact": "critical",
+            "owner": "Dev"
           },
           {
-            "title": "Text contrast is too low in Figma",
-            "impact": "moderate",
-            "owner": "Design"
+            "title": "Field edge or icon is hard to see in Storybook",
+            "impact": "serious",
+            "owner": "Both"
           }
         ]
       }
@@ -193,7 +197,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:05:36.669Z",
+      "ranAt": "2026-11-20T11:44:46.500Z",
       "ok": true,
       "history": [
         {
@@ -238,6 +242,10 @@
         },
         {
           "at": "2026-11-20T10:05:36.669Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-20T11:44:46.500Z",
           "score": 22
         }
       ],
@@ -356,7 +364,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:09:33.378Z",
+      "ranAt": "2026-11-20T11:48:38.208Z",
       "ok": true,
       "history": [
         {
@@ -401,6 +409,10 @@
         },
         {
           "at": "2026-11-20T10:09:33.378Z",
+          "score": 23
+        },
+        {
+          "at": "2026-11-20T11:48:38.208Z",
           "score": 23
         }
       ],
@@ -514,7 +526,7 @@
         },
         "components": 2,
         "scans": 0,
-        "designChecks": 202,
+        "designChecks": 205,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
@@ -529,7 +541,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:12:46.194Z",
+      "ranAt": "2026-11-20T11:50:47.919Z",
       "ok": true,
       "history": [
         {
@@ -575,6 +587,10 @@
         {
           "at": "2026-11-20T10:12:46.194Z",
           "score": 36
+        },
+        {
+          "at": "2026-11-20T11:50:47.919Z",
+          "score": 36
         }
       ],
       "preview": {
@@ -595,12 +611,12 @@
         {
           "name": "Checkbox",
           "status": "Broken",
-          "score": 77
+          "score": 83
         },
         {
           "name": "Date Picker",
           "status": "Drifted",
-          "score": 38
+          "score": 39
         },
         {
           "name": "Input",
@@ -615,17 +631,17 @@
         {
           "name": "Radio Button",
           "status": "Drifted",
-          "score": 69
+          "score": 67
         },
         {
           "name": "Select",
           "status": "Broken",
-          "score": 29
+          "score": 30
         },
         {
           "name": "Switch",
           "status": "Drifted",
-          "score": 70
+          "score": 68
         },
         {
           "name": "Time Picker",
@@ -666,20 +682,25 @@
       },
       "a11y": {
         "ran": true,
-        "total": 1,
+        "total": 2,
         "counts": {
           "critical": 0,
           "serious": 1,
-          "moderate": 0,
+          "moderate": 1,
           "minor": 0
         },
-        "components": 2,
+        "components": 6,
         "scans": 6,
-        "designChecks": 179,
+        "designChecks": 423,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
             "impact": "serious",
+            "owner": "Design"
+          },
+          {
+            "title": "Field edge or icon is hard to see in Figma",
+            "impact": "moderate",
             "owner": "Design"
           }
         ]
@@ -690,7 +711,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:14:15.796Z",
+      "ranAt": "2026-11-20T11:54:20.162Z",
       "ok": true,
       "history": [
         {
@@ -736,6 +757,10 @@
         {
           "at": "2026-11-20T10:14:15.796Z",
           "score": 32
+        },
+        {
+          "at": "2026-11-20T11:54:20.162Z",
+          "score": 31
         }
       ],
       "preview": null,
@@ -743,7 +768,7 @@
         {
           "name": "Divider",
           "status": "Drifted",
-          "score": 63
+          "score": 61
         },
         {
           "name": "Overlay",
@@ -751,7 +776,7 @@
           "score": 0
         }
       ],
-      "score": 32,
+      "score": 31,
       "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
       "counts": {
         "total": 2,
@@ -783,18 +808,24 @@
         "order": 48
       },
       "a11y": {
-        "ran": false,
-        "total": 0,
+        "ran": true,
+        "total": 1,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 0,
+          "moderate": 1,
           "minor": 0
         },
-        "components": 0,
+        "components": 1,
         "scans": 0,
-        "designChecks": 0,
-        "top": []
+        "designChecks": 4,
+        "top": [
+          {
+            "title": "Field edge or icon is hard to see in Figma",
+            "impact": "moderate",
+            "owner": "Design"
+          }
+        ]
       }
     },
     {
@@ -802,7 +833,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:16:34.030Z",
+      "ranAt": "2026-11-20T11:56:06.946Z",
       "ok": true,
       "history": [
         {
@@ -848,6 +879,10 @@
         {
           "at": "2026-11-20T10:16:34.030Z",
           "score": 36
+        },
+        {
+          "at": "2026-11-20T11:56:06.946Z",
+          "score": 36
         }
       ],
       "preview": null,
@@ -855,7 +890,7 @@
         {
           "name": "App Header",
           "status": "Broken",
-          "score": 27
+          "score": 28
         },
         {
           "name": "Bottom Navigation",
@@ -921,20 +956,25 @@
       },
       "a11y": {
         "ran": true,
-        "total": 1,
+        "total": 2,
         "counts": {
           "critical": 0,
           "serious": 1,
-          "moderate": 0,
+          "moderate": 1,
           "minor": 0
         },
         "components": 1,
         "scans": 0,
-        "designChecks": 52,
+        "designChecks": 53,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
             "impact": "serious",
+            "owner": "Design"
+          },
+          {
+            "title": "Field edge or icon is hard to see in Figma",
+            "impact": "moderate",
             "owner": "Design"
           }
         ]
@@ -945,7 +985,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:17:55.519Z",
+      "ranAt": "2026-11-20T11:58:54.375Z",
       "ok": true,
       "history": [
         {
@@ -986,6 +1026,10 @@
         },
         {
           "at": "2026-11-20T10:17:55.519Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-20T11:58:54.375Z",
           "score": 15
         }
       ],
@@ -1053,7 +1097,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:19:25.976Z",
+      "ranAt": "2026-11-20T12:00:16.690Z",
       "ok": true,
       "history": [
         {
@@ -1098,6 +1142,10 @@
         },
         {
           "at": "2026-11-20T10:19:25.976Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-20T12:00:16.690Z",
           "score": 15
         }
       ],
@@ -1172,19 +1220,24 @@
       },
       "a11y": {
         "ran": true,
-        "total": 1,
+        "total": 2,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 1,
+          "moderate": 2,
           "minor": 0
         },
-        "components": 3,
+        "components": 4,
         "scans": 0,
-        "designChecks": 152,
+        "designChecks": 160,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
+            "impact": "moderate",
+            "owner": "Design"
+          },
+          {
+            "title": "Field edge or icon is hard to see in Figma",
             "impact": "moderate",
             "owner": "Design"
           }
@@ -1196,7 +1249,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:22:29.680Z",
+      "ranAt": "2026-11-20T12:05:26.122Z",
       "ok": true,
       "history": [
         {
@@ -1229,6 +1282,10 @@
         },
         {
           "at": "2026-11-20T10:22:29.680Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-20T12:05:26.122Z",
           "score": 0
         }
       ],
@@ -1391,7 +1448,9 @@
         "stale": true
       },
       "themes": [
-        "Not built in Storybook"
+        "Not built in Storybook",
+        "Field edge is hard to see in Figma",
+        "Icon is hard to see in Figma"
       ],
       "ignored": 0,
       "place": {
@@ -1401,17 +1460,23 @@
       },
       "a11y": {
         "ran": true,
-        "total": 0,
+        "total": 1,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 0,
+          "moderate": 1,
           "minor": 0
         },
-        "components": 0,
+        "components": 5,
         "scans": 0,
-        "designChecks": 187,
-        "top": []
+        "designChecks": 259,
+        "top": [
+          {
+            "title": "Field edge or icon is hard to see in Figma",
+            "impact": "moderate",
+            "owner": "Design"
+          }
+        ]
       }
     },
     {
@@ -1419,7 +1484,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T10:25:03.857Z",
+      "ranAt": "2026-11-20T12:07:12.716Z",
       "ok": true,
       "history": [
         {
@@ -1456,6 +1521,10 @@
         },
         {
           "at": "2026-11-20T10:25:03.857Z",
+          "score": 7
+        },
+        {
+          "at": "2026-11-20T12:07:12.716Z",
           "score": 7
         }
       ],
@@ -1502,7 +1571,7 @@
         {
           "name": "Flight Delay / Flight Card",
           "status": "Broken",
-          "score": 63
+          "score": 64
         },
         {
           "name": "Membership / Entitlement Card",
@@ -1558,8 +1627,8 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 6,
-      "newFails": 0,
+      "previousScore": 7,
+      "newFails": 1,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -1578,20 +1647,30 @@
       },
       "a11y": {
         "ran": true,
-        "total": 1,
+        "total": 3,
         "counts": {
           "critical": 0,
-          "serious": 1,
-          "moderate": 0,
+          "serious": 2,
+          "moderate": 1,
           "minor": 0
         },
-        "components": 2,
+        "components": 5,
         "scans": 3,
-        "designChecks": 55,
+        "designChecks": 64,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
             "impact": "serious",
+            "owner": "Design"
+          },
+          {
+            "title": "Text gets cut off at 200% size",
+            "impact": "serious",
+            "owner": "Both"
+          },
+          {
+            "title": "Field edge or icon is hard to see in Figma",
+            "impact": "moderate",
             "owner": "Design"
           }
         ]

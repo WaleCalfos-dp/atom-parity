@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T10:19:25.976Z",
-    "durationMs": 90435,
+    "generatedAt": "2026-11-20T12:00:16.690Z",
+    "durationMs": 82266,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-20T10:00:49Z"
       },
-      "exportedAt": "2026-11-20T10:18:35.714Z",
+      "exportedAt": "2026-11-20T11:59:11.747Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3482,6 +3482,198 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "warn",
+          "title": "Icon is hard to see in Figma",
+          "owner": "Design",
+          "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Mode=Dark",
+              "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Mode=Dark",
+              "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Mode=Dark",
+              "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Mode=Dark",
+              "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Mode=Light",
+              "detail": "icon 21:1, needs 3:1 · #000000 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 21,
+                "required": 3,
+                "fg": "#000000",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Mode=Light",
+              "detail": "icon 21:1, needs 3:1 · #000000 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 21,
+                "required": 3,
+                "fg": "#000000",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Mode=Light",
+              "detail": "icon 21:1, needs 3:1 · #000000 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 21,
+                "required": 3,
+                "fg": "#000000",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Mode=Light",
+              "detail": "icon 21:1, needs 3:1 · #000000 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 21,
+                "required": 3,
+                "fg": "#000000",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "icon",
+                "layer": "Home Indicator",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 4,
+            "warn": 4,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "Assurant"
+          ],
+          "variants": [
+            "Mode=Dark"
+          ]
+        },
+        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -6003,7 +6195,7 @@
     },
     "checks": {
       "pass": 10,
-      "warn": 7,
+      "warn": 8,
       "fail": 12
     },
     "byCategory": {
@@ -6029,7 +6221,7 @@
       },
       "Accessibility": {
         "pass": 2,
-        "warn": 3,
+        "warn": 4,
         "fail": 0
       },
       "Interaction": {
@@ -6050,7 +6242,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 6,
         "fail": 0
       },
       "Dev": {
@@ -6259,6 +6451,23 @@
         ]
       },
       {
+        "category": "Accessibility",
+        "title": "Icon is hard to see in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Home Indicator"
+        ],
+        "items": [
+          {
+            "component": "3096:9618",
+            "key": "Accessibility|design:non-text",
+            "title": "Icon is hard to see in Figma",
+            "componentName": "Home Indicator"
+          }
+        ]
+      },
+      {
         "category": "Properties",
         "title": "12 of 12 variants can't be shown in code",
         "status": "warn",
@@ -6378,6 +6587,24 @@
           "Assurant"
         ],
         "variants": 18
+      },
+      {
+        "component": "Home Indicator",
+        "componentKey": "3096:9618",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "subject": "design:non-text",
+        "status": "warn",
+        "title": "Icon is hard to see in Figma",
+        "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "Assurant"
+        ],
+        "variants": 1
       },
       {
         "component": "Home Indicator",
@@ -6547,21 +6774,21 @@
   "a11y": {
     "ran": true,
     "scans": 0,
-    "designChecks": 152,
+    "designChecks": 160,
     "brands": [],
     "counts": {
       "critical": 0,
       "serious": 0,
-      "moderate": 1,
+      "moderate": 2,
       "minor": 0
     },
-    "total": 1,
-    "components": 3,
+    "total": 2,
+    "components": 4,
     "byBrand": {
-      "Dragonpass": 24,
-      "Mastercard": 24,
-      "Investec": 36,
-      "Assurant": 24
+      "Dragonpass": 25,
+      "Mastercard": 25,
+      "Investec": 37,
+      "Assurant": 25
     },
     "criteria": [
       {
@@ -6569,10 +6796,344 @@
         "name": "Contrast (minimum)",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+        "auto": true,
+        "status": "warn",
+        "issues": 1
+      },
+      {
+        "sc": "1.4.11",
+        "name": "Non-text contrast",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+        "auto": true,
         "status": "warn",
         "issues": 1
       }
     ],
+    "manual": [
+      {
+        "sc": "1.1.1",
+        "name": "Non-text content",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content"
+      },
+      {
+        "sc": "1.2.1",
+        "name": "Audio-only and video-only (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded"
+      },
+      {
+        "sc": "1.2.2",
+        "name": "Captions (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded"
+      },
+      {
+        "sc": "1.2.3",
+        "name": "Audio description or media alternative (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded"
+      },
+      {
+        "sc": "1.2.4",
+        "name": "Captions (live)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live"
+      },
+      {
+        "sc": "1.2.5",
+        "name": "Audio description (prerecorded)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded"
+      },
+      {
+        "sc": "1.3.1",
+        "name": "Info and relationships",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships"
+      },
+      {
+        "sc": "1.3.2",
+        "name": "Meaningful sequence",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence"
+      },
+      {
+        "sc": "1.3.3",
+        "name": "Sensory characteristics",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics"
+      },
+      {
+        "sc": "1.3.4",
+        "name": "Orientation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/orientation"
+      },
+      {
+        "sc": "1.3.5",
+        "name": "Identify input purpose",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose"
+      },
+      {
+        "sc": "1.4.1",
+        "name": "Use of colour",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color"
+      },
+      {
+        "sc": "1.4.2",
+        "name": "Audio control",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control"
+      },
+      {
+        "sc": "1.4.4",
+        "name": "Resize text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text"
+      },
+      {
+        "sc": "1.4.5",
+        "name": "Images of text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text"
+      },
+      {
+        "sc": "1.4.10",
+        "name": "Reflow",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow"
+      },
+      {
+        "sc": "1.4.12",
+        "name": "Text spacing",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing"
+      },
+      {
+        "sc": "1.4.13",
+        "name": "Content on hover or focus",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus"
+      },
+      {
+        "sc": "2.1.1",
+        "name": "Keyboard",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard"
+      },
+      {
+        "sc": "2.1.2",
+        "name": "No keyboard trap",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap"
+      },
+      {
+        "sc": "2.1.4",
+        "name": "Character key shortcuts",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts"
+      },
+      {
+        "sc": "2.2.1",
+        "name": "Timing adjustable",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable"
+      },
+      {
+        "sc": "2.2.2",
+        "name": "Pause, stop, hide",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide"
+      },
+      {
+        "sc": "2.3.1",
+        "name": "Three flashes or below threshold",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold"
+      },
+      {
+        "sc": "2.4.1",
+        "name": "Bypass blocks",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks"
+      },
+      {
+        "sc": "2.4.2",
+        "name": "Page titled",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled"
+      },
+      {
+        "sc": "2.4.3",
+        "name": "Focus order",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order"
+      },
+      {
+        "sc": "2.4.4",
+        "name": "Link purpose (in context)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context"
+      },
+      {
+        "sc": "2.4.5",
+        "name": "Multiple ways",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways"
+      },
+      {
+        "sc": "2.4.6",
+        "name": "Headings and labels",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels"
+      },
+      {
+        "sc": "2.4.7",
+        "name": "Focus visible",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible"
+      },
+      {
+        "sc": "2.4.11",
+        "name": "Focus not obscured (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum"
+      },
+      {
+        "sc": "2.5.1",
+        "name": "Pointer gestures",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures"
+      },
+      {
+        "sc": "2.5.2",
+        "name": "Pointer cancellation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation"
+      },
+      {
+        "sc": "2.5.3",
+        "name": "Label in name",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name"
+      },
+      {
+        "sc": "2.5.4",
+        "name": "Motion actuation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation"
+      },
+      {
+        "sc": "2.5.7",
+        "name": "Dragging movements",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements"
+      },
+      {
+        "sc": "2.5.8",
+        "name": "Target size (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum"
+      },
+      {
+        "sc": "3.1.1",
+        "name": "Language of page",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page"
+      },
+      {
+        "sc": "3.1.2",
+        "name": "Language of parts",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts"
+      },
+      {
+        "sc": "3.2.1",
+        "name": "On focus",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus"
+      },
+      {
+        "sc": "3.2.2",
+        "name": "On input",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-input"
+      },
+      {
+        "sc": "3.2.3",
+        "name": "Consistent navigation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation"
+      },
+      {
+        "sc": "3.2.4",
+        "name": "Consistent identification",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification"
+      },
+      {
+        "sc": "3.2.6",
+        "name": "Consistent help",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help"
+      },
+      {
+        "sc": "3.3.1",
+        "name": "Error identification",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+      },
+      {
+        "sc": "3.3.2",
+        "name": "Labels or instructions",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions"
+      },
+      {
+        "sc": "3.3.3",
+        "name": "Error suggestion",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion"
+      },
+      {
+        "sc": "3.3.4",
+        "name": "Error prevention (legal, financial, data)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data"
+      },
+      {
+        "sc": "3.3.7",
+        "name": "Redundant entry",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry"
+      },
+      {
+        "sc": "3.3.8",
+        "name": "Accessible authentication (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum"
+      },
+      {
+        "sc": "4.1.2",
+        "name": "Name, role, value",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value"
+      },
+      {
+        "sc": "4.1.3",
+        "name": "Status messages",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages"
+      }
+    ],
+    "coverage": {
+      "tested": 2,
+      "total": 55
+    },
     "issues": [
       {
         "items": [
@@ -6600,7 +7161,8 @@
           "sc": "1.4.3",
           "name": "Contrast (minimum)",
           "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+          "auto": true
         },
         "title": "Text contrast is too low in Figma",
         "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
@@ -6951,11 +7513,146 @@
           }
         ],
         "occurrences": 108
+      },
+      {
+        "items": [
+          {
+            "component": "3096:9618",
+            "key": "Accessibility|design:non-text",
+            "title": "Icon is hard to see in Figma",
+            "componentName": "Home Indicator"
+          }
+        ],
+        "rule": "design-non-text",
+        "criterion": {
+          "sc": "1.4.11",
+          "name": "Non-text contrast",
+          "level": "AA",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+          "auto": true
+        },
+        "title": "Field edge or icon is hard to see in Figma",
+        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
+        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
+        "impact": "moderate",
+        "status": "warn",
+        "owner": "Design",
+        "source": "design",
+        "help": null,
+        "components": [
+          {
+            "name": "Home Indicator",
+            "key": "3096:9618"
+          }
+        ],
+        "where": [
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Icon is hard to see in Figma",
+            "component": "Home Indicator",
+            "componentKey": "3096:9618",
+            "brand": "Dragonpass",
+            "variants": [
+              "Mode=Dark"
+            ],
+            "status": "warn",
+            "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Mode=Dark"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Icon is hard to see in Figma",
+            "component": "Home Indicator",
+            "componentKey": "3096:9618",
+            "brand": "Mastercard",
+            "variants": [
+              "Mode=Dark"
+            ],
+            "status": "warn",
+            "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Mode=Dark"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Icon is hard to see in Figma",
+            "component": "Home Indicator",
+            "componentKey": "3096:9618",
+            "brand": "Investec",
+            "variants": [
+              "Mode=Dark"
+            ],
+            "status": "warn",
+            "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Mode=Dark"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Icon is hard to see in Figma",
+            "component": "Home Indicator",
+            "componentKey": "3096:9618",
+            "brand": "Assurant",
+            "variants": [
+              "Mode=Dark"
+            ],
+            "status": "warn",
+            "detail": "icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Mode=Dark"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          }
+        ],
+        "occurrences": 4
       }
     ]
   },
   "delta": {
-    "since": "2026-11-19T14:09:02.224Z",
+    "since": "2026-11-20T10:19:25.976Z",
     "previousScore": 15,
     "newFails": [],
     "fixed": []

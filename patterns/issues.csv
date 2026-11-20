@@ -23,6 +23,15 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16047-1891
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-16047%3A1891
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Booking Widget: Field edge is hard to see in Figma","fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
+
+Brands: Dragonpass
+Variants: Type=No Pre-Select, Background Fill=Comfortable; Type=No Pre-Select, Background Fill=Cozy; Type=Pre-Select, Background Fill=Comfortable; Type=Pre-Select, Background Fill=Cozy
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17104-34171
+Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-17104%3A34171
+
+Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Booking Widget: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17104-34171
@@ -35,6 +44,15 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15327-32950
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15327%3A32950
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Checkout: Field edge is hard to see in Figma","fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
+
+Brands: Dragonpass, Mastercard, Investec, Assurant
+Variants: State=Discount Code Field
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15759-2797
+Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15759%3A2797
+
+Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Checkout: Not found in Storybook","Possible matches: Data Entry/Checkbox. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15759-2797
@@ -47,6 +65,15 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16640-23428
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-16640%3A23428
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Global Search: Field edge is hard to see in Figma","fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
+
+Brands: Dragonpass, Mastercard, Investec, Assurant
+Variants: State=True Empty, Breakpoint=Desktop, Focus=Yes; State=True Empty, Breakpoint=Desktop, Focus=No; State=Empty, Breakpoint=Desktop, Focus=Yes; State=Empty, Breakpoint=Desktop, Focus=No; State=Empty, Breakpoint=Mobile, Focus=No; State=Results, Breakpoint=Mobile, Focus=Yes; State=Results, Breakpoint=Mobile, Focus=No; State=No Result, Breakpoint=Mobile, Focus=Yes (+16 more)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15598-89150
+Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15598%3A89150
+
+Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Global Search: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15598-89150
@@ -119,6 +146,15 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8094-11608
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-8094%3A11608
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Payment Card: Field edge is hard to see in Figma","fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
+
+Brands: Mastercard, Investec, Assurant
+Variants: Expired=No, Type=Selector Right; Expired=No, Type=Selector Left; Expired=Yes, Type=Selector Right; Expired=Yes, Type=Selector Left
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15695-14328
+Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15695%3A14328
+
+Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Payment Card: Not found in Storybook","Possible matches: Data Display/Card, Business Components/PayCard. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15695-14328
@@ -137,6 +173,15 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3298-3183
 Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-3298%3A3183
 
 Found by atom-parity on 2026-11-20","Task","High","atom-parity parity-naming owner-both","Atom Design System"
+"[Atom parity] Scroll Bar: Icon is hard to see in Figma","icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)
+
+Brands: Dragonpass
+Variants: Vertical=Default, Length=25%; Vertical=Vertical4, Length=75%; Vertical=Vertical3, Length=50%; Vertical=Horizontal, Length=25%; Vertical=Vertical5, Length=50%; Vertical=Vertical6, Length=75%
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15598-87162
+Report: https://walecalfos-dp.github.io/atom-parity/patterns/#c-15598%3A87162
+
+Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Scroll Bar: Not found in Storybook","Possible matches: Data Display/ScrollView. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15598-87162

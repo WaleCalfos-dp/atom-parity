@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T10:03:10.507Z",
-    "durationMs": 146244,
+    "generatedAt": "2026-11-20T11:42:22.802Z",
+    "durationMs": 141767,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T10:00:48Z"
+        "lastModified": "2026-11-20T10:00:49Z"
       },
-      "exportedAt": "2026-11-20T10:02:12.326Z",
+      "exportedAt": "2026-11-20T11:41:22.629Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 61,
+      "score": 65,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -2784,7 +2784,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2804,7 +2804,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2814,7 +2814,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2824,7 +2824,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2844,7 +2844,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2854,7 +2854,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2874,7 +2874,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2884,7 +2884,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2894,7 +2894,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2914,7 +2914,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2924,7 +2924,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2934,7 +2934,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2944,7 +2944,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2964,7 +2964,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2974,7 +2974,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2984,7 +2984,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3014,7 +3014,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Large, State=Disabled",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3064,7 +3064,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3075,36 +3075,6 @@
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Default",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Regular, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Primary, Size=Regular, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3164,7 +3134,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3174,7 +3144,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3184,7 +3154,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3194,7 +3164,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3264,7 +3234,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3293,7 +3263,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 54,
+            "warn": 51,
             "fail": 0,
             "info": 0
           },
@@ -3314,7 +3284,6 @@
             "Type=Primary, Size=Large, State=Disabled",
             "Type=Primary, Size=Large, State=Loading",
             "Type=Primary, Size=Regular, State=Default",
-            "Type=Primary, Size=Regular, State=Hover",
             "Type=Primary, Size=Regular, State=Disabled",
             "Type=Primary, Size=Regular, State=Loading",
             "Type=Primary, Size=Small, State=Hover",
@@ -18145,7 +18114,7 @@
           "key": "Accessibility|axe",
           "category": "Accessibility",
           "subject": "axe",
-          "label": "Automated WCAG 2.2 AA scan",
+          "label": "Automated WCAG 2.2 A and AA scan",
           "status": "pass",
           "title": "Automated scan ran",
           "owner": "Dev",
@@ -18163,7 +18132,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18173,7 +18150,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18183,7 +18168,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18193,7 +18186,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18203,7 +18204,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18213,7 +18222,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18223,7 +18240,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18233,7 +18258,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18243,7 +18276,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18253,7 +18294,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18263,7 +18312,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18273,7 +18330,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "2.5.8",
+                  "3.1.2",
+                  "1.4.3"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18283,7 +18348,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18293,7 +18366,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18303,7 +18384,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18313,7 +18402,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18323,7 +18420,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18333,7 +18438,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18343,7 +18456,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18353,7 +18474,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18363,7 +18492,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18373,7 +18510,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18383,7 +18526,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18393,7 +18542,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18403,7 +18558,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18413,7 +18576,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18423,7 +18594,15 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18433,7 +18612,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18443,7 +18628,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18453,7 +18644,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18463,7 +18660,13 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -18473,13 +18676,60 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "1 rule failed",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "3.1.2"
+                ]
+              }
+            }
+          ],
+          "counts": {
+            "pass": 33,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:keyboard-trap",
+          "category": "Accessibility",
+          "subject": "aa:keyboard-trap",
+          "label": "No keyboard trap",
+          "status": "pass",
+          "title": "Keyboard focus can leave the component",
+          "owner": "Dev",
+          "detail": null,
+          "meta": {
+            "rule": "keyboard-trap",
+            "source": "code",
+            "impact": "critical"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Default",
+              "detail": null,
               "figma": null,
               "code": null,
               "image": null,
@@ -18487,7 +18737,143 @@
             }
           ],
           "counts": {
-            "pass": 33,
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:focus-obscured",
+          "category": "Accessibility",
+          "subject": "aa:focus-obscured",
+          "label": "Focus not obscured",
+          "status": "pass",
+          "title": "Focused controls stay visible",
+          "owner": "Dev",
+          "detail": null,
+          "meta": {
+            "rule": "focus-obscured",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Default",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:resize-text",
+          "category": "Accessibility",
+          "subject": "aa:resize-text",
+          "label": "Resize text",
+          "status": "pass",
+          "title": "Nothing is cut off at 200% text",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "resize-text",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Default",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:text-spacing",
+          "category": "Accessibility",
+          "subject": "aa:text-spacing",
+          "label": "Text spacing",
+          "status": "pass",
+          "title": "Nothing is cut off with wider text spacing",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "text-spacing",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Default",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:reflow",
+          "category": "Accessibility",
+          "subject": "aa:reflow",
+          "label": "Reflow",
+          "status": "pass",
+          "title": "Fits a 320px-wide screen",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "reflow",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Default",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -18911,6 +19297,40 @@
                 "h": 58,
                 "min": 24
               }
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Interaction|keyboard",
+          "category": "Interaction",
+          "subject": "keyboard",
+          "label": "Keyboard",
+          "status": "pass",
+          "title": "Can be reached with the keyboard",
+          "owner": "Dev",
+          "detail": null,
+          "meta": {
+            "rule": "keyboard",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": null,
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
             }
           ],
           "counts": {
@@ -22560,6 +22980,199 @@
       "code": null,
       "checks": [
         {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "warn",
+          "title": "Field edge is hard to see in Figma",
+          "owner": "Design",
+          "detail": "border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Style=Default",
+              "detail": "border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.6,
+                "required": 3,
+                "fg": "#CECCCC",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "border",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Style=Default",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Style=Default",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Style=Default",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Style=No Border",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Style=No Border",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Style=No Border",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Style=No Border",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 8,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec",
+            "Assurant"
+          ],
+          "variants": [
+            "Style=Default",
+            "Style=No Border"
+          ]
+        },
+        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -24367,7 +24980,7 @@
       "key": "1702:72060",
       "name": "Stepper",
       "status": "Broken",
-      "score": 52,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "1702:72060",
@@ -24873,7 +25486,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Style=Input",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -24883,7 +25496,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Style=Input",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -24893,7 +25506,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -24903,7 +25516,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -24913,7 +25526,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -25085,7 +25698,7 @@
           "key": "Accessibility|axe",
           "category": "Accessibility",
           "subject": "axe",
-          "label": "Automated WCAG 2.2 AA scan",
+          "label": "Automated WCAG 2.2 A and AA scan",
           "status": "pass",
           "title": "Automated scan ran",
           "owner": "Dev",
@@ -25103,7 +25716,16 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.3.2",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -25113,7 +25735,16 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.3.2",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -25123,7 +25754,16 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.3.2",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -25133,7 +25773,16 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.3.2",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -25143,7 +25792,16 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.3.2",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             },
             {
               "status": "pass",
@@ -25153,11 +25811,396 @@
               "figma": null,
               "code": null,
               "image": null,
-              "extra": null
+              "extra": {
+                "covers": [
+                  "4.1.2",
+                  "1.4.12",
+                  "1.4.3",
+                  "3.3.2",
+                  "2.5.8",
+                  "3.1.2"
+                ]
+              }
             }
           ],
           "counts": {
             "pass": 6,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:non-text",
+          "category": "Accessibility",
+          "subject": "aa:non-text",
+          "label": "Non-text contrast",
+          "status": "fail",
+          "title": "Field edge is hard to see",
+          "owner": "Dev",
+          "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+          "meta": {
+            "rule": "non-text-contrast",
+            "source": "code",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "target": "input.aum-stepper-field"
+              }
+            },
+            {
+              "status": "fail",
+              "brand": "Mastercard",
+              "variant": "Style=Input",
+              "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "target": "input.aum-stepper-field"
+              }
+            },
+            {
+              "status": "fail",
+              "brand": "Investec",
+              "variant": "Style=Input",
+              "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "target": "input.aum-stepper-field"
+              }
+            },
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Style=Card",
+              "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "target": "input.aum-stepper-field"
+              }
+            },
+            {
+              "status": "fail",
+              "brand": "Mastercard",
+              "variant": "Style=Card",
+              "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "target": "input.aum-stepper-field"
+              }
+            },
+            {
+              "status": "fail",
+              "brand": "Investec",
+              "variant": "Style=Card",
+              "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "target": "input.aum-stepper-field"
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 6,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass",
+            "Mastercard",
+            "Investec"
+          ],
+          "variants": [
+            "Style=Input",
+            "Style=Card"
+          ]
+        },
+        {
+          "key": "Accessibility|aa:keyboard-all",
+          "category": "Accessibility",
+          "subject": "aa:keyboard-all",
+          "label": "Keyboard",
+          "status": "fail",
+          "title": "A control can't be reached with the keyboard",
+          "owner": "Dev",
+          "detail": "input.aum-stepper-field never receives focus when tabbing",
+          "meta": {
+            "rule": "keyboard",
+            "source": "code",
+            "impact": "critical"
+          },
+          "instances": [
+            {
+              "status": "fail",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": "input.aum-stepper-field never receives focus when tabbing",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "target": "input.aum-stepper-field"
+              }
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [
+            "Dragonpass"
+          ],
+          "variants": [
+            "Style=Input"
+          ]
+        },
+        {
+          "key": "Accessibility|aa:keyboard-trap",
+          "category": "Accessibility",
+          "subject": "aa:keyboard-trap",
+          "label": "No keyboard trap",
+          "status": "pass",
+          "title": "Keyboard focus can leave the component",
+          "owner": "Dev",
+          "detail": null,
+          "meta": {
+            "rule": "keyboard-trap",
+            "source": "code",
+            "impact": "critical"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:focus-visible-all",
+          "category": "Accessibility",
+          "subject": "aa:focus-visible-all",
+          "label": "Focus visible",
+          "status": "pass",
+          "title": "Every control shows focus",
+          "owner": "Dev",
+          "detail": null,
+          "meta": {
+            "rule": "focus-visible",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "target": "button.aum-stepper-plus"
+              }
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:focus-obscured",
+          "category": "Accessibility",
+          "subject": "aa:focus-obscured",
+          "label": "Focus not obscured",
+          "status": "pass",
+          "title": "Focused controls stay visible",
+          "owner": "Dev",
+          "detail": null,
+          "meta": {
+            "rule": "focus-obscured",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:resize-text",
+          "category": "Accessibility",
+          "subject": "aa:resize-text",
+          "label": "Resize text",
+          "status": "pass",
+          "title": "Nothing is cut off at 200% text",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "resize-text",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:text-spacing",
+          "category": "Accessibility",
+          "subject": "aa:text-spacing",
+          "label": "Text spacing",
+          "status": "pass",
+          "title": "Nothing is cut off with wider text spacing",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "text-spacing",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Accessibility|aa:reflow",
+          "category": "Accessibility",
+          "subject": "aa:reflow",
+          "label": "Reflow",
+          "status": "pass",
+          "title": "Fits a 320px-wide screen",
+          "owner": "Both",
+          "detail": null,
+          "meta": {
+            "rule": "reflow",
+            "source": "code"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": null,
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 1,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -25572,6 +26615,139 @@
           },
           "brands": [],
           "variants": []
+        },
+        {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "warn",
+          "title": "Field edge is hard to see in Figma",
+          "owner": "Design",
+          "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Style=Input",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "value",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Style=Input",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "value",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Assurant",
+              "variant": "Style=Input",
+              "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1,
+                "required": 3,
+                "fg": "#FFFFFF",
+                "bg": "#FFFFFF",
+                "fgToken": "background/interactive/control",
+                "bgToken": null,
+                "part": "fill",
+                "layer": "value",
+                "assumed": true
+              }
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Style=Card",
+              "detail": "border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 1.6,
+                "required": 3,
+                "fg": "#CECCCC",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "border",
+                "layer": "Style=Card",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Style=Input",
+              "detail": "border 3.19:1, needs 3:1 · #91908F on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 3.19,
+                "required": 3,
+                "fg": "#91908F",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "border",
+                "layer": "value",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 1,
+            "warn": 4,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [
+            "Mastercard",
+            "Investec",
+            "Assurant",
+            "Dragonpass"
+          ],
+          "variants": [
+            "Style=Input",
+            "Style=Card"
+          ]
         }
       ],
       "gallery": [
@@ -25679,7 +26855,7 @@
       "key": "1885:4061",
       "name": "Tag",
       "status": "Drifted",
-      "score": 58,
+      "score": 61,
       "match": "exact",
       "figma": {
         "id": "1885:4061",
@@ -26831,6 +28007,71 @@
             "State=Selected, Size=Regular",
             "State=Selected, Size=Small"
           ]
+        },
+        {
+          "key": "Accessibility|design:non-text",
+          "category": "Accessibility",
+          "subject": "design:non-text",
+          "label": "Non-text contrast in Figma",
+          "status": "pass",
+          "title": "Field edges and icons reach 3:1 in Figma",
+          "owner": "Design",
+          "detail": "fill 16.14:1, needs 3:1 · #0A2333 on #FFFFFF (measured on white)",
+          "meta": {
+            "rule": "design-non-text",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "State=Selected, Size=Regular",
+              "detail": "fill 16.14:1, needs 3:1 · #0A2333 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 16.14,
+                "required": 3,
+                "fg": "#0A2333",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "State=Selected, Size=Small",
+              "detail": "fill 16.14:1, needs 3:1 · #0A2333 on #FFFFFF (measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 16.14,
+                "required": 3,
+                "fg": "#0A2333",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "part": "fill",
+                "layer": "container",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 2,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
         }
       ],
       "gallery": [],
@@ -26839,7 +28080,7 @@
     }
   ],
   "summary": {
-    "score": 19,
+    "score": 20,
     "headline": "0 of 9 Figma components match Storybook. 1 has drifted, 2 are broken and 6 aren't built yet.",
     "components": {
       "total": 9,
@@ -26853,9 +28094,9 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 32,
-      "warn": 34,
-      "fail": 23
+      "pass": 45,
+      "warn": 36,
+      "fail": 25
     },
     "byCategory": {
       "Naming": {
@@ -26879,12 +28120,12 @@
         "fail": 2
       },
       "Accessibility": {
-        "pass": 5,
-        "warn": 2,
-        "fail": 2
+        "pass": 17,
+        "warn": 4,
+        "fail": 4
       },
       "Interaction": {
-        "pass": 3,
+        "pass": 4,
         "warn": 0,
         "fail": 0
       },
@@ -26901,12 +28142,12 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 8,
+        "warn": 10,
         "fail": 1
       },
       "Dev": {
         "warn": 3,
-        "fail": 3
+        "fail": 5
       },
       "Both": {
         "warn": 23,
@@ -27181,7 +28422,9 @@
         "name": "Stepper",
         "key": "1702:72060",
         "reasons": [
-          "Height differs from design"
+          "Height differs from design",
+          "Field edge is hard to see",
+          "A control can't be reached with the keyboard"
         ]
       }
     ],
@@ -27279,7 +28522,7 @@
           "Mastercard",
           "Investec"
         ],
-        "variants": 18
+        "variants": 17
       },
       {
         "component": "Button",
@@ -27685,6 +28928,24 @@
       {
         "component": "Quantity Stepper",
         "componentKey": "18198:9455",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "subject": "design:non-text",
+        "status": "warn",
+        "title": "Field edge is hard to see in Figma",
+        "detail": "border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec",
+          "Assurant"
+        ],
+        "variants": 2
+      },
+      {
+        "component": "Quantity Stepper",
+        "componentKey": "18198:9455",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -27838,6 +29099,38 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Accessibility|aa:non-text",
+        "category": "Accessibility",
+        "subject": "aa:non-text",
+        "status": "fail",
+        "title": "Field edge is hard to see",
+        "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+        "owner": "Dev",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec"
+        ],
+        "variants": 2
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Accessibility|aa:keyboard-all",
+        "category": "Accessibility",
+        "subject": "aa:keyboard-all",
+        "status": "fail",
+        "title": "A control can't be reached with the keyboard",
+        "detail": "input.aum-stepper-field never receives focus when tabbing",
+        "owner": "Dev",
+        "brands": [
+          "Dragonpass"
+        ],
+        "variants": 1
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
         "key": "Tokens|value:Border colour",
         "category": "Tokens",
         "subject": "value:Border colour",
@@ -27934,6 +29227,24 @@
           "Investec"
         ],
         "variants": 1
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "subject": "design:non-text",
+        "status": "warn",
+        "title": "Field edge is hard to see in Figma",
+        "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+        "owner": "Design",
+        "brands": [
+          "Mastercard",
+          "Investec",
+          "Assurant",
+          "Dragonpass"
+        ],
+        "variants": 2
       },
       {
         "component": "Tag",
@@ -28048,25 +29359,25 @@
   "a11y": {
     "ran": true,
     "scans": 39,
-    "designChecks": 215,
+    "designChecks": 230,
     "brands": [
       "Dragonpass",
       "Mastercard",
       "Investec"
     ],
     "counts": {
-      "critical": 1,
-      "serious": 1,
-      "moderate": 1,
+      "critical": 2,
+      "serious": 2,
+      "moderate": 2,
       "minor": 0
     },
-    "total": 3,
-    "components": 2,
+    "total": 6,
+    "components": 4,
     "byBrand": {
-      "Dragonpass": 3,
-      "Mastercard": 5,
-      "Investec": 8,
-      "Assurant": 2
+      "Dragonpass": 9,
+      "Mastercard": 10,
+      "Investec": 13,
+      "Assurant": 5
     },
     "criteria": [
       {
@@ -28074,6 +29385,7 @@
         "name": "Non-text content",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content",
+        "auto": true,
         "status": "pass",
         "issues": 0
       },
@@ -28082,6 +29394,7 @@
         "name": "Info and relationships",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships",
+        "auto": true,
         "status": "pass",
         "issues": 0
       },
@@ -28090,14 +29403,79 @@
         "name": "Contrast (minimum)",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+        "auto": true,
         "status": "fail",
         "issues": 2
+      },
+      {
+        "sc": "1.4.4",
+        "name": "Resize text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "1.4.10",
+        "name": "Reflow",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "1.4.11",
+        "name": "Non-text contrast",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+        "auto": true,
+        "status": "fail",
+        "issues": 2
+      },
+      {
+        "sc": "1.4.12",
+        "name": "Text spacing",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "2.1.1",
+        "name": "Keyboard",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard",
+        "auto": true,
+        "status": "fail",
+        "issues": 1
+      },
+      {
+        "sc": "2.1.2",
+        "name": "No keyboard trap",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "2.4.7",
         "name": "Focus visible",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "2.4.11",
+        "name": "Focus not obscured (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum",
+        "auto": true,
         "status": "pass",
         "issues": 0
       },
@@ -28106,6 +29484,25 @@
         "name": "Target size (minimum)",
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum",
+        "auto": true,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "3.1.2",
+        "name": "Language of parts",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts",
+        "auto": false,
+        "status": "pass",
+        "issues": 0
+      },
+      {
+        "sc": "3.3.2",
+        "name": "Labels or instructions",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions",
+        "auto": true,
         "status": "pass",
         "issues": 0
       },
@@ -28114,10 +29511,257 @@
         "name": "Name, role, value",
         "level": "A",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value",
+        "auto": true,
         "status": "fail",
         "issues": 1
       }
     ],
+    "manual": [
+      {
+        "sc": "1.2.1",
+        "name": "Audio-only and video-only (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded"
+      },
+      {
+        "sc": "1.2.2",
+        "name": "Captions (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded"
+      },
+      {
+        "sc": "1.2.3",
+        "name": "Audio description or media alternative (prerecorded)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded"
+      },
+      {
+        "sc": "1.2.4",
+        "name": "Captions (live)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-live"
+      },
+      {
+        "sc": "1.2.5",
+        "name": "Audio description (prerecorded)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded"
+      },
+      {
+        "sc": "1.3.2",
+        "name": "Meaningful sequence",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence"
+      },
+      {
+        "sc": "1.3.3",
+        "name": "Sensory characteristics",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics"
+      },
+      {
+        "sc": "1.3.4",
+        "name": "Orientation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/orientation"
+      },
+      {
+        "sc": "1.3.5",
+        "name": "Identify input purpose",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose"
+      },
+      {
+        "sc": "1.4.1",
+        "name": "Use of colour",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color"
+      },
+      {
+        "sc": "1.4.2",
+        "name": "Audio control",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-control"
+      },
+      {
+        "sc": "1.4.5",
+        "name": "Images of text",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/images-of-text"
+      },
+      {
+        "sc": "1.4.13",
+        "name": "Content on hover or focus",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/content-on-hover-or-focus"
+      },
+      {
+        "sc": "2.1.4",
+        "name": "Character key shortcuts",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/character-key-shortcuts"
+      },
+      {
+        "sc": "2.2.1",
+        "name": "Timing adjustable",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable"
+      },
+      {
+        "sc": "2.2.2",
+        "name": "Pause, stop, hide",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide"
+      },
+      {
+        "sc": "2.3.1",
+        "name": "Three flashes or below threshold",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold"
+      },
+      {
+        "sc": "2.4.1",
+        "name": "Bypass blocks",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks"
+      },
+      {
+        "sc": "2.4.2",
+        "name": "Page titled",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/page-titled"
+      },
+      {
+        "sc": "2.4.3",
+        "name": "Focus order",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order"
+      },
+      {
+        "sc": "2.4.4",
+        "name": "Link purpose (in context)",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context"
+      },
+      {
+        "sc": "2.4.5",
+        "name": "Multiple ways",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways"
+      },
+      {
+        "sc": "2.4.6",
+        "name": "Headings and labels",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels"
+      },
+      {
+        "sc": "2.5.1",
+        "name": "Pointer gestures",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures"
+      },
+      {
+        "sc": "2.5.2",
+        "name": "Pointer cancellation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation"
+      },
+      {
+        "sc": "2.5.3",
+        "name": "Label in name",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name"
+      },
+      {
+        "sc": "2.5.4",
+        "name": "Motion actuation",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/motion-actuation"
+      },
+      {
+        "sc": "2.5.7",
+        "name": "Dragging movements",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements"
+      },
+      {
+        "sc": "3.1.1",
+        "name": "Language of page",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page"
+      },
+      {
+        "sc": "3.2.1",
+        "name": "On focus",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-focus"
+      },
+      {
+        "sc": "3.2.2",
+        "name": "On input",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/on-input"
+      },
+      {
+        "sc": "3.2.3",
+        "name": "Consistent navigation",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation"
+      },
+      {
+        "sc": "3.2.4",
+        "name": "Consistent identification",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification"
+      },
+      {
+        "sc": "3.2.6",
+        "name": "Consistent help",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help"
+      },
+      {
+        "sc": "3.3.1",
+        "name": "Error identification",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification"
+      },
+      {
+        "sc": "3.3.3",
+        "name": "Error suggestion",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion"
+      },
+      {
+        "sc": "3.3.4",
+        "name": "Error prevention (legal, financial, data)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data"
+      },
+      {
+        "sc": "3.3.7",
+        "name": "Redundant entry",
+        "level": "A",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry"
+      },
+      {
+        "sc": "3.3.8",
+        "name": "Accessible authentication (minimum)",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum"
+      },
+      {
+        "sc": "4.1.3",
+        "name": "Status messages",
+        "level": "AA",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages"
+      }
+    ],
+    "coverage": {
+      "tested": 15,
+      "total": 55
+    },
     "issues": [
       {
         "items": [
@@ -28133,7 +29777,8 @@
           "sc": "4.1.2",
           "name": "Name, role, value",
           "level": "A",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value"
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value",
+          "auto": true
         },
         "title": "Button has no accessible name",
         "why": "Screen readers announce only \"button\", so people can't tell what it does.",
@@ -28210,6 +29855,201 @@
       {
         "items": [
           {
+            "component": "1702:72060",
+            "key": "Accessibility|aa:keyboard-all",
+            "title": "A control can't be reached with the keyboard",
+            "componentName": "Stepper"
+          }
+        ],
+        "rule": "keyboard",
+        "criterion": {
+          "sc": "2.1.1",
+          "name": "Keyboard",
+          "level": "A",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard",
+          "auto": true
+        },
+        "title": "Can't be reached with the keyboard",
+        "why": "Keyboard and switch users can't use the component at all.",
+        "fix": "Use a native button or link, or add tabindex=\"0\" and key handlers.",
+        "impact": "critical",
+        "status": "fail",
+        "owner": "Dev",
+        "source": "code",
+        "help": null,
+        "components": [
+          {
+            "name": "Stepper",
+            "key": "1702:72060"
+          }
+        ],
+        "where": [
+          {
+            "checkKey": "Accessibility|aa:keyboard-all",
+            "title": "A control can't be reached with the keyboard",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Dragonpass",
+            "variants": [
+              "Style=Input"
+            ],
+            "status": "fail",
+            "detail": "input.aum-stepper-field never receives focus when tabbing",
+            "contrast": null,
+            "design": null,
+            "target": "input.aum-stepper-field",
+            "size": null
+          }
+        ],
+        "occurrences": 1
+      },
+      {
+        "items": [
+          {
+            "component": "1702:72060",
+            "key": "Accessibility|aa:non-text",
+            "title": "Field edge is hard to see",
+            "componentName": "Stepper"
+          }
+        ],
+        "rule": "non-text-contrast",
+        "criterion": {
+          "sc": "1.4.11",
+          "name": "Non-text contrast",
+          "level": "AA",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+          "auto": true
+        },
+        "title": "Field edge or icon is hard to see in Storybook",
+        "why": "People with low vision can't find the field, checkbox or icon-only button.",
+        "fix": "Give the border, fill or icon at least 3:1 contrast against what is around it.",
+        "impact": "serious",
+        "status": "fail",
+        "owner": "Both",
+        "source": "code",
+        "help": null,
+        "components": [
+          {
+            "name": "Stepper",
+            "key": "1702:72060"
+          }
+        ],
+        "where": [
+          {
+            "checkKey": "Accessibility|aa:non-text",
+            "title": "Field edge is hard to see",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Dragonpass",
+            "variants": [
+              "Style=Input",
+              "Style=Card"
+            ],
+            "status": "fail",
+            "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": false,
+              "variant": "Style=Input"
+            },
+            "design": {
+              "ratio": 3.19,
+              "required": 3,
+              "fg": "#91908F",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "part": "border",
+              "layer": "value",
+              "assumed": true
+            },
+            "target": "input.aum-stepper-field",
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|aa:non-text",
+            "title": "Field edge is hard to see",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Mastercard",
+            "variants": [
+              "Style=Input",
+              "Style=Card"
+            ],
+            "status": "fail",
+            "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": false,
+              "variant": "Style=Input"
+            },
+            "design": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "part": "fill",
+              "layer": "value",
+              "assumed": true
+            },
+            "target": "input.aum-stepper-field",
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|aa:non-text",
+            "title": "Field edge is hard to see",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Investec",
+            "variants": [
+              "Style=Input",
+              "Style=Card"
+            ],
+            "status": "fail",
+            "detail": "1:1, needs 3:1 · no border or fill #FFFFFF on #FFFFFF · input.aum-stepper-field",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": false,
+              "variant": "Style=Input"
+            },
+            "design": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "part": "fill",
+              "layer": "value",
+              "assumed": true
+            },
+            "target": "input.aum-stepper-field",
+            "size": null
+          }
+        ],
+        "verdict": "mixed",
+        "occurrences": 6
+      },
+      {
+        "items": [
+          {
             "component": "1454:7798",
             "key": "Accessibility|axe:color-contrast",
             "title": "Elements must meet minimum color contrast ratio thresholds",
@@ -28221,7 +30061,8 @@
           "sc": "1.4.3",
           "name": "Contrast (minimum)",
           "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+          "auto": true
         },
         "title": "Text contrast is too low in Storybook",
         "why": "People with low vision, or reading in bright light, can't make out the text.",
@@ -28281,6 +30122,255 @@
       {
         "items": [
           {
+            "component": "18198:9455",
+            "key": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "componentName": "Quantity Stepper"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "componentName": "Stepper"
+          }
+        ],
+        "rule": "design-non-text",
+        "criterion": {
+          "sc": "1.4.11",
+          "name": "Non-text contrast",
+          "level": "AA",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
+          "auto": true
+        },
+        "title": "Field edge or icon is hard to see in Figma",
+        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
+        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
+        "impact": "moderate",
+        "status": "warn",
+        "owner": "Design",
+        "source": "design",
+        "help": null,
+        "components": [
+          {
+            "name": "Quantity Stepper",
+            "key": "18198:9455"
+          },
+          {
+            "name": "Stepper",
+            "key": "1702:72060"
+          }
+        ],
+        "where": [
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Quantity Stepper",
+            "componentKey": "18198:9455",
+            "brand": "Dragonpass",
+            "variants": [
+              "Style=Default",
+              "Style=No Border"
+            ],
+            "status": "warn",
+            "detail": "border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=No Border"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Quantity Stepper",
+            "componentKey": "18198:9455",
+            "brand": "Mastercard",
+            "variants": [
+              "Style=Default",
+              "Style=No Border"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Default"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Quantity Stepper",
+            "componentKey": "18198:9455",
+            "brand": "Investec",
+            "variants": [
+              "Style=Default",
+              "Style=No Border"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Default"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Quantity Stepper",
+            "componentKey": "18198:9455",
+            "brand": "Assurant",
+            "variants": [
+              "Style=Default",
+              "Style=No Border"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Default"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Mastercard",
+            "variants": [
+              "Style=Input"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Input"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Investec",
+            "variants": [
+              "Style=Input"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Input"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Assurant",
+            "variants": [
+              "Style=Input"
+            ],
+            "status": "warn",
+            "detail": "fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1,
+              "required": 3,
+              "fg": "#FFFFFF",
+              "bg": "#FFFFFF",
+              "fgToken": "background/interactive/control",
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Input"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          },
+          {
+            "checkKey": "Accessibility|design:non-text",
+            "title": "Field edge is hard to see in Figma",
+            "component": "Stepper",
+            "componentKey": "1702:72060",
+            "brand": "Dragonpass",
+            "variants": [
+              "Style=Card"
+            ],
+            "status": "warn",
+            "detail": "border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
+            "contrast": {
+              "ratio": 1.6,
+              "required": 3,
+              "fg": "#CECCCC",
+              "bg": "#FFFFFF",
+              "fgToken": null,
+              "bgToken": null,
+              "assumed": true,
+              "variant": "Style=Card"
+            },
+            "design": null,
+            "target": null,
+            "size": null
+          }
+        ],
+        "occurrences": 12
+      },
+      {
+        "items": [
+          {
             "component": "1454:7798",
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
@@ -28298,7 +30388,8 @@
           "sc": "1.4.3",
           "name": "Contrast (minimum)",
           "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum"
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
+          "auto": true
         },
         "title": "Text contrast is too low in Figma",
         "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
@@ -28429,9 +30520,22 @@
     ]
   },
   "delta": {
-    "since": "2026-11-19T13:50:49.846Z",
+    "since": "2026-11-20T10:03:10.507Z",
     "previousScore": 19,
-    "newFails": [],
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "Stepper",
+        "title": "Field edge is hard to see",
+        "category": "Accessibility"
+      },
+      {
+        "status": "fail",
+        "component": "Stepper",
+        "title": "A control can't be reached with the keyboard",
+        "category": "Accessibility"
+      }
+    ],
     "fixed": []
   },
   "activity": [

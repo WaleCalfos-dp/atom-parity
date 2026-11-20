@@ -8,5 +8,7 @@
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 27 components (Both)
+- 🟠 Field edge is hard to see in Figma: 4 components (Design)
+- 🟠 Icon is hard to see in Figma: 1 component (Design)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/patterns/)
