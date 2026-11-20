@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T12:36:34.747Z",
-    "durationMs": 211636,
+    "generatedAt": "2026-11-20T13:01:47.017Z",
+    "durationMs": 146248,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T12:35:21.319Z",
+      "exportedAt": "2026-11-20T13:00:12.819Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2279,118 +2279,6 @@
       "code": null,
       "checks": [
         {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Field edge is hard to see in Figma",
-          "owner": "Design",
-          "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=No Pre-Select, Background Fill=Comfortable",
-              "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Type=No Pre-Select, Background Fill=Comfortable",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=No Pre-Select, Background Fill=Cozy",
-              "detail": "Type=No Pre-Select, Background Fill=Cozy: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Type=No Pre-Select, Background Fill=Cozy",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Pre-Select, Background Fill=Comfortable",
-              "detail": "Type=Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Type=Pre-Select, Background Fill=Comfortable",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Pre-Select, Background Fill=Cozy",
-              "detail": "Type=Pre-Select, Background Fill=Cozy: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "fill",
-                "layer": "Type=Pre-Select, Background Fill=Cozy",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 4,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass"
-          ],
-          "variants": [
-            "Type=No Pre-Select, Background Fill=Comfortable",
-            "Type=No Pre-Select, Background Fill=Cozy",
-            "Type=Pre-Select, Background Fill=Comfortable",
-            "Type=Pre-Select, Background Fill=Cozy"
-          ]
-        },
-        {
           "key": "Accessibility|design:contrast",
           "category": "Accessibility",
           "subject": "design:contrast",
@@ -3039,118 +2927,6 @@
       },
       "code": null,
       "checks": [
-        {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Field edge is hard to see in Figma",
-          "owner": "Design",
-          "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "State=Discount Code Field",
-              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Discount Code Field",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "State=Discount Code Field",
-              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Discount Code Field",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "State=Discount Code Field",
-              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Discount Code Field",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Assurant",
-              "variant": "State=Discount Code Field",
-              "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1,
-                "required": 3,
-                "fg": "#FFFFFF",
-                "bg": "#FFFFFF",
-                "fgToken": "background/interactive/control",
-                "bgToken": null,
-                "part": "fill",
-                "layer": "State=Discount Code Field",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 4,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass",
-            "Mastercard",
-            "Investec",
-            "Assurant"
-          ],
-          "variants": [
-            "State=Discount Code Field"
-          ]
-        },
         {
           "key": "Naming|name",
           "category": "Naming",
@@ -7050,160 +6826,6 @@
       "code": null,
       "checks": [
         {
-          "key": "Accessibility|design:non-text",
-          "category": "Accessibility",
-          "subject": "design:non-text",
-          "label": "Non-text contrast in Figma",
-          "status": "warn",
-          "title": "Icon is hard to see in Figma",
-          "owner": "Design",
-          "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-          "meta": {
-            "rule": "design-non-text",
-            "source": "design",
-            "impact": "serious"
-          },
-          "instances": [
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Vertical=Default, Length=25%",
-              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.6,
-                "required": 3,
-                "fg": "#CECCCC",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "icon",
-                "layer": "Scroll Bar",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Vertical=Vertical4, Length=75%",
-              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.6,
-                "required": 3,
-                "fg": "#CECCCC",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "icon",
-                "layer": "Scroll Bar",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Vertical=Vertical3, Length=50%",
-              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.6,
-                "required": 3,
-                "fg": "#CECCCC",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "icon",
-                "layer": "Scroll Bar",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Vertical=Horizontal, Length=25%",
-              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.6,
-                "required": 3,
-                "fg": "#CECCCC",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "icon",
-                "layer": "Scroll Bar",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Vertical=Vertical5, Length=50%",
-              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.6,
-                "required": 3,
-                "fg": "#CECCCC",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "icon",
-                "layer": "Scroll Bar",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Vertical=Vertical6, Length=75%",
-              "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 1.6,
-                "required": 3,
-                "fg": "#CECCCC",
-                "bg": "#FFFFFF",
-                "fgToken": null,
-                "bgToken": null,
-                "part": "icon",
-                "layer": "Scroll Bar",
-                "assumed": true
-              }
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 6,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [
-            "Dragonpass"
-          ],
-          "variants": [
-            "Vertical=Default, Length=25%",
-            "Vertical=Vertical4, Length=75%",
-            "Vertical=Vertical3, Length=50%",
-            "Vertical=Horizontal, Length=25%",
-            "Vertical=Vertical5, Length=50%",
-            "Vertical=Vertical6, Length=75%"
-          ]
-        },
-        {
           "key": "Naming|name",
           "category": "Naming",
           "subject": "name",
@@ -7630,7 +7252,7 @@
     },
     "checks": {
       "pass": 14,
-      "warn": 3,
+      "warn": 0,
       "fail": 27
     },
     "byCategory": {
@@ -7656,7 +7278,7 @@
       },
       "Accessibility": {
         "pass": 14,
-        "warn": 3,
+        "warn": 0,
         "fail": 0
       },
       "Interaction": {
@@ -7677,7 +7299,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 3,
+        "warn": 0,
         "fail": 0
       },
       "Dev": {
@@ -7888,47 +7510,6 @@
             "componentName": "Web Search"
           }
         ]
-      },
-      {
-        "category": "Accessibility",
-        "title": "Field edge is hard to see in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Booking Widget",
-          "Checkout"
-        ],
-        "items": [
-          {
-            "component": "17104:34171",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Booking Widget"
-          },
-          {
-            "component": "15759:2797",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Checkout"
-          }
-        ]
-      },
-      {
-        "category": "Accessibility",
-        "title": "Icon is hard to see in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Scroll Bar"
-        ],
-        "items": [
-          {
-            "component": "15598:87162",
-            "key": "Accessibility|design:non-text",
-            "title": "Icon is hard to see in Figma",
-            "componentName": "Scroll Bar"
-          }
-        ]
       }
     ],
     "works": [
@@ -7993,21 +7574,6 @@
       {
         "component": "Booking Widget",
         "componentKey": "17104:34171",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 4
-      },
-      {
-        "component": "Booking Widget",
-        "componentKey": "17104:34171",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -8030,24 +7596,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Checkout",
-        "componentKey": "15759:2797",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 1
       },
       {
         "component": "Checkout",
@@ -8273,21 +7821,6 @@
       {
         "component": "Scroll Bar",
         "componentKey": "15598:87162",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Icon is hard to see in Figma",
-        "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 6
-      },
-      {
-        "component": "Scroll Bar",
-        "componentKey": "15598:87162",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -8342,22 +7875,17 @@
   "a11y": {
     "ran": true,
     "scans": 0,
-    "designChecks": 205,
+    "designChecks": 191,
     "brands": [],
     "counts": {
       "critical": 0,
       "serious": 0,
-      "moderate": 1,
+      "moderate": 0,
       "minor": 0
     },
-    "total": 1,
-    "components": 3,
-    "byBrand": {
-      "Dragonpass": 11,
-      "Mastercard": 1,
-      "Investec": 1,
-      "Assurant": 1
-    },
+    "total": 0,
+    "components": 0,
+    "byBrand": {},
     "criteria": [
       {
         "sc": "1.4.3",
@@ -8374,8 +7902,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       }
     ],
     "manual": [
@@ -8702,224 +8230,10 @@
       "tested": 2,
       "total": 55
     },
-    "issues": [
-      {
-        "items": [
-          {
-            "component": "17104:34171",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Booking Widget"
-          },
-          {
-            "component": "15759:2797",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Checkout"
-          },
-          {
-            "component": "15598:87162",
-            "key": "Accessibility|design:non-text",
-            "title": "Icon is hard to see in Figma",
-            "componentName": "Scroll Bar"
-          }
-        ],
-        "rule": "design-non-text",
-        "criterion": {
-          "sc": "1.4.11",
-          "name": "Non-text contrast",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
-          "auto": true
-        },
-        "title": "Field edge or icon is hard to see in Figma",
-        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
-        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Booking Widget",
-            "key": "17104:34171"
-          },
-          {
-            "name": "Checkout",
-            "key": "15759:2797"
-          },
-          {
-            "name": "Scroll Bar",
-            "key": "15598:87162"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Booking Widget",
-            "componentKey": "17104:34171",
-            "brand": "Dragonpass",
-            "variants": [
-              "Type=No Pre-Select, Background Fill=Comfortable",
-              "Type=No Pre-Select, Background Fill=Cozy",
-              "Type=Pre-Select, Background Fill=Comfortable",
-              "Type=Pre-Select, Background Fill=Cozy"
-            ],
-            "status": "warn",
-            "detail": "Type=No Pre-Select, Background Fill=Comfortable: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=No Pre-Select, Background Fill=Comfortable"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Checkout",
-            "componentKey": "15759:2797",
-            "brand": "Dragonpass",
-            "variants": [
-              "State=Discount Code Field"
-            ],
-            "status": "warn",
-            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Discount Code Field"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Checkout",
-            "componentKey": "15759:2797",
-            "brand": "Mastercard",
-            "variants": [
-              "State=Discount Code Field"
-            ],
-            "status": "warn",
-            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Discount Code Field"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Checkout",
-            "componentKey": "15759:2797",
-            "brand": "Investec",
-            "variants": [
-              "State=Discount Code Field"
-            ],
-            "status": "warn",
-            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Discount Code Field"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Checkout",
-            "componentKey": "15759:2797",
-            "brand": "Assurant",
-            "variants": [
-              "State=Discount Code Field"
-            ],
-            "status": "warn",
-            "detail": "State=Discount Code Field: fill 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "background/interactive/control",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Discount Code Field"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Icon is hard to see in Figma",
-            "component": "Scroll Bar",
-            "componentKey": "15598:87162",
-            "brand": "Dragonpass",
-            "variants": [
-              "Vertical=Default, Length=25%",
-              "Vertical=Vertical4, Length=75%",
-              "Vertical=Vertical3, Length=50%",
-              "Vertical=Horizontal, Length=25%",
-              "Vertical=Vertical5, Length=50%",
-              "Vertical=Vertical6, Length=75%"
-            ],
-            "status": "warn",
-            "detail": "Scroll Bar: icon 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1.6,
-              "required": 3,
-              "fg": "#CECCCC",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Vertical=Default, Length=25%"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 14
-      }
-    ]
+    "issues": []
   },
   "delta": {
-    "since": "2026-11-20T12:05:26.122Z",
+    "since": "2026-11-20T12:36:34.747Z",
     "previousScore": 0,
     "newFails": [],
     "fixed": []

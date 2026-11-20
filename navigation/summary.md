@@ -6,9 +6,6 @@
 |---|---|---|---|---|
 | 0 | 4 | 1 | 2 | 0 |
 
-### 1 new failure
-- **App Header**: Field edge is hard to see in Figma _(Accessibility)_
-
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Component named differently in Figma and Storybook: 2 components (Both)

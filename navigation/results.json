@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T12:28:49.227Z",
-    "durationMs": 168334,
+    "generatedAt": "2026-11-20T12:55:31.757Z",
+    "durationMs": 139617,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T12:27:31.309Z",
+      "exportedAt": "2026-11-20T12:53:50.549Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7320,16 +7320,9 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T11:56:06.946Z",
+    "since": "2026-11-20T12:28:49.227Z",
     "previousScore": 36,
-    "newFails": [
-      {
-        "status": "fail",
-        "component": "App Header",
-        "title": "Field edge is hard to see in Figma",
-        "category": "Accessibility"
-      }
-    ],
+    "newFails": [],
     "fixed": []
   },
   "activity": []

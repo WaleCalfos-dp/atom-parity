@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T12:39:47.647Z",
+  "generatedAt": "2026-11-20T13:04:16.694Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:13:25.756Z",
+      "ranAt": "2026-11-20T12:44:41.515Z",
       "ok": true,
       "history": [
         {
@@ -75,6 +75,10 @@
         },
         {
           "at": "2026-11-20T12:13:25.756Z",
+          "score": 21
+        },
+        {
+          "at": "2026-11-20T12:44:41.515Z",
           "score": 21
         }
       ],
@@ -147,9 +151,9 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 20,
+      "previousScore": 21,
       "newFails": 0,
-      "fixed": 2,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -201,7 +205,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:16:04.568Z",
+      "ranAt": "2026-11-20T12:46:32.188Z",
       "ok": true,
       "history": [
         {
@@ -254,6 +258,10 @@
         },
         {
           "at": "2026-11-20T12:16:04.568Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-20T12:46:32.188Z",
           "score": 22
         }
       ],
@@ -372,7 +380,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:20:07.977Z",
+      "ranAt": "2026-11-20T12:49:11.590Z",
       "ok": true,
       "history": [
         {
@@ -425,6 +433,10 @@
         },
         {
           "at": "2026-11-20T12:20:07.977Z",
+          "score": 23
+        },
+        {
+          "at": "2026-11-20T12:49:11.590Z",
           "score": 23
         }
       ],
@@ -553,7 +565,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:23:44.381Z",
+      "ranAt": "2026-11-20T12:51:38.099Z",
       "ok": true,
       "history": [
         {
@@ -606,6 +618,10 @@
         },
         {
           "at": "2026-11-20T12:23:44.381Z",
+          "score": 37
+        },
+        {
+          "at": "2026-11-20T12:51:38.099Z",
           "score": 37
         }
       ],
@@ -678,7 +694,7 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 36,
+      "previousScore": 37,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -727,7 +743,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:26:00.869Z",
+      "ranAt": "2026-11-20T12:53:12.119Z",
       "ok": true,
       "history": [
         {
@@ -781,6 +797,10 @@
         {
           "at": "2026-11-20T12:26:00.869Z",
           "score": 31
+        },
+        {
+          "at": "2026-11-20T12:53:12.119Z",
+          "score": 32
         }
       ],
       "preview": null,
@@ -788,7 +808,7 @@
         {
           "name": "Divider",
           "status": "Drifted",
-          "score": 61
+          "score": 63
         },
         {
           "name": "Overlay",
@@ -796,7 +816,7 @@
           "score": 0
         }
       ],
-      "score": 31,
+      "score": 32,
       "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
       "counts": {
         "total": 2,
@@ -828,24 +848,18 @@
         "order": 48
       },
       "a11y": {
-        "ran": true,
-        "total": 1,
+        "ran": false,
+        "total": 0,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 1,
+          "moderate": 0,
           "minor": 0
         },
-        "components": 1,
+        "components": 0,
         "scans": 0,
-        "designChecks": 4,
-        "top": [
-          {
-            "title": "Field edge or icon is hard to see in Figma",
-            "impact": "moderate",
-            "owner": "Design"
-          }
-        ]
+        "designChecks": 0,
+        "top": []
       }
     },
     {
@@ -853,7 +867,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:28:49.227Z",
+      "ranAt": "2026-11-20T12:55:31.757Z",
       "ok": true,
       "history": [
         {
@@ -906,6 +920,10 @@
         },
         {
           "at": "2026-11-20T12:28:49.227Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-20T12:55:31.757Z",
           "score": 36
         }
       ],
@@ -961,7 +979,7 @@
         "ignored": 0
       },
       "previousScore": 36,
-      "newFails": 1,
+      "newFails": 0,
       "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
@@ -1009,7 +1027,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:30:41.355Z",
+      "ranAt": "2026-11-20T12:57:17.012Z",
       "ok": true,
       "history": [
         {
@@ -1058,6 +1076,10 @@
         },
         {
           "at": "2026-11-20T12:30:41.355Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-20T12:57:17.012Z",
           "score": 15
         }
       ],
@@ -1125,7 +1147,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:33:03.084Z",
+      "ranAt": "2026-11-20T12:59:20.743Z",
       "ok": true,
       "history": [
         {
@@ -1178,6 +1200,10 @@
         },
         {
           "at": "2026-11-20T12:33:03.084Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-20T12:59:20.743Z",
           "score": 15
         }
       ],
@@ -1252,24 +1278,19 @@
       },
       "a11y": {
         "ran": true,
-        "total": 2,
+        "total": 1,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 2,
+          "moderate": 1,
           "minor": 0
         },
-        "components": 4,
+        "components": 3,
         "scans": 0,
-        "designChecks": 164,
+        "designChecks": 156,
         "top": [
           {
             "title": "Text contrast is too low in Figma",
-            "impact": "moderate",
-            "owner": "Design"
-          },
-          {
-            "title": "Field edge or icon is hard to see in Figma",
             "impact": "moderate",
             "owner": "Design"
           }
@@ -1281,7 +1302,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:36:34.747Z",
+      "ranAt": "2026-11-20T13:01:47.017Z",
       "ok": true,
       "history": [
         {
@@ -1322,6 +1343,10 @@
         },
         {
           "at": "2026-11-20T12:36:34.747Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-20T13:01:47.017Z",
           "score": 0
         }
       ],
@@ -1484,9 +1509,7 @@
         "stale": true
       },
       "themes": [
-        "Not built in Storybook",
-        "Field edge is hard to see in Figma",
-        "Icon is hard to see in Figma"
+        "Not built in Storybook"
       ],
       "ignored": 0,
       "place": {
@@ -1496,23 +1519,17 @@
       },
       "a11y": {
         "ran": true,
-        "total": 1,
+        "total": 0,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 1,
+          "moderate": 0,
           "minor": 0
         },
-        "components": 3,
+        "components": 0,
         "scans": 0,
-        "designChecks": 205,
-        "top": [
-          {
-            "title": "Field edge or icon is hard to see in Figma",
-            "impact": "moderate",
-            "owner": "Design"
-          }
-        ]
+        "designChecks": 191,
+        "top": []
       }
     },
     {
@@ -1520,7 +1537,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T12:39:46.974Z",
+      "ranAt": "2026-11-20T13:04:16.094Z",
       "ok": true,
       "history": [
         {
@@ -1565,6 +1582,10 @@
         },
         {
           "at": "2026-11-20T12:39:46.974Z",
+          "score": 7
+        },
+        {
+          "at": "2026-11-20T13:04:16.094Z",
           "score": 7
         }
       ],

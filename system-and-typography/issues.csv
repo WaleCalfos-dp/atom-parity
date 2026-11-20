@@ -51,15 +51,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
 Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
-"[Atom parity] Home Indicator: Icon is hard to see in Figma","Home Indicator: icon 1:1, needs 3:1 · #FFFFFF on #FFFFFF (measured on white)
-
-Brands: Dragonpass, Mastercard, Investec, Assurant
-Variants: Mode=Dark
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3096-9618
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-3096%3A9618
-
-Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Home Indicator: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3096-9618

@@ -12,7 +12,7 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-entry/#c-360%3A57017
 
 Found by atom-parity on 2026-11-20","Task","Medium","atom-parity parity-properties owner-design","Atom Design System"
-"[Atom parity] Checkbox: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+"[Atom parity] Checkbox: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec
 Variants: State=Focus, Checked=False; State=Focus, Checked=True; State=Disabled, Checked=False; State=Default, Checked=True; State=Disabled, Checked=True; State=Hover, Checked=False; State=Hover, Checked=True; State=Default, Checked=False

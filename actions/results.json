@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T12:13:25.756Z",
-    "durationMs": 161537,
+    "generatedAt": "2026-11-20T12:44:41.515Z",
+    "durationMs": 128241,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-20T10:00:50Z"
       },
-      "exportedAt": "2026-11-20T12:12:09.896Z",
+      "exportedAt": "2026-11-20T12:43:13.930Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2954,7 +2954,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -29708,25 +29708,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T11:42:22.802Z",
-    "previousScore": 20,
+    "since": "2026-11-20T12:13:25.756Z",
+    "previousScore": 21,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Stepper",
-        "title": "Field edge is hard to see",
-        "category": "Accessibility",
-        "now": "pass"
-      },
-      {
-        "status": "fail",
-        "component": "Stepper",
-        "title": "A control can't be reached with the keyboard",
-        "category": "Accessibility",
-        "now": "pass"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {
