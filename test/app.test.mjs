@@ -57,7 +57,7 @@ await page.waitForSelector('.card');
 await page.waitForTimeout(500);
 assert.equal(await page.locator('.run').count(), 0, 'stale failed run from the old page is not shown');
 assert.ok((await page.inputValue('#sb')).includes('/atom-ui-mobile/'), 'Storybook link prefilled from saved checks');
-assert.match(await page.textContent('#ovTitle'), /parity with Figma/);
+assert.match(await page.textContent('#ovTitle'), /match for Figma/);
 await page.screenshot({ path: '/tmp/app-1.png', fullPage: true });
 
 // Run without a key → connect dialog

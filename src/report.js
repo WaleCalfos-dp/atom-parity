@@ -39,7 +39,7 @@ function markdown(r, opts) {
   const s = r.summary;
   const d = r.delta;
   const lines = [];
-  lines.push(`## Atom parity: ${s.score}%${d?.previousScore != null ? ` (${s.score - d.previousScore >= 0 ? '+' : ''}${s.score - d.previousScore} since last run)` : ''}`);
+  lines.push(`## Atom parity: ${s.score}% match${d?.previousScore != null ? ` (${s.score - d.previousScore >= 0 ? '+' : ''}${s.score - d.previousScore} since last run)` : ''}`);
   lines.push('', s.headline, '');
   lines.push('| Aligned | Drifted | Broken | Not built | Not in Figma |', '|---|---|---|---|---|');
   lines.push(`| ${s.components.aligned} | ${s.components.drifted} | ${s.components.broken} | ${s.components.missingInCode} | ${s.components.missingInDesign} |`, '');

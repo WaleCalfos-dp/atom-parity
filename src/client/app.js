@@ -350,7 +350,7 @@
     else es.forEach((e) => { const k = countsOf(e.counts || {}); Object.keys(c).forEach((x) => { c[x] += k[x]; }); sum += (e.score || 0) * ((e.counts && e.counts.figma) || 1); n += (e.counts && e.counts.figma) || 1; });
     const score = n ? Math.round(sum / n) : 0;
     const figmaTotal = c.aligned + c.drifted + c.broken + c.notbuilt;
-    $('ovTitle').innerHTML = 'Storybook is at <span class="num">' + score + '%</span> parity with Figma';
+    $('ovTitle').innerHTML = 'Storybook is a <span class="num">' + score + '%</span> match for Figma';
     const built = c.aligned + c.drifted + c.broken;
     $('ovLede').textContent = figmaTotal
       ? (built ? built + ' of ' + figmaTotal + ' Figma components are built in Storybook' + (c.aligned ? ', and ' + c.aligned + ' match exactly.' : ', and none match exactly yet.') : 'None of the ' + figmaTotal + ' Figma components checked are in Storybook yet.')
@@ -452,7 +452,7 @@
       const counts = STATUS.filter((s) => k[s[0]]).map((s) => '<span><i class="s-' + s[0] + '"></i>' + k[s[0]] + ' ' + s[1].toLowerCase() + '</span>').join('');
       const ignoredNote = e.ignored ? '<a class="ignored-n" href="' + esc(e.id) + '/#archive">' + e.ignored + ' archived</a>' : '';
       return '<article class="card" data-id="' + esc(e.id) + '"><div class="card-head"><div><h3><a href="' + esc(e.id) + '/">' + name + '</a></h3>' + tag + '</div>' +
-        '<div class="pct" aria-label="' + e.score + '% parity"><b>' + e.score + '</b><span>%</span><small>parity</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
+        '<div class="pct" aria-label="' + e.score + '% match"><b>' + e.score + '</b><span>%</span><small>match</small>' + (d ? '<span class="delta ' + (d > 0 ? 'up' : 'down') + '">' + (d > 0 ? '+' : '') + d + ' since last run</span>' : '') + '</div></div>' +
         pair + '<div class="stat">' + meter(k) + '<div class="row"><div class="counts">' + counts + ignoredNote + '</div></div></div>' + a11yLine(e) + cardErr + confirm + foot + '</article>';
     }
   }

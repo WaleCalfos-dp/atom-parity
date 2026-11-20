@@ -33,8 +33,8 @@ ${FONTS}
       <ul class="legend" id="legend"></ul>
     </div>
     <div class="hero-score">
-      ${regMark(score, { label: `${score}% parity` }).replace('class="reg"', 'class="reg settle"')}
-      <p><b>${score}<span>%</span></b>parity</p>
+      ${regMark(score, { label: `${score}% match` }).replace('class="reg"', 'class="reg settle"')}
+      <p><b>${score}<span>%</span></b>match</p>
     </div>
   </header>
 
@@ -83,7 +83,7 @@ ${FONTS}
       <div><dt><i class="s-drifted"></i>Drifted</dt><dd>Works for people, but names, properties or tokens differ from Figma.</dd></div>
       <div><dt><i class="s-broken"></i>Broken</dt><dd>Something people would notice: it looks different, fails an accessibility check, has no focus indicator or doesn't render.</dd></div>
       <div><dt><i class="s-notbuilt"></i>Not built</dt><dd>In Figma, with no Storybook component of the same name.</dd></div>
-      <div><dt>Parity</dt><dd>Share of checks passed across the Figma components. A warning counts as half; not built counts as zero.</dd></div>
+      <div><dt>Match</dt><dd>How closely Storybook matches Figma: the share of checks passed across the Figma components. A warning counts as half; not built counts as zero.</dd></div>
       <div><dt>Severity</dt><dd><span class="sev critical">Critical</span> blocks people from using the component. <span class="sev serious">Serious</span> makes it very hard. <span class="sev moderate">Moderate</span> makes it harder. <span class="sev minor">Minor</span> is an annoyance.</dd></div>
     </dl>
     <p class="fine">Accessibility is checked against WCAG 2.2 level A and AA, the minimum standard; level AAA and best-practice rules aren't counted. Criteria that automated checks can't judge are listed for a manual review. Disabled states are skipped, because WCAG exempts them. Results come from axe-core on each rendered story, keyboard and touch-target probes, and a text contrast check on Figma's own token values for every brand. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</p>
