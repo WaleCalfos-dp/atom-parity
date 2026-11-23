@@ -10,6 +10,17 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-23T16:32:59.701Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Accessibility|axe:color-contrast",
+      "title": "Elements must meet minimum color contrast ratio thresholds",
+      "componentName": "Button",
+      "reason": "fixed",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-23T16:34:44.960Z"
     }
   ]
 }
