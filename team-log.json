@@ -184,6 +184,23 @@
           "componentName": "Button"
         }
       ]
+    },
+    {
+      "at": "2026-11-23T16:34:34.955Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "fixed",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Accessibility|axe:color-contrast",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "componentName": "Button"
+        }
+      ],
+      "id": "prdpomxpk7hy"
     }
   ]
 }
