@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T16:34:36.996Z",
+  "generatedAt": "2026-11-23T16:35:08.445Z",
   "comments": [
     {
       "id": "znxw4ova7ts0",
@@ -64,6 +64,22 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-23T16:34:34.955Z"
+    },
+    {
+      "id": "tvuu8x40kgtz",
+      "check": "actions",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Button"
+        }
+      ],
+      "text": "fixed",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-23T16:35:07.114Z"
     }
   ]
 }
