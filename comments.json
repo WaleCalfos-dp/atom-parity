@@ -15,6 +15,22 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-23T12:13:00.663Z"
+    },
+    {
+      "id": "hc88rw4bakoz",
+      "check": "actions",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|values:Type",
+          "title": "Type values differ",
+          "componentName": "Button"
+        }
+      ],
+      "text": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-23T12:15:08.835Z"
     }
   ]
 }
