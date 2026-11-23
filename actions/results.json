@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-23T16:37:10.259Z",
-    "durationMs": 109739,
+    "generatedAt": "2026-11-23T16:37:14.625Z",
+    "durationMs": 126393,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-23T13:43:37Z"
       },
-      "exportedAt": "2026-11-23T16:36:00.275Z",
+      "exportedAt": "2026-11-23T16:35:47.686Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 67,
+      "score": 68,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -15620,6 +15620,20 @@
             },
             {
               "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Tertiary, Size=Regular, State=Default",
+              "detail": "10.5% of pixels differ. Figma shows Show Icon Left and Show Icon Right by default and the story doesn't, so some difference is expected; compare the pictures",
+              "figma": "10.5%",
+              "code": null,
+              "image": {
+                "figma": "assets/figma/1454779814547934dragonpass.png",
+                "code": "assets/code/1454779814547934dragonpass.png",
+                "diff": "assets/diff/1454779814547934dragonpass.png"
+              },
+              "extra": null
+            },
+            {
+              "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "8.2% of pixels differ. Figma shows Show Icon Left and Show Icon Right by default and the story doesn't, so some difference is expected; compare the pictures",
@@ -16489,7 +16503,7 @@
           ],
           "counts": {
             "pass": 7,
-            "warn": 64,
+            "warn": 65,
             "fail": 0,
             "info": 0
           },
@@ -17196,6 +17210,16 @@
             },
             {
               "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Type=Tertiary, Size=Regular, State=Default",
+              "detail": "Design 24px · Code 25px",
+              "figma": "24px",
+              "code": "25px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "pass",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "Design 24px · Code 24px",
@@ -17246,7 +17270,7 @@
             }
           ],
           "counts": {
-            "pass": 5,
+            "pass": 6,
             "warn": 47,
             "fail": 19,
             "info": 0
@@ -17370,6 +17394,16 @@
               "detail": "Design 180px · Code 124px (label text may differ)",
               "figma": "180px",
               "code": "124px",
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Tertiary, Size=Regular, State=Default",
+              "detail": "Design 135px · Code 74px (label text may differ)",
+              "figma": "135px",
+              "code": "74px",
               "image": null,
               "extra": null
             },
@@ -17996,7 +18030,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 71,
+            "warn": 72,
             "fail": 0,
             "info": 0
           },
@@ -19342,7 +19376,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "ignored",
+          "status": "pass",
           "title": "Text contrast passes in Figma",
           "owner": "Design",
           "detail": "16.14:1, needs 4.5:1 · #FFFFFF on #0A2333",
@@ -21040,14 +21074,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "fixed",
-            "at": "2026-11-23T16:34:58.676Z",
-            "by": "Yana Kolpakova",
-            "github": null
-          },
-          "was": "pass"
+          "variants": []
         }
       ],
       "gallery": [
@@ -27653,7 +27680,7 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 46,
+      "pass": 47,
       "warn": 33,
       "fail": 22
     },
@@ -27679,7 +27706,7 @@
         "fail": 2
       },
       "Accessibility": {
-        "pass": 18,
+        "pass": 19,
         "warn": 2,
         "fail": 1
       },
@@ -27990,19 +28017,6 @@
         "owner": "Design",
         "reason": "fixed",
         "at": "2026-11-23T16:34:44.960Z",
-        "by": "Yana Kolpakova",
-        "github": null
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "title": "Text contrast passes in Figma",
-        "was": "pass",
-        "owner": "Design",
-        "reason": "fixed",
-        "at": "2026-11-23T16:34:58.676Z",
         "by": "Yana Kolpakova",
         "github": null
       }
@@ -29538,22 +29552,6 @@
     ]
   },
   "activity": [
-    {
-      "at": "2026-11-23T16:34:58.676Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "Yana Kolpakova",
-      "github": null,
-      "reason": "fixed",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Accessibility|design:contrast",
-          "title": "Text contrast is too low in Figma",
-          "componentName": "Button"
-        }
-      ]
-    },
     {
       "at": "2026-11-23T16:34:44.960Z",
       "action": "ignore",
