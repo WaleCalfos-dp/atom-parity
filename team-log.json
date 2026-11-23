@@ -135,6 +135,23 @@
         }
       ],
       "id": "hc88rw4bakoz"
+    },
+    {
+      "at": "2026-11-23T12:16:25.443Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "Not true",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Tokens|token:Corner radius",
+          "title": "Corner radius isn't linked to a variable in Figma",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yt6pag6ac9lk"
     }
   ]
 }
