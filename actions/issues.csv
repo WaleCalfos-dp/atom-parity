@@ -221,16 +221,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-tokens owner-both","Atom Design System"
-"[Atom parity] Button: Elements must meet minimum color contrast ratio thresholds","serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1
-
-Brands: Investec
-Variants: Type=Tertiary, Size=Regular, State=Default
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-23","Task","High","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Button: Buttons must have discernible text","critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute 
 
 Brands: Dragonpass, Mastercard, Investec

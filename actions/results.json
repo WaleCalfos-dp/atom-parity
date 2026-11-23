@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-23T16:35:44.715Z",
-    "durationMs": 130373,
+    "generatedAt": "2026-11-23T16:37:10.259Z",
+    "durationMs": 109739,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-23T13:43:37Z"
       },
-      "exportedAt": "2026-11-23T16:34:35.912Z",
+      "exportedAt": "2026-11-23T16:36:00.275Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2804,7 +2804,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2954,7 +2954,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -15620,20 +15620,6 @@
             },
             {
               "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "10.5% of pixels differ. Figma shows Show Icon Left and Show Icon Right by default and the story doesn't, so some difference is expected; compare the pictures",
-              "figma": "10.5%",
-              "code": null,
-              "image": {
-                "figma": "assets/figma/1454779814547934dragonpass.png",
-                "code": "assets/code/1454779814547934dragonpass.png",
-                "diff": "assets/diff/1454779814547934dragonpass.png"
-              },
-              "extra": null
-            },
-            {
-              "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "8.2% of pixels differ. Figma shows Show Icon Left and Show Icon Right by default and the story doesn't, so some difference is expected; compare the pictures",
@@ -16503,7 +16489,7 @@
           ],
           "counts": {
             "pass": 7,
-            "warn": 65,
+            "warn": 64,
             "fail": 0,
             "info": 0
           },
@@ -17210,16 +17196,6 @@
             },
             {
               "status": "pass",
-              "brand": "Dragonpass",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design 24px · Code 25px",
-              "figma": "24px",
-              "code": "25px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
               "brand": "Mastercard",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "Design 24px · Code 24px",
@@ -17270,7 +17246,7 @@
             }
           ],
           "counts": {
-            "pass": 6,
+            "pass": 5,
             "warn": 47,
             "fail": 19,
             "info": 0
@@ -17394,16 +17370,6 @@
               "detail": "Design 180px · Code 124px (label text may differ)",
               "figma": "180px",
               "code": "124px",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design 135px · Code 74px (label text may differ)",
-              "figma": "135px",
-              "code": "74px",
               "image": null,
               "extra": null
             },
@@ -18030,7 +17996,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 72,
+            "warn": 71,
             "fail": 0,
             "info": 0
           },
@@ -19001,7 +18967,7 @@
           "category": "Accessibility",
           "subject": "axe:color-contrast",
           "label": "Elements must meet minimum color contrast ratio thresholds",
-          "status": "fail",
+          "status": "ignored",
           "title": "Elements must meet minimum color contrast ratio thresholds",
           "owner": "Design",
           "detail": "serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
@@ -19052,7 +19018,14 @@
           ],
           "variants": [
             "Type=Tertiary, Size=Regular, State=Default"
-          ]
+          ],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-23T16:34:44.960Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Accessibility|axe:button-name",
@@ -19369,7 +19342,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "pass",
+          "status": "ignored",
           "title": "Text contrast passes in Figma",
           "owner": "Design",
           "detail": "16.14:1, needs 4.5:1 · #FFFFFF on #0A2333",
@@ -21067,7 +21040,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-23T16:34:58.676Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "pass"
         }
       ],
       "gallery": [
@@ -27673,9 +27653,9 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 47,
+      "pass": 46,
       "warn": 33,
-      "fail": 23
+      "fail": 22
     },
     "byCategory": {
       "Naming": {
@@ -27699,9 +27679,9 @@
         "fail": 2
       },
       "Accessibility": {
-        "pass": 19,
+        "pass": 18,
         "warn": 2,
-        "fail": 2
+        "fail": 1
       },
       "Interaction": {
         "pass": 4,
@@ -27722,7 +27702,7 @@
     "byOwner": {
       "Design": {
         "warn": 7,
-        "fail": 1
+        "fail": 0
       },
       "Dev": {
         "warn": 3,
@@ -27965,17 +27945,17 @@
       },
       {
         "category": "Accessibility",
-        "title": "Elements must meet minimum color contrast ratio thresholds",
+        "title": "Buttons must have discernible text",
         "status": "fail",
-        "owner": "Design",
+        "owner": "Dev",
         "components": [
           "Button"
         ],
         "items": [
           {
             "component": "1454:7798",
-            "key": "Accessibility|axe:color-contrast",
-            "title": "Elements must meet minimum color contrast ratio thresholds",
+            "key": "Accessibility|axe:button-name",
+            "title": "Buttons must have discernible text",
             "componentName": "Button"
           }
         ]
@@ -27999,6 +27979,32 @@
         "at": "2026-11-23T16:32:59.701Z",
         "by": "Yana Kolpakova",
         "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Accessibility|axe:color-contrast",
+        "category": "Accessibility",
+        "title": "Elements must meet minimum color contrast ratio thresholds",
+        "was": "fail",
+        "owner": "Design",
+        "reason": "fixed",
+        "at": "2026-11-23T16:34:44.960Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast passes in Figma",
+        "was": "pass",
+        "owner": "Design",
+        "reason": "fixed",
+        "at": "2026-11-23T16:34:58.676Z",
+        "by": "Yana Kolpakova",
+        "github": null
       }
     ],
     "brokenComponents": [
@@ -28007,7 +28013,6 @@
         "key": "1454:7798",
         "reasons": [
           "Height differs from design",
-          "Elements must meet minimum color contrast ratio thresholds",
           "Buttons must have discernible text"
         ]
       },
@@ -28396,21 +28401,6 @@
         "brands": [
           "Dragonpass",
           "Mastercard",
-          "Investec"
-        ],
-        "variants": 1
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Accessibility|axe:color-contrast",
-        "category": "Accessibility",
-        "subject": "axe:color-contrast",
-        "status": "fail",
-        "title": "Elements must meet minimum color contrast ratio thresholds",
-        "detail": "serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-        "owner": "Design",
-        "brands": [
           "Investec"
         ],
         "variants": 1
@@ -28873,16 +28863,16 @@
     ],
     "counts": {
       "critical": 1,
-      "serious": 1,
+      "serious": 0,
       "moderate": 2,
       "minor": 0
     },
-    "total": 4,
+    "total": 3,
     "components": 3,
     "byBrand": {
       "Dragonpass": 4,
       "Mastercard": 5,
-      "Investec": 6,
+      "Investec": 5,
       "Assurant": 2
     },
     "criteria": [
@@ -28910,8 +28900,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "auto": true,
-        "status": "fail",
-        "issues": 2
+        "status": "warn",
+        "issues": 1
       },
       {
         "sc": "1.4.4",
@@ -29361,67 +29351,6 @@
       {
         "items": [
           {
-            "component": "1454:7798",
-            "key": "Accessibility|axe:color-contrast",
-            "title": "Elements must meet minimum color contrast ratio thresholds",
-            "componentName": "Button"
-          }
-        ],
-        "rule": "color-contrast",
-        "criterion": {
-          "sc": "1.4.3",
-          "name": "Contrast (minimum)",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
-          "auto": true
-        },
-        "title": "Text contrast is too low in Storybook",
-        "why": "People with low vision, or reading in bright light, can't make out the text.",
-        "fix": "Pair text and background tokens that reach 4.5:1, or 3:1 for text 24px and larger (19px bold).",
-        "impact": "serious",
-        "status": "fail",
-        "owner": "Design",
-        "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
-        "components": [
-          {
-            "name": "Button",
-            "key": "1454:7798"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|axe:color-contrast",
-            "title": "Elements must meet minimum color contrast ratio thresholds",
-            "component": "Button",
-            "componentKey": "1454:7798",
-            "brand": "Investec",
-            "variants": [
-              "Type=Tertiary, Size=Regular, State=Default"
-            ],
-            "status": "fail",
-            "detail": "serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
-            "contrast": {
-              "ratio": 4.31,
-              "required": 4.5,
-              "fg": "#ae692f",
-              "bg": "#ffffff",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": false,
-              "variant": "Type=Tertiary, Size=Regular, State=Default"
-            },
-            "design": null,
-            "target": ".aum-button-content",
-            "size": null
-          }
-        ],
-        "verdict": null,
-        "occurrences": 1
-      },
-      {
-        "items": [
-          {
             "component": "1885:4061",
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
@@ -29598,9 +29527,66 @@
     "since": "2026-11-23T16:24:45.714Z",
     "previousScore": 21,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Button",
+        "title": "Elements must meet minimum color contrast ratio thresholds",
+        "category": "Accessibility",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-23T16:34:58.676Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "fixed",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-23T16:34:44.960Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "fixed",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Accessibility|axe:color-contrast",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-23T16:34:34.955Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "fixed",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Accessibility|axe:color-contrast",
+          "title": "Elements must meet minimum color contrast ratio thresholds",
+          "componentName": "Button"
+        }
+      ],
+      "id": "prdpomxpk7hy"
+    },
     {
       "at": "2026-11-23T16:32:59.701Z",
       "action": "ignore",

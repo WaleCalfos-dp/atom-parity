@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-23T16:35:51.815Z",
+  "generatedAt": "2026-11-23T16:37:16.959Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-23T16:35:44.715Z",
+      "ranAt": "2026-11-23T16:37:10.259Z",
       "ok": true,
       "history": [
         {
@@ -94,7 +94,7 @@
           "score": 21
         },
         {
-          "at": "2026-11-23T16:35:44.715Z",
+          "at": "2026-11-23T16:37:10.259Z",
           "score": 21
         }
       ],
@@ -169,7 +169,7 @@
       },
       "previousScore": 21,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 1,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -179,7 +179,7 @@
         "Property named differently in Figma and code",
         "Horizontal padding differs from design"
       ],
-      "ignored": 1,
+      "ignored": 3,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",
@@ -187,10 +187,10 @@
       },
       "a11y": {
         "ran": true,
-        "total": 4,
+        "total": 3,
         "counts": {
           "critical": 1,
-          "serious": 1,
+          "serious": 0,
           "moderate": 2,
           "minor": 0
         },
@@ -204,12 +204,12 @@
             "owner": "Dev"
           },
           {
-            "title": "Text contrast is too low in Storybook",
-            "impact": "serious",
+            "title": "Text contrast is too low in Figma",
+            "impact": "moderate",
             "owner": "Design"
           },
           {
-            "title": "Text contrast is too low in Figma",
+            "title": "Field edge or icon is hard to see in Figma",
             "impact": "moderate",
             "owner": "Design"
           }
