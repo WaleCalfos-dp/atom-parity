@@ -21,6 +21,17 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-23T16:34:44.960Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Accessibility|design:contrast",
+      "title": "Text contrast is too low in Figma",
+      "componentName": "Button",
+      "reason": "fixed",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-23T16:34:58.676Z"
     }
   ]
 }
