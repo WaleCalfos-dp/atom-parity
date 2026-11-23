@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-23T10:46:45.259Z",
-    "durationMs": 143186,
+    "generatedAt": "2026-11-23T16:24:45.714Z",
+    "durationMs": 161168,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-23T10:25:21Z"
+        "lastModified": "2026-11-23T13:43:37Z"
       },
-      "exportedAt": "2026-11-23T10:45:45.569Z",
+      "exportedAt": "2026-11-23T16:23:29.947Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 65,
+      "score": 67,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -2944,7 +2944,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2993,46 +2993,6 @@
             {
               "status": "warn",
               "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Large, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Large, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Large, State=Active",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Large, State=Active",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Disabled",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -3074,7 +3034,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3114,66 +3074,6 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Regular, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Regular, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Active",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Regular, State=Active",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -3264,46 +3164,6 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Small, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Small, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Small, State=Active",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Small, State=Active",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -3403,7 +3263,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 65,
+            "warn": 51,
             "fail": 0,
             "info": 0
           },
@@ -3421,19 +3281,12 @@
             "Type=Destructive Tertiary, Size=Regular, State=Default",
             "Type=Primary, Size=Small, State=Default",
             "Type=Primary, Size=Large, State=Hover",
-            "Type=Primary, Size=Large, State=Focus",
-            "Type=Primary, Size=Large, State=Active",
             "Type=Primary, Size=Large, State=Disabled",
             "Type=Primary, Size=Large, State=Loading",
             "Type=Primary, Size=Regular, State=Default",
-            "Type=Primary, Size=Regular, State=Hover",
-            "Type=Primary, Size=Regular, State=Focus",
-            "Type=Primary, Size=Regular, State=Active",
             "Type=Primary, Size=Regular, State=Disabled",
             "Type=Primary, Size=Regular, State=Loading",
             "Type=Primary, Size=Small, State=Hover",
-            "Type=Primary, Size=Small, State=Focus",
-            "Type=Primary, Size=Small, State=Active",
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Primary, Size=Small, State=Loading",
             "Type=Inverse, Size=Large, State=Hover"
@@ -5458,7 +5311,7 @@
           "category": "Tokens",
           "subject": "token:Corner radius",
           "label": "Corner radius",
-          "status": "warn",
+          "status": "ignored",
           "title": "Corner radius isn't linked to a variable in Figma",
           "owner": "Design",
           "detail": "Figma layer \"Type=Primary, Size=Large, State=Default\" uses a raw 999px · Code uses --aum-button-radius",
@@ -6159,7 +6012,14 @@
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Primary, Size=Small, State=Loading",
             "Type=Inverse, Size=Large, State=Hover"
-          ]
+          ],
+          "ignored": {
+            "reason": "Claim not accurate",
+            "at": "2026-11-23T16:21:43.534Z",
+            "by": "Wale",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Tokens|value:Horizontal padding",
@@ -9088,29 +8948,9 @@
               "status": "pass",
               "brand": "Dragonpass",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design #006B99 (foreground/interactive/action) · Code #006B99",
+              "detail": "Design #006B99 (linked variable) · Code #006B99",
               "figma": "#006B99",
               "code": "#006B99",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "Mastercard",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design #CF4500 (foreground/interactive/action) · Code #CF4500",
-              "figma": "#CF4500",
-              "code": "#CF4500",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "pass",
-              "brand": "Investec",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design #AE692F (foreground/interactive/action) · Code #AE692F",
-              "figma": "#AE692F",
-              "code": "#AE692F",
               "image": null,
               "extra": null
             },
@@ -9626,7 +9466,7 @@
             }
           ],
           "counts": {
-            "pass": 63,
+            "pass": 61,
             "warn": 0,
             "fail": 0,
             "info": 0
@@ -9732,36 +9572,6 @@
               "detail": "components/button/secondary-color is --aum-button-secondary-text-color in code (convention: --aum-button-secondary-color)",
               "figma": "components/button/secondary-color",
               "code": "--aum-button-secondary-text-color",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design token foreground/interactive/action (--aum-foreground-interactive-action) · Code uses --aum-button-tertiary-text-color",
-              "figma": "--aum-foreground-interactive-action",
-              "code": "--aum-button-tertiary-text-color",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design token foreground/interactive/action (--aum-foreground-interactive-action) · Code uses --aum-button-tertiary-text-color",
-              "figma": "--aum-foreground-interactive-action",
-              "code": "--aum-button-tertiary-text-color",
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Design token foreground/interactive/action (--aum-foreground-interactive-action) · Code uses --aum-button-tertiary-text-color",
-              "figma": "--aum-foreground-interactive-action",
-              "code": "--aum-button-tertiary-text-color",
               "image": null,
               "extra": null
             },
@@ -10278,7 +10088,7 @@
           ],
           "counts": {
             "pass": 9,
-            "warn": 54,
+            "warn": 51,
             "fail": 0,
             "info": 0
           },
@@ -10291,7 +10101,6 @@
             "Type=Primary, Size=Large, State=Default",
             "Type=Inverse, Size=Large, State=Default",
             "Type=Secondary, Size=Large, State=Default",
-            "Type=Tertiary, Size=Regular, State=Default",
             "Type=Destructive, Size=Large, State=Default",
             "Type=Destructive Tertiary, Size=Regular, State=Default",
             "Type=Primary, Size=Small, State=Default",
@@ -18660,6 +18469,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18675,6 +18485,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18690,6 +18501,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18759,6 +18571,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18774,6 +18587,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18789,6 +18603,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18804,6 +18619,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18819,6 +18635,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18834,6 +18651,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -19198,9 +19016,7 @@
               "TT13.c",
               "EN-301-549",
               "EN-9.1.4.3",
-              "ACT",
-              "RGAAv4",
-              "RGAA-3.2.1"
+              "ACT"
             ],
             "source": "code"
           },
@@ -19211,7 +19027,7 @@
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
               "image": null,
               "extra": {
                 "ratio": 4.31,
@@ -19260,9 +19076,7 @@
               "TT6.a",
               "EN-301-549",
               "EN-9.4.1.2",
-              "ACT",
-              "RGAAv4",
-              "RGAA-11.9.1"
+              "ACT"
             ],
             "source": "code"
           },
@@ -19273,7 +19087,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19287,7 +19101,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19301,7 +19115,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19315,7 +19129,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19329,7 +19143,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19343,7 +19157,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19357,7 +19171,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19371,7 +19185,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19385,7 +19199,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19555,58 +19369,16 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
-          "title": "Text contrast is too low in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
           "owner": "Design",
-          "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
+          "detail": "16.14:1, needs 4.5:1 · #FFFFFF on #0A2333",
           "meta": {
             "rule": "design-contrast",
             "source": "design",
             "impact": "serious"
           },
           "instances": [
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.32,
-                "required": 4.5,
-                "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Button Label",
-                "assumed": true
-              }
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Tertiary, Size=Regular, State=Focus",
-              "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": {
-                "ratio": 4.32,
-                "required": 4.5,
-                "fg": "#AE692F",
-                "bg": "#FFFFFF",
-                "fgToken": "foreground/interactive/action",
-                "bgToken": null,
-                "size": 14,
-                "weight": 400,
-                "layer": "Button Label",
-                "assumed": true
-              }
-            },
             {
               "status": "pass",
               "brand": "Dragonpass",
@@ -21244,21 +21016,58 @@
                 "layer": "Button Label",
                 "assumed": false
               }
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Type=Inverse, Size=Regular, State=Active",
+              "detail": "12.7:1, needs 4.5:1 · #232833 on #EEEEEB",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 12.7,
+                "required": 4.5,
+                "fg": "#232833",
+                "bg": "#EEEEEB",
+                "fgToken": "foreground/interactive/action-pressed",
+                "bgToken": "background/interactive/control-pressed",
+                "size": 14,
+                "weight": 400,
+                "layer": "Button Label",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Type=Inverse, Size=Regular, State=Active",
+              "detail": "17.06:1, needs 4.5:1 · #000000 on #E2E8F2",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 17.06,
+                "required": 4.5,
+                "fg": "#000000",
+                "bg": "#E2E8F2",
+                "fgToken": "foreground/interactive/action-pressed",
+                "bgToken": "background/interactive/control-pressed",
+                "size": 14,
+                "weight": 400,
+                "layer": "Button Label",
+                "assumed": false
+              }
             }
           ],
           "counts": {
-            "pass": 222,
-            "warn": 2,
+            "pass": 218,
+            "warn": 0,
             "fail": 0,
             "info": 0
           },
-          "brands": [
-            "Investec"
-          ],
-          "variants": [
-            "Type=Tertiary, Size=Regular, State=Default",
-            "Type=Tertiary, Size=Regular, State=Focus"
-          ]
+          "brands": [],
+          "variants": []
         }
       ],
       "gallery": [
@@ -25524,7 +25333,7 @@
               "extra": null
             },
             {
-              "status": "pass",
+              "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Card",
               "detail": "5.0% of pixels differ",
@@ -25539,8 +25348,8 @@
             }
           ],
           "counts": {
-            "pass": 1,
-            "warn": 1,
+            "pass": 0,
+            "warn": 2,
             "fail": 0,
             "info": 0
           },
@@ -25548,7 +25357,8 @@
             "Dragonpass"
           ],
           "variants": [
-            "Style=Input"
+            "Style=Input",
+            "Style=Card"
           ]
         },
         {
@@ -26592,7 +26402,7 @@
           "figma": "assets/figma/1702720601461054755dragonpass.png",
           "code": "assets/code/1702720601461054755dragonpass.png",
           "diff": "assets/diff/1702720601461054755dragonpass.png",
-          "mismatch": 0.06354377530364372,
+          "mismatch": 0.06382844129554656,
           "sizeDelta": {
             "w": -120,
             "h": -19
@@ -26614,7 +26424,7 @@
           "figma": "assets/figma/17027206022169457dragonpass.png",
           "code": "assets/code/17027206022169457dragonpass.png",
           "diff": "assets/diff/17027206022169457dragonpass.png",
-          "mismatch": 0.049928571428571426,
+          "mismatch": 0.05000892857142857,
           "sizeDelta": {
             "w": -218,
             "h": -79
@@ -27863,8 +27673,8 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 46,
-      "warn": 35,
+      "pass": 47,
+      "warn": 33,
       "fail": 23
     },
     "byCategory": {
@@ -27880,7 +27690,7 @@
       },
       "Tokens": {
         "pass": 6,
-        "warn": 13,
+        "warn": 12,
         "fail": 8
       },
       "Visual": {
@@ -27889,8 +27699,8 @@
         "fail": 2
       },
       "Accessibility": {
-        "pass": 18,
-        "warn": 3,
+        "pass": 19,
+        "warn": 2,
         "fail": 2
       },
       "Interaction": {
@@ -27911,7 +27721,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 9,
+        "warn": 7,
         "fail": 1
       },
       "Dev": {
@@ -28176,7 +27986,21 @@
       "No failures in: Interaction, Rendering, Documentation",
       "2 components render in Storybook without errors"
     ],
-    "ignored": [],
+    "ignored": [
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Tokens|token:Corner radius",
+        "category": "Tokens",
+        "title": "Corner radius isn't linked to a variable in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Claim not accurate",
+        "at": "2026-11-23T16:21:43.534Z",
+        "by": "Wale",
+        "github": null
+      }
+    ],
     "brokenComponents": [
       {
         "name": "Button",
@@ -28289,7 +28113,7 @@
           "Mastercard",
           "Investec"
         ],
-        "variants": 24
+        "variants": 17
       },
       {
         "component": "Button",
@@ -28324,23 +28148,6 @@
           "Investec"
         ],
         "variants": 18
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Tokens|token:Corner radius",
-        "category": "Tokens",
-        "subject": "token:Corner radius",
-        "status": "warn",
-        "title": "Corner radius isn't linked to a variable in Figma",
-        "detail": "Figma layer \"Type=Primary, Size=Large, State=Default\" uses a raw 999px · Code uses --aum-button-radius",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 22
       },
       {
         "component": "Button",
@@ -28421,7 +28228,7 @@
           "Mastercard",
           "Investec"
         ],
-        "variants": 18
+        "variants": 17
       },
       {
         "component": "Button",
@@ -28626,21 +28433,6 @@
         "variants": 3
       },
       {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Investec"
-        ],
-        "variants": 2
-      },
-      {
         "component": "Button Group",
         "componentKey": "3098:42588",
         "key": "Naming|name",
@@ -28813,7 +28605,7 @@
         "brands": [
           "Dragonpass"
         ],
-        "variants": 1
+        "variants": 2
       },
       {
         "component": "Stepper",
@@ -29090,7 +28882,7 @@
     "byBrand": {
       "Dragonpass": 4,
       "Mastercard": 5,
-      "Investec": 8,
+      "Investec": 6,
       "Assurant": 2
     },
     "criteria": [
@@ -29501,7 +29293,7 @@
         "status": "fail",
         "owner": "Dev",
         "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+        "help": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
         "components": [
           {
             "name": "Button",
@@ -29590,7 +29382,7 @@
         "status": "fail",
         "owner": "Design",
         "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+        "help": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
         "components": [
           {
             "name": "Button",
@@ -29619,33 +29411,16 @@
               "assumed": false,
               "variant": "Type=Tertiary, Size=Regular, State=Default"
             },
-            "design": {
-              "ratio": 4.32,
-              "required": 4.5,
-              "fg": "#AE692F",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action",
-              "bgToken": null,
-              "size": 14,
-              "weight": 400,
-              "layer": "Button Label",
-              "assumed": true
-            },
+            "design": null,
             "target": ".aum-button-content",
             "size": null
           }
         ],
-        "verdict": "design",
+        "verdict": null,
         "occurrences": 1
       },
       {
         "items": [
-          {
-            "component": "1454:7798",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Button"
-          },
           {
             "component": "1885:4061",
             "key": "Accessibility|design:contrast",
@@ -29671,41 +29446,11 @@
         "help": null,
         "components": [
           {
-            "name": "Button",
-            "key": "1454:7798"
-          },
-          {
             "name": "Tag",
             "key": "1885:4061"
           }
         ],
         "where": [
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Button",
-            "componentKey": "1454:7798",
-            "brand": "Investec",
-            "variants": [
-              "Type=Tertiary, Size=Regular, State=Default",
-              "Type=Tertiary, Size=Regular, State=Focus"
-            ],
-            "status": "warn",
-            "detail": "4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 4.32,
-              "required": 4.5,
-              "fg": "#AE692F",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/interactive/action",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=Tertiary, Size=Regular, State=Default"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
           {
             "checkKey": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
@@ -29785,7 +29530,7 @@
             "size": null
           }
         ],
-        "occurrences": 8
+        "occurrences": 6
       },
       {
         "items": [
@@ -29850,12 +29595,79 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T14:35:01.585Z",
+    "since": "2026-11-23T10:46:45.259Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-23T16:21:43.534Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Wale",
+      "github": null,
+      "reason": "Claim not accurate",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Tokens|token:Corner radius",
+          "title": "Corner radius isn't linked to a variable in Figma",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-23T12:16:25.443Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "Not true",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Tokens|token:Corner radius",
+          "title": "Corner radius isn't linked to a variable in Figma",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yt6pag6ac9lk"
+    },
+    {
+      "at": "2026-11-23T12:15:08.835Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|values:Type",
+          "title": "Type values differ",
+          "componentName": "Button"
+        }
+      ],
+      "id": "hc88rw4bakoz"
+    },
+    {
+      "at": "2026-11-23T12:13:00.663Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tag"
+        }
+      ],
+      "id": "znxw4ova7ts0"
+    },
     {
       "at": "2026-11-18T17:44:57.171Z",
       "action": "delete-comment",

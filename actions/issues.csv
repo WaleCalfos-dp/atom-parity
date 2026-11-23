@@ -44,7 +44,7 @@ Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-properti
 "[Atom parity] Button: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+16 more)
+Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+9 more)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
@@ -71,16 +71,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-tokens owner-both","Atom Design System"
-"[Atom parity] Button: Corner radius isn't linked to a variable in Figma","Figma layer ""Type=Primary, Size=Large, State=Default"" uses a raw 999px · Code uses --aum-button-radius
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Destructive, Size=Large, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover; Type=Primary, Size=Large, State=Focus; Type=Primary, Size=Large, State=Active (+14 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-tokens owner-design","Atom Design System"
 "[Atom parity] Button: Horizontal padding differs from design","Design 24px (space-24) · Code 28px
 
 Brands: Investec
@@ -124,7 +114,7 @@ Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-tokens o
 "[Atom parity] Button: Label · Text colour uses a different token","Design token foreground/basic/inverse (--aum-foreground-basic-inverse) · Code uses --aum-button-primary-text-color
 
 Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+10 more)
+Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover; Type=Primary, Size=Large, State=Focus (+9 more)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
@@ -251,16 +241,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-23","Task","High","atom-parity parity-accessibility owner-dev","Atom Design System"
-"[Atom parity] Button: Text contrast is too low in Figma","4.32:1, needs 4.5:1 · #AE692F on #FFFFFF (no background in the component, measured on white)
-
-Brands: Investec
-Variants: Type=Tertiary, Size=Regular, State=Default; Type=Tertiary, Size=Regular, State=Focus
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-accessibility owner-design","Atom Design System"
 "[Atom parity] Button Group: Not found in Storybook","Possible matches: Basics/Button, Data Entry/Checkbox Button Group, Data Entry/Radio Button Group. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3098-42588
@@ -345,7 +325,7 @@ Found by atom-parity on 2026-11-23","Task","Medium","atom-parity parity-renderin
 "[Atom parity] Stepper: Visual differences","6.4% of pixels differ
 
 Brands: Dragonpass
-Variants: Style=Input
+Variants: Style=Input; Style=Card
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
