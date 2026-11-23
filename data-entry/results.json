@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-20T14:45:33.084Z",
-    "durationMs": 205753,
+    "generatedAt": "2026-11-23T10:56:21.818Z",
+    "durationMs": 190241,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-20T13:08:27Z"
+        "lastModified": "2026-11-23T10:49:21Z"
       },
-      "exportedAt": "2026-11-20T14:44:14.798Z",
+      "exportedAt": "2026-11-23T10:55:15.542Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2225,7 +2225,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Default, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -17086,7 +17086,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T12:51:38.099Z",
+    "since": "2026-11-20T14:45:33.084Z",
     "previousScore": 37,
     "newFails": [],
     "fixed": []

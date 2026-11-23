@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-20T15:01:57.135Z",
+  "generatedAt": "2026-11-23T11:10:19.089Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:35:01.585Z",
+      "ranAt": "2026-11-23T10:46:45.259Z",
       "ok": true,
       "history": [
         {
@@ -83,6 +83,10 @@
         },
         {
           "at": "2026-11-20T14:35:01.585Z",
+          "score": 21
+        },
+        {
+          "at": "2026-11-23T10:46:45.259Z",
           "score": 21
         }
       ],
@@ -209,7 +213,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:37:44.266Z",
+      "ranAt": "2026-11-23T10:49:16.326Z",
       "ok": true,
       "history": [
         {
@@ -270,6 +274,10 @@
         },
         {
           "at": "2026-11-20T14:37:44.266Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-23T10:49:16.326Z",
           "score": 22
         }
       ],
@@ -388,7 +396,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:42:07.299Z",
+      "ranAt": "2026-11-23T10:53:11.550Z",
       "ok": true,
       "history": [
         {
@@ -449,6 +457,10 @@
         },
         {
           "at": "2026-11-20T14:42:07.299Z",
+          "score": 23
+        },
+        {
+          "at": "2026-11-23T10:53:11.550Z",
           "score": 23
         }
       ],
@@ -577,7 +589,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:45:33.084Z",
+      "ranAt": "2026-11-23T10:56:21.818Z",
       "ok": true,
       "history": [
         {
@@ -638,6 +650,10 @@
         },
         {
           "at": "2026-11-20T14:45:33.084Z",
+          "score": 37
+        },
+        {
+          "at": "2026-11-23T10:56:21.818Z",
           "score": 37
         }
       ],
@@ -759,7 +775,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:47:25.115Z",
+      "ranAt": "2026-11-23T10:57:57.945Z",
       "ok": true,
       "history": [
         {
@@ -820,6 +836,10 @@
         },
         {
           "at": "2026-11-20T14:47:25.115Z",
+          "score": 32
+        },
+        {
+          "at": "2026-11-23T10:57:57.945Z",
           "score": 32
         }
       ],
@@ -887,7 +907,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:50:13.520Z",
+      "ranAt": "2026-11-23T11:00:33.367Z",
       "ok": true,
       "history": [
         {
@@ -948,6 +968,10 @@
         },
         {
           "at": "2026-11-20T14:50:13.520Z",
+          "score": 36
+        },
+        {
+          "at": "2026-11-23T11:00:33.367Z",
           "score": 36
         }
       ],
@@ -1051,7 +1075,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:52:06.575Z",
+      "ranAt": "2026-11-23T11:02:15.819Z",
       "ok": true,
       "history": [
         {
@@ -1108,6 +1132,10 @@
         },
         {
           "at": "2026-11-20T14:52:06.575Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-23T11:02:15.819Z",
           "score": 15
         }
       ],
@@ -1175,7 +1203,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:54:11.034Z",
+      "ranAt": "2026-11-23T11:03:45.882Z",
       "ok": true,
       "history": [
         {
@@ -1236,6 +1264,10 @@
         },
         {
           "at": "2026-11-20T14:54:11.034Z",
+          "score": 15
+        },
+        {
+          "at": "2026-11-23T11:03:45.882Z",
           "score": 15
         }
       ],
@@ -1334,7 +1366,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T14:58:16.817Z",
+      "ranAt": "2026-11-23T11:07:15.681Z",
       "ok": true,
       "history": [
         {
@@ -1383,6 +1415,10 @@
         },
         {
           "at": "2026-11-20T14:58:16.817Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-23T11:07:15.681Z",
           "score": 0
         }
       ],
@@ -1573,7 +1609,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-20T15:01:56.454Z",
+      "ranAt": "2026-11-23T11:10:18.434Z",
       "ok": true,
       "history": [
         {
@@ -1626,6 +1662,10 @@
         },
         {
           "at": "2026-11-20T15:01:56.454Z",
+          "score": 7
+        },
+        {
+          "at": "2026-11-23T11:10:18.434Z",
           "score": 7
         }
       ],
