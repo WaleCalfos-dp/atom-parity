@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:25:25.225Z",
-    "durationMs": 113881,
+    "generatedAt": "2026-11-24T12:25:35.355Z",
+    "durationMs": 117756,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-24T11:25:02Z"
       },
-      "exportedAt": "2026-11-24T12:24:12.143Z",
+      "exportedAt": "2026-11-24T12:24:13.675Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1724,7 +1724,7 @@
           "category": "Naming",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "ignored",
+          "status": "warn",
           "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
           "owner": "Both",
           "detail": "Same words in a different order or form. Align the names so they map 1:1.",
@@ -1748,14 +1748,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
-            "at": "2026-11-24T12:23:17.388Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "warn"
+          "variants": []
         },
         {
           "key": "Naming|prop:Show Icon Right",
@@ -3007,26 +3000,6 @@
             {
               "status": "warn",
               "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Large, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Large, State=Active",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Disabled",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -3117,36 +3090,6 @@
             {
               "status": "warn",
               "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Regular, State=Active",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Regular, State=Disabled",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
@@ -3228,26 +3171,6 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Small, State=Focus",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Small, State=Active",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -3347,7 +3270,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 58,
+            "warn": 51,
             "fail": 0,
             "info": 0
           },
@@ -3365,19 +3288,12 @@
             "Type=Destructive Tertiary, Size=Regular, State=Default",
             "Type=Primary, Size=Small, State=Default",
             "Type=Primary, Size=Large, State=Hover",
-            "Type=Primary, Size=Large, State=Focus",
-            "Type=Primary, Size=Large, State=Active",
             "Type=Primary, Size=Large, State=Disabled",
             "Type=Primary, Size=Large, State=Loading",
             "Type=Primary, Size=Regular, State=Default",
-            "Type=Primary, Size=Regular, State=Hover",
-            "Type=Primary, Size=Regular, State=Focus",
-            "Type=Primary, Size=Regular, State=Active",
             "Type=Primary, Size=Regular, State=Disabled",
             "Type=Primary, Size=Regular, State=Loading",
             "Type=Primary, Size=Small, State=Hover",
-            "Type=Primary, Size=Small, State=Focus",
-            "Type=Primary, Size=Small, State=Active",
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Primary, Size=Small, State=Loading",
             "Type=Inverse, Size=Large, State=Hover"
@@ -18560,6 +18476,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18575,6 +18492,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18590,6 +18508,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18659,6 +18578,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18674,6 +18594,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18689,6 +18610,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18704,6 +18626,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18719,6 +18642,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18734,6 +18658,7 @@
               "extra": {
                 "covers": [
                   "4.1.2",
+                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -19098,9 +19023,7 @@
               "TT13.c",
               "EN-301-549",
               "EN-9.1.4.3",
-              "ACT",
-              "RGAAv4",
-              "RGAA-3.2.1"
+              "ACT"
             ],
             "source": "code"
           },
@@ -19111,7 +19034,7 @@
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
               "image": null,
               "extra": {
                 "ratio": 4.31,
@@ -19167,9 +19090,7 @@
               "TT6.a",
               "EN-301-549",
               "EN-9.4.1.2",
-              "ACT",
-              "RGAAv4",
-              "RGAA-11.9.1"
+              "ACT"
             ],
             "source": "code"
           },
@@ -19180,7 +19101,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19194,7 +19115,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19208,7 +19129,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19222,7 +19143,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19236,7 +19157,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19250,7 +19171,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19264,7 +19185,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19278,7 +19199,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19292,7 +19213,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -27774,13 +27695,13 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 31,
+      "warn": 32,
       "fail": 22
     },
     "byCategory": {
       "Naming": {
         "pass": 9,
-        "warn": 3,
+        "warn": 4,
         "fail": 7
       },
       "Properties": {
@@ -27829,7 +27750,7 @@
         "fail": 9
       },
       "Both": {
-        "warn": 21,
+        "warn": 22,
         "fail": 13
       }
     },
@@ -27883,6 +27804,30 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Social Button"
+          }
+        ]
+      },
+      {
+        "category": "Naming",
+        "title": "Property named differently in Figma and code",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Button",
+          "Stepper"
+        ],
+        "items": [
+          {
+            "component": "1454:7798",
+            "key": "Naming|prop:Show Icon Left",
+            "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Naming|prop:Style",
+            "title": "Figma \"Style\" is \"variant\" in code",
+            "componentName": "Stepper"
           }
         ]
       },
@@ -28049,23 +27994,6 @@
             "componentName": "Button"
           }
         ]
-      },
-      {
-        "category": "Naming",
-        "title": "Property named differently in Figma and code",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Stepper"
-        ],
-        "items": [
-          {
-            "component": "1702:72060",
-            "key": "Naming|prop:Style",
-            "title": "Figma \"Style\" is \"variant\" in code",
-            "componentName": "Stepper"
-          }
-        ]
       }
     ],
     "works": [
@@ -28074,19 +28002,6 @@
       "2 components render in Storybook without errors"
     ],
     "ignored": [
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Naming|prop:Show Icon Left",
-        "category": "Naming",
-        "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
-        "was": "warn",
-        "owner": "Both",
-        "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
-        "at": "2026-11-24T12:23:17.388Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
       {
         "component": "Button",
         "componentKey": "1454:7798",
@@ -28174,6 +28089,19 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Naming|prop:Show Icon Left",
+        "category": "Naming",
+        "subject": "prop:Show Icon Left",
+        "status": "warn",
+        "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+        "detail": "Same words in a different order or form. Align the names so they map 1:1.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
         "key": "Properties|values:Type",
         "category": "Properties",
         "subject": "values:Type",
@@ -28225,7 +28153,7 @@
           "Mastercard",
           "Investec"
         ],
-        "variants": 24
+        "variants": 17
       },
       {
         "component": "Button",
@@ -29390,7 +29318,7 @@
         "status": "fail",
         "owner": "Dev",
         "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
+        "help": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
         "components": [
           {
             "name": "Button",
@@ -29637,22 +29565,6 @@
     "fixed": []
   },
   "activity": [
-    {
-      "at": "2026-11-24T12:23:17.388Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|prop:Show Icon Left",
-          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
-          "componentName": "Button"
-        }
-      ]
-    },
     {
       "at": "2026-11-24T12:23:07.171Z",
       "action": "restore",
