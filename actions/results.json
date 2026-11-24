@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:34:08.270Z",
-    "durationMs": 102947,
+    "generatedAt": "2026-11-24T12:40:28.194Z",
+    "durationMs": 127101,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-24T11:25:02Z"
       },
-      "exportedAt": "2026-11-24T12:33:02.838Z",
+      "exportedAt": "2026-11-24T12:39:22.654Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -27079,7 +27079,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
           "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -27692,7 +27692,14 @@
           "variants": [
             "State=Selected, Size=Regular",
             "State=Selected, Size=Small"
-          ]
+          ],
+          "ignored": {
+            "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+            "at": "2026-11-24T12:38:02.708Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         }
       ],
       "gallery": [],
@@ -27716,7 +27723,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 29,
+      "warn": 28,
       "fail": 22
     },
     "byCategory": {
@@ -27742,7 +27749,7 @@
       },
       "Accessibility": {
         "pass": 18,
-        "warn": 2,
+        "warn": 1,
         "fail": 1
       },
       "Interaction": {
@@ -27763,7 +27770,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 4,
         "fail": 0
       },
       "Dev": {
@@ -28104,6 +28111,19 @@
         "owner": "Design",
         "reason": "fixed",
         "at": "2026-11-23T16:34:58.676Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+        "at": "2026-11-24T12:38:02.708Z",
         "by": "Yana Kolpakova",
         "github": null
       }
@@ -28881,23 +28901,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 2
       }
     ]
   },
@@ -28913,16 +28916,15 @@
     "counts": {
       "critical": 1,
       "serious": 0,
-      "moderate": 2,
+      "moderate": 1,
       "minor": 0
     },
-    "total": 3,
-    "components": 3,
+    "total": 2,
+    "components": 2,
     "byBrand": {
       "Dragonpass": 4,
-      "Mastercard": 5,
-      "Investec": 5,
-      "Assurant": 2
+      "Mastercard": 3,
+      "Investec": 3
     },
     "criteria": [
       {
@@ -28949,8 +28951,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "1.4.4",
@@ -29400,119 +29402,6 @@
       {
         "items": [
           {
-            "component": "1885:4061",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Tag"
-          }
-        ],
-        "rule": "design-contrast",
-        "criterion": {
-          "sc": "1.4.3",
-          "name": "Contrast (minimum)",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
-          "auto": true
-        },
-        "title": "Text contrast is too low in Figma",
-        "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
-        "fix": "Change the brand value of the text or background token in Figma until the pair reaches 4.5:1 (3:1 for large text).",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Tag",
-            "key": "1885:4061"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tag",
-            "componentKey": "1885:4061",
-            "brand": "Mastercard",
-            "variants": [
-              "State=Selected, Size=Regular",
-              "State=Selected, Size=Small"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Selected, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tag",
-            "componentKey": "1885:4061",
-            "brand": "Investec",
-            "variants": [
-              "State=Selected, Size=Regular",
-              "State=Selected, Size=Small"
-            ],
-            "status": "warn",
-            "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 4.5,
-              "fg": "#F8F8F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Selected, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tag",
-            "componentKey": "1885:4061",
-            "brand": "Assurant",
-            "variants": [
-              "State=Selected, Size=Regular",
-              "State=Selected, Size=Small"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Selected, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 6
-      },
-      {
-        "items": [
-          {
             "component": "1702:72060",
             "key": "Accessibility|design:non-text",
             "title": "Field edge is hard to see in Figma",
@@ -29573,12 +29462,28 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:26:01.381Z",
+    "since": "2026-11-24T12:34:08.270Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T12:38:02.708Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tag"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T12:32:06.171Z",
       "action": "ignore",

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-24T12:34:15.821Z",
+  "generatedAt": "2026-11-24T12:40:28.707Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-24T12:34:08.270Z",
+      "ranAt": "2026-11-24T12:40:28.194Z",
       "ok": true,
       "history": [
         {
@@ -112,6 +112,10 @@
         {
           "at": "2026-11-24T12:34:08.270Z",
           "score": 21
+        },
+        {
+          "at": "2026-11-24T12:40:28.194Z",
+          "score": 21
         }
       ],
       "preview": {
@@ -195,7 +199,7 @@
         "Horizontal padding differs from design",
         "Vertical padding differs from design"
       ],
-      "ignored": 7,
+      "ignored": 8,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",
@@ -203,14 +207,14 @@
       },
       "a11y": {
         "ran": true,
-        "total": 3,
+        "total": 2,
         "counts": {
           "critical": 1,
           "serious": 0,
-          "moderate": 2,
+          "moderate": 1,
           "minor": 0
         },
-        "components": 3,
+        "components": 2,
         "scans": 39,
         "designChecks": 217,
         "top": [
@@ -218,11 +222,6 @@
             "title": "Button has no accessible name",
             "impact": "critical",
             "owner": "Dev"
-          },
-          {
-            "title": "Text contrast is too low in Figma",
-            "impact": "moderate",
-            "owner": "Design"
           },
           {
             "title": "Field edge or icon is hard to see in Figma",

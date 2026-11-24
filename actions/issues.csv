@@ -433,13 +433,3 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
 Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Tag: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
-
-Brands: Mastercard, Investec, Assurant
-Variants: State=Selected, Size=Regular; State=Selected, Size=Small
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
-
-Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
