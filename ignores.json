@@ -65,6 +65,17 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-24T12:31:20.189Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Properties|code-only",
+      "title": "Code has props with no Figma property",
+      "componentName": "Button",
+      "reason": "we don't need those props",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-24T12:32:06.171Z"
     }
   ]
 }

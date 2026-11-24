@@ -464,6 +464,22 @@
           "componentName": "Button"
         }
       ]
+    },
+    {
+      "at": "2026-11-24T12:32:06.171Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "we don't need those props",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Button"
+        }
+      ]
     }
   ]
 }
