@@ -9,7 +9,7 @@
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Component named differently in Figma and Storybook: 2 components (Both)
-- 🔴 Not built in Storybook: 2 components (Both)
+- 🔴 Not built in Storybook: 2 components (Dev)
 - 🔴 Text contrast is too low in Figma: 1 component (Design)
 - 🔴 Field edge is hard to see in Figma: 1 component (Design)
 - 🟠 Code has props with no Figma property: 5 components (Design)

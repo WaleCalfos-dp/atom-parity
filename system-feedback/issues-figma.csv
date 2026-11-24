@@ -1,0 +1,182 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Alert: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Alert: Figma ""Status"" is ""type"" in code","Rename one side so names match 1:1 (paired by matching values)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Alert: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Alert: ""Error"" is a retired term","Use ""danger"" instead (Status)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-figma","Atom Design System"
+"[Atom parity] Alert: Code has props with no Figma property","content, variant, showClose, showIcon, showShadow, duration, alertId, customIcon
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Alert: 10 of 10 variants can't be shown in code","Status=Information, Style=Top Border, Style=Full Border
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Dialog: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Dialog: Code has props with no Figma property","content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Dialog: 10 of 10 variants can't be shown in code","Type=Critical, Status=Error, Breakpoint=Mobile, Type=Customizable, Status=Info, Status=Warning, Status=Success, Breakpoint=Desktop
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Loading Indicator: Figma ""Loading Indicator"" is ""Loading"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Loading Indicator: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-documentation fix-in-figma","Atom Design System"
+"[Atom parity] Loading Indicator: Code has props with no Figma property","showMask, spinnerSize, inline, maskColor
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Loading Indicator: 2 of 2 variants can't be shown in code","Type=Spinner, Type=Skeleton
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Toast: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-documentation fix-in-figma","Atom Design System"
+"[Atom parity] Toast: Figma ""Status"" is ""type"" in code","Rename one side so names match 1:1 (paired by matching values)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Toast: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Toast: ""Error"" is a retired term","Use ""danger"" instead (Status)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-figma","Atom Design System"
+"[Atom parity] Toast: Code has props with no Figma property","content, position, duration, showClose, showIcon, offsetX, offsetY
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Toast: 10 of 10 variants can't be shown in code","Lines of Text=Single, Lines of Text=Multi, Status=Information
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Figma ""Show Description"" is ""description"" in code","Same words in a different order or form. Align the names so they map 1:1.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Figma ""Tip Direction"" is ""placement"" in code","Rename one side so names match 1:1 (paired by matching values)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Tip Direction values missing in code","Missing in code: Down, Up · Only in code: top, bottom
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Code has props with no Figma property","trigger, showArrow, prefix, suffix, offset, defaultVisible
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Tooltip: 8 of 8 variants can't be shown in code","Tip Direction=Down, Tip Centred=No, Tip Direction=Up, Tip Centred=Yes
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
+
+Brands: Mastercard, Investec, Assurant
+Variants: Tip Direction=Down, Tip Centred=No; Tip Direction=Right, Tip Centred=No; Tip Direction=Left, Tip Centred=No; Tip Direction=Up, Tip Centred=No; Tip Direction=Down, Tip Centred=Yes; Tip Direction=Right, Tip Centred=Yes; Tip Direction=Left, Tip Centred=Yes; Tip Direction=Up, Tip Centred=Yes
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"

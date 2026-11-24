@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-23T11:02:15.819Z",
-    "durationMs": 102425,
+    "generatedAt": "2026-11-24T11:33:11.728Z",
+    "durationMs": 140818,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-23T10:49:21Z"
+        "lastModified": "2026-11-24T11:25:01Z"
       },
-      "exportedAt": "2026-11-23T11:01:06.530Z",
+      "exportedAt": "2026-11-24T11:31:27.116Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1827,7 +1827,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "Possible matches: Basics/Image. Rename it, or add it to components.aliases.",
           "meta": null,
           "instances": [
@@ -1923,11 +1923,11 @@
       },
       "Dev": {
         "warn": 0,
-        "fail": 5
+        "fail": 6
       },
       "Both": {
         "warn": 1,
-        "fail": 2
+        "fail": 1
       }
     },
     "themes": [
@@ -1993,7 +1993,7 @@
         "category": "Naming",
         "title": "Not built in Storybook",
         "status": "fail",
-        "owner": "Both",
+        "owner": "Dev",
         "components": [
           "Product Images"
         ],
@@ -2161,7 +2161,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "Possible matches: Basics/Image. Rename it, or add it to components.aliases.",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       }
@@ -2521,7 +2521,7 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-20T14:52:06.575Z",
+    "since": "2026-11-23T11:02:15.819Z",
     "previousScore": 15,
     "newFails": [],
     "fixed": []

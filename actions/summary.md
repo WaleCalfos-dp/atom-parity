@@ -6,11 +6,8 @@
 |---|---|---|---|---|
 | 0 | 1 | 2 | 6 | 0 |
 
-### 1 fixed
-- Button: Elements must meet minimum color contrast ratio thresholds
-
 ### Biggest themes
-- 🔴 Not built in Storybook: 6 components (Both)
+- 🔴 Not built in Storybook: 6 components (Dev)
 - 🔴 Property named differently in Figma and code: 2 components (Both)
 - 🔴 Horizontal padding differs from design: 2 components (Both)
 - 🔴 Vertical padding differs from design: 2 components (Both)

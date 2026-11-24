@@ -8,7 +8,7 @@
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 1 component (Dev)
-- 🔴 Not built in Storybook: 1 component (Both)
+- 🔴 Not built in Storybook: 1 component (Dev)
 - 🟠 Code has props with no Figma property: 1 component (Design)
 - 🟠 4 of 4 variants can't be shown in code: 1 component (Both)
 

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-23T10:53:11.550Z",
-    "durationMs": 235176,
+    "generatedAt": "2026-11-24T11:20:38.212Z",
+    "durationMs": 287433,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-23T10:49:20Z"
+        "lastModified": "2026-11-23T18:17:30Z"
       },
-      "exportedAt": "2026-11-23T10:52:21.652Z",
+      "exportedAt": "2026-11-24T11:19:11.842Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -5142,7 +5142,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "No similar component in Storybook",
           "meta": null,
           "instances": [
@@ -5821,7 +5821,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "Possible matches: Data Display/Tag, Data Display/Data Row. Rename it, or add it to components.aliases.",
           "meta": null,
           "instances": [
@@ -7514,7 +7514,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "No similar component in Storybook",
           "meta": null,
           "instances": [
@@ -7584,7 +7584,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "Possible matches: Basics/Image, Data Display/Card, Business Components/PayCard. Rename it, or add it to components.aliases.",
           "meta": null,
           "instances": [
@@ -8093,7 +8093,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "No similar component in Storybook",
           "meta": null,
           "instances": [
@@ -10494,7 +10494,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "No similar component in Storybook",
           "meta": null,
           "instances": [
@@ -11140,7 +11140,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "Possible matches: Basics/Text, Data Display/Card, Data Entry/TextArea. Rename it, or add it to components.aliases.",
           "meta": null,
           "instances": [
@@ -11236,11 +11236,11 @@
       },
       "Dev": {
         "warn": 13,
-        "fail": 43
+        "fail": 50
       },
       "Both": {
         "warn": 12,
-        "fail": 13
+        "fail": 6
       }
     },
     "themes": [
@@ -11248,7 +11248,7 @@
         "category": "Naming",
         "title": "Not built in Storybook",
         "status": "fail",
-        "owner": "Both",
+        "owner": "Dev",
         "components": [
           "Badge",
           "Data Group",
@@ -12173,7 +12173,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12238,7 +12238,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "Possible matches: Data Display/Tag, Data Display/Data Row. Rename it, or add it to components.aliases.",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12511,7 +12511,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12524,7 +12524,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "Possible matches: Basics/Image, Data Display/Card, Business Components/PayCard. Rename it, or add it to components.aliases.",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12615,7 +12615,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12996,7 +12996,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -13100,7 +13100,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "Possible matches: Basics/Text, Data Display/Card, Data Entry/TextArea. Rename it, or add it to components.aliases.",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       }
@@ -13694,7 +13694,7 @@
     ]
   },
   "delta": {
-    "since": "2026-11-20T14:42:07.299Z",
+    "since": "2026-11-23T10:53:11.550Z",
     "previousScore": 23,
     "newFails": [],
     "fixed": []

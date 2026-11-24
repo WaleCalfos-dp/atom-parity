@@ -1,0 +1,298 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Dual Input: Not found in Storybook","Possible matches: Data Entry/LabelInput, Data Entry/PinInput. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24026
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17603%3A24026
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] eSim / Data Balance: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2885-12852
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-2885%3A12852
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] eSim / Status Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=4446-136318
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-4446%3A136318
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] eSim / Tile: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=817-27434
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-817%3A27434
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Fitness / Class Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17503-16604
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17503%3A16604
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Benefit Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17636-37197
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17636%3A37197
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma ""Flight Delay / Flight Card"" is ""FlightCard"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Airline Name"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Departure Date"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Departure Time"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Departure Airport"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Arrival Date"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Arrival Time"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma property ""Arrival Airport"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+
+Brands: Dragonpass, Mastercard, Investec
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-rendering fix-in-code","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Horizontal padding uses the design token under a different name","space-16 is --aum-spacing-16 in code (convention: --aum-space-16)
+
+Brands: Dragonpass, Mastercard, Investec
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Vertical padding uses the design token under a different name","space-16 is --aum-spacing-16 in code (convention: --aum-space-16)
+
+Brands: Dragonpass, Mastercard, Investec
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Label · Text colour differs from design","Design #535252 (linked variable) · Code #333333
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Label · Font size differs from design","Design 12px (linked variable) · Code 14px
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Label · Line height differs from design","Design 14px (linked variable) · Code 20px
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Visual differences","6.3% of pixels differ
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Height differs from design","Design 136px · Code 146px
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Width differs from design","Design 327px · Code 376px (label text may differ)
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Text gets cut off at 200% size","At 200% text: 1 text element is cut off: ""Emirates Airlines""
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-accessibility fix-in-both","Atom Design System"
+"[Atom parity] Membership / Entitlement Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10422-5934
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10422%3A5934
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Membership / Membership Card: Not found in Storybook","Possible matches: Data Display/Card. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-10419%3A5354
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Parking / Search Supercomponent: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18195-8619
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-18195%3A8619
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Product Details: Not found in Storybook","Possible matches: Business Components/ProductSelect. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16222-20620
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-16222%3A20620
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Transport / List Item: Not found in Storybook","Possible matches: Data Entry/List. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15617-26749
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-15617%3A26749
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma ""Transport / Promotion Panel"" is ""Promotion Panel"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Promotion Name"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Condition"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Expiry"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Voucher Code Text"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Show Tag Icon"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Show Promotion Condition"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma property ""Type"" has no equivalent in code","Values: Default, Applied, Expired, Empty
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: 4 of 4 variants can't be shown in code","Type=Default, Type=Applied, Type=Expired, Type=Empty
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Transport / Search Supercomponent: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17603-24646
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17603%3A24646
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Web Page Details: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17316-3291
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17316%3A3291
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"

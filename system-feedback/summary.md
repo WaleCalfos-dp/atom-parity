@@ -7,7 +7,7 @@
 | 0 | 5 | 0 | 6 | 0 |
 
 ### Biggest themes
-- 🔴 Not built in Storybook: 6 components (Both)
+- 🔴 Not built in Storybook: 6 components (Dev)
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Property named differently in Figma and code: 4 components (Both)
 - 🔴 Property values missing in code: 3 components (Both)

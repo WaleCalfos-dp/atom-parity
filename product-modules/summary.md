@@ -7,7 +7,7 @@
 | 0 | 0 | 2 | 13 | 0 |
 
 ### Biggest themes
-- 🔴 Not built in Storybook: 13 components (Both)
+- 🔴 Not built in Storybook: 13 components (Dev)
 - 🔴 Text contrast is too low in Figma: 2 components (Design)
 - 🔴 Component named differently in Figma and Storybook: 2 components (Both)
 - 🔴 Label · Text colour differs from design: 1 component (Both)

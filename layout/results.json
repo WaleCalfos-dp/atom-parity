@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-23T10:57:57.945Z",
-    "durationMs": 96085,
+    "generatedAt": "2026-11-24T11:27:34.572Z",
+    "durationMs": 157295,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-23T10:49:21Z"
+        "lastModified": "2026-11-24T11:25:01Z"
       },
-      "exportedAt": "2026-11-23T10:57:02.632Z",
+      "exportedAt": "2026-11-24T11:25:50.209Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1726,7 +1726,7 @@
           "label": "Component",
           "status": "fail",
           "title": "Not found in Storybook",
-          "owner": "Both",
+          "owner": "Dev",
           "detail": "No similar component in Storybook",
           "meta": null,
           "instances": [
@@ -1822,11 +1822,11 @@
       },
       "Dev": {
         "warn": 0,
-        "fail": 2
+        "fail": 3
       },
       "Both": {
         "warn": 1,
-        "fail": 1
+        "fail": 0
       }
     },
     "themes": [
@@ -1857,7 +1857,7 @@
         "category": "Naming",
         "title": "Not built in Storybook",
         "status": "fail",
-        "owner": "Both",
+        "owner": "Dev",
         "components": [
           "Overlay"
         ],
@@ -1973,7 +1973,7 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
-        "owner": "Both",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       }
@@ -2333,7 +2333,7 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-20T14:47:25.115Z",
+    "since": "2026-11-23T10:57:57.945Z",
     "previousScore": 32,
     "newFails": [],
     "fixed": []

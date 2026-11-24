@@ -1,0 +1,165 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Flight Delay / Benefit Card: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
+
+Brands: Dragonpass
+Variants: State=Expired
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17636-37197
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17636%3A37197
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-accessibility fix-in-figma","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Figma ""Flight Delay / Flight Card"" is ""FlightCard"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-documentation fix-in-figma","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Code has props with no Figma property","airline, from, to, airlineLogo, description
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Corner radius isn't linked to a variable in Figma","Figma layer ""Flight Delay / Flight Card"" uses a raw 8px · Code uses --aum-flight-card-border-radius
+
+Brands: Dragonpass, Mastercard, Investec
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-tokens fix-in-figma","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Horizontal padding uses the design token under a different name","space-16 is --aum-spacing-16 in code (convention: --aum-space-16)
+
+Brands: Dragonpass, Mastercard, Investec
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Vertical padding uses the design token under a different name","space-16 is --aum-spacing-16 in code (convention: --aum-space-16)
+
+Brands: Dragonpass, Mastercard, Investec
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Label · Text colour differs from design","Design #535252 (linked variable) · Code #333333
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Label · Font size differs from design","Design 12px (linked variable) · Code 14px
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Label · Line height differs from design","Design 14px (linked variable) · Code 20px
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Visual differences","6.3% of pixels differ
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Height differs from design","Design 136px · Code 146px
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Width differs from design","Design 327px · Code 376px (label text may differ)
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
+"[Atom parity] Flight Delay / Flight Card: Text gets cut off at 200% size","At 200% text: 1 text element is cut off: ""Emirates Airlines""
+
+Brands: Dragonpass
+Variants: Flight Delay / Flight Card
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-accessibility fix-in-both","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Figma ""Transport / Promotion Panel"" is ""Promotion Panel"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-documentation fix-in-figma","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Code has props with no Figma property","title, description, drawerProps, modalProps, visible, list, value
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: 4 of 4 variants can't be shown in code","Type=Default, Type=Applied, Type=Expired, Type=Empty
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Transport / Promotion Panel: Text contrast is too low in Figma","3.19:1, needs 4.5:1 · #91908F on #FFFFFF
+
+Brands: Dragonpass
+Variants: Type=Default; Type=Applied; Type=Expired
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
+Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-accessibility fix-in-figma","Atom Design System"

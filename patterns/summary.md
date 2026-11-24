@@ -7,6 +7,6 @@
 | 0 | 0 | 0 | 27 | 0 |
 
 ### Biggest themes
-- 🔴 Not built in Storybook: 27 components (Both)
+- 🔴 Not built in Storybook: 27 components (Dev)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/patterns/)

@@ -1,0 +1,561 @@
+"Summary","Description","Issue Type","Priority","Labels","Component/s"
+"[Atom parity] Accordion: Figma ""Accordion"" is ""Collapse"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Subtitle"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Badge"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Slot"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Title"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Subtitle"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Expanded Description"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Country Flag"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Expanded Description"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Supportive Text"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Supportive Text"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Show Supportive Content"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: State values with no code equivalent: Disabled","Disabled → missing · Default → :rest · Hover → :hover · Focus → :focus
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Style"" has no equivalent in code","Values: Bottom Border, Full Border
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Figma property ""Opened"" has no equivalent in code","Values: True, False
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Accordion: Default Filled differs","Design True · Code false
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Accordion: 24 of 24 variants can't be shown in code","Style=Full Border, Opened=False, Style=Bottom Border, Opened=True, State=Disabled
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Badge: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1888-5974
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1888%3A5974
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Content Block: Figma property ""Type"" has no equivalent in code","Values: Plain, Small Icon, Small icon (Left and Right), Large Icon Top, Large Icon Centred, Country Flag, Large Country Flag, Continent, Large Continent, Checkbox Left, Checkbox Right, Check Indicator Left, Check Indicator Right, Radio Left, Radio Right, Switch Left, Switch Right, Payment Icon, Payment Icon Selectable, Button
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14347-6046
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-contentblock--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14347%3A6046
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Content Block: 20 of 20 variants can't be shown in code","Type=Plain, Type=Small Icon, Type=Small icon (Left and Right), Type=Large Icon Top, Type=Large Icon Centred, Type=Large Country Flag, Type=Large Continent, Type=Country Flag, Type=Continent, Type=Payment Icon, Type=Payment Icon Selectable, Type=Check Indicator Left
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14347-6046
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-contentblock--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14347%3A6046
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Data Group: Not found in Storybook","Possible matches: Data Display/Tag, Data Display/Data Row. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=4205-24535
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-4205%3A24535
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Chevron Right"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Label"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Badge"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Data 1"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Content Right"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Country Flags"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Data 1"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Data 2"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Data 3"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Data 2"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Data 3"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Button"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: Figma ""Type"" is ""direction"" in code","Rename one side so names match 1:1 (paired by matching values)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Data Row: Type values missing in code","Missing in code: Vertical Compact (closest: vertical), Vertical Multi-Line (closest: vertical)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Data Row: Default Type differs","Design Horizontal · Code vertical
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Data Row: Figma property ""Position"" has no equivalent in code","Values: First-and-middle, Last
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Data Row: 8 of 8 variants can't be shown in code","Position=First-and-middle, Position=Last, Type=Vertical Compact, Type=Vertical Multi-Line
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=2991-63143
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-data-row--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-2991%3A63143
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Empty State: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15567-40690
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15567%3A40690
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Image Card: Not found in Storybook","Possible matches: Basics/Image, Data Display/Card, Business Components/PayCard. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-82295
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15169%3A82295
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] List: Grouped under a different category","Figma ""DATA DISPLAY"" · Storybook ""Data Entry""
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14969-20257
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-list--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14969%3A20257
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] List: Figma property ""container"" has no equivalent in code","slot property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14969-20257
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-list--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14969%3A20257
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] List: Figma property ""Style"" has no equivalent in code","Values: Stacked with Background, Single, Stacked Transparent
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14969-20257
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-list--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14969%3A20257
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] List: 3 of 3 variants can't be shown in code","Style=Single, Style=Stacked with Background, Style=Stacked Transparent
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14969-20257
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-list--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14969%3A20257
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Module Node: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7653-2736
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-7653%3A2736
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Content Top"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Logo"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Subtitle Top"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Offer"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Description"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Name and Card Number"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Details with Logo"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Body"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Subtitle Top"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Description Slot"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Icon Top"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Title Top"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Title Top"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma ""Show Caption"" is ""caption"" in code","Same words in a different order or form. Align the names so they map 1:1.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Button"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Slot Top"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Code Status"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Code Status"" has no equivalent in code","text property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Code"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Show Counter"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Type values missing in code","Missing in code: QR Code, Bar Code, Message · Only in code: image, canvas, svg
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] QR Code: Default Type differs","Design QR Code · Code image
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] QR Code: State values with no code equivalent: Generating","Default → :rest · Generating → missing · Failed → status=""failed""
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: Figma property ""Style"" has no equivalent in code","Values: Brand, Light, Muted
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] QR Code: 21 of 21 variants can't be shown in code","Type=QR Code, Style=Brand, State=Generating, Type=Bar Code, Type=Message, Style=Light, Style=Muted
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Slot: Not found in Storybook","No similar component in Storybook
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=399-5505
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-399%3A5505
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+"[Atom parity] Steps: Default Direction differs","Design Horizontal · Code vertical
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1658%3A46512
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Steps: Figma property ""Count"" has no equivalent in code","Values: 2, 3, 4, 5, 6, 7, 8
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1658%3A46512
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Steps: Figma property ""Background Fill"" has no equivalent in code","Values: On, Off
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1658%3A46512
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Steps: Figma ""Type"" is ""finishIconType"" in code","Rename one side so names match 1:1 (paired by matching values)
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1658%3A46512
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Steps: Type values missing in code","Missing in code: Icon · Only in code: check
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1658%3A46512
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Steps: 24 of 24 variants can't be shown in code","Count=2, Background Fill=Off, Count=6, Background Fill=On, Type=Icon, Count=3, Count=4, Count=7, Count=5, Count=8
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-steps--usage
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1658%3A46512
+
+Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Text Card: Not found in Storybook","Possible matches: Basics/Text, Data Display/Card, Data Entry/TextArea. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-82432
+Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15169%3A82432
+
+Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
