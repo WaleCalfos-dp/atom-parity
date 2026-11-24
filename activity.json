@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-24T12:40:28.240Z",
+  "generatedAt": "2026-11-24T12:42:10.737Z",
   "log": [
+    {
+      "at": "2026-11-24T12:42:09.073Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "I believe button shouldn't be in Basics...",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yc7ui25zp7zy",
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:40:52.263Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "borders here are decorative and they don't need to be accessible",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Accessibility|design:non-text",
+          "title": "Field edge is hard to see in Figma",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-24T12:38:02.708Z",
       "action": "ignore",
