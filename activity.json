@@ -1,6 +1,224 @@
 {
-  "generatedAt": "2026-11-24T12:54:01.809Z",
+  "generatedAt": "2026-11-24T13:05:01.371Z",
   "log": [
+    {
+      "at": "2026-11-24T13:01:50.119Z",
+      "action": "run",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "items": [],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:50:54.185Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Naming alignment only - not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:50:39.978Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Same property, different naming: Figma \"Show Icon Right\" vs code \"rightIcon\". Not a defect - no change on either side.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "bfdr41qf2df2",
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:50:28.202Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Naming alignment only - not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:50:19.345Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Same property, different naming: Figma \"Show Icon Left\" vs code \"leftIcon\". Not a defect - no change on either side.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "tnm2udjr1d45",
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:50:11.867Z",
+      "action": "delete-comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Transferred to design - review doc section 4 (Transfer to design), item 2.\nFigma \"Show Icon Right\" and the code prop \"rightIcon\" express the same capability, and both sides already support it. This is a property-naming alignment, not a code defect: the fix belongs in Figma (rename the property to match the code convention).\nMarking this issue as ignore; no code change planned.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "5sbii726pxru",
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:49:06.975Z",
+      "action": "delete-comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Transferred to design - review doc section 4 (Transfer to design), item 1.\nFigma \"Show Icon Left\" and the code prop \"leftIcon\" express the same capability, and both sides already support it. This is a property-naming alignment, not a code defect: the fix belongs in Figma (rename the property to match the code convention).\nMarking this issue as ignore; no code change planned.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "jtcs7t0wym8u",
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:44:31.915Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:42:09.073Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "I believe button shouldn't be in Basics...",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yc7ui25zp7zy",
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:40:52.263Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "borders here are decorative and they don't need to be accessible",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Accessibility|design:non-text",
+          "title": "Field edge is hard to see in Figma",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:38:02.708Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tag"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:32:06.171Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "we don't need those props",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Button"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:31:20.189Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|values:Type",
+          "title": "Type values differ",
+          "componentName": "Button"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-24T12:23:56.993Z",
       "action": "ignore",

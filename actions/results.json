@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:29:51.055Z",
-    "durationMs": 110464,
+    "generatedAt": "2026-11-24T13:05:01.318Z",
+    "durationMs": 169321,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-24T11:25:02Z"
+        "lastModified": "2026-11-24T13:00:45Z"
       },
-      "exportedAt": "2026-11-24T12:28:38.452Z",
+      "exportedAt": "2026-11-24T13:03:34.232Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 68,
+      "score": 69,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -1750,8 +1750,8 @@
           "brands": [],
           "variants": [],
           "ignored": {
-            "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
-            "at": "2026-11-24T12:23:17.388Z",
+            "reason": "Naming alignment only - not a defect.",
+            "at": "2026-11-24T12:50:54.185Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -1788,8 +1788,8 @@
           "brands": [],
           "variants": [],
           "ignored": {
-            "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Right' vs code 'rightIcon'); review doc section 4, item 2.",
-            "at": "2026-11-24T12:23:56.993Z",
+            "reason": "Naming alignment only - not a defect.",
+            "at": "2026-11-24T12:50:28.202Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -1862,7 +1862,7 @@
           "category": "Properties",
           "subject": "values:Type",
           "label": "Type values",
-          "status": "warn",
+          "status": "ignored",
           "title": "Type values differ",
           "owner": "Design",
           "detail": "Only in code: tertiaryLink",
@@ -1886,7 +1886,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+            "at": "2026-11-24T12:31:20.189Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Size",
@@ -1986,7 +1993,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "shape, block, loadingSize",
@@ -2010,7 +2017,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "we don't need those props",
+            "at": "2026-11-24T12:32:06.171Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Rendering|render",
@@ -2761,14 +2775,14 @@
           "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
-          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
           "meta": null,
           "instances": [
             {
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -24766,7 +24780,7 @@
       "key": "1702:72060",
       "name": "Stepper",
       "status": "Broken",
-      "score": 65,
+      "score": 66,
       "match": "exact",
       "figma": {
         "id": "1702:72060",
@@ -25109,7 +25123,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "min, max, step, digits, disabled, allowEmpty, defaultValue, inputReadOnly, stringMode",
@@ -25133,7 +25147,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+            "at": "2026-11-24T12:44:31.915Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -25255,14 +25276,14 @@
           "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
-          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
           "meta": null,
           "instances": [
             {
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Input",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -26357,7 +26378,7 @@
           "category": "Accessibility",
           "subject": "design:non-text",
           "label": "Non-text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Field edge is hard to see in Figma",
           "owner": "Design",
           "detail": "Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
@@ -26419,7 +26440,14 @@
           ],
           "variants": [
             "Style=Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "borders here are decorative and they don't need to be accessible",
+            "at": "2026-11-24T12:40:52.263Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         }
       ],
       "gallery": [
@@ -27065,7 +27093,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
           "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -27678,7 +27706,14 @@
           "variants": [
             "State=Selected, Size=Regular",
             "State=Selected, Size=Small"
-          ]
+          ],
+          "ignored": {
+            "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+            "at": "2026-11-24T12:38:02.708Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         }
       ],
       "gallery": [],
@@ -27702,7 +27737,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 31,
+      "warn": 26,
       "fail": 22
     },
     "byCategory": {
@@ -27713,7 +27748,7 @@
       },
       "Properties": {
         "pass": 1,
-        "warn": 8,
+        "warn": 5,
         "fail": 4
       },
       "Tokens": {
@@ -27728,7 +27763,7 @@
       },
       "Accessibility": {
         "pass": 18,
-        "warn": 2,
+        "warn": 0,
         "fail": 1
       },
       "Interaction": {
@@ -27749,7 +27784,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 7,
+        "warn": 2,
         "fail": 0
       },
       "Dev": {
@@ -28010,8 +28045,8 @@
         "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
         "was": "warn",
         "owner": "Both",
-        "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
-        "at": "2026-11-24T12:23:17.388Z",
+        "reason": "Naming alignment only - not a defect.",
+        "at": "2026-11-24T12:50:54.185Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -28023,9 +28058,35 @@
         "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
         "was": "warn",
         "owner": "Both",
-        "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Right' vs code 'rightIcon'); review doc section 4, item 2.",
-        "at": "2026-11-24T12:23:56.993Z",
+        "reason": "Naming alignment only - not a defect.",
+        "at": "2026-11-24T12:50:28.202Z",
         "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Properties|values:Type",
+        "category": "Properties",
+        "title": "Type values differ",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+        "at": "2026-11-24T12:31:20.189Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "we don't need those props",
+        "at": "2026-11-24T12:32:06.171Z",
+        "by": "Yana Kolpakova",
         "github": null
       },
       {
@@ -28066,6 +28127,45 @@
         "at": "2026-11-23T16:34:58.676Z",
         "by": "Yana Kolpakova",
         "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+        "at": "2026-11-24T12:44:31.915Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "title": "Field edge is hard to see in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "borders here are decorative and they don't need to be accessible",
+        "at": "2026-11-24T12:40:52.263Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+        "at": "2026-11-24T12:38:02.708Z",
+        "by": "Yana Kolpakova",
+        "github": null
       }
     ],
     "brokenComponents": [
@@ -28102,19 +28202,6 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
-        "key": "Properties|values:Type",
-        "category": "Properties",
-        "subject": "values:Type",
-        "status": "warn",
-        "title": "Type values differ",
-        "detail": "Only in code: tertiaryLink",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
         "key": "Properties|values:Size",
         "category": "Properties",
         "subject": "values:Size",
@@ -28128,25 +28215,12 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "shape, block, loadingSize",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
         "key": "Rendering|console",
         "category": "Rendering",
         "subject": "console",
         "status": "warn",
         "title": "Console errors while rendering",
-        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "owner": "Dev",
         "brands": [
           "Dragonpass",
@@ -28577,19 +28651,6 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "min, max, step, digits, disabled, allowEmpty, defaultValue, inputReadOnly, stringMode",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
         "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
@@ -28608,7 +28669,7 @@
         "subject": "console",
         "status": "warn",
         "title": "Console errors while rendering",
-        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "owner": "Dev",
         "brands": [
           "Dragonpass",
@@ -28763,21 +28824,6 @@
         "variants": 1
       },
       {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 1
-      },
-      {
         "component": "Tag",
         "componentKey": "1885:4061",
         "key": "Naming|group",
@@ -28867,23 +28913,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 2
       }
     ]
   },
@@ -28899,16 +28928,15 @@
     "counts": {
       "critical": 1,
       "serious": 0,
-      "moderate": 2,
+      "moderate": 0,
       "minor": 0
     },
-    "total": 3,
-    "components": 3,
+    "total": 1,
+    "components": 1,
     "byBrand": {
-      "Dragonpass": 4,
-      "Mastercard": 5,
-      "Investec": 5,
-      "Assurant": 2
+      "Dragonpass": 3,
+      "Mastercard": 3,
+      "Investec": 3
     },
     "criteria": [
       {
@@ -28935,8 +28963,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "1.4.4",
@@ -28962,8 +28990,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "1.4.12",
@@ -29382,189 +29410,221 @@
           }
         ],
         "occurrences": 9
-      },
-      {
-        "items": [
-          {
-            "component": "1885:4061",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Tag"
-          }
-        ],
-        "rule": "design-contrast",
-        "criterion": {
-          "sc": "1.4.3",
-          "name": "Contrast (minimum)",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
-          "auto": true
-        },
-        "title": "Text contrast is too low in Figma",
-        "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
-        "fix": "Change the brand value of the text or background token in Figma until the pair reaches 4.5:1 (3:1 for large text).",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Tag",
-            "key": "1885:4061"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tag",
-            "componentKey": "1885:4061",
-            "brand": "Mastercard",
-            "variants": [
-              "State=Selected, Size=Regular",
-              "State=Selected, Size=Small"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Selected, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tag",
-            "componentKey": "1885:4061",
-            "brand": "Investec",
-            "variants": [
-              "State=Selected, Size=Regular",
-              "State=Selected, Size=Small"
-            ],
-            "status": "warn",
-            "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 4.5,
-              "fg": "#F8F8F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Selected, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tag",
-            "componentKey": "1885:4061",
-            "brand": "Assurant",
-            "variants": [
-              "State=Selected, Size=Regular",
-              "State=Selected, Size=Small"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "State=Selected, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 6
-      },
-      {
-        "items": [
-          {
-            "component": "1702:72060",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Stepper"
-          }
-        ],
-        "rule": "design-non-text",
-        "criterion": {
-          "sc": "1.4.11",
-          "name": "Non-text contrast",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
-          "auto": true
-        },
-        "title": "Field edge or icon is hard to see in Figma",
-        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
-        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Stepper",
-            "key": "1702:72060"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Stepper",
-            "componentKey": "1702:72060",
-            "brand": "Dragonpass",
-            "variants": [
-              "Style=Card"
-            ],
-            "status": "warn",
-            "detail": "Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1.6,
-              "required": 3,
-              "fg": "#CECCCC",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Style=Card"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 1
       }
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:26:01.381Z",
+    "since": "2026-11-24T12:29:51.055Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T13:01:50.119Z",
+      "action": "run",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "items": []
+    },
+    {
+      "at": "2026-11-24T12:50:54.185Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Naming alignment only - not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:50:39.978Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Same property, different naming: Figma \"Show Icon Right\" vs code \"rightIcon\". Not a defect - no change on either side.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "bfdr41qf2df2"
+    },
+    {
+      "at": "2026-11-24T12:50:28.202Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Naming alignment only - not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:50:19.345Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Same property, different naming: Figma \"Show Icon Left\" vs code \"leftIcon\". Not a defect - no change on either side.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "tnm2udjr1d45"
+    },
+    {
+      "at": "2026-11-24T12:50:11.867Z",
+      "action": "delete-comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Transferred to design - review doc section 4 (Transfer to design), item 2.\nFigma \"Show Icon Right\" and the code prop \"rightIcon\" express the same capability, and both sides already support it. This is a property-naming alignment, not a code defect: the fix belongs in Figma (rename the property to match the code convention).\nMarking this issue as ignore; no code change planned.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "5sbii726pxru"
+    },
+    {
+      "at": "2026-11-24T12:49:06.975Z",
+      "action": "delete-comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Transferred to design - review doc section 4 (Transfer to design), item 1.\nFigma \"Show Icon Left\" and the code prop \"leftIcon\" express the same capability, and both sides already support it. This is a property-naming alignment, not a code defect: the fix belongs in Figma (rename the property to match the code convention).\nMarking this issue as ignore; no code change planned.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "jtcs7t0wym8u"
+    },
+    {
+      "at": "2026-11-24T12:44:31.915Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Stepper"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:42:09.073Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "I believe button shouldn't be in Basics...",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yc7ui25zp7zy"
+    },
+    {
+      "at": "2026-11-24T12:40:52.263Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "borders here are decorative and they don't need to be accessible",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Accessibility|design:non-text",
+          "title": "Field edge is hard to see in Figma",
+          "componentName": "Stepper"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:38:02.708Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "This is a strange thing, I don't understand it, all the variants are accessible for the mentioned brands. Should we ignore that?",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tag"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:32:06.171Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "we don't need those props",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:31:20.189Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|values:Type",
+          "title": "Type values differ",
+          "componentName": "Button"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T12:23:56.993Z",
       "action": "ignore",
