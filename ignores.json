@@ -32,6 +32,17 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-23T16:34:58.676Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Naming|prop:Show Icon Right",
+      "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+      "componentName": "Button",
+      "reason": "Transferred to design — property naming alignment (Figma 'Show Icon Right' vs code 'rightIcon'), see review doc 四、转设计清单 #2",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-24T12:13:42.060Z"
     }
   ]
 }
