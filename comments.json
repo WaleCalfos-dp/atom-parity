@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T11:42:55.437Z",
+  "generatedAt": "2026-11-24T12:13:28.763Z",
   "comments": [
     {
       "id": "znxw4ova7ts0",
@@ -80,6 +80,22 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-23T16:35:07.114Z"
+    },
+    {
+      "id": "8rec6q253qb9",
+      "check": "actions",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "text": "Transferred to design — see review doc section 四、转设计清单 #1.\nFigma \"Show Icon Left\" and code prop \"leftIcon\" express the same capability, and both sides already support it; this is a property-naming alignment, not a code defect. Fix belongs in Figma (rename to match the code convention).\nMarking this issue as ignore; no code change planned.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-24T12:13:27.051Z"
     }
   ]
 }
