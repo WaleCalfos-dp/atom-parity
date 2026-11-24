@@ -1,24 +1,6 @@
 {
-  "generatedAt": "2026-11-24T12:50:48.125Z",
+  "generatedAt": "2026-11-24T12:53:31.975Z",
   "log": [
-    {
-      "at": "2026-11-24T12:50:39.978Z",
-      "action": "comment",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "text": "Same property, different naming: Figma \"Show Icon Right\" vs code \"rightIcon\". Not a defect - no change on either side.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|prop:Show Icon Right",
-          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
-          "componentName": "Button"
-        }
-      ],
-      "id": "bfdr41qf2df2",
-      "checkName": "Actions"
-    },
     {
       "at": "2026-11-24T12:50:28.202Z",
       "action": "ignore",
