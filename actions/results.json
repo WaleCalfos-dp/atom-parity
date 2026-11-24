@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:26:01.381Z",
-    "durationMs": 105071,
+    "generatedAt": "2026-11-24T12:33:38.680Z",
+    "durationMs": 122014,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-24T11:25:02Z"
       },
-      "exportedAt": "2026-11-24T12:24:53.833Z",
+      "exportedAt": "2026-11-24T12:32:15.499Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1862,7 +1862,7 @@
           "category": "Properties",
           "subject": "values:Type",
           "label": "Type values",
-          "status": "warn",
+          "status": "ignored",
           "title": "Type values differ",
           "owner": "Design",
           "detail": "Only in code: tertiaryLink",
@@ -1886,7 +1886,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+            "at": "2026-11-24T12:31:20.189Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Size",
@@ -2878,116 +2885,6 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Investec",
-              "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Dragonpass",
-              "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            },
-            {
-              "status": "warn",
-              "brand": "Mastercard",
-              "variant": "Type=Primary, Size=Large, State=Hover",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
@@ -2996,9 +2893,119 @@
             },
             {
               "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Destructive, Size=Large, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Type=Destructive, Size=Large, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Type=Destructive, Size=Large, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Small, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Type=Primary, Size=Small, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Investec",
+              "variant": "Type=Primary, Size=Small, State=Default",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Hover",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Mastercard",
+              "variant": "Type=Primary, Size=Large, State=Hover",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -27702,7 +27709,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 31,
+      "warn": 30,
       "fail": 22
     },
     "byCategory": {
@@ -27713,7 +27720,7 @@
       },
       "Properties": {
         "pass": 1,
-        "warn": 8,
+        "warn": 7,
         "fail": 4
       },
       "Tokens": {
@@ -27749,7 +27756,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 7,
+        "warn": 6,
         "fail": 0
       },
       "Dev": {
@@ -28031,6 +28038,19 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Properties|values:Type",
+        "category": "Properties",
+        "title": "Type values differ",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+        "at": "2026-11-24T12:31:20.189Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
         "key": "Tokens|token:Corner radius",
         "category": "Tokens",
         "title": "Corner radius isn't linked to a variable in Figma",
@@ -28096,19 +28116,6 @@
         "title": "Grouped under a different category",
         "detail": "Figma \"ACTIONS\" · Storybook \"Basics\"",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Properties|values:Type",
-        "category": "Properties",
-        "subject": "values:Type",
-        "status": "warn",
-        "title": "Type values differ",
-        "detail": "Only in code: tertiaryLink",
-        "owner": "Design",
         "brands": [],
         "variants": 0
       },
@@ -29559,12 +29566,28 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:16:44.332Z",
+    "since": "2026-11-24T12:26:01.381Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T12:31:20.189Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|values:Type",
+          "title": "Type values differ",
+          "componentName": "Button"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T12:23:56.993Z",
       "action": "ignore",
