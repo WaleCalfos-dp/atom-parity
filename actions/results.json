@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:33:38.680Z",
-    "durationMs": 122014,
+    "generatedAt": "2026-11-24T12:34:08.270Z",
+    "durationMs": 102947,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-24T11:25:02Z"
       },
-      "exportedAt": "2026-11-24T12:32:15.499Z",
+      "exportedAt": "2026-11-24T12:33:02.838Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 68,
+      "score": 69,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -1993,7 +1993,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "shape, block, loadingSize",
@@ -2017,7 +2017,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "we don't need those props",
+            "at": "2026-11-24T12:32:06.171Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Rendering|render",
@@ -2885,7 +2892,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -27709,7 +27716,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 30,
+      "warn": 29,
       "fail": 22
     },
     "byCategory": {
@@ -27720,7 +27727,7 @@
       },
       "Properties": {
         "pass": 1,
-        "warn": 7,
+        "warn": 6,
         "fail": 4
       },
       "Tokens": {
@@ -27756,7 +27763,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 6,
+        "warn": 5,
         "fail": 0
       },
       "Dev": {
@@ -28051,6 +28058,19 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "we don't need those props",
+        "at": "2026-11-24T12:32:06.171Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
         "key": "Tokens|token:Corner radius",
         "category": "Tokens",
         "title": "Corner radius isn't linked to a variable in Figma",
@@ -28129,19 +28149,6 @@
         "title": "Size values differ",
         "detail": "Named differently: Regular → middle · Only in code: mini",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "shape, block, loadingSize",
-        "owner": "Design",
         "brands": [],
         "variants": 0
       },
@@ -29572,6 +29579,22 @@
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T12:32:06.171Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "we don't need those props",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Button"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T12:31:20.189Z",
       "action": "ignore",

@@ -13,13 +13,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Button: Code has props with no Figma property","shape, block, loadingSize
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Button: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec
