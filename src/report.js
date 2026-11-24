@@ -10,23 +10,27 @@ export function writeReport(results, outDir, opts = {}) {
   const data = JSON.stringify(results).replace(/</g, '\\u003c');
   fs.writeFileSync(path.join(outDir, 'index.html'), html(results, data, opts));
   fs.writeFileSync(path.join(outDir, 'issues.csv'), csv(results, opts));
+  // The same issues, split by who fixes them ("both" goes in each), for the report's Figma / code filter
+  fs.writeFileSync(path.join(outDir, 'issues-figma.csv'), csv(results, opts, (o) => o !== 'Dev'));
+  fs.writeFileSync(path.join(outDir, 'issues-code.csv'), csv(results, opts, (o) => o !== 'Design'));
   fs.writeFileSync(path.join(outDir, 'summary.md'), markdown(results, opts));
   return path.join(outDir, 'index.html');
 }
 
 // ---------------------------------------------------------------- CSV (Jira import)
-function csv(results, opts) {
+function csv(results, opts, keep = () => true) {
   const rows = [['Summary', 'Description', 'Issue Type', 'Priority', 'Labels', 'Component/s']];
   for (const c of results.components) {
     for (const ch of c.checks) {
       if (ch.status !== 'fail' && ch.status !== 'warn') continue;
+      if (!keep(ch.owner ?? 'Both')) continue;
       const where = [ch.brands.length ? `Brands: ${ch.brands.join(', ')}` : '', ch.variants.length ? `Variants: ${ch.variants.slice(0, 8).join('; ')}${ch.variants.length > 8 ? ` (+${ch.variants.length - 8} more)` : ''}` : ''].filter(Boolean).join('\n');
       const links = [c.figma?.url ? `Figma: ${c.figma.url}` : '', c.code?.url ? `Storybook: ${c.code.url}` : '', opts.reportUrl ? `Report: ${opts.reportUrl}#c-${encodeURIComponent(c.key)}` : ''].filter(Boolean).join('\n');
       rows.push([
         `[Atom parity] ${c.name}: ${ch.title}`,
         [ch.detail, where, links, `Found by atom-parity on ${results.meta.generatedAt.slice(0, 10)}`].filter(Boolean).join('\n\n'),
         'Task', ch.status === 'fail' ? 'High' : 'Medium',
-        ['atom-parity', `parity-${ch.category.toLowerCase()}`, `owner-${(ch.owner ?? 'both').toLowerCase()}`].join(' '),
+        ['atom-parity', `parity-${ch.category.toLowerCase()}`, `fix-in-${{ Design: 'figma', Dev: 'code' }[ch.owner] ?? 'both'}`].join(' '),
         'Atom Design System',
       ]);
     }

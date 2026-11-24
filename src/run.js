@@ -227,7 +227,7 @@ export async function run(cfg, opts = {}) {
     for (const m of comp.missingInCode) {
       const checks = new Checks();
       for (const v of m.figma.variants) designA11yChecks(checks, { component: m.figma.name, variant: v, brands: manifest.brands, variables: manifest.variables ?? {}, defaultBrand: defaultBrand?.figma ?? manifest.brands[0] });
-      checks.add({ category: 'Naming', subject: 'name', label: 'Component', status: 'fail', owner: 'Both', title: 'Not found in Storybook',
+      checks.add({ category: 'Naming', subject: 'name', label: 'Component', status: 'fail', owner: 'Dev', title: 'Not found in Storybook',
         detail: m.suggestions.length ? `Possible matches: ${m.suggestions.map((s) => s.title).join(', ')}. Rename it, or add it to components.aliases.` : 'No similar component in Storybook' });
       const mlist = markIgnored(checks.list(), m.figma.id, cfg.ignores);
       // Ignoring "Not found in Storybook" takes the component out of this check (not meant for the component library)

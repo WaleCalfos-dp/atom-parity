@@ -117,6 +117,27 @@ await page.screenshot({ path: '/tmp/report-1.png', fullPage: false });
 await page.click('.comp summary');
 await page.waitForSelector('.body .grp');
 await page.screenshot({ path: '/tmp/report-2.png' });
+
+// Filter fixes by who makes them: Figma (design) or code
+const rep = JSON.parse(fs.readFileSync(path.join(SITE, firstId, 'results.json'), 'utf8'));
+const open = (o) => rep.components.flatMap((c) => c.checks.filter((x) => (x.status === 'fail' || x.status === 'warn') && (o === 'figma' ? x.owner !== 'Dev' : x.owner !== 'Design')));
+assert.equal(await page.textContent('#fxFigma'), String(open('figma').length));
+assert.equal(await page.textContent('#fxCode'), String(open('code').length));
+await page.click('[data-fix=code]');
+assert.match(page.url(), /[?&]fix=code/);
+assert.equal(await page.getAttribute('#jira', 'href'), 'issues-code.csv');
+assert.ok(fs.existsSync(path.join(SITE, firstId, 'issues-code.csv')) && fs.existsSync(path.join(SITE, firstId, 'issues-figma.csv')));
+const ownersShown = await page.$$eval('#themes .owner, #issues .owner, .comp[open] .ck .owner', (els) => els.map((e) => e.className));
+assert.ok(ownersShown.length && ownersShown.every((c) => !/\bDesign\b/.test(c)), 'no Figma-only fixes under Code');
+await page.screenshot({ path: '/tmp/report-fix.png' });
+await page.reload(); await page.waitForSelector('.comp');
+assert.equal(await page.getAttribute('[data-fix=code]', 'aria-pressed'), 'true', 'the filter is remembered');
+await page.click('[data-fix=figma]');
+const ownersFig = await page.$$eval('#themes .owner, #issues .owner', (els) => els.map((e) => e.className));
+assert.ok(ownersFig.every((c) => !/\bDev\b/.test(c)), 'no code-only fixes under Figma');
+await page.click('[data-fix=""]');
+assert.ok(!/fix=/.test(page.url()));
+await page.click('.comp summary'); await page.waitForSelector('.body .grp');
 // Ignore a line: dialog, dispatch with the ignore payload, the line moves to Ignored
 await page.evaluate(() => localStorage.setItem('ap.key', JSON.stringify('github_pat_test')));
 await page.reload(); await page.waitForSelector('.comp');

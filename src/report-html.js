@@ -21,7 +21,7 @@ ${FONTS}
 <header class="topbar"><div class="in">
   <a class="home" href="../">${MARK}<span class="brand"><b>Atom parity</b><span>All checks</span></span></a>
   <span class="spacer"></span><span class="when" id="when"></span>
-  <a class="btn small ghost" href="issues.csv" download>Download for Jira</a>
+  <a class="btn small ghost" id="jira" href="issues.csv" download>Download for Jira</a>
 </div></header>
 <main id="main" class="wrap">
   <header class="hero">
@@ -40,6 +40,7 @@ ${FONTS}
 
   <nav class="tabs" aria-label="Sections of this report"><div class="tabs-in" id="tabs">
     <a href="#summary">Summary</a><a href="#accessibility">Accessibility <span id="tabA11y"></span></a><a href="#components">Components <span id="tabComp"></span></a><a href="#tokens">Tokens</a><a href="#brands">Brands</a><a href="#archive">Archive <span id="tabIgn"></span></a><a href="#how">How to read this</a>
+    <div class="fix" role="group" aria-label="Show fixes for"><span class="fix-l" aria-hidden="true">Fixes in</span><button type="button" data-fix="" aria-pressed="true">All</button><button type="button" data-fix="figma" aria-pressed="false">Figma <b id="fxFigma"></b></button><button type="button" data-fix="code" aria-pressed="false">Code <b id="fxCode"></b></button></div>
   </div></nav>
 
   <section id="summary" class="sec" aria-labelledby="sum-h">
@@ -163,6 +164,17 @@ h1{font:700 clamp(36px,5vw,60px)/1 var(--display);letter-spacing:-.04em;margin:0
 .tabs-in::-webkit-scrollbar{display:none}
 .tabs a{flex:none;display:flex;align-items:center;gap:7px;padding:14px 12px 13px;color:var(--ink-3);text-decoration:none;font-size:14.5px;font-weight:500;border-bottom:2px solid transparent;margin-bottom:-1px}
 .tabs a:hover{color:var(--ink)}
+.fix{flex:none;margin-left:auto;display:flex;align-items:center;gap:2px;padding:6px 0}
+.fix-l{font-size:13px;color:var(--ink-3);margin-right:6px}
+.fix button{appearance:none;cursor:pointer;border:1px solid var(--line);background:var(--paper);color:var(--ink-2);font:500 13.5px var(--text);height:32px;padding:0 12px;display:inline-flex;align-items:center;gap:6px}
+.fix button:first-of-type{border-radius:999px 0 0 999px}.fix button:last-of-type{border-radius:0 999px 999px 0}
+.fix button+button{margin-left:-1px}
+.fix button b{font-weight:600;font-size:12px;color:var(--ink-3)}
+.fix button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--page);position:relative;z-index:1}
+.fix button[aria-pressed=true] b{color:inherit;opacity:.75}
+.fix button[data-fix=figma][aria-pressed=true]{background:var(--d-ink);border-color:var(--d-ink)}
+.fix button[data-fix=code][aria-pressed=true]{background:var(--c-ink);border-color:var(--c-ink)}
+.hidden-note{font-size:13px;color:var(--ink-3);margin:10px 0 0}
 .tabs a[aria-current=true]{color:var(--ink);border-bottom-color:var(--ink);font-weight:600}
 .tabs a span:not(:empty){font-size:12px;font-weight:600;padding:2px 7px;border-radius:999px;background:var(--line-2);color:var(--ink-2)}
 .tabs a span.hot{background:var(--bad-fill);color:#fff}
@@ -420,6 +432,11 @@ const ORDER = { 'Broken': 0, 'Drifted': 1, 'Missing in code': 2, 'Missing in des
 const fmt = (iso) => iso ? new Date(iso).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) : '';
 const OWNER = { Design: 'Fix in Figma', Dev: 'Fix in code', Both: 'Design and dev' };
 const owner = (o) => '<span class="owner ' + esc(o || 'Both') + '">' + (OWNER[o] || OWNER.Both) + '</span>';
+// Who fixes it: Figma (design), code (dev) or both. "Both" shows under either filter.
+let fix = (() => { const q = new URLSearchParams(location.search).get('fix'); let v = q; if (v == null) { try { v = JSON.parse(localStorage.getItem('ap.fix')); } catch (e) { v = ''; } } return v === 'figma' || v === 'code' ? v : ''; })();
+const FIXOWNER = { figma: 'Design', code: 'Dev' };
+const FIXNAME = { figma: 'Figma', code: 'code' };
+const forFix = (o) => !fix || !o || o === 'Both' || o === FIXOWNER[fix];
 const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
 const list = (a) => a.length > 1 ? a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1] : (a[0] || '');
 const short = (v) => String(v || '').split(',').map((x) => x.split('=').pop().trim()).join(', ');
@@ -512,7 +529,26 @@ function watchForUpdate() {
   setTimeout(tick, 30000);
 }
 if (Object.keys(pend.add).length || Object.keys(pend.remove).length) watchForUpdate();
-function rerender() { renderThemes(); if (A && A.ran && A.issues.length) issues(); render(); renderIgnored(); renderActivity(); }
+function fixCounts() {
+  const n = { figma: 0, code: 0 };
+  for (const c of R.components) for (const x of c.checks) {
+    if ((x.status !== 'fail' && x.status !== 'warn') || isIgn(c.key, x.key)) continue;
+    if (x.owner !== 'Dev') n.figma++;
+    if (x.owner !== 'Design') n.code++;
+  }
+  $('fxFigma').textContent = n.figma; $('fxCode').textContent = n.code;
+  document.querySelectorAll('[data-fix]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.fix === fix)));
+  $('jira').href = fix ? 'issues-' + fix + '.csv' : 'issues.csv';
+  $('jira').textContent = fix ? 'Download ' + FIXNAME[fix] + ' fixes for Jira' : 'Download for Jira';
+}
+document.querySelector('.fix').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-fix]'); if (!b) return;
+  fix = b.dataset.fix;
+  try { localStorage.setItem('ap.fix', JSON.stringify(fix)); } catch (err) { /* private mode */ }
+  const u = new URL(location.href); if (fix) u.searchParams.set('fix', fix); else u.searchParams.delete('fix'); history.replaceState(null, '', u);
+  rerender();
+});
+function rerender() { fixCounts(); renderThemes(); if (A && A.ran && A.issues.length) issues(); render(); renderIgnored(); renderActivity(); }
 
 // The ignore and restore dialog: asks for a name, so the archive and the activity log show who did what
 let ignTarget = null, ignMode = 'add';
@@ -694,9 +730,9 @@ if (R.delta) {
 
 // ---------------------------------------------------------------- needs attention
 function renderThemes() {
-  const themes = S.themes.map((t) => Object.assign({}, t, { live: (t.items || []).filter((i) => !isIgn(i.component, i.key)) })).filter((t) => !t.items || t.live.length);
-  if (!themes.length) { $('sumNote').textContent = 'Nothing needs attention. Every component matches Figma.'; $('themes').hidden = true; return; }
-  $('sumNote').textContent = 'The most common problems in this check, worst first.'; $('themes').hidden = false;
+  const themes = S.themes.map((t) => Object.assign({}, t, { live: (t.items || []).filter((i) => !isIgn(i.component, i.key)) })).filter((t) => (!t.items || t.live.length) && forFix(t.owner));
+  if (!themes.length) { $('sumNote').textContent = fix ? 'Nothing to fix in ' + FIXNAME[fix] + ' here.' : 'Nothing needs attention. Every component matches Figma.'; $('themes').hidden = true; return; }
+  $('sumNote').textContent = 'The most common problems in this check' + (fix ? ' to fix in ' + FIXNAME[fix] : '') + ', worst first.'; $('themes').hidden = false;
   $('themes').innerHTML = themes.slice(0, 8).map((t) => {
     const names = t.items ? [...new Set(t.live.map((i) => i.componentName))] : t.components;
     return '<li><span class="t">' + esc(t.title) + '<small>' + esc(names.length > 3 ? plural(names.length, 'component') : list(names)) + '</small></span>' + owner(t.owner) +
@@ -716,7 +752,6 @@ const ICON = {
 const RES = { fail: 'Fails', warn: 'Check', pass: 'Passes' };
 const SEV = ['critical', 'serious', 'moderate', 'minor'];
 const SEVNAME = { critical: 'Critical', serious: 'Serious', moderate: 'Moderate', minor: 'Minor' };
-let a11yFilter = '';
 function a11y() {
   if (!A || !A.ran) {
     $('a11yLede').textContent = "Accessibility wasn't checked in this run. It runs on every check from now on.";
@@ -739,11 +774,8 @@ function a11y() {
     man.map((c) => '<li class="todo"><span></span><span class="n">' + esc(c.sc) + '</span><span><a href="' + esc(c.url) + '" target="_blank" rel="noopener">' + esc(c.name) + '</a> <span class="lv">' + esc(c.level) + '</span></span><span class="r">Manual</span></li>').join('') + '</ul></details>' : '';
   let h = '<p class="scope">' + esc(scope) + '</p><div class="panel"><h3>' + esc(cov) + '</h3>' + crit + manual + '</div>';
   if (!A.issues.length) { $('a11y').innerHTML = h + '<div class="a11y-empty" style="margin-top:20px">' + ICON.shield + '<span>No accessibility issues found. Automated checks find about a third of issues, so keep manual screen reader and keyboard reviews.</span></div>'; return; }
-  const owners = [...new Set(A.issues.map((i) => i.owner))];
-  h += '<div class="a11y-filters"><h3>Issues, most severe first</h3>' + (owners.length > 1 ? '<div class="chips" id="a11yChips" role="group" aria-label="Filter issues by who fixes them" style="margin:0"><button class="chip" data-o="" aria-pressed="true">All ' + A.issues.length + '</button>' + ['Design', 'Dev', 'Both'].filter((o) => owners.includes(o)).map((o) => '<button class="chip" data-o="' + o + '" aria-pressed="false">' + OWNER[o] + ' ' + A.issues.filter((i) => i.owner === o).length + '</button>').join('') + '</div>' : '') + '</div><div id="issues"></div>';
+  h += '<div class="a11y-filters"><h3>Issues, most severe first</h3></div><div id="issues"></div>';
   $('a11y').innerHTML = h;
-  const chips = $('a11yChips');
-  if (chips) chips.onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; a11yFilter = b.dataset.o; chips.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); issues(); };
   issues();
 }
 function measure(i, w) {
@@ -765,8 +797,8 @@ function verdict(i) {
 const shown = {};
 function issues() {
   const items = A.issues.map((i) => Object.assign({}, i, { live: (i.items || []).filter((x) => !isIgn(x.component, x.key)), where: i.where.filter((w) => !w.checkKey || !isIgn(w.componentKey, w.checkKey)) }))
-    .filter((i) => (!i.items || i.live.length) && (!a11yFilter || i.owner === a11yFilter));
-  if (!items.length) { $('issues').innerHTML = '<p class="empty list">Every issue here is ignored. See Ignored, near the end of the report.</p>'; return; }
+    .filter((i) => (!i.items || i.live.length) && forFix(i.owner));
+  if (!items.length) { $('issues').innerHTML = '<p class="empty list">' + (fix ? 'No accessibility issues to fix in ' + FIXNAME[fix] + '.' : 'Every issue here is ignored. See the Archive.') + '</p>'; return; }
   $('issues').innerHTML = items.map((i) => {
     const all = i.where;
     const rows = shown[i.rule] ? all : all.slice(0, 8);
@@ -793,8 +825,9 @@ $('chips').innerHTML = ['<button class="chip" data-s="" aria-pressed="true">All 
 $('chips').onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; state.s = b.dataset.s; $('chips').querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', String(x === b))); render(); };
 $('q').oninput = (e) => { state.q = e.target.value.toLowerCase(); render(); };
 
+const openFixes = (c) => c.checks.filter((x) => (x.status === 'fail' || x.status === 'warn') && !isIgn(c.key, x.key) && forFix(x.owner));
 function rowHtml(c) {
-  const f = c.checks.filter((x) => x.status === 'fail' && !isIgn(c.key, x.key)).length, w = c.checks.filter((x) => x.status === 'warn' && !isIgn(c.key, x.key)).length;
+  const f = c.checks.filter((x) => x.status === 'fail' && !isIgn(c.key, x.key) && forFix(x.owner)).length, w = c.checks.filter((x) => x.status === 'warn' && !isIgn(c.key, x.key) && forFix(x.owner)).length;
   const counts = [f && f + ' failing', w && plural(w, 'warning')].filter(Boolean).join(', ');
   const g = (c.gallery || []).find((x) => x.figma) || (c.gallery || []).find((x) => x.code);
   const thumb = '<span class="thumb' + (g ? '' : ' none') + '" aria-hidden="true">' + (g ? '<img loading="lazy" alt="" src="' + esc(g.figma || g.code) + '">' : '') + '</span>';
@@ -815,8 +848,8 @@ function pagesOf(items) {
 }
 function render() {
   const open = [...document.querySelectorAll('.comp[open]')].map((d) => d.dataset.key);
-  const items = R.components.filter((c) => (!state.s || c.status === state.s) && (!state.q || (c.name + ' ' + (c.code ? c.code.title : '') + ' ' + (c.figma ? c.figma.page : '')).toLowerCase().includes(state.q)));
-  if (!items.length) { $('list').innerHTML = '<p class="empty list">No components match.</p>'; return; }
+  const items = R.components.filter((c) => (!fix || openFixes(c).length) && (!state.s || c.status === state.s) && (!state.q || (c.name + ' ' + (c.code ? c.code.title : '') + ' ' + (c.figma ? c.figma.page : '')).toLowerCase().includes(state.q)));
+  if (!items.length) { $('list').innerHTML = '<p class="empty list">' + (fix && !state.s && !state.q ? 'No components need a fix in ' + FIXNAME[fix] + '.' : 'No components match.') + '</p>'; return; }
   const pages = pagesOf(items);
   $('list').innerHTML = pages.length < 2 ? '<div class="list">' + pages[0].items.map(rowHtml).join('') + '</div>'
     : pages.map((p) => '<div class="pgroup"><h3 class="pg-h">' + esc(p.name) + '</h3><div class="list">' + p.items.map(rowHtml).join('') + '</div></div>').join('');
@@ -841,17 +874,20 @@ function where(ch) {
 function detail(c) {
   let h = '<div class="links">' + (c.figma && c.figma.url ? '<a href="' + esc(c.figma.url) + '" target="_blank" rel="noopener">Open in Figma</a>' : '') + (c.code && c.code.url ? '<a href="' + esc(c.code.url) + '" target="_blank" rel="noopener">Open in Storybook</a>' : '') + '</div>';
   if (c.suggestions && c.suggestions.length) h += '<p class="passes">Possible matches: ' + esc(c.suggestions.map((s) => s.title || s.name).join(', ')) + '</p>';
+  let hiddenFix = 0;
   for (const cat of [...new Set(c.checks.map((x) => x.category))]) {
     const st = (x) => (x.status === 'ignored' ? x.was : x.status);
     const items = c.checks.filter((x) => x.category === cat && !isIgn(c.key, x.key));
     if (!items.length) continue;
-    const bad = items.filter((x) => st(x) !== 'pass').sort((a, b) => (st(b) === 'fail') - (st(a) === 'fail'));
+    const bad = items.filter((x) => st(x) !== 'pass' && forFix(x.owner)).sort((a, b) => (st(b) === 'fail') - (st(a) === 'fail'));
+    hiddenFix += items.filter((x) => st(x) !== 'pass' && !forFix(x.owner)).length;
     const good = items.filter((x) => st(x) === 'pass');
     h += '<div class="grp"><h4>' + esc(cat) + '</h4>' + bad.map((x) => '<div class="ck"><span class="status-dot ' + st(x) + '"></span><span>' + esc(x.title) + '</span>' + owner(x.owner) +
       '<span class="acts">' + cmtBtn([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + (isPending(c.key, x.key) ? '<span class="pend">Restoring</span>' : ignBtn('data-ign="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '" aria-label="Ignore ' + esc(x.title) + '"')) + '</span>' +
       (x.detail || x.brands.length || x.variants.length ? '<div class="d">' + esc(x.detail || '') + where(x) + '</div>' : '') + '</div>').join('') +
       (good.length ? '<p class="passes">' + good.length + ' passing: ' + esc(good.map((x) => x.label).slice(0, 6).join(', ')) + (good.length > 6 ? ' and more' : '') + '</p>' : '') + '</div>';
   }
+  if (hiddenFix) h += '<p class="hidden-note">' + plural(hiddenFix, 'more issue') + ' to fix in ' + (fix === 'figma' ? 'code' : 'Figma') + ' hidden by the filter.</p>';
   const ign = c.checks.filter((x) => isIgn(c.key, x.key));
   if (ign.length) h += '<div class="grp"><h4>Archived</h4>' + ign.map((x) => '<div class="ck ignored"><span class="status-dot"></span><span>' + esc(x.title) + '</span><span></span>' +
     '<span class="acts">' + cmtBtn([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + (isPending(c.key, x.key) ? '<span class="pend">Updating</span>' : ignBtn('data-restore="' + enc([{ component: c.key, key: x.key, title: x.title, componentName: c.name }]) + '"', 'Restore')) + '</span>' +
@@ -865,6 +901,7 @@ function detail(c) {
   return h;
 }
 const fig = (cap, cls, src) => '<figure class="' + cls + '"><figcaption><i></i>' + cap + '</figcaption><div class="im">' + (src ? '<img loading="lazy" alt="' + cap + '" src="' + esc(src) + '">' : '') + '</div></figure>';
+fixCounts();
 render();
 renderThemes();
 renderIgnored();
