@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:25:35.355Z",
-    "durationMs": 117756,
+    "generatedAt": "2026-11-24T12:25:49.085Z",
+    "durationMs": 114295,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-24T11:25:02Z"
       },
-      "exportedAt": "2026-11-24T12:24:13.675Z",
+      "exportedAt": "2026-11-24T12:24:34.750Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1724,39 +1724,8 @@
           "category": "Naming",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "warn",
-          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
-          "owner": "Both",
-          "detail": "Same words in a different order or form. Align the names so they map 1:1.",
-          "meta": null,
-          "instances": [
-            {
-              "status": "warn",
-              "brand": null,
-              "variant": null,
-              "detail": "Same words in a different order or form. Align the names so they map 1:1.",
-              "figma": null,
-              "code": null,
-              "image": null,
-              "extra": null
-            }
-          ],
-          "counts": {
-            "pass": 0,
-            "warn": 1,
-            "fail": 0,
-            "info": 0
-          },
-          "brands": [],
-          "variants": []
-        },
-        {
-          "key": "Naming|prop:Show Icon Right",
-          "category": "Naming",
-          "subject": "prop:Show Icon Right",
-          "label": "Property \"Show Icon Right\"",
           "status": "ignored",
-          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
           "owner": "Both",
           "detail": "Same words in a different order or form. Align the names so they map 1:1.",
           "meta": null,
@@ -1781,12 +1750,43 @@
           "brands": [],
           "variants": [],
           "ignored": {
-            "reason": "Transferred to design — property naming alignment (Figma 'Show Icon Right' vs code 'rightIcon'), see review doc 四、转设计清单 #2",
-            "at": "2026-11-24T12:13:42.060Z",
+            "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
+            "at": "2026-11-24T12:23:17.388Z",
             "by": "frontenddev.ai",
             "github": null
           },
           "was": "warn"
+        },
+        {
+          "key": "Naming|prop:Show Icon Right",
+          "category": "Naming",
+          "subject": "prop:Show Icon Right",
+          "label": "Property \"Show Icon Right\"",
+          "status": "warn",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "owner": "Both",
+          "detail": "Same words in a different order or form. Align the names so they map 1:1.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "warn",
+              "brand": null,
+              "variant": null,
+              "detail": "Same words in a different order or form. Align the names so they map 1:1.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 1,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
         },
         {
           "key": "Naming|prop:Label",
@@ -27819,8 +27819,8 @@
         "items": [
           {
             "component": "1454:7798",
-            "key": "Naming|prop:Show Icon Left",
-            "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+            "key": "Naming|prop:Show Icon Right",
+            "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
             "componentName": "Button"
           },
           {
@@ -28005,13 +28005,13 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
-        "key": "Naming|prop:Show Icon Right",
+        "key": "Naming|prop:Show Icon Left",
         "category": "Naming",
-        "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+        "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
         "was": "warn",
         "owner": "Both",
-        "reason": "Transferred to design — property naming alignment (Figma 'Show Icon Right' vs code 'rightIcon'), see review doc 四、转设计清单 #2",
-        "at": "2026-11-24T12:13:42.060Z",
+        "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
+        "at": "2026-11-24T12:23:17.388Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -28089,11 +28089,11 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
-        "key": "Naming|prop:Show Icon Left",
+        "key": "Naming|prop:Show Icon Right",
         "category": "Naming",
-        "subject": "prop:Show Icon Left",
+        "subject": "prop:Show Icon Right",
         "status": "warn",
-        "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+        "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
         "detail": "Same words in a different order or form. Align the names so they map 1:1.",
         "owner": "Both",
         "brands": [],
@@ -29565,6 +29565,38 @@
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T12:23:36.617Z",
+      "action": "restore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:23:17.388Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T12:23:07.171Z",
       "action": "restore",
