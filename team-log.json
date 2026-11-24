@@ -496,6 +496,22 @@
           "componentName": "Tag"
         }
       ]
+    },
+    {
+      "at": "2026-11-24T12:40:52.263Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "borders here are decorative and they don't need to be accessible",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Accessibility|design:non-text",
+          "title": "Field edge is hard to see in Figma",
+          "componentName": "Stepper"
+        }
+      ]
     }
   ]
 }
