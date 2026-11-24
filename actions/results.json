@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:40:28.194Z",
-    "durationMs": 127101,
+    "generatedAt": "2026-11-24T12:44:14.504Z",
+    "durationMs": 170597,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-24T11:25:02Z"
+        "lastModified": "2026-11-24T12:40:08Z"
       },
-      "exportedAt": "2026-11-24T12:39:22.654Z",
+      "exportedAt": "2026-11-24T12:42:49.346Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3002,7 +3002,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -26371,7 +26371,7 @@
           "category": "Accessibility",
           "subject": "design:non-text",
           "label": "Non-text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Field edge is hard to see in Figma",
           "owner": "Design",
           "detail": "Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
@@ -26433,7 +26433,14 @@
           ],
           "variants": [
             "Style=Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "borders here are decorative and they don't need to be accessible",
+            "at": "2026-11-24T12:40:52.263Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         }
       ],
       "gallery": [
@@ -27723,7 +27730,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 28,
+      "warn": 27,
       "fail": 22
     },
     "byCategory": {
@@ -27749,7 +27756,7 @@
       },
       "Accessibility": {
         "pass": 18,
-        "warn": 1,
+        "warn": 0,
         "fail": 1
       },
       "Interaction": {
@@ -27770,7 +27777,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 4,
+        "warn": 3,
         "fail": 0
       },
       "Dev": {
@@ -28111,6 +28118,19 @@
         "owner": "Design",
         "reason": "fixed",
         "at": "2026-11-23T16:34:58.676Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Accessibility|design:non-text",
+        "category": "Accessibility",
+        "title": "Field edge is hard to see in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "borders here are decorative and they don't need to be accessible",
+        "at": "2026-11-24T12:40:52.263Z",
         "by": "Yana Kolpakova",
         "github": null
       },
@@ -28797,21 +28817,6 @@
         "variants": 1
       },
       {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
-        "key": "Accessibility|design:non-text",
-        "category": "Accessibility",
-        "subject": "design:non-text",
-        "status": "warn",
-        "title": "Field edge is hard to see in Figma",
-        "detail": "Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 1
-      },
-      {
         "component": "Tag",
         "componentKey": "1885:4061",
         "key": "Naming|group",
@@ -28916,13 +28921,13 @@
     "counts": {
       "critical": 1,
       "serious": 0,
-      "moderate": 1,
+      "moderate": 0,
       "minor": 0
     },
-    "total": 2,
-    "components": 2,
+    "total": 1,
+    "components": 1,
     "byBrand": {
-      "Dragonpass": 4,
+      "Dragonpass": 3,
       "Mastercard": 3,
       "Investec": 3
     },
@@ -28978,8 +28983,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "1.4.12",
@@ -29398,76 +29403,32 @@
           }
         ],
         "occurrences": 9
-      },
-      {
-        "items": [
-          {
-            "component": "1702:72060",
-            "key": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "componentName": "Stepper"
-          }
-        ],
-        "rule": "design-non-text",
-        "criterion": {
-          "sc": "1.4.11",
-          "name": "Non-text contrast",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast",
-          "auto": true
-        },
-        "title": "Field edge or icon is hard to see in Figma",
-        "why": "The design itself doesn't reach 3:1, so code built to spec will fail too.",
-        "fix": "Use border, fill or icon tokens that reach 3:1 against the background in every brand.",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Stepper",
-            "key": "1702:72060"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:non-text",
-            "title": "Field edge is hard to see in Figma",
-            "component": "Stepper",
-            "componentKey": "1702:72060",
-            "brand": "Dragonpass",
-            "variants": [
-              "Style=Card"
-            ],
-            "status": "warn",
-            "detail": "Style=Card: border 1.6:1, needs 3:1 · #CECCCC on #FFFFFF (measured on white)",
-            "contrast": {
-              "ratio": 1.6,
-              "required": 3,
-              "fg": "#CECCCC",
-              "bg": "#FFFFFF",
-              "fgToken": null,
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Style=Card"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 1
       }
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:34:08.270Z",
+    "since": "2026-11-24T12:40:28.194Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T12:40:52.263Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "borders here are decorative and they don't need to be accessible",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Accessibility|design:non-text",
+          "title": "Field edge is hard to see in Figma",
+          "componentName": "Stepper"
+        }
+      ]
+    },
     {
       "at": "2026-11-24T12:38:02.708Z",
       "action": "ignore",

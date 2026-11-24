@@ -1,24 +1,6 @@
 {
-  "generatedAt": "2026-11-24T12:42:10.737Z",
+  "generatedAt": "2026-11-24T12:44:14.543Z",
   "log": [
-    {
-      "at": "2026-11-24T12:42:09.073Z",
-      "action": "comment",
-      "check": "actions",
-      "by": "Yana Kolpakova",
-      "github": null,
-      "text": "I believe button shouldn't be in Basics...",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|group",
-          "title": "Grouped under a different category",
-          "componentName": "Button"
-        }
-      ],
-      "id": "yc7ui25zp7zy",
-      "checkName": "Actions"
-    },
     {
       "at": "2026-11-24T12:40:52.263Z",
       "action": "ignore",
