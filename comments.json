@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T12:53:41.558Z",
+  "generatedAt": "2026-11-24T12:54:01.809Z",
   "comments": [
     {
       "id": "znxw4ova7ts0",
@@ -82,23 +82,7 @@
       "at": "2026-11-23T16:35:07.114Z"
     },
     {
-      "id": "yc7ui25zp7zy",
-      "check": "actions",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|group",
-          "title": "Grouped under a different category",
-          "componentName": "Button"
-        }
-      ],
-      "text": "I believe button shouldn't be in Basics...",
-      "by": "Yana Kolpakova",
-      "github": null,
-      "at": "2026-11-24T12:42:09.073Z"
-    },
-    {
-      "id": "tnm2udjr1d45",
+      "id": "jtcs7t0wym8u",
       "check": "actions",
       "items": [
         {
@@ -108,13 +92,13 @@
           "componentName": "Button"
         }
       ],
-      "text": "Same property, different naming: Figma \"Show Icon Left\" vs code \"leftIcon\". Not a defect - no change on either side.",
+      "text": "Transferred to design - review doc section 4 (Transfer to design), item 1.\nFigma \"Show Icon Left\" and the code prop \"leftIcon\" express the same capability, and both sides already support it. This is a property-naming alignment, not a code defect: the fix belongs in Figma (rename the property to match the code convention).\nMarking this issue as ignore; no code change planned.",
       "by": "frontenddev.ai",
       "github": null,
-      "at": "2026-11-24T12:50:19.345Z"
+      "at": "2026-11-24T12:22:32.036Z"
     },
     {
-      "id": "bfdr41qf2df2",
+      "id": "5sbii726pxru",
       "check": "actions",
       "items": [
         {
@@ -124,10 +108,10 @@
           "componentName": "Button"
         }
       ],
-      "text": "Same property, different naming: Figma \"Show Icon Right\" vs code \"rightIcon\". Not a defect - no change on either side.",
+      "text": "Transferred to design - review doc section 4 (Transfer to design), item 2.\nFigma \"Show Icon Right\" and the code prop \"rightIcon\" express the same capability, and both sides already support it. This is a property-naming alignment, not a code defect: the fix belongs in Figma (rename the property to match the code convention).\nMarking this issue as ignore; no code change planned.",
       "by": "frontenddev.ai",
       "github": null,
-      "at": "2026-11-24T12:50:39.978Z"
+      "at": "2026-11-24T12:22:50.235Z"
     }
   ]
 }
