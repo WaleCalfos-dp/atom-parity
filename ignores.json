@@ -47,17 +47,6 @@
     {
       "check": "actions",
       "component": "1454:7798",
-      "key": "Naming|prop:Show Icon Right",
-      "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
-      "componentName": "Button",
-      "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Right' vs code 'rightIcon'); review doc section 4, item 2.",
-      "by": "frontenddev.ai",
-      "github": null,
-      "at": "2026-11-24T12:23:56.993Z"
-    },
-    {
-      "check": "actions",
-      "component": "1454:7798",
       "key": "Properties|values:Type",
       "title": "Type values differ",
       "componentName": "Button",
@@ -109,6 +98,17 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-24T12:44:31.915Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Naming|prop:Show Icon Right",
+      "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+      "componentName": "Button",
+      "reason": "Naming alignment only - not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-24T12:50:28.202Z"
     }
   ]
 }
