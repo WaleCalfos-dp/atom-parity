@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-11-24T12:16:26.047Z",
+  "generatedAt": "2026-11-24T12:16:44.382Z",
   "log": [
-    {
-      "at": "2026-11-24T12:13:49.643Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Transferred to design — property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'), see review doc 四、转设计清单 #1",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|prop:Show Icon Left",
-          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
-          "componentName": "Button"
-        }
-      ],
-      "checkName": "Actions"
-    },
     {
       "at": "2026-11-24T12:13:42.060Z",
       "action": "ignore",
