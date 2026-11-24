@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-11-24T12:44:14.543Z",
+  "generatedAt": "2026-11-24T12:46:34.960Z",
   "log": [
+    {
+      "at": "2026-11-24T12:44:31.915Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-24T12:42:09.073Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "I believe button shouldn't be in Basics...",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yc7ui25zp7zy",
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-24T12:40:52.263Z",
       "action": "ignore",

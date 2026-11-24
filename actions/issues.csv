@@ -260,13 +260,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Code has props with no Figma property","min, max, step, digits, disabled, allowEmpty, defaultValue, inputReadOnly, stringMode
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Stepper: 1 of 3 variants can't be shown in code","Style=Plain
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060

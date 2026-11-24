@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:44:14.504Z",
-    "durationMs": 170597,
+    "generatedAt": "2026-11-24T12:46:34.911Z",
+    "durationMs": 101430,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-24T12:40:08Z"
       },
-      "exportedAt": "2026-11-24T12:42:49.346Z",
+      "exportedAt": "2026-11-24T12:45:30.922Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3002,7 +3002,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -24780,7 +24780,7 @@
       "key": "1702:72060",
       "name": "Stepper",
       "status": "Broken",
-      "score": 65,
+      "score": 66,
       "match": "exact",
       "figma": {
         "id": "1702:72060",
@@ -25123,7 +25123,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "min, max, step, digits, disabled, allowEmpty, defaultValue, inputReadOnly, stringMode",
@@ -25147,7 +25147,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+            "at": "2026-11-24T12:44:31.915Z",
+            "by": "Yana Kolpakova",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -27730,7 +27737,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 27,
+      "warn": 26,
       "fail": 22
     },
     "byCategory": {
@@ -27741,7 +27748,7 @@
       },
       "Properties": {
         "pass": 1,
-        "warn": 6,
+        "warn": 5,
         "fail": 4
       },
       "Tokens": {
@@ -27777,7 +27784,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 3,
+        "warn": 2,
         "fail": 0
       },
       "Dev": {
@@ -28118,6 +28125,19 @@
         "owner": "Design",
         "reason": "fixed",
         "at": "2026-11-23T16:34:58.676Z",
+        "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+        "at": "2026-11-24T12:44:31.915Z",
         "by": "Yana Kolpakova",
         "github": null
       },
@@ -28625,19 +28645,6 @@
         "title": "Style values missing in code",
         "detail": "Missing in code: Plain · Only in code: text",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "min, max, step, digits, disabled, allowEmpty, defaultValue, inputReadOnly, stringMode",
-        "owner": "Design",
         "brands": [],
         "variants": 0
       },
@@ -29407,12 +29414,45 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:40:28.194Z",
+    "since": "2026-11-24T12:44:14.504Z",
     "previousScore": 21,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-24T12:44:31.915Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Stepper"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-24T12:42:09.073Z",
+      "action": "comment",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "text": "I believe button shouldn't be in Basics...",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        }
+      ],
+      "id": "yc7ui25zp7zy"
+    },
     {
       "at": "2026-11-24T12:40:52.263Z",
       "action": "ignore",
