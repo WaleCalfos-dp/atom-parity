@@ -95,6 +95,22 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-24T12:42:09.073Z"
+    },
+    {
+      "id": "tnm2udjr1d45",
+      "check": "actions",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "text": "Same property, different naming: Figma \"Show Icon Left\" vs code \"leftIcon\". Not a defect - no change on either side.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-24T12:50:19.345Z"
     }
   ]
 }
