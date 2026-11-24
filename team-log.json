@@ -384,6 +384,22 @@
         }
       ],
       "id": "5sbii726pxru"
+    },
+    {
+      "at": "2026-11-24T12:23:07.171Z",
+      "action": "restore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
     }
   ]
 }
