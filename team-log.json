@@ -448,6 +448,22 @@
           "componentName": "Button"
         }
       ]
+    },
+    {
+      "at": "2026-11-24T12:31:20.189Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "reason": "In code we have both tertiary and tertiaryLink while the seconds one is the same as first one so should it be removed?",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Properties|values:Type",
+          "title": "Type values differ",
+          "componentName": "Button"
+        }
+      ]
     }
   ]
 }
