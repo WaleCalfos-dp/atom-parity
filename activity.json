@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-11-24T12:20:57.841Z",
+  "generatedAt": "2026-11-24T12:21:21.846Z",
   "log": [
+    {
+      "at": "2026-11-24T12:21:19.866Z",
+      "action": "delete-comment",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "text": "Transferred to design — see review doc section 四、转设计清单 #2.\nFigma \"Show Icon Right\" and code prop \"rightIcon\" express the same capability, and both sides already support it; this is a property-naming alignment, not a code defect. Fix belongs in Figma (rename to match the code convention).\nMarking this issue as ignore; no code change planned.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ],
+      "id": "pn878napxqj7",
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-24T12:20:56.186Z",
       "action": "delete-comment",
