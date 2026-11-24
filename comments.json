@@ -111,6 +111,22 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-24T12:22:50.235Z"
+    },
+    {
+      "id": "yc7ui25zp7zy",
+      "check": "actions",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        }
+      ],
+      "text": "I believe button shouldn't be in Basics...",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-24T12:42:09.073Z"
     }
   ]
 }
