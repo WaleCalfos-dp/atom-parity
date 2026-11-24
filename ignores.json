@@ -98,6 +98,17 @@
       "by": "Yana Kolpakova",
       "github": null,
       "at": "2026-11-24T12:40:52.263Z"
+    },
+    {
+      "check": "actions",
+      "component": "1702:72060",
+      "key": "Properties|code-only",
+      "title": "Code has props with no Figma property",
+      "componentName": "Stepper",
+      "reason": "In Figma it's fine, don't know why some props where added in storybook...",
+      "by": "Yana Kolpakova",
+      "github": null,
+      "at": "2026-11-24T12:44:31.915Z"
     }
   ]
 }
