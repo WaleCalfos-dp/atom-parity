@@ -400,6 +400,22 @@
           "componentName": "Button"
         }
       ]
+    },
+    {
+      "at": "2026-11-24T12:23:17.388Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Left",
+          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
     }
   ]
 }
