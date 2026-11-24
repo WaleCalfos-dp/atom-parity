@@ -36,17 +36,6 @@
     {
       "check": "actions",
       "component": "1454:7798",
-      "key": "Naming|prop:Show Icon Left",
-      "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
-      "componentName": "Button",
-      "reason": "Transferred to design - property naming alignment (Figma 'Show Icon Left' vs code 'leftIcon'); review doc section 4, item 1.",
-      "by": "frontenddev.ai",
-      "github": null,
-      "at": "2026-11-24T12:23:17.388Z"
-    },
-    {
-      "check": "actions",
-      "component": "1454:7798",
       "key": "Properties|values:Type",
       "title": "Type values differ",
       "componentName": "Button",
@@ -109,6 +98,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-24T12:50:28.202Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Naming|prop:Show Icon Left",
+      "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
+      "componentName": "Button",
+      "reason": "Naming alignment only - not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-24T12:50:54.185Z"
     }
   ]
 }
