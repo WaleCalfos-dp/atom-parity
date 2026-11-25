@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:01:38.248Z",
-    "durationMs": 99577,
+    "generatedAt": "2026-11-25T15:02:40.710Z",
+    "durationMs": 112076,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:00:43.643Z",
+      "exportedAt": "2026-11-25T15:01:32.375Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1151:40938",
       "name": "Alert",
       "status": "Drifted",
-      "score": 65,
+      "score": 67,
       "match": "exact",
       "figma": {
         "id": "1151:40938",
@@ -1915,7 +1915,7 @@
           "category": "Properties",
           "subject": "prop:Description",
           "label": "Property \"Description\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -1939,7 +1939,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T15:00:29.412Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Status",
@@ -3405,7 +3412,7 @@
           "category": "Properties",
           "subject": "prop:Description",
           "label": "Property \"Description\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -3429,7 +3436,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T15:00:29.412Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Buttons",
@@ -7169,7 +7183,7 @@
       "key": "7839:97889",
       "name": "Toast",
       "status": "Drifted",
-      "score": 58,
+      "score": 59,
       "match": "exact",
       "figma": {
         "id": "7839:97889",
@@ -7486,7 +7500,7 @@
           "category": "Properties",
           "subject": "prop:Description",
           "label": "Property \"Description\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -7510,7 +7524,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T15:00:29.412Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Status",
@@ -9398,7 +9419,7 @@
     },
     "checks": {
       "pass": 29,
-      "warn": 19,
+      "warn": 16,
       "fail": 12
     },
     "byCategory": {
@@ -9409,7 +9430,7 @@
       },
       "Properties": {
         "pass": 0,
-        "warn": 13,
+        "warn": 10,
         "fail": 11
       },
       "Tokens": {
@@ -9449,7 +9470,7 @@
         "fail": 0
       },
       "Dev": {
-        "warn": 6,
+        "warn": 3,
         "fail": 9
       },
       "Both": {
@@ -9609,43 +9630,6 @@
       },
       {
         "category": "Properties",
-        "title": "State values without a code equivalent",
-        "status": "warn",
-        "owner": "Dev",
-        "components": [
-          "Alert",
-          "Dialog",
-          "Toast"
-        ],
-        "items": [
-          {
-            "component": "1151:40938",
-            "key": "Properties|prop:Description",
-            "title": "Figma property \"Description\" has no equivalent in code",
-            "componentName": "Alert"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Description",
-            "title": "Figma property \"Description\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Subtitle",
-            "title": "Figma property \"Subtitle\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
-            "component": "7839:97889",
-            "key": "Properties|prop:Description",
-            "title": "Figma property \"Description\" has no equivalent in code",
-            "componentName": "Toast"
-          }
-        ]
-      },
-      {
-        "category": "Properties",
         "title": "10 of 10 variants can't be shown in code",
         "status": "warn",
         "owner": "Both",
@@ -9732,6 +9716,23 @@
             "key": "Documentation|docs-figma",
             "title": "No description in Figma",
             "componentName": "Toast"
+          }
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "State values without a code equivalent",
+        "status": "warn",
+        "owner": "Dev",
+        "components": [
+          "Dialog"
+        ],
+        "items": [
+          {
+            "component": "3581:33620",
+            "key": "Properties|prop:Subtitle",
+            "title": "Figma property \"Subtitle\" has no equivalent in code",
+            "componentName": "Dialog"
           }
         ]
       },
@@ -9830,6 +9831,19 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Description",
+        "category": "Properties",
+        "title": "Figma property \"Description\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T15:00:29.412Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Alert",
+        "componentKey": "1151:40938",
         "key": "Naming|prop:Status",
         "category": "Naming",
         "title": "Figma \"Status\" is \"type\" in code",
@@ -9850,6 +9864,19 @@
         "owner": "Dev",
         "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
         "at": "2026-11-25T14:51:36.300Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|prop:Description",
+        "category": "Properties",
+        "title": "Figma property \"Description\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T15:00:29.412Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -10051,6 +10078,19 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|prop:Description",
+        "category": "Properties",
+        "title": "Figma property \"Description\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T15:00:29.412Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
         "key": "Naming|prop:Status",
         "category": "Naming",
         "title": "Figma \"Status\" is \"type\" in code",
@@ -10158,19 +10198,6 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
-        "key": "Properties|prop:Description",
-        "category": "Properties",
-        "subject": "prop:Description",
-        "status": "warn",
-        "title": "Figma property \"Description\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Alert",
-        "componentKey": "1151:40938",
         "key": "Properties|values:Status",
         "category": "Properties",
         "subject": "values:Status",
@@ -10230,19 +10257,6 @@
         "title": "10 of 10 variants can't be shown in code",
         "detail": "Status=Information, Style=Top Border, Style=Full Border",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|prop:Description",
-        "category": "Properties",
-        "subject": "prop:Description",
-        "status": "warn",
-        "title": "Figma property \"Description\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -10399,19 +10413,6 @@
         "title": "No description in Figma",
         "detail": null,
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "key": "Properties|prop:Description",
-        "category": "Properties",
-        "subject": "prop:Description",
-        "status": "warn",
-        "title": "Figma property \"Description\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -10996,6 +10997,34 @@
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:00:29.412Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Description",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Description",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "7839:97889",
+          "key": "Properties|prop:Description",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "componentName": "Toast"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:59:43.593Z",
       "action": "ignore",

@@ -6,13 +6,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Alert: Figma property ""Description"" has no equivalent in code","text property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Alert: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
@@ -48,13 +41,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Dialog: Figma property ""Description"" has no equivalent in code","text property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Dialog: Figma property ""Show Close Icon"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
@@ -134,13 +120,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-documentation fix-in-figma","Atom Design System"
-"[Atom parity] Toast: Figma property ""Description"" has no equivalent in code","text property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Toast: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889

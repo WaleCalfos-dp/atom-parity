@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:01:38.654Z",
+  "generatedAt": "2026-11-25T15:02:47.508Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:01:38.248Z",
+      "ranAt": "2026-11-25T15:02:40.710Z",
       "ok": true,
       "history": [
         {
@@ -331,7 +331,7 @@
           "score": 38
         },
         {
-          "at": "2026-11-25T15:01:38.248Z",
+          "at": "2026-11-25T15:02:40.710Z",
           "score": 52
         }
       ],
@@ -340,7 +340,7 @@
         {
           "name": "Alert",
           "status": "Drifted",
-          "score": 65
+          "score": 67
         },
         {
           "name": "Dialog",
@@ -385,7 +385,7 @@
         {
           "name": "Toast",
           "status": "Drifted",
-          "score": 58
+          "score": 59
         },
         {
           "name": "Tooltip",
@@ -418,7 +418,7 @@
         "Property values missing in code",
         "Not built in Storybook"
       ],
-      "ignored": 28,
+      "ignored": 31,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",

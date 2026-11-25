@@ -1,6 +1,35 @@
 {
-  "generatedAt": "2026-11-25T15:01:38.287Z",
+  "generatedAt": "2026-11-25T15:02:40.764Z",
   "log": [
+    {
+      "at": "2026-11-25T15:00:29.412Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Description",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Description",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "7839:97889",
+          "key": "Properties|prop:Description",
+          "title": "Figma property \"Description\" has no equivalent in code",
+          "componentName": "Toast"
+        }
+      ],
+      "checkName": "System feedback"
+    },
     {
       "at": "2026-11-25T14:59:43.593Z",
       "action": "ignore",

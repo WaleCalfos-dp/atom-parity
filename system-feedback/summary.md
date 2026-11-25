@@ -23,7 +23,7 @@
 - 🔴 Property values missing in code: 3 components (Both)
 - 🔴 Not built in Storybook: 1 component (Dev)
 - 🟠 Code has props with no Figma property: 4 components (Design)
-- 🟠 State values without a code equivalent: 3 components (Dev)
 - 🟠 10 of 10 variants can't be shown in code: 3 components (Both)
+- 🟠 Retired terms still in use: 2 components (Design)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/system-feedback/)
