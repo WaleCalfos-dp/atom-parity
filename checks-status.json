@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:55:51.388Z",
+  "generatedAt": "2026-11-25T14:55:56.316Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:55:44.144Z",
+      "ranAt": "2026-11-25T14:55:49.735Z",
       "ok": true,
       "history": [
         {
@@ -327,8 +327,8 @@
           "score": 24
         },
         {
-          "at": "2026-11-25T14:55:44.144Z",
-          "score": 46
+          "at": "2026-11-25T14:55:49.735Z",
+          "score": 38
         }
       ],
       "preview": null,
@@ -370,8 +370,8 @@
         },
         {
           "name": "Progress Bar / Steps",
-          "status": "Ignored",
-          "score": null
+          "status": "Missing in code",
+          "score": 0
         },
         {
           "name": "Progress Bar / Tracker",
@@ -386,25 +386,25 @@
         {
           "name": "Tooltip",
           "status": "Drifted",
-          "score": 68
+          "score": 58
         }
       ],
-      "score": 46,
-      "headline": "0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.",
+      "score": 38,
+      "headline": "0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.",
       "counts": {
         "total": 11,
-        "figma": 6,
+        "figma": 7,
         "paired": 5,
         "aligned": 0,
         "drifted": 5,
         "broken": 0,
-        "missingInCode": 1,
+        "missingInCode": 2,
         "missingInDesign": 0,
-        "ignored": 5
+        "ignored": 4
       },
       "previousScore": 24,
       "newFails": 0,
-      "fixed": 9,
+      "fixed": 6,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -414,7 +414,7 @@
         "Property values missing in code",
         "Not built in Storybook"
       ],
-      "ignored": 18,
+      "ignored": 14,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",

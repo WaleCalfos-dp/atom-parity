@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:55:44.144Z",
-    "durationMs": 141991,
+    "generatedAt": "2026-11-25T14:55:49.735Z",
+    "durationMs": 203747,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:54:46.651Z",
+      "exportedAt": "2026-11-25T14:54:39.095Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3801,7 +3801,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "ignored",
+          "status": "warn",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign",
@@ -3825,14 +3825,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
-            "at": "2026-11-25T14:52:14.363Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "warn"
+          "variants": []
         },
         {
           "key": "Properties|coverage",
@@ -6812,8 +6805,8 @@
     {
       "key": "12768:3167",
       "name": "Progress Bar / Steps",
-      "status": "Ignored",
-      "score": null,
+      "status": "Missing in code",
+      "score": 0,
       "match": null,
       "suggestions": [
         {
@@ -6850,7 +6843,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "ignored",
+          "status": "fail",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
@@ -6874,14 +6867,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
-            "at": "2026-11-25T14:52:04.754Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         }
       ],
       "gallery": []
@@ -7917,7 +7903,7 @@
       "key": "8560:2779",
       "name": "Tooltip",
       "status": "Drifted",
-      "score": 68,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "8560:2779",
@@ -8287,7 +8273,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8311,14 +8297,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Icons are passed via prefix/suffix. Not a defect.",
-            "at": "2026-11-25T14:51:57.158Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Naming|prop:Show Title",
@@ -8401,7 +8380,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8425,14 +8404,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Icons are passed via prefix/suffix. Not a defect.",
-            "at": "2026-11-25T14:51:57.158Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Naming|prop:Tip Direction",
@@ -9313,34 +9285,34 @@
     }
   ],
   "summary": {
-    "score": 46,
-    "headline": "0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.",
+    "score": 38,
+    "headline": "0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.",
     "components": {
       "total": 11,
-      "figma": 6,
+      "figma": 7,
       "paired": 5,
       "aligned": 0,
       "drifted": 5,
       "broken": 0,
-      "missingInCode": 1,
+      "missingInCode": 2,
       "missingInDesign": 0,
-      "ignored": 5
+      "ignored": 4
     },
     "checks": {
       "pass": 29,
-      "warn": 20,
-      "fail": 21
+      "warn": 21,
+      "fail": 24
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
         "warn": 4,
-        "fail": 1
+        "fail": 2
       },
       "Properties": {
         "pass": 0,
-        "warn": 13,
-        "fail": 20
+        "warn": 14,
+        "fail": 22
       },
       "Tokens": {
         "pass": 0,
@@ -9375,12 +9347,12 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 9,
+        "warn": 10,
         "fail": 0
       },
       "Dev": {
         "warn": 6,
-        "fail": 18
+        "fail": 21
       },
       "Both": {
         "warn": 5,
@@ -9499,6 +9471,18 @@
           },
           {
             "component": "8560:2779",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|prop:Show Icon Right",
+            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
             "key": "Properties|prop:Tip Centred",
             "title": "Figma property \"Tip Centred\" has no equivalent in code",
             "componentName": "Tooltip"
@@ -9542,7 +9526,8 @@
         "status": "fail",
         "owner": "Dev",
         "components": [
-          "Journey Wizard"
+          "Journey Wizard",
+          "Progress Bar / Steps"
         ],
         "items": [
           {
@@ -9550,6 +9535,12 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Journey Wizard"
+          },
+          {
+            "component": "12768:3167",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Progress Bar / Steps"
           }
         ]
       },
@@ -9560,6 +9551,7 @@
         "owner": "Design",
         "components": [
           "Alert",
+          "Dialog",
           "Loading Indicator",
           "Toast",
           "Tooltip"
@@ -9570,6 +9562,12 @@
             "key": "Properties|code-only",
             "title": "Code has props with no Figma property",
             "componentName": "Alert"
+          },
+          {
+            "component": "3581:33620",
+            "key": "Properties|code-only",
+            "title": "Code has props with no Figma property",
+            "componentName": "Dialog"
           },
           {
             "component": "15577:80832",
@@ -9825,19 +9823,6 @@
         "github": null
       },
       {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "title": "Code has props with no Figma property",
-        "was": "warn",
-        "owner": "Design",
-        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
-        "at": "2026-11-25T14:52:14.363Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
         "key": "Naming|name",
@@ -9890,19 +9875,6 @@
         "github": null
       },
       {
-        "component": "Progress Bar / Steps",
-        "componentKey": "12768:3167",
-        "key": "Naming|name",
-        "category": "Naming",
-        "title": "Not found in Storybook",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
-        "at": "2026-11-25T14:52:04.754Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
         "component": "Progress Bar / Tracker",
         "componentKey": "12738:392",
         "key": "Naming|name",
@@ -9931,19 +9903,6 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Icons are passed via prefix/suffix. Not a defect.",
-        "at": "2026-11-25T14:51:57.158Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
         "key": "Naming|prop:Show Title",
         "category": "Naming",
         "title": "Figma \"Show Title\" is \"title\" in code",
@@ -9964,19 +9923,6 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
         "at": "2026-11-25T07:09:10.572Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Icons are passed via prefix/suffix. Not a defect.",
-        "at": "2026-11-25T14:51:57.158Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -10272,6 +10218,19 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "subject": "code-only",
+        "status": "warn",
+        "title": "Code has props with no Figma property",
+        "detail": "content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign",
+        "owner": "Design",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
         "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
@@ -10344,6 +10303,19 @@
         "title": "2 of 2 variants can't be shown in code",
         "detail": "Type=Spinner, Type=Skeleton",
         "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Progress Bar / Steps",
+        "componentKey": "12768:3167",
+        "key": "Naming|name",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Not found in Storybook",
+        "detail": "Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -10461,6 +10433,32 @@
         "title": "10 of 10 variants can't be shown in code",
         "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
         "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "subject": "prop:Show Icon Left",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "subject": "prop:Show Icon Right",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -11070,89 +11068,14 @@
       },
       {
         "status": "fail",
-        "component": "Progress Bar / Steps",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
         "component": "Progress Bar / Tracker",
         "title": "Not found in Storybook",
         "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties",
         "now": "ignored"
       }
     ]
   },
   "activity": [
-    {
-      "at": "2026-11-25T14:52:14.363Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
-      "items": [
-        {
-          "component": "3581:33620",
-          "key": "Properties|code-only",
-          "title": "Code has props with no Figma property",
-          "componentName": "Dialog"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-25T14:52:04.754Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
-      "items": [
-        {
-          "component": "12768:3167",
-          "key": "Naming|name",
-          "title": "Not found in Storybook",
-          "componentName": "Progress Bar / Steps"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-25T14:51:57.158Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Icons are passed via prefix/suffix. Not a defect.",
-      "items": [
-        {
-          "component": "8560:2779",
-          "key": "Properties|prop:Show Icon Left",
-          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-          "componentName": "Tooltip"
-        },
-        {
-          "component": "8560:2779",
-          "key": "Properties|prop:Show Icon Right",
-          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-          "componentName": "Tooltip"
-        }
-      ]
-    },
     {
       "at": "2026-11-25T14:51:48.623Z",
       "action": "ignore",
