@@ -1023,6 +1023,22 @@
           "componentName": "Select"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:16:32.381Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Bottom Navigation\" vs Storybook \"TabBar\". Not a defect.",
+      "items": [
+        {
+          "component": "781:17271",
+          "key": "Naming|name",
+          "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
+          "componentName": "Bottom Navigation"
+        }
+      ]
     }
   ]
 }
