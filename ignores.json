@@ -1748,6 +1748,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:50:09.938Z"
+    },
+    {
+      "check": "product-modules",
+      "component": "17265:62617",
+      "key": "Tokens|token:Horizontal padding",
+      "title": "Horizontal padding uses the design token under a different name",
+      "componentName": "Flight Delay / Flight Card",
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:50:25.423Z"
+    },
+    {
+      "check": "product-modules",
+      "component": "17265:62617",
+      "key": "Tokens|token:Vertical padding",
+      "title": "Vertical padding uses the design token under a different name",
+      "componentName": "Flight Delay / Flight Card",
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:50:25.423Z"
     }
   ]
 }
