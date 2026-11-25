@@ -1,4 +1,4 @@
-## Atom parity: 37% match (+0 since last run)
+## Atom parity: 38% match (+1 since last run)
 
 0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.
 
@@ -6,12 +6,16 @@
 |---|---|---|---|---|
 | 0 | 4 | 2 | 3 | 0 |
 
+### 2 fixed
+- Date Picker: Figma "Date Picker" is "CalendarPicker" in Storybook
+- Select: Figma "Select" is "SelectInput" in Storybook
+
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Not built in Storybook: 3 components (Dev)
-- 🔴 Component named differently in Figma and Storybook: 2 components (Both)
 - 🔴 Text contrast is too low in Figma: 2 components (Design)
 - 🔴 Looks different from design: 1 component (Both)
 - 🔴 Height differs from design: 1 component (Both)
+- 🔴 Semantic values filed under State: 1 component (Design)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/data-entry/)
