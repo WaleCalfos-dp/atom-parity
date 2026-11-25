@@ -2649,6 +2649,46 @@
           "componentName": "Steps"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:05:31.417Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "781:17271",
+          "key": "Properties|prop:Count",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "componentName": "Bottom Navigation"
+        },
+        {
+          "component": "14347:1286",
+          "key": "Properties|prop:Count",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "14347:1286",
+          "key": "Properties|prop:Divider Type",
+          "title": "Figma property \"Divider Type\" has no equivalent in code",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:Breakpoint",
+          "title": "Figma property \"Breakpoint\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "1491:5016",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Tabs"
+        }
+      ]
     }
   ]
 }
