@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:43:11.811Z",
-    "durationMs": 249705,
+    "generatedAt": "2026-11-25T15:11:37.768Z",
+    "durationMs": 172388,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:41:10.603Z",
+      "exportedAt": "2026-11-25T15:10:26.160Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1370,8 +1370,8 @@
     {
       "key": "15258:5697",
       "name": "Booking Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -1591,7 +1591,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -1615,7 +1615,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -1623,8 +1630,8 @@
     {
       "key": "8784:6542",
       "name": "Booking Details",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -1838,7 +1845,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -1862,7 +1869,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -1870,8 +1884,8 @@
     {
       "key": "15854:36802",
       "name": "Booking Step Container",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -2169,7 +2183,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -2193,7 +2207,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2201,8 +2222,8 @@
     {
       "key": "16047:1891",
       "name": "Booking Steps",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2229,7 +2250,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Steps. Rename it, or add it to components.aliases.",
@@ -2253,7 +2274,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Steps\". Not a defect.",
+            "at": "2026-11-25T14:48:51.030Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2261,8 +2289,8 @@
     {
       "key": "17104:34171",
       "name": "Booking Widget",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -2812,7 +2840,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -2836,7 +2864,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2844,8 +2879,8 @@
     {
       "key": "15327:32950",
       "name": "Bottom Sheet",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2872,7 +2907,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: System Feedback/Sheet. Rename it, or add it to components.aliases.",
@@ -2896,7 +2931,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Sheet\". Not a defect.",
+            "at": "2026-11-25T14:49:07.237Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2904,8 +2946,8 @@
     {
       "key": "15759:2797",
       "name": "Checkout",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2932,7 +2974,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Entry/Checkbox. Rename it, or add it to components.aliases.",
@@ -2956,7 +2998,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2964,8 +3013,8 @@
     {
       "key": "16640:23428",
       "name": "Filters",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2992,7 +3041,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Layout/Footer. Rename it, or add it to components.aliases.",
@@ -3016,7 +3065,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"FilterPanel\". Not a defect.",
+            "at": "2026-11-25T14:49:11.853Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3024,8 +3080,8 @@
     {
       "key": "15598:89150",
       "name": "Global Search",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3407,7 +3463,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3431,7 +3487,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3439,8 +3502,8 @@
     {
       "key": "16857:70583",
       "name": "LP / Description Section",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3549,7 +3612,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3573,7 +3636,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3581,8 +3651,8 @@
     {
       "key": "16857:70520",
       "name": "LP / FAQ Section",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3603,7 +3673,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3627,7 +3697,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3635,8 +3712,8 @@
     {
       "key": "16857:70176",
       "name": "LP / Hero",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -3663,7 +3740,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Media/Hero. Rename it, or add it to components.aliases.",
@@ -3687,7 +3764,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Hero\". Not a defect.",
+            "at": "2026-11-25T15:08:14.192Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3695,8 +3779,8 @@
     {
       "key": "16857:70496",
       "name": "LP / How It Works Section",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3717,7 +3801,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3741,7 +3825,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3749,8 +3840,8 @@
     {
       "key": "16857:70611",
       "name": "LP / How to register your flight?",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3859,7 +3950,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3883,7 +3974,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3891,8 +3989,8 @@
     {
       "key": "16857:70548",
       "name": "LP / What's Included Section",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3913,7 +4011,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3937,7 +4035,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3945,8 +4050,8 @@
     {
       "key": "17492:9098",
       "name": "Order Details Container",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3967,7 +4072,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3991,7 +4096,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3999,8 +4111,8 @@
     {
       "key": "17022:7662",
       "name": "Order Status Container",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -4298,7 +4410,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -4322,7 +4434,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4330,8 +4449,8 @@
     {
       "key": "17165:13507",
       "name": "Order Status Header",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -4629,7 +4748,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -4653,7 +4772,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4661,8 +4787,8 @@
     {
       "key": "12877:4669",
       "name": "Payment Accordion",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -6220,7 +6346,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -6244,7 +6370,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6252,8 +6385,8 @@
     {
       "key": "8094:11608",
       "name": "Payment Breakdown",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -6551,7 +6684,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -6575,7 +6708,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6583,8 +6723,8 @@
     {
       "key": "15695:14328",
       "name": "Payment Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -6616,7 +6756,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card, Business Components/PayCard. Rename it, or add it to components.aliases.",
@@ -6640,7 +6780,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"PayCard\". Not a defect.",
+            "at": "2026-11-25T14:49:27.218Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6648,8 +6795,8 @@
     {
       "key": "15733:36277",
       "name": "Payment Method",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -6670,7 +6817,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -6694,7 +6841,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6702,8 +6856,8 @@
     {
       "key": "3298:3183",
       "name": "Payment Providers",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -6770,7 +6924,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -6794,7 +6948,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6802,8 +6963,8 @@
     {
       "key": "15598:87162",
       "name": "Scroll Bar",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -6830,7 +6991,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ScrollView. Rename it, or add it to components.aliases.",
@@ -6854,7 +7015,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"ScrollView\". Not a defect.",
+            "at": "2026-11-25T14:49:34.826Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6862,8 +7030,8 @@
     {
       "key": "15802:23527",
       "name": "Search and Filters",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -6884,7 +7052,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -6908,7 +7076,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6970,8 +7145,8 @@
     {
       "key": "8086:14805",
       "name": "Web Search",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -7206,7 +7381,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -7230,7 +7405,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Page-level pattern, out of scope for the component library.",
+            "at": "2026-11-25T14:48:46.107Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -7238,28 +7420,28 @@
   ],
   "summary": {
     "score": 0,
-    "headline": "0 of 27 Figma components match Storybook. 27 aren't built yet.",
+    "headline": "0 of 1 Figma components match Storybook. 1 isn't built yet.",
     "components": {
       "total": 27,
-      "figma": 27,
+      "figma": 1,
       "paired": 0,
       "aligned": 0,
       "drifted": 0,
       "broken": 0,
-      "missingInCode": 27,
+      "missingInCode": 1,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 26
     },
     "checks": {
       "pass": 14,
       "warn": 0,
-      "fail": 27
+      "fail": 1
     },
     "byCategory": {
       "Naming": {
         "pass": 0,
         "warn": 0,
-        "fail": 27
+        "fail": 1
       },
       "Properties": {
         "pass": 0,
@@ -7304,7 +7486,7 @@
       },
       "Dev": {
         "warn": 0,
-        "fail": 27
+        "fail": 1
       },
       "Both": {
         "warn": 0,
@@ -7318,196 +7500,14 @@
         "status": "fail",
         "owner": "Dev",
         "components": [
-          "Booking Card",
-          "Booking Details",
-          "Booking Step Container",
-          "Booking Steps",
-          "Booking Widget",
-          "Bottom Sheet",
-          "Checkout",
-          "Filters",
-          "Global Search",
-          "LP / Description Section",
-          "LP / FAQ Section",
-          "LP / Hero",
-          "LP / How It Works Section",
-          "LP / How to register your flight?",
-          "LP / What's Included Section",
-          "Order Details Container",
-          "Order Status Container",
-          "Order Status Header",
-          "Payment Accordion",
-          "Payment Breakdown",
-          "Payment Card",
-          "Payment Method",
-          "Payment Providers",
-          "Scroll Bar",
-          "Search and Filters",
-          "Web Payment ",
-          "Web Search"
+          "Web Payment "
         ],
         "items": [
-          {
-            "component": "15258:5697",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Booking Card"
-          },
-          {
-            "component": "8784:6542",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Booking Details"
-          },
-          {
-            "component": "15854:36802",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Booking Step Container"
-          },
-          {
-            "component": "16047:1891",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Booking Steps"
-          },
-          {
-            "component": "17104:34171",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Booking Widget"
-          },
-          {
-            "component": "15327:32950",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Bottom Sheet"
-          },
-          {
-            "component": "15759:2797",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Checkout"
-          },
-          {
-            "component": "16640:23428",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Filters"
-          },
-          {
-            "component": "15598:89150",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Global Search"
-          },
-          {
-            "component": "16857:70583",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "LP / Description Section"
-          },
-          {
-            "component": "16857:70520",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "LP / FAQ Section"
-          },
-          {
-            "component": "16857:70176",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "LP / Hero"
-          },
-          {
-            "component": "16857:70496",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "LP / How It Works Section"
-          },
-          {
-            "component": "16857:70611",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "LP / How to register your flight?"
-          },
-          {
-            "component": "16857:70548",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "LP / What's Included Section"
-          },
-          {
-            "component": "17492:9098",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Order Details Container"
-          },
-          {
-            "component": "17022:7662",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Order Status Container"
-          },
-          {
-            "component": "17165:13507",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Order Status Header"
-          },
-          {
-            "component": "12877:4669",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Payment Accordion"
-          },
-          {
-            "component": "8094:11608",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Payment Breakdown"
-          },
-          {
-            "component": "15695:14328",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Payment Card"
-          },
-          {
-            "component": "15733:36277",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Payment Method"
-          },
-          {
-            "component": "3298:3183",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Payment Providers"
-          },
-          {
-            "component": "15598:87162",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Scroll Bar"
-          },
-          {
-            "component": "15802:23527",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Search and Filters"
-          },
           {
             "component": "7811:32360",
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Web Payment "
-          },
-          {
-            "component": "8086:14805",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Web Search"
           }
         ]
       }
@@ -7516,350 +7516,351 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Accessibility"
     ],
-    "ignored": [],
-    "brokenComponents": [],
-    "issues": [
+    "ignored": [
       {
         "component": "Booking Card",
         "componentKey": "15258:5697",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Booking Details",
         "componentKey": "8784:6542",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Booking Step Container",
         "componentKey": "15854:36802",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Booking Steps",
         "componentKey": "16047:1891",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Steps. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component under a different name: code \"Steps\". Not a defect.",
+        "at": "2026-11-25T14:48:51.030Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Booking Widget",
         "componentKey": "17104:34171",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Bottom Sheet",
         "componentKey": "15327:32950",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: System Feedback/Sheet. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component under a different name: code \"Sheet\". Not a defect.",
+        "at": "2026-11-25T14:49:07.237Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Checkout",
         "componentKey": "15759:2797",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/Checkbox. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Filters",
         "componentKey": "16640:23428",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Layout/Footer. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component under a different name: code \"FilterPanel\". Not a defect.",
+        "at": "2026-11-25T14:49:11.853Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Global Search",
         "componentKey": "15598:89150",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "LP / Description Section",
         "componentKey": "16857:70583",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "LP / FAQ Section",
         "componentKey": "16857:70520",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "LP / Hero",
         "componentKey": "16857:70176",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Media/Hero. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component under a different name: code \"Hero\". Not a defect.",
+        "at": "2026-11-25T15:08:14.192Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "LP / How It Works Section",
         "componentKey": "16857:70496",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "LP / How to register your flight?",
         "componentKey": "16857:70611",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "LP / What's Included Section",
         "componentKey": "16857:70548",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Order Details Container",
         "componentKey": "17492:9098",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Order Status Container",
         "componentKey": "17022:7662",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Order Status Header",
         "componentKey": "17165:13507",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Payment Accordion",
         "componentKey": "12877:4669",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Payment Breakdown",
         "componentKey": "8094:11608",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Payment Card",
         "componentKey": "15695:14328",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card, Business Components/PayCard. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component under a different name: code \"PayCard\". Not a defect.",
+        "at": "2026-11-25T14:49:27.218Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Payment Method",
         "componentKey": "15733:36277",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Payment Providers",
         "componentKey": "3298:3183",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Scroll Bar",
         "componentKey": "15598:87162",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/ScrollView. Rename it, or add it to components.aliases.",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component under a different name: code \"ScrollView\". Not a defect.",
+        "at": "2026-11-25T14:49:34.826Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Search and Filters",
         "componentKey": "15802:23527",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Web Payment ",
-        "componentKey": "7811:32360",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Web Search",
         "componentKey": "8086:14805",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Page-level pattern, out of scope for the component library.",
+        "at": "2026-11-25T14:48:46.107Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
+      {
+        "component": "Web Payment ",
+        "componentKey": "7811:32360",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -8233,10 +8234,420 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-24T12:51:11.663Z",
+    "since": "2026-11-25T11:43:11.811Z",
     "previousScore": 0,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Booking Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Booking Details",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Booking Step Container",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Booking Steps",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Booking Widget",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Bottom Sheet",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Checkout",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Filters",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Global Search",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "LP / Description Section",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "LP / FAQ Section",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "LP / Hero",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "LP / How It Works Section",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "LP / How to register your flight?",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "LP / What's Included Section",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Order Details Container",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Order Status Container",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Order Status Header",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Payment Accordion",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Payment Breakdown",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Payment Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Payment Method",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Payment Providers",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Scroll Bar",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Search and Filters",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Web Search",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-25T15:08:14.192Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Hero\". Not a defect.",
+      "items": [
+        {
+          "component": "16857:70176",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / Hero"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:49:34.826Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ScrollView\". Not a defect.",
+      "items": [
+        {
+          "component": "15598:87162",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Scroll Bar"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:49:27.218Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"PayCard\". Not a defect.",
+      "items": [
+        {
+          "component": "15695:14328",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Card"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:49:11.853Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"FilterPanel\". Not a defect.",
+      "items": [
+        {
+          "component": "16640:23428",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Filters"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:49:07.237Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Sheet\". Not a defect.",
+      "items": [
+        {
+          "component": "15327:32950",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Bottom Sheet"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:48:51.030Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Steps\". Not a defect.",
+      "items": [
+        {
+          "component": "16047:1891",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:48:46.107Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "items": [
+        {
+          "component": "15258:5697",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Card"
+        },
+        {
+          "component": "8784:6542",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Details"
+        },
+        {
+          "component": "15854:36802",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Step Container"
+        },
+        {
+          "component": "17104:34171",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Widget"
+        },
+        {
+          "component": "15759:2797",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Checkout"
+        },
+        {
+          "component": "15598:89150",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Global Search"
+        },
+        {
+          "component": "16857:70583",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / Description Section"
+        },
+        {
+          "component": "16857:70520",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / FAQ Section"
+        },
+        {
+          "component": "16857:70496",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / How It Works Section"
+        },
+        {
+          "component": "16857:70611",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / How to register your flight?"
+        },
+        {
+          "component": "16857:70548",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / What's Included Section"
+        },
+        {
+          "component": "17492:9098",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Details Container"
+        },
+        {
+          "component": "17022:7662",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Status Container"
+        },
+        {
+          "component": "17165:13507",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Status Header"
+        },
+        {
+          "component": "12877:4669",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Accordion"
+        },
+        {
+          "component": "8094:11608",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Breakdown"
+        },
+        {
+          "component": "15733:36277",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Method"
+        },
+        {
+          "component": "3298:3183",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Providers"
+        },
+        {
+          "component": "15802:23527",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Search and Filters"
+        },
+        {
+          "component": "8086:14805",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Search"
+        }
+      ]
+    }
+  ]
 }

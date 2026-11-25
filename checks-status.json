@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:07:43.597Z",
+  "generatedAt": "2026-11-25T15:11:38.168Z",
   "entries": [
     {
       "id": "actions",
@@ -1536,7 +1536,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T11:43:11.811Z",
+      "ranAt": "2026-11-25T15:11:37.768Z",
       "ok": true,
       "history": [
         {
@@ -1602,134 +1602,138 @@
         {
           "at": "2026-11-25T11:43:11.811Z",
           "score": 0
+        },
+        {
+          "at": "2026-11-25T15:11:37.768Z",
+          "score": 0
         }
       ],
       "preview": null,
       "components": [
         {
           "name": "Booking Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Booking Details",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Booking Step Container",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Booking Steps",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Booking Widget",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Bottom Sheet",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Checkout",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Filters",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Global Search",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "LP / Description Section",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "LP / FAQ Section",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "LP / Hero",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "LP / How It Works Section",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "LP / How to register your flight?",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "LP / What's Included Section",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Order Details Container",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Order Status Container",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Order Status Header",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Payment Accordion",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Payment Breakdown",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Payment Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Payment Method",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Payment Providers",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Scroll Bar",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Search and Filters",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Web Payment ",
@@ -1738,26 +1742,26 @@
         },
         {
           "name": "Web Search",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         }
       ],
       "score": 0,
-      "headline": "0 of 27 Figma components match Storybook. 27 aren't built yet.",
+      "headline": "0 of 1 Figma components match Storybook. 1 isn't built yet.",
       "counts": {
         "total": 27,
-        "figma": 27,
+        "figma": 1,
         "paired": 0,
         "aligned": 0,
         "drifted": 0,
         "broken": 0,
-        "missingInCode": 27,
+        "missingInCode": 1,
         "missingInDesign": 0,
-        "ignored": 0
+        "ignored": 26
       },
       "previousScore": 0,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 26,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1765,7 +1769,7 @@
       "themes": [
         "Not built in Storybook"
       ],
-      "ignored": 0,
+      "ignored": 26,
       "place": {
         "group": "PATTERNS",
         "section": null,
@@ -1784,10 +1788,6 @@
         "scans": 0,
         "designChecks": 191,
         "top": []
-      },
-      "stale": {
-        "at": "2026-11-25T14:52:12.483Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
