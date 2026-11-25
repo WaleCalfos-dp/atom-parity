@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:23:56.216Z",
-    "durationMs": 168225,
+    "generatedAt": "2026-11-25T07:23:56.174Z",
+    "durationMs": 111741,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-25T07:22:42.484Z",
+      "exportedAt": "2026-11-25T07:23:02.100Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1679,7 +1679,7 @@
           "variants": [],
           "ignored": {
             "reason": "Same component, different naming: Figma \"App Header\" vs Storybook \"NavHeader\". Not a defect.",
-            "at": "2026-11-25T07:19:52.527Z",
+            "at": "2026-11-25T07:21:28.115Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -6065,7 +6065,7 @@
         "was": "fail",
         "owner": "Both",
         "reason": "Same component, different naming: Figma \"App Header\" vs Storybook \"NavHeader\". Not a defect.",
-        "at": "2026-11-25T07:19:52.527Z",
+        "at": "2026-11-25T07:21:28.115Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -7328,8 +7328,8 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:18:52.189Z",
-    "previousScore": 37,
+    "since": "2026-11-25T07:13:04.601Z",
+    "previousScore": 36,
     "newFails": [],
     "fixed": [
       {
@@ -7338,10 +7338,33 @@
         "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
         "category": "Naming",
         "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Bottom Navigation",
+        "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:21:28.115Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"App Header\" vs Storybook \"NavHeader\". Not a defect.",
+      "items": [
+        {
+          "component": "3156:2880",
+          "key": "Naming|name",
+          "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+          "componentName": "App Header"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:19:52.527Z",
       "action": "ignore",

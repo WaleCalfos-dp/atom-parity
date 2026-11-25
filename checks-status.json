@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:24:03.075Z",
+  "generatedAt": "2026-11-25T07:24:15.221Z",
   "entries": [
     {
       "id": "actions",
@@ -985,7 +985,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T07:23:56.216Z",
+      "ranAt": "2026-11-25T07:23:56.174Z",
       "ok": true,
       "history": [
         {
@@ -1065,11 +1065,7 @@
           "score": 36
         },
         {
-          "at": "2026-11-25T07:18:52.189Z",
-          "score": 37
-        },
-        {
-          "at": "2026-11-25T07:23:56.216Z",
+          "at": "2026-11-25T07:23:56.174Z",
           "score": 38
         }
       ],
@@ -1124,9 +1120,9 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 37,
+      "previousScore": 36,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 2,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
