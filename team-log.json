@@ -911,6 +911,22 @@
           "componentName": "Loading Indicator"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:08:53.212Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Naming|prop:Show Title",
+          "title": "Figma \"Show Title\" is \"title\" in code",
+          "componentName": "Tooltip"
+        }
+      ]
     }
   ]
 }
