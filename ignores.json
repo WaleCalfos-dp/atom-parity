@@ -351,6 +351,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:17:51.536Z"
+    },
+    {
+      "check": "navigation",
+      "component": "3156:2880",
+      "key": "Naming|name",
+      "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+      "componentName": "App Header",
+      "reason": "Same component, different naming: Figma \"App Header\" vs Storybook \"NavHeader\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:17:58.664Z"
     }
   ]
 }
