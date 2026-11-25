@@ -813,6 +813,127 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:45:43.532Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:Show Supportive Text",
+      "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
+      "componentName": "Accordion",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "2991:63143",
+      "key": "Properties|prop:Show Badge",
+      "title": "Figma property \"Show Badge\" has no equivalent in code",
+      "componentName": "Data Row",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "2991:63143",
+      "key": "Properties|prop:Show Country Flags",
+      "title": "Figma property \"Show Country Flags\" has no equivalent in code",
+      "componentName": "Data Row",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "2991:63143",
+      "key": "Properties|prop:Show Data 1",
+      "title": "Figma property \"Show Data 1\" has no equivalent in code",
+      "componentName": "Data Row",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "2991:63143",
+      "key": "Properties|prop:Show Data 2",
+      "title": "Figma property \"Show Data 2\" has no equivalent in code",
+      "componentName": "Data Row",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "2991:63143",
+      "key": "Properties|prop:Show Data 3",
+      "title": "Figma property \"Show Data 3\" has no equivalent in code",
+      "componentName": "Data Row",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:Show Badge",
+      "title": "Figma property \"Show Badge\" has no equivalent in code",
+      "componentName": "Accordion",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:Show Country Flag",
+      "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+      "componentName": "Accordion",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:Show Slot",
+      "title": "Figma property \"Show Slot\" has no equivalent in code",
+      "componentName": "Accordion",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:Show Subtitle",
+      "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+      "componentName": "Accordion",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:Show Supportive Content",
+      "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
+      "componentName": "Accordion",
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:49.637Z"
     }
   ]
 }
