@@ -8,10 +8,10 @@
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 6 components (Dev)
-- 🔴 Property named differently in Figma and code: 2 components (Both)
 - 🔴 Horizontal padding differs from design: 2 components (Both)
 - 🔴 Vertical padding differs from design: 2 components (Both)
 - 🔴 Height differs from design: 2 components (Both)
 - 🔴 Property values missing in code: 2 components (Both)
+- 🔴 Background colour differs from design: 1 component (Both)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/actions/)
