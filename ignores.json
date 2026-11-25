@@ -241,6 +241,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:08:53.212Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "8560:2779",
+      "key": "Naming|prop:Show Description",
+      "title": "Figma \"Show Description\" is \"description\" in code",
+      "componentName": "Tooltip",
+      "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:09:10.572Z"
     }
   ]
 }

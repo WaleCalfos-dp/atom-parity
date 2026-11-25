@@ -927,6 +927,22 @@
           "componentName": "Tooltip"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:09:10.572Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Naming|prop:Show Description",
+          "title": "Figma \"Show Description\" is \"description\" in code",
+          "componentName": "Tooltip"
+        }
+      ]
     }
   ]
 }
