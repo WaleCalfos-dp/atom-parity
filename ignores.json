@@ -1946,6 +1946,105 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:52:25.136Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "1151:40938",
+      "key": "Properties|prop:Show Close Icon",
+      "title": "Figma property \"Show Close Icon\" has no equivalent in code",
+      "componentName": "Alert",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "1151:40938",
+      "key": "Properties|prop:Show Description",
+      "title": "Figma property \"Show Description\" has no equivalent in code",
+      "componentName": "Alert",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "1151:40938",
+      "key": "Properties|prop:Show Icon Left",
+      "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+      "componentName": "Alert",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "3581:33620",
+      "key": "Properties|prop:Show Buttons",
+      "title": "Figma property \"Show Buttons\" has no equivalent in code",
+      "componentName": "Dialog",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "3581:33620",
+      "key": "Properties|prop:Show Description",
+      "title": "Figma property \"Show Description\" has no equivalent in code",
+      "componentName": "Dialog",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "3581:33620",
+      "key": "Properties|prop:Show Icon",
+      "title": "Figma property \"Show Icon\" has no equivalent in code",
+      "componentName": "Dialog",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "3581:33620",
+      "key": "Properties|prop:Show Slot 1",
+      "title": "Figma property \"Show Slot 1\" has no equivalent in code",
+      "componentName": "Dialog",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "3581:33620",
+      "key": "Properties|prop:Show Slot 2",
+      "title": "Figma property \"Show Slot 2\" has no equivalent in code",
+      "componentName": "Dialog",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "7839:97889",
+      "key": "Properties|prop:Show Icon Left",
+      "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+      "componentName": "Toast",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:59:43.593Z"
     }
   ]
 }
