@@ -133,16 +133,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
-"[Atom parity] Button: Label · Font family uses the design token under a different name","typography/body/family is --aum-body-font-family in code (convention: --aum-typography-body-family)
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+13 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
 "[Atom parity] Button: Label · Line height uses a different token","Design token components/button/line-height (--aum-button-line-height-default) · Code uses --aum-button-line-height-lg
 
 Brands: Dragonpass, Mastercard, Investec
@@ -173,16 +163,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
-"[Atom parity] Button: Width differs from design","Design 183px · Code 124px (label text may differ)
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+16 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
 "[Atom parity] Button: Border colour uses a different token","Design token border/basic/strong (--aum-border-basic-strong) · Code uses --aum-button-secondary-border-color
 
 Brands: Dragonpass, Mastercard, Investec
@@ -215,28 +195,10 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14194-14015
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-14194%3A14015
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Icon Button: Not found in Storybook","Possible matches: Basics/Button. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12845-6732
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12845%3A6732
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Payment Button: Not found in Storybook","Possible matches: Basics/Button. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12604-10709
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12604%3A10709
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] Quantity Stepper: Not found in Storybook","Possible matches: Data Entry/Stepper. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18198-9455
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-18198%3A9455
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Social Button: Not found in Storybook","Possible matches: Basics/Button, Data Entry/Radio Button. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12607-10742
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-12607%3A10742
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] Stepper: Grouped under a different category","Figma ""ACTIONS"" · Storybook ""Data Entry""
@@ -246,13 +208,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Style values missing in code","Missing in code: Plain · Only in code: text
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Stepper: 1 of 3 variants can't be shown in code","Style=Plain
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
@@ -260,7 +215,7 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+"[Atom parity] Stepper: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
 
 Brands: Dragonpass, Mastercard, Investec
 Variants: Style=Input; Style=Card
@@ -290,16 +245,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Width differs from design","Design 152px · Code 32px (label text may differ)
-
-Brands: Dragonpass
-Variants: Style=Input; Style=Card
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
 "[Atom parity] Stepper: Border colour differs from design","Design #CECCCC (linked variable) · Code #91908F
 
 Brands: Dragonpass
@@ -367,20 +312,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
-"[Atom parity] Tag: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Tag: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Tag: State values with no code equivalent: Selected, Disabled","Default → :rest · Hover → :hover · Focus → :focus · Pressed → :active · Selected → missing · Disabled → missing
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061

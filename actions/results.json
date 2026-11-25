@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:19:11.100Z",
-    "durationMs": 156845,
+    "generatedAt": "2026-11-25T14:49:20.468Z",
+    "durationMs": 171660,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:34Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:17:53.498Z",
+      "exportedAt": "2026-11-25T14:47:42.705Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 69,
+      "score": 70,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -13509,7 +13509,7 @@
           "category": "Tokens",
           "subject": "token:Label · Font family",
           "label": "Label · Font family",
-          "status": "warn",
+          "status": "ignored",
           "title": "Label · Font family uses the design token under a different name",
           "owner": "Both",
           "detail": "typography/body/family is --aum-body-font-family in code (convention: --aum-typography-body-family)",
@@ -14179,7 +14179,14 @@
             "Type=Primary, Size=Small, State=Active",
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Inverse, Size=Large, State=Hover"
-          ]
+          ],
+          "ignored": {
+            "reason": "Same token value, different CSS variable name. Not a defect.",
+            "at": "2026-11-25T14:45:23.998Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Tokens|value:Label · Line height",
@@ -17329,7 +17336,7 @@
           "category": "Visual",
           "subject": "width",
           "label": "Width",
-          "status": "warn",
+          "status": "ignored",
           "title": "Width differs from design",
           "owner": "Both",
           "detail": "Design 183px · Code 124px (label text may differ)",
@@ -18092,7 +18099,14 @@
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Primary, Size=Small, State=Loading",
             "Type=Inverse, Size=Large, State=Hover"
-          ]
+          ],
+          "ignored": {
+            "reason": "Width follows label text / artboard width. Not a defect.",
+            "at": "2026-11-25T14:45:03.834Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Accessibility|axe",
@@ -22300,8 +22314,8 @@
     {
       "key": "12845:6732",
       "name": "Icon Button",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -22328,7 +22342,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Basics/Button. Rename it, or add it to components.aliases.",
@@ -22352,7 +22366,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Button\". Not a defect.",
+            "at": "2026-11-25T14:44:44.594Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -22360,8 +22381,8 @@
     {
       "key": "12604:10709",
       "name": "Payment Button",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -22917,7 +22938,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Basics/Button. Rename it, or add it to components.aliases.",
@@ -22941,7 +22962,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Button\". Not a defect.",
+            "at": "2026-11-25T14:44:44.594Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -23009,8 +23037,8 @@
     {
       "key": "12607:10742",
       "name": "Social Button",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -24747,7 +24775,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Basics/Button, Data Entry/Radio Button. Rename it, or add it to components.aliases.",
@@ -24771,7 +24799,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Button\". Not a defect.",
+            "at": "2026-11-25T14:44:44.594Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -24780,7 +24815,7 @@
       "key": "1702:72060",
       "name": "Stepper",
       "status": "Broken",
-      "score": 68,
+      "score": 71,
       "match": "exact",
       "figma": {
         "id": "1702:72060",
@@ -25099,7 +25134,7 @@
           "category": "Properties",
           "subject": "values:Style",
           "label": "Style values",
-          "status": "fail",
+          "status": "ignored",
           "title": "Style values missing in code",
           "owner": "Both",
           "detail": "Missing in code: Plain · Only in code: text",
@@ -25123,7 +25158,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same value, different naming: Figma \"Plain\" vs code \"text\". Not a defect.",
+            "at": "2026-11-25T14:45:14.463Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -25283,14 +25325,14 @@
           "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
-          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
           "meta": null,
           "instances": [
             {
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Input",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -25468,7 +25510,7 @@
           "category": "Visual",
           "subject": "width",
           "label": "Width",
-          "status": "warn",
+          "status": "ignored",
           "title": "Width differs from design",
           "owner": "Both",
           "detail": "Design 152px · Code 32px (label text may differ)",
@@ -25507,7 +25549,14 @@
           "variants": [
             "Style=Input",
             "Style=Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "Width follows label text / artboard width. Not a defect.",
+            "at": "2026-11-25T14:45:03.834Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Accessibility|axe",
@@ -26562,7 +26611,7 @@
       "key": "1885:4061",
       "name": "Tag",
       "status": "Drifted",
-      "score": 58,
+      "score": 70,
       "match": "exact",
       "figma": {
         "id": "1885:4061",
@@ -26883,7 +26932,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -26907,14 +26956,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:44:57.475Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Icon Right",
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -26938,7 +26994,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:44:57.475Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:State",
@@ -27729,43 +27792,43 @@
     }
   ],
   "summary": {
-    "score": 22,
-    "headline": "0 of 9 Figma components match Storybook. 1 has drifted, 2 are broken and 6 aren't built yet.",
+    "score": 35,
+    "headline": "0 of 6 Figma components match Storybook. 1 has drifted, 2 are broken and 3 aren't built yet.",
     "components": {
       "total": 9,
-      "figma": 9,
+      "figma": 6,
       "paired": 3,
       "aligned": 0,
       "drifted": 1,
       "broken": 2,
-      "missingInCode": 6,
+      "missingInCode": 3,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 3
     },
     "checks": {
       "pass": 46,
-      "warn": 26,
-      "fail": 21
+      "warn": 23,
+      "fail": 15
     },
     "byCategory": {
       "Naming": {
         "pass": 9,
         "warn": 3,
-        "fail": 6
+        "fail": 3
       },
       "Properties": {
         "pass": 1,
         "warn": 5,
-        "fail": 4
+        "fail": 1
       },
       "Tokens": {
         "pass": 6,
-        "warn": 12,
+        "warn": 11,
         "fail": 8
       },
       "Visual": {
         "pass": 0,
-        "warn": 4,
+        "warn": 2,
         "fail": 2
       },
       "Accessibility": {
@@ -27796,11 +27859,11 @@
       },
       "Dev": {
         "warn": 3,
-        "fail": 9
+        "fail": 4
       },
       "Both": {
-        "warn": 21,
-        "fail": 12
+        "warn": 18,
+        "fail": 11
       }
     },
     "themes": [
@@ -27812,10 +27875,7 @@
         "components": [
           "Button Group",
           "CTA with Content",
-          "Icon Button",
-          "Payment Button",
-          "Quantity Stepper",
-          "Social Button"
+          "Quantity Stepper"
         ],
         "items": [
           {
@@ -27831,28 +27891,10 @@
             "componentName": "CTA with Content"
           },
           {
-            "component": "12845:6732",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Icon Button"
-          },
-          {
-            "component": "12604:10709",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Payment Button"
-          },
-          {
             "component": "18198:9455",
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Quantity Stepper"
-          },
-          {
-            "component": "12607:10742",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Social Button"
           }
         ]
       },
@@ -27925,30 +27967,6 @@
             "key": "Visual|height",
             "title": "Height differs from design",
             "componentName": "Stepper"
-          }
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "Property values missing in code",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Stepper",
-          "Tag"
-        ],
-        "items": [
-          {
-            "component": "1702:72060",
-            "key": "Properties|values:Style",
-            "title": "Style values missing in code",
-            "componentName": "Stepper"
-          },
-          {
-            "component": "1885:4061",
-            "key": "Properties|values:Size",
-            "title": "Size values missing in code",
-            "componentName": "Tag"
           }
         ]
       },
@@ -28036,6 +28054,23 @@
             "componentName": "Stepper"
           }
         ]
+      },
+      {
+        "category": "Properties",
+        "title": "Property values missing in code",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Tag"
+        ],
+        "items": [
+          {
+            "component": "1885:4061",
+            "key": "Properties|values:Size",
+            "title": "Size values missing in code",
+            "componentName": "Tag"
+          }
+        ]
       }
     ],
     "works": [
@@ -28112,6 +28147,32 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Font family",
+        "category": "Tokens",
+        "title": "Label · Font family uses the design token under a different name",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same token value, different CSS variable name. Not a defect.",
+        "at": "2026-11-25T14:45:23.998Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Visual|width",
+        "category": "Visual",
+        "title": "Width differs from design",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Width follows label text / artboard width. Not a defect.",
+        "at": "2026-11-25T14:45:03.834Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
         "key": "Accessibility|axe:color-contrast",
         "category": "Accessibility",
         "title": "Elements must meet minimum color contrast ratio thresholds",
@@ -28136,6 +28197,45 @@
         "github": null
       },
       {
+        "component": "Icon Button",
+        "componentKey": "12845:6732",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"Button\". Not a defect.",
+        "at": "2026-11-25T14:44:44.594Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Payment Button",
+        "componentKey": "12604:10709",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"Button\". Not a defect.",
+        "at": "2026-11-25T14:44:44.594Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Social Button",
+        "componentKey": "12607:10742",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"Button\". Not a defect.",
+        "at": "2026-11-25T14:44:44.594Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Stepper",
         "componentKey": "1702:72060",
         "key": "Naming|prop:Style",
@@ -28145,6 +28245,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
         "at": "2026-11-25T07:09:29.649Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Properties|values:Style",
+        "category": "Properties",
+        "title": "Style values missing in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same value, different naming: Figma \"Plain\" vs code \"text\". Not a defect.",
+        "at": "2026-11-25T14:45:14.463Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -28164,6 +28277,19 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
+        "key": "Visual|width",
+        "category": "Visual",
+        "title": "Width differs from design",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Width follows label text / artboard width. Not a defect.",
+        "at": "2026-11-25T14:45:03.834Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
         "key": "Accessibility|design:non-text",
         "category": "Accessibility",
         "title": "Field edge is hard to see in Figma",
@@ -28172,6 +28298,32 @@
         "reason": "borders here are decorative and they don't need to be accessible",
         "at": "2026-11-24T12:40:52.263Z",
         "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:44:57.475Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:44:57.475Z",
+        "by": "frontenddev.ai",
         "github": null
       },
       {
@@ -28435,23 +28587,6 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
-        "key": "Tokens|token:Label · Font family",
-        "category": "Tokens",
-        "subject": "token:Label · Font family",
-        "status": "warn",
-        "title": "Label · Font family uses the design token under a different name",
-        "detail": "typography/body/family is --aum-body-font-family in code (convention: --aum-typography-body-family)",
-        "owner": "Both",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 21
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
         "key": "Tokens|token:Label · Line height",
         "category": "Tokens",
         "subject": "token:Label · Line height",
@@ -28499,23 +28634,6 @@
           "Mastercard"
         ],
         "variants": 13
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Visual|width",
-        "category": "Visual",
-        "subject": "width",
-        "status": "warn",
-        "title": "Width differs from design",
-        "detail": "Design 183px · Code 124px (label text may differ)",
-        "owner": "Both",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 24
       },
       {
         "component": "Button",
@@ -28578,32 +28696,6 @@
         "variants": 0
       },
       {
-        "component": "Icon Button",
-        "componentKey": "12845:6732",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Basics/Button. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Payment Button",
-        "componentKey": "12604:10709",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Basics/Button. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Quantity Stepper",
         "componentKey": "18198:9455",
         "key": "Naming|name",
@@ -28617,19 +28709,6 @@
         "variants": 0
       },
       {
-        "component": "Social Button",
-        "componentKey": "12607:10742",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Basics/Button, Data Entry/Radio Button. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Stepper",
         "componentKey": "1702:72060",
         "key": "Naming|group",
@@ -28638,19 +28717,6 @@
         "status": "warn",
         "title": "Grouped under a different category",
         "detail": "Figma \"ACTIONS\" · Storybook \"Data Entry\"",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
-        "key": "Properties|values:Style",
-        "category": "Properties",
-        "subject": "values:Style",
-        "status": "fail",
-        "title": "Style values missing in code",
-        "detail": "Missing in code: Plain · Only in code: text",
         "owner": "Both",
         "brands": [],
         "variants": 0
@@ -28676,7 +28742,7 @@
         "subject": "console",
         "status": "warn",
         "title": "Console errors while rendering",
-        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "owner": "Dev",
         "brands": [
           "Dragonpass",
@@ -28709,21 +28775,6 @@
         "status": "fail",
         "title": "Height differs from design",
         "detail": "Design 52px · Code 33px",
-        "owner": "Both",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 2
-      },
-      {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
-        "key": "Visual|width",
-        "category": "Visual",
-        "subject": "width",
-        "status": "warn",
-        "title": "Width differs from design",
-        "detail": "Design 152px · Code 32px (label text may differ)",
         "owner": "Both",
         "brands": [
           "Dragonpass"
@@ -28840,32 +28891,6 @@
         "title": "Grouped under a different category",
         "detail": "Figma \"ACTIONS\" · Storybook \"Data Display\"",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "subject": "prop:Show Icon Right",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -29421,12 +29446,159 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:08:37.888Z",
+    "since": "2026-11-25T11:19:11.100Z",
     "previousScore": 22,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Icon Button",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Payment Button",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Social Button",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Stepper",
+        "title": "Style values missing in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Tag",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Tag",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:45:23.998Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Tokens|token:Label · Font family",
+          "title": "Label · Font family uses the design token under a different name",
+          "componentName": "Button"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:45:14.463Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same value, different naming: Figma \"Plain\" vs code \"text\". Not a defect.",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Properties|values:Style",
+          "title": "Style values missing in code",
+          "componentName": "Stepper"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:45:03.834Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1702:72060",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Stepper"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:44:57.475Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Tag"
+        },
+        {
+          "component": "1885:4061",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Tag"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:44:44.594Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Button\". Not a defect.",
+      "items": [
+        {
+          "component": "12845:6732",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Icon Button"
+        },
+        {
+          "component": "12604:10709",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Button"
+        },
+        {
+          "component": "12607:10742",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Social Button"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:09:29.649Z",
       "action": "ignore",
