@@ -1651,6 +1651,22 @@
           "componentName": "Steps"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:46:22.841Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "14969:20257",
+          "key": "Properties|prop:container",
+          "title": "Figma property \"container\" has no equivalent in code",
+          "componentName": "List"
+        }
+      ]
     }
   ]
 }
