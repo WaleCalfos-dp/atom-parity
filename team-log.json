@@ -1933,6 +1933,22 @@
           "componentName": "Web Header"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:48:39.803Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "14933:17211",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Burger Menu Triggered"
+        }
+      ]
     }
   ]
 }

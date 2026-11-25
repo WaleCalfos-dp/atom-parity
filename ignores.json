@@ -1297,6 +1297,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:48:29.106Z"
+    },
+    {
+      "check": "navigation",
+      "component": "14933:17211",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Burger Menu Triggered",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:39.803Z"
     }
   ]
 }
