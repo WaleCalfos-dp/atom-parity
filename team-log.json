@@ -2609,6 +2609,46 @@
           "componentName": "Toast"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:03:05.065Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Opened",
+          "title": "Figma property \"Opened\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "14347:6046",
+          "key": "Properties|prop:Type",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "componentName": "Content Block"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "1658:46512",
+          "key": "Properties|prop:Count",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "componentName": "Steps"
+        }
+      ]
     }
   ]
 }
