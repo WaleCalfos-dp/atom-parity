@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:25:25.117Z",
+  "generatedAt": "2026-11-25T07:25:37.442Z",
   "entries": [
     {
       "id": "actions",
@@ -442,7 +442,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T07:25:18.236Z",
+      "ranAt": "2026-11-25T07:25:30.236Z",
       "ok": true,
       "history": [
         {
@@ -518,7 +518,7 @@
           "score": 23
         },
         {
-          "at": "2026-11-25T07:25:18.236Z",
+          "at": "2026-11-25T07:25:30.236Z",
           "score": 23
         }
       ],

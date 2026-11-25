@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:25:18.236Z",
-    "durationMs": 230256,
+    "generatedAt": "2026-11-25T07:25:30.236Z",
+    "durationMs": 166442,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-25T07:24:20.205Z",
+      "exportedAt": "2026-11-25T07:24:40.561Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -10990,7 +10990,7 @@
           "variants": [],
           "ignored": {
             "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-            "at": "2026-11-25T07:21:08.999Z",
+            "at": "2026-11-25T07:19:46.334Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -11967,7 +11967,7 @@
         "was": "fail",
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-        "at": "2026-11-25T07:21:08.999Z",
+        "at": "2026-11-25T07:19:46.334Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -13744,22 +13744,6 @@
     ]
   },
   "activity": [
-    {
-      "at": "2026-11-25T07:21:08.999Z",
-      "action": "ignore",
-      "check": "data-display",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-      "items": [
-        {
-          "component": "1658:46512",
-          "key": "Naming|prop:Type",
-          "title": "Figma \"Type\" is \"finishIconType\" in code",
-          "componentName": "Steps"
-        }
-      ]
-    },
     {
       "at": "2026-11-25T07:19:46.334Z",
       "action": "ignore",
