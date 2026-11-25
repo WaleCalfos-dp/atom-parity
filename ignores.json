@@ -98,6 +98,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T06:33:09.586Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Naming|prop:Show Icon Right",
+      "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+      "componentName": "Button",
+      "reason": "Same property, different naming: Figma \"Show Icon Right\" vs code \"rightIcon\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T06:33:20.380Z"
     }
   ]
 }
