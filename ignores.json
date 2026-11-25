@@ -1803,6 +1803,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:50:59.388Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "1580:2709",
+      "key": "Properties|values:Size",
+      "title": "Size values missing in code",
+      "componentName": "Text Link",
+      "reason": "Same value, different naming: Figma \"Regular\" vs code \"default\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:10.820Z"
     }
   ]
 }
