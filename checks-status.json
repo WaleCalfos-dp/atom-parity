@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:09:04.097Z",
+  "generatedAt": "2026-11-25T07:09:12.155Z",
   "entries": [
     {
       "id": "actions",
@@ -624,6 +624,10 @@
             "owner": "Design"
           }
         ]
+      },
+      "stale": {
+        "at": "2026-11-25T07:09:05.474Z",
+        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
