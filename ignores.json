@@ -1132,6 +1132,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:46:58.845Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Properties|prop:Selected Option",
+      "title": "Figma property \"Selected Option\" has no equivalent in code",
+      "componentName": "Select",
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:47:40.839Z"
     }
   ]
 }
