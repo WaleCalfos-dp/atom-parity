@@ -1,6 +1,46 @@
 {
-  "generatedAt": "2026-11-25T14:50:32.431Z",
+  "generatedAt": "2026-11-25T14:50:24.381Z",
   "log": [
+    {
+      "at": "2026-11-25T14:48:29.106Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+      "items": [
+        {
+          "component": "8210:74296",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Header"
+        }
+      ],
+      "checkName": "Navigation"
+    },
+    {
+      "at": "2026-11-25T14:48:23.649Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "14347:1286",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Footer"
+        }
+      ],
+      "checkName": "Navigation"
+    },
     {
       "at": "2026-11-25T14:48:16.626Z",
       "action": "ignore",
