@@ -1308,6 +1308,226 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:48:39.803Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15258:5697",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Booking Card",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "8784:6542",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Booking Details",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15854:36802",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Booking Step Container",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "17104:34171",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Booking Widget",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15759:2797",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Checkout",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15598:89150",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Global Search",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "16857:70583",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "LP / Description Section",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "16857:70520",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "LP / FAQ Section",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "16857:70496",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "LP / How It Works Section",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "16857:70611",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "LP / How to register your flight?",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "16857:70548",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "LP / What's Included Section",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "17492:9098",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Order Details Container",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "17022:7662",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Order Status Container",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "17165:13507",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Order Status Header",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "12877:4669",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Payment Accordion",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "8094:11608",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Payment Breakdown",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15733:36277",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Payment Method",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "3298:3183",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Payment Providers",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15802:23527",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Search and Filters",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
+    },
+    {
+      "check": "patterns",
+      "component": "8086:14805",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Web Search",
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:46.107Z"
     }
   ]
 }

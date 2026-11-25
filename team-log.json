@@ -1949,6 +1949,136 @@
           "componentName": "Burger Menu Triggered"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:48:46.107Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "items": [
+        {
+          "component": "15258:5697",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Card"
+        },
+        {
+          "component": "8784:6542",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Details"
+        },
+        {
+          "component": "15854:36802",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Step Container"
+        },
+        {
+          "component": "17104:34171",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Widget"
+        },
+        {
+          "component": "15759:2797",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Checkout"
+        },
+        {
+          "component": "15598:89150",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Global Search"
+        },
+        {
+          "component": "16857:70583",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / Description Section"
+        },
+        {
+          "component": "16857:70520",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / FAQ Section"
+        },
+        {
+          "component": "16857:70496",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / How It Works Section"
+        },
+        {
+          "component": "16857:70611",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / How to register your flight?"
+        },
+        {
+          "component": "16857:70548",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / What's Included Section"
+        },
+        {
+          "component": "17492:9098",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Details Container"
+        },
+        {
+          "component": "17022:7662",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Status Container"
+        },
+        {
+          "component": "17165:13507",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Status Header"
+        },
+        {
+          "component": "12877:4669",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Accordion"
+        },
+        {
+          "component": "8094:11608",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Breakdown"
+        },
+        {
+          "component": "15733:36277",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Method"
+        },
+        {
+          "component": "3298:3183",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Providers"
+        },
+        {
+          "component": "15802:23527",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Search and Filters"
+        },
+        {
+          "component": "8086:14805",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Search"
+        }
+      ]
     }
   ]
 }
