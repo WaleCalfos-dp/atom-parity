@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T14:47:34.024Z",
+  "generatedAt": "2026-11-25T14:47:39.267Z",
   "log": [
+    {
+      "at": "2026-11-25T14:45:23.998Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Tokens|token:Label · Font family",
+          "title": "Label · Font family uses the design token under a different name",
+          "componentName": "Button"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-25T14:45:14.463Z",
       "action": "ignore",

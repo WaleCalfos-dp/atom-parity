@@ -133,16 +133,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
-"[Atom parity] Button: Label · Font family uses the design token under a different name","typography/body/family is --aum-body-font-family in code (convention: --aum-typography-body-family)
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+13 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-tokens fix-in-both","Atom Design System"
 "[Atom parity] Button: Label · Line height uses a different token","Design token components/button/line-height (--aum-button-line-height-default) · Code uses --aum-button-line-height-lg
 
 Brands: Dragonpass, Mastercard, Investec

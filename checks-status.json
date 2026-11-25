@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T14:47:41.051Z",
+  "generatedAt": "2026-11-25T14:47:46.011Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:47:33.965Z",
+      "ranAt": "2026-11-25T14:47:39.222Z",
       "ok": true,
       "history": [
         {
@@ -126,7 +126,7 @@
           "score": 22
         },
         {
-          "at": "2026-11-25T14:47:33.965Z",
+          "at": "2026-11-25T14:47:39.222Z",
           "score": 35
         }
       ],
@@ -143,7 +143,7 @@
         {
           "name": "Button",
           "status": "Broken",
-          "score": 69
+          "score": 70
         },
         {
           "name": "Button Group",
@@ -211,7 +211,7 @@
         "Horizontal padding differs from design",
         "Vertical padding differs from design"
       ],
-      "ignored": 19,
+      "ignored": 20,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",

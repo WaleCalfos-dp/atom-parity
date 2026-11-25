@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:47:33.965Z",
-    "durationMs": 119039,
+    "generatedAt": "2026-11-25T14:47:39.222Z",
+    "durationMs": 118188,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:46:21.127Z",
+      "exportedAt": "2026-11-25T14:46:20.122Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 69,
+      "score": 70,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -2792,7 +2792,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3242,7 +3242,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -13509,7 +13509,7 @@
           "category": "Tokens",
           "subject": "token:Label · Font family",
           "label": "Label · Font family",
-          "status": "warn",
+          "status": "ignored",
           "title": "Label · Font family uses the design token under a different name",
           "owner": "Both",
           "detail": "typography/body/family is --aum-body-font-family in code (convention: --aum-typography-body-family)",
@@ -14179,7 +14179,14 @@
             "Type=Primary, Size=Small, State=Active",
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Inverse, Size=Large, State=Hover"
-          ]
+          ],
+          "ignored": {
+            "reason": "Same token value, different CSS variable name. Not a defect.",
+            "at": "2026-11-25T14:45:23.998Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Tokens|value:Label · Line height",
@@ -27800,7 +27807,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 24,
+      "warn": 23,
       "fail": 15
     },
     "byCategory": {
@@ -27816,7 +27823,7 @@
       },
       "Tokens": {
         "pass": 6,
-        "warn": 12,
+        "warn": 11,
         "fail": 8
       },
       "Visual": {
@@ -27855,7 +27862,7 @@
         "fail": 4
       },
       "Both": {
-        "warn": 19,
+        "warn": 18,
         "fail": 11
       }
     },
@@ -28135,6 +28142,19 @@
         "reason": "not true",
         "at": "2026-11-23T16:32:59.701Z",
         "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Tokens|token:Label · Font family",
+        "category": "Tokens",
+        "title": "Label · Font family uses the design token under a different name",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same token value, different CSS variable name. Not a defect.",
+        "at": "2026-11-25T14:45:23.998Z",
+        "by": "frontenddev.ai",
         "github": null
       },
       {
@@ -28556,23 +28576,6 @@
         "status": "warn",
         "title": "Label · Font weight uses a different token",
         "detail": "Design token typography/body/small/regular/weight (--aum-typography-body-small-regular-weight, not defined in code) · Code uses --aum-button-font-weight",
-        "owner": "Both",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 21
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
-        "key": "Tokens|token:Label · Font family",
-        "category": "Tokens",
-        "subject": "token:Label · Font family",
-        "status": "warn",
-        "title": "Label · Font family uses the design token under a different name",
-        "detail": "typography/body/family is --aum-body-font-family in code (convention: --aum-typography-body-family)",
         "owner": "Both",
         "brands": [
           "Dragonpass",
@@ -29492,6 +29495,22 @@
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:45:23.998Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Tokens|token:Label · Font family",
+          "title": "Label · Font family uses the design token under a different name",
+          "componentName": "Button"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:45:14.463Z",
       "action": "ignore",
