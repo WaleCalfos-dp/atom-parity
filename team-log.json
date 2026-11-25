@@ -2721,6 +2721,40 @@
           "componentName": "Quantity Stepper"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:13:10.514Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "3096:9618",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Home Indicator"
+        },
+        {
+          "component": "15660:22906",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Sheet Topper"
+        },
+        {
+          "component": "3096:10157",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Status Bar"
+        },
+        {
+          "component": "3553:44797",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "iPhone Keyboard"
+        }
+      ]
     }
   ]
 }

@@ -2210,6 +2210,50 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T15:10:35.521Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "3096:9618",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Home Indicator",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:13:10.514Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "15660:22906",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Sheet Topper",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:13:10.514Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "3096:10157",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Status Bar",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:13:10.514Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "3553:44797",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "iPhone Keyboard",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:13:10.514Z"
     }
   ]
 }
