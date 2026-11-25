@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:49:27.457Z",
+  "generatedAt": "2026-11-25T14:49:50.464Z",
   "entries": [
     {
       "id": "actions",
@@ -1334,6 +1334,10 @@
         "scans": 0,
         "designChecks": 0,
         "top": []
+      },
+      "stale": {
+        "at": "2026-11-25T14:49:43.953Z",
+        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
