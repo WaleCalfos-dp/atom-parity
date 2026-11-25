@@ -1227,6 +1227,28 @@
           "componentName": "Social Button"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:44:57.475Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Tag"
+        },
+        {
+          "component": "1885:4061",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Tag"
+        }
+      ]
     }
   ]
 }

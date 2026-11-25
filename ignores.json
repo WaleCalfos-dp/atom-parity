@@ -406,6 +406,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:44:44.594Z"
+    },
+    {
+      "check": "actions",
+      "component": "1885:4061",
+      "key": "Properties|prop:Show Icon Left",
+      "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+      "componentName": "Tag",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:44:57.475Z"
+    },
+    {
+      "check": "actions",
+      "component": "1885:4061",
+      "key": "Properties|prop:Show Icon Right",
+      "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+      "componentName": "Tag",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:44:57.475Z"
     }
   ]
 }
