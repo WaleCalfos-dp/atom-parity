@@ -274,6 +274,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:16:13.392Z"
+    },
+    {
+      "check": "data-display",
+      "component": "15027:1802",
+      "key": "Naming|prop:Show Caption",
+      "title": "Figma \"Show Caption\" is \"caption\" in code",
+      "componentName": "QR Code",
+      "reason": "Same property, different naming: Figma \"Show Caption\" vs code \"caption\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:16:19.200Z"
     }
   ]
 }

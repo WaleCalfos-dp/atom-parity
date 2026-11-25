@@ -991,6 +991,22 @@
           "componentName": "Data Row"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:16:19.200Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Caption\" vs code \"caption\". Not a defect.",
+      "items": [
+        {
+          "component": "15027:1802",
+          "key": "Naming|prop:Show Caption",
+          "title": "Figma \"Show Caption\" is \"caption\" in code",
+          "componentName": "QR Code"
+        }
+      ]
     }
   ]
 }
