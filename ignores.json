@@ -1792,6 +1792,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:50:53.332Z"
+    },
+    {
+      "check": "product-modules",
+      "component": "17265:62617",
+      "key": "Visual|width",
+      "title": "Width differs from design",
+      "componentName": "Flight Delay / Flight Card",
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:50:59.388Z"
     }
   ]
 }

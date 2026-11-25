@@ -2333,6 +2333,22 @@
           "componentName": "Text Link"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:50:59.388Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ]
     }
   ]
 }
