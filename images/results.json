@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:50:57.956Z",
-    "durationMs": 115576,
+    "generatedAt": "2026-11-25T14:50:48.064Z",
+    "durationMs": 84692,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:49:49.920Z",
+      "exportedAt": "2026-11-25T14:49:51.316Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "8469:708",
       "name": "Lightbox Image Viewer",
       "status": "Drifted",
-      "score": 60,
+      "score": 75,
       "match": "alias",
       "figma": {
         "id": "8469:708",
@@ -1736,7 +1736,7 @@
           "category": "Properties",
           "subject": "prop:Breakpoint",
           "label": "Property \"Breakpoint\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Breakpoint\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Desktop, Tablet, Mobile",
@@ -1760,7 +1760,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:48:06.145Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -1891,7 +1898,7 @@
     }
   ],
   "summary": {
-    "score": 30,
+    "score": 38,
     "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
     "components": {
       "total": 2,
@@ -1907,7 +1914,7 @@
     "checks": {
       "pass": 2,
       "warn": 2,
-      "fail": 2
+      "fail": 1
     },
     "byCategory": {
       "Naming": {
@@ -1918,7 +1925,7 @@
       "Properties": {
         "pass": 0,
         "warn": 2,
-        "fail": 1
+        "fail": 0
       },
       "Tokens": {
         "pass": 0,
@@ -1958,7 +1965,7 @@
       },
       "Dev": {
         "warn": 0,
-        "fail": 2
+        "fail": 1
       },
       "Both": {
         "warn": 1,
@@ -1966,23 +1973,6 @@
       }
     },
     "themes": [
-      {
-        "category": "Properties",
-        "title": "Figma property missing in code",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Lightbox Image Viewer"
-        ],
-        "items": [
-          {
-            "component": "8469:708",
-            "key": "Properties|prop:Breakpoint",
-            "title": "Figma property \"Breakpoint\" has no equivalent in code",
-            "componentName": "Lightbox Image Viewer"
-          }
-        ]
-      },
       {
         "category": "Naming",
         "title": "Not built in Storybook",
@@ -2037,7 +2027,7 @@
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
-      "No failures in: Documentation"
+      "No failures in: Properties, Documentation"
     ],
     "ignored": [
       {
@@ -2104,23 +2094,23 @@
         "at": "2026-11-25T14:47:56.531Z",
         "by": "frontenddev.ai",
         "github": null
-      }
-    ],
-    "brokenComponents": [],
-    "issues": [
+      },
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Properties|prop:Breakpoint",
         "category": "Properties",
-        "subject": "prop:Breakpoint",
-        "status": "fail",
         "title": "Figma property \"Breakpoint\" has no equivalent in code",
-        "detail": "Values: Desktop, Tablet, Mobile",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:48:06.145Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
@@ -2547,10 +2537,33 @@
         "title": "Figma property \"Show Close Button\" has no equivalent in code",
         "category": "Properties",
         "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Lightbox Image Viewer",
+        "title": "Figma property \"Breakpoint\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:48:06.145Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Properties|prop:Breakpoint",
+          "title": "Figma property \"Breakpoint\" has no equivalent in code",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:47:56.531Z",
       "action": "ignore",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:51:27.620Z",
+  "generatedAt": "2026-11-25T14:51:47.276Z",
   "entries": [
     {
       "id": "actions",
@@ -1205,7 +1205,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:50:57.956Z",
+      "ranAt": "2026-11-25T14:50:48.064Z",
       "ok": true,
       "history": [
         {
@@ -1285,8 +1285,8 @@
           "score": 17
         },
         {
-          "at": "2026-11-25T14:50:57.956Z",
-          "score": 30
+          "at": "2026-11-25T14:50:48.064Z",
+          "score": 38
         }
       ],
       "preview": null,
@@ -1294,7 +1294,7 @@
         {
           "name": "Lightbox Image Viewer",
           "status": "Drifted",
-          "score": 60
+          "score": 75
         },
         {
           "name": "Product Images",
@@ -1302,7 +1302,7 @@
           "score": 0
         }
       ],
-      "score": 30,
+      "score": 38,
       "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
       "counts": {
         "total": 2,
@@ -1317,17 +1317,17 @@
       },
       "previousScore": 17,
       "newFails": 0,
-      "fixed": 4,
+      "fixed": 5,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Figma property missing in code",
         "Not built in Storybook",
-        "Code has props with no Figma property"
+        "Code has props with no Figma property",
+        "3 of 3 variants can't be shown in code"
       ],
-      "ignored": 5,
+      "ignored": 6,
       "place": {
         "group": "IMAGES",
         "section": null,
