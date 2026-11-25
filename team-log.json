@@ -815,6 +815,22 @@
           "componentName": "Lightbox Image Viewer"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:07:02.664Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Flight Delay / Flight Card\" vs Storybook \"FlightCard\". Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Naming|name",
+          "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ]
     }
   ]
 }
