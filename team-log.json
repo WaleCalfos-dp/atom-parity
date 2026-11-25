@@ -2257,6 +2257,28 @@
           "componentName": "Transport / Promotion Panel"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:50:09.938Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
     }
   ]
 }
