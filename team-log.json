@@ -1167,6 +1167,22 @@
           "componentName": "Steps"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:21:28.115Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"App Header\" vs Storybook \"NavHeader\". Not a defect.",
+      "items": [
+        {
+          "component": "3156:2880",
+          "key": "Naming|name",
+          "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+          "componentName": "App Header"
+        }
+      ]
     }
   ]
 }
