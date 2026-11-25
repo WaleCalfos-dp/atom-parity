@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:07:17.463Z",
-    "durationMs": 202644,
+    "generatedAt": "2026-11-25T15:20:57.934Z",
+    "durationMs": 147170,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:06:22.513Z",
+      "exportedAt": "2026-11-25T15:19:58.004Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "218:1707",
       "name": "Accordion",
       "status": "Drifted",
-      "score": 73,
+      "score": 75,
       "match": "alias",
       "figma": {
         "id": "218:1707",
@@ -2190,7 +2190,7 @@
           "category": "Properties",
           "subject": "prop:State",
           "label": "Property \"State\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "State values with no code equivalent: Disabled",
           "owner": "Dev",
           "detail": "Disabled → missing · Default → :rest · Hover → :hover · Focus → :focus",
@@ -2214,7 +2214,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Disabled is supported by the code's `disabled` prop. Not a defect.",
+            "at": "2026-11-25T15:18:13.421Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Style",
@@ -11590,7 +11597,7 @@
     },
     "checks": {
       "pass": 36,
-      "warn": 25,
+      "warn": 24,
       "fail": 9
     },
     "byCategory": {
@@ -11601,7 +11608,7 @@
       },
       "Properties": {
         "pass": 3,
-        "warn": 21,
+        "warn": 20,
         "fail": 5
       },
       "Tokens": {
@@ -11641,7 +11648,7 @@
         "fail": 0
       },
       "Dev": {
-        "warn": 5,
+        "warn": 4,
         "fail": 6
       },
       "Both": {
@@ -11893,12 +11900,6 @@
             "componentName": "Accordion"
           },
           {
-            "component": "218:1707",
-            "key": "Properties|prop:State",
-            "title": "State values with no code equivalent: Disabled",
-            "componentName": "Accordion"
-          },
-          {
             "component": "15027:1802",
             "key": "Properties|prop:State",
             "title": "State values with no code equivalent: Generating",
@@ -12097,6 +12098,19 @@
         "owner": "Dev",
         "reason": "Figma-only property, not applied in any design. Not a defect.",
         "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:State",
+        "category": "Properties",
+        "title": "State values with no code equivalent: Disabled",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Disabled is supported by the code's `disabled` prop. Not a defect.",
+        "at": "2026-11-25T15:18:13.421Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -12762,19 +12776,6 @@
         "status": "warn",
         "title": "Figma property \"Supportive Text\" has no equivalent in code",
         "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:State",
-        "category": "Properties",
-        "subject": "prop:State",
-        "status": "warn",
-        "title": "State values with no code equivalent: Disabled",
-        "detail": "Disabled → missing · Default → :rest · Hover → :hover · Focus → :focus",
         "owner": "Dev",
         "brands": [],
         "variants": 0
@@ -13532,321 +13533,28 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T11:26:03.848Z",
-    "previousScore": 23,
+    "since": "2026-11-25T15:07:17.463Z",
+    "previousScore": 43,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Subtitle\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Badge\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Slot\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma property \"Opened\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Content Block",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Group",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Badge\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Content Right\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Country Flags\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Data 1\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Data 2\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Data 3\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Button\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "List",
-        "title": "Figma property \"container\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Module Node",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Content Top\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Logo\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Offer\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Description\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Body\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Description Slot\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Icon Top\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Title Top\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Button\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Slot Top\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Code Status\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Code\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Show Counter\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "QR Code",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Slot",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Steps",
-        "title": "Figma property \"Count\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Steps",
-        "title": "Figma property \"Background Fill\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:18:13.421Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Disabled is supported by the code's `disabled` prop. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:State",
+          "title": "State values with no code equivalent: Disabled",
+          "componentName": "Accordion"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T15:03:05.065Z",
       "action": "ignore",

@@ -1,22 +1,10 @@
-## Atom parity: 43% match (+20 since last run)
+## Atom parity: 43% match (+0 since last run)
 
 0 of 10 Figma components match Storybook. 6 have drifted and 4 aren't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 6 | 0 | 4 | 0 |
-
-### 44 fixed
-- Accordion: Figma property "Show Icon Left" has no equivalent in code
-- Accordion: Figma property "Show Subtitle" has no equivalent in code
-- Accordion: Figma property "Show Badge" has no equivalent in code
-- Accordion: Figma property "Show Slot" has no equivalent in code
-- Accordion: Figma property "Show Country Flag" has no equivalent in code
-- Accordion: Figma property "Show Expanded Description" has no equivalent in code
-- Accordion: Figma property "Show Supportive Text" has no equivalent in code
-- Accordion: Figma property "Show Supportive Content" has no equivalent in code
-- Accordion: Figma property "Style" has no equivalent in code
-- Accordion: Figma property "Opened" has no equivalent in code
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 4 components (Dev)

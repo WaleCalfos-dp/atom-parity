@@ -20,13 +20,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Accordion: State values with no code equivalent: Disabled","Disabled → missing · Default → :rest · Hover → :hover · Focus → :focus
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-collapse--usage
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Accordion: Default Filled differs","Design True · Code false
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=218-1707

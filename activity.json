@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T15:17:57.369Z",
+  "generatedAt": "2026-11-25T15:20:57.970Z",
   "log": [
+    {
+      "at": "2026-11-25T15:18:13.421Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Disabled is supported by the code's `disabled` prop. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:State",
+          "title": "State values with no code equivalent: Disabled",
+          "componentName": "Accordion"
+        }
+      ],
+      "checkName": "Data display"
+    },
     {
       "at": "2026-11-25T15:15:40.999Z",
       "action": "ignore",
