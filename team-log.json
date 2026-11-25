@@ -2705,6 +2705,22 @@
           "componentName": "LP / Hero"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:10:35.521Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Stepper\". Not a defect.",
+      "items": [
+        {
+          "component": "18198:9455",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Quantity Stepper"
+        }
+      ]
     }
   ]
 }

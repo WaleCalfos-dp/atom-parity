@@ -2199,6 +2199,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T15:08:14.192Z"
+    },
+    {
+      "check": "actions",
+      "component": "18198:9455",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Quantity Stepper",
+      "reason": "Same component under a different name: code \"Stepper\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:10:35.521Z"
     }
   ]
 }
