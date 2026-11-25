@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:27:51.403Z",
+  "generatedAt": "2026-11-25T15:30:15.828Z",
   "entries": [
     {
       "id": "actions",
@@ -1208,7 +1208,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:27:44.739Z",
+      "ranAt": "2026-11-25T15:30:15.249Z",
       "ok": true,
       "history": [
         {
@@ -1294,6 +1294,10 @@
         {
           "at": "2026-11-25T15:27:44.739Z",
           "score": 42
+        },
+        {
+          "at": "2026-11-25T15:30:15.249Z",
+          "score": 42
         }
       ],
       "preview": null,
@@ -1322,7 +1326,7 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 38,
+      "previousScore": 42,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {

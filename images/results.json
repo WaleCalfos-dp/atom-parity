@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:27:44.739Z",
-    "durationMs": 88288,
+    "generatedAt": "2026-11-25T15:30:15.249Z",
+    "durationMs": 89681,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:26:29.716Z",
+      "exportedAt": "2026-11-25T15:28:57.515Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1801,7 +1801,7 @@
           "variants": [],
           "ignored": {
             "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
-            "at": "2026-11-25T15:25:49.757Z",
+            "at": "2026-11-25T15:28:27.067Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -2107,7 +2107,7 @@
         "was": "warn",
         "owner": "Design",
         "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
-        "at": "2026-11-25T15:25:49.757Z",
+        "at": "2026-11-25T15:28:27.067Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -2496,12 +2496,28 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T14:50:48.064Z",
-    "previousScore": 38,
+    "since": "2026-11-25T15:27:44.739Z",
+    "previousScore": 42,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:28:27.067Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T15:25:49.757Z",
       "action": "ignore",
