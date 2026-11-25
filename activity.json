@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T14:50:08.995Z",
+  "generatedAt": "2026-11-25T14:50:24.157Z",
   "log": [
+    {
+      "at": "2026-11-25T14:48:51.030Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Steps\". Not a defect.",
+      "items": [
+        {
+          "component": "16047:1891",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Steps"
+        }
+      ],
+      "checkName": "Patterns"
+    },
     {
       "at": "2026-11-25T14:48:46.107Z",
       "action": "ignore",
