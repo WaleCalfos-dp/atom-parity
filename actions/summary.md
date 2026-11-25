@@ -1,4 +1,4 @@
-## Atom parity: 35% match (+13 since last run)
+## Atom parity: 33% match (+11 since last run)
 
 0 of 6 Figma components match Storybook. 1 has drifted, 2 are broken and 3 aren't built yet.
 
@@ -6,12 +6,10 @@
 |---|---|---|---|---|
 | 0 | 1 | 2 | 3 | 0 |
 
-### 5 fixed
+### 3 fixed
 - Icon Button: Not found in Storybook
 - Payment Button: Not found in Storybook
 - Social Button: Not found in Storybook
-- Tag: Figma property "Show Icon Left" has no equivalent in code
-- Tag: Figma property "Show Icon Right" has no equivalent in code
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 3 components (Dev)

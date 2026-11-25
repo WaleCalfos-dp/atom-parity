@@ -339,6 +339,20 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
+"[Atom parity] Tag: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
+Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
+
+Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Tag: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
+Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
+
+Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Tag: State values with no code equivalent: Selected, Disabled","Default → :rest · Hover → :hover · Focus → :focus · Pressed → :active · Selected → missing · Disabled → missing
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061

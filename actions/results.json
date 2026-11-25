@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:47:41.543Z",
-    "durationMs": 146906,
+    "generatedAt": "2026-11-25T14:47:36.530Z",
+    "durationMs": 157089,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:46:20.540Z",
+      "exportedAt": "2026-11-25T14:46:18.273Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -26583,7 +26583,7 @@
       "key": "1885:4061",
       "name": "Tag",
       "status": "Drifted",
-      "score": 70,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "1885:4061",
@@ -26904,7 +26904,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -26928,21 +26928,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
-            "at": "2026-11-25T14:44:57.475Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Properties|prop:Show Icon Right",
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -26966,14 +26959,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
-            "at": "2026-11-25T14:44:57.475Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Properties|prop:State",
@@ -27764,7 +27750,7 @@
     }
   ],
   "summary": {
-    "score": 35,
+    "score": 33,
     "headline": "0 of 6 Figma components match Storybook. 1 has drifted, 2 are broken and 3 aren't built yet.",
     "components": {
       "total": 9,
@@ -27780,7 +27766,7 @@
     "checks": {
       "pass": 46,
       "warn": 26,
-      "fail": 16
+      "fail": 18
     },
     "byCategory": {
       "Naming": {
@@ -27791,7 +27777,7 @@
       "Properties": {
         "pass": 1,
         "warn": 5,
-        "fail": 2
+        "fail": 4
       },
       "Tokens": {
         "pass": 6,
@@ -27831,7 +27817,7 @@
       },
       "Dev": {
         "warn": 3,
-        "fail": 4
+        "fail": 6
       },
       "Both": {
         "warn": 21,
@@ -28225,32 +28211,6 @@
         "reason": "borders here are decorative and they don't need to be accessible",
         "at": "2026-11-24T12:40:52.263Z",
         "by": "Yana Kolpakova",
-        "github": null
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
-        "at": "2026-11-25T14:44:57.475Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
-        "at": "2026-11-25T14:44:57.475Z",
-        "by": "frontenddev.ai",
         "github": null
       },
       {
@@ -28886,6 +28846,32 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "subject": "prop:Show Icon Left",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "subject": "prop:Show Icon Right",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
         "key": "Properties|prop:State",
         "category": "Properties",
         "subject": "prop:State",
@@ -29459,46 +29445,10 @@
         "title": "Not found in Storybook",
         "category": "Naming",
         "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tag",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tag",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
       }
     ]
   },
   "activity": [
-    {
-      "at": "2026-11-25T14:44:57.475Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
-      "items": [
-        {
-          "component": "1885:4061",
-          "key": "Properties|prop:Show Icon Left",
-          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-          "componentName": "Tag"
-        },
-        {
-          "component": "1885:4061",
-          "key": "Properties|prop:Show Icon Right",
-          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-          "componentName": "Tag"
-        }
-      ]
-    },
     {
       "at": "2026-11-25T14:44:44.594Z",
       "action": "ignore",
