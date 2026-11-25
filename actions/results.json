@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:49:20.468Z",
-    "durationMs": 171660,
+    "generatedAt": "2026-11-25T15:12:54.014Z",
+    "durationMs": 118988,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:47:42.705Z",
+      "exportedAt": "2026-11-25T15:11:33.868Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2972,7 +2972,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -22977,8 +22977,8 @@
     {
       "key": "18198:9455",
       "name": "Quantity Stepper",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -23005,7 +23005,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Entry/Stepper. Rename it, or add it to components.aliases.",
@@ -23029,7 +23029,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Stepper\". Not a defect.",
+            "at": "2026-11-25T15:10:35.521Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -25325,14 +25332,14 @@
           "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
-          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
           "meta": null,
           "instances": [
             {
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Input",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -27792,29 +27799,29 @@
     }
   ],
   "summary": {
-    "score": 35,
-    "headline": "0 of 6 Figma components match Storybook. 1 has drifted, 2 are broken and 3 aren't built yet.",
+    "score": 42,
+    "headline": "0 of 5 Figma components match Storybook. 1 has drifted, 2 are broken and 2 aren't built yet.",
     "components": {
       "total": 9,
-      "figma": 6,
+      "figma": 5,
       "paired": 3,
       "aligned": 0,
       "drifted": 1,
       "broken": 2,
-      "missingInCode": 3,
+      "missingInCode": 2,
       "missingInDesign": 0,
-      "ignored": 3
+      "ignored": 4
     },
     "checks": {
       "pass": 46,
       "warn": 23,
-      "fail": 15
+      "fail": 14
     },
     "byCategory": {
       "Naming": {
         "pass": 9,
         "warn": 3,
-        "fail": 3
+        "fail": 2
       },
       "Properties": {
         "pass": 1,
@@ -27859,7 +27866,7 @@
       },
       "Dev": {
         "warn": 3,
-        "fail": 4
+        "fail": 3
       },
       "Both": {
         "warn": 18,
@@ -27867,37 +27874,6 @@
       }
     },
     "themes": [
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Button Group",
-          "CTA with Content",
-          "Quantity Stepper"
-        ],
-        "items": [
-          {
-            "component": "3098:42588",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Button Group"
-          },
-          {
-            "component": "14194:14015",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "CTA with Content"
-          },
-          {
-            "component": "18198:9455",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Quantity Stepper"
-          }
-        ]
-      },
       {
         "category": "Tokens",
         "title": "Horizontal padding differs from design",
@@ -27967,6 +27943,30 @@
             "key": "Visual|height",
             "title": "Height differs from design",
             "componentName": "Stepper"
+          }
+        ]
+      },
+      {
+        "category": "Naming",
+        "title": "Not built in Storybook",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Button Group",
+          "CTA with Content"
+        ],
+        "items": [
+          {
+            "component": "3098:42588",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Button Group"
+          },
+          {
+            "component": "14194:14015",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "CTA with Content"
           }
         ]
       },
@@ -28219,6 +28219,19 @@
         "owner": "Dev",
         "reason": "Same component under a different name: code \"Button\". Not a defect.",
         "at": "2026-11-25T14:44:44.594Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Quantity Stepper",
+        "componentKey": "18198:9455",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"Stepper\". Not a defect.",
+        "at": "2026-11-25T15:10:35.521Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -28696,19 +28709,6 @@
         "variants": 0
       },
       {
-        "component": "Quantity Stepper",
-        "componentKey": "18198:9455",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/Stepper. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Stepper",
         "componentKey": "1702:72060",
         "key": "Naming|group",
@@ -28742,7 +28742,7 @@
         "subject": "console",
         "status": "warn",
         "title": "Console errors while rendering",
-        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
         "owner": "Dev",
         "brands": [
           "Dragonpass",
@@ -29446,55 +29446,36 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T11:19:11.100Z",
-    "previousScore": 22,
+    "since": "2026-11-25T14:49:20.468Z",
+    "previousScore": 35,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
-        "component": "Icon Button",
+        "component": "Quantity Stepper",
         "title": "Not found in Storybook",
         "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Payment Button",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Social Button",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Stepper",
-        "title": "Style values missing in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tag",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tag",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:10:35.521Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Stepper\". Not a defect.",
+      "items": [
+        {
+          "component": "18198:9455",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Quantity Stepper"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:45:23.998Z",
       "action": "ignore",
