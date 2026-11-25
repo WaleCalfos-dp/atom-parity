@@ -159,12 +159,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Progress Bar / Steps: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12768-3167
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-12768%3A3167
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] Toast: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
@@ -207,20 +201,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Tooltip: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Tooltip: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Tooltip: Tip Direction values missing in code","Missing in code: Down, Up · Only in code: top, bottom
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
