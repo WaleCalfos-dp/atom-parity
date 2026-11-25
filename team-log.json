@@ -2689,6 +2689,22 @@
           "componentName": "Tabs"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:08:14.192Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Hero\". Not a defect.",
+      "items": [
+        {
+          "component": "16857:70176",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / Hero"
+        }
+      ]
     }
   ]
 }
