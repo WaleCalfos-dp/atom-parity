@@ -1,6 +1,52 @@
 {
-  "generatedAt": "2026-11-25T14:51:48.505Z",
+  "generatedAt": "2026-11-25T14:51:52.557Z",
   "log": [
+    {
+      "at": "2026-11-25T14:50:25.423Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Tokens|token:Horizontal padding",
+          "title": "Horizontal padding uses the design token under a different name",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Tokens|token:Vertical padding",
+          "title": "Vertical padding uses the design token under a different name",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T14:50:09.938Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
     {
       "at": "2026-11-25T14:49:51.372Z",
       "action": "ignore",
