@@ -252,6 +252,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:09:10.572Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "8560:2779",
+      "key": "Naming|prop:Tip Direction",
+      "title": "Figma \"Tip Direction\" is \"placement\" in code",
+      "componentName": "Tooltip",
+      "reason": "Same property, different naming: Figma \"Tip Direction\" vs code \"placement\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:09:20.995Z"
     }
   ]
 }
