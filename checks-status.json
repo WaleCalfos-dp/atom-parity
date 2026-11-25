@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:07:17.988Z",
+  "generatedAt": "2026-11-25T15:07:43.597Z",
   "entries": [
     {
       "id": "actions",
@@ -1005,7 +1005,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:52:22.801Z",
+      "ranAt": "2026-11-25T15:07:36.878Z",
       "ok": true,
       "history": [
         {
@@ -1099,6 +1099,10 @@
         {
           "at": "2026-11-25T14:52:22.801Z",
           "score": 56
+        },
+        {
+          "at": "2026-11-25T15:07:36.878Z",
+          "score": 67
         }
       ],
       "preview": null,
@@ -1111,12 +1115,12 @@
         {
           "name": "Bottom Navigation",
           "status": "Drifted",
-          "score": 67
+          "score": 80
         },
         {
           "name": "Breadcrumbs",
           "status": "Drifted",
-          "score": 64
+          "score": 90
         },
         {
           "name": "Burger Menu Triggered",
@@ -1126,12 +1130,12 @@
         {
           "name": "Footer",
           "status": "Drifted",
-          "score": 50
+          "score": 53
         },
         {
           "name": "Tabs",
           "status": "Drifted",
-          "score": 71
+          "score": 83
         },
         {
           "name": "Web Header",
@@ -1139,7 +1143,7 @@
           "score": null
         }
       ],
-      "score": 56,
+      "score": 67,
       "headline": "0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.",
       "counts": {
         "total": 7,
@@ -1152,7 +1156,7 @@
         "missingInDesign": 0,
         "ignored": 2
       },
-      "previousScore": 38,
+      "previousScore": 56,
       "newFails": 0,
       "fixed": 5,
       "tokenSource": {
@@ -1164,7 +1168,7 @@
         "Text contrast is too low in Figma",
         "Field edge is hard to see in Figma"
       ],
-      "ignored": 10,
+      "ignored": 15,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "NAVIGATION",

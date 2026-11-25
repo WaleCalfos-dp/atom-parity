@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:52:22.801Z",
-    "durationMs": 172375,
+    "generatedAt": "2026-11-25T15:07:36.878Z",
+    "durationMs": 108208,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:51:17.596Z",
+      "exportedAt": "2026-11-25T15:06:26.070Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3104,7 +3104,7 @@
       "key": "781:17271",
       "name": "Bottom Navigation",
       "status": "Drifted",
-      "score": 67,
+      "score": 80,
       "match": "alias",
       "figma": {
         "id": "781:17271",
@@ -3307,7 +3307,7 @@
           "category": "Properties",
           "subject": "prop:Count",
           "label": "Property \"Count\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Count\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: 3, 4, 5",
@@ -3331,7 +3331,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:05:31.417Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -3404,7 +3411,7 @@
       "key": "14347:1286",
       "name": "Breadcrumbs",
       "status": "Drifted",
-      "score": 64,
+      "score": 90,
       "match": "exact",
       "figma": {
         "id": "14347:1286",
@@ -3601,7 +3608,7 @@
           "category": "Properties",
           "subject": "prop:Divider Type",
           "label": "Property \"Divider Type\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Divider Type\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Chevron, Forward Slash",
@@ -3625,14 +3632,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:05:31.417Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Count",
           "category": "Properties",
           "subject": "prop:Count",
           "label": "Property \"Count\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Count\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: 2, 3, 4, 5, 6",
@@ -3656,7 +3670,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:05:31.417Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -4074,7 +4095,7 @@
       "key": "15169:84760",
       "name": "Footer",
       "status": "Drifted",
-      "score": 50,
+      "score": 53,
       "match": "exact",
       "figma": {
         "id": "15169:84760",
@@ -4701,7 +4722,7 @@
           "category": "Properties",
           "subject": "prop:Breakpoint",
           "label": "Property \"Breakpoint\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Breakpoint\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Desktop, Tablet, Mobile",
@@ -4725,7 +4746,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:05:31.417Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Style",
@@ -5206,7 +5234,7 @@
       "key": "1491:5016",
       "name": "Tabs",
       "status": "Drifted",
-      "score": 71,
+      "score": 83,
       "match": "exact",
       "figma": {
         "id": "1491:5016",
@@ -5461,7 +5489,7 @@
           "category": "Properties",
           "subject": "prop:Style",
           "label": "Property \"Style\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Style\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Underlined, Plain, Circular, Circular Inverted",
@@ -5485,7 +5513,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:05:31.417Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -5623,7 +5658,7 @@
     }
   ],
   "summary": {
-    "score": 56,
+    "score": 67,
     "headline": "0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.",
     "components": {
       "total": 7,
@@ -5639,7 +5674,7 @@
     "checks": {
       "pass": 21,
       "warn": 18,
-      "fail": 25
+      "fail": 20
     },
     "byCategory": {
       "Naming": {
@@ -5650,7 +5685,7 @@
       "Properties": {
         "pass": 2,
         "warn": 16,
-        "fail": 23
+        "fail": 18
       },
       "Tokens": {
         "pass": 0,
@@ -5690,7 +5725,7 @@
       },
       "Dev": {
         "warn": 8,
-        "fail": 23
+        "fail": 18
       },
       "Both": {
         "warn": 6,
@@ -5705,10 +5740,7 @@
         "owner": "Dev",
         "components": [
           "App Header",
-          "Bottom Navigation",
-          "Breadcrumbs",
-          "Footer",
-          "Tabs"
+          "Footer"
         ],
         "items": [
           {
@@ -5790,24 +5822,6 @@
             "componentName": "App Header"
           },
           {
-            "component": "781:17271",
-            "key": "Properties|prop:Count",
-            "title": "Figma property \"Count\" has no equivalent in code",
-            "componentName": "Bottom Navigation"
-          },
-          {
-            "component": "14347:1286",
-            "key": "Properties|prop:Divider Type",
-            "title": "Figma property \"Divider Type\" has no equivalent in code",
-            "componentName": "Breadcrumbs"
-          },
-          {
-            "component": "14347:1286",
-            "key": "Properties|prop:Count",
-            "title": "Figma property \"Count\" has no equivalent in code",
-            "componentName": "Breadcrumbs"
-          },
-          {
             "component": "15169:84760",
             "key": "Properties|prop:Show Divider",
             "title": "Figma property \"Show Divider\" has no equivalent in code",
@@ -5833,21 +5847,9 @@
           },
           {
             "component": "15169:84760",
-            "key": "Properties|prop:Breakpoint",
-            "title": "Figma property \"Breakpoint\" has no equivalent in code",
-            "componentName": "Footer"
-          },
-          {
-            "component": "15169:84760",
             "key": "Properties|prop:Style",
             "title": "Figma property \"Style\" has no equivalent in code",
             "componentName": "Footer"
-          },
-          {
-            "component": "1491:5016",
-            "key": "Properties|prop:Style",
-            "title": "Figma property \"Style\" has no equivalent in code",
-            "componentName": "Tabs"
           }
         ]
       },
@@ -6094,6 +6096,45 @@
         "github": null
       },
       {
+        "component": "Bottom Navigation",
+        "componentKey": "781:17271",
+        "key": "Properties|prop:Count",
+        "category": "Properties",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:05:31.417Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Breadcrumbs",
+        "componentKey": "14347:1286",
+        "key": "Properties|prop:Divider Type",
+        "category": "Properties",
+        "title": "Figma property \"Divider Type\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:05:31.417Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Breadcrumbs",
+        "componentKey": "14347:1286",
+        "key": "Properties|prop:Count",
+        "category": "Properties",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:05:31.417Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Breadcrumbs",
         "componentKey": "14347:1286",
         "key": "Properties|code-only",
@@ -6161,6 +6202,19 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
+        "key": "Properties|prop:Breakpoint",
+        "category": "Properties",
+        "title": "Figma property \"Breakpoint\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:05:31.417Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Footer",
+        "componentKey": "15169:84760",
         "key": "Properties|code-only",
         "category": "Properties",
         "title": "Code has props with no Figma property",
@@ -6181,6 +6235,19 @@
         "owner": "Dev",
         "reason": "Figma slot; code renders it via children/slot. Not a defect.",
         "at": "2026-11-25T14:48:16.626Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tabs",
+        "componentKey": "1491:5016",
+        "key": "Properties|prop:Style",
+        "category": "Properties",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:05:31.417Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -6515,19 +6582,6 @@
       {
         "component": "Bottom Navigation",
         "componentKey": "781:17271",
-        "key": "Properties|prop:Count",
-        "category": "Properties",
-        "subject": "prop:Count",
-        "status": "fail",
-        "title": "Figma property \"Count\" has no equivalent in code",
-        "detail": "Values: 3, 4, 5",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Bottom Navigation",
-        "componentKey": "781:17271",
         "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
@@ -6548,32 +6602,6 @@
         "title": "3 of 3 variants can't be shown in code",
         "detail": "Count=5, Count=4, Count=3",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Breadcrumbs",
-        "componentKey": "14347:1286",
-        "key": "Properties|prop:Divider Type",
-        "category": "Properties",
-        "subject": "prop:Divider Type",
-        "status": "fail",
-        "title": "Figma property \"Divider Type\" has no equivalent in code",
-        "detail": "Values: Chevron, Forward Slash",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Breadcrumbs",
-        "componentKey": "14347:1286",
-        "key": "Properties|prop:Count",
-        "category": "Properties",
-        "subject": "prop:Count",
-        "status": "fail",
-        "title": "Figma property \"Count\" has no equivalent in code",
-        "detail": "Values: 2, 3, 4, 5, 6",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -6697,19 +6725,6 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
-        "key": "Properties|prop:Breakpoint",
-        "category": "Properties",
-        "subject": "prop:Breakpoint",
-        "status": "fail",
-        "title": "Figma property \"Breakpoint\" has no equivalent in code",
-        "detail": "Values: Desktop, Tablet, Mobile",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Footer",
-        "componentKey": "15169:84760",
         "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
@@ -6730,19 +6745,6 @@
         "title": "18 of 18 variants can't be shown in code",
         "detail": "Breakpoint=Desktop, Style=Compact, Style=Slots, Breakpoint=Tablet, Breakpoint=Mobile, Style=Basic",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tabs",
-        "componentKey": "1491:5016",
-        "key": "Properties|prop:Style",
-        "category": "Properties",
-        "subject": "prop:Style",
-        "status": "fail",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "detail": "Values: Underlined, Plain, Circular, Circular Inverted",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -7339,48 +7341,88 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T14:43:00.823Z",
-    "previousScore": 38,
+    "since": "2026-11-25T14:52:22.801Z",
+    "previousScore": 56,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
-        "component": "Burger Menu Triggered",
-        "title": "Not found in Storybook",
-        "category": "Naming",
+        "component": "Bottom Navigation",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
-        "component": "Footer",
-        "title": "Figma property \"social-icons\" has no equivalent in code",
+        "component": "Breadcrumbs",
+        "title": "Figma property \"Divider Type\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Breadcrumbs",
+        "title": "Figma property \"Count\" has no equivalent in code",
         "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
         "component": "Footer",
-        "title": "Figma property \"footer-links\" has no equivalent in code",
+        "title": "Figma property \"Breakpoint\" has no equivalent in code",
         "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
         "component": "Tabs",
-        "title": "Figma property \"container\" has no equivalent in code",
+        "title": "Figma property \"Style\" has no equivalent in code",
         "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Web Header",
-        "title": "Not found in Storybook",
-        "category": "Naming",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:05:31.417Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "781:17271",
+          "key": "Properties|prop:Count",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "componentName": "Bottom Navigation"
+        },
+        {
+          "component": "14347:1286",
+          "key": "Properties|prop:Count",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "14347:1286",
+          "key": "Properties|prop:Divider Type",
+          "title": "Figma property \"Divider Type\" has no equivalent in code",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:Breakpoint",
+          "title": "Figma property \"Breakpoint\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "1491:5016",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Tabs"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:48:39.803Z",
       "action": "ignore",

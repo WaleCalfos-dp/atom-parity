@@ -1,4 +1,4 @@
-## Atom parity: 56% match (+18 since last run)
+## Atom parity: 67% match (+11 since last run)
 
 0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.
 
@@ -7,14 +7,14 @@
 | 0 | 4 | 1 | 0 | 0 |
 
 ### 5 fixed
-- Burger Menu Triggered: Not found in Storybook
-- Footer: Figma property "social-icons" has no equivalent in code
-- Footer: Figma property "footer-links" has no equivalent in code
-- Tabs: Figma property "container" has no equivalent in code
-- Web Header: Not found in Storybook
+- Bottom Navigation: Figma property "Count" has no equivalent in code
+- Breadcrumbs: Figma property "Divider Type" has no equivalent in code
+- Breadcrumbs: Figma property "Count" has no equivalent in code
+- Footer: Figma property "Breakpoint" has no equivalent in code
+- Tabs: Figma property "Style" has no equivalent in code
 
 ### Biggest themes
-- 🔴 Figma property missing in code: 5 components (Dev)
+- 🔴 Figma property missing in code: 2 components (Dev)
 - 🔴 Text contrast is too low in Figma: 1 component (Design)
 - 🔴 Field edge is hard to see in Figma: 1 component (Design)
 - 🟠 Code has props with no Figma property: 3 components (Design)
