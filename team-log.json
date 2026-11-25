@@ -2787,6 +2787,22 @@
           "componentName": "Accordion"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:20:40.577Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Content type and render mode are separate code props (`mode`, `type`). Not a defect.",
+      "items": [
+        {
+          "component": "15027:1802",
+          "key": "Properties|values:Type",
+          "title": "Type values missing in code",
+          "componentName": "QR Code"
+        }
+      ]
     }
   ]
 }
