@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T06:35:53.787Z",
+  "generatedAt": "2026-11-25T07:08:37.943Z",
   "log": [
+    {
+      "at": "2026-11-25T07:06:28.591Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Naming|prop:Style",
+          "title": "Figma \"Style\" is \"variant\" in code",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-25T06:33:20.380Z",
       "action": "ignore",

@@ -246,13 +246,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Figma ""Style"" is ""variant"" in code","Rename one side so names match 1:1 (paired by matching values)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Stepper: Style values missing in code","Missing in code: Plain · Only in code: text
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
