@@ -1209,6 +1209,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:48:06.145Z"
+    },
+    {
+      "check": "layout",
+      "component": "3058:1805",
+      "key": "Properties|prop:Style",
+      "title": "Figma property \"Style\" has no equivalent in code",
+      "componentName": "Divider",
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:11.332Z"
+    },
+    {
+      "check": "layout",
+      "component": "3058:1805",
+      "key": "Properties|prop:Subtle",
+      "title": "Figma property \"Subtle\" has no equivalent in code",
+      "componentName": "Divider",
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:11.332Z"
     }
   ]
 }
