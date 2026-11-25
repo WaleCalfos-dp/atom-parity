@@ -1550,6 +1550,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:49:07.237Z"
+    },
+    {
+      "check": "patterns",
+      "component": "16640:23428",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Filters",
+      "reason": "Same component under a different name: code \"FilterPanel\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:49:11.853Z"
     }
   ]
 }

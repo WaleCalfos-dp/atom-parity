@@ -2111,6 +2111,22 @@
           "componentName": "Bottom Sheet"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:49:11.853Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"FilterPanel\". Not a defect.",
+      "items": [
+        {
+          "component": "16640:23428",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Filters"
+        }
+      ]
     }
   ]
 }
