@@ -1,57 +1,6 @@
 {
-  "generatedAt": "2026-11-25T07:20:25.146Z",
+  "generatedAt": "2026-11-25T07:20:29.576Z",
   "log": [
-    {
-      "at": "2026-11-25T07:17:58.664Z",
-      "action": "ignore",
-      "check": "navigation",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component, different naming: Figma \"App Header\" vs Storybook \"NavHeader\". Not a defect.",
-      "items": [
-        {
-          "component": "3156:2880",
-          "key": "Naming|name",
-          "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
-          "componentName": "App Header"
-        }
-      ],
-      "checkName": "Navigation"
-    },
-    {
-      "at": "2026-11-25T07:17:51.536Z",
-      "action": "ignore",
-      "check": "data-display",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-      "items": [
-        {
-          "component": "1658:46512",
-          "key": "Naming|prop:Type",
-          "title": "Figma \"Type\" is \"finishIconType\" in code",
-          "componentName": "Steps"
-        }
-      ],
-      "checkName": "Data display"
-    },
-    {
-      "at": "2026-11-25T07:17:04.782Z",
-      "action": "ignore",
-      "check": "system-and-typography",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component, different naming: Figma \"Body\" vs Storybook \"Text\". Not a defect.",
-      "items": [
-        {
-          "component": "1580:2636",
-          "key": "Naming|name",
-          "title": "Figma \"Body\" is \"Text\" in Storybook",
-          "componentName": "Body"
-        }
-      ],
-      "checkName": "System and typography"
-    },
     {
       "at": "2026-11-25T07:16:46.517Z",
       "action": "ignore",
