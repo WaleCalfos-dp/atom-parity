@@ -175,6 +175,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:07:02.664Z"
+    },
+    {
+      "check": "product-modules",
+      "component": "13192:28371",
+      "key": "Naming|name",
+      "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+      "componentName": "Transport / Promotion Panel",
+      "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:07:10.607Z"
     }
   ]
 }

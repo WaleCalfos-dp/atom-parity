@@ -831,6 +831,22 @@
           "componentName": "Flight Delay / Flight Card"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:07:10.607Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Naming|name",
+          "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
     }
   ]
 }
