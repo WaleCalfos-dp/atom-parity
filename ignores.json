@@ -1561,6 +1561,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:49:11.853Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15695:14328",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Payment Card",
+      "reason": "Same component under a different name: code \"PayCard\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:49:27.218Z"
     }
   ]
 }
