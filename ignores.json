@@ -1077,6 +1077,61 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:46:43.859Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Properties|prop:Show Icon Left",
+      "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+      "componentName": "Select",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:58.845Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Properties|prop:Show Icon Right",
+      "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+      "componentName": "Select",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:58.845Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Properties|prop:Show Label",
+      "title": "Figma property \"Show Label\" has no equivalent in code",
+      "componentName": "Select",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:58.845Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Properties|prop:Show Label Icon",
+      "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+      "componentName": "Select",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:58.845Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "299:228",
+      "key": "Properties|prop:Show Label",
+      "title": "Figma property \"Show Label\" has no equivalent in code",
+      "componentName": "Switch",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:58.845Z"
     }
   ]
 }
