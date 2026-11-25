@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:11:04.176Z",
+  "generatedAt": "2026-11-25T07:12:01.446Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-24T12:32:23.584Z",
+      "ranAt": "2026-11-25T07:11:55.060Z",
       "ok": true,
       "history": [
         {
@@ -316,6 +316,10 @@
         },
         {
           "at": "2026-11-24T12:32:23.584Z",
+          "score": 22
+        },
+        {
+          "at": "2026-11-25T07:11:55.060Z",
           "score": 22
         }
       ],
@@ -402,7 +406,7 @@
         "Figma property missing in code",
         "Property named differently in Figma and code"
       ],
-      "ignored": 0,
+      "ignored": 2,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
@@ -427,10 +431,6 @@
             "owner": "Design"
           }
         ]
-      },
-      "stale": {
-        "at": "2026-11-25T07:10:45.175Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
