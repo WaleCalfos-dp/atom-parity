@@ -1585,6 +1585,28 @@
           "componentName": "Accordion"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:45:57.886Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "items": [
+        {
+          "component": "1888:5974",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Badge"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "QR Code"
+        }
+      ]
     }
   ]
 }

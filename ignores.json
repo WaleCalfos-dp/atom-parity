@@ -934,6 +934,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:45:49.637Z"
+    },
+    {
+      "check": "data-display",
+      "component": "1888:5974",
+      "key": "Accessibility|design:contrast",
+      "title": "Text contrast is too low in Figma",
+      "componentName": "Badge",
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:57.886Z"
+    },
+    {
+      "check": "data-display",
+      "component": "15027:1802",
+      "key": "Accessibility|design:contrast",
+      "title": "Text contrast is too low in Figma",
+      "componentName": "QR Code",
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:57.886Z"
     }
   ]
 }
