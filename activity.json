@@ -1,57 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:56:30.839Z",
+  "generatedAt": "2026-11-25T14:56:45.304Z",
   "log": [
-    {
-      "at": "2026-11-25T14:52:25.136Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
-      "items": [
-        {
-          "component": "8560:2779",
-          "key": "Accessibility|design:contrast",
-          "title": "Text contrast is too low in Figma",
-          "componentName": "Tooltip"
-        }
-      ],
-      "checkName": "System feedback"
-    },
-    {
-      "at": "2026-11-25T14:52:14.363Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
-      "items": [
-        {
-          "component": "3581:33620",
-          "key": "Properties|code-only",
-          "title": "Code has props with no Figma property",
-          "componentName": "Dialog"
-        }
-      ],
-      "checkName": "System feedback"
-    },
-    {
-      "at": "2026-11-25T14:52:04.754Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
-      "items": [
-        {
-          "component": "12768:3167",
-          "key": "Naming|name",
-          "title": "Not found in Storybook",
-          "componentName": "Progress Bar / Steps"
-        }
-      ],
-      "checkName": "System feedback"
-    },
     {
       "at": "2026-11-25T14:51:57.158Z",
       "action": "ignore",

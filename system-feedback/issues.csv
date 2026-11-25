@@ -146,6 +146,13 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+"[Atom parity] Dialog: Code has props with no Figma property","content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
+
+Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Dialog: 10 of 10 variants can't be shown in code","Type=Critical, Status=Error, Breakpoint=Mobile, Type=Customizable, Status=Info, Status=Warning, Status=Success, Breakpoint=Desktop
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
@@ -185,6 +192,12 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Progress Bar / Steps: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12768-3167
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-12768%3A3167
+
+Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] Toast: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
@@ -274,3 +287,13 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+"[Atom parity] Tooltip: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
+
+Brands: Mastercard, Investec, Assurant
+Variants: Tip Direction=Down, Tip Centred=No; Tip Direction=Right, Tip Centred=No; Tip Direction=Left, Tip Centred=No; Tip Direction=Up, Tip Centred=No; Tip Direction=Down, Tip Centred=Yes; Tip Direction=Right, Tip Centred=Yes; Tip Direction=Left, Tip Centred=Yes; Tip Direction=Up, Tip Centred=Yes
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
+Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
+
+Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
