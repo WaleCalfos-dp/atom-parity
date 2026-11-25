@@ -1,6 +1,322 @@
 {
-  "generatedAt": "2026-11-25T14:50:48.085Z",
+  "generatedAt": "2026-11-25T14:51:48.505Z",
   "log": [
+    {
+      "at": "2026-11-25T14:49:51.372Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Show Promotion Condition",
+          "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Show Tag Icon",
+          "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T14:49:45.344Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Airline Name",
+          "title": "Figma property \"Airline Name\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Airport",
+          "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Date",
+          "title": "Figma property \"Arrival Date\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Time",
+          "title": "Figma property \"Arrival Time\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Airport",
+          "title": "Figma property \"Departure Airport\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Date",
+          "title": "Figma property \"Departure Date\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Time",
+          "title": "Figma property \"Departure Time\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Condition",
+          "title": "Figma property \"Condition\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Expiry",
+          "title": "Figma property \"Expiry\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Promotion Name",
+          "title": "Figma property \"Promotion Name\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Voucher Code Text",
+          "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T14:49:34.826Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ScrollView\". Not a defect.",
+      "items": [
+        {
+          "component": "15598:87162",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Scroll Bar"
+        }
+      ],
+      "checkName": "Patterns"
+    },
+    {
+      "at": "2026-11-25T14:49:27.218Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"PayCard\". Not a defect.",
+      "items": [
+        {
+          "component": "15695:14328",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Card"
+        }
+      ],
+      "checkName": "Patterns"
+    },
+    {
+      "at": "2026-11-25T14:49:11.853Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"FilterPanel\". Not a defect.",
+      "items": [
+        {
+          "component": "16640:23428",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Filters"
+        }
+      ],
+      "checkName": "Patterns"
+    },
+    {
+      "at": "2026-11-25T14:49:07.237Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Sheet\". Not a defect.",
+      "items": [
+        {
+          "component": "15327:32950",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Bottom Sheet"
+        }
+      ],
+      "checkName": "Patterns"
+    },
+    {
+      "at": "2026-11-25T14:48:51.030Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Steps\". Not a defect.",
+      "items": [
+        {
+          "component": "16047:1891",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Steps"
+        }
+      ],
+      "checkName": "Patterns"
+    },
+    {
+      "at": "2026-11-25T14:48:46.107Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Page-level pattern, out of scope for the component library.",
+      "items": [
+        {
+          "component": "15258:5697",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Card"
+        },
+        {
+          "component": "8784:6542",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Details"
+        },
+        {
+          "component": "15854:36802",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Step Container"
+        },
+        {
+          "component": "17104:34171",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Booking Widget"
+        },
+        {
+          "component": "15759:2797",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Checkout"
+        },
+        {
+          "component": "15598:89150",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Global Search"
+        },
+        {
+          "component": "16857:70583",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / Description Section"
+        },
+        {
+          "component": "16857:70520",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / FAQ Section"
+        },
+        {
+          "component": "16857:70496",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / How It Works Section"
+        },
+        {
+          "component": "16857:70611",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / How to register your flight?"
+        },
+        {
+          "component": "16857:70548",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "LP / What's Included Section"
+        },
+        {
+          "component": "17492:9098",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Details Container"
+        },
+        {
+          "component": "17022:7662",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Status Container"
+        },
+        {
+          "component": "17165:13507",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Order Status Header"
+        },
+        {
+          "component": "12877:4669",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Accordion"
+        },
+        {
+          "component": "8094:11608",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Breakdown"
+        },
+        {
+          "component": "15733:36277",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Method"
+        },
+        {
+          "component": "3298:3183",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Providers"
+        },
+        {
+          "component": "15802:23527",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Search and Filters"
+        },
+        {
+          "component": "8086:14805",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Search"
+        }
+      ],
+      "checkName": "Patterns"
+    },
     {
       "at": "2026-11-25T14:48:39.803Z",
       "action": "ignore",
