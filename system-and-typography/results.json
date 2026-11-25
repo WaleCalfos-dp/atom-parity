@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:47:28.125Z",
-    "durationMs": 100199,
+    "generatedAt": "2026-11-25T07:18:25.324Z",
+    "durationMs": 93079,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-24T12:40:08Z"
+        "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-24T12:46:25.589Z",
+      "exportedAt": "2026-11-25T07:17:33.369Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -4021,7 +4021,7 @@
       "key": "1580:2709",
       "name": "Text Link",
       "status": "Drifted",
-      "score": 60,
+      "score": 67,
       "match": "alias",
       "figma": {
         "id": "1580:2709",
@@ -4163,7 +4163,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Text Link\" is \"Link\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -4187,7 +4187,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component, different naming: Figma \"Text Link\" vs Storybook \"Link\". Not a defect.",
+            "at": "2026-11-25T07:16:37.025Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Documentation|docs-code",
@@ -5322,7 +5329,7 @@
     }
   ],
   "summary": {
-    "score": 16,
+    "score": 17,
     "headline": "0 of 7 Figma components match Storybook. 2 have drifted and 5 aren't built yet.",
     "components": {
       "total": 7,
@@ -5338,13 +5345,13 @@
     "checks": {
       "pass": 12,
       "warn": 6,
-      "fail": 12
+      "fail": 11
     },
     "byCategory": {
       "Naming": {
         "pass": 4,
         "warn": 0,
-        "fail": 7
+        "fail": 6
       },
       "Properties": {
         "pass": 0,
@@ -5393,7 +5400,7 @@
       },
       "Both": {
         "warn": 2,
-        "fail": 4
+        "fail": 3
       }
     },
     "themes": [
@@ -5439,30 +5446,6 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Title"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Component named differently in Figma and Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Body",
-          "Text Link"
-        ],
-        "items": [
-          {
-            "component": "1580:2636",
-            "key": "Naming|name",
-            "title": "Figma \"Body\" is \"Text\" in Storybook",
-            "componentName": "Body"
-          },
-          {
-            "component": "1580:2709",
-            "key": "Naming|name",
-            "title": "Figma \"Text Link\" is \"Link\" in Storybook",
-            "componentName": "Text Link"
           }
         ]
       },
@@ -5517,6 +5500,23 @@
             "key": "Properties|prop:weight",
             "title": "Figma property \"weight\" has no equivalent in code",
             "componentName": "Text Link"
+          }
+        ]
+      },
+      {
+        "category": "Naming",
+        "title": "Component named differently in Figma and Storybook",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Body"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Naming|name",
+            "title": "Figma \"Body\" is \"Text\" in Storybook",
+            "componentName": "Body"
           }
         ]
       },
@@ -5607,7 +5607,21 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Accessibility, Documentation"
     ],
-    "ignored": [],
+    "ignored": [
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same component, different naming: Figma \"Text Link\" vs Storybook \"Link\". Not a defect.",
+        "at": "2026-11-25T07:16:37.025Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
     "brokenComponents": [],
     "issues": [
       {
@@ -5755,19 +5769,6 @@
         "title": "Not found in Storybook",
         "detail": "Possible matches: Data Entry/SearchBar, Navigation/TabBar. Rename it, or add it to components.aliases.",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Text Link",
-        "componentKey": "1580:2709",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Figma \"Text Link\" is \"Link\" in Storybook",
-        "detail": "Rename one side so any developer can map code to the design system immediately.",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -6556,10 +6557,35 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T11:35:45.706Z",
+    "since": "2026-11-24T12:47:28.125Z",
     "previousScore": 16,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Text Link",
+        "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-25T07:16:37.025Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Text Link\" vs Storybook \"Link\". Not a defect.",
+      "items": [
+        {
+          "component": "1580:2709",
+          "key": "Naming|name",
+          "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+          "componentName": "Text Link"
+        }
+      ]
+    }
+  ]
 }

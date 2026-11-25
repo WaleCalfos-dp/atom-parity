@@ -1,4 +1,4 @@
-## Atom parity: 16% match (+0 since last run)
+## Atom parity: 17% match (+1 since last run)
 
 0 of 7 Figma components match Storybook. 2 have drifted and 5 aren't built yet.
 
@@ -6,11 +6,14 @@
 |---|---|---|---|---|
 | 0 | 2 | 0 | 5 | 0 |
 
+### 1 fixed
+- Text Link: Figma "Text Link" is "Link" in Storybook
+
 ### Biggest themes
 - 🔴 Not built in Storybook: 5 components (Dev)
-- 🔴 Component named differently in Figma and Storybook: 2 components (Both)
 - 🔴 Property values missing in code: 2 components (Both)
 - 🔴 Figma property missing in code: 2 components (Dev)
+- 🔴 Component named differently in Figma and Storybook: 1 component (Both)
 - 🟠 Code has props with no Figma property: 2 components (Design)
 - 🟠 Text contrast is too low in Figma: 2 components (Design)
 
