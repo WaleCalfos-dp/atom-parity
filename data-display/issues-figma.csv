@@ -20,15 +20,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-218%3A1707
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Badge: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
-
-Brands: Mastercard, Investec, Assurant
-Variants: Status=Brand, Style=Rounded, Size=Regular; Status=Brand, Style=Rounded, Size=Large; Status=Brand, Style=Standard, Size=Regular; Status=Brand, Style=Standard, Size=Large
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1888-5974
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-1888%3A5974
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
 "[Atom parity] Content Block: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14347-6046
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-contentblock--usage
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-14347%3A6046
@@ -135,16 +126,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] QR Code: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
-
-Brands: Mastercard, Investec, Assurant
-Variants: Type=QR Code, State=Default, Style=Brand; Type=QR Code, State=Generating, Style=Brand; Type=QR Code, State=Failed, Style=Brand; Type=Bar Code, State=Default, Style=Brand; Type=Bar Code, State=Generating, Style=Brand; Type=Bar Code, State=Failed, Style=Brand; Type=Message, State=Default, Style=Brand
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
 "[Atom parity] Steps: Default Direction differs","Design Horizontal · Code vertical
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1658-46512

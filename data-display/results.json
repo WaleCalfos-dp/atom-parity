@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:26:03.848Z",
-    "durationMs": 259013,
+    "generatedAt": "2026-11-25T15:07:17.463Z",
+    "durationMs": 202644,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:24:54.313Z",
+      "exportedAt": "2026-11-25T15:06:22.513Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "218:1707",
       "name": "Accordion",
       "status": "Drifted",
-      "score": 42,
+      "score": 73,
       "match": "alias",
       "figma": {
         "id": "218:1707",
@@ -1755,7 +1755,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1779,14 +1779,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Subtitle",
           "category": "Properties",
           "subject": "prop:Show Subtitle",
           "label": "Property \"Show Subtitle\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Subtitle\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1810,14 +1817,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Badge",
           "category": "Properties",
           "subject": "prop:Show Badge",
           "label": "Property \"Show Badge\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Badge\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1841,14 +1855,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Slot",
           "category": "Properties",
           "subject": "prop:Show Slot",
           "label": "Property \"Show Slot\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Slot\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1872,14 +1893,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Title",
           "category": "Properties",
           "subject": "prop:Title",
           "label": "Property \"Title\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Title\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -1903,7 +1931,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Subtitle",
@@ -1972,7 +2007,7 @@
           "category": "Properties",
           "subject": "prop:Show Country Flag",
           "label": "Property \"Show Country Flag\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Country Flag\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1996,14 +2031,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Expanded Description",
           "category": "Properties",
           "subject": "prop:Show Expanded Description",
           "label": "Property \"Show Expanded Description\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -2027,7 +2069,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Supportive Text",
@@ -2065,7 +2114,7 @@
           "category": "Properties",
           "subject": "prop:Show Supportive Text",
           "label": "Property \"Show Supportive Text\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -2089,14 +2138,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Supportive Content",
           "category": "Properties",
           "subject": "prop:Show Supportive Content",
           "label": "Property \"Show Supportive Content\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -2120,7 +2176,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:State",
@@ -2158,7 +2221,7 @@
           "category": "Properties",
           "subject": "prop:Style",
           "label": "Property \"Style\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Style\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Bottom Border, Full Border",
@@ -2182,14 +2245,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:03:05.065Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Opened",
           "category": "Properties",
           "subject": "prop:Opened",
           "label": "Property \"Opened\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Opened\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: True, False",
@@ -2213,7 +2283,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:03:05.065Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Filled",
@@ -4105,7 +4182,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
           "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -5140,7 +5217,14 @@
             "Status=Brand, Style=Rounded, Size=Large",
             "Status=Brand, Style=Standard, Size=Regular",
             "Status=Brand, Style=Standard, Size=Large"
-          ]
+          ],
+          "ignored": {
+            "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+            "at": "2026-11-25T14:45:57.886Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|name",
@@ -5180,7 +5264,7 @@
       "key": "14347:6046",
       "name": "Content Block",
       "status": "Drifted",
-      "score": 79,
+      "score": 86,
       "match": "exact",
       "figma": {
         "id": "14347:6046",
@@ -5612,7 +5696,7 @@
           "category": "Properties",
           "subject": "prop:Type",
           "label": "Property \"Type\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Type\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Plain, Small Icon, Small icon (Left and Right), Large Icon Top, Large Icon Centred, Country Flag, Large Country Flag, Continent, Large Continent, Checkbox Left, Checkbox Right, Check Indicator Left, Check Indicator Right, Radio Left, Radio Right, Switch Left, Switch Right, Payment Icon, Payment Icon Selectable, Button",
@@ -5636,7 +5720,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:03:05.065Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -5708,8 +5799,8 @@
     {
       "key": "4205:24535",
       "name": "Data Group",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -5826,7 +5917,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Tag, Data Display/Data Row. Rename it, or add it to components.aliases.",
@@ -5850,7 +5941,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T14:46:05.992Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -5859,7 +5957,7 @@
       "key": "2991:63143",
       "name": "Data Row",
       "status": "Drifted",
-      "score": 35,
+      "score": 65,
       "match": "exact",
       "figma": {
         "id": "2991:63143",
@@ -6236,7 +6334,7 @@
           "category": "Properties",
           "subject": "prop:Show Chevron Right",
           "label": "Property \"Show Chevron Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6260,14 +6358,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Label",
           "category": "Properties",
           "subject": "prop:Label",
           "label": "Property \"Label\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Label\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -6291,14 +6396,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Badge",
           "category": "Properties",
           "subject": "prop:Show Badge",
           "label": "Property \"Show Badge\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Badge\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6322,14 +6434,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Data 1",
           "category": "Properties",
           "subject": "prop:Data 1",
           "label": "Property \"Data 1\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Data 1\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -6353,14 +6472,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Icon Left",
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6384,14 +6510,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Content Right",
           "category": "Properties",
           "subject": "prop:Show Content Right",
           "label": "Property \"Show Content Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Content Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6415,14 +6548,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Country Flags",
           "category": "Properties",
           "subject": "prop:Show Country Flags",
           "label": "Property \"Show Country Flags\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Country Flags\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6446,14 +6586,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Data 1",
           "category": "Properties",
           "subject": "prop:Show Data 1",
           "label": "Property \"Show Data 1\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Data 1\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6477,14 +6624,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Data 2",
           "category": "Properties",
           "subject": "prop:Show Data 2",
           "label": "Property \"Show Data 2\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Data 2\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6508,14 +6662,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Data 3",
           "category": "Properties",
           "subject": "prop:Show Data 3",
           "label": "Property \"Show Data 3\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Data 3\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6539,14 +6700,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:45:49.637Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Data 2",
           "category": "Properties",
           "subject": "prop:Data 2",
           "label": "Property \"Data 2\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Data 2\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -6570,14 +6738,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Data 3",
           "category": "Properties",
           "subject": "prop:Data 3",
           "label": "Property \"Data 3\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Data 3\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -6601,14 +6776,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Button",
           "category": "Properties",
           "subject": "prop:Show Button",
           "label": "Property \"Show Button\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Button\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6632,14 +6814,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Icon Right",
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -6663,7 +6852,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Type",
@@ -7629,7 +7825,7 @@
       "key": "14969:20257",
       "name": "List",
       "status": "Drifted",
-      "score": 50,
+      "score": 57,
       "match": "exact",
       "figma": {
         "id": "14969:20257",
@@ -7847,7 +8043,7 @@
           "category": "Properties",
           "subject": "prop:container",
           "label": "Property \"container\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"container\" has no equivalent in code",
           "owner": "Dev",
           "detail": "slot property",
@@ -7871,7 +8067,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+            "at": "2026-11-25T14:46:22.841Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Style",
@@ -7974,8 +8177,8 @@
     {
       "key": "7653:2736",
       "name": "Module Node",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -8105,7 +8308,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -8129,7 +8332,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T14:46:05.992Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -8138,7 +8348,7 @@
       "key": "15027:1802",
       "name": "QR Code",
       "status": "Drifted",
-      "score": 30,
+      "score": 68,
       "match": "exact",
       "figma": {
         "id": "15027:1802",
@@ -8694,7 +8904,7 @@
           "category": "Properties",
           "subject": "prop:Show Content Top",
           "label": "Property \"Show Content Top\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Content Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8718,14 +8928,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Logo",
           "category": "Properties",
           "subject": "prop:Show Logo",
           "label": "Property \"Show Logo\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Logo\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8749,14 +8966,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Subtitle Top",
           "category": "Properties",
           "subject": "prop:Show Subtitle Top",
           "label": "Property \"Show Subtitle Top\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8780,14 +9004,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Offer",
           "category": "Properties",
           "subject": "prop:Show Offer",
           "label": "Property \"Show Offer\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Offer\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8811,14 +9042,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Description",
           "category": "Properties",
           "subject": "prop:Show Description",
           "label": "Property \"Show Description\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8842,14 +9080,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Name and Card Number",
           "category": "Properties",
           "subject": "prop:Show Name and Card Number",
           "label": "Property \"Show Name and Card Number\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8873,14 +9118,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Details with Logo",
           "category": "Properties",
           "subject": "prop:Show Details with Logo",
           "label": "Property \"Show Details with Logo\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8904,14 +9156,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Body",
           "category": "Properties",
           "subject": "prop:Show Body",
           "label": "Property \"Show Body\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Body\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8935,14 +9194,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Subtitle Top",
           "category": "Properties",
           "subject": "prop:Subtitle Top",
           "label": "Property \"Subtitle Top\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Subtitle Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -8966,14 +9232,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Description Slot",
           "category": "Properties",
           "subject": "prop:Show Description Slot",
           "label": "Property \"Show Description Slot\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Description Slot\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8997,14 +9270,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Icon Top",
           "category": "Properties",
           "subject": "prop:Show Icon Top",
           "label": "Property \"Show Icon Top\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9028,14 +9308,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Title Top",
           "category": "Properties",
           "subject": "prop:Show Title Top",
           "label": "Property \"Show Title Top\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Title Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9059,14 +9346,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Title Top",
           "category": "Properties",
           "subject": "prop:Title Top",
           "label": "Property \"Title Top\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Title Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -9090,7 +9384,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Caption",
@@ -9166,7 +9467,7 @@
           "category": "Properties",
           "subject": "prop:Show Button",
           "label": "Property \"Show Button\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Button\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9190,14 +9491,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Slot Top",
           "category": "Properties",
           "subject": "prop:Show Slot Top",
           "label": "Property \"Show Slot Top\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Slot Top\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9221,14 +9529,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Code Status",
           "category": "Properties",
           "subject": "prop:Show Code Status",
           "label": "Property \"Show Code Status\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Code Status\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9252,14 +9567,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Code Status",
           "category": "Properties",
           "subject": "prop:Code Status",
           "label": "Property \"Code Status\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Code Status\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -9283,14 +9605,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:45:43.532Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Code",
           "category": "Properties",
           "subject": "prop:Show Code",
           "label": "Property \"Show Code\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Code\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9314,14 +9643,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Counter",
           "category": "Properties",
           "subject": "prop:Show Counter",
           "label": "Property \"Show Counter\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Counter\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -9345,7 +9681,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:45:32.647Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Type",
@@ -9476,7 +9819,7 @@
           "category": "Properties",
           "subject": "prop:Style",
           "label": "Property \"Style\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Style\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Brand, Light, Muted",
@@ -9500,7 +9843,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:03:05.065Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -9569,7 +9919,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
           "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -10481,7 +10831,14 @@
             "Type=Bar Code, State=Generating, Style=Brand",
             "Type=Bar Code, State=Failed, Style=Brand",
             "Type=Message, State=Default, Style=Brand"
-          ]
+          ],
+          "ignored": {
+            "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+            "at": "2026-11-25T14:45:57.886Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         }
       ],
       "gallery": [],
@@ -10491,8 +10848,8 @@
     {
       "key": "399:5505",
       "name": "Slot",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -10513,7 +10870,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -10537,7 +10894,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T14:46:05.992Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -10546,7 +10910,7 @@
       "key": "1658:46512",
       "name": "Steps",
       "status": "Drifted",
-      "score": 65,
+      "score": 77,
       "match": "exact",
       "figma": {
         "id": "1658:46512",
@@ -10901,7 +11265,7 @@
           "category": "Properties",
           "subject": "prop:Count",
           "label": "Property \"Count\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Count\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: 2, 3, 4, 5, 6, 7, 8",
@@ -10925,14 +11289,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T15:03:05.065Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Background Fill",
           "category": "Properties",
           "subject": "prop:Background Fill",
           "label": "Property \"Background Fill\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Background Fill\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: On, Off",
@@ -10956,7 +11327,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same option, named `filled` in code. Not a defect.",
+            "at": "2026-11-25T14:46:14.222Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Type",
@@ -11197,34 +11575,34 @@
     }
   ],
   "summary": {
-    "score": 23,
-    "headline": "0 of 13 Figma components match Storybook. 6 have drifted and 7 aren't built yet.",
+    "score": 43,
+    "headline": "0 of 10 Figma components match Storybook. 6 have drifted and 4 aren't built yet.",
     "components": {
       "total": 13,
-      "figma": 13,
+      "figma": 10,
       "paired": 6,
       "aligned": 0,
       "drifted": 6,
       "broken": 0,
-      "missingInCode": 7,
+      "missingInCode": 4,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 3
     },
     "checks": {
       "pass": 36,
-      "warn": 35,
-      "fail": 53
+      "warn": 25,
+      "fail": 9
     },
     "byCategory": {
       "Naming": {
         "pass": 19,
         "warn": 1,
-        "fail": 7
+        "fail": 4
       },
       "Properties": {
         "pass": 3,
-        "warn": 29,
-        "fail": 46
+        "warn": 21,
+        "fail": 5
       },
       "Tokens": {
         "pass": 0,
@@ -11238,7 +11616,7 @@
       },
       "Accessibility": {
         "pass": 5,
-        "warn": 2,
+        "warn": 0,
         "fail": 0
       },
       "Interaction": {
@@ -11259,12 +11637,12 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 11,
+        "warn": 9,
         "fail": 0
       },
       "Dev": {
-        "warn": 13,
-        "fail": 50
+        "warn": 5,
+        "fail": 6
       },
       "Both": {
         "warn": 11,
@@ -11279,11 +11657,8 @@
         "owner": "Dev",
         "components": [
           "Badge",
-          "Data Group",
           "Empty State",
           "Image Card",
-          "Module Node",
-          "Slot",
           "Text Card"
         ],
         "items": [
@@ -11292,12 +11667,6 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Badge"
-          },
-          {
-            "component": "4205:24535",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Data Group"
           },
           {
             "component": "15567:40690",
@@ -11312,296 +11681,10 @@
             "componentName": "Image Card"
           },
           {
-            "component": "7653:2736",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Module Node"
-          },
-          {
-            "component": "399:5505",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Slot"
-          },
-          {
             "component": "15169:82432",
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Text Card"
-          }
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "Figma property missing in code",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Accordion",
-          "Content Block",
-          "Data Row",
-          "List",
-          "QR Code",
-          "Steps"
-        ],
-        "items": [
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Subtitle",
-            "title": "Figma property \"Show Subtitle\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Badge",
-            "title": "Figma property \"Show Badge\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Slot",
-            "title": "Figma property \"Show Slot\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Country Flag",
-            "title": "Figma property \"Show Country Flag\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Expanded Description",
-            "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Supportive Text",
-            "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Show Supportive Content",
-            "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Style",
-            "title": "Figma property \"Style\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Opened",
-            "title": "Figma property \"Opened\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "14347:6046",
-            "key": "Properties|prop:Type",
-            "title": "Figma property \"Type\" has no equivalent in code",
-            "componentName": "Content Block"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Chevron Right",
-            "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Badge",
-            "title": "Figma property \"Show Badge\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Content Right",
-            "title": "Figma property \"Show Content Right\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Country Flags",
-            "title": "Figma property \"Show Country Flags\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Data 1",
-            "title": "Figma property \"Show Data 1\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Data 2",
-            "title": "Figma property \"Show Data 2\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Data 3",
-            "title": "Figma property \"Show Data 3\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Button",
-            "title": "Figma property \"Show Button\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Show Icon Right",
-            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Position",
-            "title": "Figma property \"Position\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "14969:20257",
-            "key": "Properties|prop:container",
-            "title": "Figma property \"container\" has no equivalent in code",
-            "componentName": "List"
-          },
-          {
-            "component": "14969:20257",
-            "key": "Properties|prop:Style",
-            "title": "Figma property \"Style\" has no equivalent in code",
-            "componentName": "List"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Content Top",
-            "title": "Figma property \"Show Content Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Logo",
-            "title": "Figma property \"Show Logo\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Subtitle Top",
-            "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Offer",
-            "title": "Figma property \"Show Offer\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Description",
-            "title": "Figma property \"Show Description\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Name and Card Number",
-            "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Details with Logo",
-            "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Body",
-            "title": "Figma property \"Show Body\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Description Slot",
-            "title": "Figma property \"Show Description Slot\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Icon Top",
-            "title": "Figma property \"Show Icon Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Title Top",
-            "title": "Figma property \"Show Title Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Button",
-            "title": "Figma property \"Show Button\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Slot Top",
-            "title": "Figma property \"Show Slot Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Code Status",
-            "title": "Figma property \"Show Code Status\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Code",
-            "title": "Figma property \"Show Code\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Show Counter",
-            "title": "Figma property \"Show Counter\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Style",
-            "title": "Figma property \"Style\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "1658:46512",
-            "key": "Properties|prop:Count",
-            "title": "Figma property \"Count\" has no equivalent in code",
-            "componentName": "Steps"
-          },
-          {
-            "component": "1658:46512",
-            "key": "Properties|prop:Background Fill",
-            "title": "Figma property \"Background Fill\" has no equivalent in code",
-            "componentName": "Steps"
           }
         ]
       },
@@ -11633,6 +11716,30 @@
             "key": "Properties|values:Type",
             "title": "Type values missing in code",
             "componentName": "Steps"
+          }
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "Figma property missing in code",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Data Row",
+          "List"
+        ],
+        "items": [
+          {
+            "component": "2991:63143",
+            "key": "Properties|prop:Position",
+            "title": "Figma property \"Position\" has no equivalent in code",
+            "componentName": "Data Row"
+          },
+          {
+            "component": "14969:20257",
+            "key": "Properties|prop:Style",
+            "title": "Figma property \"Style\" has no equivalent in code",
+            "componentName": "List"
           }
         ]
       },
@@ -11727,97 +11834,6 @@
         ]
       },
       {
-        "category": "Properties",
-        "title": "State values without a code equivalent",
-        "status": "warn",
-        "owner": "Dev",
-        "components": [
-          "Accordion",
-          "Data Row",
-          "QR Code"
-        ],
-        "items": [
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Title",
-            "title": "Figma property \"Title\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Subtitle",
-            "title": "Figma property \"Subtitle\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Expanded Description",
-            "title": "Figma property \"Expanded Description\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:Supportive Text",
-            "title": "Figma property \"Supportive Text\" has no equivalent in code",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "218:1707",
-            "key": "Properties|prop:State",
-            "title": "State values with no code equivalent: Disabled",
-            "componentName": "Accordion"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Label",
-            "title": "Figma property \"Label\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Data 1",
-            "title": "Figma property \"Data 1\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Data 2",
-            "title": "Figma property \"Data 2\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "2991:63143",
-            "key": "Properties|prop:Data 3",
-            "title": "Figma property \"Data 3\" has no equivalent in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Subtitle Top",
-            "title": "Figma property \"Subtitle Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Title Top",
-            "title": "Figma property \"Title Top\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:Code Status",
-            "title": "Figma property \"Code Status\" has no equivalent in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|prop:State",
-            "title": "State values with no code equivalent: Generating",
-            "componentName": "QR Code"
-          }
-        ]
-      },
-      {
         "category": "Documentation",
         "title": "No description in Figma",
         "status": "warn",
@@ -11850,6 +11866,48 @@
       },
       {
         "category": "Properties",
+        "title": "State values without a code equivalent",
+        "status": "warn",
+        "owner": "Dev",
+        "components": [
+          "Accordion",
+          "QR Code"
+        ],
+        "items": [
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Subtitle",
+            "title": "Figma property \"Subtitle\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Expanded Description",
+            "title": "Figma property \"Expanded Description\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:Supportive Text",
+            "title": "Figma property \"Supportive Text\" has no equivalent in code",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "218:1707",
+            "key": "Properties|prop:State",
+            "title": "State values with no code equivalent: Disabled",
+            "componentName": "Accordion"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Properties|prop:State",
+            "title": "State values with no code equivalent: Generating",
+            "componentName": "QR Code"
+          }
+        ]
+      },
+      {
+        "category": "Properties",
         "title": "24 of 24 variants can't be shown in code",
         "status": "warn",
         "owner": "Both",
@@ -11873,30 +11931,6 @@
         ]
       },
       {
-        "category": "Accessibility",
-        "title": "Text contrast is too low in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Badge",
-          "QR Code"
-        ],
-        "items": [
-          {
-            "component": "1888:5974",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Badge"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "QR Code"
-          }
-        ]
-      },
-      {
         "category": "Properties",
         "title": "20 of 20 variants can't be shown in code",
         "status": "warn",
@@ -11910,6 +11944,23 @@
             "key": "Properties|coverage",
             "title": "20 of 20 variants can't be shown in code",
             "componentName": "Content Block"
+          }
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "8 of 8 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Data Row"
+        ],
+        "items": [
+          {
+            "component": "2991:63143",
+            "key": "Properties|coverage",
+            "title": "8 of 8 variants can't be shown in code",
+            "componentName": "Data Row"
           }
         ]
       }
@@ -11933,6 +11984,370 @@
         "github": null
       },
       {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Subtitle",
+        "category": "Properties",
+        "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Badge",
+        "category": "Properties",
+        "title": "Figma property \"Show Badge\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Slot",
+        "category": "Properties",
+        "title": "Figma property \"Show Slot\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Title",
+        "category": "Properties",
+        "title": "Figma property \"Title\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Country Flag",
+        "category": "Properties",
+        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Expanded Description",
+        "category": "Properties",
+        "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Supportive Text",
+        "category": "Properties",
+        "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Show Supportive Content",
+        "category": "Properties",
+        "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Style",
+        "category": "Properties",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:03:05.065Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Accordion",
+        "componentKey": "218:1707",
+        "key": "Properties|prop:Opened",
+        "category": "Properties",
+        "title": "Figma property \"Opened\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:03:05.065Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Badge",
+        "componentKey": "1888:5974",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+        "at": "2026-11-25T14:45:57.886Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Content Block",
+        "componentKey": "14347:6046",
+        "key": "Properties|prop:Type",
+        "category": "Properties",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:03:05.065Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Group",
+        "componentKey": "4205:24535",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T14:46:05.992Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Chevron Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Label",
+        "category": "Properties",
+        "title": "Figma property \"Label\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Badge",
+        "category": "Properties",
+        "title": "Figma property \"Show Badge\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Data 1",
+        "category": "Properties",
+        "title": "Figma property \"Data 1\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Content Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Content Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Country Flags",
+        "category": "Properties",
+        "title": "Figma property \"Show Country Flags\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Data 1",
+        "category": "Properties",
+        "title": "Figma property \"Show Data 1\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Data 2",
+        "category": "Properties",
+        "title": "Figma property \"Show Data 2\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Data 3",
+        "category": "Properties",
+        "title": "Figma property \"Show Data 3\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:45:49.637Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Data 2",
+        "category": "Properties",
+        "title": "Figma property \"Data 2\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Data 3",
+        "category": "Properties",
+        "title": "Figma property \"Data 3\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Button",
+        "category": "Properties",
+        "title": "Figma property \"Show Button\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Data Row",
         "componentKey": "2991:63143",
         "key": "Naming|prop:Type",
@@ -11946,6 +12361,201 @@
         "github": null
       },
       {
+        "component": "List",
+        "componentKey": "14969:20257",
+        "key": "Properties|prop:container",
+        "category": "Properties",
+        "title": "Figma property \"container\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+        "at": "2026-11-25T14:46:22.841Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Module Node",
+        "componentKey": "7653:2736",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T14:46:05.992Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Content Top",
+        "category": "Properties",
+        "title": "Figma property \"Show Content Top\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Logo",
+        "category": "Properties",
+        "title": "Figma property \"Show Logo\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Subtitle Top",
+        "category": "Properties",
+        "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Offer",
+        "category": "Properties",
+        "title": "Figma property \"Show Offer\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Description",
+        "category": "Properties",
+        "title": "Figma property \"Show Description\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Name and Card Number",
+        "category": "Properties",
+        "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Details with Logo",
+        "category": "Properties",
+        "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Body",
+        "category": "Properties",
+        "title": "Figma property \"Show Body\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Subtitle Top",
+        "category": "Properties",
+        "title": "Figma property \"Subtitle Top\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Description Slot",
+        "category": "Properties",
+        "title": "Figma property \"Show Description Slot\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Icon Top",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Top\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Title Top",
+        "category": "Properties",
+        "title": "Figma property \"Show Title Top\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Title Top",
+        "category": "Properties",
+        "title": "Figma property \"Title Top\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "QR Code",
         "componentKey": "15027:1802",
         "key": "Naming|prop:Show Caption",
@@ -11955,6 +12565,149 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Caption\" vs code \"caption\". Not a defect.",
         "at": "2026-11-25T07:16:19.200Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Button",
+        "category": "Properties",
+        "title": "Figma property \"Show Button\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Slot Top",
+        "category": "Properties",
+        "title": "Figma property \"Show Slot Top\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Code Status",
+        "category": "Properties",
+        "title": "Figma property \"Show Code Status\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Code Status",
+        "category": "Properties",
+        "title": "Figma property \"Code Status\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:45:43.532Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Code",
+        "category": "Properties",
+        "title": "Figma property \"Show Code\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Show Counter",
+        "category": "Properties",
+        "title": "Figma property \"Show Counter\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:45:32.647Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Properties|prop:Style",
+        "category": "Properties",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:03:05.065Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+        "at": "2026-11-25T14:45:57.886Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Slot",
+        "componentKey": "399:5505",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T14:46:05.992Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Steps",
+        "componentKey": "1658:46512",
+        "key": "Properties|prop:Count",
+        "category": "Properties",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T15:03:05.065Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Steps",
+        "componentKey": "1658:46512",
+        "key": "Properties|prop:Background Fill",
+        "category": "Properties",
+        "title": "Figma property \"Background Fill\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same option, named `filled` in code. Not a defect.",
+        "at": "2026-11-25T14:46:14.222Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -11974,71 +12727,6 @@
     ],
     "brokenComponents": [],
     "issues": [
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Show Subtitle",
-        "category": "Properties",
-        "subject": "prop:Show Subtitle",
-        "status": "fail",
-        "title": "Figma property \"Show Subtitle\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Show Badge",
-        "category": "Properties",
-        "subject": "prop:Show Badge",
-        "status": "fail",
-        "title": "Figma property \"Show Badge\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Show Slot",
-        "category": "Properties",
-        "subject": "prop:Show Slot",
-        "status": "fail",
-        "title": "Figma property \"Show Slot\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Title",
-        "category": "Properties",
-        "subject": "prop:Title",
-        "status": "warn",
-        "title": "Figma property \"Title\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
       {
         "component": "Accordion",
         "componentKey": "218:1707",
@@ -12068,32 +12756,6 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
-        "key": "Properties|prop:Show Country Flag",
-        "category": "Properties",
-        "subject": "prop:Show Country Flag",
-        "status": "fail",
-        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Show Expanded Description",
-        "category": "Properties",
-        "subject": "prop:Show Expanded Description",
-        "status": "fail",
-        "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
         "key": "Properties|prop:Supportive Text",
         "category": "Properties",
         "subject": "prop:Supportive Text",
@@ -12107,64 +12769,12 @@
       {
         "component": "Accordion",
         "componentKey": "218:1707",
-        "key": "Properties|prop:Show Supportive Text",
-        "category": "Properties",
-        "subject": "prop:Show Supportive Text",
-        "status": "fail",
-        "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Show Supportive Content",
-        "category": "Properties",
-        "subject": "prop:Show Supportive Content",
-        "status": "fail",
-        "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
         "key": "Properties|prop:State",
         "category": "Properties",
         "subject": "prop:State",
         "status": "warn",
         "title": "State values with no code equivalent: Disabled",
         "detail": "Disabled → missing · Default → :rest · Hover → :hover · Focus → :focus",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Style",
-        "category": "Properties",
-        "subject": "prop:Style",
-        "status": "fail",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "detail": "Values: Bottom Border, Full Border",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Accordion",
-        "componentKey": "218:1707",
-        "key": "Properties|prop:Opened",
-        "category": "Properties",
-        "subject": "prop:Opened",
-        "status": "fail",
-        "title": "Figma property \"Opened\" has no equivalent in code",
-        "detail": "Values: True, False",
         "owner": "Dev",
         "brands": [],
         "variants": 0
@@ -12211,23 +12821,6 @@
       {
         "component": "Badge",
         "componentKey": "1888:5974",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 4
-      },
-      {
-        "component": "Badge",
-        "componentKey": "1888:5974",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -12254,19 +12847,6 @@
       {
         "component": "Content Block",
         "componentKey": "14347:6046",
-        "key": "Properties|prop:Type",
-        "category": "Properties",
-        "subject": "prop:Type",
-        "status": "fail",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "detail": "Values: Plain, Small Icon, Small icon (Left and Right), Large Icon Top, Large Icon Centred, Country Flag, Large Country Flag, Continent, Large Continent, Checkbox Left, Checkbox Right, Check Indicator Left, Check Indicator Right, Radio Left, Radio Right, Switch Left, Switch Right, Payment Icon, Payment Icon Selectable, Button",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Content Block",
-        "componentKey": "14347:6046",
         "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
@@ -12287,201 +12867,6 @@
         "title": "20 of 20 variants can't be shown in code",
         "detail": "Type=Plain, Type=Small Icon, Type=Small icon (Left and Right), Type=Large Icon Top, Type=Large Icon Centred, Type=Large Country Flag, Type=Large Continent, Type=Country Flag, Type=Continent, Type=Payment Icon, Type=Payment Icon Selectable, Type=Check Indicator Left",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Group",
-        "componentKey": "4205:24535",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Tag, Data Display/Data Row. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Chevron Right",
-        "category": "Properties",
-        "subject": "prop:Show Chevron Right",
-        "status": "fail",
-        "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Label",
-        "category": "Properties",
-        "subject": "prop:Label",
-        "status": "warn",
-        "title": "Figma property \"Label\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Badge",
-        "category": "Properties",
-        "subject": "prop:Show Badge",
-        "status": "fail",
-        "title": "Figma property \"Show Badge\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Data 1",
-        "category": "Properties",
-        "subject": "prop:Data 1",
-        "status": "warn",
-        "title": "Figma property \"Data 1\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Content Right",
-        "category": "Properties",
-        "subject": "prop:Show Content Right",
-        "status": "fail",
-        "title": "Figma property \"Show Content Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Country Flags",
-        "category": "Properties",
-        "subject": "prop:Show Country Flags",
-        "status": "fail",
-        "title": "Figma property \"Show Country Flags\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Data 1",
-        "category": "Properties",
-        "subject": "prop:Show Data 1",
-        "status": "fail",
-        "title": "Figma property \"Show Data 1\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Data 2",
-        "category": "Properties",
-        "subject": "prop:Show Data 2",
-        "status": "fail",
-        "title": "Figma property \"Show Data 2\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Data 3",
-        "category": "Properties",
-        "subject": "prop:Show Data 3",
-        "status": "fail",
-        "title": "Figma property \"Show Data 3\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Data 2",
-        "category": "Properties",
-        "subject": "prop:Data 2",
-        "status": "warn",
-        "title": "Figma property \"Data 2\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Data 3",
-        "category": "Properties",
-        "subject": "prop:Data 3",
-        "status": "warn",
-        "title": "Figma property \"Data 3\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Button",
-        "category": "Properties",
-        "subject": "prop:Show Button",
-        "status": "fail",
-        "title": "Figma property \"Show Button\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "subject": "prop:Show Icon Right",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12605,19 +12990,6 @@
       {
         "component": "List",
         "componentKey": "14969:20257",
-        "key": "Properties|prop:container",
-        "category": "Properties",
-        "subject": "prop:container",
-        "status": "fail",
-        "title": "Figma property \"container\" has no equivalent in code",
-        "detail": "slot property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "List",
-        "componentKey": "14969:20257",
         "key": "Properties|prop:Style",
         "category": "Properties",
         "subject": "prop:Style",
@@ -12655,19 +13027,6 @@
         "variants": 0
       },
       {
-        "component": "Module Node",
-        "componentKey": "7653:2736",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "QR Code",
         "componentKey": "15027:1802",
         "key": "Documentation|docs-figma",
@@ -12677,253 +13036,6 @@
         "title": "No description in Figma",
         "detail": null,
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Content Top",
-        "category": "Properties",
-        "subject": "prop:Show Content Top",
-        "status": "fail",
-        "title": "Figma property \"Show Content Top\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Logo",
-        "category": "Properties",
-        "subject": "prop:Show Logo",
-        "status": "fail",
-        "title": "Figma property \"Show Logo\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Subtitle Top",
-        "category": "Properties",
-        "subject": "prop:Show Subtitle Top",
-        "status": "fail",
-        "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Offer",
-        "category": "Properties",
-        "subject": "prop:Show Offer",
-        "status": "fail",
-        "title": "Figma property \"Show Offer\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Description",
-        "category": "Properties",
-        "subject": "prop:Show Description",
-        "status": "fail",
-        "title": "Figma property \"Show Description\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Name and Card Number",
-        "category": "Properties",
-        "subject": "prop:Show Name and Card Number",
-        "status": "fail",
-        "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Details with Logo",
-        "category": "Properties",
-        "subject": "prop:Show Details with Logo",
-        "status": "fail",
-        "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Body",
-        "category": "Properties",
-        "subject": "prop:Show Body",
-        "status": "fail",
-        "title": "Figma property \"Show Body\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Subtitle Top",
-        "category": "Properties",
-        "subject": "prop:Subtitle Top",
-        "status": "warn",
-        "title": "Figma property \"Subtitle Top\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Description Slot",
-        "category": "Properties",
-        "subject": "prop:Show Description Slot",
-        "status": "fail",
-        "title": "Figma property \"Show Description Slot\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Icon Top",
-        "category": "Properties",
-        "subject": "prop:Show Icon Top",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Top\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Title Top",
-        "category": "Properties",
-        "subject": "prop:Show Title Top",
-        "status": "fail",
-        "title": "Figma property \"Show Title Top\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Title Top",
-        "category": "Properties",
-        "subject": "prop:Title Top",
-        "status": "warn",
-        "title": "Figma property \"Title Top\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Button",
-        "category": "Properties",
-        "subject": "prop:Show Button",
-        "status": "fail",
-        "title": "Figma property \"Show Button\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Slot Top",
-        "category": "Properties",
-        "subject": "prop:Show Slot Top",
-        "status": "fail",
-        "title": "Figma property \"Show Slot Top\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Code Status",
-        "category": "Properties",
-        "subject": "prop:Show Code Status",
-        "status": "fail",
-        "title": "Figma property \"Show Code Status\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Code Status",
-        "category": "Properties",
-        "subject": "prop:Code Status",
-        "status": "warn",
-        "title": "Figma property \"Code Status\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Code",
-        "category": "Properties",
-        "subject": "prop:Show Code",
-        "status": "fail",
-        "title": "Figma property \"Show Code\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|prop:Show Counter",
-        "category": "Properties",
-        "subject": "prop:Show Counter",
-        "status": "fail",
-        "title": "Figma property \"Show Counter\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -12969,19 +13081,6 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
-        "key": "Properties|prop:Style",
-        "category": "Properties",
-        "subject": "prop:Style",
-        "status": "fail",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "detail": "Values: Brand, Light, Muted",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
         "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
@@ -13006,36 +13105,6 @@
         "variants": 0
       },
       {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 7
-      },
-      {
-        "component": "Slot",
-        "componentKey": "399:5505",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Steps",
         "componentKey": "1658:46512",
         "key": "Properties|default:Direction",
@@ -13045,32 +13114,6 @@
         "title": "Default Direction differs",
         "detail": "Design Horizontal · Code vertical",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Steps",
-        "componentKey": "1658:46512",
-        "key": "Properties|prop:Count",
-        "category": "Properties",
-        "subject": "prop:Count",
-        "status": "fail",
-        "title": "Figma property \"Count\" has no equivalent in code",
-        "detail": "Values: 2, 3, 4, 5, 6, 7, 8",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Steps",
-        "componentKey": "1658:46512",
-        "key": "Properties|prop:Background Fill",
-        "category": "Properties",
-        "subject": "prop:Background Fill",
-        "status": "fail",
-        "title": "Figma property \"Background Fill\" has no equivalent in code",
-        "detail": "Values: On, Off",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -13136,16 +13179,12 @@
     "counts": {
       "critical": 0,
       "serious": 0,
-      "moderate": 1,
+      "moderate": 0,
       "minor": 0
     },
-    "total": 1,
-    "components": 2,
-    "byBrand": {
-      "Mastercard": 11,
-      "Investec": 11,
-      "Assurant": 11
-    },
+    "total": 0,
+    "components": 0,
+    "byBrand": {},
     "criteria": [
       {
         "sc": "1.4.3",
@@ -13153,8 +13192,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       },
       {
         "sc": "1.4.11",
@@ -13490,238 +13529,728 @@
       "tested": 2,
       "total": 55
     },
-    "issues": [
+    "issues": []
+  },
+  "delta": {
+    "since": "2026-11-25T11:26:03.848Z",
+    "previousScore": 23,
+    "newFails": [],
+    "fixed": [
       {
-        "items": [
-          {
-            "component": "1888:5974",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Badge"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "QR Code"
-          }
-        ],
-        "rule": "design-contrast",
-        "criterion": {
-          "sc": "1.4.3",
-          "name": "Contrast (minimum)",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
-          "auto": true
-        },
-        "title": "Text contrast is too low in Figma",
-        "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
-        "fix": "Change the brand value of the text or background token in Figma until the pair reaches 4.5:1 (3:1 for large text).",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Badge",
-            "key": "1888:5974"
-          },
-          {
-            "name": "QR Code",
-            "key": "15027:1802"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Badge",
-            "componentKey": "1888:5974",
-            "brand": "Mastercard",
-            "variants": [
-              "Status=Brand, Style=Rounded, Size=Regular",
-              "Status=Brand, Style=Rounded, Size=Large",
-              "Status=Brand, Style=Standard, Size=Regular",
-              "Status=Brand, Style=Standard, Size=Large"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Status=Brand, Style=Rounded, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Badge",
-            "componentKey": "1888:5974",
-            "brand": "Investec",
-            "variants": [
-              "Status=Brand, Style=Rounded, Size=Regular",
-              "Status=Brand, Style=Rounded, Size=Large",
-              "Status=Brand, Style=Standard, Size=Regular",
-              "Status=Brand, Style=Standard, Size=Large"
-            ],
-            "status": "warn",
-            "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 4.5,
-              "fg": "#F8F8F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Status=Brand, Style=Rounded, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Badge",
-            "componentKey": "1888:5974",
-            "brand": "Assurant",
-            "variants": [
-              "Status=Brand, Style=Rounded, Size=Regular",
-              "Status=Brand, Style=Rounded, Size=Large",
-              "Status=Brand, Style=Standard, Size=Regular",
-              "Status=Brand, Style=Standard, Size=Large"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Status=Brand, Style=Rounded, Size=Regular"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "QR Code",
-            "componentKey": "15027:1802",
-            "brand": "Mastercard",
-            "variants": [
-              "Type=QR Code, State=Default, Style=Brand",
-              "Type=QR Code, State=Generating, Style=Brand",
-              "Type=QR Code, State=Failed, Style=Brand",
-              "Type=Bar Code, State=Default, Style=Brand",
-              "Type=Bar Code, State=Generating, Style=Brand",
-              "Type=Bar Code, State=Failed, Style=Brand",
-              "Type=Message, State=Default, Style=Brand"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=QR Code, State=Default, Style=Brand"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "QR Code",
-            "componentKey": "15027:1802",
-            "brand": "Investec",
-            "variants": [
-              "Type=QR Code, State=Default, Style=Brand",
-              "Type=QR Code, State=Generating, Style=Brand",
-              "Type=QR Code, State=Failed, Style=Brand",
-              "Type=Bar Code, State=Default, Style=Brand",
-              "Type=Bar Code, State=Generating, Style=Brand",
-              "Type=Bar Code, State=Failed, Style=Brand",
-              "Type=Message, State=Default, Style=Brand"
-            ],
-            "status": "warn",
-            "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 4.5,
-              "fg": "#F8F8F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=QR Code, State=Default, Style=Brand"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "QR Code",
-            "componentKey": "15027:1802",
-            "brand": "Assurant",
-            "variants": [
-              "Type=QR Code, State=Default, Style=Brand",
-              "Type=QR Code, State=Generating, Style=Brand",
-              "Type=QR Code, State=Failed, Style=Brand",
-              "Type=Bar Code, State=Default, Style=Brand",
-              "Type=Bar Code, State=Generating, Style=Brand",
-              "Type=Bar Code, State=Failed, Style=Brand",
-              "Type=Message, State=Default, Style=Brand"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Type=QR Code, State=Default, Style=Brand"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 33
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Badge\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Slot\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma property \"Opened\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Content Block",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Group",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Badge\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Content Right\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Country Flags\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Data 1\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Data 2\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Data 3\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Button\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "List",
+        "title": "Figma property \"container\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Module Node",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Content Top\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Logo\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Offer\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Description\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Body\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Description Slot\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Icon Top\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Title Top\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Button\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Slot Top\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Code Status\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Code\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Show Counter\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Slot",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Steps",
+        "title": "Figma property \"Count\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Steps",
+        "title": "Figma property \"Background Fill\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
       }
     ]
   },
-  "delta": {
-    "since": "2026-11-25T07:25:30.236Z",
-    "previousScore": 23,
-    "newFails": [],
-    "fixed": []
-  },
   "activity": [
+    {
+      "at": "2026-11-25T15:03:05.065Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Opened",
+          "title": "Figma property \"Opened\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "14347:6046",
+          "key": "Properties|prop:Type",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "componentName": "Content Block"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "1658:46512",
+          "key": "Properties|prop:Count",
+          "title": "Figma property \"Count\" has no equivalent in code",
+          "componentName": "Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:46:22.841Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "14969:20257",
+          "key": "Properties|prop:container",
+          "title": "Figma property \"container\" has no equivalent in code",
+          "componentName": "List"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:46:14.222Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same option, named `filled` in code. Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Properties|prop:Background Fill",
+          "title": "Figma property \"Background Fill\" has no equivalent in code",
+          "componentName": "Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:46:05.992Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "4205:24535",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Data Group"
+        },
+        {
+          "component": "7653:2736",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Module Node"
+        },
+        {
+          "component": "399:5505",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Slot"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:45:57.886Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "items": [
+        {
+          "component": "1888:5974",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Badge"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "QR Code"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:45:49.637Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Supportive Text",
+          "title": "Figma property \"Show Supportive Text\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Badge",
+          "title": "Figma property \"Show Badge\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Country Flags",
+          "title": "Figma property \"Show Country Flags\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Data 1",
+          "title": "Figma property \"Show Data 1\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Data 2",
+          "title": "Figma property \"Show Data 2\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Data 3",
+          "title": "Figma property \"Show Data 3\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Badge",
+          "title": "Figma property \"Show Badge\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Country Flag",
+          "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Slot",
+          "title": "Figma property \"Show Slot\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Subtitle",
+          "title": "Figma property \"Show Subtitle\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Supportive Content",
+          "title": "Figma property \"Show Supportive Content\" has no equivalent in code",
+          "componentName": "Accordion"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:45:43.532Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Title",
+          "title": "Figma property \"Title\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Data 1",
+          "title": "Figma property \"Data 1\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Data 2",
+          "title": "Figma property \"Data 2\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Data 3",
+          "title": "Figma property \"Data 3\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Label",
+          "title": "Figma property \"Label\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Code Status",
+          "title": "Figma property \"Code Status\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Subtitle Top",
+          "title": "Figma property \"Subtitle Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Title Top",
+          "title": "Figma property \"Title Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:45:32.647Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Expanded Description",
+          "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Button",
+          "title": "Figma property \"Show Button\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Chevron Right",
+          "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Content Right",
+          "title": "Figma property \"Show Content Right\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Body",
+          "title": "Figma property \"Show Body\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Button",
+          "title": "Figma property \"Show Button\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Code",
+          "title": "Figma property \"Show Code\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Code Status",
+          "title": "Figma property \"Show Code Status\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Content Top",
+          "title": "Figma property \"Show Content Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Counter",
+          "title": "Figma property \"Show Counter\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Description",
+          "title": "Figma property \"Show Description\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Description Slot",
+          "title": "Figma property \"Show Description Slot\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Details with Logo",
+          "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Icon Top",
+          "title": "Figma property \"Show Icon Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Logo",
+          "title": "Figma property \"Show Logo\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Name and Card Number",
+          "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Offer",
+          "title": "Figma property \"Show Offer\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Slot Top",
+          "title": "Figma property \"Show Slot Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Subtitle Top",
+          "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Title Top",
+          "title": "Figma property \"Show Title Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:21:08.999Z",
       "action": "ignore",
