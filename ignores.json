@@ -91,17 +91,6 @@
     {
       "check": "actions",
       "component": "1454:7798",
-      "key": "Naming|prop:Show Icon Right",
-      "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
-      "componentName": "Button",
-      "reason": "Naming alignment only - not a defect.",
-      "by": "frontenddev.ai",
-      "github": null,
-      "at": "2026-11-24T12:50:28.202Z"
-    },
-    {
-      "check": "actions",
-      "component": "1454:7798",
       "key": "Naming|prop:Show Icon Left",
       "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
       "componentName": "Button",

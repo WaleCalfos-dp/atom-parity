@@ -687,6 +687,22 @@
         }
       ],
       "id": "tnm2udjr1d45"
+    },
+    {
+      "at": "2026-11-25T06:32:58.828Z",
+      "action": "restore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|prop:Show Icon Right",
+          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
+          "componentName": "Button"
+        }
+      ]
     }
   ]
 }
