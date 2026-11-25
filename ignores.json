@@ -2265,6 +2265,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T15:15:40.999Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Properties|prop:State",
+      "title": "State values with no code equivalent: Disabled",
+      "componentName": "Accordion",
+      "reason": "Disabled is supported by the code's `disabled` prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:18:13.421Z"
     }
   ]
 }
