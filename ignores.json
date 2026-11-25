@@ -1143,6 +1143,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:47:40.839Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Properties|prop:content-left",
+      "title": "Figma property \"content-left\" has no equivalent in code",
+      "componentName": "Select",
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:47:49.213Z"
     }
   ]
 }

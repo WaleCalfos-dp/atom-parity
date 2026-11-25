@@ -1779,6 +1779,22 @@
           "componentName": "Select"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:47:49.213Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:content-left",
+          "title": "Figma property \"content-left\" has no equivalent in code",
+          "componentName": "Select"
+        }
+      ]
     }
   ]
 }
