@@ -30,13 +30,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
-"[Atom parity] Text Link: Size values missing in code","Missing in code: Regular · Only in code: default, caption-small, caption-micro
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-link--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2709
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Text Link: Code has props with no Figma property","url, underline, target, rel, title, strong
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
@@ -51,12 +44,3 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2709
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Title: Text contrast is too low in Figma","1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
-
-Brands: Dragonpass, Mastercard, Investec, Assurant
-Variants: Size=Hero, Shade=Light; Size=H1, Shade=Light; Size=H2, Shade=Light; Size=H3, Shade=Light; Size=H4, Shade=Light; Size=H5, Shade=Light
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=706-50315
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-706%3A50315
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"

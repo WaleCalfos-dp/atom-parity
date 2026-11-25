@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:13:01.205Z",
+  "generatedAt": "2026-11-25T15:14:37.410Z",
   "entries": [
     {
       "id": "actions",
@@ -1353,7 +1353,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:53:02.679Z",
+      "ranAt": "2026-11-25T15:14:37.066Z",
       "ok": true,
       "history": [
         {
@@ -1439,6 +1439,10 @@
         {
           "at": "2026-11-25T14:53:02.679Z",
           "score": 19
+        },
+        {
+          "at": "2026-11-25T15:14:37.066Z",
+          "score": 47
         }
       ],
       "preview": null,
@@ -1450,28 +1454,28 @@
         },
         {
           "name": "Home Indicator",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "iPhone Keyboard",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Sheet Topper",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Status Bar",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Text Link",
           "status": "Drifted",
-          "score": 75
+          "score": 86
         },
         {
           "name": "Title",
@@ -1479,32 +1483,32 @@
           "score": 0
         }
       ],
-      "score": 19,
-      "headline": "0 of 7 Figma components match Storybook. 2 have drifted and 5 aren't built yet.",
+      "score": 47,
+      "headline": "0 of 3 Figma components match Storybook. 2 have drifted and 1 isn't built yet.",
       "counts": {
         "total": 7,
-        "figma": 7,
+        "figma": 3,
         "paired": 2,
         "aligned": 0,
         "drifted": 2,
         "broken": 0,
-        "missingInCode": 5,
+        "missingInCode": 1,
         "missingInDesign": 0,
-        "ignored": 0
+        "ignored": 4
       },
-      "previousScore": 17,
+      "previousScore": 19,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 5,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Not built in Storybook",
         "Property values missing in code",
-        "Figma property missing in code"
+        "Figma property missing in code",
+        "Not built in Storybook"
       ],
-      "ignored": 3,
+      "ignored": 9,
       "place": {
         "group": "OTHER",
         "section": null,
@@ -1519,7 +1523,7 @@
           "moderate": 1,
           "minor": 0
         },
-        "components": 2,
+        "components": 1,
         "scans": 0,
         "designChecks": 120,
         "top": [

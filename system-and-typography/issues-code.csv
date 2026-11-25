@@ -27,37 +27,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Home Indicator: Not found in Storybook","No similar component in Storybook
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3096-9618
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-3096%3A9618
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] iPhone Keyboard: Not found in Storybook","No similar component in Storybook
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3553-44797
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-3553%3A44797
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Sheet Topper: Not found in Storybook","Possible matches: System Feedback/Sheet. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15660-22906
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-15660%3A22906
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Status Bar: Not found in Storybook","Possible matches: Data Entry/SearchBar, Navigation/TabBar. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3096-10157
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-3096%3A10157
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Text Link: Size values missing in code","Missing in code: Regular · Only in code: default, caption-small, caption-micro
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-link--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2709
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Text Link: 12 of 12 variants can't be shown in code","weight=Regular, weight=Semi-Bold, weight=Bold, Size=Regular
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:53:02.679Z",
-    "durationMs": 114015,
+    "generatedAt": "2026-11-25T15:14:37.066Z",
+    "durationMs": 72713,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:52:00.739Z",
+      "exportedAt": "2026-11-25T15:13:42.968Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3471,8 +3471,8 @@
     {
       "key": "3096:9618",
       "name": "Home Indicator",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3493,7 +3493,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3517,7 +3517,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T15:13:10.514Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3525,8 +3532,8 @@
     {
       "key": "3553:44797",
       "name": "iPhone Keyboard",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -3761,7 +3768,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -3785,7 +3792,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T15:13:10.514Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3793,8 +3807,8 @@
     {
       "key": "15660:22906",
       "name": "Sheet Topper",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -3821,7 +3835,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: System Feedback/Sheet. Rename it, or add it to components.aliases.",
@@ -3845,7 +3859,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T15:13:10.514Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -3853,8 +3874,8 @@
     {
       "key": "3096:10157",
       "name": "Status Bar",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -3995,7 +4016,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Entry/SearchBar, Navigation/TabBar. Rename it, or add it to components.aliases.",
@@ -4019,7 +4040,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T15:13:10.514Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4028,7 +4056,7 @@
       "key": "1580:2709",
       "name": "Text Link",
       "status": "Drifted",
-      "score": 75,
+      "score": 86,
       "match": "alias",
       "figma": {
         "id": "1580:2709",
@@ -4332,7 +4360,7 @@
           "category": "Properties",
           "subject": "values:Size",
           "label": "Size values",
-          "status": "fail",
+          "status": "ignored",
           "title": "Size values missing in code",
           "owner": "Both",
           "detail": "Missing in code: Regular · Only in code: default, caption-small, caption-micro",
@@ -4356,7 +4384,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same value, different naming: Figma \"Regular\" vs code \"default\". Not a defect.",
+            "at": "2026-11-25T14:51:10.820Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:weight",
@@ -4771,7 +4806,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
           "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -5305,7 +5340,14 @@
             "Size=H3, Shade=Light",
             "Size=H4, Shade=Light",
             "Size=H5, Shade=Light"
-          ]
+          ],
+          "ignored": {
+            "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+            "at": "2026-11-25T14:51:19.851Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|name",
@@ -5343,34 +5385,34 @@
     }
   ],
   "summary": {
-    "score": 19,
-    "headline": "0 of 7 Figma components match Storybook. 2 have drifted and 5 aren't built yet.",
+    "score": 47,
+    "headline": "0 of 3 Figma components match Storybook. 2 have drifted and 1 isn't built yet.",
     "components": {
       "total": 7,
-      "figma": 7,
+      "figma": 3,
       "paired": 2,
       "aligned": 0,
       "drifted": 2,
       "broken": 0,
-      "missingInCode": 5,
+      "missingInCode": 1,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 4
     },
     "checks": {
       "pass": 12,
-      "warn": 6,
-      "fail": 9
+      "warn": 5,
+      "fail": 4
     },
     "byCategory": {
       "Naming": {
         "pass": 4,
         "warn": 0,
-        "fail": 5
+        "fail": 1
       },
       "Properties": {
         "pass": 0,
         "warn": 4,
-        "fail": 4
+        "fail": 3
       },
       "Tokens": {
         "pass": 0,
@@ -5384,7 +5426,7 @@
       },
       "Accessibility": {
         "pass": 4,
-        "warn": 2,
+        "warn": 1,
         "fail": 0
       },
       "Interaction": {
@@ -5405,72 +5447,26 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 4,
+        "warn": 3,
         "fail": 0
       },
       "Dev": {
         "warn": 0,
-        "fail": 7
+        "fail": 3
       },
       "Both": {
         "warn": 2,
-        "fail": 2
+        "fail": 1
       }
     },
     "themes": [
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Home Indicator",
-          "iPhone Keyboard",
-          "Sheet Topper",
-          "Status Bar",
-          "Title"
-        ],
-        "items": [
-          {
-            "component": "3096:9618",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Home Indicator"
-          },
-          {
-            "component": "3553:44797",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "iPhone Keyboard"
-          },
-          {
-            "component": "15660:22906",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Sheet Topper"
-          },
-          {
-            "component": "3096:10157",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Status Bar"
-          },
-          {
-            "component": "706:50315",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Title"
-          }
-        ]
-      },
       {
         "category": "Properties",
         "title": "Property values missing in code",
         "status": "fail",
         "owner": "Both",
         "components": [
-          "Body",
-          "Text Link"
+          "Body"
         ],
         "items": [
           {
@@ -5478,12 +5474,6 @@
             "key": "Properties|values:Size",
             "title": "Size values missing in code",
             "componentName": "Body"
-          },
-          {
-            "component": "1580:2709",
-            "key": "Properties|values:Size",
-            "title": "Size values missing in code",
-            "componentName": "Text Link"
           }
         ]
       },
@@ -5507,6 +5497,23 @@
             "key": "Properties|prop:Shade",
             "title": "Figma property \"Shade\" has no equivalent in code",
             "componentName": "Body"
+          }
+        ]
+      },
+      {
+        "category": "Naming",
+        "title": "Not built in Storybook",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Title"
+        ],
+        "items": [
+          {
+            "component": "706:50315",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Title"
           }
         ]
       },
@@ -5535,30 +5542,6 @@
         ]
       },
       {
-        "category": "Accessibility",
-        "title": "Text contrast is too low in Figma",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Body",
-          "Title"
-        ],
-        "items": [
-          {
-            "component": "1580:2636",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Body"
-          },
-          {
-            "component": "706:50315",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Title"
-          }
-        ]
-      },
-      {
         "category": "Properties",
         "title": "24 of 24 variants can't be shown in code",
         "status": "warn",
@@ -5571,6 +5554,23 @@
             "component": "1580:2636",
             "key": "Properties|coverage",
             "title": "24 of 24 variants can't be shown in code",
+            "componentName": "Body"
+          }
+        ]
+      },
+      {
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Body"
+        ],
+        "items": [
+          {
+            "component": "1580:2636",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
             "componentName": "Body"
           }
         ]
@@ -5612,6 +5612,58 @@
         "github": null
       },
       {
+        "component": "Home Indicator",
+        "componentKey": "3096:9618",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T15:13:10.514Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "iPhone Keyboard",
+        "componentKey": "3553:44797",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T15:13:10.514Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Sheet Topper",
+        "componentKey": "15660:22906",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T15:13:10.514Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Status Bar",
+        "componentKey": "3096:10157",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T15:13:10.514Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Text Link",
         "componentKey": "1580:2709",
         "key": "Naming|name",
@@ -5627,6 +5679,19 @@
       {
         "component": "Text Link",
         "componentKey": "1580:2709",
+        "key": "Properties|values:Size",
+        "category": "Properties",
+        "title": "Size values missing in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same value, different naming: Figma \"Regular\" vs code \"default\". Not a defect.",
+        "at": "2026-11-25T14:51:10.820Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Text Link",
+        "componentKey": "1580:2709",
         "key": "Properties|prop:weight",
         "category": "Properties",
         "title": "Figma property \"weight\" has no equivalent in code",
@@ -5634,6 +5699,19 @@
         "owner": "Dev",
         "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
         "at": "2026-11-25T14:50:53.332Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Title",
+        "componentKey": "706:50315",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+        "at": "2026-11-25T14:51:19.851Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -5724,71 +5802,6 @@
         "variants": 18
       },
       {
-        "component": "Home Indicator",
-        "componentKey": "3096:9618",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "iPhone Keyboard",
-        "componentKey": "3553:44797",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Sheet Topper",
-        "componentKey": "15660:22906",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: System Feedback/Sheet. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Status Bar",
-        "componentKey": "3096:10157",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/SearchBar, Navigation/TabBar. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Text Link",
-        "componentKey": "1580:2709",
-        "key": "Properties|values:Size",
-        "category": "Properties",
-        "subject": "values:Size",
-        "status": "fail",
-        "title": "Size values missing in code",
-        "detail": "Missing in code: Regular · Only in code: default, caption-small, caption-micro",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Text Link",
         "componentKey": "1580:2709",
         "key": "Properties|code-only",
@@ -5817,24 +5830,6 @@
       {
         "component": "Title",
         "componentKey": "706:50315",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 6
-      },
-      {
-        "component": "Title",
-        "componentKey": "706:50315",
         "key": "Naming|name",
         "category": "Naming",
         "subject": "name",
@@ -5859,12 +5854,12 @@
       "minor": 0
     },
     "total": 1,
-    "components": 2,
+    "components": 1,
     "byBrand": {
-      "Dragonpass": 24,
-      "Mastercard": 24,
-      "Investec": 24,
-      "Assurant": 24
+      "Dragonpass": 18,
+      "Mastercard": 18,
+      "Investec": 18,
+      "Assurant": 18
     },
     "criteria": [
       {
@@ -6218,12 +6213,6 @@
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
             "componentName": "Body"
-          },
-          {
-            "component": "706:50315",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Title"
           }
         ],
         "rule": "design-contrast",
@@ -6246,10 +6235,6 @@
           {
             "name": "Body",
             "key": "1580:2636"
-          },
-          {
-            "name": "Title",
-            "key": "706:50315"
           }
         ],
         "where": [
@@ -6420,147 +6405,121 @@
             "design": null,
             "target": null,
             "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Title",
-            "componentKey": "706:50315",
-            "brand": "Dragonpass",
-            "variants": [
-              "Size=Hero, Shade=Light",
-              "Size=H1, Shade=Light",
-              "Size=H2, Shade=Light",
-              "Size=H3, Shade=Light",
-              "Size=H4, Shade=Light",
-              "Size=H5, Shade=Light"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Hero, Shade=Light"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Title",
-            "componentKey": "706:50315",
-            "brand": "Mastercard",
-            "variants": [
-              "Size=Hero, Shade=Light",
-              "Size=H1, Shade=Light",
-              "Size=H2, Shade=Light",
-              "Size=H3, Shade=Light",
-              "Size=H4, Shade=Light",
-              "Size=H5, Shade=Light"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Hero, Shade=Light"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Title",
-            "componentKey": "706:50315",
-            "brand": "Investec",
-            "variants": [
-              "Size=Hero, Shade=Light",
-              "Size=H1, Shade=Light",
-              "Size=H2, Shade=Light",
-              "Size=H3, Shade=Light",
-              "Size=H4, Shade=Light",
-              "Size=H5, Shade=Light"
-            ],
-            "status": "warn",
-            "detail": "1.06:1, needs 3:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 3,
-              "fg": "#F8F8F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Hero, Shade=Light"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Title",
-            "componentKey": "706:50315",
-            "brand": "Assurant",
-            "variants": [
-              "Size=Hero, Shade=Light",
-              "Size=H1, Shade=Light",
-              "Size=H2, Shade=Light",
-              "Size=H3, Shade=Light",
-              "Size=H4, Shade=Light",
-              "Size=H5, Shade=Light"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 3:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 3,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Size=Hero, Shade=Light"
-            },
-            "design": null,
-            "target": null,
-            "size": null
           }
         ],
-        "occurrences": 96
+        "occurrences": 72
       }
     ]
   },
   "delta": {
-    "since": "2026-11-25T11:39:02.078Z",
-    "previousScore": 17,
+    "since": "2026-11-25T14:53:02.679Z",
+    "previousScore": 19,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
+        "component": "Home Indicator",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "iPhone Keyboard",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Sheet Topper",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Status Bar",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
         "component": "Text Link",
-        "title": "Figma property \"weight\" has no equivalent in code",
+        "title": "Size values missing in code",
         "category": "Properties",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:13:10.514Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "3096:9618",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Home Indicator"
+        },
+        {
+          "component": "15660:22906",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Sheet Topper"
+        },
+        {
+          "component": "3096:10157",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Status Bar"
+        },
+        {
+          "component": "3553:44797",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "iPhone Keyboard"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:19.851Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "items": [
+        {
+          "component": "706:50315",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Title"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:10.820Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same value, different naming: Figma \"Regular\" vs code \"default\". Not a defect.",
+      "items": [
+        {
+          "component": "1580:2709",
+          "key": "Properties|values:Size",
+          "title": "Size values missing in code",
+          "componentName": "Text Link"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:50:53.332Z",
       "action": "ignore",
