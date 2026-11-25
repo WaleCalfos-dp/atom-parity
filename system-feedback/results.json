@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:21:44.803Z",
-    "durationMs": 153649,
+    "generatedAt": "2026-11-25T14:55:44.144Z",
+    "durationMs": 141991,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:34Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:20:43.249Z",
+      "exportedAt": "2026-11-25T14:54:46.651Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1151:40938",
       "name": "Alert",
       "status": "Drifted",
-      "score": 50,
+      "score": 53,
       "match": "exact",
       "figma": {
         "id": "1151:40938",
@@ -2025,7 +2025,7 @@
           "category": "Properties",
           "subject": "prop:Style",
           "label": "Property \"Style\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Style\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Full Border, Top Border",
@@ -2049,7 +2049,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:51:36.300Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|retired-code:type:error",
@@ -3018,7 +3025,7 @@
       "key": "3581:33620",
       "name": "Dialog",
       "status": "Drifted",
-      "score": 40,
+      "score": 42,
       "match": "exact",
       "figma": {
         "id": "3581:33620",
@@ -3756,7 +3763,7 @@
           "category": "Properties",
           "subject": "prop:Breakpoint",
           "label": "Property \"Breakpoint\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Breakpoint\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Mobile, Desktop",
@@ -3780,14 +3787,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:51:36.300Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign",
@@ -3811,7 +3825,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T14:52:14.363Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -5261,8 +5282,8 @@
     {
       "key": "17148:8917",
       "name": "Loading Modal",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -5571,7 +5592,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: System Feedback/Loading, System Feedback/Modal. Rename it, or add it to components.aliases.",
@@ -5595,7 +5616,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"Loading / Modal\". Not a defect.",
+            "at": "2026-11-25T14:51:48.623Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -5603,8 +5631,8 @@
     {
       "key": "17074:30102",
       "name": "Progress Bar / Animated",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -5719,7 +5747,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ProgressBar. Rename it, or add it to components.aliases.",
@@ -5743,7 +5771,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+            "at": "2026-11-25T14:51:26.043Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -5751,8 +5786,8 @@
     {
       "key": "1685:4000",
       "name": "Progress Bar / Percentage",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -6738,7 +6773,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ProgressBar, Data Display/Tag, Data Display/ProgressSegment. Rename it, or add it to components.aliases.",
@@ -6762,7 +6797,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+            "at": "2026-11-25T14:51:26.043Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6770,8 +6812,8 @@
     {
       "key": "12768:3167",
       "name": "Progress Bar / Steps",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -6808,7 +6850,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
@@ -6832,7 +6874,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+            "at": "2026-11-25T14:52:04.754Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -6840,8 +6889,8 @@
     {
       "key": "12738:392",
       "name": "Progress Bar / Tracker",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -7024,7 +7073,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ProgressBar, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
@@ -7048,7 +7097,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+            "at": "2026-11-25T14:51:26.043Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -7861,7 +7917,7 @@
       "key": "8560:2779",
       "name": "Tooltip",
       "status": "Drifted",
-      "score": 58,
+      "score": 68,
       "match": "exact",
       "figma": {
         "id": "8560:2779",
@@ -8231,7 +8287,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8255,7 +8311,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Icons are passed via prefix/suffix. Not a defect.",
+            "at": "2026-11-25T14:51:57.158Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Show Title",
@@ -8338,7 +8401,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8362,7 +8425,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Icons are passed via prefix/suffix. Not a defect.",
+            "at": "2026-11-25T14:51:57.158Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Tip Direction",
@@ -9243,34 +9313,34 @@
     }
   ],
   "summary": {
-    "score": 24,
-    "headline": "0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.",
+    "score": 46,
+    "headline": "0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.",
     "components": {
       "total": 11,
-      "figma": 11,
+      "figma": 6,
       "paired": 5,
       "aligned": 0,
       "drifted": 5,
       "broken": 0,
-      "missingInCode": 6,
+      "missingInCode": 1,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 5
     },
     "checks": {
       "pass": 29,
-      "warn": 21,
-      "fail": 30
+      "warn": 20,
+      "fail": 21
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
         "warn": 4,
-        "fail": 6
+        "fail": 1
       },
       "Properties": {
         "pass": 0,
-        "warn": 14,
-        "fail": 24
+        "warn": 13,
+        "fail": 20
       },
       "Tokens": {
         "pass": 0,
@@ -9305,12 +9375,12 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 10,
+        "warn": 9,
         "fail": 0
       },
       "Dev": {
         "warn": 6,
-        "fail": 27
+        "fail": 18
       },
       "Both": {
         "warn": 5,
@@ -9318,58 +9388,6 @@
       }
     },
     "themes": [
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Journey Wizard",
-          "Loading Modal",
-          "Progress Bar / Animated",
-          "Progress Bar / Percentage",
-          "Progress Bar / Steps",
-          "Progress Bar / Tracker"
-        ],
-        "items": [
-          {
-            "component": "16012:24876",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Journey Wizard"
-          },
-          {
-            "component": "17148:8917",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Loading Modal"
-          },
-          {
-            "component": "17074:30102",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Progress Bar / Animated"
-          },
-          {
-            "component": "1685:4000",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Progress Bar / Percentage"
-          },
-          {
-            "component": "12768:3167",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Progress Bar / Steps"
-          },
-          {
-            "component": "12738:392",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Progress Bar / Tracker"
-          }
-        ]
-      },
       {
         "category": "Properties",
         "title": "Figma property missing in code",
@@ -9405,12 +9423,6 @@
             "component": "1151:40938",
             "key": "Properties|prop:Show Close Icon",
             "title": "Figma property \"Show Close Icon\" has no equivalent in code",
-            "componentName": "Alert"
-          },
-          {
-            "component": "1151:40938",
-            "key": "Properties|prop:Style",
-            "title": "Figma property \"Style\" has no equivalent in code",
             "componentName": "Alert"
           },
           {
@@ -9468,12 +9480,6 @@
             "componentName": "Dialog"
           },
           {
-            "component": "3581:33620",
-            "key": "Properties|prop:Breakpoint",
-            "title": "Figma property \"Breakpoint\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
             "component": "15577:80832",
             "key": "Properties|prop:Type",
             "title": "Figma property \"Type\" has no equivalent in code",
@@ -9490,18 +9496,6 @@
             "key": "Properties|prop:Lines of Text",
             "title": "Figma property \"Lines of Text\" has no equivalent in code",
             "componentName": "Toast"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Tooltip"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Properties|prop:Show Icon Right",
-            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-            "componentName": "Tooltip"
           },
           {
             "component": "8560:2779",
@@ -9543,13 +9537,29 @@
         ]
       },
       {
+        "category": "Naming",
+        "title": "Not built in Storybook",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Journey Wizard"
+        ],
+        "items": [
+          {
+            "component": "16012:24876",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Journey Wizard"
+          }
+        ]
+      },
+      {
         "category": "Properties",
         "title": "Code has props with no Figma property",
         "status": "warn",
         "owner": "Design",
         "components": [
           "Alert",
-          "Dialog",
           "Loading Indicator",
           "Toast",
           "Tooltip"
@@ -9560,12 +9570,6 @@
             "key": "Properties|code-only",
             "title": "Code has props with no Figma property",
             "componentName": "Alert"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|code-only",
-            "title": "Code has props with no Figma property",
-            "componentName": "Dialog"
           },
           {
             "component": "15577:80832",
@@ -9782,6 +9786,19 @@
         "github": null
       },
       {
+        "component": "Alert",
+        "componentKey": "1151:40938",
+        "key": "Properties|prop:Style",
+        "category": "Properties",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:51:36.300Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Dialog",
         "componentKey": "3581:33620",
         "key": "Naming|prop:Show Title",
@@ -9791,6 +9808,32 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
         "at": "2026-11-25T07:07:18.399Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|prop:Breakpoint",
+        "category": "Properties",
+        "title": "Figma property \"Breakpoint\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:51:36.300Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T14:52:14.363Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9808,6 +9851,71 @@
         "github": null
       },
       {
+        "component": "Loading Modal",
+        "componentKey": "17148:8917",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"Loading / Modal\". Not a defect.",
+        "at": "2026-11-25T14:51:48.623Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Progress Bar / Animated",
+        "componentKey": "17074:30102",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+        "at": "2026-11-25T14:51:26.043Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Progress Bar / Percentage",
+        "componentKey": "1685:4000",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+        "at": "2026-11-25T14:51:26.043Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Progress Bar / Steps",
+        "componentKey": "12768:3167",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+        "at": "2026-11-25T14:52:04.754Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Progress Bar / Tracker",
+        "componentKey": "12738:392",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+        "at": "2026-11-25T14:51:26.043Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Toast",
         "componentKey": "7839:97889",
         "key": "Naming|prop:Status",
@@ -9817,6 +9925,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
         "at": "2026-11-25T07:07:38.437Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Icons are passed via prefix/suffix. Not a defect.",
+        "at": "2026-11-25T14:51:57.158Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9843,6 +9964,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
         "at": "2026-11-25T07:09:10.572Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Icons are passed via prefix/suffix. Not a defect.",
+        "at": "2026-11-25T14:51:57.158Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9950,19 +10084,6 @@
         "title": "\"Error\" is a retired term",
         "detail": "Use \"danger\" instead (Status)",
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Alert",
-        "componentKey": "1151:40938",
-        "key": "Properties|prop:Style",
-        "category": "Properties",
-        "subject": "prop:Style",
-        "status": "fail",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "detail": "Values: Full Border, Top Border",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -10151,32 +10272,6 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
-        "key": "Properties|prop:Breakpoint",
-        "category": "Properties",
-        "subject": "prop:Breakpoint",
-        "status": "fail",
-        "title": "Figma property \"Breakpoint\" has no equivalent in code",
-        "detail": "Values: Mobile, Desktop",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
         "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
@@ -10249,71 +10344,6 @@
         "title": "2 of 2 variants can't be shown in code",
         "detail": "Type=Spinner, Type=Skeleton",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Loading Modal",
-        "componentKey": "17148:8917",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: System Feedback/Loading, System Feedback/Modal. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Progress Bar / Animated",
-        "componentKey": "17074:30102",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/ProgressBar. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Progress Bar / Percentage",
-        "componentKey": "1685:4000",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/ProgressBar, Data Display/Tag, Data Display/ProgressSegment. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Progress Bar / Steps",
-        "componentKey": "12768:3167",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Progress Bar / Tracker",
-        "componentKey": "12738:392",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/ProgressBar, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -10431,32 +10461,6 @@
         "title": "10 of 10 variants can't be shown in code",
         "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "subject": "prop:Show Icon Right",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -11025,20 +11029,196 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:12:30.908Z",
-    "previousScore": 23,
+    "since": "2026-11-25T11:21:44.803Z",
+    "previousScore": 24,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
         "component": "Alert",
-        "title": "Figma \"Status\" is \"type\" in code",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Dialog",
+        "title": "Figma property \"Breakpoint\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Loading Modal",
+        "title": "Not found in Storybook",
         "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Progress Bar / Animated",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Progress Bar / Percentage",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Progress Bar / Steps",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Progress Bar / Tracker",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Tooltip",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Tooltip",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:52:14.363Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "3581:33620",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Dialog"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:52:04.754Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+      "items": [
+        {
+          "component": "12768:3167",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Progress Bar / Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:57.158Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Icons are passed via prefix/suffix. Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Tooltip"
+        },
+        {
+          "component": "8560:2779",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Tooltip"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:48.623Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Loading / Modal\". Not a defect.",
+      "items": [
+        {
+          "component": "17148:8917",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Loading Modal"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:36.300Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Breakpoint",
+          "title": "Figma property \"Breakpoint\" has no equivalent in code",
+          "componentName": "Dialog"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:26.043Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+      "items": [
+        {
+          "component": "17074:30102",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Progress Bar / Animated"
+        },
+        {
+          "component": "1685:4000",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Progress Bar / Percentage"
+        },
+        {
+          "component": "12738:392",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Progress Bar / Tracker"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:16:46.517Z",
       "action": "ignore",

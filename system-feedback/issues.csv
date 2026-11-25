@@ -48,13 +48,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-figma","Atom Design System"
-"[Atom parity] Alert: Figma property ""Style"" has no equivalent in code","Values: Full Border, Top Border
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Alert: ""error"" is a retired term in code","Use ""danger"" instead (type)
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
@@ -153,20 +146,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Dialog: Figma property ""Breakpoint"" has no equivalent in code","Values: Mobile, Desktop
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Dialog: Code has props with no Figma property","content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-dialog--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-3581%3A33620
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Dialog: 10 of 10 variants can't be shown in code","Type=Critical, Status=Error, Breakpoint=Mobile, Type=Customizable, Status=Info, Status=Warning, Status=Success, Breakpoint=Desktop
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3581-33620
@@ -206,36 +185,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Loading Modal: Not found in Storybook","Possible matches: System Feedback/Loading, System Feedback/Modal. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17148-8917
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-17148%3A8917
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Progress Bar / Animated: Not found in Storybook","Possible matches: Data Display/ProgressBar. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17074-30102
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-17074%3A30102
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Progress Bar / Percentage: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/Tag, Data Display/ProgressSegment. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1685-4000
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1685%3A4000
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Progress Bar / Steps: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12768-3167
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-12768%3A3167
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Progress Bar / Tracker: Not found in Storybook","Possible matches: Data Display/ProgressBar, Data Display/ProgressCircle. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=12738-392
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-12738%3A392
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] Toast: No description in Figma","Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=7839-97889
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-toast--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
@@ -297,20 +246,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-7839%3A97889
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Tooltip: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Tooltip: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Tooltip: Tip Direction values missing in code","Missing in code: Down, Up · Only in code: top, bottom
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:54:14.985Z",
+  "generatedAt": "2026-11-25T14:55:51.388Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T11:21:44.803Z",
+      "ranAt": "2026-11-25T14:55:44.144Z",
       "ok": true,
       "history": [
         {
@@ -325,6 +325,10 @@
         {
           "at": "2026-11-25T11:21:44.803Z",
           "score": 24
+        },
+        {
+          "at": "2026-11-25T14:55:44.144Z",
+          "score": 46
         }
       ],
       "preview": null,
@@ -332,12 +336,12 @@
         {
           "name": "Alert",
           "status": "Drifted",
-          "score": 50
+          "score": 53
         },
         {
           "name": "Dialog",
           "status": "Drifted",
-          "score": 40
+          "score": 42
         },
         {
           "name": "Journey Wizard",
@@ -351,28 +355,28 @@
         },
         {
           "name": "Loading Modal",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Progress Bar / Animated",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Progress Bar / Percentage",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Progress Bar / Steps",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Progress Bar / Tracker",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Toast",
@@ -382,35 +386,35 @@
         {
           "name": "Tooltip",
           "status": "Drifted",
-          "score": 58
+          "score": 68
         }
       ],
-      "score": 24,
-      "headline": "0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.",
+      "score": 46,
+      "headline": "0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.",
       "counts": {
         "total": 11,
-        "figma": 11,
+        "figma": 6,
         "paired": 5,
         "aligned": 0,
         "drifted": 5,
         "broken": 0,
-        "missingInCode": 6,
+        "missingInCode": 1,
         "missingInDesign": 0,
-        "ignored": 0
+        "ignored": 5
       },
-      "previousScore": 23,
+      "previousScore": 24,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 9,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Not built in Storybook",
         "Figma property missing in code",
-        "Property values missing in code"
+        "Property values missing in code",
+        "Not built in Storybook"
       ],
-      "ignored": 8,
+      "ignored": 18,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
@@ -435,10 +439,6 @@
             "owner": "Design"
           }
         ]
-      },
-      "stale": {
-        "at": "2026-11-25T14:54:07.775Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
