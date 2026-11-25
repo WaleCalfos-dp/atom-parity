@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:45:47.904Z",
-    "durationMs": 97156,
+    "generatedAt": "2026-11-25T07:08:42.751Z",
+    "durationMs": 84648,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-24T12:40:08Z"
+        "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-24T12:44:44.433Z",
+      "exportedAt": "2026-11-25T07:07:49.043Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "8469:708",
       "name": "Lightbox Image Viewer",
       "status": "Drifted",
-      "score": 30,
+      "score": 33,
       "match": "alias",
       "figma": {
         "id": "8469:708",
@@ -1484,7 +1484,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -1508,7 +1508,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component, different naming: Figma \"Lightbox Image Viewer\" vs Storybook \"ImageViewer\". Not a defect.",
+            "at": "2026-11-25T07:06:57.402Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Documentation|docs-code",
@@ -1856,7 +1863,7 @@
     }
   ],
   "summary": {
-    "score": 15,
+    "score": 17,
     "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
     "components": {
       "total": 2,
@@ -1872,13 +1879,13 @@
     "checks": {
       "pass": 2,
       "warn": 2,
-      "fail": 7
+      "fail": 6
     },
     "byCategory": {
       "Naming": {
         "pass": 0,
         "warn": 0,
-        "fail": 2
+        "fail": 1
       },
       "Properties": {
         "pass": 0,
@@ -1927,27 +1934,10 @@
       },
       "Both": {
         "warn": 1,
-        "fail": 1
+        "fail": 0
       }
     },
     "themes": [
-      {
-        "category": "Naming",
-        "title": "Component named differently in Figma and Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Lightbox Image Viewer"
-        ],
-        "items": [
-          {
-            "component": "8469:708",
-            "key": "Naming|name",
-            "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
-            "componentName": "Lightbox Image Viewer"
-          }
-        ]
-      },
       {
         "category": "Properties",
         "title": "Figma property missing in code",
@@ -2045,22 +2035,23 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
-    "ignored": [],
-    "brokenComponents": [],
-    "issues": [
+    "ignored": [
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
-        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "was": "fail",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
+        "reason": "Same component, different naming: Figma \"Lightbox Image Viewer\" vs Storybook \"ImageViewer\". Not a defect.",
+        "at": "2026-11-25T07:06:57.402Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
@@ -2521,10 +2512,35 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-24T11:33:11.728Z",
+    "since": "2026-11-24T12:45:47.904Z",
     "previousScore": 15,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Lightbox Image Viewer",
+        "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-25T07:06:57.402Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Lightbox Image Viewer\" vs Storybook \"ImageViewer\". Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Naming|name",
+          "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
+    }
+  ]
 }

@@ -1,22 +1,15 @@
 "Summary","Description","Issue Type","Priority","Labels","Component/s"
-"[Atom parity] Lightbox Image Viewer: Figma ""Lightbox Image Viewer"" is ""ImageViewer"" in Storybook","Rename one side so any developer can map code to the design system immediately.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8469-708
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/images-imageviewer--usage
-Report: https://walecalfos-dp.github.io/atom-parity/images/#c-8469%3A708
-
-Found by atom-parity on 2026-11-24","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Lightbox Image Viewer: Code has props with no Figma property","images, showCloseIcon, showDefaultFooter, customCloseIcon, closeIconClassName, visible, defaultIndex
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8469-708
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/images-imageviewer--usage
 Report: https://walecalfos-dp.github.io/atom-parity/images/#c-8469%3A708
 
-Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Lightbox Image Viewer: 3 of 3 variants can't be shown in code","Breakpoint=Desktop, Breakpoint=Tablet, Breakpoint=Mobile
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8469-708
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/images-imageviewer--usage
 Report: https://walecalfos-dp.github.io/atom-parity/images/#c-8469%3A708
 
-Found by atom-parity on 2026-11-24","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
