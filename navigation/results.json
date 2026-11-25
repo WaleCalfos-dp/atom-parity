@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:19:58.458Z",
-    "durationMs": 145526,
+    "generatedAt": "2026-11-25T07:13:04.601Z",
+    "durationMs": 156679,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-25T07:19:02.429Z",
+      "exportedAt": "2026-11-25T07:12:01.603Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3097,7 +3097,7 @@
       "key": "781:17271",
       "name": "Bottom Navigation",
       "status": "Drifted",
-      "score": 67,
+      "score": 57,
       "match": "alias",
       "figma": {
         "id": "781:17271",
@@ -3169,7 +3169,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -3193,14 +3193,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Same component, different naming: Figma \"Bottom Navigation\" vs Storybook \"TabBar\". Not a defect.",
-            "at": "2026-11-25T07:16:32.381Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Naming|group",
@@ -5560,7 +5553,7 @@
     }
   ],
   "summary": {
-    "score": 37,
+    "score": 36,
     "headline": "0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.",
     "components": {
       "total": 7,
@@ -5576,13 +5569,13 @@
     "checks": {
       "pass": 21,
       "warn": 20,
-      "fail": 32
+      "fail": 33
     },
     "byCategory": {
       "Naming": {
         "pass": 8,
         "warn": 1,
-        "fail": 3
+        "fail": 4
       },
       "Properties": {
         "pass": 2,
@@ -5631,7 +5624,7 @@
       },
       "Both": {
         "warn": 6,
-        "fail": 1
+        "fail": 2
       }
     },
     "themes": [
@@ -5814,6 +5807,30 @@
       },
       {
         "category": "Naming",
+        "title": "Component named differently in Figma and Storybook",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "App Header",
+          "Bottom Navigation"
+        ],
+        "items": [
+          {
+            "component": "3156:2880",
+            "key": "Naming|name",
+            "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
+            "componentName": "App Header"
+          },
+          {
+            "component": "781:17271",
+            "key": "Naming|name",
+            "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
+            "componentName": "Bottom Navigation"
+          }
+        ]
+      },
+      {
+        "category": "Naming",
         "title": "Not built in Storybook",
         "status": "fail",
         "owner": "Dev",
@@ -5833,23 +5850,6 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Web Header"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Component named differently in Figma and Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "App Header"
-        ],
-        "items": [
-          {
-            "component": "3156:2880",
-            "key": "Naming|name",
-            "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
-            "componentName": "App Header"
           }
         ]
       },
@@ -6048,21 +6048,7 @@
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Documentation"
     ],
-    "ignored": [
-      {
-        "component": "Bottom Navigation",
-        "componentKey": "781:17271",
-        "key": "Naming|name",
-        "category": "Naming",
-        "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
-        "was": "fail",
-        "owner": "Both",
-        "reason": "Same component, different naming: Figma \"Bottom Navigation\" vs Storybook \"TabBar\". Not a defect.",
-        "at": "2026-11-25T07:16:32.381Z",
-        "by": "frontenddev.ai",
-        "github": null
-      }
-    ],
+    "ignored": [],
     "brokenComponents": [
       {
         "name": "App Header",
@@ -6389,6 +6375,19 @@
           "Dragonpass"
         ],
         "variants": 1
+      },
+      {
+        "component": "Bottom Navigation",
+        "componentKey": "781:17271",
+        "key": "Naming|name",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
+        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "owner": "Both",
+        "brands": [],
+        "variants": 0
       },
       {
         "component": "Bottom Navigation",
@@ -7321,35 +7320,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:13:04.601Z",
+    "since": "2026-11-24T12:44:10.721Z",
     "previousScore": 36,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Bottom Navigation",
-        "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
-  "activity": [
-    {
-      "at": "2026-11-25T07:16:32.381Z",
-      "action": "ignore",
-      "check": "navigation",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component, different naming: Figma \"Bottom Navigation\" vs Storybook \"TabBar\". Not a defect.",
-      "items": [
-        {
-          "component": "781:17271",
-          "key": "Naming|name",
-          "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
-          "componentName": "Bottom Navigation"
-        }
-      ]
-    }
-  ]
+  "activity": []
 }

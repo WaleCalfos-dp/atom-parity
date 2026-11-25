@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:20:30.138Z",
+  "generatedAt": "2026-11-25T07:20:32.787Z",
   "entries": [
     {
       "id": "actions",
@@ -985,7 +985,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T07:19:58.458Z",
+      "ranAt": "2026-11-25T07:13:04.601Z",
       "ok": true,
       "history": [
         {
@@ -1063,10 +1063,6 @@
         {
           "at": "2026-11-25T07:13:04.601Z",
           "score": 36
-        },
-        {
-          "at": "2026-11-25T07:19:58.458Z",
-          "score": 37
         }
       ],
       "preview": null,
@@ -1079,7 +1075,7 @@
         {
           "name": "Bottom Navigation",
           "status": "Drifted",
-          "score": 67
+          "score": 57
         },
         {
           "name": "Breadcrumbs",
@@ -1107,7 +1103,7 @@
           "score": 0
         }
       ],
-      "score": 37,
+      "score": 36,
       "headline": "0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.",
       "counts": {
         "total": 7,
@@ -1122,17 +1118,17 @@
       },
       "previousScore": 36,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
         "Figma property missing in code",
-        "Not built in Storybook",
-        "Component named differently in Figma and Storybook"
+        "Component named differently in Figma and Storybook",
+        "Not built in Storybook"
       ],
-      "ignored": 1,
+      "ignored": 0,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "NAVIGATION",
@@ -1162,6 +1158,10 @@
             "owner": "Design"
           }
         ]
+      },
+      "stale": {
+        "at": "2026-11-25T07:20:25.143Z",
+        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {

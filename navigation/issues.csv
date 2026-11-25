@@ -173,6 +173,13 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-3156%3A2880
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-accessibility fix-in-figma","Atom Design System"
+"[Atom parity] Bottom Navigation: Figma ""Bottom Navigation"" is ""TabBar"" in Storybook","Rename one side so any developer can map code to the design system immediately.
+
+Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=781-17271
+Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-tabbar--usage
+Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-781%3A17271
+
+Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Bottom Navigation: Figma property ""Count"" has no equivalent in code","Values: 3, 4, 5
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=781-17271
