@@ -2254,6 +2254,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T15:13:10.514Z"
+    },
+    {
+      "check": "layout",
+      "component": "3211:21394",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Overlay",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:15:40.999Z"
     }
   ]
 }
