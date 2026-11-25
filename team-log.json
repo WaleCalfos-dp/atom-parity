@@ -1867,6 +1867,34 @@
           "componentName": "Divider"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:48:16.626Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:footer-links",
+          "title": "Figma property \"footer-links\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:social-icons",
+          "title": "Figma property \"social-icons\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "1491:5016",
+          "key": "Properties|prop:container",
+          "title": "Figma property \"container\" has no equivalent in code",
+          "componentName": "Tabs"
+        }
+      ]
     }
   ]
 }

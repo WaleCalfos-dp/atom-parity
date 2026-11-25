@@ -1231,6 +1231,39 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:48:11.332Z"
+    },
+    {
+      "check": "navigation",
+      "component": "15169:84760",
+      "key": "Properties|prop:footer-links",
+      "title": "Figma property \"footer-links\" has no equivalent in code",
+      "componentName": "Footer",
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:16.626Z"
+    },
+    {
+      "check": "navigation",
+      "component": "15169:84760",
+      "key": "Properties|prop:social-icons",
+      "title": "Figma property \"social-icons\" has no equivalent in code",
+      "componentName": "Footer",
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:16.626Z"
+    },
+    {
+      "check": "navigation",
+      "component": "1491:5016",
+      "key": "Properties|prop:container",
+      "title": "Figma property \"container\" has no equivalent in code",
+      "componentName": "Tabs",
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:16.626Z"
     }
   ]
 }
