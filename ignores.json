@@ -1770,6 +1770,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:50:25.423Z"
+    },
+    {
+      "check": "product-modules",
+      "component": "13192:28371",
+      "key": "Properties|prop:Type",
+      "title": "Figma property \"Type\" has no equivalent in code",
+      "componentName": "Transport / Promotion Panel",
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:50:39.579Z"
     }
   ]
 }
