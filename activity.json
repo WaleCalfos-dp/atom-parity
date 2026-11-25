@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-11-25T07:09:13.831Z",
+  "generatedAt": "2026-11-25T07:09:09.825Z",
   "log": [
-    {
-      "at": "2026-11-25T07:07:18.399Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
-      "items": [
-        {
-          "component": "3581:33620",
-          "key": "Naming|prop:Show Title",
-          "title": "Figma \"Show Title\" is \"title\" in code",
-          "componentName": "Dialog"
-        }
-      ],
-      "checkName": "System feedback"
-    },
     {
       "at": "2026-11-25T07:07:10.607Z",
       "action": "ignore",
