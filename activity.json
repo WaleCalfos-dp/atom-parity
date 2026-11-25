@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T07:19:58.506Z",
+  "generatedAt": "2026-11-25T07:20:06.031Z",
   "log": [
+    {
+      "at": "2026-11-25T07:17:04.782Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Body\" vs Storybook \"Text\". Not a defect.",
+      "items": [
+        {
+          "component": "1580:2636",
+          "key": "Naming|name",
+          "title": "Figma \"Body\" is \"Text\" in Storybook",
+          "componentName": "Body"
+        }
+      ],
+      "checkName": "System and typography"
+    },
     {
       "at": "2026-11-25T07:16:46.517Z",
       "action": "ignore",

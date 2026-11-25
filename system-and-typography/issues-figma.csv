@@ -1,11 +1,4 @@
 "Summary","Description","Issue Type","Priority","Labels","Component/s"
-"[Atom parity] Body: Figma ""Body"" is ""Text"" in Storybook","Rename one side so any developer can map code to the design system immediately.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Body: Size values missing in code","Missing in code: Caption (closest: caption-small), Micro (closest: caption-micro) · Only in code: caption-small, caption-micro
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636

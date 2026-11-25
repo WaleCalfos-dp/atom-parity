@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:20:05.496Z",
+  "generatedAt": "2026-11-25T07:20:12.611Z",
   "entries": [
     {
       "id": "actions",
@@ -1309,7 +1309,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T07:18:25.324Z",
+      "ranAt": "2026-11-25T07:20:05.999Z",
       "ok": true,
       "history": [
         {
@@ -1385,7 +1385,7 @@
           "score": 16
         },
         {
-          "at": "2026-11-25T07:18:25.324Z",
+          "at": "2026-11-25T07:20:05.999Z",
           "score": 17
         }
       ],
@@ -1394,7 +1394,7 @@
         {
           "name": "Body",
           "status": "Drifted",
-          "score": 50
+          "score": 55
         },
         {
           "name": "Home Indicator",
@@ -1442,7 +1442,7 @@
       },
       "previousScore": 16,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 2,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1452,7 +1452,7 @@
         "Property values missing in code",
         "Figma property missing in code"
       ],
-      "ignored": 1,
+      "ignored": 2,
       "place": {
         "group": "OTHER",
         "section": null,
