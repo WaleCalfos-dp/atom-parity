@@ -959,6 +959,22 @@
           "componentName": "Tooltip"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:09:29.649Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Naming|prop:Style",
+          "title": "Figma \"Style\" is \"variant\" in code",
+          "componentName": "Stepper"
+        }
+      ]
     }
   ]
 }
