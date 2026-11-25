@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:51:03.820Z",
+  "generatedAt": "2026-11-25T14:50:48.428Z",
   "log": [
-    {
-      "at": "2026-11-25T14:49:27.218Z",
-      "action": "ignore",
-      "check": "patterns",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component under a different name: code \"PayCard\". Not a defect.",
-      "items": [
-        {
-          "component": "15695:14328",
-          "key": "Naming|name",
-          "title": "Not found in Storybook",
-          "componentName": "Payment Card"
-        }
-      ],
-      "checkName": "Patterns"
-    },
     {
       "at": "2026-11-25T14:49:11.853Z",
       "action": "ignore",
