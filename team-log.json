@@ -1151,6 +1151,22 @@
           "componentName": "App Header"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:21:08.999Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"finishIconType\" in code",
+          "componentName": "Steps"
+        }
+      ]
     }
   ]
 }

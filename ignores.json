@@ -342,17 +342,6 @@
       "at": "2026-11-25T07:17:04.782Z"
     },
     {
-      "check": "data-display",
-      "component": "1658:46512",
-      "key": "Naming|prop:Type",
-      "title": "Figma \"Type\" is \"finishIconType\" in code",
-      "componentName": "Steps",
-      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-      "by": "frontenddev.ai",
-      "github": null,
-      "at": "2026-11-25T07:19:46.334Z"
-    },
-    {
       "check": "navigation",
       "component": "3156:2880",
       "key": "Naming|name",
@@ -362,6 +351,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:19:52.527Z"
+    },
+    {
+      "check": "data-display",
+      "component": "1658:46512",
+      "key": "Naming|prop:Type",
+      "title": "Figma \"Type\" is \"finishIconType\" in code",
+      "componentName": "Steps",
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:21:08.999Z"
     }
   ]
 }
