@@ -1,6 +1,103 @@
 {
-  "generatedAt": "2026-11-25T14:53:16.660Z",
+  "generatedAt": "2026-11-25T14:53:27.923Z",
   "log": [
+    {
+      "at": "2026-11-25T14:50:59.388Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T14:50:53.332Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "1580:2709",
+          "key": "Properties|prop:weight",
+          "title": "Figma property \"weight\" has no equivalent in code",
+          "componentName": "Text Link"
+        }
+      ],
+      "checkName": "System and typography"
+    },
+    {
+      "at": "2026-11-25T14:50:39.579Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Type",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T14:50:25.423Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Tokens|token:Horizontal padding",
+          "title": "Horizontal padding uses the design token under a different name",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Tokens|token:Vertical padding",
+          "title": "Vertical padding uses the design token under a different name",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T14:50:09.938Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
     {
       "at": "2026-11-25T14:49:51.372Z",
       "action": "ignore",
