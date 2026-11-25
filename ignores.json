@@ -1891,6 +1891,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:51:48.623Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "8560:2779",
+      "key": "Properties|prop:Show Icon Left",
+      "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+      "componentName": "Tooltip",
+      "reason": "Icons are passed via prefix/suffix. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:57.158Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "8560:2779",
+      "key": "Properties|prop:Show Icon Right",
+      "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+      "componentName": "Tooltip",
+      "reason": "Icons are passed via prefix/suffix. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:57.158Z"
     }
   ]
 }
