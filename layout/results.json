@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:31:44.978Z",
-    "durationMs": 131807,
+    "generatedAt": "2026-11-25T15:17:57.343Z",
+    "durationMs": 104961,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:30:11.077Z",
+      "exportedAt": "2026-11-25T15:16:40.873Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "3058:1805",
       "name": "Divider",
       "status": "Drifted",
-      "score": 63,
+      "score": 83,
       "match": "exact",
       "figma": {
         "id": "3058:1805",
@@ -1575,7 +1575,7 @@
           "category": "Properties",
           "subject": "prop:Style",
           "label": "Property \"Style\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Style\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Solid, Dashed",
@@ -1599,14 +1599,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:48:11.332Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Subtle",
           "category": "Properties",
           "subject": "prop:Subtle",
           "label": "Property \"Subtle\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Subtle\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: No, Yes",
@@ -1630,7 +1637,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:48:11.332Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -1702,8 +1716,8 @@
     {
       "key": "3211:21394",
       "name": "Overlay",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -1724,7 +1738,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -1748,41 +1762,48 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T15:15:40.999Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
     }
   ],
   "summary": {
-    "score": 32,
-    "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
+    "score": 83,
+    "headline": "0 of 1 Figma components match Storybook. 1 has drifted.",
     "components": {
       "total": 2,
-      "figma": 2,
+      "figma": 1,
       "paired": 1,
       "aligned": 0,
       "drifted": 1,
       "broken": 0,
-      "missingInCode": 1,
+      "missingInCode": 0,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 1
     },
     "checks": {
       "pass": 4,
       "warn": 2,
-      "fail": 3
+      "fail": 0
     },
     "byCategory": {
       "Naming": {
         "pass": 2,
         "warn": 0,
-        "fail": 1
+        "fail": 0
       },
       "Properties": {
         "pass": 0,
         "warn": 2,
-        "fail": 2
+        "fail": 0
       },
       "Tokens": {
         "pass": 0,
@@ -1822,7 +1843,7 @@
       },
       "Dev": {
         "warn": 0,
-        "fail": 3
+        "fail": 0
       },
       "Both": {
         "warn": 1,
@@ -1830,46 +1851,6 @@
       }
     },
     "themes": [
-      {
-        "category": "Properties",
-        "title": "Figma property missing in code",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Divider"
-        ],
-        "items": [
-          {
-            "component": "3058:1805",
-            "key": "Properties|prop:Style",
-            "title": "Figma property \"Style\" has no equivalent in code",
-            "componentName": "Divider"
-          },
-          {
-            "component": "3058:1805",
-            "key": "Properties|prop:Subtle",
-            "title": "Figma property \"Subtle\" has no equivalent in code",
-            "componentName": "Divider"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Overlay"
-        ],
-        "items": [
-          {
-            "component": "3211:21394",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Overlay"
-          }
-        ]
-      },
       {
         "category": "Properties",
         "title": "Code has props with no Figma property",
@@ -1907,37 +1888,51 @@
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
-      "No failures in: Documentation"
+      "No failures in: Naming, Properties, Documentation"
     ],
-    "ignored": [],
-    "brokenComponents": [],
-    "issues": [
+    "ignored": [
       {
         "component": "Divider",
         "componentKey": "3058:1805",
         "key": "Properties|prop:Style",
         "category": "Properties",
-        "subject": "prop:Style",
-        "status": "fail",
         "title": "Figma property \"Style\" has no equivalent in code",
-        "detail": "Values: Solid, Dashed",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:48:11.332Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Divider",
         "componentKey": "3058:1805",
         "key": "Properties|prop:Subtle",
         "category": "Properties",
-        "subject": "prop:Subtle",
-        "status": "fail",
         "title": "Figma property \"Subtle\" has no equivalent in code",
-        "detail": "Values: No, Yes",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:48:11.332Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
+      {
+        "component": "Overlay",
+        "componentKey": "3211:21394",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T15:15:40.999Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
       {
         "component": "Divider",
         "componentKey": "3058:1805",
@@ -1961,19 +1956,6 @@
         "title": "4 of 4 variants can't be shown in code",
         "detail": "Style=Solid, Subtle=No, Subtle=Yes, Style=Dashed",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Overlay",
-        "componentKey": "3211:21394",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       }
@@ -2333,10 +2315,71 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-24T12:41:35.538Z",
+    "since": "2026-11-25T11:31:44.978Z",
     "previousScore": 32,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Divider",
+        "title": "Figma property \"Style\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Divider",
+        "title": "Figma property \"Subtle\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Overlay",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-25T15:15:40.999Z",
+      "action": "ignore",
+      "check": "layout",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "3211:21394",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Overlay"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:48:11.332Z",
+      "action": "ignore",
+      "check": "layout",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "3058:1805",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Divider"
+        },
+        {
+          "component": "3058:1805",
+          "key": "Properties|prop:Subtle",
+          "title": "Figma property \"Subtle\" has no equivalent in code",
+          "componentName": "Divider"
+        }
+      ]
+    }
+  ]
 }

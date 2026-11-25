@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T15:14:37.410Z",
+  "generatedAt": "2026-11-25T15:17:57.801Z",
   "entries": [
     {
       "id": "actions",
@@ -857,7 +857,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T11:31:44.978Z",
+      "ranAt": "2026-11-25T15:17:57.343Z",
       "ok": true,
       "history": [
         {
@@ -935,6 +935,10 @@
         {
           "at": "2026-11-25T11:31:44.978Z",
           "score": 32
+        },
+        {
+          "at": "2026-11-25T15:17:57.343Z",
+          "score": 83
         }
       ],
       "preview": null,
@@ -942,40 +946,39 @@
         {
           "name": "Divider",
           "status": "Drifted",
-          "score": 63
+          "score": 83
         },
         {
           "name": "Overlay",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         }
       ],
-      "score": 32,
-      "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
+      "score": 83,
+      "headline": "0 of 1 Figma components match Storybook. 1 has drifted.",
       "counts": {
         "total": 2,
-        "figma": 2,
+        "figma": 1,
         "paired": 1,
         "aligned": 0,
         "drifted": 1,
         "broken": 0,
-        "missingInCode": 1,
+        "missingInCode": 0,
         "missingInDesign": 0,
-        "ignored": 0
+        "ignored": 1
       },
       "previousScore": 32,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 3,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Figma property missing in code",
-        "Not built in Storybook",
-        "Code has props with no Figma property"
+        "Code has props with no Figma property",
+        "4 of 4 variants can't be shown in code"
       ],
-      "ignored": 0,
+      "ignored": 3,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "LAYOUT",
@@ -994,10 +997,6 @@
         "scans": 0,
         "designChecks": 0,
         "top": []
-      },
-      "stale": {
-        "at": "2026-11-25T14:50:24.082Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {

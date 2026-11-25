@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T15:14:37.095Z",
+  "generatedAt": "2026-11-25T15:17:57.369Z",
   "log": [
+    {
+      "at": "2026-11-25T15:15:40.999Z",
+      "action": "ignore",
+      "check": "layout",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "3211:21394",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Overlay"
+        }
+      ],
+      "checkName": "Layout"
+    },
     {
       "at": "2026-11-25T15:13:10.514Z",
       "action": "ignore",
