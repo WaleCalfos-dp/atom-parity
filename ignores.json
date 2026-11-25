@@ -956,6 +956,39 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:45:57.886Z"
+    },
+    {
+      "check": "data-display",
+      "component": "4205:24535",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Data Group",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:05.992Z"
+    },
+    {
+      "check": "data-display",
+      "component": "7653:2736",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Module Node",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:05.992Z"
+    },
+    {
+      "check": "data-display",
+      "component": "399:5505",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Slot",
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:05.992Z"
     }
   ]
 }
