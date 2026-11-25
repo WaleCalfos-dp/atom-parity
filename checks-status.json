@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:57:12.621Z",
+  "generatedAt": "2026-11-25T15:01:38.654Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:57:05.711Z",
+      "ranAt": "2026-11-25T15:01:38.248Z",
       "ok": true,
       "history": [
         {
@@ -329,6 +329,10 @@
         {
           "at": "2026-11-25T14:57:05.711Z",
           "score": 38
+        },
+        {
+          "at": "2026-11-25T15:01:38.248Z",
+          "score": 52
         }
       ],
       "preview": null,
@@ -336,12 +340,12 @@
         {
           "name": "Alert",
           "status": "Drifted",
-          "score": 53
+          "score": 65
         },
         {
           "name": "Dialog",
           "status": "Drifted",
-          "score": 42
+          "score": 58
         },
         {
           "name": "Journey Wizard",
@@ -370,8 +374,8 @@
         },
         {
           "name": "Progress Bar / Steps",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Progress Bar / Tracker",
@@ -381,30 +385,30 @@
         {
           "name": "Toast",
           "status": "Drifted",
-          "score": 54
+          "score": 58
         },
         {
           "name": "Tooltip",
           "status": "Drifted",
-          "score": 58
+          "score": 70
         }
       ],
-      "score": 38,
-      "headline": "0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.",
+      "score": 52,
+      "headline": "0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.",
       "counts": {
         "total": 11,
-        "figma": 7,
+        "figma": 6,
         "paired": 5,
         "aligned": 0,
         "drifted": 5,
         "broken": 0,
-        "missingInCode": 2,
+        "missingInCode": 1,
         "missingInDesign": 0,
-        "ignored": 4
+        "ignored": 5
       },
-      "previousScore": 24,
+      "previousScore": 38,
       "newFails": 0,
-      "fixed": 6,
+      "fixed": 12,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -414,7 +418,7 @@
         "Property values missing in code",
         "Not built in Storybook"
       ],
-      "ignored": 14,
+      "ignored": 28,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
@@ -422,23 +426,17 @@
       },
       "a11y": {
         "ran": true,
-        "total": 1,
+        "total": 0,
         "counts": {
           "critical": 0,
           "serious": 0,
-          "moderate": 1,
+          "moderate": 0,
           "minor": 0
         },
-        "components": 1,
+        "components": 0,
         "scans": 0,
         "designChecks": 195,
-        "top": [
-          {
-            "title": "Text contrast is too low in Figma",
-            "impact": "moderate",
-            "owner": "Design"
-          }
-        ]
+        "top": []
       }
     },
     {

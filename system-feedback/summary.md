@@ -1,24 +1,28 @@
-## Atom parity: 38% match (+14 since last run)
+## Atom parity: 52% match (+14 since last run)
 
-0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.
+0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
-| 0 | 5 | 0 | 2 | 0 |
+| 0 | 5 | 0 | 1 | 0 |
 
-### 6 fixed
-- Alert: Figma property "Style" has no equivalent in code
-- Dialog: Figma property "Breakpoint" has no equivalent in code
-- Loading Modal: Not found in Storybook
-- Progress Bar / Animated: Not found in Storybook
-- Progress Bar / Percentage: Not found in Storybook
-- Progress Bar / Tracker: Not found in Storybook
+### 12 fixed
+- Alert: Figma property "Show Icon Left" has no equivalent in code
+- Alert: Figma property "Show Description" has no equivalent in code
+- Alert: Figma property "Show Close Icon" has no equivalent in code
+- Dialog: Figma property "Show Buttons" has no equivalent in code
+- Dialog: Figma property "Show Slot 2" has no equivalent in code
+- Dialog: Figma property "Show Slot 1" has no equivalent in code
+- Dialog: Figma property "Show Description" has no equivalent in code
+- Dialog: Figma property "Show Icon" has no equivalent in code
+- Progress Bar / Steps: Not found in Storybook
+- Toast: Figma property "Show Icon Left" has no equivalent in code
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Property values missing in code: 3 components (Both)
-- 🔴 Not built in Storybook: 2 components (Dev)
-- 🟠 Code has props with no Figma property: 5 components (Design)
+- 🔴 Not built in Storybook: 1 component (Dev)
+- 🟠 Code has props with no Figma property: 4 components (Design)
 - 🟠 State values without a code equivalent: 3 components (Dev)
 - 🟠 10 of 10 variants can't be shown in code: 3 components (Both)
 

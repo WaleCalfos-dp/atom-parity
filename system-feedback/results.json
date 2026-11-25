@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:57:05.711Z",
-    "durationMs": 155136,
+    "generatedAt": "2026-11-25T15:01:38.248Z",
+    "durationMs": 99577,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:55:39.657Z",
+      "exportedAt": "2026-11-25T15:00:43.643Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1151:40938",
       "name": "Alert",
       "status": "Drifted",
-      "score": 53,
+      "score": 65,
       "match": "exact",
       "figma": {
         "id": "1151:40938",
@@ -1701,7 +1701,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1725,7 +1725,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Button",
@@ -1801,7 +1808,7 @@
           "category": "Properties",
           "subject": "prop:Show Description",
           "label": "Property \"Show Description\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1825,14 +1832,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Close Icon",
           "category": "Properties",
           "subject": "prop:Show Close Icon",
           "label": "Property \"Show Close Icon\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Close Icon\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1856,7 +1870,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Title",
@@ -3025,7 +3046,7 @@
       "key": "3581:33620",
       "name": "Dialog",
       "status": "Drifted",
-      "score": 42,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "3581:33620",
@@ -3415,7 +3436,7 @@
           "category": "Properties",
           "subject": "prop:Show Buttons",
           "label": "Property \"Show Buttons\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Buttons\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -3439,14 +3460,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Slot 2",
           "category": "Properties",
           "subject": "prop:Show Slot 2",
           "label": "Property \"Show Slot 2\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Slot 2\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -3470,14 +3498,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Slot 1",
           "category": "Properties",
           "subject": "prop:Show Slot 1",
           "label": "Property \"Show Slot 1\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Slot 1\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -3501,14 +3536,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Description",
           "category": "Properties",
           "subject": "prop:Show Description",
           "label": "Property \"Show Description\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Description\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -3532,7 +3574,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Show Title",
@@ -3577,7 +3626,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon",
           "label": "Property \"Show Icon\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -3601,7 +3650,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Close Icon",
@@ -3801,7 +3857,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign",
@@ -3825,7 +3881,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T14:52:14.363Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -6805,8 +6868,8 @@
     {
       "key": "12768:3167",
       "name": "Progress Bar / Steps",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -6843,7 +6906,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
@@ -6867,7 +6930,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+            "at": "2026-11-25T14:52:04.754Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -7099,7 +7169,7 @@
       "key": "7839:97889",
       "name": "Toast",
       "status": "Drifted",
-      "score": 54,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "7839:97889",
@@ -7378,7 +7448,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -7402,7 +7472,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:59:43.593Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Description",
@@ -7903,7 +7980,7 @@
       "key": "8560:2779",
       "name": "Tooltip",
       "status": "Drifted",
-      "score": 58,
+      "score": 70,
       "match": "exact",
       "figma": {
         "id": "8560:2779",
@@ -8273,7 +8350,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8297,7 +8374,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Icons are passed via prefix/suffix. Not a defect.",
+            "at": "2026-11-25T14:51:57.158Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Show Title",
@@ -8380,7 +8464,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8404,7 +8488,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Icons are passed via prefix/suffix. Not a defect.",
+            "at": "2026-11-25T14:51:57.158Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Tip Direction",
@@ -8573,7 +8664,7 @@
           "category": "Accessibility",
           "subject": "design:contrast",
           "label": "Text contrast in Figma",
-          "status": "warn",
+          "status": "ignored",
           "title": "Text contrast is too low in Figma",
           "owner": "Design",
           "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
@@ -9276,7 +9367,14 @@
             "Tip Direction=Right, Tip Centred=Yes",
             "Tip Direction=Left, Tip Centred=Yes",
             "Tip Direction=Up, Tip Centred=Yes"
-          ]
+          ],
+          "ignored": {
+            "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+            "at": "2026-11-25T14:52:25.136Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         }
       ],
       "gallery": [],
@@ -9285,34 +9383,34 @@
     }
   ],
   "summary": {
-    "score": 38,
-    "headline": "0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.",
+    "score": 52,
+    "headline": "0 of 6 Figma components match Storybook. 5 have drifted and 1 isn't built yet.",
     "components": {
       "total": 11,
-      "figma": 7,
+      "figma": 6,
       "paired": 5,
       "aligned": 0,
       "drifted": 5,
       "broken": 0,
-      "missingInCode": 2,
+      "missingInCode": 1,
       "missingInDesign": 0,
-      "ignored": 4
+      "ignored": 5
     },
     "checks": {
       "pass": 29,
-      "warn": 21,
-      "fail": 24
+      "warn": 19,
+      "fail": 12
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
         "warn": 4,
-        "fail": 2
+        "fail": 1
       },
       "Properties": {
         "pass": 0,
-        "warn": 14,
-        "fail": 22
+        "warn": 13,
+        "fail": 11
       },
       "Tokens": {
         "pass": 0,
@@ -9326,7 +9424,7 @@
       },
       "Accessibility": {
         "pass": 8,
-        "warn": 1,
+        "warn": 0,
         "fail": 0
       },
       "Interaction": {
@@ -9347,12 +9445,12 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 10,
+        "warn": 8,
         "fail": 0
       },
       "Dev": {
         "warn": 6,
-        "fail": 21
+        "fail": 9
       },
       "Both": {
         "warn": 5,
@@ -9375,57 +9473,9 @@
         "items": [
           {
             "component": "1151:40938",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Alert"
-          },
-          {
-            "component": "1151:40938",
             "key": "Properties|prop:Show Button",
             "title": "Figma property \"Show Button\" has no equivalent in code",
             "componentName": "Alert"
-          },
-          {
-            "component": "1151:40938",
-            "key": "Properties|prop:Show Description",
-            "title": "Figma property \"Show Description\" has no equivalent in code",
-            "componentName": "Alert"
-          },
-          {
-            "component": "1151:40938",
-            "key": "Properties|prop:Show Close Icon",
-            "title": "Figma property \"Show Close Icon\" has no equivalent in code",
-            "componentName": "Alert"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Show Buttons",
-            "title": "Figma property \"Show Buttons\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Show Slot 2",
-            "title": "Figma property \"Show Slot 2\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Show Slot 1",
-            "title": "Figma property \"Show Slot 1\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Show Description",
-            "title": "Figma property \"Show Description\" has no equivalent in code",
-            "componentName": "Dialog"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|prop:Show Icon",
-            "title": "Figma property \"Show Icon\" has no equivalent in code",
-            "componentName": "Dialog"
           },
           {
             "component": "3581:33620",
@@ -9459,27 +9509,9 @@
           },
           {
             "component": "7839:97889",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Toast"
-          },
-          {
-            "component": "7839:97889",
             "key": "Properties|prop:Lines of Text",
             "title": "Figma property \"Lines of Text\" has no equivalent in code",
             "componentName": "Toast"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Tooltip"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Properties|prop:Show Icon Right",
-            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-            "componentName": "Tooltip"
           },
           {
             "component": "8560:2779",
@@ -9526,8 +9558,7 @@
         "status": "fail",
         "owner": "Dev",
         "components": [
-          "Journey Wizard",
-          "Progress Bar / Steps"
+          "Journey Wizard"
         ],
         "items": [
           {
@@ -9535,12 +9566,6 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Journey Wizard"
-          },
-          {
-            "component": "12768:3167",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Progress Bar / Steps"
           }
         ]
       },
@@ -9551,7 +9576,6 @@
         "owner": "Design",
         "components": [
           "Alert",
-          "Dialog",
           "Loading Indicator",
           "Toast",
           "Tooltip"
@@ -9562,12 +9586,6 @@
             "key": "Properties|code-only",
             "title": "Code has props with no Figma property",
             "componentName": "Alert"
-          },
-          {
-            "component": "3581:33620",
-            "key": "Properties|code-only",
-            "title": "Code has props with no Figma property",
-            "componentName": "Dialog"
           },
           {
             "component": "15577:80832",
@@ -9760,6 +9778,19 @@
       {
         "component": "Alert",
         "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Alert",
+        "componentKey": "1151:40938",
         "key": "Naming|prop:Show Title",
         "category": "Naming",
         "title": "Figma \"Show Title\" is \"title\" in code",
@@ -9767,6 +9798,32 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
         "at": "2026-11-25T07:07:26.710Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Alert",
+        "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Description",
+        "category": "Properties",
+        "title": "Figma property \"Show Description\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Alert",
+        "componentKey": "1151:40938",
+        "key": "Properties|prop:Show Close Icon",
+        "category": "Properties",
+        "title": "Figma property \"Show Close Icon\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9799,6 +9856,58 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Buttons",
+        "category": "Properties",
+        "title": "Figma property \"Show Buttons\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Slot 2",
+        "category": "Properties",
+        "title": "Figma property \"Show Slot 2\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Slot 1",
+        "category": "Properties",
+        "title": "Figma property \"Show Slot 1\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Description",
+        "category": "Properties",
+        "title": "Figma property \"Show Description\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
         "key": "Naming|prop:Show Title",
         "category": "Naming",
         "title": "Figma \"Show Title\" is \"title\" in code",
@@ -9812,6 +9921,19 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
+        "key": "Properties|prop:Show Icon",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
         "key": "Properties|prop:Breakpoint",
         "category": "Properties",
         "title": "Figma property \"Breakpoint\" has no equivalent in code",
@@ -9819,6 +9941,19 @@
         "owner": "Dev",
         "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
         "at": "2026-11-25T14:51:36.300Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Dialog",
+        "componentKey": "3581:33620",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T14:52:14.363Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9875,6 +10010,19 @@
         "github": null
       },
       {
+        "component": "Progress Bar / Steps",
+        "componentKey": "12768:3167",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+        "at": "2026-11-25T14:52:04.754Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Progress Bar / Tracker",
         "componentKey": "12738:392",
         "key": "Naming|name",
@@ -9890,6 +10038,19 @@
       {
         "component": "Toast",
         "componentKey": "7839:97889",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:59:43.593Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
         "key": "Naming|prop:Status",
         "category": "Naming",
         "title": "Figma \"Status\" is \"type\" in code",
@@ -9897,6 +10058,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
         "at": "2026-11-25T07:07:38.437Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Icons are passed via prefix/suffix. Not a defect.",
+        "at": "2026-11-25T14:51:57.158Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9929,6 +10103,19 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Icons are passed via prefix/suffix. Not a defect.",
+        "at": "2026-11-25T14:51:57.158Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
         "key": "Naming|prop:Tip Direction",
         "category": "Naming",
         "title": "Figma \"Tip Direction\" is \"placement\" in code",
@@ -9938,23 +10125,23 @@
         "at": "2026-11-25T07:09:20.995Z",
         "by": "frontenddev.ai",
         "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Accessibility|design:contrast",
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+        "at": "2026-11-25T14:52:25.136Z",
+        "by": "frontenddev.ai",
+        "github": null
       }
     ],
     "brokenComponents": [],
     "issues": [
-      {
-        "component": "Alert",
-        "componentKey": "1151:40938",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
       {
         "component": "Alert",
         "componentKey": "1151:40938",
@@ -9963,32 +10150,6 @@
         "subject": "prop:Show Button",
         "status": "fail",
         "title": "Figma property \"Show Button\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Alert",
-        "componentKey": "1151:40938",
-        "key": "Properties|prop:Show Description",
-        "category": "Properties",
-        "subject": "prop:Show Description",
-        "status": "fail",
-        "title": "Figma property \"Show Description\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Alert",
-        "componentKey": "1151:40938",
-        "key": "Properties|prop:Show Close Icon",
-        "category": "Properties",
-        "subject": "prop:Show Close Icon",
-        "status": "fail",
-        "title": "Figma property \"Show Close Icon\" has no equivalent in code",
         "detail": "boolean property",
         "owner": "Dev",
         "brands": [],
@@ -10088,71 +10249,6 @@
       {
         "component": "Dialog",
         "componentKey": "3581:33620",
-        "key": "Properties|prop:Show Buttons",
-        "category": "Properties",
-        "subject": "prop:Show Buttons",
-        "status": "fail",
-        "title": "Figma property \"Show Buttons\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|prop:Show Slot 2",
-        "category": "Properties",
-        "subject": "prop:Show Slot 2",
-        "status": "fail",
-        "title": "Figma property \"Show Slot 2\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|prop:Show Slot 1",
-        "category": "Properties",
-        "subject": "prop:Show Slot 1",
-        "status": "fail",
-        "title": "Figma property \"Show Slot 1\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|prop:Show Description",
-        "category": "Properties",
-        "subject": "prop:Show Description",
-        "status": "fail",
-        "title": "Figma property \"Show Description\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|prop:Show Icon",
-        "category": "Properties",
-        "subject": "prop:Show Icon",
-        "status": "fail",
-        "title": "Figma property \"Show Icon\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
         "key": "Properties|prop:Show Close Icon",
         "category": "Properties",
         "subject": "prop:Show Close Icon",
@@ -10212,19 +10308,6 @@
         "title": "Figma property \"Status\" has no equivalent in code",
         "detail": "Values: Info, Success, Warning, Error",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Dialog",
-        "componentKey": "3581:33620",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "content, primaryButtonText, secondaryButtonText, buttonsDirection, contentAlign",
-        "owner": "Design",
         "brands": [],
         "variants": 0
       },
@@ -10307,19 +10390,6 @@
         "variants": 0
       },
       {
-        "component": "Progress Bar / Steps",
-        "componentKey": "12768:3167",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/ProgressBar, Data Display/Steps, Data Display/ProgressCircle. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Toast",
         "componentKey": "7839:97889",
         "key": "Documentation|docs-figma",
@@ -10329,19 +10399,6 @@
         "title": "No description in Figma",
         "detail": null,
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -10439,32 +10496,6 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "subject": "prop:Show Icon Right",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
         "key": "Properties|values:Tip Direction",
         "category": "Properties",
         "subject": "values:Tip Direction",
@@ -10513,23 +10544,6 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Accessibility|design:contrast",
-        "category": "Accessibility",
-        "subject": "design:contrast",
-        "status": "warn",
-        "title": "Text contrast is too low in Figma",
-        "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-        "owner": "Design",
-        "brands": [
-          "Mastercard",
-          "Investec",
-          "Assurant"
-        ],
-        "variants": 8
       }
     ]
   },
@@ -10541,16 +10555,12 @@
     "counts": {
       "critical": 0,
       "serious": 0,
-      "moderate": 1,
+      "moderate": 0,
       "minor": 0
     },
-    "total": 1,
-    "components": 1,
-    "byBrand": {
-      "Mastercard": 8,
-      "Investec": 8,
-      "Assurant": 8
-    },
+    "total": 0,
+    "components": 0,
+    "byBrand": {},
     "criteria": [
       {
         "sc": "1.4.3",
@@ -10558,8 +10568,8 @@
         "level": "AA",
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
         "auto": true,
-        "status": "warn",
-        "issues": 1
+        "status": "pass",
+        "issues": 0
       }
     ],
     "manual": [
@@ -10892,190 +10902,234 @@
       "tested": 1,
       "total": 55
     },
-    "issues": [
-      {
-        "items": [
-          {
-            "component": "8560:2779",
-            "key": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "componentName": "Tooltip"
-          }
-        ],
-        "rule": "design-contrast",
-        "criterion": {
-          "sc": "1.4.3",
-          "name": "Contrast (minimum)",
-          "level": "AA",
-          "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum",
-          "auto": true
-        },
-        "title": "Text contrast is too low in Figma",
-        "why": "The design itself doesn't reach the minimum, so code built to spec will fail too.",
-        "fix": "Change the brand value of the text or background token in Figma until the pair reaches 4.5:1 (3:1 for large text).",
-        "impact": "moderate",
-        "status": "warn",
-        "owner": "Design",
-        "source": "design",
-        "help": null,
-        "components": [
-          {
-            "name": "Tooltip",
-            "key": "8560:2779"
-          }
-        ],
-        "where": [
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tooltip",
-            "componentKey": "8560:2779",
-            "brand": "Mastercard",
-            "variants": [
-              "Tip Direction=Down, Tip Centred=No",
-              "Tip Direction=Right, Tip Centred=No",
-              "Tip Direction=Left, Tip Centred=No",
-              "Tip Direction=Up, Tip Centred=No",
-              "Tip Direction=Down, Tip Centred=Yes",
-              "Tip Direction=Right, Tip Centred=Yes",
-              "Tip Direction=Left, Tip Centred=Yes",
-              "Tip Direction=Up, Tip Centred=Yes"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Tip Direction=Down, Tip Centred=No"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tooltip",
-            "componentKey": "8560:2779",
-            "brand": "Investec",
-            "variants": [
-              "Tip Direction=Down, Tip Centred=No",
-              "Tip Direction=Right, Tip Centred=No",
-              "Tip Direction=Left, Tip Centred=No",
-              "Tip Direction=Up, Tip Centred=No",
-              "Tip Direction=Down, Tip Centred=Yes",
-              "Tip Direction=Right, Tip Centred=Yes",
-              "Tip Direction=Left, Tip Centred=Yes",
-              "Tip Direction=Up, Tip Centred=Yes"
-            ],
-            "status": "warn",
-            "detail": "1.06:1, needs 4.5:1 · #F8F8F7 on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1.06,
-              "required": 4.5,
-              "fg": "#F8F8F7",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Tip Direction=Down, Tip Centred=No"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          },
-          {
-            "checkKey": "Accessibility|design:contrast",
-            "title": "Text contrast is too low in Figma",
-            "component": "Tooltip",
-            "componentKey": "8560:2779",
-            "brand": "Assurant",
-            "variants": [
-              "Tip Direction=Down, Tip Centred=No",
-              "Tip Direction=Right, Tip Centred=No",
-              "Tip Direction=Left, Tip Centred=No",
-              "Tip Direction=Up, Tip Centred=No",
-              "Tip Direction=Down, Tip Centred=Yes",
-              "Tip Direction=Right, Tip Centred=Yes",
-              "Tip Direction=Left, Tip Centred=Yes",
-              "Tip Direction=Up, Tip Centred=Yes"
-            ],
-            "status": "warn",
-            "detail": "1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)",
-            "contrast": {
-              "ratio": 1,
-              "required": 4.5,
-              "fg": "#FFFFFF",
-              "bg": "#FFFFFF",
-              "fgToken": "foreground/basic/inverse",
-              "bgToken": null,
-              "assumed": true,
-              "variant": "Tip Direction=Down, Tip Centred=No"
-            },
-            "design": null,
-            "target": null,
-            "size": null
-          }
-        ],
-        "occurrences": 24
-      }
-    ]
+    "issues": []
   },
   "delta": {
-    "since": "2026-11-25T11:21:44.803Z",
-    "previousScore": 24,
+    "since": "2026-11-25T14:57:05.711Z",
+    "previousScore": 38,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
         "component": "Alert",
-        "title": "Figma property \"Style\" has no equivalent in code",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Alert",
+        "title": "Figma property \"Show Description\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Alert",
+        "title": "Figma property \"Show Close Icon\" has no equivalent in code",
         "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
         "component": "Dialog",
-        "title": "Figma property \"Breakpoint\" has no equivalent in code",
+        "title": "Figma property \"Show Buttons\" has no equivalent in code",
         "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
-        "component": "Loading Modal",
+        "component": "Dialog",
+        "title": "Figma property \"Show Slot 2\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Dialog",
+        "title": "Figma property \"Show Slot 1\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Dialog",
+        "title": "Figma property \"Show Description\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Dialog",
+        "title": "Figma property \"Show Icon\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Progress Bar / Steps",
         "title": "Not found in Storybook",
         "category": "Naming",
         "now": "ignored"
       },
       {
         "status": "fail",
-        "component": "Progress Bar / Animated",
-        "title": "Not found in Storybook",
-        "category": "Naming",
+        "component": "Toast",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
-        "component": "Progress Bar / Percentage",
-        "title": "Not found in Storybook",
-        "category": "Naming",
+        "component": "Tooltip",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
         "now": "ignored"
       },
       {
         "status": "fail",
-        "component": "Progress Bar / Tracker",
-        "title": "Not found in Storybook",
-        "category": "Naming",
+        "component": "Tooltip",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:59:43.593Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Show Close Icon",
+          "title": "Figma property \"Show Close Icon\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Show Description",
+          "title": "Figma property \"Show Description\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Buttons",
+          "title": "Figma property \"Show Buttons\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Description",
+          "title": "Figma property \"Show Description\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Icon",
+          "title": "Figma property \"Show Icon\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Slot 1",
+          "title": "Figma property \"Show Slot 1\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Slot 2",
+          "title": "Figma property \"Show Slot 2\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "7839:97889",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Toast"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:52:25.136Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tooltip"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:52:14.363Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "3581:33620",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Dialog"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:52:04.754Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+      "items": [
+        {
+          "component": "12768:3167",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Progress Bar / Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:51:57.158Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Icons are passed via prefix/suffix. Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Tooltip"
+        },
+        {
+          "component": "8560:2779",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Tooltip"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:51:48.623Z",
       "action": "ignore",

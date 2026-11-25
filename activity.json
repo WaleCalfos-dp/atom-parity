@@ -1,6 +1,145 @@
 {
-  "generatedAt": "2026-11-25T14:57:05.761Z",
+  "generatedAt": "2026-11-25T15:01:38.287Z",
   "log": [
+    {
+      "at": "2026-11-25T14:59:43.593Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Show Close Icon",
+          "title": "Figma property \"Show Close Icon\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Show Description",
+          "title": "Figma property \"Show Description\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Buttons",
+          "title": "Figma property \"Show Buttons\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Description",
+          "title": "Figma property \"Show Description\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Icon",
+          "title": "Figma property \"Show Icon\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Slot 1",
+          "title": "Figma property \"Show Slot 1\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Show Slot 2",
+          "title": "Figma property \"Show Slot 2\" has no equivalent in code",
+          "componentName": "Dialog"
+        },
+        {
+          "component": "7839:97889",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Toast"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T14:52:25.136Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tooltip"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T14:52:14.363Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "3581:33620",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Dialog"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T14:52:04.754Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ProgressSegment\". Not a defect.",
+      "items": [
+        {
+          "component": "12768:3167",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Progress Bar / Steps"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T14:51:57.158Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Icons are passed via prefix/suffix. Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Tooltip"
+        },
+        {
+          "component": "8560:2779",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Tooltip"
+        }
+      ],
+      "checkName": "System feedback"
+    },
     {
       "at": "2026-11-25T14:51:48.623Z",
       "action": "ignore",
