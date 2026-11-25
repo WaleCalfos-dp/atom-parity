@@ -2159,6 +2159,82 @@
           "componentName": "Scroll Bar"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:49:45.344Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Airline Name",
+          "title": "Figma property \"Airline Name\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Airport",
+          "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Date",
+          "title": "Figma property \"Arrival Date\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Time",
+          "title": "Figma property \"Arrival Time\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Airport",
+          "title": "Figma property \"Departure Airport\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Date",
+          "title": "Figma property \"Departure Date\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Time",
+          "title": "Figma property \"Departure Time\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Condition",
+          "title": "Figma property \"Condition\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Expiry",
+          "title": "Figma property \"Expiry\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Promotion Name",
+          "title": "Figma property \"Promotion Name\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Voucher Code Text",
+          "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
     }
   ]
 }
