@@ -1539,6 +1539,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:48:51.030Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15327:32950",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Bottom Sheet",
+      "reason": "Same component under a different name: code \"Sheet\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:49:07.237Z"
     }
   ]
 }

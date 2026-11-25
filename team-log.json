@@ -2095,6 +2095,22 @@
           "componentName": "Booking Steps"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:49:07.237Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Sheet\". Not a defect.",
+      "items": [
+        {
+          "component": "15327:32950",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Bottom Sheet"
+        }
+      ]
     }
   ]
 }
