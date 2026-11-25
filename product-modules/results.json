@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:54:01.771Z",
-    "durationMs": 170083,
+    "generatedAt": "2026-11-25T11:46:38.408Z",
+    "durationMs": 206557,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-24T12:50:49Z"
+        "lastModified": "2026-11-25T11:13:35Z"
       },
-      "exportedAt": "2026-11-24T12:52:45.390Z",
+      "exportedAt": "2026-11-25T11:44:47.901Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -38,7 +38,7 @@
         "Investec",
         "Assurant"
       ],
-      "components": 15,
+      "components": 16,
       "renderScale": 2,
       "source": "figma-rest",
       "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
@@ -1638,6 +1638,301 @@
       "gallery": []
     },
     {
+      "key": "18516:6137",
+      "name": "eSim / Data Plan Card",
+      "status": "Missing in code",
+      "score": 0,
+      "match": null,
+      "suggestions": [
+        {
+          "name": "Card",
+          "title": "Data Display/Card",
+          "score": 0.75
+        }
+      ],
+      "figma": {
+        "id": "18516:6137",
+        "name": "eSim / Data Plan Card",
+        "page": "📲 eSim",
+        "section": null,
+        "group": "PRODUCT MODULES",
+        "order": 10,
+        "pageOrder": 83,
+        "variants": 4,
+        "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=18516-6137"
+      },
+      "code": null,
+      "checks": [
+        {
+          "key": "Accessibility|design:contrast",
+          "category": "Accessibility",
+          "subject": "design:contrast",
+          "label": "Text contrast in Figma",
+          "status": "pass",
+          "title": "Text contrast passes in Figma",
+          "owner": "Design",
+          "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+          "meta": {
+            "rule": "design-contrast",
+            "source": "design",
+            "impact": "serious"
+          },
+          "instances": [
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Desktop, Activated=No",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Plan",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Mobile, Activated=No",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Plan",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Desktop, Activated=Yes",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Activation Date",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Breakpoint=Desktop, Activated=Yes",
+              "detail": "17.93:1, needs 4.5:1 · #171717 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 17.93,
+                "required": 4.5,
+                "fg": "#171717",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/heading",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Activation Date",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Breakpoint=Desktop, Activated=Yes",
+              "detail": "11.54:1, needs 4.5:1 · #343946 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 11.54,
+                "required": 4.5,
+                "fg": "#343946",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/heading",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Activation Date",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Breakpoint=Desktop, Activated=Yes",
+              "detail": "16.83:1, needs 4.5:1 · #01194D on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 16.83,
+                "required": 4.5,
+                "fg": "#01194D",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/heading",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Activation Date",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Dragonpass",
+              "variant": "Breakpoint=Mobile, Activated=Yes",
+              "detail": "7.79:1, needs 4.5:1 · #535252 on #FFFFFF",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 7.79,
+                "required": 4.5,
+                "fg": "#535252",
+                "bg": "#FFFFFF",
+                "fgToken": null,
+                "bgToken": null,
+                "size": 14,
+                "weight": 400,
+                "layer": "Activation Date",
+                "assumed": false
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Mastercard",
+              "variant": "Breakpoint=Mobile, Activated=Yes",
+              "detail": "17.93:1, needs 4.5:1 · #171717 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 17.93,
+                "required": 4.5,
+                "fg": "#171717",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/heading",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Activation Date",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Investec",
+              "variant": "Breakpoint=Mobile, Activated=Yes",
+              "detail": "11.54:1, needs 4.5:1 · #343946 on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 11.54,
+                "required": 4.5,
+                "fg": "#343946",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/heading",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Activation Date",
+                "assumed": true
+              }
+            },
+            {
+              "status": "pass",
+              "brand": "Assurant",
+              "variant": "Breakpoint=Mobile, Activated=Yes",
+              "detail": "16.83:1, needs 4.5:1 · #01194D on #FFFFFF (no background in the component, measured on white)",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": {
+                "ratio": 16.83,
+                "required": 4.5,
+                "fg": "#01194D",
+                "bg": "#FFFFFF",
+                "fgToken": "foreground/basic/heading",
+                "bgToken": null,
+                "size": 18,
+                "weight": 500,
+                "layer": "Activation Date",
+                "assumed": true
+              }
+            }
+          ],
+          "counts": {
+            "pass": 10,
+            "warn": 0,
+            "fail": 0,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        },
+        {
+          "key": "Naming|name",
+          "category": "Naming",
+          "subject": "name",
+          "label": "Component",
+          "status": "fail",
+          "title": "Not found in Storybook",
+          "owner": "Dev",
+          "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
+          "meta": null,
+          "instances": [
+            {
+              "status": "fail",
+              "brand": null,
+              "variant": null,
+              "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            }
+          ],
+          "counts": {
+            "pass": 0,
+            "warn": 0,
+            "fail": 1,
+            "info": 0
+          },
+          "brands": [],
+          "variants": []
+        }
+      ],
+      "gallery": []
+    },
+    {
       "key": "4446:136318",
       "name": "eSim / Status Card",
       "status": "Missing in code",
@@ -1862,7 +2157,7 @@
         "page": "💪 Health & Wellness",
         "section": null,
         "group": "PRODUCT MODULES",
-        "order": 12,
+        "order": 13,
         "pageOrder": 85,
         "variants": 2,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17503-16604"
@@ -1922,7 +2217,7 @@
         "page": "✈️ Flight Delay",
         "section": null,
         "group": "PRODUCT MODULES",
-        "order": 11,
+        "order": 12,
         "pageOrder": 84,
         "variants": 2,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17636-37197"
@@ -2101,7 +2396,7 @@
       "key": "17265:62617",
       "name": "Flight Delay / Flight Card",
       "status": "Broken",
-      "score": 64,
+      "score": 65,
       "match": "exact",
       "figma": {
         "id": "17265:62617",
@@ -2109,7 +2404,7 @@
         "page": "✈️ Flight Delay",
         "section": null,
         "group": "PRODUCT MODULES",
-        "order": 10,
+        "order": 11,
         "pageOrder": 84,
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617"
@@ -2242,7 +2537,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -2266,7 +2561,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component, different naming: Figma \"Flight Delay / Flight Card\" vs Storybook \"FlightCard\". Not a defect.",
+            "at": "2026-11-25T07:07:02.664Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Documentation|docs-code",
@@ -3827,7 +4129,7 @@
         "page": "💳 Membership",
         "section": null,
         "group": "PRODUCT MODULES",
-        "order": 13,
+        "order": 14,
         "pageOrder": 86,
         "variants": 2,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10422-5934"
@@ -3954,7 +4256,7 @@
         "page": "💳 Membership",
         "section": null,
         "group": "PRODUCT MODULES",
-        "order": 14,
+        "order": 15,
         "pageOrder": 86,
         "variants": 1,
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=10419-5354"
@@ -4391,7 +4693,7 @@
       "key": "13192:28371",
       "name": "Transport / Promotion Panel",
       "status": "Broken",
-      "score": 35,
+      "score": 38,
       "match": "exact",
       "figma": {
         "id": "13192:28371",
@@ -4525,7 +4827,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -4549,7 +4851,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+            "at": "2026-11-25T07:07:10.607Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Documentation|docs-code",
@@ -5651,29 +5960,29 @@
     }
   ],
   "summary": {
-    "score": 7,
-    "headline": "0 of 15 Figma components match Storybook. 2 are broken and 13 aren't built yet.",
+    "score": 6,
+    "headline": "0 of 16 Figma components match Storybook. 2 are broken and 14 aren't built yet.",
     "components": {
-      "total": 15,
-      "figma": 15,
+      "total": 16,
+      "figma": 16,
       "paired": 2,
       "aligned": 0,
       "drifted": 0,
       "broken": 2,
-      "missingInCode": 13,
+      "missingInCode": 14,
       "missingInDesign": 0,
       "ignored": 0
     },
     "checks": {
-      "pass": 24,
+      "pass": 25,
       "warn": 22,
-      "fail": 25
+      "fail": 24
     },
     "byCategory": {
       "Naming": {
         "pass": 2,
         "warn": 0,
-        "fail": 15
+        "fail": 14
       },
       "Properties": {
         "pass": 0,
@@ -5691,7 +6000,7 @@
         "fail": 1
       },
       "Accessibility": {
-        "pass": 11,
+        "pass": 12,
         "warn": 0,
         "fail": 3
       },
@@ -5718,11 +6027,11 @@
       },
       "Dev": {
         "warn": 12,
-        "fail": 16
+        "fail": 17
       },
       "Both": {
         "warn": 5,
-        "fail": 7
+        "fail": 5
       }
     },
     "themes": [
@@ -5734,6 +6043,7 @@
         "components": [
           "Dual Input",
           "eSim / Data Balance",
+          "eSim / Data Plan Card",
           "eSim / Status Card",
           "eSim / Tile",
           "Fitness / Class Card",
@@ -5758,6 +6068,12 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "eSim / Data Balance"
+          },
+          {
+            "component": "18516:6137",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "eSim / Data Plan Card"
           },
           {
             "component": "4446:136318",
@@ -5847,30 +6163,6 @@
             "component": "13192:28371",
             "key": "Accessibility|design:contrast",
             "title": "Text contrast is too low in Figma",
-            "componentName": "Transport / Promotion Panel"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Component named differently in Figma and Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Flight Delay / Flight Card",
-          "Transport / Promotion Panel"
-        ],
-        "items": [
-          {
-            "component": "17265:62617",
-            "key": "Naming|name",
-            "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Naming|name",
-            "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
             "componentName": "Transport / Promotion Panel"
           }
         ]
@@ -6012,6 +6304,84 @@
             "componentName": "Transport / Promotion Panel"
           }
         ]
+      },
+      {
+        "category": "Properties",
+        "title": "State values without a code equivalent",
+        "status": "warn",
+        "owner": "Dev",
+        "components": [
+          "Flight Delay / Flight Card",
+          "Transport / Promotion Panel"
+        ],
+        "items": [
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Airline Name",
+            "title": "Figma property \"Airline Name\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Departure Date",
+            "title": "Figma property \"Departure Date\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Departure Time",
+            "title": "Figma property \"Departure Time\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Departure Airport",
+            "title": "Figma property \"Departure Airport\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Arrival Date",
+            "title": "Figma property \"Arrival Date\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Arrival Time",
+            "title": "Figma property \"Arrival Time\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "17265:62617",
+            "key": "Properties|prop:Arrival Airport",
+            "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+            "componentName": "Flight Delay / Flight Card"
+          },
+          {
+            "component": "13192:28371",
+            "key": "Properties|prop:Promotion Name",
+            "title": "Figma property \"Promotion Name\" has no equivalent in code",
+            "componentName": "Transport / Promotion Panel"
+          },
+          {
+            "component": "13192:28371",
+            "key": "Properties|prop:Condition",
+            "title": "Figma property \"Condition\" has no equivalent in code",
+            "componentName": "Transport / Promotion Panel"
+          },
+          {
+            "component": "13192:28371",
+            "key": "Properties|prop:Expiry",
+            "title": "Figma property \"Expiry\" has no equivalent in code",
+            "componentName": "Transport / Promotion Panel"
+          },
+          {
+            "component": "13192:28371",
+            "key": "Properties|prop:Voucher Code Text",
+            "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+            "componentName": "Transport / Promotion Panel"
+          }
+        ]
       }
     ],
     "works": [
@@ -6019,7 +6389,34 @@
       "No failures in: Rendering, Documentation",
       "1 components render in Storybook without errors"
     ],
-    "ignored": [],
+    "ignored": [
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same component, different naming: Figma \"Flight Delay / Flight Card\" vs Storybook \"FlightCard\". Not a defect.",
+        "at": "2026-11-25T07:07:02.664Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+        "at": "2026-11-25T07:07:10.607Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
     "brokenComponents": [
       {
         "name": "Flight Delay / Flight Card",
@@ -6060,6 +6457,19 @@
         "status": "fail",
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "eSim / Data Plan Card",
+        "componentKey": "18516:6137",
+        "key": "Naming|name",
+        "category": "Naming",
+        "subject": "name",
+        "status": "fail",
+        "title": "Not found in Storybook",
+        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
         "owner": "Dev",
         "brands": [],
         "variants": 0
@@ -6128,19 +6538,6 @@
         "title": "Not found in Storybook",
         "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
-        "detail": "Rename one side so any developer can map code to the design system immediately.",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -6502,19 +6899,6 @@
       {
         "component": "Transport / Promotion Panel",
         "componentKey": "13192:28371",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
-        "detail": "Rename one side so any developer can map code to the design system immediately.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
         "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
@@ -6688,7 +7072,7 @@
   "a11y": {
     "ran": true,
     "scans": 3,
-    "designChecks": 55,
+    "designChecks": 65,
     "brands": [
       "Dragonpass",
       "Mastercard",
@@ -7325,10 +7709,65 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T11:42:55.388Z",
+    "since": "2026-11-24T12:54:01.771Z",
     "previousScore": 7,
-    "newFails": [],
-    "fixed": []
+    "newFails": [
+      {
+        "status": "fail",
+        "component": "eSim / Data Plan Card",
+        "title": "Not found in Storybook",
+        "category": "Naming"
+      }
+    ],
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Flight Delay / Flight Card",
+        "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Promotion Panel",
+        "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-25T07:07:10.607Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Naming|name",
+          "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:07:02.664Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Flight Delay / Flight Card\" vs Storybook \"FlightCard\". Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Naming|name",
+          "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ]
+    }
+  ]
 }

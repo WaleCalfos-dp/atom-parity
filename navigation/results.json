@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:23:56.174Z",
-    "durationMs": 111741,
+    "generatedAt": "2026-11-25T11:34:37.961Z",
+    "durationMs": 172959,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:35Z"
       },
-      "exportedAt": "2026-11-25T07:23:02.100Z",
+      "exportedAt": "2026-11-25T11:33:09.995Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7328,25 +7328,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:13:04.601Z",
-    "previousScore": 36,
+    "since": "2026-11-25T07:23:56.174Z",
+    "previousScore": 38,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "App Header",
-        "title": "Figma \"App Header\" is \"NavHeader\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Bottom Navigation",
-        "title": "Figma \"Bottom Navigation\" is \"TabBar\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

@@ -1,13 +1,10 @@
-## Atom parity: 17% match (+2 since last run)
+## Atom parity: 17% match (+0 since last run)
 
 0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 1 | 0 | 1 | 0 |
-
-### 1 fixed
-- Lightbox Image Viewer: Figma "Lightbox Image Viewer" is "ImageViewer" in Storybook
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 1 component (Dev)

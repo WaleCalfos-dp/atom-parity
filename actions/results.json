@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:08:37.888Z",
-    "durationMs": 111425,
+    "generatedAt": "2026-11-25T11:19:11.100Z",
+    "durationMs": 156845,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:34Z"
       },
-      "exportedAt": "2026-11-25T07:07:25.689Z",
+      "exportedAt": "2026-11-25T11:17:53.498Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -25088,7 +25088,7 @@
           "variants": [],
           "ignored": {
             "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
-            "at": "2026-11-25T07:06:28.591Z",
+            "at": "2026-11-25T07:09:29.649Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -25320,7 +25320,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Style=Card",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -28144,7 +28144,7 @@
         "was": "fail",
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
-        "at": "2026-11-25T07:06:28.591Z",
+        "at": "2026-11-25T07:09:29.649Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -29421,20 +29421,28 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T06:35:53.742Z",
-    "previousScore": 21,
+    "since": "2026-11-25T07:08:37.888Z",
+    "previousScore": 22,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Stepper",
-        "title": "Figma \"Style\" is \"variant\" in code",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:09:29.649Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Naming|prop:Style",
+          "title": "Figma \"Style\" is \"variant\" in code",
+          "componentName": "Stepper"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:06:28.591Z",
       "action": "ignore",

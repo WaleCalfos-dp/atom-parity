@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:12:30.908Z",
-    "durationMs": 146906,
+    "generatedAt": "2026-11-25T11:21:44.803Z",
+    "durationMs": 153649,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:34Z"
       },
-      "exportedAt": "2026-11-25T07:11:36.570Z",
+      "exportedAt": "2026-11-25T11:20:43.249Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1151:40938",
       "name": "Alert",
       "status": "Drifted",
-      "score": 47,
+      "score": 50,
       "match": "exact",
       "figma": {
         "id": "1151:40938",
@@ -1925,7 +1925,7 @@
           "category": "Naming",
           "subject": "prop:Status",
           "label": "Property \"Status\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Status\" is \"type\" in code",
           "owner": "Both",
           "detail": "Rename one side so names match 1:1 (paired by matching values)",
@@ -1949,7 +1949,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+            "at": "2026-11-25T07:16:46.517Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|values:Status",
@@ -9236,7 +9243,7 @@
     }
   ],
   "summary": {
-    "score": 23,
+    "score": 24,
     "headline": "0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.",
     "components": {
       "total": 11,
@@ -9252,13 +9259,13 @@
     "checks": {
       "pass": 29,
       "warn": 21,
-      "fail": 31
+      "fail": 30
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
         "warn": 4,
-        "fail": 7
+        "fail": 6
       },
       "Properties": {
         "pass": 0,
@@ -9307,7 +9314,7 @@
       },
       "Both": {
         "warn": 5,
-        "fail": 4
+        "fail": 3
       }
     },
     "themes": [
@@ -9536,23 +9543,6 @@
         ]
       },
       {
-        "category": "Naming",
-        "title": "Property named differently in Figma and code",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Alert"
-        ],
-        "items": [
-          {
-            "component": "1151:40938",
-            "key": "Naming|prop:Status",
-            "title": "Figma \"Status\" is \"type\" in code",
-            "componentName": "Alert"
-          }
-        ]
-      },
-      {
         "category": "Properties",
         "title": "Code has props with no Figma property",
         "status": "warn",
@@ -9741,6 +9731,23 @@
             "componentName": "Loading Indicator"
           }
         ]
+      },
+      {
+        "category": "Properties",
+        "title": "8 of 8 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "8560:2779",
+            "key": "Properties|coverage",
+            "title": "8 of 8 variants can't be shown in code",
+            "componentName": "Tooltip"
+          }
+        ]
       }
     ],
     "works": [
@@ -9758,6 +9765,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
         "at": "2026-11-25T07:07:26.710Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Alert",
+        "componentKey": "1151:40938",
+        "key": "Naming|prop:Status",
+        "category": "Naming",
+        "title": "Figma \"Status\" is \"type\" in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+        "at": "2026-11-25T07:16:46.517Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -9904,19 +9924,6 @@
         "title": "Figma property \"Description\" has no equivalent in code",
         "detail": "text property",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Alert",
-        "componentKey": "1151:40938",
-        "key": "Naming|prop:Status",
-        "category": "Naming",
-        "subject": "prop:Status",
-        "status": "fail",
-        "title": "Figma \"Status\" is \"type\" in code",
-        "detail": "Rename one side so names match 1:1 (paired by matching values)",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -11018,34 +11025,36 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:32:23.584Z",
-    "previousScore": 22,
+    "since": "2026-11-25T07:12:30.908Z",
+    "previousScore": 23,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
-        "component": "Loading Indicator",
-        "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Toast",
+        "component": "Alert",
         "title": "Figma \"Status\" is \"type\" in code",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma \"Tip Direction\" is \"placement\" in code",
         "category": "Naming",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:16:46.517Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Naming|prop:Status",
+          "title": "Figma \"Status\" is \"type\" in code",
+          "componentName": "Alert"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:09:20.995Z",
       "action": "ignore",

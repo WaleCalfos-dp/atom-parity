@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:08:42.751Z",
-    "durationMs": 84648,
+    "generatedAt": "2026-11-25T11:36:49.819Z",
+    "durationMs": 131823,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:35Z"
       },
-      "exportedAt": "2026-11-25T07:07:49.043Z",
+      "exportedAt": "2026-11-25T11:35:09.711Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2512,18 +2512,10 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-24T12:45:47.904Z",
-    "previousScore": 15,
+    "since": "2026-11-25T07:08:42.751Z",
+    "previousScore": 17,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Lightbox Image Viewer",
-        "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:22:51.515Z",
-    "durationMs": 287700,
+    "generatedAt": "2026-11-25T11:29:33.128Z",
+    "durationMs": 209247,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:35Z"
       },
-      "exportedAt": "2026-11-25T07:21:25.651Z",
+      "exportedAt": "2026-11-25T11:28:15.685Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2215,7 +2215,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Default, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2235,7 +2235,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Disabled, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -17108,25 +17108,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:39:34.694Z",
-    "previousScore": 37,
+    "since": "2026-11-25T07:22:51.515Z",
+    "previousScore": 38,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Date Picker",
-        "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Select",
-        "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

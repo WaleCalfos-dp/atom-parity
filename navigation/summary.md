@@ -1,14 +1,10 @@
-## Atom parity: 38% match (+2 since last run)
+## Atom parity: 38% match (+0 since last run)
 
 0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 4 | 1 | 2 | 0 |
-
-### 2 fixed
-- App Header: Figma "App Header" is "NavHeader" in Storybook
-- Bottom Navigation: Figma "Bottom Navigation" is "TabBar" in Storybook
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)

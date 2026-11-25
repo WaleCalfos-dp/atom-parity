@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:25:30.236Z",
-    "durationMs": 166442,
+    "generatedAt": "2026-11-25T11:26:03.848Z",
+    "durationMs": 259013,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:35Z"
       },
-      "exportedAt": "2026-11-25T07:24:40.561Z",
+      "exportedAt": "2026-11-25T11:24:54.313Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -10990,7 +10990,7 @@
           "variants": [],
           "ignored": {
             "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-            "at": "2026-11-25T07:19:46.334Z",
+            "at": "2026-11-25T07:21:08.999Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -11967,7 +11967,7 @@
         "was": "fail",
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
-        "at": "2026-11-25T07:19:46.334Z",
+        "at": "2026-11-25T07:21:08.999Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -13716,34 +13716,28 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:36:24.634Z",
+    "since": "2026-11-25T07:25:30.236Z",
     "previousScore": 23,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Accordion",
-        "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Data Row",
-        "title": "Figma \"Type\" is \"direction\" in code",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Steps",
-        "title": "Figma \"Type\" is \"finishIconType\" in code",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:21:08.999Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"finishIconType\" in code",
+          "componentName": "Steps"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:19:46.334Z",
       "action": "ignore",

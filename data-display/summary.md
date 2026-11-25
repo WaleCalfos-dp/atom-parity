@@ -6,11 +6,6 @@
 |---|---|---|---|---|
 | 0 | 6 | 0 | 7 | 0 |
 
-### 3 fixed
-- Accordion: Figma "Accordion" is "Collapse" in Storybook
-- Data Row: Figma "Type" is "direction" in code
-- Steps: Figma "Type" is "finishIconType" in code
-
 ### Biggest themes
 - 🔴 Not built in Storybook: 7 components (Dev)
 - 🔴 Figma property missing in code: 6 components (Dev)

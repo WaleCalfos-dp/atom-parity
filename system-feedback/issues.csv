@@ -34,13 +34,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Alert: Figma ""Status"" is ""type"" in code","Rename one side so names match 1:1 (paired by matching values)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-alert--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-1151%3A40938
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Alert: Status values missing in code","Missing in code: Information (closest: info) · Only in code: info
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1151-40938

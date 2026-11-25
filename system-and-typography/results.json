@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:20:05.999Z",
-    "durationMs": 110272,
+    "generatedAt": "2026-11-25T11:39:02.078Z",
+    "durationMs": 132237,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T04:02:26Z"
+        "lastModified": "2026-11-25T11:13:35Z"
       },
-      "exportedAt": "2026-11-25T07:18:53.326Z",
+      "exportedAt": "2026-11-25T11:37:26.250Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -6547,25 +6547,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:47:28.125Z",
-    "previousScore": 16,
+    "since": "2026-11-25T07:20:05.999Z",
+    "previousScore": 17,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Body",
-        "title": "Figma \"Body\" is \"Text\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Text Link",
-        "title": "Figma \"Text Link\" is \"Link\" in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {
