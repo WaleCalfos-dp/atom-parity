@@ -1572,6 +1572,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:49:27.218Z"
+    },
+    {
+      "check": "patterns",
+      "component": "15598:87162",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Scroll Bar",
+      "reason": "Same component under a different name: code \"ScrollView\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:49:34.826Z"
     }
   ]
 }

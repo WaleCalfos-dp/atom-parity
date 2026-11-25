@@ -2143,6 +2143,22 @@
           "componentName": "Payment Card"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:49:34.826Z",
+      "action": "ignore",
+      "check": "patterns",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"ScrollView\". Not a defect.",
+      "items": [
+        {
+          "component": "15598:87162",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Scroll Bar"
+        }
+      ]
     }
   ]
 }
