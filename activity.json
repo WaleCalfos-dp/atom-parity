@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-11-25T07:10:45.177Z",
+  "generatedAt": "2026-11-25T07:10:57.220Z",
   "log": [
+    {
+      "at": "2026-11-25T07:09:29.649Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Style\" vs code \"variant\". Not a defect.",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Naming|prop:Style",
+          "title": "Figma \"Style\" is \"variant\" in code",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-25T07:09:20.995Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Tip Direction\" vs code \"placement\". Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Naming|prop:Tip Direction",
+          "title": "Figma \"Tip Direction\" is \"placement\" in code",
+          "componentName": "Tooltip"
+        }
+      ],
+      "checkName": "System feedback"
+    },
     {
       "at": "2026-11-25T07:09:10.572Z",
       "action": "ignore",
