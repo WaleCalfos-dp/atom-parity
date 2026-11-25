@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-11-25T07:08:42.782Z",
+  "generatedAt": "2026-11-25T07:08:50.085Z",
   "log": [
-    {
-      "at": "2026-11-25T07:06:57.402Z",
-      "action": "ignore",
-      "check": "images",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same component, different naming: Figma \"Lightbox Image Viewer\" vs Storybook \"ImageViewer\". Not a defect.",
-      "items": [
-        {
-          "component": "8469:708",
-          "key": "Naming|name",
-          "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
-          "componentName": "Lightbox Image Viewer"
-        }
-      ],
-      "checkName": "Images"
-    },
     {
       "at": "2026-11-25T07:06:52.525Z",
       "action": "ignore",
