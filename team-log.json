@@ -1007,6 +1007,22 @@
           "componentName": "QR Code"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:16:24.827Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Select\" vs Storybook \"SelectInput\". Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Naming|name",
+          "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
+          "componentName": "Select"
+        }
+      ]
     }
   ]
 }

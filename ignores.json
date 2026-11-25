@@ -285,6 +285,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:16:19.200Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "263:5381",
+      "key": "Naming|name",
+      "title": "Figma \"Select\" is \"SelectInput\" in Storybook",
+      "componentName": "Select",
+      "reason": "Same component, different naming: Figma \"Select\" vs Storybook \"SelectInput\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:16:24.827Z"
     }
   ]
 }
