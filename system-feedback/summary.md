@@ -1,4 +1,4 @@
-## Atom parity: 22% match (+0 since last run)
+## Atom parity: 23% match (+1 since last run)
 
 0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.
 
@@ -6,7 +6,8 @@
 |---|---|---|---|---|
 | 0 | 5 | 0 | 6 | 0 |
 
-### 1 fixed
+### 2 fixed
+- Loading Indicator: Figma "Loading Indicator" is "Loading" in Storybook
 - Toast: Figma "Status" is "type" in code
 
 ### Biggest themes
@@ -14,7 +15,7 @@
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Property values missing in code: 3 components (Both)
 - 🔴 Property named differently in Figma and code: 2 components (Both)
-- 🔴 Component named differently in Figma and Storybook: 1 component (Both)
 - 🟠 Code has props with no Figma property: 5 components (Design)
+- 🟠 State values without a code equivalent: 3 components (Dev)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/system-feedback/)

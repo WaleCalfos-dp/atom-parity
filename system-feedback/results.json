@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:11:58.838Z",
-    "durationMs": 195011,
+    "generatedAt": "2026-11-25T07:12:20.495Z",
+    "durationMs": 132466,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-25T07:10:54.954Z",
+      "exportedAt": "2026-11-25T07:11:25.032Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -4964,7 +4964,7 @@
       "key": "15577:80832",
       "name": "Loading Indicator",
       "status": "Drifted",
-      "score": 50,
+      "score": 58,
       "match": "alias",
       "figma": {
         "id": "15577:80832",
@@ -5027,7 +5027,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -5051,7 +5051,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component, different naming: Figma \"Loading Indicator\" vs Storybook \"Loading\". Not a defect.",
+            "at": "2026-11-25T07:07:53.082Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|group",
@@ -8248,7 +8255,7 @@
           "category": "Naming",
           "subject": "prop:Show Title",
           "label": "Property \"Show Title\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma \"Show Title\" is \"title\" in code",
           "owner": "Both",
           "detail": "Same words in a different order or form. Align the names so they map 1:1.",
@@ -8272,7 +8279,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+            "at": "2026-11-25T07:08:53.212Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Show Description",
@@ -9208,7 +9222,7 @@
     }
   ],
   "summary": {
-    "score": 22,
+    "score": 23,
     "headline": "0 of 11 Figma components match Storybook. 5 have drifted and 6 aren't built yet.",
     "components": {
       "total": 11,
@@ -9223,14 +9237,14 @@
     },
     "checks": {
       "pass": 29,
-      "warn": 23,
-      "fail": 33
+      "warn": 22,
+      "fail": 32
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
-        "warn": 6,
-        "fail": 9
+        "warn": 5,
+        "fail": 8
       },
       "Properties": {
         "pass": 0,
@@ -9278,8 +9292,8 @@
         "fail": 27
       },
       "Both": {
-        "warn": 7,
-        "fail": 6
+        "warn": 6,
+        "fail": 5
       }
     },
     "themes": [
@@ -9525,12 +9539,6 @@
           },
           {
             "component": "8560:2779",
-            "key": "Naming|prop:Show Title",
-            "title": "Figma \"Show Title\" is \"title\" in code",
-            "componentName": "Tooltip"
-          },
-          {
-            "component": "8560:2779",
             "key": "Naming|prop:Show Description",
             "title": "Figma \"Show Description\" is \"description\" in code",
             "componentName": "Tooltip"
@@ -9540,23 +9548,6 @@
             "key": "Naming|prop:Tip Direction",
             "title": "Figma \"Tip Direction\" is \"placement\" in code",
             "componentName": "Tooltip"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Component named differently in Figma and Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Loading Indicator"
-        ],
-        "items": [
-          {
-            "component": "15577:80832",
-            "key": "Naming|name",
-            "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
-            "componentName": "Loading Indicator"
           }
         ]
       },
@@ -9732,6 +9723,23 @@
             "componentName": "Toast"
           }
         ]
+      },
+      {
+        "category": "Properties",
+        "title": "2 of 2 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Loading Indicator"
+        ],
+        "items": [
+          {
+            "component": "15577:80832",
+            "key": "Properties|coverage",
+            "title": "2 of 2 variants can't be shown in code",
+            "componentName": "Loading Indicator"
+          }
+        ]
       }
     ],
     "works": [
@@ -9766,6 +9774,19 @@
         "github": null
       },
       {
+        "component": "Loading Indicator",
+        "componentKey": "15577:80832",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same component, different naming: Figma \"Loading Indicator\" vs Storybook \"Loading\". Not a defect.",
+        "at": "2026-11-25T07:07:53.082Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Toast",
         "componentKey": "7839:97889",
         "key": "Naming|prop:Status",
@@ -9775,6 +9796,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
         "at": "2026-11-25T07:07:38.437Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Naming|prop:Show Title",
+        "category": "Naming",
+        "title": "Figma \"Show Title\" is \"title\" in code",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+        "at": "2026-11-25T07:08:53.212Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -10135,19 +10169,6 @@
       {
         "component": "Loading Indicator",
         "componentKey": "15577:80832",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
-        "detail": "Rename one side so any developer can map code to the design system immediately.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Loading Indicator",
-        "componentKey": "15577:80832",
         "key": "Documentation|docs-figma",
         "category": "Documentation",
         "subject": "docs-figma",
@@ -10389,19 +10410,6 @@
         "title": "Figma property \"Show Icon Left\" has no equivalent in code",
         "detail": "boolean property",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Naming|prop:Show Title",
-        "category": "Naming",
-        "subject": "prop:Show Title",
-        "status": "warn",
-        "title": "Figma \"Show Title\" is \"title\" in code",
-        "detail": "Same words in a different order or form. Align the names so they map 1:1.",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -11015,6 +11023,13 @@
     "fixed": [
       {
         "status": "fail",
+        "component": "Loading Indicator",
+        "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
         "component": "Toast",
         "title": "Figma \"Status\" is \"type\" in code",
         "category": "Naming",
@@ -11023,6 +11038,38 @@
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:08:53.212Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Naming|prop:Show Title",
+          "title": "Figma \"Show Title\" is \"title\" in code",
+          "componentName": "Tooltip"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:07:53.082Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Loading Indicator\" vs Storybook \"Loading\". Not a defect.",
+      "items": [
+        {
+          "component": "15577:80832",
+          "key": "Naming|name",
+          "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
+          "componentName": "Loading Indicator"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:07:38.437Z",
       "action": "ignore",

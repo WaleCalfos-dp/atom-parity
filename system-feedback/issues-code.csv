@@ -166,13 +166,6 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=16012-24876
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-16012%3A24876
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
-"[Atom parity] Loading Indicator: Figma ""Loading Indicator"" is ""Loading"" in Storybook","Rename one side so any developer can map code to the design system immediately.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-loading--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-15577%3A80832
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Loading Indicator: Figma property ""Type"" has no equivalent in code","Values: Spinner, Skeleton
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15577-80832
@@ -266,13 +259,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Tooltip: Figma ""Show Title"" is ""title"" in code","Same words in a different order or form. Align the names so they map 1:1.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/system-feedback-tooltip--usage
-Report: https://walecalfos-dp.github.io/atom-parity/system-feedback/#c-8560%3A2779
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
 "[Atom parity] Tooltip: Figma ""Show Description"" is ""description"" in code","Same words in a different order or form. Align the names so they map 1:1.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8560-2779
