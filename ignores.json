@@ -1825,6 +1825,39 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:51:19.851Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "17074:30102",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Progress Bar / Animated",
+      "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:26.043Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "1685:4000",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Progress Bar / Percentage",
+      "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:26.043Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "12738:392",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Progress Bar / Tracker",
+      "reason": "Same component under a different name: code \"ProgressBar\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:26.043Z"
     }
   ]
 }
