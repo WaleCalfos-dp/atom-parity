@@ -263,6 +263,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:09:29.649Z"
+    },
+    {
+      "check": "data-display",
+      "component": "2991:63143",
+      "key": "Naming|prop:Type",
+      "title": "Figma \"Type\" is \"direction\" in code",
+      "componentName": "Data Row",
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"direction\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:16:13.392Z"
     }
   ]
 }

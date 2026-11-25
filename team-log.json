@@ -975,6 +975,22 @@
           "componentName": "Stepper"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:16:13.392Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"direction\". Not a defect.",
+      "items": [
+        {
+          "component": "2991:63143",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"direction\" in code",
+          "componentName": "Data Row"
+        }
+      ]
     }
   ]
 }
