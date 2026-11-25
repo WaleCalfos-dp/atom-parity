@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-24T12:36:24.634Z",
-    "durationMs": 241010,
+    "generatedAt": "2026-11-25T07:25:18.236Z",
+    "durationMs": 230256,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-24T11:25:02Z"
+        "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-24T12:35:29.455Z",
+      "exportedAt": "2026-11-25T07:24:20.205Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "218:1707",
       "name": "Accordion",
       "status": "Drifted",
-      "score": 40,
+      "score": 42,
       "match": "alias",
       "figma": {
         "id": "218:1707",
@@ -1624,7 +1624,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component name",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
           "owner": "Both",
           "detail": "Rename one side so any developer can map code to the design system immediately.",
@@ -1648,7 +1648,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component, different naming: Figma \"Accordion\" vs Storybook \"Collapse\". Not a defect.",
+            "at": "2026-11-25T07:06:37.576Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|group",
@@ -5852,7 +5859,7 @@
       "key": "2991:63143",
       "name": "Data Row",
       "status": "Drifted",
-      "score": 34,
+      "score": 35,
       "match": "exact",
       "figma": {
         "id": "2991:63143",
@@ -6663,7 +6670,7 @@
           "category": "Naming",
           "subject": "prop:Type",
           "label": "Property \"Type\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Type\" is \"direction\" in code",
           "owner": "Both",
           "detail": "Rename one side so names match 1:1 (paired by matching values)",
@@ -6687,7 +6694,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Type\" vs code \"direction\". Not a defect.",
+            "at": "2026-11-25T07:16:13.392Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|values:Type",
@@ -9114,7 +9128,7 @@
           "category": "Naming",
           "subject": "prop:Show Caption",
           "label": "Property \"Show Caption\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma \"Show Caption\" is \"caption\" in code",
           "owner": "Both",
           "detail": "Same words in a different order or form. Align the names so they map 1:1.",
@@ -9138,7 +9152,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Show Caption\" vs code \"caption\". Not a defect.",
+            "at": "2026-11-25T07:16:19.200Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Button",
@@ -10525,7 +10546,7 @@
       "key": "1658:46512",
       "name": "Steps",
       "status": "Drifted",
-      "score": 61,
+      "score": 65,
       "match": "exact",
       "figma": {
         "id": "1658:46512",
@@ -10942,7 +10963,7 @@
           "category": "Naming",
           "subject": "prop:Type",
           "label": "Property \"Type\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Type\" is \"finishIconType\" in code",
           "owner": "Both",
           "detail": "Rename one side so names match 1:1 (paired by matching values)",
@@ -10966,7 +10987,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+            "at": "2026-11-25T07:21:08.999Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|values:Type",
@@ -11184,14 +11212,14 @@
     },
     "checks": {
       "pass": 36,
-      "warn": 36,
-      "fail": 56
+      "warn": 35,
+      "fail": 53
     },
     "byCategory": {
       "Naming": {
         "pass": 19,
-        "warn": 2,
-        "fail": 10
+        "warn": 1,
+        "fail": 7
       },
       "Properties": {
         "pass": 3,
@@ -11239,8 +11267,8 @@
         "fail": 50
       },
       "Both": {
-        "warn": 12,
-        "fail": 6
+        "warn": 11,
+        "fail": 3
       }
     },
     "themes": [
@@ -11578,37 +11606,6 @@
         ]
       },
       {
-        "category": "Naming",
-        "title": "Property named differently in Figma and code",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Data Row",
-          "QR Code",
-          "Steps"
-        ],
-        "items": [
-          {
-            "component": "2991:63143",
-            "key": "Naming|prop:Type",
-            "title": "Figma \"Type\" is \"direction\" in code",
-            "componentName": "Data Row"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Naming|prop:Show Caption",
-            "title": "Figma \"Show Caption\" is \"caption\" in code",
-            "componentName": "QR Code"
-          },
-          {
-            "component": "1658:46512",
-            "key": "Naming|prop:Type",
-            "title": "Figma \"Type\" is \"finishIconType\" in code",
-            "componentName": "Steps"
-          }
-        ]
-      },
-      {
         "category": "Properties",
         "title": "Property values missing in code",
         "status": "fail",
@@ -11636,23 +11633,6 @@
             "key": "Properties|values:Type",
             "title": "Type values missing in code",
             "componentName": "Steps"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Component named differently in Figma and Storybook",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Accordion"
-        ],
-        "items": [
-          {
-            "component": "218:1707",
-            "key": "Naming|name",
-            "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
-            "componentName": "Accordion"
           }
         ]
       },
@@ -11891,28 +11871,109 @@
             "componentName": "Steps"
           }
         ]
+      },
+      {
+        "category": "Accessibility",
+        "title": "Text contrast is too low in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Badge",
+          "QR Code"
+        ],
+        "items": [
+          {
+            "component": "1888:5974",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "Badge"
+          },
+          {
+            "component": "15027:1802",
+            "key": "Accessibility|design:contrast",
+            "title": "Text contrast is too low in Figma",
+            "componentName": "QR Code"
+          }
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "20 of 20 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Content Block"
+        ],
+        "items": [
+          {
+            "component": "14347:6046",
+            "key": "Properties|coverage",
+            "title": "20 of 20 variants can't be shown in code",
+            "componentName": "Content Block"
+          }
+        ]
       }
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
       "No failures in: Accessibility, Documentation"
     ],
-    "ignored": [],
-    "brokenComponents": [],
-    "issues": [
+    "ignored": [
       {
         "component": "Accordion",
         "componentKey": "218:1707",
         "key": "Naming|name",
         "category": "Naming",
-        "subject": "name",
-        "status": "fail",
         "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
-        "detail": "Rename one side so any developer can map code to the design system immediately.",
+        "was": "fail",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
+        "reason": "Same component, different naming: Figma \"Accordion\" vs Storybook \"Collapse\". Not a defect.",
+        "at": "2026-11-25T07:06:37.576Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
+      {
+        "component": "Data Row",
+        "componentKey": "2991:63143",
+        "key": "Naming|prop:Type",
+        "category": "Naming",
+        "title": "Figma \"Type\" is \"direction\" in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Type\" vs code \"direction\". Not a defect.",
+        "at": "2026-11-25T07:16:13.392Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
+        "key": "Naming|prop:Show Caption",
+        "category": "Naming",
+        "title": "Figma \"Show Caption\" is \"caption\" in code",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Show Caption\" vs code \"caption\". Not a defect.",
+        "at": "2026-11-25T07:16:19.200Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Steps",
+        "componentKey": "1658:46512",
+        "key": "Naming|prop:Type",
+        "category": "Naming",
+        "title": "Figma \"Type\" is \"finishIconType\" in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+        "at": "2026-11-25T07:21:08.999Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
       {
         "component": "Accordion",
         "componentKey": "218:1707",
@@ -12427,19 +12488,6 @@
       {
         "component": "Data Row",
         "componentKey": "2991:63143",
-        "key": "Naming|prop:Type",
-        "category": "Naming",
-        "subject": "prop:Type",
-        "status": "fail",
-        "title": "Figma \"Type\" is \"direction\" in code",
-        "detail": "Rename one side so names match 1:1 (paired by matching values)",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Data Row",
-        "componentKey": "2991:63143",
         "key": "Properties|values:Type",
         "category": "Properties",
         "subject": "values:Type",
@@ -12804,19 +12852,6 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
-        "key": "Naming|prop:Show Caption",
-        "category": "Naming",
-        "subject": "prop:Show Caption",
-        "status": "warn",
-        "title": "Figma \"Show Caption\" is \"caption\" in code",
-        "detail": "Same words in a different order or form. Align the names so they map 1:1.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
         "key": "Properties|prop:Show Button",
         "category": "Properties",
         "subject": "prop:Show Button",
@@ -13036,19 +13071,6 @@
         "title": "Figma property \"Background Fill\" has no equivalent in code",
         "detail": "Values: On, Off",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Steps",
-        "componentKey": "1658:46512",
-        "key": "Naming|prop:Type",
-        "category": "Naming",
-        "subject": "prop:Type",
-        "status": "fail",
-        "title": "Figma \"Type\" is \"finishIconType\" in code",
-        "detail": "Rename one side so names match 1:1 (paired by matching values)",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -13694,10 +13716,129 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T11:20:38.212Z",
+    "since": "2026-11-24T12:36:24.634Z",
     "previousScore": 23,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Accordion",
+        "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Data Row",
+        "title": "Figma \"Type\" is \"direction\" in code",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Steps",
+        "title": "Figma \"Type\" is \"finishIconType\" in code",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
-  "activity": []
+  "activity": [
+    {
+      "at": "2026-11-25T07:21:08.999Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"finishIconType\" in code",
+          "componentName": "Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:19:46.334Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"finishIconType\" in code",
+          "componentName": "Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:17:51.536Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"finishIconType\". Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"finishIconType\" in code",
+          "componentName": "Steps"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:16:19.200Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Caption\" vs code \"caption\". Not a defect.",
+      "items": [
+        {
+          "component": "15027:1802",
+          "key": "Naming|prop:Show Caption",
+          "title": "Figma \"Show Caption\" is \"caption\" in code",
+          "componentName": "QR Code"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:16:13.392Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Type\" vs code \"direction\". Not a defect.",
+      "items": [
+        {
+          "component": "2991:63143",
+          "key": "Naming|prop:Type",
+          "title": "Figma \"Type\" is \"direction\" in code",
+          "componentName": "Data Row"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:06:37.576Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Accordion\" vs Storybook \"Collapse\". Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Naming|name",
+          "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
+          "componentName": "Accordion"
+        }
+      ]
+    }
+  ]
 }
