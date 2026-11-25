@@ -151,13 +151,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-documentation fix-in-figma","Atom Design System"
-"[Atom parity] QR Code: Type values missing in code","Missing in code: QR Code, Bar Code, Message · Only in code: image, canvas, svg
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-qrcode--usage
-Report: https://walecalfos-dp.github.io/atom-parity/data-display/#c-15027%3A1802
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] QR Code: Default Type differs","Design QR Code · Code image
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15027-1802

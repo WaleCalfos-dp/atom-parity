@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:20:57.934Z",
-    "durationMs": 147170,
+    "generatedAt": "2026-11-25T15:23:30.506Z",
+    "durationMs": 149632,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:19:58.004Z",
+      "exportedAt": "2026-11-25T15:22:28.449Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -8355,7 +8355,7 @@
       "key": "15027:1802",
       "name": "QR Code",
       "status": "Drifted",
-      "score": 68,
+      "score": 75,
       "match": "exact",
       "figma": {
         "id": "15027:1802",
@@ -9733,7 +9733,7 @@
           "category": "Properties",
           "subject": "values:Type",
           "label": "Type values",
-          "status": "fail",
+          "status": "ignored",
           "title": "Type values missing in code",
           "owner": "Both",
           "detail": "Missing in code: QR Code, Bar Code, Message · Only in code: image, canvas, svg",
@@ -9757,7 +9757,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Content type and render mode are separate code props (`mode`, `type`). Not a defect.",
+            "at": "2026-11-25T15:20:40.577Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|default:Type",
@@ -11582,7 +11589,7 @@
     }
   ],
   "summary": {
-    "score": 43,
+    "score": 44,
     "headline": "0 of 10 Figma components match Storybook. 6 have drifted and 4 aren't built yet.",
     "components": {
       "total": 13,
@@ -11598,7 +11605,7 @@
     "checks": {
       "pass": 36,
       "warn": 24,
-      "fail": 9
+      "fail": 8
     },
     "byCategory": {
       "Naming": {
@@ -11609,7 +11616,7 @@
       "Properties": {
         "pass": 3,
         "warn": 20,
-        "fail": 5
+        "fail": 4
       },
       "Tokens": {
         "pass": 0,
@@ -11653,7 +11660,7 @@
       },
       "Both": {
         "warn": 11,
-        "fail": 3
+        "fail": 2
       }
     },
     "themes": [
@@ -11702,7 +11709,6 @@
         "owner": "Both",
         "components": [
           "Data Row",
-          "QR Code",
           "Steps"
         ],
         "items": [
@@ -11711,12 +11717,6 @@
             "key": "Properties|values:Type",
             "title": "Type values missing in code",
             "componentName": "Data Row"
-          },
-          {
-            "component": "15027:1802",
-            "key": "Properties|values:Type",
-            "title": "Type values missing in code",
-            "componentName": "QR Code"
           },
           {
             "component": "1658:46512",
@@ -12663,6 +12663,19 @@
       {
         "component": "QR Code",
         "componentKey": "15027:1802",
+        "key": "Properties|values:Type",
+        "category": "Properties",
+        "title": "Type values missing in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Content type and render mode are separate code props (`mode`, `type`). Not a defect.",
+        "at": "2026-11-25T15:20:40.577Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "QR Code",
+        "componentKey": "15027:1802",
         "key": "Properties|prop:Style",
         "category": "Properties",
         "title": "Figma property \"Style\" has no equivalent in code",
@@ -13037,19 +13050,6 @@
         "title": "No description in Figma",
         "detail": null,
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "QR Code",
-        "componentKey": "15027:1802",
-        "key": "Properties|values:Type",
-        "category": "Properties",
-        "subject": "values:Type",
-        "status": "fail",
-        "title": "Type values missing in code",
-        "detail": "Missing in code: QR Code, Bar Code, Message · Only in code: image, canvas, svg",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -13536,9 +13536,33 @@
     "since": "2026-11-25T15:07:17.463Z",
     "previousScore": 43,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "QR Code",
+        "title": "Type values missing in code",
+        "category": "Properties",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:20:40.577Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Content type and render mode are separate code props (`mode`, `type`). Not a defect.",
+      "items": [
+        {
+          "component": "15027:1802",
+          "key": "Properties|values:Type",
+          "title": "Type values missing in code",
+          "componentName": "QR Code"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T15:18:13.421Z",
       "action": "ignore",
