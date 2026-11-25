@@ -6,11 +6,10 @@
 |---|---|---|---|---|
 | 0 | 1 | 2 | 3 | 0 |
 
-### 6 fixed
+### 5 fixed
 - Icon Button: Not found in Storybook
 - Payment Button: Not found in Storybook
 - Social Button: Not found in Storybook
-- Stepper: Style values missing in code
 - Tag: Figma property "Show Icon Left" has no equivalent in code
 - Tag: Figma property "Show Icon Right" has no equivalent in code
 
@@ -19,7 +18,7 @@
 - 🔴 Horizontal padding differs from design: 2 components (Both)
 - 🔴 Vertical padding differs from design: 2 components (Both)
 - 🔴 Height differs from design: 2 components (Both)
+- 🔴 Property values missing in code: 2 components (Both)
 - 🔴 Background colour differs from design: 1 component (Both)
-- 🔴 Label · Font size differs from design: 1 component (Both)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/actions/)

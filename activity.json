@@ -1,63 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:47:39.267Z",
+  "generatedAt": "2026-11-25T14:47:41.595Z",
   "log": [
-    {
-      "at": "2026-11-25T14:45:23.998Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same token value, different CSS variable name. Not a defect.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Tokens|token:Label · Font family",
-          "title": "Label · Font family uses the design token under a different name",
-          "componentName": "Button"
-        }
-      ],
-      "checkName": "Actions"
-    },
-    {
-      "at": "2026-11-25T14:45:14.463Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same value, different naming: Figma \"Plain\" vs code \"text\". Not a defect.",
-      "items": [
-        {
-          "component": "1702:72060",
-          "key": "Properties|values:Style",
-          "title": "Style values missing in code",
-          "componentName": "Stepper"
-        }
-      ],
-      "checkName": "Actions"
-    },
-    {
-      "at": "2026-11-25T14:45:03.834Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Width follows label text / artboard width. Not a defect.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Visual|width",
-          "title": "Width differs from design",
-          "componentName": "Button"
-        },
-        {
-          "component": "1702:72060",
-          "key": "Visual|width",
-          "title": "Width differs from design",
-          "componentName": "Stepper"
-        }
-      ],
-      "checkName": "Actions"
-    },
     {
       "at": "2026-11-25T14:44:57.475Z",
       "action": "ignore",

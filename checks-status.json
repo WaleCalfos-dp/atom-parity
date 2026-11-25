@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T14:47:46.011Z",
+  "generatedAt": "2026-11-25T14:47:48.793Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:47:39.222Z",
+      "ranAt": "2026-11-25T14:47:41.543Z",
       "ok": true,
       "history": [
         {
@@ -126,7 +126,7 @@
           "score": 22
         },
         {
-          "at": "2026-11-25T14:47:39.222Z",
+          "at": "2026-11-25T14:47:41.543Z",
           "score": 35
         }
       ],
@@ -143,7 +143,7 @@
         {
           "name": "Button",
           "status": "Broken",
-          "score": 70
+          "score": 69
         },
         {
           "name": "Button Group",
@@ -178,7 +178,7 @@
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 71
+          "score": 68
         },
         {
           "name": "Tag",
@@ -201,7 +201,7 @@
       },
       "previousScore": 22,
       "newFails": 0,
-      "fixed": 6,
+      "fixed": 5,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -211,7 +211,7 @@
         "Horizontal padding differs from design",
         "Vertical padding differs from design"
       ],
-      "ignored": 20,
+      "ignored": 16,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",
