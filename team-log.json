@@ -2501,6 +2501,22 @@
           "componentName": "Dialog"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:52:25.136Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Accessibility|design:contrast",
+          "title": "Text contrast is too low in Figma",
+          "componentName": "Tooltip"
+        }
+      ]
     }
   ]
 }
