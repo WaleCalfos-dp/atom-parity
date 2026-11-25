@@ -2298,6 +2298,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T15:23:14.015Z"
+    },
+    {
+      "check": "images",
+      "component": "8469:708",
+      "key": "Properties|code-only",
+      "title": "Code has props with no Figma property",
+      "componentName": "Lightbox Image Viewer",
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:25:49.757Z"
     }
   ]
 }
