@@ -2835,6 +2835,22 @@
           "componentName": "Lightbox Image Viewer"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T15:28:27.067Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
     }
   ]
 }
