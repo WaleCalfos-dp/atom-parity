@@ -1,6 +1,52 @@
 {
-  "generatedAt": "2026-11-25T14:47:36.572Z",
+  "generatedAt": "2026-11-25T14:47:39.278Z",
   "log": [
+    {
+      "at": "2026-11-25T14:45:03.834Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1702:72060",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Stepper"
+        }
+      ],
+      "checkName": "Actions"
+    },
+    {
+      "at": "2026-11-25T14:44:57.475Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Tag"
+        },
+        {
+          "component": "1885:4061",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Tag"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-25T14:44:44.594Z",
       "action": "ignore",

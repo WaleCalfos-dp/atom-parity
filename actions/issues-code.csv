@@ -173,16 +173,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
-"[Atom parity] Button: Width differs from design","Design 183px · Code 124px (label text may differ)
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+16 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
 "[Atom parity] Button: Border colour uses a different token","Design token border/basic/strong (--aum-border-basic-strong) · Code uses --aum-button-secondary-border-color
 
 Brands: Dragonpass, Mastercard, Investec
@@ -272,16 +262,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Width differs from design","Design 152px · Code 32px (label text may differ)
-
-Brands: Dragonpass
-Variants: Style=Input; Style=Card
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
 "[Atom parity] Stepper: Border colour differs from design","Design #CECCCC (linked variable) · Code #91908F
 
 Brands: Dragonpass
@@ -339,20 +319,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
-"[Atom parity] Tag: Figma property ""Show Icon Left"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Tag: Figma property ""Show Icon Right"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Tag: State values with no code equivalent: Selected, Disabled","Default → :rest · Hover → :hover · Focus → :focus · Pressed → :active · Selected → missing · Disabled → missing
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061

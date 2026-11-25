@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-25T14:47:54.430Z",
+  "generatedAt": "2026-11-25T14:47:59.322Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:47:36.530Z",
+      "ranAt": "2026-11-25T14:47:39.224Z",
       "ok": true,
       "history": [
         {
@@ -126,8 +126,8 @@
           "score": 22
         },
         {
-          "at": "2026-11-25T14:47:36.530Z",
-          "score": 33
+          "at": "2026-11-25T14:47:39.224Z",
+          "score": 35
         }
       ],
       "preview": {
@@ -178,15 +178,15 @@
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 68
+          "score": 69
         },
         {
           "name": "Tag",
           "status": "Drifted",
-          "score": 58
+          "score": 70
         }
       ],
-      "score": 33,
+      "score": 35,
       "headline": "0 of 6 Figma components match Storybook. 1 has drifted, 2 are broken and 3 aren't built yet.",
       "counts": {
         "total": 9,
@@ -201,7 +201,7 @@
       },
       "previousScore": 22,
       "newFails": 0,
-      "fixed": 3,
+      "fixed": 5,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -211,7 +211,7 @@
         "Horizontal padding differs from design",
         "Vertical padding differs from design"
       ],
-      "ignored": 14,
+      "ignored": 18,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",
