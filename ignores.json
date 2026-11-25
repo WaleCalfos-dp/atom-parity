@@ -362,6 +362,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:21:28.115Z"
+    },
+    {
+      "check": "navigation",
+      "component": "15169:84760",
+      "key": "Properties|prop:Show Social Icons",
+      "title": "Figma property \"Show Social Icons\" has no equivalent in code",
+      "componentName": "Footer",
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:39:43.344Z"
     }
   ]
 }
