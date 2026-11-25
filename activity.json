@@ -1,58 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:49:43.954Z",
+  "generatedAt": "2026-11-25T14:49:59.946Z",
   "log": [
-    {
-      "at": "2026-11-25T14:48:06.145Z",
-      "action": "ignore",
-      "check": "images",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
-      "items": [
-        {
-          "component": "8469:708",
-          "key": "Properties|prop:Breakpoint",
-          "title": "Figma property \"Breakpoint\" has no equivalent in code",
-          "componentName": "Lightbox Image Viewer"
-        }
-      ],
-      "checkName": "Images"
-    },
-    {
-      "at": "2026-11-25T14:47:56.531Z",
-      "action": "ignore",
-      "check": "images",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
-      "items": [
-        {
-          "component": "8469:708",
-          "key": "Properties|prop:Show Close Button",
-          "title": "Figma property \"Show Close Button\" has no equivalent in code",
-          "componentName": "Lightbox Image Viewer"
-        },
-        {
-          "component": "8469:708",
-          "key": "Properties|prop:Show Counter",
-          "title": "Figma property \"Show Counter\" has no equivalent in code",
-          "componentName": "Lightbox Image Viewer"
-        },
-        {
-          "component": "8469:708",
-          "key": "Properties|prop:Show Next Button",
-          "title": "Figma property \"Show Next Button\" has no equivalent in code",
-          "componentName": "Lightbox Image Viewer"
-        },
-        {
-          "component": "8469:708",
-          "key": "Properties|prop:Show Previous Button",
-          "title": "Figma property \"Show Previous Button\" has no equivalent in code",
-          "componentName": "Lightbox Image Viewer"
-        }
-      ],
-      "checkName": "Images"
-    },
     {
       "at": "2026-11-25T14:47:49.213Z",
       "action": "ignore",
