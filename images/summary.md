@@ -1,10 +1,16 @@
-## Atom parity: 17% match (+0 since last run)
+## Atom parity: 30% match (+13 since last run)
 
 0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 1 | 0 | 1 | 0 |
+
+### 4 fixed
+- Lightbox Image Viewer: Figma property "Show Previous Button" has no equivalent in code
+- Lightbox Image Viewer: Figma property "Show Next Button" has no equivalent in code
+- Lightbox Image Viewer: Figma property "Show Counter" has no equivalent in code
+- Lightbox Image Viewer: Figma property "Show Close Button" has no equivalent in code
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 1 component (Dev)

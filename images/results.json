@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:36:49.819Z",
-    "durationMs": 131823,
+    "generatedAt": "2026-11-25T14:50:57.956Z",
+    "durationMs": 115576,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:35:09.711Z",
+      "exportedAt": "2026-11-25T14:49:49.920Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "8469:708",
       "name": "Lightbox Image Viewer",
       "status": "Drifted",
-      "score": 33,
+      "score": 60,
       "match": "alias",
       "figma": {
         "id": "8469:708",
@@ -1584,7 +1584,7 @@
           "category": "Properties",
           "subject": "prop:Show Previous Button",
           "label": "Property \"Show Previous Button\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Previous Button\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1608,14 +1608,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:47:56.531Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Next Button",
           "category": "Properties",
           "subject": "prop:Show Next Button",
           "label": "Property \"Show Next Button\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Next Button\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1639,14 +1646,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:47:56.531Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Counter",
           "category": "Properties",
           "subject": "prop:Show Counter",
           "label": "Property \"Show Counter\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Counter\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1670,14 +1684,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:47:56.531Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Close Button",
           "category": "Properties",
           "subject": "prop:Show Close Button",
           "label": "Property \"Show Close Button\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Close Button\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -1701,7 +1722,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:47:56.531Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Breakpoint",
@@ -1863,7 +1891,7 @@
     }
   ],
   "summary": {
-    "score": 17,
+    "score": 30,
     "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
     "components": {
       "total": 2,
@@ -1879,7 +1907,7 @@
     "checks": {
       "pass": 2,
       "warn": 2,
-      "fail": 6
+      "fail": 2
     },
     "byCategory": {
       "Naming": {
@@ -1890,7 +1918,7 @@
       "Properties": {
         "pass": 0,
         "warn": 2,
-        "fail": 5
+        "fail": 1
       },
       "Tokens": {
         "pass": 0,
@@ -1930,7 +1958,7 @@
       },
       "Dev": {
         "warn": 0,
-        "fail": 6
+        "fail": 2
       },
       "Both": {
         "warn": 1,
@@ -1947,30 +1975,6 @@
           "Lightbox Image Viewer"
         ],
         "items": [
-          {
-            "component": "8469:708",
-            "key": "Properties|prop:Show Previous Button",
-            "title": "Figma property \"Show Previous Button\" has no equivalent in code",
-            "componentName": "Lightbox Image Viewer"
-          },
-          {
-            "component": "8469:708",
-            "key": "Properties|prop:Show Next Button",
-            "title": "Figma property \"Show Next Button\" has no equivalent in code",
-            "componentName": "Lightbox Image Viewer"
-          },
-          {
-            "component": "8469:708",
-            "key": "Properties|prop:Show Counter",
-            "title": "Figma property \"Show Counter\" has no equivalent in code",
-            "componentName": "Lightbox Image Viewer"
-          },
-          {
-            "component": "8469:708",
-            "key": "Properties|prop:Show Close Button",
-            "title": "Figma property \"Show Close Button\" has no equivalent in code",
-            "componentName": "Lightbox Image Viewer"
-          },
           {
             "component": "8469:708",
             "key": "Properties|prop:Breakpoint",
@@ -2048,62 +2052,62 @@
         "at": "2026-11-25T07:06:57.402Z",
         "by": "frontenddev.ai",
         "github": null
-      }
-    ],
-    "brokenComponents": [],
-    "issues": [
+      },
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Properties|prop:Show Previous Button",
         "category": "Properties",
-        "subject": "prop:Show Previous Button",
-        "status": "fail",
         "title": "Figma property \"Show Previous Button\" has no equivalent in code",
-        "detail": "boolean property",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:47:56.531Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Properties|prop:Show Next Button",
         "category": "Properties",
-        "subject": "prop:Show Next Button",
-        "status": "fail",
         "title": "Figma property \"Show Next Button\" has no equivalent in code",
-        "detail": "boolean property",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:47:56.531Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Properties|prop:Show Counter",
         "category": "Properties",
-        "subject": "prop:Show Counter",
-        "status": "fail",
         "title": "Figma property \"Show Counter\" has no equivalent in code",
-        "detail": "boolean property",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:47:56.531Z",
+        "by": "frontenddev.ai",
+        "github": null
       },
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Properties|prop:Show Close Button",
         "category": "Properties",
-        "subject": "prop:Show Close Button",
-        "status": "fail",
         "title": "Figma property \"Show Close Button\" has no equivalent in code",
-        "detail": "boolean property",
+        "was": "fail",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:47:56.531Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
@@ -2512,12 +2516,75 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T07:08:42.751Z",
+    "since": "2026-11-25T11:36:49.819Z",
     "previousScore": 17,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Lightbox Image Viewer",
+        "title": "Figma property \"Show Previous Button\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Lightbox Image Viewer",
+        "title": "Figma property \"Show Next Button\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Lightbox Image Viewer",
+        "title": "Figma property \"Show Counter\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Lightbox Image Viewer",
+        "title": "Figma property \"Show Close Button\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:47:56.531Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Properties|prop:Show Close Button",
+          "title": "Figma property \"Show Close Button\" has no equivalent in code",
+          "componentName": "Lightbox Image Viewer"
+        },
+        {
+          "component": "8469:708",
+          "key": "Properties|prop:Show Counter",
+          "title": "Figma property \"Show Counter\" has no equivalent in code",
+          "componentName": "Lightbox Image Viewer"
+        },
+        {
+          "component": "8469:708",
+          "key": "Properties|prop:Show Next Button",
+          "title": "Figma property \"Show Next Button\" has no equivalent in code",
+          "componentName": "Lightbox Image Viewer"
+        },
+        {
+          "component": "8469:708",
+          "key": "Properties|prop:Show Previous Button",
+          "title": "Figma property \"Show Previous Button\" has no equivalent in code",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:06:57.402Z",
       "action": "ignore",
