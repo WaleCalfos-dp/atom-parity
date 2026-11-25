@@ -450,6 +450,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:45:03.834Z"
+    },
+    {
+      "check": "actions",
+      "component": "1702:72060",
+      "key": "Properties|values:Style",
+      "title": "Style values missing in code",
+      "componentName": "Stepper",
+      "reason": "Same value, different naming: Figma \"Plain\" vs code \"text\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:14.463Z"
     }
   ]
 }

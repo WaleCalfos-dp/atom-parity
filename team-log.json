@@ -1271,6 +1271,22 @@
           "componentName": "Stepper"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:45:14.463Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same value, different naming: Figma \"Plain\" vs code \"text\". Not a defect.",
+      "items": [
+        {
+          "component": "1702:72060",
+          "key": "Properties|values:Style",
+          "title": "Style values missing in code",
+          "componentName": "Stepper"
+        }
+      ]
     }
   ]
 }
