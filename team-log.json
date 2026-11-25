@@ -1829,6 +1829,22 @@
           "componentName": "Lightbox Image Viewer"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:48:06.145Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Properties|prop:Breakpoint",
+          "title": "Figma property \"Breakpoint\" has no equivalent in code",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
     }
   ]
 }
