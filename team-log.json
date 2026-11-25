@@ -1635,6 +1635,22 @@
           "componentName": "Slot"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:46:14.222Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same option, named `filled` in code. Not a defect.",
+      "items": [
+        {
+          "component": "1658:46512",
+          "key": "Properties|prop:Background Fill",
+          "title": "Figma property \"Background Fill\" has no equivalent in code",
+          "componentName": "Steps"
+        }
+      ]
     }
   ]
 }

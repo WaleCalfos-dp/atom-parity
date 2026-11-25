@@ -989,6 +989,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:46:05.992Z"
+    },
+    {
+      "check": "data-display",
+      "component": "1658:46512",
+      "key": "Properties|prop:Background Fill",
+      "title": "Figma property \"Background Fill\" has no equivalent in code",
+      "componentName": "Steps",
+      "reason": "Same option, named `filled` in code. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:46:14.222Z"
     }
   ]
 }
