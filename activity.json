@@ -1,6 +1,125 @@
 {
-  "generatedAt": "2026-11-25T07:09:25.639Z",
+  "generatedAt": "2026-11-25T07:09:10.037Z",
   "log": [
+    {
+      "at": "2026-11-25T07:07:26.710Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Naming|prop:Show Title",
+          "title": "Figma \"Show Title\" is \"title\" in code",
+          "componentName": "Alert"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T07:07:18.399Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+      "items": [
+        {
+          "component": "3581:33620",
+          "key": "Naming|prop:Show Title",
+          "title": "Figma \"Show Title\" is \"title\" in code",
+          "componentName": "Dialog"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T07:07:10.607Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Naming|name",
+          "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T07:07:02.664Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Flight Delay / Flight Card\" vs Storybook \"FlightCard\". Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Naming|name",
+          "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ],
+      "checkName": "Product modules"
+    },
+    {
+      "at": "2026-11-25T07:06:57.402Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Lightbox Image Viewer\" vs Storybook \"ImageViewer\". Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Naming|name",
+          "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ],
+      "checkName": "Images"
+    },
+    {
+      "at": "2026-11-25T07:06:52.525Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Placeholder\" vs code \"placeholder\". Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Naming|prop:Show Placeholder",
+          "title": "Figma \"Show Placeholder\" is \"placeholder\" in code",
+          "componentName": "Select"
+        }
+      ],
+      "checkName": "Data entry"
+    },
+    {
+      "at": "2026-11-25T07:06:45.731Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Date Picker\" vs Storybook \"CalendarPicker\". Not a defect.",
+      "items": [
+        {
+          "component": "1617:15924",
+          "key": "Naming|name",
+          "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
+          "componentName": "Date Picker"
+        }
+      ],
+      "checkName": "Data entry"
+    },
     {
       "at": "2026-11-25T07:06:37.576Z",
       "action": "ignore",
