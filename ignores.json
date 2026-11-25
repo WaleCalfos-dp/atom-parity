@@ -2287,6 +2287,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T15:20:40.577Z"
+    },
+    {
+      "check": "actions",
+      "component": "1885:4061",
+      "key": "Properties|values:Size",
+      "title": "Size values missing in code",
+      "componentName": "Tag",
+      "reason": "Same values, different naming: Figma \"Regular/Small\" vs code \"default/large\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T15:23:14.015Z"
     }
   ]
 }
