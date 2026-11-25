@@ -428,6 +428,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:44:57.475Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Visual|width",
+      "title": "Width differs from design",
+      "componentName": "Button",
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:03.834Z"
+    },
+    {
+      "check": "actions",
+      "component": "1702:72060",
+      "key": "Visual|width",
+      "title": "Width differs from design",
+      "componentName": "Stepper",
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:03.834Z"
     }
   ]
 }

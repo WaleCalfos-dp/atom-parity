@@ -1249,6 +1249,28 @@
           "componentName": "Tag"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:45:03.834Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1702:72060",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Stepper"
+        }
+      ]
     }
   ]
 }
