@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:50:48.064Z",
-    "durationMs": 84692,
+    "generatedAt": "2026-11-25T15:27:44.739Z",
+    "durationMs": 88288,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:49:51.316Z",
+      "exportedAt": "2026-11-25T15:26:29.716Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "8469:708",
       "name": "Lightbox Image Viewer",
       "status": "Drifted",
-      "score": 75,
+      "score": 83,
       "match": "alias",
       "figma": {
         "id": "8469:708",
@@ -1774,7 +1774,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "images, showCloseIcon, showDefaultFooter, customCloseIcon, closeIconClassName, visible, defaultIndex",
@@ -1798,7 +1798,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T15:25:49.757Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -1898,7 +1905,7 @@
     }
   ],
   "summary": {
-    "score": 38,
+    "score": 42,
     "headline": "0 of 2 Figma components match Storybook. 1 has drifted and 1 isn't built yet.",
     "components": {
       "total": 2,
@@ -1913,7 +1920,7 @@
     },
     "checks": {
       "pass": 2,
-      "warn": 2,
+      "warn": 1,
       "fail": 1
     },
     "byCategory": {
@@ -1924,7 +1931,7 @@
       },
       "Properties": {
         "pass": 0,
-        "warn": 2,
+        "warn": 1,
         "fail": 0
       },
       "Tokens": {
@@ -1960,7 +1967,7 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 1,
+        "warn": 0,
         "fail": 0
       },
       "Dev": {
@@ -1987,23 +1994,6 @@
             "key": "Naming|name",
             "title": "Not found in Storybook",
             "componentName": "Product Images"
-          }
-        ]
-      },
-      {
-        "category": "Properties",
-        "title": "Code has props with no Figma property",
-        "status": "warn",
-        "owner": "Design",
-        "components": [
-          "Lightbox Image Viewer"
-        ],
-        "items": [
-          {
-            "component": "8469:708",
-            "key": "Properties|code-only",
-            "title": "Code has props with no Figma property",
-            "componentName": "Lightbox Image Viewer"
           }
         ]
       },
@@ -2107,23 +2097,23 @@
         "at": "2026-11-25T14:48:06.145Z",
         "by": "frontenddev.ai",
         "github": null
-      }
-    ],
-    "brokenComponents": [],
-    "issues": [
+      },
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
         "key": "Properties|code-only",
         "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
         "title": "Code has props with no Figma property",
-        "detail": "images, showCloseIcon, showDefaultFooter, customCloseIcon, closeIconClassName, visible, defaultIndex",
+        "was": "warn",
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T15:25:49.757Z",
+        "by": "frontenddev.ai",
+        "github": null
+      }
+    ],
+    "brokenComponents": [],
+    "issues": [
       {
         "component": "Lightbox Image Viewer",
         "componentKey": "8469:708",
@@ -2506,48 +2496,28 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T11:36:49.819Z",
-    "previousScore": 17,
+    "since": "2026-11-25T14:50:48.064Z",
+    "previousScore": 38,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Lightbox Image Viewer",
-        "title": "Figma property \"Show Previous Button\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Lightbox Image Viewer",
-        "title": "Figma property \"Show Next Button\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Lightbox Image Viewer",
-        "title": "Figma property \"Show Counter\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Lightbox Image Viewer",
-        "title": "Figma property \"Show Close Button\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Lightbox Image Viewer",
-        "title": "Figma property \"Breakpoint\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:25:49.757Z",
+      "action": "ignore",
+      "check": "images",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "8469:708",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Lightbox Image Viewer"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:48:06.145Z",
       "action": "ignore",
