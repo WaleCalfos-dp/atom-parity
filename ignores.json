@@ -1286,6 +1286,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:48:23.649Z"
+    },
+    {
+      "check": "navigation",
+      "component": "8210:74296",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Web Header",
+      "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:48:29.106Z"
     }
   ]
 }

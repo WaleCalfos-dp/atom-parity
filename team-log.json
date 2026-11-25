@@ -1917,6 +1917,22 @@
           "componentName": "Footer"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:48:29.106Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+      "items": [
+        {
+          "component": "8210:74296",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Header"
+        }
+      ]
     }
   ]
 }
