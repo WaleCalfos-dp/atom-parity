@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:12:20.495Z",
-    "durationMs": 132466,
+    "generatedAt": "2026-11-25T07:12:30.908Z",
+    "durationMs": 146906,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-25T07:11:25.032Z",
+      "exportedAt": "2026-11-25T07:11:36.570Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7854,7 +7854,7 @@
       "key": "8560:2779",
       "name": "Tooltip",
       "status": "Drifted",
-      "score": 53,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "8560:2779",
@@ -8293,7 +8293,7 @@
           "category": "Naming",
           "subject": "prop:Show Description",
           "label": "Property \"Show Description\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma \"Show Description\" is \"description\" in code",
           "owner": "Both",
           "detail": "Same words in a different order or form. Align the names so they map 1:1.",
@@ -8317,7 +8317,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
+            "at": "2026-11-25T07:09:10.572Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Icon Right",
@@ -8355,7 +8362,7 @@
           "category": "Naming",
           "subject": "prop:Tip Direction",
           "label": "Property \"Tip Direction\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Tip Direction\" is \"placement\" in code",
           "owner": "Both",
           "detail": "Rename one side so names match 1:1 (paired by matching values)",
@@ -8379,7 +8386,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Tip Direction\" vs code \"placement\". Not a defect.",
+            "at": "2026-11-25T07:09:20.995Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|values:Tip Direction",
@@ -9237,14 +9251,14 @@
     },
     "checks": {
       "pass": 29,
-      "warn": 22,
-      "fail": 32
+      "warn": 21,
+      "fail": 31
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
-        "warn": 5,
-        "fail": 8
+        "warn": 4,
+        "fail": 7
       },
       "Properties": {
         "pass": 0,
@@ -9292,8 +9306,8 @@
         "fail": 27
       },
       "Both": {
-        "warn": 6,
-        "fail": 5
+        "warn": 5,
+        "fail": 4
       }
     },
     "themes": [
@@ -9527,8 +9541,7 @@
         "status": "fail",
         "owner": "Both",
         "components": [
-          "Alert",
-          "Tooltip"
+          "Alert"
         ],
         "items": [
           {
@@ -9536,18 +9549,6 @@
             "key": "Naming|prop:Status",
             "title": "Figma \"Status\" is \"type\" in code",
             "componentName": "Alert"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Naming|prop:Show Description",
-            "title": "Figma \"Show Description\" is \"description\" in code",
-            "componentName": "Tooltip"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Naming|prop:Tip Direction",
-            "title": "Figma \"Tip Direction\" is \"placement\" in code",
-            "componentName": "Tooltip"
           }
         ]
       },
@@ -9809,6 +9810,32 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
         "at": "2026-11-25T07:08:53.212Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Naming|prop:Show Description",
+        "category": "Naming",
+        "title": "Figma \"Show Description\" is \"description\" in code",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
+        "at": "2026-11-25T07:09:10.572Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Naming|prop:Tip Direction",
+        "category": "Naming",
+        "title": "Figma \"Tip Direction\" is \"placement\" in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Tip Direction\" vs code \"placement\". Not a defect.",
+        "at": "2026-11-25T07:09:20.995Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -10416,19 +10443,6 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
-        "key": "Naming|prop:Show Description",
-        "category": "Naming",
-        "subject": "prop:Show Description",
-        "status": "warn",
-        "title": "Figma \"Show Description\" is \"description\" in code",
-        "detail": "Same words in a different order or form. Align the names so they map 1:1.",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
         "key": "Properties|prop:Show Icon Right",
         "category": "Properties",
         "subject": "prop:Show Icon Right",
@@ -10436,19 +10450,6 @@
         "title": "Figma property \"Show Icon Right\" has no equivalent in code",
         "detail": "boolean property",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Naming|prop:Tip Direction",
-        "category": "Naming",
-        "subject": "prop:Tip Direction",
-        "status": "fail",
-        "title": "Figma \"Tip Direction\" is \"placement\" in code",
-        "detail": "Rename one side so names match 1:1 (paired by matching values)",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -11034,10 +11035,49 @@
         "title": "Figma \"Status\" is \"type\" in code",
         "category": "Naming",
         "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Tooltip",
+        "title": "Figma \"Tip Direction\" is \"placement\" in code",
+        "category": "Naming",
+        "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:09:20.995Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Tip Direction\" vs code \"placement\". Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Naming|prop:Tip Direction",
+          "title": "Figma \"Tip Direction\" is \"placement\" in code",
+          "componentName": "Tooltip"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T07:09:10.572Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
+      "items": [
+        {
+          "component": "8560:2779",
+          "key": "Naming|prop:Show Description",
+          "title": "Figma \"Show Description\" is \"description\" in code",
+          "componentName": "Tooltip"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:08:53.212Z",
       "action": "ignore",

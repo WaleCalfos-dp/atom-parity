@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:12:27.109Z",
+  "generatedAt": "2026-11-25T07:12:37.830Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T07:12:20.495Z",
+      "ranAt": "2026-11-25T07:12:30.908Z",
       "ok": true,
       "history": [
         {
@@ -319,7 +319,7 @@
           "score": 22
         },
         {
-          "at": "2026-11-25T07:12:20.495Z",
+          "at": "2026-11-25T07:12:30.908Z",
           "score": 23
         }
       ],
@@ -378,7 +378,7 @@
         {
           "name": "Tooltip",
           "status": "Drifted",
-          "score": 53
+          "score": 58
         }
       ],
       "score": 23,
@@ -396,7 +396,7 @@
       },
       "previousScore": 22,
       "newFails": 0,
-      "fixed": 2,
+      "fixed": 3,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -406,7 +406,7 @@
         "Figma property missing in code",
         "Property values missing in code"
       ],
-      "ignored": 5,
+      "ignored": 7,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
