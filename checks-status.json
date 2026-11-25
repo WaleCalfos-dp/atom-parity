@@ -1,14 +1,18 @@
 {
-  "generatedAt": "2026-11-25T14:48:03.487Z",
+  "generatedAt": "2026-11-25T14:48:11.983Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:47:39.224Z",
+      "ranAt": "2026-11-25T11:19:11.100Z",
       "ok": true,
       "history": [
+        {
+          "at": "2026-11-17T14:56:11.541Z",
+          "score": 21
+        },
         {
           "at": "2026-11-17T15:26:17.817Z",
           "score": 21
@@ -124,10 +128,6 @@
         {
           "at": "2026-11-25T11:19:11.100Z",
           "score": 22
-        },
-        {
-          "at": "2026-11-25T14:47:39.224Z",
-          "score": 35
         }
       ],
       "preview": {
@@ -157,13 +157,13 @@
         },
         {
           "name": "Icon Button",
-          "status": "Ignored",
-          "score": null
+          "status": "Missing in code",
+          "score": 0
         },
         {
           "name": "Payment Button",
-          "status": "Ignored",
-          "score": null
+          "status": "Missing in code",
+          "score": 0
         },
         {
           "name": "Quantity Stepper",
@@ -172,36 +172,36 @@
         },
         {
           "name": "Social Button",
-          "status": "Ignored",
-          "score": null
+          "status": "Missing in code",
+          "score": 0
         },
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 69
+          "score": 68
         },
         {
           "name": "Tag",
           "status": "Drifted",
-          "score": 70
+          "score": 58
         }
       ],
-      "score": 35,
-      "headline": "0 of 6 Figma components match Storybook. 1 has drifted, 2 are broken and 3 aren't built yet.",
+      "score": 22,
+      "headline": "0 of 9 Figma components match Storybook. 1 has drifted, 2 are broken and 6 aren't built yet.",
       "counts": {
         "total": 9,
-        "figma": 6,
+        "figma": 9,
         "paired": 3,
         "aligned": 0,
         "drifted": 1,
         "broken": 2,
-        "missingInCode": 3,
+        "missingInCode": 6,
         "missingInDesign": 0,
-        "ignored": 3
+        "ignored": 0
       },
       "previousScore": 22,
       "newFails": 0,
-      "fixed": 5,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -211,7 +211,7 @@
         "Horizontal padding differs from design",
         "Vertical padding differs from design"
       ],
-      "ignored": 18,
+      "ignored": 11,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",
@@ -236,6 +236,10 @@
             "owner": "Dev"
           }
         ]
+      },
+      "stale": {
+        "at": "2026-11-25T14:48:04.821Z",
+        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
