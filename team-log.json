@@ -1303,6 +1303,154 @@
           "componentName": "Button"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:45:32.647Z",
+      "action": "ignore",
+      "check": "data-display",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Expanded Description",
+          "title": "Figma property \"Show Expanded Description\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "218:1707",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Accordion"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Button",
+          "title": "Figma property \"Show Button\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Chevron Right",
+          "title": "Figma property \"Show Chevron Right\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Content Right",
+          "title": "Figma property \"Show Content Right\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "2991:63143",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Data Row"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Body",
+          "title": "Figma property \"Show Body\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Button",
+          "title": "Figma property \"Show Button\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Code",
+          "title": "Figma property \"Show Code\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Code Status",
+          "title": "Figma property \"Show Code Status\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Content Top",
+          "title": "Figma property \"Show Content Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Counter",
+          "title": "Figma property \"Show Counter\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Description",
+          "title": "Figma property \"Show Description\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Description Slot",
+          "title": "Figma property \"Show Description Slot\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Details with Logo",
+          "title": "Figma property \"Show Details with Logo\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Icon Top",
+          "title": "Figma property \"Show Icon Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Logo",
+          "title": "Figma property \"Show Logo\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Name and Card Number",
+          "title": "Figma property \"Show Name and Card Number\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Offer",
+          "title": "Figma property \"Show Offer\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Slot Top",
+          "title": "Figma property \"Show Slot Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Subtitle Top",
+          "title": "Figma property \"Show Subtitle Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        },
+        {
+          "component": "15027:1802",
+          "key": "Properties|prop:Show Title Top",
+          "title": "Figma property \"Show Title Top\" has no equivalent in code",
+          "componentName": "QR Code"
+        }
+      ]
     }
   ]
 }
