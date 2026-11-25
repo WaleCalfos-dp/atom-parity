@@ -1,6 +1,92 @@
 {
-  "generatedAt": "2026-11-25T14:50:47.955Z",
+  "generatedAt": "2026-11-25T14:50:24.085Z",
   "log": [
+    {
+      "at": "2026-11-25T14:48:39.803Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "14933:17211",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Burger Menu Triggered"
+        }
+      ],
+      "checkName": "Navigation"
+    },
+    {
+      "at": "2026-11-25T14:48:29.106Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+      "items": [
+        {
+          "component": "8210:74296",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Header"
+        }
+      ],
+      "checkName": "Navigation"
+    },
+    {
+      "at": "2026-11-25T14:48:23.649Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "14347:1286",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Footer"
+        }
+      ],
+      "checkName": "Navigation"
+    },
+    {
+      "at": "2026-11-25T14:48:16.626Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:footer-links",
+          "title": "Figma property \"footer-links\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:social-icons",
+          "title": "Figma property \"social-icons\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "1491:5016",
+          "key": "Properties|prop:container",
+          "title": "Figma property \"container\" has no equivalent in code",
+          "componentName": "Tabs"
+        }
+      ],
+      "checkName": "Navigation"
+    },
     {
       "at": "2026-11-25T14:48:11.332Z",
       "action": "ignore",
