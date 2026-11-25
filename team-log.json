@@ -767,6 +767,22 @@
           "componentName": "Accordion"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:06:45.731Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Date Picker\" vs Storybook \"CalendarPicker\". Not a defect.",
+      "items": [
+        {
+          "component": "1617:15924",
+          "key": "Naming|name",
+          "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
+          "componentName": "Date Picker"
+        }
+      ]
     }
   ]
 }

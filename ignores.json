@@ -131,6 +131,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:06:37.576Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "1617:15924",
+      "key": "Naming|name",
+      "title": "Figma \"Date Picker\" is \"CalendarPicker\" in Storybook",
+      "componentName": "Date Picker",
+      "reason": "Same component, different naming: Figma \"Date Picker\" vs Storybook \"CalendarPicker\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:06:45.731Z"
     }
   ]
 }
