@@ -264,13 +264,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
-"[Atom parity] Tag: Size values missing in code","Missing in code: Regular, Small · Only in code: default, large
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-display-tag--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1885%3A4061
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Tag: Code has props with no Figma property","theme, round, role, aria-label
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1885-4061

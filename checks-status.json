@@ -1,18 +1,14 @@
 {
-  "generatedAt": "2026-11-25T15:23:37.581Z",
+  "generatedAt": "2026-11-25T15:25:57.482Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:12:54.014Z",
+      "ranAt": "2026-11-25T15:25:50.142Z",
       "ok": true,
       "history": [
-        {
-          "at": "2026-11-17T16:29:26.174Z",
-          "score": 21
-        },
         {
           "at": "2026-11-18T09:57:30.205Z",
           "score": 18
@@ -128,6 +124,10 @@
         {
           "at": "2026-11-25T15:12:54.014Z",
           "score": 42
+        },
+        {
+          "at": "2026-11-25T15:25:50.142Z",
+          "score": 44
         }
       ],
       "preview": {
@@ -183,10 +183,10 @@
         {
           "name": "Tag",
           "status": "Drifted",
-          "score": 70
+          "score": 78
         }
       ],
-      "score": 42,
+      "score": 44,
       "headline": "0 of 5 Figma components match Storybook. 1 has drifted, 2 are broken and 2 aren't built yet.",
       "counts": {
         "total": 9,
@@ -199,7 +199,7 @@
         "missingInDesign": 0,
         "ignored": 4
       },
-      "previousScore": 35,
+      "previousScore": 42,
       "newFails": 0,
       "fixed": 1,
       "tokenSource": {
@@ -211,7 +211,7 @@
         "Vertical padding differs from design",
         "Height differs from design"
       ],
-      "ignored": 21,
+      "ignored": 22,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",

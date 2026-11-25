@@ -1,4 +1,4 @@
-## Atom parity: 42% match (+7 since last run)
+## Atom parity: 44% match (+2 since last run)
 
 0 of 5 Figma components match Storybook. 1 has drifted, 2 are broken and 2 aren't built yet.
 
@@ -7,7 +7,7 @@
 | 0 | 1 | 2 | 2 | 0 |
 
 ### 1 fixed
-- Quantity Stepper: Not found in Storybook
+- Tag: Size values missing in code
 
 ### Biggest themes
 - 🔴 Horizontal padding differs from design: 2 components (Both)

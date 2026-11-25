@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:12:54.014Z",
-    "durationMs": 118988,
+    "generatedAt": "2026-11-25T15:25:50.142Z",
+    "durationMs": 138972,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:11:33.868Z",
+      "exportedAt": "2026-11-25T15:24:11.892Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2792,7 +2792,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2972,7 +2972,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -26618,7 +26618,7 @@
       "key": "1885:4061",
       "name": "Tag",
       "status": "Drifted",
-      "score": 70,
+      "score": 78,
       "match": "exact",
       "figma": {
         "id": "1885:4061",
@@ -27077,7 +27077,7 @@
           "category": "Properties",
           "subject": "values:Size",
           "label": "Size values",
-          "status": "fail",
+          "status": "ignored",
           "title": "Size values missing in code",
           "owner": "Both",
           "detail": "Missing in code: Regular, Small · Only in code: default, large",
@@ -27101,7 +27101,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same values, different naming: Figma \"Regular/Small\" vs code \"default/large\". Not a defect.",
+            "at": "2026-11-25T15:23:14.015Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -27799,7 +27806,7 @@
     }
   ],
   "summary": {
-    "score": 42,
+    "score": 44,
     "headline": "0 of 5 Figma components match Storybook. 1 has drifted, 2 are broken and 2 aren't built yet.",
     "components": {
       "total": 9,
@@ -27815,7 +27822,7 @@
     "checks": {
       "pass": 46,
       "warn": 23,
-      "fail": 14
+      "fail": 13
     },
     "byCategory": {
       "Naming": {
@@ -27826,7 +27833,7 @@
       "Properties": {
         "pass": 1,
         "warn": 5,
-        "fail": 1
+        "fail": 0
       },
       "Tokens": {
         "pass": 6,
@@ -27870,7 +27877,7 @@
       },
       "Both": {
         "warn": 18,
-        "fail": 11
+        "fail": 10
       }
     },
     "themes": [
@@ -28056,18 +28063,32 @@
         ]
       },
       {
-        "category": "Properties",
-        "title": "Property values missing in code",
-        "status": "fail",
+        "category": "Naming",
+        "title": "Grouped under a different category",
+        "status": "warn",
         "owner": "Both",
         "components": [
+          "Button",
+          "Stepper",
           "Tag"
         ],
         "items": [
           {
+            "component": "1454:7798",
+            "key": "Naming|group",
+            "title": "Grouped under a different category",
+            "componentName": "Button"
+          },
+          {
+            "component": "1702:72060",
+            "key": "Naming|group",
+            "title": "Grouped under a different category",
+            "componentName": "Stepper"
+          },
+          {
             "component": "1885:4061",
-            "key": "Properties|values:Size",
-            "title": "Size values missing in code",
+            "key": "Naming|group",
+            "title": "Grouped under a different category",
             "componentName": "Tag"
           }
         ]
@@ -28075,7 +28096,7 @@
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
-      "No failures in: Interaction, Rendering, Documentation",
+      "No failures in: Properties, Interaction, Rendering, Documentation",
       "2 components render in Storybook without errors"
     ],
     "ignored": [
@@ -28336,6 +28357,19 @@
         "owner": "Dev",
         "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
         "at": "2026-11-25T14:44:57.475Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tag",
+        "componentKey": "1885:4061",
+        "key": "Properties|values:Size",
+        "category": "Properties",
+        "title": "Size values missing in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same values, different naming: Figma \"Regular/Small\" vs code \"default/large\". Not a defect.",
+        "at": "2026-11-25T15:23:14.015Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -28910,19 +28944,6 @@
       {
         "component": "Tag",
         "componentKey": "1885:4061",
-        "key": "Properties|values:Size",
-        "category": "Properties",
-        "subject": "values:Size",
-        "status": "fail",
-        "title": "Size values missing in code",
-        "detail": "Missing in code: Regular, Small · Only in code: default, large",
-        "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tag",
-        "componentKey": "1885:4061",
         "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
@@ -29446,20 +29467,36 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T14:49:20.468Z",
-    "previousScore": 35,
+    "since": "2026-11-25T15:12:54.014Z",
+    "previousScore": 42,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
-        "component": "Quantity Stepper",
-        "title": "Not found in Storybook",
-        "category": "Naming",
+        "component": "Tag",
+        "title": "Size values missing in code",
+        "category": "Properties",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T15:23:14.015Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same values, different naming: Figma \"Regular/Small\" vs code \"default/large\". Not a defect.",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Properties|values:Size",
+          "title": "Size values missing in code",
+          "componentName": "Tag"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T15:10:35.521Z",
       "action": "ignore",

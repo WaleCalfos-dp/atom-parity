@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-25T15:23:30.543Z",
+  "generatedAt": "2026-11-25T15:25:50.194Z",
   "log": [
+    {
+      "at": "2026-11-25T15:23:14.015Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same values, different naming: Figma \"Regular/Small\" vs code \"default/large\". Not a defect.",
+      "items": [
+        {
+          "component": "1885:4061",
+          "key": "Properties|values:Size",
+          "title": "Size values missing in code",
+          "componentName": "Tag"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-25T15:20:40.577Z",
       "action": "ignore",
