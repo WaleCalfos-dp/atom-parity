@@ -219,6 +219,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:07:38.437Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "15577:80832",
+      "key": "Naming|name",
+      "title": "Figma \"Loading Indicator\" is \"Loading\" in Storybook",
+      "componentName": "Loading Indicator",
+      "reason": "Same component, different naming: Figma \"Loading Indicator\" vs Storybook \"Loading\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:07:53.082Z"
     }
   ]
 }
