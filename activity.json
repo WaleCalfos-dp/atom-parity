@@ -1,29 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:56:45.304Z",
+  "generatedAt": "2026-11-25T14:57:05.761Z",
   "log": [
-    {
-      "at": "2026-11-25T14:51:57.158Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Icons are passed via prefix/suffix. Not a defect.",
-      "items": [
-        {
-          "component": "8560:2779",
-          "key": "Properties|prop:Show Icon Left",
-          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-          "componentName": "Tooltip"
-        },
-        {
-          "component": "8560:2779",
-          "key": "Properties|prop:Show Icon Right",
-          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-          "componentName": "Tooltip"
-        }
-      ],
-      "checkName": "System feedback"
-    },
     {
       "at": "2026-11-25T14:51:48.623Z",
       "action": "ignore",

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:56:45.261Z",
-    "durationMs": 162992,
+    "generatedAt": "2026-11-25T14:57:05.711Z",
+    "durationMs": 155136,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:55:31.496Z",
+      "exportedAt": "2026-11-25T14:55:39.657Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7903,7 +7903,7 @@
       "key": "8560:2779",
       "name": "Tooltip",
       "status": "Drifted",
-      "score": 68,
+      "score": 58,
       "match": "exact",
       "figma": {
         "id": "8560:2779",
@@ -8273,7 +8273,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8297,14 +8297,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Icons are passed via prefix/suffix. Not a defect.",
-            "at": "2026-11-25T14:51:57.158Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Naming|prop:Show Title",
@@ -8387,7 +8380,7 @@
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "ignored",
+          "status": "fail",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -8411,14 +8404,7 @@
             "info": 0
           },
           "brands": [],
-          "variants": [],
-          "ignored": {
-            "reason": "Icons are passed via prefix/suffix. Not a defect.",
-            "at": "2026-11-25T14:51:57.158Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "fail"
+          "variants": []
         },
         {
           "key": "Naming|prop:Tip Direction",
@@ -9299,7 +9285,7 @@
     }
   ],
   "summary": {
-    "score": 39,
+    "score": 38,
     "headline": "0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.",
     "components": {
       "total": 11,
@@ -9315,7 +9301,7 @@
     "checks": {
       "pass": 29,
       "warn": 21,
-      "fail": 22
+      "fail": 24
     },
     "byCategory": {
       "Naming": {
@@ -9326,7 +9312,7 @@
       "Properties": {
         "pass": 0,
         "warn": 14,
-        "fail": 20
+        "fail": 22
       },
       "Tokens": {
         "pass": 0,
@@ -9366,7 +9352,7 @@
       },
       "Dev": {
         "warn": 6,
-        "fail": 19
+        "fail": 21
       },
       "Both": {
         "warn": 5,
@@ -9482,6 +9468,18 @@
             "key": "Properties|prop:Lines of Text",
             "title": "Figma property \"Lines of Text\" has no equivalent in code",
             "componentName": "Toast"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|prop:Show Icon Left",
+            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Properties|prop:Show Icon Right",
+            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+            "componentName": "Tooltip"
           },
           {
             "component": "8560:2779",
@@ -9905,19 +9903,6 @@
       {
         "component": "Tooltip",
         "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Icons are passed via prefix/suffix. Not a defect.",
-        "at": "2026-11-25T14:51:57.158Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
         "key": "Naming|prop:Show Title",
         "category": "Naming",
         "title": "Figma \"Show Title\" is \"title\" in code",
@@ -9938,19 +9923,6 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Description\" vs code \"description\". Not a defect.",
         "at": "2026-11-25T07:09:10.572Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Tooltip",
-        "componentKey": "8560:2779",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "was": "fail",
-        "owner": "Dev",
-        "reason": "Icons are passed via prefix/suffix. Not a defect.",
-        "at": "2026-11-25T14:51:57.158Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -10461,6 +10433,32 @@
         "title": "10 of 10 variants can't be shown in code",
         "detail": "Lines of Text=Single, Lines of Text=Multi, Status=Information",
         "owner": "Both",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "subject": "prop:Show Icon Left",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Tooltip",
+        "componentKey": "8560:2779",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "subject": "prop:Show Icon Right",
+        "status": "fail",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "detail": "boolean property",
+        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -11074,46 +11072,10 @@
         "title": "Not found in Storybook",
         "category": "Naming",
         "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
       }
     ]
   },
   "activity": [
-    {
-      "at": "2026-11-25T14:51:57.158Z",
-      "action": "ignore",
-      "check": "system-feedback",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Icons are passed via prefix/suffix. Not a defect.",
-      "items": [
-        {
-          "component": "8560:2779",
-          "key": "Properties|prop:Show Icon Left",
-          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-          "componentName": "Tooltip"
-        },
-        {
-          "component": "8560:2779",
-          "key": "Properties|prop:Show Icon Right",
-          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-          "componentName": "Tooltip"
-        }
-      ]
-    },
     {
       "at": "2026-11-25T14:51:48.623Z",
       "action": "ignore",

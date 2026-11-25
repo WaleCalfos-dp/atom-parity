@@ -1,4 +1,4 @@
-## Atom parity: 39% match (+15 since last run)
+## Atom parity: 38% match (+14 since last run)
 
 0 of 7 Figma components match Storybook. 5 have drifted and 2 aren't built yet.
 
@@ -6,15 +6,13 @@
 |---|---|---|---|---|
 | 0 | 5 | 0 | 2 | 0 |
 
-### 8 fixed
+### 6 fixed
 - Alert: Figma property "Style" has no equivalent in code
 - Dialog: Figma property "Breakpoint" has no equivalent in code
 - Loading Modal: Not found in Storybook
 - Progress Bar / Animated: Not found in Storybook
 - Progress Bar / Percentage: Not found in Storybook
 - Progress Bar / Tracker: Not found in Storybook
-- Tooltip: Figma property "Show Icon Left" has no equivalent in code
-- Tooltip: Figma property "Show Icon Right" has no equivalent in code
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
