@@ -2409,6 +2409,28 @@
           "componentName": "Progress Bar / Tracker"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:51:36.300Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "1151:40938",
+          "key": "Properties|prop:Style",
+          "title": "Figma property \"Style\" has no equivalent in code",
+          "componentName": "Alert"
+        },
+        {
+          "component": "3581:33620",
+          "key": "Properties|prop:Breakpoint",
+          "title": "Figma property \"Breakpoint\" has no equivalent in code",
+          "componentName": "Dialog"
+        }
+      ]
     }
   ]
 }
