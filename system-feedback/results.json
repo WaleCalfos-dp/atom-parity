@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:02:40.710Z",
-    "durationMs": 112076,
+    "generatedAt": "2026-11-25T15:35:13.563Z",
+    "durationMs": 108195,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:01:32.375Z",
+      "exportedAt": "2026-11-25T15:34:09.731Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -10906,95 +10906,10 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T14:57:05.711Z",
-    "previousScore": 38,
+    "since": "2026-11-25T15:02:40.710Z",
+    "previousScore": 52,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Alert",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Alert",
-        "title": "Figma property \"Show Description\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Alert",
-        "title": "Figma property \"Show Close Icon\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Dialog",
-        "title": "Figma property \"Show Buttons\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Dialog",
-        "title": "Figma property \"Show Slot 2\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Dialog",
-        "title": "Figma property \"Show Slot 1\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Dialog",
-        "title": "Figma property \"Show Description\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Dialog",
-        "title": "Figma property \"Show Icon\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Progress Bar / Steps",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Toast",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tooltip",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

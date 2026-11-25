@@ -1,17 +1,10 @@
-## Atom parity: 67% match (+11 since last run)
+## Atom parity: 67% match (+0 since last run)
 
 0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 4 | 1 | 0 | 0 |
-
-### 5 fixed
-- Bottom Navigation: Figma property "Count" has no equivalent in code
-- Breadcrumbs: Figma property "Divider Type" has no equivalent in code
-- Breadcrumbs: Figma property "Count" has no equivalent in code
-- Footer: Figma property "Breakpoint" has no equivalent in code
-- Tabs: Figma property "Style" has no equivalent in code
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 2 components (Dev)

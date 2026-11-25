@@ -1,13 +1,10 @@
-## Atom parity: 44% match (+1 since last run)
+## Atom parity: 44% match (+0 since last run)
 
 0 of 10 Figma components match Storybook. 6 have drifted and 4 aren't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 6 | 0 | 4 | 0 |
-
-### 1 fixed
-- QR Code: Type values missing in code
 
 ### Biggest themes
 - 🔴 Not built in Storybook: 4 components (Dev)

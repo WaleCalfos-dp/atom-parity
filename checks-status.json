@@ -1,18 +1,14 @@
 {
-  "generatedAt": "2026-11-25T15:30:15.828Z",
+  "generatedAt": "2026-11-25T16:01:02.844Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:25:50.142Z",
+      "ranAt": "2026-11-25T15:33:25.312Z",
       "ok": true,
       "history": [
-        {
-          "at": "2026-11-18T09:57:30.205Z",
-          "score": 18
-        },
         {
           "at": "2026-11-18T10:40:36.065Z",
           "score": 18
@@ -128,6 +124,10 @@
         {
           "at": "2026-11-25T15:25:50.142Z",
           "score": 44
+        },
+        {
+          "at": "2026-11-25T15:33:25.312Z",
+          "score": 44
         }
       ],
       "preview": {
@@ -199,9 +199,9 @@
         "missingInDesign": 0,
         "ignored": 4
       },
-      "previousScore": 42,
+      "previousScore": 44,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:02:40.710Z",
+      "ranAt": "2026-11-25T15:35:13.563Z",
       "ok": true,
       "history": [
         {
@@ -333,6 +333,10 @@
         {
           "at": "2026-11-25T15:02:40.710Z",
           "score": 52
+        },
+        {
+          "at": "2026-11-25T15:35:13.563Z",
+          "score": 52
         }
       ],
       "preview": null,
@@ -406,9 +410,9 @@
         "missingInDesign": 0,
         "ignored": 5
       },
-      "previousScore": 38,
+      "previousScore": 52,
       "newFails": 0,
-      "fixed": 12,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -444,7 +448,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:23:30.506Z",
+      "ranAt": "2026-11-25T15:37:49.432Z",
       "ok": true,
       "history": [
         {
@@ -534,6 +538,10 @@
         {
           "at": "2026-11-25T15:23:30.506Z",
           "score": 44
+        },
+        {
+          "at": "2026-11-25T15:37:49.432Z",
+          "score": 44
         }
       ],
       "preview": null,
@@ -617,9 +625,9 @@
         "missingInDesign": 0,
         "ignored": 3
       },
-      "previousScore": 43,
+      "previousScore": 44,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -655,7 +663,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T11:29:33.128Z",
+      "ranAt": "2026-11-25T15:41:07.305Z",
       "ok": true,
       "history": [
         {
@@ -737,6 +745,10 @@
         {
           "at": "2026-11-25T11:29:33.128Z",
           "score": 38
+        },
+        {
+          "at": "2026-11-25T15:41:07.305Z",
+          "score": 43
         }
       ],
       "preview": {
@@ -777,17 +789,17 @@
         {
           "name": "Radio Button",
           "status": "Drifted",
-          "score": 72
+          "score": 81
         },
         {
           "name": "Select",
           "status": "Broken",
-          "score": 33
+          "score": 54
         },
         {
           "name": "Switch",
           "status": "Drifted",
-          "score": 68
+          "score": 83
         },
         {
           "name": "Time Picker",
@@ -795,7 +807,7 @@
           "score": 41
         }
       ],
-      "score": 38,
+      "score": 43,
       "headline": "0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.",
       "counts": {
         "total": 9,
@@ -810,17 +822,17 @@
       },
       "previousScore": 38,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 12,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Figma property missing in code",
         "Not built in Storybook",
+        "Figma property missing in code",
         "Text contrast is too low in Figma"
       ],
-      "ignored": 3,
+      "ignored": 16,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "DATA ENTRY",
@@ -850,10 +862,6 @@
             "owner": "Design"
           }
         ]
-      },
-      "stale": {
-        "at": "2026-11-25T14:49:59.944Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {
@@ -861,7 +869,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:17:57.343Z",
+      "ranAt": "2026-11-25T15:42:32.191Z",
       "ok": true,
       "history": [
         {
@@ -943,6 +951,10 @@
         {
           "at": "2026-11-25T15:17:57.343Z",
           "score": 83
+        },
+        {
+          "at": "2026-11-25T15:42:32.191Z",
+          "score": 83
         }
       ],
       "preview": null,
@@ -971,9 +983,9 @@
         "missingInDesign": 0,
         "ignored": 1
       },
-      "previousScore": 32,
+      "previousScore": 83,
       "newFails": 0,
-      "fixed": 3,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1008,7 +1020,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:07:36.878Z",
+      "ranAt": "2026-11-25T15:44:17.887Z",
       "ok": true,
       "history": [
         {
@@ -1106,6 +1118,10 @@
         {
           "at": "2026-11-25T15:07:36.878Z",
           "score": 67
+        },
+        {
+          "at": "2026-11-25T15:44:17.887Z",
+          "score": 67
         }
       ],
       "preview": null,
@@ -1159,9 +1175,9 @@
         "missingInDesign": 0,
         "ignored": 2
       },
-      "previousScore": 56,
+      "previousScore": 67,
       "newFails": 0,
-      "fixed": 5,
+      "fixed": 0,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -1208,7 +1224,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:30:15.249Z",
+      "ranAt": "2026-11-25T15:45:44.709Z",
       "ok": true,
       "history": [
         {
@@ -1297,6 +1313,10 @@
         },
         {
           "at": "2026-11-25T15:30:15.249Z",
+          "score": 42
+        },
+        {
+          "at": "2026-11-25T15:45:44.709Z",
           "score": 42
         }
       ],
@@ -1543,6 +1563,10 @@
             "owner": "Design"
           }
         ]
+      },
+      "stale": {
+        "at": "2026-11-25T15:54:07.907Z",
+        "error": "Couldn't find a Storybook index.json from https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/. Tried: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component/, https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/, https://dp-atom-ui-test.dragonpass.com.cn/"
       }
     },
     {
@@ -1802,6 +1826,10 @@
         "scans": 0,
         "designChecks": 191,
         "top": []
+      },
+      "stale": {
+        "at": "2026-11-25T15:57:26.097Z",
+        "error": "page.goto: Timeout 30000ms exceeded."
       }
     },
     {
@@ -2029,8 +2057,8 @@
         ]
       },
       "stale": {
-        "at": "2026-11-25T14:53:27.920Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
+        "at": "2026-11-25T16:01:02.218Z",
+        "error": "page.goto: Timeout 30000ms exceeded."
       }
     }
   ]

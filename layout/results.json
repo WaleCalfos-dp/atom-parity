@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:17:57.343Z",
-    "durationMs": 104961,
+    "generatedAt": "2026-11-25T15:42:32.191Z",
+    "durationMs": 84839,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:16:40.873Z",
+      "exportedAt": "2026-11-25T15:41:27.119Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2315,32 +2315,10 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T11:31:44.978Z",
-    "previousScore": 32,
+    "since": "2026-11-25T15:17:57.343Z",
+    "previousScore": 83,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Divider",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Divider",
-        "title": "Figma property \"Subtle\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Overlay",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

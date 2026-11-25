@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:29:33.128Z",
-    "durationMs": 209247,
+    "generatedAt": "2026-11-25T15:41:07.305Z",
+    "durationMs": 197832,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:28:15.685Z",
+      "exportedAt": "2026-11-25T15:39:40.758Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2215,7 +2215,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Default, Checked=True",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -9119,7 +9119,7 @@
       "key": "13003:7343",
       "name": "Radio Button",
       "status": "Drifted",
-      "score": 72,
+      "score": 81,
       "match": "exact",
       "figma": {
         "id": "13003:7343",
@@ -9396,7 +9396,7 @@
           "category": "Properties",
           "subject": "prop:Active",
           "label": "Property \"Active\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Active\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: False, True",
@@ -9420,7 +9420,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:46:43.859Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -9858,7 +9865,7 @@
       "key": "263:5381",
       "name": "Select",
       "status": "Broken",
-      "score": 33,
+      "score": 54,
       "match": "alias",
       "figma": {
         "id": "263:5381",
@@ -10238,7 +10245,7 @@
           "category": "Properties",
           "subject": "prop:Show Label",
           "label": "Property \"Show Label\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Label\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10262,14 +10269,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:46:58.845Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Icon Left",
           "category": "Properties",
           "subject": "prop:Show Icon Left",
           "label": "Property \"Show Icon Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10293,14 +10307,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:46:58.845Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Icon Right",
           "category": "Properties",
           "subject": "prop:Show Icon Right",
           "label": "Property \"Show Icon Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Icon Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10324,14 +10345,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:46:58.845Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Pill Right",
           "category": "Properties",
           "subject": "prop:Show Pill Right",
           "label": "Property \"Show Pill Right\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Pill Right\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10355,14 +10383,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:46:32.529Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Pill Left",
           "category": "Properties",
           "subject": "prop:Show Pill Left",
           "label": "Property \"Show Pill Left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Pill Left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10386,7 +10421,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:46:32.529Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Helper Text",
@@ -10455,7 +10497,7 @@
           "category": "Properties",
           "subject": "prop:Show Country Flag",
           "label": "Property \"Show Country Flag\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Country Flag\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10479,7 +10521,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma-only property, not applied in any design. Not a defect.",
+            "at": "2026-11-25T14:46:32.529Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Naming|prop:Placeholder",
@@ -10555,7 +10604,7 @@
           "category": "Properties",
           "subject": "prop:Selected Option",
           "label": "Property \"Selected Option\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Selected Option\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -10579,14 +10628,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:47:40.839Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:content-left",
           "category": "Properties",
           "subject": "prop:content-left",
           "label": "Property \"content-left\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"content-left\" has no equivalent in code",
           "owner": "Dev",
           "detail": "slot property",
@@ -10610,14 +10666,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+            "at": "2026-11-25T14:47:49.213Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Label Icon",
           "category": "Properties",
           "subject": "prop:Show Label Icon",
           "label": "Property \"Show Label Icon\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Label Icon\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -10641,14 +10704,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:46:58.845Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Selected",
           "category": "Properties",
           "subject": "prop:Selected",
           "label": "Property \"Selected\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Selected\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: False, Single, Multiple",
@@ -10672,7 +10742,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:46:43.859Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:State",
@@ -13504,7 +13581,7 @@
       "key": "299:228",
       "name": "Switch",
       "status": "Drifted",
-      "score": 68,
+      "score": 83,
       "match": "exact",
       "figma": {
         "id": "299:228",
@@ -13753,7 +13830,7 @@
           "category": "Properties",
           "subject": "prop:Show Label",
           "label": "Property \"Show Label\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Label\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -13777,7 +13854,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:46:58.845Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:State",
@@ -13815,7 +13899,7 @@
           "category": "Properties",
           "subject": "prop:On",
           "label": "Property \"On\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"On\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: True, False",
@@ -13839,7 +13923,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:46:43.859Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
@@ -15285,7 +15376,7 @@
     }
   ],
   "summary": {
-    "score": 38,
+    "score": 43,
     "headline": "0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.",
     "components": {
       "total": 9,
@@ -15300,8 +15391,8 @@
     },
     "checks": {
       "pass": 44,
-      "warn": 19,
-      "fail": 33
+      "warn": 18,
+      "fail": 21
     },
     "byCategory": {
       "Naming": {
@@ -15311,8 +15402,8 @@
       },
       "Properties": {
         "pass": 4,
-        "warn": 14,
-        "fail": 25
+        "warn": 13,
+        "fail": 13
       },
       "Tokens": {
         "pass": 1,
@@ -15351,8 +15442,8 @@
         "fail": 3
       },
       "Dev": {
-        "warn": 4,
-        "fail": 28
+        "warn": 3,
+        "fail": 16
       },
       "Both": {
         "warn": 6,
@@ -15361,15 +15452,44 @@
     },
     "themes": [
       {
+        "category": "Naming",
+        "title": "Not built in Storybook",
+        "status": "fail",
+        "owner": "Dev",
+        "components": [
+          "Check Indicator",
+          "Input",
+          "Password Criteria"
+        ],
+        "items": [
+          {
+            "component": "13003:7342",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Check Indicator"
+          },
+          {
+            "component": "269:9758",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Input"
+          },
+          {
+            "component": "443:14487",
+            "key": "Naming|name",
+            "title": "Not found in Storybook",
+            "componentName": "Password Criteria"
+          }
+        ]
+      },
+      {
         "category": "Properties",
         "title": "Figma property missing in code",
         "status": "fail",
         "owner": "Dev",
         "components": [
           "Date Picker",
-          "Radio Button",
           "Select",
-          "Switch",
           "Time Picker"
         ],
         "items": [
@@ -15410,42 +15530,6 @@
             "componentName": "Date Picker"
           },
           {
-            "component": "13003:7343",
-            "key": "Properties|prop:Active",
-            "title": "Figma property \"Active\" has no equivalent in code",
-            "componentName": "Radio Button"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Show Label",
-            "title": "Figma property \"Show Label\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Show Icon Left",
-            "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Show Icon Right",
-            "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Show Pill Right",
-            "title": "Figma property \"Show Pill Right\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Show Pill Left",
-            "title": "Figma property \"Show Pill Left\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
             "component": "263:5381",
             "key": "Properties|prop:Show Helper Text",
             "title": "Figma property \"Show Helper Text\" has no equivalent in code",
@@ -15453,45 +15537,9 @@
           },
           {
             "component": "263:5381",
-            "key": "Properties|prop:Show Country Flag",
-            "title": "Figma property \"Show Country Flag\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:content-left",
-            "title": "Figma property \"content-left\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Show Label Icon",
-            "title": "Figma property \"Show Label Icon\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
-            "key": "Properties|prop:Selected",
-            "title": "Figma property \"Selected\" has no equivalent in code",
-            "componentName": "Select"
-          },
-          {
-            "component": "263:5381",
             "key": "Properties|prop:Label Position",
             "title": "Figma property \"Label Position\" has no equivalent in code",
             "componentName": "Select"
-          },
-          {
-            "component": "299:228",
-            "key": "Properties|prop:Show Label",
-            "title": "Figma property \"Show Label\" has no equivalent in code",
-            "componentName": "Switch"
-          },
-          {
-            "component": "299:228",
-            "key": "Properties|prop:On",
-            "title": "Figma property \"On\" has no equivalent in code",
-            "componentName": "Switch"
           },
           {
             "component": "15113:67057",
@@ -15522,37 +15570,6 @@
             "key": "Properties|prop:Type",
             "title": "Figma property \"Type\" has no equivalent in code",
             "componentName": "Time Picker"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Check Indicator",
-          "Input",
-          "Password Criteria"
-        ],
-        "items": [
-          {
-            "component": "13003:7342",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Check Indicator"
-          },
-          {
-            "component": "269:9758",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Input"
-          },
-          {
-            "component": "443:14487",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Password Criteria"
           }
         ]
       },
@@ -15776,6 +15793,19 @@
         "github": null
       },
       {
+        "component": "Radio Button",
+        "componentKey": "13003:7343",
+        "key": "Properties|prop:Active",
+        "category": "Properties",
+        "title": "Figma property \"Active\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:46:43.859Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Select",
         "componentKey": "263:5381",
         "key": "Naming|name",
@@ -15791,6 +15821,84 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
+        "key": "Properties|prop:Show Label",
+        "category": "Properties",
+        "title": "Figma property \"Show Label\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:46:58.845Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Show Icon Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:46:58.845Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Show Icon Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:46:58.845Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Show Pill Right",
+        "category": "Properties",
+        "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:46:32.529Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Show Pill Left",
+        "category": "Properties",
+        "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:46:32.529Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Show Country Flag",
+        "category": "Properties",
+        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma-only property, not applied in any design. Not a defect.",
+        "at": "2026-11-25T14:46:32.529Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
         "key": "Naming|prop:Show Placeholder",
         "category": "Naming",
         "title": "Figma \"Show Placeholder\" is \"placeholder\" in code",
@@ -15798,6 +15906,84 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Placeholder\" vs code \"placeholder\". Not a defect.",
         "at": "2026-11-25T07:06:52.525Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Selected Option",
+        "category": "Properties",
+        "title": "Figma property \"Selected Option\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:47:40.839Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:content-left",
+        "category": "Properties",
+        "title": "Figma property \"content-left\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+        "at": "2026-11-25T14:47:49.213Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Show Label Icon",
+        "category": "Properties",
+        "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:46:58.845Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Select",
+        "componentKey": "263:5381",
+        "key": "Properties|prop:Selected",
+        "category": "Properties",
+        "title": "Figma property \"Selected\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:46:43.859Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Switch",
+        "componentKey": "299:228",
+        "key": "Properties|prop:Show Label",
+        "category": "Properties",
+        "title": "Figma property \"Show Label\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:46:58.845Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Switch",
+        "componentKey": "299:228",
+        "key": "Properties|prop:On",
+        "category": "Properties",
+        "title": "Figma property \"On\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:46:43.859Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -16069,19 +16255,6 @@
       {
         "component": "Radio Button",
         "componentKey": "13003:7343",
-        "key": "Properties|prop:Active",
-        "category": "Properties",
-        "subject": "prop:Active",
-        "status": "fail",
-        "title": "Figma property \"Active\" has no equivalent in code",
-        "detail": "Values: False, True",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Radio Button",
-        "componentKey": "13003:7343",
         "key": "Properties|code-only",
         "category": "Properties",
         "subject": "code-only",
@@ -16108,71 +16281,6 @@
       {
         "component": "Select",
         "componentKey": "263:5381",
-        "key": "Properties|prop:Show Label",
-        "category": "Properties",
-        "subject": "prop:Show Label",
-        "status": "fail",
-        "title": "Figma property \"Show Label\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Show Icon Left",
-        "category": "Properties",
-        "subject": "prop:Show Icon Left",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Show Icon Right",
-        "category": "Properties",
-        "subject": "prop:Show Icon Right",
-        "status": "fail",
-        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Show Pill Right",
-        "category": "Properties",
-        "subject": "prop:Show Pill Right",
-        "status": "fail",
-        "title": "Figma property \"Show Pill Right\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Show Pill Left",
-        "category": "Properties",
-        "subject": "prop:Show Pill Left",
-        "status": "fail",
-        "title": "Figma property \"Show Pill Left\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
         "key": "Properties|prop:Show Helper Text",
         "category": "Properties",
         "subject": "prop:Show Helper Text",
@@ -16192,71 +16300,6 @@
         "status": "warn",
         "title": "Figma property \"Label\" has no equivalent in code",
         "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Show Country Flag",
-        "category": "Properties",
-        "subject": "prop:Show Country Flag",
-        "status": "fail",
-        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Selected Option",
-        "category": "Properties",
-        "subject": "prop:Selected Option",
-        "status": "warn",
-        "title": "Figma property \"Selected Option\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:content-left",
-        "category": "Properties",
-        "subject": "prop:content-left",
-        "status": "fail",
-        "title": "Figma property \"content-left\" has no equivalent in code",
-        "detail": "slot property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Show Label Icon",
-        "category": "Properties",
-        "subject": "prop:Show Label Icon",
-        "status": "fail",
-        "title": "Figma property \"Show Label Icon\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Select",
-        "componentKey": "263:5381",
-        "key": "Properties|prop:Selected",
-        "category": "Properties",
-        "subject": "prop:Selected",
-        "status": "fail",
-        "title": "Figma property \"Selected\" has no equivalent in code",
-        "detail": "Values: False, Single, Multiple",
         "owner": "Dev",
         "brands": [],
         "variants": 0
@@ -16340,32 +16383,6 @@
           "Dragonpass"
         ],
         "variants": 5
-      },
-      {
-        "component": "Switch",
-        "componentKey": "299:228",
-        "key": "Properties|prop:Show Label",
-        "category": "Properties",
-        "subject": "prop:Show Label",
-        "status": "fail",
-        "title": "Figma property \"Show Label\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Switch",
-        "componentKey": "299:228",
-        "key": "Properties|prop:On",
-        "category": "Properties",
-        "subject": "prop:On",
-        "status": "fail",
-        "title": "Figma property \"On\" has no equivalent in code",
-        "detail": "Values: True, False",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
       },
       {
         "component": "Switch",
@@ -17108,12 +17125,225 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:22:51.515Z",
+    "since": "2026-11-25T11:29:33.128Z",
     "previousScore": 38,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Radio Button",
+        "title": "Figma property \"Active\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Label\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"content-left\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Select",
+        "title": "Figma property \"Selected\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Switch",
+        "title": "Figma property \"Show Label\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Switch",
+        "title": "Figma property \"On\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:47:49.213Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:content-left",
+          "title": "Figma property \"content-left\" has no equivalent in code",
+          "componentName": "Select"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:47:40.839Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Selected Option",
+          "title": "Figma property \"Selected Option\" has no equivalent in code",
+          "componentName": "Select"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:46:58.845Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Icon Left",
+          "title": "Figma property \"Show Icon Left\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Icon Right",
+          "title": "Figma property \"Show Icon Right\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Label",
+          "title": "Figma property \"Show Label\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Label Icon",
+          "title": "Figma property \"Show Label Icon\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "299:228",
+          "key": "Properties|prop:Show Label",
+          "title": "Figma property \"Show Label\" has no equivalent in code",
+          "componentName": "Switch"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:46:43.859Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "13003:7343",
+          "key": "Properties|prop:Active",
+          "title": "Figma property \"Active\" has no equivalent in code",
+          "componentName": "Radio Button"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Selected",
+          "title": "Figma property \"Selected\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "299:228",
+          "key": "Properties|prop:On",
+          "title": "Figma property \"On\" has no equivalent in code",
+          "componentName": "Switch"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:46:32.529Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Country Flag",
+          "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Pill Left",
+          "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Pill Right",
+          "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+          "componentName": "Select"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:16:24.827Z",
       "action": "ignore",

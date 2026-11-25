@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:25:50.142Z",
-    "durationMs": 138972,
+    "generatedAt": "2026-11-25T15:33:25.312Z",
+    "durationMs": 127912,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:24:11.892Z",
+      "exportedAt": "2026-11-25T15:31:58.663Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2792,7 +2792,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2802,7 +2802,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -29467,18 +29467,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T15:12:54.014Z",
-    "previousScore": 42,
+    "since": "2026-11-25T15:25:50.142Z",
+    "previousScore": 44,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Tag",
-        "title": "Size values missing in code",
-        "category": "Properties",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

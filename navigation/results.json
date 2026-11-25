@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:07:36.878Z",
-    "durationMs": 108208,
+    "generatedAt": "2026-11-25T15:44:17.887Z",
+    "durationMs": 105667,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T15:06:26.070Z",
+      "exportedAt": "2026-11-25T15:43:11.089Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7341,46 +7341,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T14:52:22.801Z",
-    "previousScore": 56,
+    "since": "2026-11-25T15:07:36.878Z",
+    "previousScore": 67,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Bottom Navigation",
-        "title": "Figma property \"Count\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Breadcrumbs",
-        "title": "Figma property \"Divider Type\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Breadcrumbs",
-        "title": "Figma property \"Count\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Footer",
-        "title": "Figma property \"Breakpoint\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Tabs",
-        "title": "Figma property \"Style\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {
