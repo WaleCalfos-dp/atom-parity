@@ -6,6 +6,9 @@
 |---|---|---|---|---|
 | 0 | 4 | 1 | 2 | 0 |
 
+### 1 fixed
+- Footer: Figma property "Show Social Icons" has no equivalent in code
+
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
 - 🔴 Not built in Storybook: 2 components (Dev)

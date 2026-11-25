@@ -187,13 +187,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-15169%3A84760
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-naming fix-in-both","Atom Design System"
-"[Atom parity] Footer: Figma property ""Show Social Icons"" has no equivalent in code","boolean property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-84760
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-footer--usage
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-15169%3A84760
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Footer: Figma property ""Show Divider"" has no equivalent in code","boolean property
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-84760

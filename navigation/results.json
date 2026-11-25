@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:34:37.961Z",
-    "durationMs": 172959,
+    "generatedAt": "2026-11-25T14:43:00.823Z",
+    "durationMs": 167648,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T11:33:09.995Z",
+      "exportedAt": "2026-11-25T14:41:45.365Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -4060,7 +4060,7 @@
       "key": "15169:84760",
       "name": "Footer",
       "status": "Drifted",
-      "score": 43,
+      "score": 45,
       "match": "exact",
       "figma": {
         "id": "15169:84760",
@@ -4387,7 +4387,7 @@
           "category": "Properties",
           "subject": "prop:Show Social Icons",
           "label": "Property \"Show Social Icons\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Social Icons\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -4411,7 +4411,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:39:43.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Divider",
@@ -5583,7 +5590,7 @@
     "checks": {
       "pass": 21,
       "warn": 20,
-      "fail": 31
+      "fail": 30
     },
     "byCategory": {
       "Naming": {
@@ -5594,7 +5601,7 @@
       "Properties": {
         "pass": 2,
         "warn": 18,
-        "fail": 27
+        "fail": 26
       },
       "Tokens": {
         "pass": 0,
@@ -5634,7 +5641,7 @@
       },
       "Dev": {
         "warn": 8,
-        "fail": 29
+        "fail": 28
       },
       "Both": {
         "warn": 6,
@@ -5750,12 +5757,6 @@
             "key": "Properties|prop:Count",
             "title": "Figma property \"Count\" has no equivalent in code",
             "componentName": "Breadcrumbs"
-          },
-          {
-            "component": "15169:84760",
-            "key": "Properties|prop:Show Social Icons",
-            "title": "Figma property \"Show Social Icons\" has no equivalent in code",
-            "componentName": "Footer"
           },
           {
             "component": "15169:84760",
@@ -6079,6 +6080,19 @@
         "owner": "Both",
         "reason": "Same component, different naming: Figma \"Bottom Navigation\" vs Storybook \"TabBar\". Not a defect.",
         "at": "2026-11-25T07:16:32.381Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Footer",
+        "componentKey": "15169:84760",
+        "key": "Properties|prop:Show Social Icons",
+        "category": "Properties",
+        "title": "Figma property \"Show Social Icons\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:39:43.344Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -6524,19 +6538,6 @@
         "title": "No description in Figma",
         "detail": null,
         "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Footer",
-        "componentKey": "15169:84760",
-        "key": "Properties|prop:Show Social Icons",
-        "category": "Properties",
-        "subject": "prop:Show Social Icons",
-        "status": "fail",
-        "title": "Figma property \"Show Social Icons\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -7328,12 +7329,36 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T07:23:56.174Z",
+    "since": "2026-11-25T11:34:37.961Z",
     "previousScore": 38,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Footer",
+        "title": "Figma property \"Show Social Icons\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:39:43.344Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:Show Social Icons",
+          "title": "Figma property \"Show Social Icons\" has no equivalent in code",
+          "componentName": "Footer"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:21:28.115Z",
       "action": "ignore",
