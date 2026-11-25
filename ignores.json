@@ -153,6 +153,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:06:52.525Z"
+    },
+    {
+      "check": "images",
+      "component": "8469:708",
+      "key": "Naming|name",
+      "title": "Figma \"Lightbox Image Viewer\" is \"ImageViewer\" in Storybook",
+      "componentName": "Lightbox Image Viewer",
+      "reason": "Same component, different naming: Figma \"Lightbox Image Viewer\" vs Storybook \"ImageViewer\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:06:57.402Z"
     }
   ]
 }
