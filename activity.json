@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-11-25T07:09:13.929Z",
+  "generatedAt": "2026-11-25T07:09:45.816Z",
   "log": [
+    {
+      "at": "2026-11-25T07:07:18.399Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+      "items": [
+        {
+          "component": "3581:33620",
+          "key": "Naming|prop:Show Title",
+          "title": "Figma \"Show Title\" is \"title\" in code",
+          "componentName": "Dialog"
+        }
+      ],
+      "checkName": "System feedback"
+    },
+    {
+      "at": "2026-11-25T07:07:10.607Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Naming|name",
+          "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ],
+      "checkName": "Product modules"
+    },
     {
       "at": "2026-11-25T07:07:02.664Z",
       "action": "ignore",
