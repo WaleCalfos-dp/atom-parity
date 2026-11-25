@@ -1,6 +1,35 @@
 {
-  "generatedAt": "2026-11-25T14:48:44.426Z",
+  "generatedAt": "2026-11-25T14:48:48.254Z",
   "log": [
+    {
+      "at": "2026-11-25T14:46:32.529Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma-only property, not applied in any design. Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Country Flag",
+          "title": "Figma property \"Show Country Flag\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Pill Left",
+          "title": "Figma property \"Show Pill Left\" has no equivalent in code",
+          "componentName": "Select"
+        },
+        {
+          "component": "263:5381",
+          "key": "Properties|prop:Show Pill Right",
+          "title": "Figma property \"Show Pill Right\" has no equivalent in code",
+          "componentName": "Select"
+        }
+      ],
+      "checkName": "Data entry"
+    },
     {
       "at": "2026-11-25T14:46:22.841Z",
       "action": "ignore",
