@@ -783,6 +783,22 @@
           "componentName": "Date Picker"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:06:52.525Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Show Placeholder\" vs code \"placeholder\". Not a defect.",
+      "items": [
+        {
+          "component": "263:5381",
+          "key": "Naming|prop:Show Placeholder",
+          "title": "Figma \"Show Placeholder\" is \"placeholder\" in code",
+          "componentName": "Select"
+        }
+      ]
     }
   ]
 }
