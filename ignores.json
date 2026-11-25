@@ -1814,6 +1814,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:51:10.820Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "706:50315",
+      "key": "Accessibility|design:contrast",
+      "title": "Text contrast is too low in Figma",
+      "componentName": "Title",
+      "reason": "False positive: no background in the component, contrast measured white-on-white. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:19.851Z"
     }
   ]
 }
