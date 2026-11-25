@@ -1880,6 +1880,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:51:36.300Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "17148:8917",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Loading Modal",
+      "reason": "Same component under a different name: code \"Loading / Modal\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:51:48.623Z"
     }
   ]
 }

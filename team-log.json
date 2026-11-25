@@ -2431,6 +2431,22 @@
           "componentName": "Dialog"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:51:48.623Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Loading / Modal\". Not a defect.",
+      "items": [
+        {
+          "component": "17148:8917",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Loading Modal"
+        }
+      ]
     }
   ]
 }
