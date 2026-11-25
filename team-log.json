@@ -2317,6 +2317,22 @@
           "componentName": "Transport / Promotion Panel"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:50:53.332Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "1580:2709",
+          "key": "Properties|prop:weight",
+          "title": "Figma property \"weight\" has no equivalent in code",
+          "componentName": "Text Link"
+        }
+      ]
     }
   ]
 }
