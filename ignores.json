@@ -373,6 +373,39 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:39:43.344Z"
+    },
+    {
+      "check": "actions",
+      "component": "12845:6732",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Icon Button",
+      "reason": "Same component under a different name: code \"Button\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:44:44.594Z"
+    },
+    {
+      "check": "actions",
+      "component": "12604:10709",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Payment Button",
+      "reason": "Same component under a different name: code \"Button\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:44:44.594Z"
+    },
+    {
+      "check": "actions",
+      "component": "12607:10742",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Social Button",
+      "reason": "Same component under a different name: code \"Button\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:44:44.594Z"
     }
   ]
 }

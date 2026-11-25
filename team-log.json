@@ -1199,6 +1199,34 @@
           "componentName": "Footer"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:44:44.594Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"Button\". Not a defect.",
+      "items": [
+        {
+          "component": "12845:6732",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Icon Button"
+        },
+        {
+          "component": "12604:10709",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Payment Button"
+        },
+        {
+          "component": "12607:10742",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Social Button"
+        }
+      ]
     }
   ]
 }
