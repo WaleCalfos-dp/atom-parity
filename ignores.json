@@ -208,6 +208,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:07:26.710Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "7839:97889",
+      "key": "Naming|prop:Status",
+      "title": "Figma \"Status\" is \"type\" in code",
+      "componentName": "Toast",
+      "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:07:38.437Z"
     }
   ]
 }
