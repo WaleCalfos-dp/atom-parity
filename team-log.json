@@ -1895,6 +1895,28 @@
           "componentName": "Tabs"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T14:48:23.649Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "14347:1286",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Footer"
+        }
+      ]
     }
   ]
 }
