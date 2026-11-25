@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-11-25T06:35:40.815Z",
+  "generatedAt": "2026-11-25T06:35:48.151Z",
   "log": [
-    {
-      "at": "2026-11-25T06:33:20.380Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same property, different naming: Figma \"Show Icon Right\" vs code \"rightIcon\". Not a defect.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|prop:Show Icon Right",
-          "title": "Figma \"Show Icon Right\" is \"rightIcon\" in code",
-          "componentName": "Button"
-        }
-      ],
-      "checkName": "Actions"
-    },
-    {
-      "at": "2026-11-25T06:33:09.586Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Same property, different naming: Figma \"Show Icon Left\" vs code \"leftIcon\". Not a defect.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Naming|prop:Show Icon Left",
-          "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
-          "componentName": "Button"
-        }
-      ],
-      "checkName": "Actions"
-    },
     {
       "at": "2026-11-25T06:32:58.828Z",
       "action": "restore",
