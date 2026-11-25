@@ -186,6 +186,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:07:10.607Z"
+    },
+    {
+      "check": "system-feedback",
+      "component": "3581:33620",
+      "key": "Naming|prop:Show Title",
+      "title": "Figma \"Show Title\" is \"title\" in code",
+      "componentName": "Dialog",
+      "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:07:18.399Z"
     }
   ]
 }
