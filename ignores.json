@@ -120,6 +120,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:06:28.591Z"
+    },
+    {
+      "check": "data-display",
+      "component": "218:1707",
+      "key": "Naming|name",
+      "title": "Figma \"Accordion\" is \"Collapse\" in Storybook",
+      "componentName": "Accordion",
+      "reason": "Same component, different naming: Figma \"Accordion\" vs Storybook \"Collapse\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:06:37.576Z"
     }
   ]
 }
