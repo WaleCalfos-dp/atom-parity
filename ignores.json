@@ -461,6 +461,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T14:45:14.463Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Tokens|token:Label · Font family",
+      "title": "Label · Font family uses the design token under a different name",
+      "componentName": "Button",
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T14:45:23.998Z"
     }
   ]
 }
