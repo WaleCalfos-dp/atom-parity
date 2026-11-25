@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T07:11:55.060Z",
-    "durationMs": 195196,
+    "generatedAt": "2026-11-25T07:11:58.838Z",
+    "durationMs": 195011,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T04:02:26Z"
       },
-      "exportedAt": "2026-11-25T07:10:50.953Z",
+      "exportedAt": "2026-11-25T07:10:54.954Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7043,7 +7043,7 @@
       "key": "7839:97889",
       "name": "Toast",
       "status": "Drifted",
-      "score": 50,
+      "score": 54,
       "match": "exact",
       "figma": {
         "id": "7839:97889",
@@ -7384,7 +7384,7 @@
           "category": "Naming",
           "subject": "prop:Status",
           "label": "Property \"Status\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma \"Status\" is \"type\" in code",
           "owner": "Both",
           "detail": "Rename one side so names match 1:1 (paired by matching values)",
@@ -7408,7 +7408,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+            "at": "2026-11-25T07:07:38.437Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|values:Status",
@@ -9217,13 +9224,13 @@
     "checks": {
       "pass": 29,
       "warn": 23,
-      "fail": 34
+      "fail": 33
     },
     "byCategory": {
       "Naming": {
         "pass": 13,
         "warn": 6,
-        "fail": 10
+        "fail": 9
       },
       "Properties": {
         "pass": 0,
@@ -9272,7 +9279,7 @@
       },
       "Both": {
         "warn": 7,
-        "fail": 7
+        "fail": 6
       }
     },
     "themes": [
@@ -9470,49 +9477,6 @@
         ]
       },
       {
-        "category": "Naming",
-        "title": "Property named differently in Figma and code",
-        "status": "fail",
-        "owner": "Both",
-        "components": [
-          "Alert",
-          "Toast",
-          "Tooltip"
-        ],
-        "items": [
-          {
-            "component": "1151:40938",
-            "key": "Naming|prop:Status",
-            "title": "Figma \"Status\" is \"type\" in code",
-            "componentName": "Alert"
-          },
-          {
-            "component": "7839:97889",
-            "key": "Naming|prop:Status",
-            "title": "Figma \"Status\" is \"type\" in code",
-            "componentName": "Toast"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Naming|prop:Show Title",
-            "title": "Figma \"Show Title\" is \"title\" in code",
-            "componentName": "Tooltip"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Naming|prop:Show Description",
-            "title": "Figma \"Show Description\" is \"description\" in code",
-            "componentName": "Tooltip"
-          },
-          {
-            "component": "8560:2779",
-            "key": "Naming|prop:Tip Direction",
-            "title": "Figma \"Tip Direction\" is \"placement\" in code",
-            "componentName": "Tooltip"
-          }
-        ]
-      },
-      {
         "category": "Properties",
         "title": "Property values missing in code",
         "status": "fail",
@@ -9539,6 +9503,42 @@
             "component": "8560:2779",
             "key": "Properties|values:Tip Direction",
             "title": "Tip Direction values missing in code",
+            "componentName": "Tooltip"
+          }
+        ]
+      },
+      {
+        "category": "Naming",
+        "title": "Property named differently in Figma and code",
+        "status": "fail",
+        "owner": "Both",
+        "components": [
+          "Alert",
+          "Tooltip"
+        ],
+        "items": [
+          {
+            "component": "1151:40938",
+            "key": "Naming|prop:Status",
+            "title": "Figma \"Status\" is \"type\" in code",
+            "componentName": "Alert"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Naming|prop:Show Title",
+            "title": "Figma \"Show Title\" is \"title\" in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Naming|prop:Show Description",
+            "title": "Figma \"Show Description\" is \"description\" in code",
+            "componentName": "Tooltip"
+          },
+          {
+            "component": "8560:2779",
+            "key": "Naming|prop:Tip Direction",
+            "title": "Figma \"Tip Direction\" is \"placement\" in code",
             "componentName": "Tooltip"
           }
         ]
@@ -9762,6 +9762,19 @@
         "owner": "Both",
         "reason": "Same property, different naming: Figma \"Show Title\" vs code \"title\". Not a defect.",
         "at": "2026-11-25T07:07:18.399Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Toast",
+        "componentKey": "7839:97889",
+        "key": "Naming|prop:Status",
+        "category": "Naming",
+        "title": "Figma \"Status\" is \"type\" in code",
+        "was": "fail",
+        "owner": "Both",
+        "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+        "at": "2026-11-25T07:07:38.437Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -10285,19 +10298,6 @@
         "title": "Figma property \"Description\" has no equivalent in code",
         "detail": "text property",
         "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Toast",
-        "componentKey": "7839:97889",
-        "key": "Naming|prop:Status",
-        "category": "Naming",
-        "subject": "prop:Status",
-        "status": "fail",
-        "title": "Figma \"Status\" is \"type\" in code",
-        "detail": "Rename one side so names match 1:1 (paired by matching values)",
-        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -11012,9 +11012,33 @@
     "since": "2026-11-24T12:32:23.584Z",
     "previousScore": 22,
     "newFails": [],
-    "fixed": []
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Toast",
+        "title": "Figma \"Status\" is \"type\" in code",
+        "category": "Naming",
+        "now": "ignored"
+      }
+    ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T07:07:38.437Z",
+      "action": "ignore",
+      "check": "system-feedback",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same property, different naming: Figma \"Status\" vs code \"type\". Not a defect.",
+      "items": [
+        {
+          "component": "7839:97889",
+          "key": "Naming|prop:Status",
+          "title": "Figma \"Status\" is \"type\" in code",
+          "componentName": "Toast"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:07:26.710Z",
       "action": "ignore",

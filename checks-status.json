@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T07:12:01.446Z",
+  "generatedAt": "2026-11-25T07:12:05.356Z",
   "entries": [
     {
       "id": "actions",
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T07:11:55.060Z",
+      "ranAt": "2026-11-25T07:11:58.838Z",
       "ok": true,
       "history": [
         {
@@ -319,7 +319,7 @@
           "score": 22
         },
         {
-          "at": "2026-11-25T07:11:55.060Z",
+          "at": "2026-11-25T07:11:58.838Z",
           "score": 22
         }
       ],
@@ -373,7 +373,7 @@
         {
           "name": "Toast",
           "status": "Drifted",
-          "score": 50
+          "score": 54
         },
         {
           "name": "Tooltip",
@@ -396,7 +396,7 @@
       },
       "previousScore": 22,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 1,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
@@ -404,9 +404,9 @@
       "themes": [
         "Not built in Storybook",
         "Figma property missing in code",
-        "Property named differently in Figma and code"
+        "Property values missing in code"
       ],
-      "ignored": 2,
+      "ignored": 3,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "SYSTEM FEEDBACK",
