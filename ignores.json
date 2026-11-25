@@ -94,10 +94,10 @@
       "key": "Naming|prop:Show Icon Left",
       "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
       "componentName": "Button",
-      "reason": "Naming alignment only - not a defect.",
+      "reason": "Same property, different naming: Figma \"Show Icon Left\" vs code \"leftIcon\". Not a defect.",
       "by": "frontenddev.ai",
       "github": null,
-      "at": "2026-11-24T12:50:54.185Z"
+      "at": "2026-11-25T06:33:09.586Z"
     }
   ]
 }
