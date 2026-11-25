@@ -1039,6 +1039,22 @@
           "componentName": "Bottom Navigation"
         }
       ]
+    },
+    {
+      "at": "2026-11-25T07:16:37.025Z",
+      "action": "ignore",
+      "check": "system-and-typography",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component, different naming: Figma \"Text Link\" vs Storybook \"Link\". Not a defect.",
+      "items": [
+        {
+          "component": "1580:2709",
+          "key": "Naming|name",
+          "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+          "componentName": "Text Link"
+        }
+      ]
     }
   ]
 }

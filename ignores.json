@@ -307,6 +307,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-25T07:16:32.381Z"
+    },
+    {
+      "check": "system-and-typography",
+      "component": "1580:2709",
+      "key": "Naming|name",
+      "title": "Figma \"Text Link\" is \"Link\" in Storybook",
+      "componentName": "Text Link",
+      "reason": "Same component, different naming: Figma \"Text Link\" vs Storybook \"Link\". Not a defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-25T07:16:37.025Z"
     }
   ]
 }
