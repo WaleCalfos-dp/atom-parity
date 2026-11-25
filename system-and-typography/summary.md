@@ -1,4 +1,4 @@
-## Atom parity: 17% match (+0 since last run)
+## Atom parity: 19% match (+2 since last run)
 
 0 of 7 Figma components match Storybook. 2 have drifted and 5 aren't built yet.
 
@@ -6,10 +6,13 @@
 |---|---|---|---|---|
 | 0 | 2 | 0 | 5 | 0 |
 
+### 1 fixed
+- Text Link: Figma property "weight" has no equivalent in code
+
 ### Biggest themes
 - 🔴 Not built in Storybook: 5 components (Dev)
 - 🔴 Property values missing in code: 2 components (Both)
-- 🔴 Figma property missing in code: 2 components (Dev)
+- 🔴 Figma property missing in code: 1 component (Dev)
 - 🟠 Code has props with no Figma property: 2 components (Design)
 - 🟠 Text contrast is too low in Figma: 2 components (Design)
 - 🟠 24 of 24 variants can't be shown in code: 1 component (Both)
