@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T14:43:00.823Z",
-    "durationMs": 167648,
+    "generatedAt": "2026-11-25T14:52:22.801Z",
+    "durationMs": 172375,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-25T12:53:06Z"
       },
-      "exportedAt": "2026-11-25T14:41:45.365Z",
+      "exportedAt": "2026-11-25T14:51:17.596Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -3404,7 +3404,7 @@
       "key": "14347:1286",
       "name": "Breadcrumbs",
       "status": "Drifted",
-      "score": 63,
+      "score": 64,
       "match": "exact",
       "figma": {
         "id": "14347:1286",
@@ -3663,7 +3663,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "items, symbol, maxCount",
@@ -3687,7 +3687,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T14:48:23.649Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -3728,8 +3735,8 @@
     {
       "key": "14933:17211",
       "name": "Burger Menu Triggered",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -4027,7 +4034,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -4051,7 +4058,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Device chrome or Figma-only helper, not a library component.",
+            "at": "2026-11-25T14:48:39.803Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4060,7 +4074,7 @@
       "key": "15169:84760",
       "name": "Footer",
       "status": "Drifted",
-      "score": 45,
+      "score": 50,
       "match": "exact",
       "figma": {
         "id": "15169:84760",
@@ -4611,7 +4625,7 @@
           "category": "Properties",
           "subject": "prop:social-icons",
           "label": "Property \"social-icons\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"social-icons\" has no equivalent in code",
           "owner": "Dev",
           "detail": "slot property",
@@ -4635,14 +4649,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+            "at": "2026-11-25T14:48:16.626Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:footer-links",
           "category": "Properties",
           "subject": "prop:footer-links",
           "label": "Property \"footer-links\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"footer-links\" has no equivalent in code",
           "owner": "Dev",
           "detail": "slot property",
@@ -4666,7 +4687,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+            "at": "2026-11-25T14:48:16.626Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Breakpoint",
@@ -4828,7 +4856,7 @@
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "showLogo, logo, links, mediaLinks, copyright",
@@ -4852,7 +4880,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T14:48:23.649Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -5171,7 +5206,7 @@
       "key": "1491:5016",
       "name": "Tabs",
       "status": "Drifted",
-      "score": 63,
+      "score": 71,
       "match": "exact",
       "figma": {
         "id": "1491:5016",
@@ -5388,7 +5423,7 @@
           "category": "Properties",
           "subject": "prop:container",
           "label": "Property \"container\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"container\" has no equivalent in code",
           "owner": "Dev",
           "detail": "slot property",
@@ -5412,7 +5447,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+            "at": "2026-11-25T14:48:16.626Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Style",
@@ -5515,8 +5557,8 @@
     {
       "key": "8210:74296",
       "name": "Web Header",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -5543,7 +5585,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Navigation/NavHeader. Rename it, or add it to components.aliases.",
@@ -5567,41 +5609,48 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+            "at": "2026-11-25T14:48:29.106Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
     }
   ],
   "summary": {
-    "score": 38,
-    "headline": "0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.",
+    "score": 56,
+    "headline": "0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.",
     "components": {
       "total": 7,
-      "figma": 7,
+      "figma": 5,
       "paired": 5,
       "aligned": 0,
       "drifted": 4,
       "broken": 1,
-      "missingInCode": 2,
+      "missingInCode": 0,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 2
     },
     "checks": {
       "pass": 21,
-      "warn": 20,
-      "fail": 30
+      "warn": 18,
+      "fail": 25
     },
     "byCategory": {
       "Naming": {
         "pass": 8,
         "warn": 1,
-        "fail": 2
+        "fail": 0
       },
       "Properties": {
         "pass": 2,
-        "warn": 18,
-        "fail": 26
+        "warn": 16,
+        "fail": 23
       },
       "Tokens": {
         "pass": 0,
@@ -5636,12 +5685,12 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 6,
+        "warn": 4,
         "fail": 2
       },
       "Dev": {
         "warn": 8,
-        "fail": 28
+        "fail": 23
       },
       "Both": {
         "warn": 6,
@@ -5784,18 +5833,6 @@
           },
           {
             "component": "15169:84760",
-            "key": "Properties|prop:social-icons",
-            "title": "Figma property \"social-icons\" has no equivalent in code",
-            "componentName": "Footer"
-          },
-          {
-            "component": "15169:84760",
-            "key": "Properties|prop:footer-links",
-            "title": "Figma property \"footer-links\" has no equivalent in code",
-            "componentName": "Footer"
-          },
-          {
-            "component": "15169:84760",
             "key": "Properties|prop:Breakpoint",
             "title": "Figma property \"Breakpoint\" has no equivalent in code",
             "componentName": "Footer"
@@ -5808,39 +5845,9 @@
           },
           {
             "component": "1491:5016",
-            "key": "Properties|prop:container",
-            "title": "Figma property \"container\" has no equivalent in code",
-            "componentName": "Tabs"
-          },
-          {
-            "component": "1491:5016",
             "key": "Properties|prop:Style",
             "title": "Figma property \"Style\" has no equivalent in code",
             "componentName": "Tabs"
-          }
-        ]
-      },
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Burger Menu Triggered",
-          "Web Header"
-        ],
-        "items": [
-          {
-            "component": "14933:17211",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Burger Menu Triggered"
-          },
-          {
-            "component": "8210:74296",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Web Header"
           }
         ]
       },
@@ -5886,8 +5893,6 @@
         "components": [
           "App Header",
           "Bottom Navigation",
-          "Breadcrumbs",
-          "Footer",
           "Tabs"
         ],
         "items": [
@@ -5902,18 +5907,6 @@
             "key": "Properties|code-only",
             "title": "Code has props with no Figma property",
             "componentName": "Bottom Navigation"
-          },
-          {
-            "component": "14347:1286",
-            "key": "Properties|code-only",
-            "title": "Code has props with no Figma property",
-            "componentName": "Breadcrumbs"
-          },
-          {
-            "component": "15169:84760",
-            "key": "Properties|code-only",
-            "title": "Code has props with no Figma property",
-            "componentName": "Footer"
           },
           {
             "component": "1491:5016",
@@ -6050,11 +6043,28 @@
             "componentName": "Footer"
           }
         ]
+      },
+      {
+        "category": "Documentation",
+        "title": "No description in Figma",
+        "status": "warn",
+        "owner": "Design",
+        "components": [
+          "Footer"
+        ],
+        "items": [
+          {
+            "component": "15169:84760",
+            "key": "Documentation|docs-figma",
+            "title": "No description in Figma",
+            "componentName": "Footer"
+          }
+        ]
       }
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
-      "No failures in: Documentation"
+      "No failures in: Naming, Documentation"
     ],
     "ignored": [
       {
@@ -6084,6 +6094,32 @@
         "github": null
       },
       {
+        "component": "Breadcrumbs",
+        "componentKey": "14347:1286",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T14:48:23.649Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Burger Menu Triggered",
+        "componentKey": "14933:17211",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Device chrome or Figma-only helper, not a library component.",
+        "at": "2026-11-25T14:48:39.803Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Footer",
         "componentKey": "15169:84760",
         "key": "Properties|prop:Show Social Icons",
@@ -6093,6 +6129,71 @@
         "owner": "Dev",
         "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
         "at": "2026-11-25T14:39:43.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Footer",
+        "componentKey": "15169:84760",
+        "key": "Properties|prop:social-icons",
+        "category": "Properties",
+        "title": "Figma property \"social-icons\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+        "at": "2026-11-25T14:48:16.626Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Footer",
+        "componentKey": "15169:84760",
+        "key": "Properties|prop:footer-links",
+        "category": "Properties",
+        "title": "Figma property \"footer-links\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+        "at": "2026-11-25T14:48:16.626Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Footer",
+        "componentKey": "15169:84760",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T14:48:23.649Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Tabs",
+        "componentKey": "1491:5016",
+        "key": "Properties|prop:container",
+        "category": "Properties",
+        "title": "Figma property \"container\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+        "at": "2026-11-25T14:48:16.626Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Web Header",
+        "componentKey": "8210:74296",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+        "at": "2026-11-25T14:48:29.106Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -6479,19 +6580,6 @@
       {
         "component": "Breadcrumbs",
         "componentKey": "14347:1286",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "items, symbol, maxCount",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Breadcrumbs",
-        "componentKey": "14347:1286",
         "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
@@ -6499,19 +6587,6 @@
         "title": "10 of 10 variants can't be shown in code",
         "detail": "Divider Type=Chevron, Count=2, Count=3, Count=4, Count=5, Count=6, Divider Type=Forward Slash",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Burger Menu Triggered",
-        "componentKey": "14933:17211",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -6622,32 +6697,6 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
-        "key": "Properties|prop:social-icons",
-        "category": "Properties",
-        "subject": "prop:social-icons",
-        "status": "fail",
-        "title": "Figma property \"social-icons\" has no equivalent in code",
-        "detail": "slot property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Footer",
-        "componentKey": "15169:84760",
-        "key": "Properties|prop:footer-links",
-        "category": "Properties",
-        "subject": "prop:footer-links",
-        "status": "fail",
-        "title": "Figma property \"footer-links\" has no equivalent in code",
-        "detail": "slot property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Footer",
-        "componentKey": "15169:84760",
         "key": "Properties|prop:Breakpoint",
         "category": "Properties",
         "subject": "prop:Breakpoint",
@@ -6674,19 +6723,6 @@
       {
         "component": "Footer",
         "componentKey": "15169:84760",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "showLogo, logo, links, mediaLinks, copyright",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Footer",
-        "componentKey": "15169:84760",
         "key": "Properties|coverage",
         "category": "Properties",
         "subject": "coverage",
@@ -6694,19 +6730,6 @@
         "title": "18 of 18 variants can't be shown in code",
         "detail": "Breakpoint=Desktop, Style=Compact, Style=Slots, Breakpoint=Tablet, Breakpoint=Mobile, Style=Basic",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Tabs",
-        "componentKey": "1491:5016",
-        "key": "Properties|prop:container",
-        "category": "Properties",
-        "subject": "prop:container",
-        "status": "fail",
-        "title": "Figma property \"container\" has no equivalent in code",
-        "detail": "slot property",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       },
@@ -6746,19 +6769,6 @@
         "title": "4 of 4 variants can't be shown in code",
         "detail": "Style=Underlined, Style=Plain, Style=Circular, Style=Circular Inverted",
         "owner": "Both",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Web Header",
-        "componentKey": "8210:74296",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Navigation/NavHeader. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
         "brands": [],
         "variants": 0
       }
@@ -7329,20 +7339,130 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T11:34:37.961Z",
+    "since": "2026-11-25T14:43:00.823Z",
     "previousScore": 38,
     "newFails": [],
     "fixed": [
       {
         "status": "fail",
+        "component": "Burger Menu Triggered",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
         "component": "Footer",
-        "title": "Figma property \"Show Social Icons\" has no equivalent in code",
+        "title": "Figma property \"social-icons\" has no equivalent in code",
         "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Footer",
+        "title": "Figma property \"footer-links\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Tabs",
+        "title": "Figma property \"container\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Web Header",
+        "title": "Not found in Storybook",
+        "category": "Naming",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-25T14:48:39.803Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Device chrome or Figma-only helper, not a library component.",
+      "items": [
+        {
+          "component": "14933:17211",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Burger Menu Triggered"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:48:29.106Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same component under a different name: code \"NavHeader\". Not a defect.",
+      "items": [
+        {
+          "component": "8210:74296",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Header"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:48:23.649Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "14347:1286",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Breadcrumbs"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Footer"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:48:16.626Z",
+      "action": "ignore",
+      "check": "navigation",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Figma slot; code renders it via children/slot. Not a defect.",
+      "items": [
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:footer-links",
+          "title": "Figma property \"footer-links\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "15169:84760",
+          "key": "Properties|prop:social-icons",
+          "title": "Figma property \"social-icons\" has no equivalent in code",
+          "componentName": "Footer"
+        },
+        {
+          "component": "1491:5016",
+          "key": "Properties|prop:container",
+          "title": "Figma property \"container\" has no equivalent in code",
+          "componentName": "Tabs"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T14:39:43.344Z",
       "action": "ignore",

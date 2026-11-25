@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T14:52:19.028Z",
+  "generatedAt": "2026-11-25T14:52:29.165Z",
   "entries": [
     {
       "id": "actions",
@@ -1009,7 +1009,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T14:43:00.823Z",
+      "ranAt": "2026-11-25T14:52:22.801Z",
       "ok": true,
       "history": [
         {
@@ -1099,6 +1099,10 @@
         {
           "at": "2026-11-25T14:43:00.823Z",
           "score": 38
+        },
+        {
+          "at": "2026-11-25T14:52:22.801Z",
+          "score": 56
         }
       ],
       "preview": null,
@@ -1116,55 +1120,55 @@
         {
           "name": "Breadcrumbs",
           "status": "Drifted",
-          "score": 63
+          "score": 64
         },
         {
           "name": "Burger Menu Triggered",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Footer",
           "status": "Drifted",
-          "score": 45
+          "score": 50
         },
         {
           "name": "Tabs",
           "status": "Drifted",
-          "score": 63
+          "score": 71
         },
         {
           "name": "Web Header",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         }
       ],
-      "score": 38,
-      "headline": "0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.",
+      "score": 56,
+      "headline": "0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.",
       "counts": {
         "total": 7,
-        "figma": 7,
+        "figma": 5,
         "paired": 5,
         "aligned": 0,
         "drifted": 4,
         "broken": 1,
-        "missingInCode": 2,
+        "missingInCode": 0,
         "missingInDesign": 0,
-        "ignored": 0
+        "ignored": 2
       },
       "previousScore": 38,
       "newFails": 0,
-      "fixed": 1,
+      "fixed": 5,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
         "Figma property missing in code",
-        "Not built in Storybook",
-        "Text contrast is too low in Figma"
+        "Text contrast is too low in Figma",
+        "Field edge is hard to see in Figma"
       ],
-      "ignored": 3,
+      "ignored": 10,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "NAVIGATION",
@@ -1194,10 +1198,6 @@
             "owner": "Design"
           }
         ]
-      },
-      "stale": {
-        "at": "2026-11-25T14:51:00.064Z",
-        "error": "Figma API 429: {\"status\":429,\"err\":\"Rate limit exceeded\"}"
       }
     },
     {

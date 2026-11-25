@@ -174,12 +174,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-14347%3A1286
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Burger Menu Triggered: Not found in Storybook","No similar component in Storybook
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14933-17211
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-14933%3A17211
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] Footer: Grouped under a different category","Figma ""NAVIGATION"" · Storybook ""Layout""
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-84760
@@ -229,20 +223,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-15169%3A84760
 
 Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Footer: Figma property ""social-icons"" has no equivalent in code","slot property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-84760
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-footer--usage
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-15169%3A84760
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
-"[Atom parity] Footer: Figma property ""footer-links"" has no equivalent in code","slot property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-84760
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/layout-footer--usage
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-15169%3A84760
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Footer: Figma property ""Breakpoint"" has no equivalent in code","Values: Desktop, Tablet, Mobile
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=15169-84760
@@ -264,13 +244,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-15169%3A84760
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Tabs: Figma property ""container"" has no equivalent in code","slot property
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1491-5016
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-tabs--usage
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-1491%3A5016
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Tabs: Figma property ""Style"" has no equivalent in code","Values: Underlined, Plain, Circular, Circular Inverted
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1491-5016
@@ -285,9 +258,3 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-1491%3A5016
 
 Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Web Header: Not found in Storybook","Possible matches: Navigation/NavHeader. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=8210-74296
-Report: https://walecalfos-dp.github.io/atom-parity/navigation/#c-8210%3A74296
-
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"

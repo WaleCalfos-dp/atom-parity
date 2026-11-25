@@ -1,20 +1,24 @@
-## Atom parity: 38% match (+0 since last run)
+## Atom parity: 56% match (+18 since last run)
 
-0 of 7 Figma components match Storybook. 4 have drifted, 1 is broken and 2 aren't built yet.
+0 of 5 Figma components match Storybook. 4 have drifted and 1 is broken.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
-| 0 | 4 | 1 | 2 | 0 |
+| 0 | 4 | 1 | 0 | 0 |
 
-### 1 fixed
-- Footer: Figma property "Show Social Icons" has no equivalent in code
+### 5 fixed
+- Burger Menu Triggered: Not found in Storybook
+- Footer: Figma property "social-icons" has no equivalent in code
+- Footer: Figma property "footer-links" has no equivalent in code
+- Tabs: Figma property "container" has no equivalent in code
+- Web Header: Not found in Storybook
 
 ### Biggest themes
 - 🔴 Figma property missing in code: 5 components (Dev)
-- 🔴 Not built in Storybook: 2 components (Dev)
 - 🔴 Text contrast is too low in Figma: 1 component (Design)
 - 🔴 Field edge is hard to see in Figma: 1 component (Design)
-- 🟠 Code has props with no Figma property: 5 components (Design)
+- 🟠 Code has props with no Figma property: 3 components (Design)
 - 🟠 State values without a code equivalent: 2 components (Dev)
+- 🟠 15 of 15 variants can't be shown in code: 1 component (Both)
 
 [Open the full report](https://walecalfos-dp.github.io/atom-parity/navigation/)
