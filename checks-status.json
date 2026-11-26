@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T02:37:06.198Z",
+  "generatedAt": "2026-11-26T02:37:28.079Z",
   "entries": [
     {
       "id": "actions",
@@ -1837,7 +1837,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T02:37:05.819Z",
+      "ranAt": "2026-11-26T02:37:20.958Z",
       "ok": true,
       "history": [
         {
@@ -1909,7 +1909,7 @@
           "score": 6
         },
         {
-          "at": "2026-11-26T02:37:05.819Z",
+          "at": "2026-11-26T02:37:20.958Z",
           "score": 62
         }
       ],
