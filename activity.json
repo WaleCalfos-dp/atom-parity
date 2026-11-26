@@ -1,41 +1,6 @@
 {
-  "generatedAt": "2026-11-26T11:08:05.448Z",
+  "generatedAt": "2026-11-26T11:11:50.451Z",
   "log": [
-    {
-      "at": "2026-11-26T11:05:49.128Z",
-      "action": "run",
-      "check": "data-entry",
-      "by": "frontenddev.ai",
-      "github": null,
-      "items": [],
-      "checkName": "Data entry"
-    },
-    {
-      "at": "2026-11-26T11:05:36.958Z",
-      "action": "run",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "items": [],
-      "checkName": "Actions"
-    },
-    {
-      "at": "2026-11-26T11:04:23.707Z",
-      "action": "ignore",
-      "check": "data-entry",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
-      "items": [
-        {
-          "component": "360:57017",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Checkbox"
-        }
-      ],
-      "checkName": "Data entry"
-    },
     {
       "at": "2026-11-26T11:04:13.206Z",
       "action": "ignore",
