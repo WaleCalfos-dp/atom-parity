@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T11:46:38.408Z",
-    "durationMs": 206557,
+    "generatedAt": "2026-11-26T02:37:05.819Z",
+    "durationMs": 139291,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T11:13:35Z"
+        "lastModified": "2026-11-25T19:08:26Z"
       },
-      "exportedAt": "2026-11-25T11:44:47.901Z",
+      "exportedAt": "2026-11-26T02:36:14.973Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1370,8 +1370,8 @@
     {
       "key": "17603:24026",
       "name": "Dual Input",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -1403,7 +1403,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Entry/LabelInput, Data Entry/PinInput. Rename it, or add it to components.aliases.",
@@ -1427,7 +1427,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -1435,8 +1442,8 @@
     {
       "key": "2885:12852",
       "name": "eSim / Data Balance",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -1608,7 +1615,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -1632,7 +1639,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -1640,8 +1654,8 @@
     {
       "key": "18516:6137",
       "name": "eSim / Data Plan Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -1903,7 +1917,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -1927,7 +1941,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -1935,8 +1956,8 @@
     {
       "key": "4446:136318",
       "name": "eSim / Status Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2009,7 +2030,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -2033,7 +2054,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2041,8 +2069,8 @@
     {
       "key": "817:27434",
       "name": "eSim / Tile",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -2109,7 +2137,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -2133,7 +2161,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2141,8 +2176,8 @@
     {
       "key": "17503:16604",
       "name": "Fitness / Class Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2169,7 +2204,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -2193,7 +2228,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2201,8 +2243,8 @@
     {
       "key": "17636:37197",
       "name": "Flight Delay / Benefit Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -2363,7 +2405,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -2387,7 +2429,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -2396,7 +2445,7 @@
       "key": "17265:62617",
       "name": "Flight Delay / Flight Card",
       "status": "Broken",
-      "score": 65,
+      "score": 73,
       "match": "exact",
       "figma": {
         "id": "17265:62617",
@@ -2637,7 +2686,7 @@
           "category": "Properties",
           "subject": "prop:Airline Name",
           "label": "Property \"Airline Name\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Airline Name\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2661,7 +2710,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Flight Number",
@@ -2699,7 +2755,7 @@
           "category": "Properties",
           "subject": "prop:Departure Date",
           "label": "Property \"Departure Date\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Departure Date\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2723,14 +2779,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Departure Time",
           "category": "Properties",
           "subject": "prop:Departure Time",
           "label": "Property \"Departure Time\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Departure Time\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2754,14 +2817,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Departure Airport",
           "category": "Properties",
           "subject": "prop:Departure Airport",
           "label": "Property \"Departure Airport\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Departure Airport\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2785,7 +2855,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Naming|prop:Flight Type",
@@ -2823,7 +2900,7 @@
           "category": "Properties",
           "subject": "prop:Arrival Date",
           "label": "Property \"Arrival Date\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Arrival Date\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2847,14 +2924,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Arrival Time",
           "category": "Properties",
           "subject": "prop:Arrival Time",
           "label": "Property \"Arrival Time\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Arrival Time\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2878,14 +2962,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Arrival Airport",
           "category": "Properties",
           "subject": "prop:Arrival Airport",
           "label": "Property \"Arrival Airport\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Arrival Airport\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -2909,14 +3000,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|code-only",
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "airline, from, to, airlineLogo, description",
@@ -2940,7 +3038,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T14:50:09.938Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Rendering|render",
@@ -2998,7 +3103,7 @@
           "category": "Rendering",
           "subject": "console",
           "label": "Console",
-          "status": "warn",
+          "status": "ignored",
           "title": "Console errors while rendering",
           "owner": "Dev",
           "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -3048,7 +3153,14 @@
           ],
           "variants": [
             "Flight Delay / Flight Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Tokens|value:Background colour",
@@ -3327,7 +3439,7 @@
           "category": "Tokens",
           "subject": "token:Horizontal padding",
           "label": "Horizontal padding",
-          "status": "warn",
+          "status": "ignored",
           "title": "Horizontal padding uses the design token under a different name",
           "owner": "Both",
           "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
@@ -3377,7 +3489,14 @@
           ],
           "variants": [
             "Flight Delay / Flight Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "Same token value, different CSS variable name. Not a defect.",
+            "at": "2026-11-25T14:50:25.423Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Tokens|value:Vertical padding",
@@ -3435,7 +3554,7 @@
           "category": "Tokens",
           "subject": "token:Vertical padding",
           "label": "Vertical padding",
-          "status": "warn",
+          "status": "ignored",
           "title": "Vertical padding uses the design token under a different name",
           "owner": "Both",
           "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
@@ -3485,7 +3604,14 @@
           ],
           "variants": [
             "Flight Delay / Flight Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "Same token value, different CSS variable name. Not a defect.",
+            "at": "2026-11-25T14:50:25.423Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Tokens|value:Label · Text colour",
@@ -3733,7 +3859,7 @@
           "category": "Visual",
           "subject": "width",
           "label": "Width",
-          "status": "warn",
+          "status": "ignored",
           "title": "Width differs from design",
           "owner": "Both",
           "detail": "Design 327px · Code 376px (label text may differ)",
@@ -3761,7 +3887,14 @@
           ],
           "variants": [
             "Flight Delay / Flight Card"
-          ]
+          ],
+          "ignored": {
+            "reason": "Width follows label text / artboard width. Not a defect.",
+            "at": "2026-11-25T14:50:59.388Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Accessibility|axe",
@@ -4113,8 +4246,8 @@
     {
       "key": "10422:5934",
       "name": "Membership / Entitlement Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -4208,7 +4341,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -4232,7 +4365,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4240,8 +4380,8 @@
     {
       "key": "10419:5354",
       "name": "Membership / Membership Card",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -4377,7 +4517,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
@@ -4401,7 +4541,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4409,8 +4556,8 @@
     {
       "key": "18195:8619",
       "name": "Parking / Search Supercomponent",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -4431,7 +4578,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -4455,7 +4602,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4463,8 +4617,8 @@
     {
       "key": "16222:20620",
       "name": "Product Details",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -4600,7 +4754,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Business Components/ProductSelect. Rename it, or add it to components.aliases.",
@@ -4624,7 +4778,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4632,8 +4793,8 @@
     {
       "key": "15617:26749",
       "name": "Transport / List Item",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [
         {
@@ -4660,7 +4821,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "Possible matches: Data Entry/List. Rename it, or add it to components.aliases.",
@@ -4684,7 +4845,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -4693,7 +4861,7 @@
       "key": "13192:28371",
       "name": "Transport / Promotion Panel",
       "status": "Broken",
-      "score": 38,
+      "score": 50,
       "match": "exact",
       "figma": {
         "id": "13192:28371",
@@ -4927,7 +5095,7 @@
           "category": "Properties",
           "subject": "prop:Promotion Name",
           "label": "Property \"Promotion Name\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Promotion Name\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -4951,14 +5119,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Condition",
           "category": "Properties",
           "subject": "prop:Condition",
           "label": "Property \"Condition\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Condition\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -4982,14 +5157,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Expiry",
           "category": "Properties",
           "subject": "prop:Expiry",
           "label": "Property \"Expiry\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Expiry\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -5013,14 +5195,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Voucher Code Text",
           "category": "Properties",
           "subject": "prop:Voucher Code Text",
           "label": "Property \"Voucher Code Text\"",
-          "status": "warn",
+          "status": "ignored",
           "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
           "owner": "Dev",
           "detail": "text property",
@@ -5044,14 +5233,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+            "at": "2026-11-25T14:49:45.344Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|prop:Show Tag Icon",
           "category": "Properties",
           "subject": "prop:Show Tag Icon",
           "label": "Property \"Show Tag Icon\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -5075,14 +5271,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:49:51.372Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Show Promotion Condition",
           "category": "Properties",
           "subject": "prop:Show Promotion Condition",
           "label": "Property \"Show Promotion Condition\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
           "owner": "Dev",
           "detail": "boolean property",
@@ -5106,14 +5309,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+            "at": "2026-11-25T14:49:51.372Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|prop:Type",
           "category": "Properties",
           "subject": "prop:Type",
           "label": "Property \"Type\"",
-          "status": "fail",
+          "status": "ignored",
           "title": "Figma property \"Type\" has no equivalent in code",
           "owner": "Dev",
           "detail": "Values: Default, Applied, Expired, Empty",
@@ -5137,14 +5347,21 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+            "at": "2026-11-25T14:50:39.579Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         },
         {
           "key": "Properties|code-only",
           "category": "Properties",
           "subject": "code-only",
           "label": "Code-only props",
-          "status": "warn",
+          "status": "ignored",
           "title": "Code has props with no Figma property",
           "owner": "Design",
           "detail": "title, description, drawerProps, modalProps, visible, list, value",
@@ -5168,7 +5385,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+            "at": "2026-11-25T14:50:09.938Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "warn"
         },
         {
           "key": "Properties|coverage",
@@ -5576,8 +5800,8 @@
     {
       "key": "17603:24646",
       "name": "Transport / Search Supercomponent",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -5598,7 +5822,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -5622,7 +5846,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
@@ -5630,8 +5861,8 @@
     {
       "key": "17316:3291",
       "name": "Web Page Details",
-      "status": "Missing in code",
-      "score": 0,
+      "status": "Ignored",
+      "score": null,
       "match": null,
       "suggestions": [],
       "figma": {
@@ -5929,7 +6160,7 @@
           "category": "Naming",
           "subject": "name",
           "label": "Component",
-          "status": "fail",
+          "status": "ignored",
           "title": "Not found in Storybook",
           "owner": "Dev",
           "detail": "No similar component in Storybook",
@@ -5953,50 +6184,57 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+            "at": "2026-11-26T02:34:09.302Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "fail"
         }
       ],
       "gallery": []
     }
   ],
   "summary": {
-    "score": 6,
-    "headline": "0 of 16 Figma components match Storybook. 2 are broken and 14 aren't built yet.",
+    "score": 62,
+    "headline": "0 of 2 Figma components match Storybook. 2 are broken.",
     "components": {
       "total": 16,
-      "figma": 16,
+      "figma": 2,
       "paired": 2,
       "aligned": 0,
       "drifted": 0,
       "broken": 2,
-      "missingInCode": 14,
+      "missingInCode": 0,
       "missingInDesign": 0,
-      "ignored": 0
+      "ignored": 14
     },
     "checks": {
       "pass": 25,
-      "warn": 22,
-      "fail": 24
+      "warn": 5,
+      "fail": 7
     },
     "byCategory": {
       "Naming": {
         "pass": 2,
         "warn": 0,
-        "fail": 14
+        "fail": 0
       },
       "Properties": {
         "pass": 0,
-        "warn": 14,
-        "fail": 3
+        "warn": 1,
+        "fail": 0
       },
       "Tokens": {
         "pass": 8,
-        "warn": 3,
+        "warn": 1,
         "fail": 3
       },
       "Visual": {
         "pass": 0,
-        "warn": 2,
+        "warn": 1,
         "fail": 1
       },
       "Accessibility": {
@@ -6011,7 +6249,7 @@
       },
       "Rendering": {
         "pass": 1,
-        "warn": 1,
+        "warn": 0,
         "fail": 0
       },
       "Documentation": {
@@ -6022,127 +6260,19 @@
     },
     "byOwner": {
       "Design": {
-        "warn": 5,
+        "warn": 3,
         "fail": 2
       },
       "Dev": {
-        "warn": 12,
-        "fail": 17
+        "warn": 0,
+        "fail": 0
       },
       "Both": {
-        "warn": 5,
+        "warn": 2,
         "fail": 5
       }
     },
     "themes": [
-      {
-        "category": "Naming",
-        "title": "Not built in Storybook",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Dual Input",
-          "eSim / Data Balance",
-          "eSim / Data Plan Card",
-          "eSim / Status Card",
-          "eSim / Tile",
-          "Fitness / Class Card",
-          "Flight Delay / Benefit Card",
-          "Membership / Entitlement Card",
-          "Membership / Membership Card",
-          "Parking / Search Supercomponent",
-          "Product Details",
-          "Transport / List Item",
-          "Transport / Search Supercomponent",
-          "Web Page Details"
-        ],
-        "items": [
-          {
-            "component": "17603:24026",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Dual Input"
-          },
-          {
-            "component": "2885:12852",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "eSim / Data Balance"
-          },
-          {
-            "component": "18516:6137",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "eSim / Data Plan Card"
-          },
-          {
-            "component": "4446:136318",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "eSim / Status Card"
-          },
-          {
-            "component": "817:27434",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "eSim / Tile"
-          },
-          {
-            "component": "17503:16604",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Fitness / Class Card"
-          },
-          {
-            "component": "17636:37197",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Flight Delay / Benefit Card"
-          },
-          {
-            "component": "10422:5934",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Membership / Entitlement Card"
-          },
-          {
-            "component": "10419:5354",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Membership / Membership Card"
-          },
-          {
-            "component": "18195:8619",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Parking / Search Supercomponent"
-          },
-          {
-            "component": "16222:20620",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Product Details"
-          },
-          {
-            "component": "15617:26749",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Transport / List Item"
-          },
-          {
-            "component": "17603:24646",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Transport / Search Supercomponent"
-          },
-          {
-            "component": "17316:3291",
-            "key": "Naming|name",
-            "title": "Not found in Storybook",
-            "componentName": "Web Page Details"
-          }
-        ]
-      },
       {
         "category": "Accessibility",
         "title": "Text contrast is too low in Figma",
@@ -6253,35 +6383,6 @@
         ]
       },
       {
-        "category": "Properties",
-        "title": "Figma property missing in code",
-        "status": "fail",
-        "owner": "Dev",
-        "components": [
-          "Transport / Promotion Panel"
-        ],
-        "items": [
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Show Tag Icon",
-            "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Show Promotion Condition",
-            "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Type",
-            "title": "Figma property \"Type\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          }
-        ]
-      },
-      {
         "category": "Documentation",
         "title": "No description in Figma",
         "status": "warn",
@@ -6306,79 +6407,52 @@
         ]
       },
       {
-        "category": "Properties",
-        "title": "State values without a code equivalent",
+        "category": "Tokens",
+        "title": "Corner radius isn't linked to a variable in Figma",
         "status": "warn",
-        "owner": "Dev",
+        "owner": "Design",
         "components": [
-          "Flight Delay / Flight Card",
-          "Transport / Promotion Panel"
+          "Flight Delay / Flight Card"
         ],
         "items": [
           {
             "component": "17265:62617",
-            "key": "Properties|prop:Airline Name",
-            "title": "Figma property \"Airline Name\" has no equivalent in code",
+            "key": "Tokens|token:Corner radius",
+            "title": "Corner radius isn't linked to a variable in Figma",
             "componentName": "Flight Delay / Flight Card"
-          },
+          }
+        ]
+      },
+      {
+        "category": "Visual",
+        "title": "Visual differences",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Flight Delay / Flight Card"
+        ],
+        "items": [
           {
             "component": "17265:62617",
-            "key": "Properties|prop:Departure Date",
-            "title": "Figma property \"Departure Date\" has no equivalent in code",
+            "key": "Visual|pixels",
+            "title": "Visual differences",
             "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Departure Time",
-            "title": "Figma property \"Departure Time\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Departure Airport",
-            "title": "Figma property \"Departure Airport\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Arrival Date",
-            "title": "Figma property \"Arrival Date\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Arrival Time",
-            "title": "Figma property \"Arrival Time\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
-          {
-            "component": "17265:62617",
-            "key": "Properties|prop:Arrival Airport",
-            "title": "Figma property \"Arrival Airport\" has no equivalent in code",
-            "componentName": "Flight Delay / Flight Card"
-          },
+          }
+        ]
+      },
+      {
+        "category": "Properties",
+        "title": "4 of 4 variants can't be shown in code",
+        "status": "warn",
+        "owner": "Both",
+        "components": [
+          "Transport / Promotion Panel"
+        ],
+        "items": [
           {
             "component": "13192:28371",
-            "key": "Properties|prop:Promotion Name",
-            "title": "Figma property \"Promotion Name\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Condition",
-            "title": "Figma property \"Condition\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Expiry",
-            "title": "Figma property \"Expiry\" has no equivalent in code",
-            "componentName": "Transport / Promotion Panel"
-          },
-          {
-            "component": "13192:28371",
-            "key": "Properties|prop:Voucher Code Text",
-            "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+            "key": "Properties|coverage",
+            "title": "4 of 4 variants can't be shown in code",
             "componentName": "Transport / Promotion Panel"
           }
         ]
@@ -6386,10 +6460,101 @@
     ],
     "works": [
       "37 of 45 design tokens have the same value in code across every brand",
-      "No failures in: Rendering, Documentation",
+      "No failures in: Naming, Properties, Rendering, Documentation",
       "1 components render in Storybook without errors"
     ],
     "ignored": [
+      {
+        "component": "Dual Input",
+        "componentKey": "17603:24026",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "eSim / Data Balance",
+        "componentKey": "2885:12852",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "eSim / Data Plan Card",
+        "componentKey": "18516:6137",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "eSim / Status Card",
+        "componentKey": "4446:136318",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "eSim / Tile",
+        "componentKey": "817:27434",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Fitness / Class Card",
+        "componentKey": "17503:16604",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Benefit Card",
+        "componentKey": "17636:37197",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
       {
         "component": "Flight Delay / Flight Card",
         "componentKey": "17265:62617",
@@ -6404,6 +6569,227 @@
         "github": null
       },
       {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Airline Name",
+        "category": "Properties",
+        "title": "Figma property \"Airline Name\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Departure Date",
+        "category": "Properties",
+        "title": "Figma property \"Departure Date\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Departure Time",
+        "category": "Properties",
+        "title": "Figma property \"Departure Time\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Departure Airport",
+        "category": "Properties",
+        "title": "Figma property \"Departure Airport\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Arrival Date",
+        "category": "Properties",
+        "title": "Figma property \"Arrival Date\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Arrival Time",
+        "category": "Properties",
+        "title": "Figma property \"Arrival Time\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|prop:Arrival Airport",
+        "category": "Properties",
+        "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T14:50:09.938Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Rendering|console",
+        "category": "Rendering",
+        "title": "Console errors while rendering",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Tokens|token:Horizontal padding",
+        "category": "Tokens",
+        "title": "Horizontal padding uses the design token under a different name",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same token value, different CSS variable name. Not a defect.",
+        "at": "2026-11-25T14:50:25.423Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Tokens|token:Vertical padding",
+        "category": "Tokens",
+        "title": "Vertical padding uses the design token under a different name",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Same token value, different CSS variable name. Not a defect.",
+        "at": "2026-11-25T14:50:25.423Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Flight Delay / Flight Card",
+        "componentKey": "17265:62617",
+        "key": "Visual|width",
+        "category": "Visual",
+        "title": "Width differs from design",
+        "was": "warn",
+        "owner": "Both",
+        "reason": "Width follows label text / artboard width. Not a defect.",
+        "at": "2026-11-25T14:50:59.388Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Membership / Entitlement Card",
+        "componentKey": "10422:5934",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Membership / Membership Card",
+        "componentKey": "10419:5354",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Parking / Search Supercomponent",
+        "componentKey": "18195:8619",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Product Details",
+        "componentKey": "16222:20620",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / List Item",
+        "componentKey": "15617:26749",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
         "component": "Transport / Promotion Panel",
         "componentKey": "13192:28371",
         "key": "Naming|name",
@@ -6413,6 +6799,136 @@
         "owner": "Both",
         "reason": "Same component, different naming: Figma \"Transport / Promotion Panel\" vs Storybook \"Promotion Panel\". Not a defect.",
         "at": "2026-11-25T07:07:10.607Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Promotion Name",
+        "category": "Properties",
+        "title": "Figma property \"Promotion Name\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Condition",
+        "category": "Properties",
+        "title": "Figma property \"Condition\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Expiry",
+        "category": "Properties",
+        "title": "Figma property \"Expiry\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Voucher Code Text",
+        "category": "Properties",
+        "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+        "was": "warn",
+        "owner": "Dev",
+        "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+        "at": "2026-11-25T14:49:45.344Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Show Tag Icon",
+        "category": "Properties",
+        "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:49:51.372Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Show Promotion Condition",
+        "category": "Properties",
+        "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+        "at": "2026-11-25T14:49:51.372Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|prop:Type",
+        "category": "Properties",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+        "at": "2026-11-25T14:50:39.579Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Promotion Panel",
+        "componentKey": "13192:28371",
+        "key": "Properties|code-only",
+        "category": "Properties",
+        "title": "Code has props with no Figma property",
+        "was": "warn",
+        "owner": "Design",
+        "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+        "at": "2026-11-25T14:50:09.938Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Transport / Search Supercomponent",
+        "componentKey": "17603:24646",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Web Page Details",
+        "componentKey": "17316:3291",
+        "key": "Naming|name",
+        "category": "Naming",
+        "title": "Not found in Storybook",
+        "was": "fail",
+        "owner": "Dev",
+        "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+        "at": "2026-11-26T02:34:09.302Z",
         "by": "frontenddev.ai",
         "github": null
       }
@@ -6436,84 +6952,6 @@
     ],
     "issues": [
       {
-        "component": "Dual Input",
-        "componentKey": "17603:24026",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/LabelInput, Data Entry/PinInput. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "eSim / Data Balance",
-        "componentKey": "2885:12852",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "eSim / Data Plan Card",
-        "componentKey": "18516:6137",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "eSim / Status Card",
-        "componentKey": "4446:136318",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "eSim / Tile",
-        "componentKey": "817:27434",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Fitness / Class Card",
-        "componentKey": "17503:16604",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Flight Delay / Benefit Card",
         "componentKey": "17636:37197",
         "key": "Accessibility|design:contrast",
@@ -6527,19 +6965,6 @@
           "Dragonpass"
         ],
         "variants": 1
-      },
-      {
-        "component": "Flight Delay / Benefit Card",
-        "componentKey": "17636:37197",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
       },
       {
         "component": "Flight Delay / Flight Card",
@@ -6557,127 +6982,6 @@
       {
         "component": "Flight Delay / Flight Card",
         "componentKey": "17265:62617",
-        "key": "Properties|prop:Airline Name",
-        "category": "Properties",
-        "subject": "prop:Airline Name",
-        "status": "warn",
-        "title": "Figma property \"Airline Name\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|prop:Departure Date",
-        "category": "Properties",
-        "subject": "prop:Departure Date",
-        "status": "warn",
-        "title": "Figma property \"Departure Date\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|prop:Departure Time",
-        "category": "Properties",
-        "subject": "prop:Departure Time",
-        "status": "warn",
-        "title": "Figma property \"Departure Time\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|prop:Departure Airport",
-        "category": "Properties",
-        "subject": "prop:Departure Airport",
-        "status": "warn",
-        "title": "Figma property \"Departure Airport\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|prop:Arrival Date",
-        "category": "Properties",
-        "subject": "prop:Arrival Date",
-        "status": "warn",
-        "title": "Figma property \"Arrival Date\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|prop:Arrival Time",
-        "category": "Properties",
-        "subject": "prop:Arrival Time",
-        "status": "warn",
-        "title": "Figma property \"Arrival Time\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|prop:Arrival Airport",
-        "category": "Properties",
-        "subject": "prop:Arrival Airport",
-        "status": "warn",
-        "title": "Figma property \"Arrival Airport\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "airline, from, to, airlineLogo, description",
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Rendering|console",
-        "category": "Rendering",
-        "subject": "console",
-        "status": "warn",
-        "title": "Console errors while rendering",
-        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
-        "owner": "Dev",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 1
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
         "key": "Tokens|token:Corner radius",
         "category": "Tokens",
         "subject": "token:Corner radius",
@@ -6685,40 +6989,6 @@
         "title": "Corner radius isn't linked to a variable in Figma",
         "detail": "Figma layer \"Flight Delay / Flight Card\" uses a raw 8px · Code uses --aum-flight-card-border-radius",
         "owner": "Design",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 1
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Tokens|token:Horizontal padding",
-        "category": "Tokens",
-        "subject": "token:Horizontal padding",
-        "status": "warn",
-        "title": "Horizontal padding uses the design token under a different name",
-        "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
-        "owner": "Both",
-        "brands": [
-          "Dragonpass",
-          "Mastercard",
-          "Investec"
-        ],
-        "variants": 1
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
-        "key": "Tokens|token:Vertical padding",
-        "category": "Tokens",
-        "subject": "token:Vertical padding",
-        "status": "warn",
-        "title": "Vertical padding uses the design token under a different name",
-        "detail": "space-16 is --aum-spacing-16 in code (convention: --aum-space-16)",
-        "owner": "Both",
         "brands": [
           "Dragonpass",
           "Mastercard",
@@ -6804,21 +7074,6 @@
       {
         "component": "Flight Delay / Flight Card",
         "componentKey": "17265:62617",
-        "key": "Visual|width",
-        "category": "Visual",
-        "subject": "width",
-        "status": "warn",
-        "title": "Width differs from design",
-        "detail": "Design 327px · Code 376px (label text may differ)",
-        "owner": "Both",
-        "brands": [
-          "Dragonpass"
-        ],
-        "variants": 1
-      },
-      {
-        "component": "Flight Delay / Flight Card",
-        "componentKey": "17265:62617",
         "key": "Accessibility|aa:resize-text",
         "category": "Accessibility",
         "subject": "aa:resize-text",
@@ -6832,71 +7087,6 @@
         "variants": 1
       },
       {
-        "component": "Membership / Entitlement Card",
-        "componentKey": "10422:5934",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Membership / Membership Card",
-        "componentKey": "10419:5354",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Display/Card. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Parking / Search Supercomponent",
-        "componentKey": "18195:8619",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Product Details",
-        "componentKey": "16222:20620",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Business Components/ProductSelect. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / List Item",
-        "componentKey": "15617:26749",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "Possible matches: Data Entry/List. Rename it, or add it to components.aliases.",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
         "component": "Transport / Promotion Panel",
         "componentKey": "13192:28371",
         "key": "Documentation|docs-figma",
@@ -6905,110 +7095,6 @@
         "status": "warn",
         "title": "No description in Figma",
         "detail": null,
-        "owner": "Design",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Promotion Name",
-        "category": "Properties",
-        "subject": "prop:Promotion Name",
-        "status": "warn",
-        "title": "Figma property \"Promotion Name\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Condition",
-        "category": "Properties",
-        "subject": "prop:Condition",
-        "status": "warn",
-        "title": "Figma property \"Condition\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Expiry",
-        "category": "Properties",
-        "subject": "prop:Expiry",
-        "status": "warn",
-        "title": "Figma property \"Expiry\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Voucher Code Text",
-        "category": "Properties",
-        "subject": "prop:Voucher Code Text",
-        "status": "warn",
-        "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
-        "detail": "text property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Show Tag Icon",
-        "category": "Properties",
-        "subject": "prop:Show Tag Icon",
-        "status": "fail",
-        "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Show Promotion Condition",
-        "category": "Properties",
-        "subject": "prop:Show Promotion Condition",
-        "status": "fail",
-        "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
-        "detail": "boolean property",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|prop:Type",
-        "category": "Properties",
-        "subject": "prop:Type",
-        "status": "fail",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "detail": "Values: Default, Applied, Expired, Empty",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Transport / Promotion Panel",
-        "componentKey": "13192:28371",
-        "key": "Properties|code-only",
-        "category": "Properties",
-        "subject": "code-only",
-        "status": "warn",
-        "title": "Code has props with no Figma property",
-        "detail": "title, description, drawerProps, modalProps, visible, list, value",
         "owner": "Design",
         "brands": [],
         "variants": 0
@@ -7040,32 +7126,6 @@
           "Dragonpass"
         ],
         "variants": 3
-      },
-      {
-        "component": "Transport / Search Supercomponent",
-        "componentKey": "17603:24646",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
-      },
-      {
-        "component": "Web Page Details",
-        "componentKey": "17316:3291",
-        "key": "Naming|name",
-        "category": "Naming",
-        "subject": "name",
-        "status": "fail",
-        "title": "Not found in Storybook",
-        "detail": "No similar component in Storybook",
-        "owner": "Dev",
-        "brands": [],
-        "variants": 0
       }
     ]
   },
@@ -7709,34 +7769,406 @@
     ]
   },
   "delta": {
-    "since": "2026-11-24T12:54:01.771Z",
-    "previousScore": 7,
-    "newFails": [
+    "since": "2026-11-25T11:46:38.408Z",
+    "previousScore": 6,
+    "newFails": [],
+    "fixed": [
+      {
+        "status": "fail",
+        "component": "Dual Input",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "eSim / Data Balance",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
       {
         "status": "fail",
         "component": "eSim / Data Plan Card",
         "title": "Not found in Storybook",
-        "category": "Naming"
-      }
-    ],
-    "fixed": [
+        "category": "Naming",
+        "now": "ignored"
+      },
       {
         "status": "fail",
-        "component": "Flight Delay / Flight Card",
-        "title": "Figma \"Flight Delay / Flight Card\" is \"FlightCard\" in Storybook",
+        "component": "eSim / Status Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "eSim / Tile",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Fitness / Class Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Flight Delay / Benefit Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Membership / Entitlement Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Membership / Membership Card",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Parking / Search Supercomponent",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Product Details",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / List Item",
+        "title": "Not found in Storybook",
         "category": "Naming",
         "now": "ignored"
       },
       {
         "status": "fail",
         "component": "Transport / Promotion Panel",
-        "title": "Figma \"Transport / Promotion Panel\" is \"Promotion Panel\" in Storybook",
+        "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Promotion Panel",
+        "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Promotion Panel",
+        "title": "Figma property \"Type\" has no equivalent in code",
+        "category": "Properties",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Transport / Search Supercomponent",
+        "title": "Not found in Storybook",
+        "category": "Naming",
+        "now": "ignored"
+      },
+      {
+        "status": "fail",
+        "component": "Web Page Details",
+        "title": "Not found in Storybook",
         "category": "Naming",
         "now": "ignored"
       }
     ]
   },
   "activity": [
+    {
+      "at": "2026-11-26T02:34:09.302Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+      "items": [
+        {
+          "component": "17603:24026",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Dual Input"
+        },
+        {
+          "component": "2885:12852",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Data Balance"
+        },
+        {
+          "component": "18516:6137",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Data Plan Card"
+        },
+        {
+          "component": "4446:136318",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Status Card"
+        },
+        {
+          "component": "817:27434",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Tile"
+        },
+        {
+          "component": "17503:16604",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Fitness / Class Card"
+        },
+        {
+          "component": "17636:37197",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Flight Delay / Benefit Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Rendering|console",
+          "title": "Console errors while rendering",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "10422:5934",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Membership / Entitlement Card"
+        },
+        {
+          "component": "10419:5354",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Membership / Membership Card"
+        },
+        {
+          "component": "18195:8619",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Parking / Search Supercomponent"
+        },
+        {
+          "component": "16222:20620",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Product Details"
+        },
+        {
+          "component": "15617:26749",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Transport / List Item"
+        },
+        {
+          "component": "17603:24646",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Transport / Search Supercomponent"
+        },
+        {
+          "component": "17316:3291",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Page Details"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:50:59.388Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Width follows label text / artboard width. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Visual|width",
+          "title": "Width differs from design",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:50:39.579Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same capability, modelled as a code prop (mode/variant/state) instead of a Figma enum. Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Type",
+          "title": "Figma property \"Type\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:50:25.423Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Same token value, different CSS variable name. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Tokens|token:Horizontal padding",
+          "title": "Horizontal padding uses the design token under a different name",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Tokens|token:Vertical padding",
+          "title": "Vertical padding uses the design token under a different name",
+          "componentName": "Flight Delay / Flight Card"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:50:09.938Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Code-only props (aria/data); Figma doesn't model them. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|code-only",
+          "title": "Code has props with no Figma property",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:49:51.372Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Show/hide is driven by slots/children in code, not a boolean prop. Not a defect.",
+      "items": [
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Show Promotion Condition",
+          "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Show Tag Icon",
+          "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
+    },
+    {
+      "at": "2026-11-25T14:49:45.344Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Text comes from children/data in code, not a dedicated prop. Not a defect.",
+      "items": [
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Airline Name",
+          "title": "Figma property \"Airline Name\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Airport",
+          "title": "Figma property \"Arrival Airport\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Date",
+          "title": "Figma property \"Arrival Date\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Arrival Time",
+          "title": "Figma property \"Arrival Time\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Airport",
+          "title": "Figma property \"Departure Airport\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Date",
+          "title": "Figma property \"Departure Date\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Properties|prop:Departure Time",
+          "title": "Figma property \"Departure Time\" has no equivalent in code",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Condition",
+          "title": "Figma property \"Condition\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Expiry",
+          "title": "Figma property \"Expiry\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Promotion Name",
+          "title": "Figma property \"Promotion Name\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        },
+        {
+          "component": "13192:28371",
+          "key": "Properties|prop:Voucher Code Text",
+          "title": "Figma property \"Voucher Code Text\" has no equivalent in code",
+          "componentName": "Transport / Promotion Panel"
+        }
+      ]
+    },
     {
       "at": "2026-11-25T07:07:10.607Z",
       "action": "ignore",

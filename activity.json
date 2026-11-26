@@ -1,6 +1,107 @@
 {
-  "generatedAt": "2026-11-25T16:01:02.221Z",
+  "generatedAt": "2026-11-26T02:37:05.848Z",
   "log": [
+    {
+      "at": "2026-11-26T02:34:09.302Z",
+      "action": "ignore",
+      "check": "product-modules",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Business-specific product module, out of scope for the component library. Not a defect.",
+      "items": [
+        {
+          "component": "17603:24026",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Dual Input"
+        },
+        {
+          "component": "2885:12852",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Data Balance"
+        },
+        {
+          "component": "18516:6137",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Data Plan Card"
+        },
+        {
+          "component": "4446:136318",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Status Card"
+        },
+        {
+          "component": "817:27434",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "eSim / Tile"
+        },
+        {
+          "component": "17503:16604",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Fitness / Class Card"
+        },
+        {
+          "component": "17636:37197",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Flight Delay / Benefit Card"
+        },
+        {
+          "component": "17265:62617",
+          "key": "Rendering|console",
+          "title": "Console errors while rendering",
+          "componentName": "Flight Delay / Flight Card"
+        },
+        {
+          "component": "10422:5934",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Membership / Entitlement Card"
+        },
+        {
+          "component": "10419:5354",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Membership / Membership Card"
+        },
+        {
+          "component": "18195:8619",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Parking / Search Supercomponent"
+        },
+        {
+          "component": "16222:20620",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Product Details"
+        },
+        {
+          "component": "15617:26749",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Transport / List Item"
+        },
+        {
+          "component": "17603:24646",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Transport / Search Supercomponent"
+        },
+        {
+          "component": "17316:3291",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Web Page Details"
+        }
+      ],
+      "checkName": "Product modules"
+    },
     {
       "at": "2026-11-25T15:30:57.912Z",
       "action": "run-all",

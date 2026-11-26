@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T16:01:02.844Z",
+  "generatedAt": "2026-11-26T02:37:06.198Z",
   "entries": [
     {
       "id": "actions",
@@ -1837,7 +1837,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T11:46:38.408Z",
+      "ranAt": "2026-11-26T02:37:05.819Z",
       "ok": true,
       "history": [
         {
@@ -1907,6 +1907,10 @@
         {
           "at": "2026-11-25T11:46:38.408Z",
           "score": 6
+        },
+        {
+          "at": "2026-11-26T02:37:05.819Z",
+          "score": 62
         }
       ],
       "preview": {
@@ -1921,111 +1925,111 @@
       "components": [
         {
           "name": "Dual Input",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "eSim / Data Balance",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "eSim / Data Plan Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "eSim / Status Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "eSim / Tile",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Fitness / Class Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Flight Delay / Benefit Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Flight Delay / Flight Card",
           "status": "Broken",
-          "score": 65
+          "score": 73
         },
         {
           "name": "Membership / Entitlement Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Membership / Membership Card",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Parking / Search Supercomponent",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Product Details",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Transport / List Item",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Transport / Promotion Panel",
           "status": "Broken",
-          "score": 38
+          "score": 50
         },
         {
           "name": "Transport / Search Supercomponent",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         },
         {
           "name": "Web Page Details",
-          "status": "Missing in code",
-          "score": 0
+          "status": "Ignored",
+          "score": null
         }
       ],
-      "score": 6,
-      "headline": "0 of 16 Figma components match Storybook. 2 are broken and 14 aren't built yet.",
+      "score": 62,
+      "headline": "0 of 2 Figma components match Storybook. 2 are broken.",
       "counts": {
         "total": 16,
-        "figma": 16,
+        "figma": 2,
         "paired": 2,
         "aligned": 0,
         "drifted": 0,
         "broken": 2,
-        "missingInCode": 14,
+        "missingInCode": 0,
         "missingInDesign": 0,
-        "ignored": 0
+        "ignored": 14
       },
-      "previousScore": 7,
-      "newFails": 1,
-      "fixed": 2,
+      "previousScore": 6,
+      "newFails": 0,
+      "fixed": 17,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Not built in Storybook",
         "Text contrast is too low in Figma",
-        "Label · Text colour differs from design"
+        "Label · Text colour differs from design",
+        "Label · Font size differs from design"
       ],
-      "ignored": 2,
+      "ignored": 36,
       "place": {
         "group": "PRODUCT MODULES",
         "section": null,
@@ -2055,10 +2059,6 @@
             "owner": "Both"
           }
         ]
-      },
-      "stale": {
-        "at": "2026-11-25T16:01:02.218Z",
-        "error": "page.goto: Timeout 30000ms exceeded."
       }
     }
   ]
