@@ -2476,17 +2476,6 @@
       "at": "2026-11-26T02:34:09.302Z"
     },
     {
-      "check": "data-entry",
-      "component": "360:57017",
-      "key": "Rendering|console",
-      "title": "Console errors while rendering",
-      "componentName": "Checkbox",
-      "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
-      "by": "frontenddev.ai",
-      "github": null,
-      "at": "2026-11-26T11:04:23.707Z"
-    },
-    {
       "check": "actions",
       "component": "1454:7798",
       "key": "Rendering|console",
@@ -2507,6 +2496,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-26T11:10:29.787Z"
+    },
+    {
+      "check": "data-entry",
+      "component": "360:57017",
+      "key": "Rendering|console",
+      "title": "Console errors while rendering",
+      "componentName": "Checkbox",
+      "reason": "Environment issue, not a component defect.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-26T11:10:40.110Z"
     }
   ]
 }

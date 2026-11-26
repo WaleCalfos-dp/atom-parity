@@ -3043,6 +3043,22 @@
           "componentName": "Stepper"
         }
       ]
+    },
+    {
+      "at": "2026-11-26T11:10:40.110Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Environment issue, not a component defect.",
+      "items": [
+        {
+          "component": "360:57017",
+          "key": "Rendering|console",
+          "title": "Console errors while rendering",
+          "componentName": "Checkbox"
+        }
+      ]
     }
   ]
 }
