@@ -2967,6 +2967,28 @@
       "by": "frontenddev.ai",
       "github": null,
       "items": []
+    },
+    {
+      "at": "2026-11-26T11:04:13.206Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Rendering|console",
+          "title": "Console errors while rendering",
+          "componentName": "Button"
+        },
+        {
+          "component": "1702:72060",
+          "key": "Rendering|console",
+          "title": "Console errors while rendering",
+          "componentName": "Stepper"
+        }
+      ]
     }
   ]
 }
