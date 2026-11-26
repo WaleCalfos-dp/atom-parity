@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-26T11:13:26.399Z",
-    "durationMs": 128023,
+    "generatedAt": "2026-11-26T11:04:06.161Z",
+    "durationMs": 196054,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-26T10:09:07Z"
       },
-      "exportedAt": "2026-11-26T11:12:16.478Z",
+      "exportedAt": "2026-11-26T11:02:53.061Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1425,7 +1425,7 @@
       "key": "360:57017",
       "name": "Checkbox",
       "status": "Broken",
-      "score": 87,
+      "score": 85,
       "match": "exact",
       "figma": {
         "id": "360:57017",
@@ -2105,7 +2105,7 @@
           "category": "Rendering",
           "subject": "console",
           "label": "Console",
-          "status": "ignored",
+          "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
           "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -2125,7 +2125,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "State=Focus, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2372,14 +2372,7 @@
             "State=Hover, Checked=False",
             "State=Hover, Checked=True",
             "State=Default, Checked=False"
-          ],
-          "ignored": {
-            "reason": "Environment issue, not a component defect.",
-            "at": "2026-11-26T11:10:40.110Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "warn"
+          ]
         },
         {
           "key": "Visual|pixels",
@@ -15398,7 +15391,7 @@
     },
     "checks": {
       "pass": 44,
-      "warn": 17,
+      "warn": 18,
       "fail": 21
     },
     "byCategory": {
@@ -15434,7 +15427,7 @@
       },
       "Rendering": {
         "pass": 1,
-        "warn": 0,
+        "warn": 1,
         "fail": 0
       },
       "Documentation": {
@@ -15449,7 +15442,7 @@
         "fail": 3
       },
       "Dev": {
-        "warn": 2,
+        "warn": 3,
         "fail": 16
       },
       "Both": {
@@ -15787,19 +15780,6 @@
     ],
     "ignored": [
       {
-        "component": "Checkbox",
-        "componentKey": "360:57017",
-        "key": "Rendering|console",
-        "category": "Rendering",
-        "title": "Console errors while rendering",
-        "was": "warn",
-        "owner": "Dev",
-        "reason": "Environment issue, not a component defect.",
-        "at": "2026-11-26T11:10:40.110Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
         "component": "Date Picker",
         "componentKey": "1617:15924",
         "key": "Naming|name",
@@ -16051,6 +16031,23 @@
         "owner": "Design",
         "brands": [],
         "variants": 0
+      },
+      {
+        "component": "Checkbox",
+        "componentKey": "360:57017",
+        "key": "Rendering|console",
+        "category": "Rendering",
+        "subject": "console",
+        "status": "warn",
+        "title": "Console errors while rendering",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "owner": "Dev",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec"
+        ],
+        "variants": 8
       },
       {
         "component": "Checkbox",
@@ -17128,60 +17125,12 @@
     ]
   },
   "delta": {
-    "since": "2026-11-26T11:08:05.396Z",
+    "since": "2026-11-25T15:41:07.305Z",
     "previousScore": 43,
     "newFails": [],
     "fixed": []
   },
   "activity": [
-    {
-      "at": "2026-11-26T11:10:54.613Z",
-      "action": "run",
-      "check": "data-entry",
-      "by": "frontenddev.ai",
-      "github": null,
-      "items": []
-    },
-    {
-      "at": "2026-11-26T11:10:40.110Z",
-      "action": "ignore",
-      "check": "data-entry",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Environment issue, not a component defect.",
-      "items": [
-        {
-          "component": "360:57017",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Checkbox"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-26T11:05:49.128Z",
-      "action": "run",
-      "check": "data-entry",
-      "by": "frontenddev.ai",
-      "github": null,
-      "items": []
-    },
-    {
-      "at": "2026-11-26T11:04:23.707Z",
-      "action": "ignore",
-      "check": "data-entry",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
-      "items": [
-        {
-          "component": "360:57017",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Checkbox"
-        }
-      ]
-    },
     {
       "at": "2026-11-25T14:47:49.213Z",
       "action": "ignore",

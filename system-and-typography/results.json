@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:14:37.066Z",
-    "durationMs": 72713,
+    "generatedAt": "2026-11-26T11:11:26.920Z",
+    "durationMs": 107032,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T12:53:06Z"
+        "lastModified": "2026-11-26T10:09:07Z"
       },
-      "exportedAt": "2026-11-25T15:13:42.968Z",
+      "exportedAt": "2026-11-26T11:10:16.683Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -6412,46 +6412,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T14:53:02.679Z",
-    "previousScore": 19,
+    "since": "2026-11-25T15:14:37.066Z",
+    "previousScore": 47,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Home Indicator",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "iPhone Keyboard",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Sheet Topper",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Status Bar",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Text Link",
-        "title": "Size values missing in code",
-        "category": "Properties",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

@@ -5,38 +5,38 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Body: Figma property ""weight"" has no equivalent in code","Values: Regular, Semi-Bold, Bold
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Body: Figma property ""Shade"" has no equivalent in code","Values: Light, Dark
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
+Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-properties fix-in-code","Atom Design System"
 "[Atom parity] Body: 24 of 24 variants can't be shown in code","weight=Regular, Shade=Dark, weight=Semi-Bold, weight=Bold, Size=Caption, Size=Micro, Shade=Light
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Text Link: 12 of 12 variants can't be shown in code","weight=Regular, weight=Semi-Bold, weight=Bold, Size=Regular
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-link--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2709
 
-Found by atom-parity on 2026-11-25","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Title: Not found in Storybook","Possible matches: Business Components/EntitlementPayment. Rename it, or add it to components.aliases.
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=706-50315
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-706%3A50315
 
-Found by atom-parity on 2026-11-25","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
+Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"

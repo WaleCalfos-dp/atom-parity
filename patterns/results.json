@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-25T15:11:37.768Z",
-    "durationMs": 172388,
+    "generatedAt": "2026-11-26T11:14:43.981Z",
+    "durationMs": 197037,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T12:53:06Z"
+        "lastModified": "2026-11-26T10:09:07Z"
       },
-      "exportedAt": "2026-11-25T15:10:26.160Z",
+      "exportedAt": "2026-11-26T11:13:39.129Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -8234,193 +8234,10 @@
     "issues": []
   },
   "delta": {
-    "since": "2026-11-25T11:43:11.811Z",
+    "since": "2026-11-25T15:11:37.768Z",
     "previousScore": 0,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Booking Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Booking Details",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Booking Step Container",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Booking Steps",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Booking Widget",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Bottom Sheet",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Checkout",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Filters",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Global Search",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "LP / Description Section",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "LP / FAQ Section",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "LP / Hero",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "LP / How It Works Section",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "LP / How to register your flight?",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "LP / What's Included Section",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Order Details Container",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Order Status Container",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Order Status Header",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Payment Accordion",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Payment Breakdown",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Payment Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Payment Method",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Payment Providers",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Scroll Bar",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Search and Filters",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Web Search",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

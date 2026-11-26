@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-26T02:37:20.958Z",
-    "durationMs": 113342,
+    "generatedAt": "2026-11-26T11:17:29.509Z",
+    "durationMs": 165499,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-25T19:08:26Z"
+        "lastModified": "2026-11-26T10:09:07Z"
       },
-      "exportedAt": "2026-11-26T02:36:26.135Z",
+      "exportedAt": "2026-11-26T11:16:11.992Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -7769,130 +7769,10 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T11:46:38.408Z",
-    "previousScore": 6,
+    "since": "2026-11-26T02:37:20.958Z",
+    "previousScore": 62,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Dual Input",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "eSim / Data Balance",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "eSim / Data Plan Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "eSim / Status Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "eSim / Tile",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Fitness / Class Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Flight Delay / Benefit Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Membership / Entitlement Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Membership / Membership Card",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Parking / Search Supercomponent",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Product Details",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Transport / List Item",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Transport / Promotion Panel",
-        "title": "Figma property \"Show Tag Icon\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Transport / Promotion Panel",
-        "title": "Figma property \"Show Promotion Condition\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Transport / Promotion Panel",
-        "title": "Figma property \"Type\" has no equivalent in code",
-        "category": "Properties",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Transport / Search Supercomponent",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      },
-      {
-        "status": "fail",
-        "component": "Web Page Details",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
     {

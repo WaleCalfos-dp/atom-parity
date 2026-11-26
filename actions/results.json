@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-26T11:12:43.685Z",
-    "durationMs": 99020,
+    "generatedAt": "2026-11-26T10:54:17.828Z",
+    "durationMs": 144879,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-26T10:09:07Z"
       },
-      "exportedAt": "2026-11-26T11:11:41.851Z",
+      "exportedAt": "2026-11-26T10:53:11.374Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2772,7 +2772,7 @@
           "category": "Rendering",
           "subject": "console",
           "label": "Console",
-          "status": "ignored",
+          "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
           "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -2852,7 +2852,7 @@
               "status": "warn",
               "brand": "Mastercard",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3318,14 +3318,7 @@
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Primary, Size=Small, State=Loading",
             "Type=Inverse, Size=Large, State=Hover"
-          ],
-          "ignored": {
-            "reason": "Environment issue, not a component defect.",
-            "at": "2026-11-26T11:10:29.787Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "warn"
+          ]
         },
         {
           "key": "Tokens|value:Background colour",
@@ -24829,7 +24822,7 @@
       "key": "1702:72060",
       "name": "Stepper",
       "status": "Broken",
-      "score": 72,
+      "score": 71,
       "match": "exact",
       "figma": {
         "id": "1702:72060",
@@ -25336,7 +25329,7 @@
           "category": "Rendering",
           "subject": "console",
           "label": "Console",
-          "status": "ignored",
+          "status": "warn",
           "title": "Console errors while rendering",
           "owner": "Dev",
           "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
@@ -25417,14 +25410,7 @@
           "variants": [
             "Style=Input",
             "Style=Card"
-          ],
-          "ignored": {
-            "reason": "Environment issue, not a component defect.",
-            "at": "2026-11-26T11:10:29.787Z",
-            "by": "frontenddev.ai",
-            "github": null
-          },
-          "was": "warn"
+          ]
         },
         {
           "key": "Visual|pixels",
@@ -27835,7 +27821,7 @@
     },
     "checks": {
       "pass": 46,
-      "warn": 21,
+      "warn": 23,
       "fail": 13
     },
     "byCategory": {
@@ -27871,7 +27857,7 @@
       },
       "Rendering": {
         "pass": 2,
-        "warn": 0,
+        "warn": 2,
         "fail": 0
       },
       "Documentation": {
@@ -27886,7 +27872,7 @@
         "fail": 0
       },
       "Dev": {
-        "warn": 1,
+        "warn": 3,
         "fail": 3
       },
       "Both": {
@@ -28169,19 +28155,6 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
-        "key": "Rendering|console",
-        "category": "Rendering",
-        "title": "Console errors while rendering",
-        "was": "warn",
-        "owner": "Dev",
-        "reason": "Environment issue, not a component defect.",
-        "at": "2026-11-26T11:10:29.787Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Button",
-        "componentKey": "1454:7798",
         "key": "Tokens|token:Corner radius",
         "category": "Tokens",
         "title": "Corner radius isn't linked to a variable in Figma",
@@ -28338,19 +28311,6 @@
       {
         "component": "Stepper",
         "componentKey": "1702:72060",
-        "key": "Rendering|console",
-        "category": "Rendering",
-        "title": "Console errors while rendering",
-        "was": "warn",
-        "owner": "Dev",
-        "reason": "Environment issue, not a component defect.",
-        "at": "2026-11-26T11:10:29.787Z",
-        "by": "frontenddev.ai",
-        "github": null
-      },
-      {
-        "component": "Stepper",
-        "componentKey": "1702:72060",
         "key": "Visual|width",
         "category": "Visual",
         "title": "Width differs from design",
@@ -28470,6 +28430,23 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Rendering|console",
+        "category": "Rendering",
+        "subject": "console",
+        "status": "warn",
+        "title": "Console errors while rendering",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "owner": "Dev",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec"
+        ],
+        "variants": 17
       },
       {
         "component": "Button",
@@ -28790,6 +28767,23 @@
         "owner": "Both",
         "brands": [],
         "variants": 0
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Rendering|console",
+        "category": "Rendering",
+        "subject": "console",
+        "status": "warn",
+        "title": "Console errors while rendering",
+        "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+        "owner": "Dev",
+        "brands": [
+          "Dragonpass",
+          "Mastercard",
+          "Investec"
+        ],
+        "variants": 2
       },
       {
         "component": "Stepper",
@@ -29473,72 +29467,12 @@
     ]
   },
   "delta": {
-    "since": "2026-11-26T11:07:53.740Z",
+    "since": "2026-11-25T15:33:25.312Z",
     "previousScore": 44,
     "newFails": [],
     "fixed": []
   },
   "activity": [
-    {
-      "at": "2026-11-26T11:10:47.162Z",
-      "action": "run",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "items": []
-    },
-    {
-      "at": "2026-11-26T11:10:29.787Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Environment issue, not a component defect.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Button"
-        },
-        {
-          "component": "1702:72060",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Stepper"
-        }
-      ]
-    },
-    {
-      "at": "2026-11-26T11:05:36.958Z",
-      "action": "run",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "items": []
-    },
-    {
-      "at": "2026-11-26T11:04:13.206Z",
-      "action": "ignore",
-      "check": "actions",
-      "by": "frontenddev.ai",
-      "github": null,
-      "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
-      "items": [
-        {
-          "component": "1454:7798",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Button"
-        },
-        {
-          "component": "1702:72060",
-          "key": "Rendering|console",
-          "title": "Console errors while rendering",
-          "componentName": "Stepper"
-        }
-      ]
-    },
     {
       "at": "2026-11-25T15:23:14.015Z",
       "action": "ignore",
