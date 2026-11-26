@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T14:13:36.604Z",
+  "generatedAt": "2026-11-26T14:14:43.875Z",
   "entries": [
     {
       "id": "actions",
@@ -671,7 +671,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:04:06.161Z",
+      "ranAt": "2026-11-26T14:14:37.188Z",
       "ok": true,
       "history": [
         {
@@ -761,6 +761,10 @@
         {
           "at": "2026-11-26T11:04:06.161Z",
           "score": 43
+        },
+        {
+          "at": "2026-11-26T14:14:37.188Z",
+          "score": 43
         }
       ],
       "preview": {
@@ -781,7 +785,7 @@
         {
           "name": "Checkbox",
           "status": "Broken",
-          "score": 85
+          "score": 87
         },
         {
           "name": "Date Picker",
@@ -844,7 +848,7 @@
         "Figma property missing in code",
         "Text contrast is too low in Figma"
       ],
-      "ignored": 16,
+      "ignored": 17,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "DATA ENTRY",
