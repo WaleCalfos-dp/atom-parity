@@ -13,16 +13,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Button: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Type=Primary, Size=Large, State=Default; Type=Inverse, Size=Large, State=Default; Type=Secondary, Size=Large, State=Default; Type=Tertiary, Size=Regular, State=Default; Type=Destructive, Size=Large, State=Default; Type=Destructive Tertiary, Size=Regular, State=Default; Type=Primary, Size=Small, State=Default; Type=Primary, Size=Large, State=Hover (+9 more)
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1454-7798
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-button--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
-
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-rendering fix-in-code","Atom Design System"
 "[Atom parity] Button: Background colour differs from design","Design #0D3C55 (background/interactive/action-pressed) · Code #0E5475
 
 Brands: Dragonpass, Mastercard, Investec
@@ -209,16 +199,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
 
 Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
-"[Atom parity] Stepper: Console errors while rendering","Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-
-Brands: Dragonpass, Mastercard, Investec
-Variants: Style=Input; Style=Card
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1702-72060
-Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-stepper--usage
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1702%3A72060
-
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-rendering fix-in-code","Atom Design System"
 "[Atom parity] Stepper: Visual differences","6.4% of pixels differ
 
 Brands: Dragonpass
