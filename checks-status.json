@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T11:12:51.035Z",
+  "generatedAt": "2026-11-26T11:13:05.800Z",
   "entries": [
     {
       "id": "actions",
@@ -663,7 +663,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:08:05.396Z",
+      "ranAt": "2026-11-26T11:12:58.715Z",
       "ok": true,
       "history": [
         {
@@ -752,6 +752,10 @@
         },
         {
           "at": "2026-11-26T11:08:05.396Z",
+          "score": 43
+        },
+        {
+          "at": "2026-11-26T11:12:58.715Z",
           "score": 43
         }
       ],

@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-26T11:08:05.396Z",
-    "durationMs": 113628,
+    "generatedAt": "2026-11-26T11:12:58.715Z",
+    "durationMs": 119802,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-26T10:09:07Z"
       },
-      "exportedAt": "2026-11-26T11:07:06.911Z",
+      "exportedAt": "2026-11-26T11:11:57.880Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2345,7 +2345,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "State=Default, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2374,8 +2374,8 @@
             "State=Default, Checked=False"
           ],
           "ignored": {
-            "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
-            "at": "2026-11-26T11:04:23.707Z",
+            "reason": "Environment issue, not a component defect.",
+            "at": "2026-11-26T11:10:40.110Z",
             "by": "frontenddev.ai",
             "github": null
           },
@@ -15794,8 +15794,8 @@
         "title": "Console errors while rendering",
         "was": "warn",
         "owner": "Dev",
-        "reason": "Environment issue, not a component defect: the page fetches Investec's Cabin font CSS from static.dragonpass.com, which returns no Access-Control-Allow-Origin header, so the browser blocks it. Same error on every story.",
-        "at": "2026-11-26T11:04:23.707Z",
+        "reason": "Environment issue, not a component defect.",
+        "at": "2026-11-26T11:10:40.110Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -17128,12 +17128,28 @@
     ]
   },
   "delta": {
-    "since": "2026-11-25T15:41:07.305Z",
+    "since": "2026-11-26T11:08:05.396Z",
     "previousScore": 43,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-26T11:10:40.110Z",
+      "action": "ignore",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Environment issue, not a component defect.",
+      "items": [
+        {
+          "component": "360:57017",
+          "key": "Rendering|console",
+          "title": "Console errors while rendering",
+          "componentName": "Checkbox"
+        }
+      ]
+    },
     {
       "at": "2026-11-26T11:05:49.128Z",
       "action": "run",
