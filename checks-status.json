@@ -1,18 +1,14 @@
 {
-  "generatedAt": "2026-11-26T11:06:55.990Z",
+  "generatedAt": "2026-11-26T11:08:00.681Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-25T15:33:25.312Z",
+      "ranAt": "2026-11-26T11:07:53.740Z",
       "ok": true,
       "history": [
-        {
-          "at": "2026-11-18T10:40:36.065Z",
-          "score": 18
-        },
         {
           "at": "2026-11-18T14:12:54.704Z",
           "score": 18
@@ -128,6 +124,10 @@
         {
           "at": "2026-11-25T15:33:25.312Z",
           "score": 44
+        },
+        {
+          "at": "2026-11-26T11:07:53.740Z",
+          "score": 44
         }
       ],
       "preview": {
@@ -178,7 +178,7 @@
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 71
+          "score": 72
         },
         {
           "name": "Tag",
@@ -211,7 +211,7 @@
         "Vertical padding differs from design",
         "Height differs from design"
       ],
-      "ignored": 22,
+      "ignored": 24,
       "place": {
         "group": "CORE COMPONENTS",
         "section": "ACTIONS",
