@@ -1,18 +1,14 @@
 {
-  "generatedAt": "2026-11-26T14:14:43.875Z",
+  "generatedAt": "2026-11-27T05:41:51.613Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T14:13:36.149Z",
+      "ranAt": "2026-11-27T05:41:51.059Z",
       "ok": true,
       "history": [
-        {
-          "at": "2026-11-18T15:28:28.021Z",
-          "score": 18
-        },
         {
           "at": "2026-11-18T16:55:36.687Z",
           "score": 18
@@ -128,22 +124,26 @@
         {
           "at": "2026-11-26T14:13:36.149Z",
           "score": 44
+        },
+        {
+          "at": "2026-11-27T05:41:51.059Z",
+          "score": 46
         }
       ],
       "preview": {
         "component": "Button",
         "status": "Broken",
-        "variant": "Type=Primary, Size=Regular, State=Active",
+        "variant": "Type=Primary, Size=Large, State=Active",
         "brand": "Investec",
-        "mismatch": 0.8722444282945736,
-        "figma": "actions/assets/figma/1454779814548078investec.png",
-        "code": "actions/assets/code/1454779814548078investec.png"
+        "mismatch": 0.8734871031746032,
+        "figma": "actions/assets/figma/1454779814547826investec.png",
+        "code": "actions/assets/code/1454779814547826investec.png"
       },
       "components": [
         {
           "name": "Button",
           "status": "Broken",
-          "score": 70
+          "score": 79
         },
         {
           "name": "Button Group",
@@ -178,7 +178,7 @@
         {
           "name": "Stepper",
           "status": "Broken",
-          "score": 72
+          "score": 74
         },
         {
           "name": "Tag",
@@ -186,7 +186,7 @@
           "score": 78
         }
       ],
-      "score": 44,
+      "score": 46,
       "headline": "0 of 5 Figma components match Storybook. 1 has drifted, 2 are broken and 2 aren't built yet.",
       "counts": {
         "total": 9,
@@ -201,15 +201,15 @@
       },
       "previousScore": 44,
       "newFails": 0,
-      "fixed": 0,
+      "fixed": 3,
       "tokenSource": {
         "exportedAt": "2026-11-16T12:49:41.258Z",
         "stale": true
       },
       "themes": [
-        "Horizontal padding differs from design",
-        "Vertical padding differs from design",
-        "Height differs from design"
+        "Height differs from design",
+        "Not built in Storybook",
+        "Background colour differs from design"
       ],
       "ignored": 24,
       "place": {
