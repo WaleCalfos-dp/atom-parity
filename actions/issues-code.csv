@@ -136,12 +136,6 @@ Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story
 Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-1454%3A7798
 
 Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-accessibility fix-in-code","Atom Design System"
-"[Atom parity] Button Group: Not found in Storybook","Possible matches: Actions/Button, Data Entry/Checkbox Button Group, Data Entry/Radio Button Group. Rename it, or add it to components.aliases.
-
-Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=3098-42588
-Report: https://walecalfos-dp.github.io/atom-parity/actions/#c-3098%3A42588
-
-Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-naming fix-in-code","Atom Design System"
 "[Atom parity] CTA with Content: Not found in Storybook","No similar component in Storybook
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=14194-14015

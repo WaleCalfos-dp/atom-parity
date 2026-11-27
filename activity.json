@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-11-27T06:05:32.738Z",
+  "generatedAt": "2026-11-27T06:05:52.821Z",
   "log": [
+    {
+      "at": "2026-11-27T06:03:43.216Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "Not needed - Button is enough.",
+      "items": [
+        {
+          "component": "3098:42588",
+          "key": "Naming|name",
+          "title": "Not found in Storybook",
+          "componentName": "Button Group"
+        }
+      ],
+      "checkName": "Actions"
+    },
     {
       "at": "2026-11-27T06:03:34.904Z",
       "action": "ignore",
