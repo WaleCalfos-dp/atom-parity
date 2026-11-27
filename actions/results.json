@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-27T05:41:51.059Z",
-    "durationMs": 164415,
+    "generatedAt": "2026-11-27T06:05:32.702Z",
+    "durationMs": 104271,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-26T17:07:38Z"
       },
-      "exportedAt": "2026-11-27T05:40:24.181Z",
+      "exportedAt": "2026-11-27T06:04:28.386Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -1371,7 +1371,7 @@
       "key": "1454:7798",
       "name": "Button",
       "status": "Broken",
-      "score": 79,
+      "score": 76,
       "match": "exact",
       "figma": {
         "id": "1454:7798",
@@ -1631,7 +1631,7 @@
           "category": "Naming",
           "subject": "group",
           "label": "Category",
-          "status": "pass",
+          "status": "ignored",
           "title": "Grouped under the same category",
           "owner": "Both",
           "detail": "Figma \"ACTIONS\" · Storybook \"Actions\"",
@@ -1655,7 +1655,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-27T06:03:34.904Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "pass"
         },
         {
           "key": "Documentation|docs-code",
@@ -2802,7 +2809,7 @@
               "status": "warn",
               "brand": "Investec",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -6061,7 +6068,7 @@
           "category": "Tokens",
           "subject": "value:Horizontal padding",
           "label": "Horizontal padding",
-          "status": "pass",
+          "status": "ignored",
           "title": "Horizontal padding matches design",
           "owner": "Both",
           "detail": "Design 24px (space-24) · Code 24px",
@@ -6735,7 +6742,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-27T06:03:34.904Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "pass"
         },
         {
           "key": "Tokens|token:Horizontal padding",
@@ -7450,7 +7464,7 @@
           "category": "Tokens",
           "subject": "value:Vertical padding",
           "label": "Vertical padding",
-          "status": "pass",
+          "status": "ignored",
           "title": "Vertical padding matches design",
           "owner": "Both",
           "detail": "Design 16px (space-16) · Code 16px",
@@ -8124,7 +8138,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-27T06:03:34.904Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "pass"
         },
         {
           "key": "Tokens|token:Vertical padding",
@@ -11467,7 +11488,7 @@
           "category": "Tokens",
           "subject": "value:Label · Font weight",
           "label": "Label · Font weight",
-          "status": "pass",
+          "status": "ignored",
           "title": "Label · Font weight matches design",
           "owner": "Both",
           "detail": "Design 400 (typography/body/small/regular/weight) · Code 400",
@@ -12111,7 +12132,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-27T06:03:34.904Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "pass"
         },
         {
           "key": "Tokens|token:Label · Font weight",
@@ -24748,7 +24776,7 @@
       "key": "1702:72060",
       "name": "Stepper",
       "status": "Broken",
-      "score": 74,
+      "score": 73,
       "match": "exact",
       "figma": {
         "id": "1702:72060",
@@ -24905,7 +24933,7 @@
           "category": "Naming",
           "subject": "group",
           "label": "Category",
-          "status": "pass",
+          "status": "ignored",
           "title": "Grouped under the same category",
           "owner": "Both",
           "detail": "Figma \"ACTIONS\" · Storybook \"Actions\"",
@@ -24929,7 +24957,14 @@
             "info": 0
           },
           "brands": [],
-          "variants": []
+          "variants": [],
+          "ignored": {
+            "reason": "fixed",
+            "at": "2026-11-27T06:03:34.904Z",
+            "by": "frontenddev.ai",
+            "github": null
+          },
+          "was": "pass"
         },
         {
           "key": "Documentation|docs-code",
@@ -27739,7 +27774,7 @@
     }
   ],
   "summary": {
-    "score": 46,
+    "score": 45,
     "headline": "0 of 5 Figma components match Storybook. 1 has drifted, 2 are broken and 2 aren't built yet.",
     "components": {
       "total": 9,
@@ -27753,13 +27788,13 @@
       "ignored": 4
     },
     "checks": {
-      "pass": 51,
+      "pass": 46,
       "warn": 19,
       "fail": 10
     },
     "byCategory": {
       "Naming": {
-        "pass": 11,
+        "pass": 9,
         "warn": 1,
         "fail": 2
       },
@@ -27769,7 +27804,7 @@
         "fail": 0
       },
       "Tokens": {
-        "pass": 9,
+        "pass": 6,
         "warn": 11,
         "fail": 5
       },
@@ -28015,6 +28050,19 @@
       {
         "component": "Button",
         "componentKey": "1454:7798",
+        "key": "Naming|group",
+        "category": "Naming",
+        "title": "Grouped under the same category",
+        "was": "pass",
+        "owner": "Both",
+        "reason": "fixed",
+        "at": "2026-11-27T06:03:34.904Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
         "key": "Naming|prop:Show Icon Left",
         "category": "Naming",
         "title": "Figma \"Show Icon Left\" is \"leftIcon\" in code",
@@ -28088,6 +28136,45 @@
         "reason": "not true",
         "at": "2026-11-23T16:32:59.701Z",
         "by": "Yana Kolpakova",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Tokens|value:Horizontal padding",
+        "category": "Tokens",
+        "title": "Horizontal padding matches design",
+        "was": "pass",
+        "owner": "Both",
+        "reason": "fixed",
+        "at": "2026-11-27T06:03:34.904Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Tokens|value:Vertical padding",
+        "category": "Tokens",
+        "title": "Vertical padding matches design",
+        "was": "pass",
+        "owner": "Both",
+        "reason": "fixed",
+        "at": "2026-11-27T06:03:34.904Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Button",
+        "componentKey": "1454:7798",
+        "key": "Tokens|value:Label · Font weight",
+        "category": "Tokens",
+        "title": "Label · Font weight matches design",
+        "was": "pass",
+        "owner": "Both",
+        "reason": "fixed",
+        "at": "2026-11-27T06:03:34.904Z",
+        "by": "frontenddev.ai",
         "github": null
       },
       {
@@ -28191,6 +28278,19 @@
         "owner": "Dev",
         "reason": "Same component under a different name: code \"Button\". Not a defect.",
         "at": "2026-11-25T14:44:44.594Z",
+        "by": "frontenddev.ai",
+        "github": null
+      },
+      {
+        "component": "Stepper",
+        "componentKey": "1702:72060",
+        "key": "Naming|group",
+        "category": "Naming",
+        "title": "Grouped under the same category",
+        "was": "pass",
+        "owner": "Both",
+        "reason": "fixed",
+        "at": "2026-11-27T06:03:34.904Z",
         "by": "frontenddev.ai",
         "github": null
       },
@@ -29298,34 +29398,52 @@
     ]
   },
   "delta": {
-    "since": "2026-11-26T14:13:36.149Z",
-    "previousScore": 44,
+    "since": "2026-11-27T05:41:51.059Z",
+    "previousScore": 46,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Button",
-        "title": "Horizontal padding differs from design",
-        "category": "Tokens",
-        "now": "pass"
-      },
-      {
-        "status": "fail",
-        "component": "Button",
-        "title": "Vertical padding differs from design",
-        "category": "Tokens",
-        "now": "pass"
-      },
-      {
-        "status": "fail",
-        "component": "Button",
-        "title": "Label · Font weight differs from design",
-        "category": "Tokens",
-        "now": "pass"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-27T06:03:34.904Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "fixed",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        },
+        {
+          "component": "1454:7798",
+          "key": "Tokens|value:Horizontal padding",
+          "title": "Horizontal padding differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1454:7798",
+          "key": "Tokens|value:Vertical padding",
+          "title": "Vertical padding differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1454:7798",
+          "key": "Tokens|value:Label · Font weight",
+          "title": "Label · Font weight differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1702:72060",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Stepper"
+        }
+      ]
+    },
     {
       "at": "2026-11-27T05:38:37.652Z",
       "action": "run",
