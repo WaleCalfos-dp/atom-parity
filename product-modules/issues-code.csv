@@ -8,7 +8,7 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
-Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Label · Font size differs from design","Design 12px (linked variable) · Code 14px
 
 Brands: Dragonpass
@@ -18,7 +18,7 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
-Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Label · Line height differs from design","Design 14px (linked variable) · Code 20px
 
 Brands: Dragonpass
@@ -28,7 +28,7 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
-Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-tokens fix-in-both","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Visual differences","6.3% of pixels differ
 
 Brands: Dragonpass
@@ -38,7 +38,7 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-visual fix-in-both","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Height differs from design","Design 136px · Code 146px
 
 Brands: Dragonpass
@@ -48,7 +48,7 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
-Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-visual fix-in-both","Atom Design System"
 "[Atom parity] Flight Delay / Flight Card: Text gets cut off at 200% size","At 200% text: 1 text element is cut off: ""Emirates Airlines""
 
 Brands: Dragonpass
@@ -58,11 +58,11 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=17265-62617
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-flightcard--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-17265%3A62617
 
-Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-accessibility fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-accessibility fix-in-both","Atom Design System"
 "[Atom parity] Transport / Promotion Panel: 4 of 4 variants can't be shown in code","Type=Default, Type=Applied, Type=Expired, Type=Empty
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13192-28371
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/business-components-promotion-panel--usage
 Report: https://walecalfos-dp.github.io/atom-parity/product-modules/#c-13192%3A28371
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"

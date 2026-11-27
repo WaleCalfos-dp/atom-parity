@@ -1,18 +1,14 @@
 {
-  "generatedAt": "2026-11-27T06:10:48.477Z",
+  "generatedAt": "2026-11-27T11:14:02.979Z",
   "entries": [
     {
       "id": "actions",
       "name": "Actions",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-10129",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-27T06:10:47.945Z",
+      "ranAt": "2026-11-27T10:52:08.575Z",
       "ok": true,
       "history": [
-        {
-          "at": "2026-11-18T17:36:33.358Z",
-          "score": 18
-        },
         {
           "at": "2026-11-19T10:44:38.971Z",
           "score": 19
@@ -127,6 +123,10 @@
         },
         {
           "at": "2026-11-27T06:10:47.945Z",
+          "score": 57
+        },
+        {
+          "at": "2026-11-27T10:52:08.575Z",
           "score": 57
         }
       ],
@@ -243,7 +243,7 @@
       "name": "System feedback",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15503",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T10:56:50.339Z",
+      "ranAt": "2026-11-27T10:54:28.476Z",
       "ok": true,
       "history": [
         {
@@ -340,6 +340,10 @@
         },
         {
           "at": "2026-11-26T10:56:50.339Z",
+          "score": 52
+        },
+        {
+          "at": "2026-11-27T10:54:28.476Z",
           "score": 52
         }
       ],
@@ -452,7 +456,7 @@
       "name": "Data display",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-15608",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:00:50.076Z",
+      "ranAt": "2026-11-27T10:58:45.760Z",
       "ok": true,
       "history": [
         {
@@ -549,6 +553,10 @@
         },
         {
           "at": "2026-11-26T11:00:50.076Z",
+          "score": 44
+        },
+        {
+          "at": "2026-11-27T10:58:45.760Z",
           "score": 44
         }
       ],
@@ -671,7 +679,7 @@
       "name": "Data entry",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16156",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-27T05:42:05.811Z",
+      "ranAt": "2026-11-27T11:01:56.395Z",
       "ok": true,
       "history": [
         {
@@ -769,6 +777,10 @@
         {
           "at": "2026-11-27T05:42:05.811Z",
           "score": 42
+        },
+        {
+          "at": "2026-11-27T11:01:56.395Z",
+          "score": 42
         }
       ],
       "preview": {
@@ -840,7 +852,7 @@
         "missingInDesign": 0,
         "ignored": 0
       },
-      "previousScore": 43,
+      "previousScore": 42,
       "newFails": 0,
       "fixed": 0,
       "tokenSource": {
@@ -889,7 +901,7 @@
       "name": "Layout",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16264",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:05:46.716Z",
+      "ranAt": "2026-11-27T11:03:29.271Z",
       "ok": true,
       "history": [
         {
@@ -979,6 +991,10 @@
         {
           "at": "2026-11-26T11:05:46.716Z",
           "score": 83
+        },
+        {
+          "at": "2026-11-27T11:03:29.271Z",
+          "score": 83
         }
       ],
       "preview": null,
@@ -1044,7 +1060,7 @@
       "name": "Navigation",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16455",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:08:04.433Z",
+      "ranAt": "2026-11-27T11:05:43.378Z",
       "ok": true,
       "history": [
         {
@@ -1150,6 +1166,10 @@
         {
           "at": "2026-11-26T11:08:04.433Z",
           "score": 67
+        },
+        {
+          "at": "2026-11-27T11:05:43.378Z",
+          "score": 67
         }
       ],
       "preview": null,
@@ -1252,7 +1272,7 @@
       "name": "Images",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15316-29477",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:09:39.859Z",
+      "ranAt": "2026-11-27T11:07:06.967Z",
       "ok": true,
       "history": [
         {
@@ -1350,6 +1370,10 @@
         {
           "at": "2026-11-26T11:09:39.859Z",
           "score": 42
+        },
+        {
+          "at": "2026-11-27T11:07:06.967Z",
+          "score": 42
         }
       ],
       "preview": null,
@@ -1415,7 +1439,7 @@
       "name": "System and typography",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-16720",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:11:26.920Z",
+      "ranAt": "2026-11-27T11:08:31.280Z",
       "ok": true,
       "history": [
         {
@@ -1508,6 +1532,10 @@
         },
         {
           "at": "2026-11-26T11:11:26.920Z",
+          "score": 47
+        },
+        {
+          "at": "2026-11-27T11:08:31.280Z",
           "score": 47
         }
       ],
@@ -1606,7 +1634,7 @@
       "name": "Patterns",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=12636-9694",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:14:43.981Z",
+      "ranAt": "2026-11-27T11:11:27.385Z",
       "ok": true,
       "history": [
         {
@@ -1679,6 +1707,10 @@
         },
         {
           "at": "2026-11-26T11:14:43.981Z",
+          "score": 0
+        },
+        {
+          "at": "2026-11-27T11:11:27.385Z",
           "score": 0
         }
       ],
@@ -1869,7 +1901,7 @@
       "name": "Product modules",
       "figmaUrl": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/Component-Library?node-id=15434-31355",
       "storybookUrl": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
-      "ranAt": "2026-11-26T11:17:29.509Z",
+      "ranAt": "2026-11-27T11:14:02.264Z",
       "ok": true,
       "history": [
         {
@@ -1946,6 +1978,10 @@
         },
         {
           "at": "2026-11-26T11:17:29.509Z",
+          "score": 62
+        },
+        {
+          "at": "2026-11-27T11:14:02.264Z",
           "score": 62
         }
       ],

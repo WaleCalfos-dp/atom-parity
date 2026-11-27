@@ -5,21 +5,21 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-26","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","High","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Body: Code has props with no Figma property","type, variant, align, lineCount, ellipsis, breakWord, underline, color, title, animated, showSkeleton, skeletonProps, strong, isTitle
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Body: 24 of 24 variants can't be shown in code","weight=Regular, Shade=Dark, weight=Semi-Bold, weight=Bold, Size=Caption, Size=Micro, Shade=Light
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
 "[Atom parity] Body: Text contrast is too low in Figma","1:1, needs 4.5:1 · #FFFFFF on #FFFFFF (no background in the component, measured on white)
 
 Brands: Dragonpass, Mastercard, Investec, Assurant
@@ -29,18 +29,18 @@ Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2636
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/basics-text--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2636
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-accessibility fix-in-figma","Atom Design System"
 "[Atom parity] Text Link: Code has props with no Figma property","url, underline, target, rel, title, strong
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-link--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2709
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-properties fix-in-figma","Atom Design System"
 "[Atom parity] Text Link: 12 of 12 variants can't be shown in code","weight=Regular, weight=Semi-Bold, weight=Bold, Size=Regular
 
 Figma: https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=1580-2709
 Storybook: https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/navigation-link--usage
 Report: https://walecalfos-dp.github.io/atom-parity/system-and-typography/#c-1580%3A2709
 
-Found by atom-parity on 2026-11-26","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
+Found by atom-parity on 2026-11-27","Task","Medium","atom-parity parity-properties fix-in-both","Atom Design System"
