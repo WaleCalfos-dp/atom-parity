@@ -1,4 +1,4 @@
-## Atom parity: 43% match (+0 since last run)
+## Atom parity: 42% match (-1 since last run)
 
 0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.
 

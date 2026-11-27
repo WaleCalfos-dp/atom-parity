@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-26T14:14:37.188Z",
-    "durationMs": 182975,
+    "generatedAt": "2026-11-27T05:42:05.811Z",
+    "durationMs": 200372,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -28,9 +28,9 @@
       "file": {
         "name": "Component Library",
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
-        "lastModified": "2026-11-26T10:09:07Z"
+        "lastModified": "2026-11-26T17:07:38Z"
       },
-      "exportedAt": "2026-11-26T14:13:14.300Z",
+      "exportedAt": "2026-11-27T05:40:56.987Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2175,7 +2175,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "State=Disabled, Checked=False",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -9126,7 +9126,7 @@
       "key": "13003:7343",
       "name": "Radio Button",
       "status": "Drifted",
-      "score": 81,
+      "score": 75,
       "match": "exact",
       "figma": {
         "id": "13003:7343",
@@ -9140,10 +9140,10 @@
         "url": "https://www.figma.com/design/nKc4ep7mNdD5IqFRhNRNlW/?node-id=13003-7343"
       },
       "code": {
-        "title": "Data Entry/Radio Button",
+        "title": "Actions/Radio Button",
         "stories": 3,
-        "story": "data-entry-radio-button--usage",
-        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/data-entry-radio-button--usage"
+        "story": "actions-radio-button--usage",
+        "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/?path=/story/actions-radio-button--usage"
       },
       "props": {
         "props": [
@@ -9251,14 +9251,14 @@
           "status": "pass",
           "title": "Name matches 1:1",
           "owner": "Both",
-          "detail": "Radio Button ↔ Data Entry/Radio Button",
+          "detail": "Radio Button ↔ Actions/Radio Button",
           "meta": null,
           "instances": [
             {
               "status": "pass",
               "brand": null,
               "variant": null,
-              "detail": "Radio Button ↔ Data Entry/Radio Button",
+              "detail": "Radio Button ↔ Actions/Radio Button",
               "figma": null,
               "code": null,
               "image": null,
@@ -9279,17 +9279,17 @@
           "category": "Naming",
           "subject": "group",
           "label": "Category",
-          "status": "pass",
-          "title": "Grouped under the same category",
+          "status": "warn",
+          "title": "Grouped under a different category",
           "owner": "Both",
-          "detail": "Figma \"DATA ENTRY\" · Storybook \"Data Entry\"",
+          "detail": "Figma \"DATA ENTRY\" · Storybook \"Actions\"",
           "meta": null,
           "instances": [
             {
-              "status": "pass",
+              "status": "warn",
               "brand": null,
               "variant": null,
-              "detail": "Figma \"DATA ENTRY\" · Storybook \"Data Entry\"",
+              "detail": "Figma \"DATA ENTRY\" · Storybook \"Actions\"",
               "figma": null,
               "code": null,
               "image": null,
@@ -9297,8 +9297,8 @@
             }
           ],
           "counts": {
-            "pass": 1,
-            "warn": 0,
+            "pass": 0,
+            "warn": 1,
             "fail": 0,
             "info": 0
           },
@@ -15383,7 +15383,7 @@
     }
   ],
   "summary": {
-    "score": 43,
+    "score": 42,
     "headline": "0 of 9 Figma components match Storybook. 4 have drifted, 2 are broken and 3 aren't built yet.",
     "components": {
       "total": 9,
@@ -15397,14 +15397,14 @@
       "ignored": 0
     },
     "checks": {
-      "pass": 44,
-      "warn": 17,
+      "pass": 43,
+      "warn": 18,
       "fail": 21
     },
     "byCategory": {
       "Naming": {
-        "pass": 12,
-        "warn": 0,
+        "pass": 11,
+        "warn": 1,
         "fail": 4
       },
       "Properties": {
@@ -15453,7 +15453,7 @@
         "fail": 16
       },
       "Both": {
-        "warn": 6,
+        "warn": 7,
         "fail": 2
       }
     },
@@ -16239,6 +16239,19 @@
         "title": "Not found in Storybook",
         "detail": "No similar component in Storybook",
         "owner": "Dev",
+        "brands": [],
+        "variants": 0
+      },
+      {
+        "component": "Radio Button",
+        "componentKey": "13003:7343",
+        "key": "Naming|group",
+        "category": "Naming",
+        "subject": "group",
+        "status": "warn",
+        "title": "Grouped under a different category",
+        "detail": "Figma \"DATA ENTRY\" · Storybook \"Actions\"",
+        "owner": "Both",
         "brands": [],
         "variants": 0
       },
@@ -17128,12 +17141,20 @@
     ]
   },
   "delta": {
-    "since": "2026-11-26T11:04:06.161Z",
+    "since": "2026-11-26T14:14:37.188Z",
     "previousScore": 43,
     "newFails": [],
     "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-27T05:38:28.067Z",
+      "action": "run",
+      "check": "data-entry",
+      "by": "frontenddev.ai",
+      "github": null,
+      "items": []
+    },
     {
       "at": "2026-11-26T14:11:16.369Z",
       "action": "run",
