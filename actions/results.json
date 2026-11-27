@@ -1,8 +1,8 @@
 {
   "schema": "atom-parity/results@1",
   "meta": {
-    "generatedAt": "2026-11-27T06:05:52.765Z",
-    "durationMs": 111746,
+    "generatedAt": "2026-11-27T06:10:47.945Z",
+    "durationMs": 107258,
     "storybook": {
       "url": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/component?path=/",
       "base": "https://dp-atom-ui-test.dragonpass.com.cn/atom-ui-mobile/",
@@ -30,7 +30,7 @@
         "key": "nKc4ep7mNdD5IqFRhNRNlW",
         "lastModified": "2026-11-26T17:07:38Z"
       },
-      "exportedAt": "2026-11-27T06:04:40.221Z",
+      "exportedAt": "2026-11-27T06:09:40.693Z",
       "exportedBy": null,
       "brands": [
         "Dragonpass",
@@ -2782,14 +2782,14 @@
           "status": "ignored",
           "title": "Console errors while rendering",
           "owner": "Dev",
-          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+          "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
           "meta": null,
           "instances": [
             {
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2819,7 +2819,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2849,7 +2849,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Secondary, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2879,7 +2879,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2909,7 +2909,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive, Size=Large, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2939,7 +2939,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Destructive Tertiary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2969,7 +2969,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -2999,7 +2999,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3028,8 +3028,28 @@
             {
               "status": "warn",
               "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Focus",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Large, State=Active",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Disabled",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3059,7 +3079,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Large, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3089,7 +3109,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Regular, State=Default",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3118,8 +3138,38 @@
             {
               "status": "warn",
               "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Regular, State=Hover",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Regular, State=Focus",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Regular, State=Active",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Regular, State=Disabled",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3149,7 +3199,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Regular, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3179,7 +3229,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3200,6 +3250,26 @@
               "brand": "Investec",
               "variant": "Type=Primary, Size=Small, State=Hover",
               "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Small, State=Focus",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "figma": null,
+              "code": null,
+              "image": null,
+              "extra": null
+            },
+            {
+              "status": "warn",
+              "brand": "Dragonpass",
+              "variant": "Type=Primary, Size=Small, State=Active",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3209,7 +3279,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Disabled",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3239,7 +3309,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Primary, Size=Small, State=Loading",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3269,7 +3339,7 @@
               "status": "warn",
               "brand": "Dragonpass",
               "variant": "Type=Inverse, Size=Large, State=Hover",
-              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/cabin-d3c2eeca.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+              "detail": "Access to XMLHttpRequest at 'https://static.dragonpass.com/dp-fe/whitelabel-portal/poppins-786cb506.css' from origin 'https://dp-atom-ui-test.dragonpass.com.cn' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
               "figma": null,
               "code": null,
               "image": null,
@@ -3298,7 +3368,7 @@
           ],
           "counts": {
             "pass": 0,
-            "warn": 51,
+            "warn": 58,
             "fail": 0,
             "info": 0
           },
@@ -3316,12 +3386,19 @@
             "Type=Destructive Tertiary, Size=Regular, State=Default",
             "Type=Primary, Size=Small, State=Default",
             "Type=Primary, Size=Large, State=Hover",
+            "Type=Primary, Size=Large, State=Focus",
+            "Type=Primary, Size=Large, State=Active",
             "Type=Primary, Size=Large, State=Disabled",
             "Type=Primary, Size=Large, State=Loading",
             "Type=Primary, Size=Regular, State=Default",
+            "Type=Primary, Size=Regular, State=Hover",
+            "Type=Primary, Size=Regular, State=Focus",
+            "Type=Primary, Size=Regular, State=Active",
             "Type=Primary, Size=Regular, State=Disabled",
             "Type=Primary, Size=Regular, State=Loading",
             "Type=Primary, Size=Small, State=Hover",
+            "Type=Primary, Size=Small, State=Focus",
+            "Type=Primary, Size=Small, State=Active",
             "Type=Primary, Size=Small, State=Disabled",
             "Type=Primary, Size=Small, State=Loading",
             "Type=Inverse, Size=Large, State=Hover"
@@ -18465,7 +18542,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18481,7 +18557,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18497,7 +18572,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18567,7 +18641,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18583,7 +18656,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18599,7 +18671,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18615,7 +18686,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18631,7 +18701,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -18647,7 +18716,6 @@
               "extra": {
                 "covers": [
                   "4.1.2",
-                  "1.4.12",
                   "3.1.2"
                 ]
               }
@@ -19012,7 +19080,9 @@
               "TT13.c",
               "EN-301-549",
               "EN-9.1.4.3",
-              "ACT"
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
             ],
             "source": "code"
           },
@@ -19023,7 +19093,7 @@
               "variant": "Type=Tertiary, Size=Regular, State=Default",
               "detail": "serious · 1 element · .aum-button-content · Fix any of the following: Element has insufficient color contrast of 4.31 (foreground color: #ae692f, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/color-contrast?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/color-contrast?application=axeAPI",
               "image": null,
               "extra": {
                 "ratio": 4.31,
@@ -19079,7 +19149,9 @@
               "TT6.a",
               "EN-301-549",
               "EN-9.4.1.2",
-              "ACT"
+              "ACT",
+              "RGAAv4",
+              "RGAA-11.9.1"
             ],
             "source": "code"
           },
@@ -19090,7 +19162,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19104,7 +19176,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19118,7 +19190,7 @@
               "variant": "Type=Primary, Size=Large, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19132,7 +19204,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19146,7 +19218,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19160,7 +19232,7 @@
               "variant": "Type=Primary, Size=Regular, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19174,7 +19246,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19188,7 +19260,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -19202,7 +19274,7 @@
               "variant": "Type=Primary, Size=Small, State=Loading",
               "detail": "critical · 1 element · .adm-button · Fix any of the following: Element does not have inner text that is visible to screen readers aria-label attribute does not exist or is empty aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty Element has no title attribute ",
               "figma": null,
-              "code": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+              "code": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
               "image": null,
               "extra": {
                 "target": ".adm-button",
@@ -29330,7 +29402,7 @@
         "status": "fail",
         "owner": "Dev",
         "source": "code",
-        "help": "https://dequeuniversity.com/rules/axe/4.10/button-name?application=axeAPI",
+        "help": "https://dequeuniversity.com/rules/axe/4.14/button-name?application=axeAPI",
         "components": [
           {
             "name": "Button",
@@ -29398,20 +29470,20 @@
     ]
   },
   "delta": {
-    "since": "2026-11-27T05:41:51.059Z",
-    "previousScore": 46,
+    "since": "2026-11-27T06:05:52.765Z",
+    "previousScore": 57,
     "newFails": [],
-    "fixed": [
-      {
-        "status": "fail",
-        "component": "Button Group",
-        "title": "Not found in Storybook",
-        "category": "Naming",
-        "now": "ignored"
-      }
-    ]
+    "fixed": []
   },
   "activity": [
+    {
+      "at": "2026-11-27T06:08:36.675Z",
+      "action": "run",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "items": []
+    },
     {
       "at": "2026-11-27T06:03:43.216Z",
       "action": "ignore",

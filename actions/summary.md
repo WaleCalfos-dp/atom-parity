@@ -1,13 +1,10 @@
-## Atom parity: 57% match (+11 since last run)
+## Atom parity: 57% match (+0 since last run)
 
 0 of 4 Figma components match Storybook. 1 has drifted, 2 are broken and 1 isn't built yet.
 
 | Aligned | Drifted | Broken | Not built | Not in Figma |
 |---|---|---|---|---|
 | 0 | 1 | 2 | 1 | 0 |
-
-### 1 fixed
-- Button Group: Not found in Storybook
 
 ### Biggest themes
 - 🔴 Height differs from design: 2 components (Both)
