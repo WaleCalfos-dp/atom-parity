@@ -2562,6 +2562,17 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-27T06:03:34.904Z"
+    },
+    {
+      "check": "actions",
+      "component": "3098:42588",
+      "key": "Naming|name",
+      "title": "Not found in Storybook",
+      "componentName": "Button Group",
+      "reason": "Not needed - Button is enough.",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-27T06:03:43.216Z"
     }
   ]
 }
