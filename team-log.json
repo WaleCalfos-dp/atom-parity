@@ -3107,6 +3107,46 @@
       "by": "frontenddev.ai",
       "github": null,
       "items": []
+    },
+    {
+      "at": "2026-11-27T06:03:34.904Z",
+      "action": "ignore",
+      "check": "actions",
+      "by": "frontenddev.ai",
+      "github": null,
+      "reason": "fixed",
+      "items": [
+        {
+          "component": "1454:7798",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Button"
+        },
+        {
+          "component": "1454:7798",
+          "key": "Tokens|value:Horizontal padding",
+          "title": "Horizontal padding differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1454:7798",
+          "key": "Tokens|value:Vertical padding",
+          "title": "Vertical padding differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1454:7798",
+          "key": "Tokens|value:Label · Font weight",
+          "title": "Label · Font weight differs from design",
+          "componentName": "Button"
+        },
+        {
+          "component": "1702:72060",
+          "key": "Naming|group",
+          "title": "Grouped under a different category",
+          "componentName": "Stepper"
+        }
+      ]
     }
   ]
 }

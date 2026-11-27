@@ -2507,6 +2507,61 @@
       "by": "frontenddev.ai",
       "github": null,
       "at": "2026-11-26T11:10:40.110Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Naming|group",
+      "title": "Grouped under a different category",
+      "componentName": "Button",
+      "reason": "fixed",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-27T06:03:34.904Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Tokens|value:Horizontal padding",
+      "title": "Horizontal padding differs from design",
+      "componentName": "Button",
+      "reason": "fixed",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-27T06:03:34.904Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Tokens|value:Vertical padding",
+      "title": "Vertical padding differs from design",
+      "componentName": "Button",
+      "reason": "fixed",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-27T06:03:34.904Z"
+    },
+    {
+      "check": "actions",
+      "component": "1454:7798",
+      "key": "Tokens|value:Label · Font weight",
+      "title": "Label · Font weight differs from design",
+      "componentName": "Button",
+      "reason": "fixed",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-27T06:03:34.904Z"
+    },
+    {
+      "check": "actions",
+      "component": "1702:72060",
+      "key": "Naming|group",
+      "title": "Grouped under a different category",
+      "componentName": "Stepper",
+      "reason": "fixed",
+      "by": "frontenddev.ai",
+      "github": null,
+      "at": "2026-11-27T06:03:34.904Z"
     }
   ]
 }
