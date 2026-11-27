@@ -2,7 +2,7 @@
 (() => {
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const plural = (n, w) => n + ' ' + w + (n === 1 ? '' : 's');
+  const plural = (n, w) => n + ' ' + (n === 1 ? w : ({ entry: 'entries', person: 'people' }[w] || w + 's'));
   const PAGE = 100;
 
   // What each action is called, as a filter and in a sentence
@@ -100,7 +100,7 @@
     $('check').innerHTML = '<option value="">Every check</option>' + checks.map((c) => '<option value="' + esc(c) + '"' + (c === state.check ? ' selected' : '') + '>' + esc(checkName({ check: c })) + '</option>').join('');
     $('q').value = state.q;
     const first = log.length ? log[log.length - 1].at : null;
-    $('lede').textContent = log.length ? plural(log.length, 'action') + ' by ' + plural(people.length, 'person').replace('persons', 'people') + (first ? ' since ' + new Date(first).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : '') + '. Newest first.' : 'Nothing has happened yet.';
+    $('lede').textContent = log.length ? plural(log.length, 'action') + ' by ' + plural(people.length, 'person') + (first ? ' since ' + new Date(first).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : '') + '. Newest first.' : 'Nothing has happened yet.';
   }
 
   const change = () => { state.limit = PAGE; syncUrl(); render(); };
