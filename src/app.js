@@ -15,6 +15,48 @@ export { MARK };
 export function writeClient(siteDir) {
   fs.writeFileSync(path.join(siteDir, 'app.css'), clientCss());
   fs.copyFileSync(path.join(CLIENT, 'app.js'), path.join(siteDir, 'app.js'));
+  fs.copyFileSync(path.join(CLIENT, 'activity.js'), path.join(siteDir, 'activity.js'));
+  fs.mkdirSync(path.join(siteDir, 'activity'), { recursive: true });
+  fs.writeFileSync(path.join(siteDir, 'activity', 'index.html'), activityHtml());
+}
+
+/** The full activity log, one page: who did what, when, why, on which issues. */
+export function activityHtml() {
+  return `<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Team activity · Atom parity</title>
+<meta name="theme-color" content="#F7F8FA" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#0E1117" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,${encodeURIComponent(MARK.replace('class="mark" ', 'xmlns="http://www.w3.org/2000/svg" '))}">
+${FONTS}
+<link rel="stylesheet" href="../app.css?v=${cssHash()}">
+</head>
+<body class="actpage">
+<a class="skip" href="#log">Skip to the activity</a>
+<header class="topbar"><div class="in">
+  <a class="home" href="../">${MARK}<span class="brand"><b>Atom parity</b><span>Atom Design System</span></span></a>
+  <span class="spacer"></span>
+</div></header>
+<main class="wrap">
+  <header class="act-head">
+    <p class="crumb"><a href="../">All checks</a></p>
+    <h1>Team activity</h1>
+    <p class="lede" id="lede">Loading the activity log.</p>
+  </header>
+  <form class="act-filters" role="search" onsubmit="return false">
+    <div class="fld grow"><label for="q">Search</label><input id="q" type="search" placeholder="Component, issue, reason or comment" autocomplete="off"></div>
+    <div class="fld"><label for="by">Person</label><select id="by"></select></div>
+    <div class="fld"><label for="check">Check</label><select id="check"></select></div>
+    <div class="chips" id="kinds" role="group" aria-label="Kind of activity"></div>
+    <p class="act-count"><span id="count" aria-live="polite"></span> <button type="button" class="linkbtn" id="clear" hidden>Clear filters</button></p>
+  </form>
+  <div id="log" class="act-log"></div>
+</main>
+<script src="../activity.js?v=${hash('activity.js')}"></script>
+</body>
+</html>`;
 }
 const clientCss = () => TOKENS + fs.readFileSync(path.join(CLIENT, 'app.css'), 'utf8');
 const cssHash = () => crypto.createHash('sha1').update(clientCss()).digest('hex').slice(0, 10);
@@ -44,6 +86,7 @@ ${FONTS}
     <div class="actpanel" id="actPanel" role="region" aria-labelledby="actTitle" hidden>
       <div class="actpanel-head"><h2 id="actTitle">Team activity</h2><span>Who ran, ignored, restored and commented</span></div>
       <ol class="activity" id="activity"><li class="none">Loading activity</li></ol>
+      <a class="actpanel-foot" id="actAll" href="activity/" hidden>See activity in full</a>
     </div>
   </div>
   <button class="conn off" id="connBtn" type="button"><i aria-hidden="true"></i><span id="connLabel">Connect GitHub</span></button>

@@ -244,6 +244,34 @@ await page.keyboard.press('Escape');
 assert.equal(await page.isHidden('#actPanel'), true, 'Escape closes the menu');
 assert.equal(await page.evaluate(() => document.activeElement.id), 'actBtn', 'focus returns to the button');
 await page.click('#actBtn'); await page.click('h1'); assert.equal(await page.isHidden('#actPanel'), true, 'clicking outside closes it');
+
+// The full activity page: every entry in detail, with filters
+await page.click('#actBtn');
+assert.equal(await page.getAttribute('#actAll', 'href'), 'activity/');
+await page.click('#actAll');
+await page.waitForSelector('.ev');
+assert.equal(await page.locator('.ev').count(), 2);
+assert.match(await page.textContent('#lede'), /2 actions by 2 people/);
+assert.match(await page.textContent('.ev-ignore'), /Wale Calfos ignored 1 issue in/);
+assert.match(await page.textContent('.ev-ignore .said'), /Reason\s*Brand exception/);
+assert.match(await page.textContent('.ev-ignore .ev-items'), /Button\s*Height differs/);
+assert.equal(await page.getAttribute('.ev-ignore .ev-items a', 'href'), '../' + st.entries[0].id + '/#c-a', 'each issue links to its report');
+assert.equal(await page.locator('.day h2').count(), 1, 'grouped by day');
+await page.click('[data-kind=ignore]');
+assert.equal(await page.locator('.ev').count(), 1); assert.match(page.url(), /kind=ignore/);
+await page.click('[data-kind=""]');
+await page.selectOption('#by', 'Yana Petrova');
+assert.equal(await page.locator('.ev').count(), 1); assert.match(await page.textContent('.ev'), /Yana Petrova ran/);
+await page.selectOption('#by', '');
+await page.fill('#q', 'brand exception'); await page.waitForFunction(() => document.querySelectorAll('.ev').length === 1);
+await page.fill('#q', 'nothing like this'); await page.waitForSelector('.act-log .empty');
+await page.click('#clear'); await page.waitForFunction(() => document.querySelectorAll('.ev').length === 2);
+await page.screenshot({ path: '/tmp/activity-page.png', fullPage: true });
+await axeCheck('activity page');
+await page.goto(BASE + 'activity/?check=' + st.entries[0].id + '&kind=run'); await page.waitForSelector('.ev');
+assert.equal(await page.locator('.ev').count(), 1, 'filters come from the link');
+assert.equal(await page.inputValue('#check'), st.entries[0].id);
+await page.goto(BASE); await page.waitForSelector('.card');
 await page.unroute('**/activity.json*');
 
 // ---- Team relay: no GitHub account, just a name

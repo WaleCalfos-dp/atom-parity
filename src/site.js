@@ -22,13 +22,16 @@ export function addCheck(file, { name, figmaUrl, storybookUrl }) {
   const { fileKey, nodeId } = parseFigmaUrl(figmaUrl);
   new URL(storybookUrl.trim());
   const data = readChecks(file);
-  const id = slug(name || `figma-${nodeId ?? fileKey}`);
+  let id = slug(name || `figma-${nodeId ?? fileKey}`);
+  if (RESERVED.has(id)) id = `${id}-check`; // these names are pages of the site
   const existing = data.checks.find((c) => c.id === id || (c.figmaUrl === figmaUrl.trim() && c.storybookUrl === storybookUrl.trim()));
   const entry = { id: existing?.id ?? id, name: name || existing?.name || null, figmaUrl: figmaUrl.trim(), storybookUrl: storybookUrl.trim(), addedAt: existing?.addedAt ?? new Date().toISOString() };
   if (existing) Object.assign(existing, entry); else data.checks.push(entry);
   writeJson(file, data);
   return entry;
 }
+
+const RESERVED = new Set(['activity']);
 
 export function removeCheck(file, id) {
   const data = readChecks(file);

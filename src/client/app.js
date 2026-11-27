@@ -153,7 +153,8 @@
       base = 'figma-' + (node ? node.replace('-', ':') : (m ? (m[2] || m[1]) : 'file'));
     }
     const k = base.replace(/([a-z0-9])([A-Z])/g, '$1-$2').replace(/[\s_/.]+/g, '-').replace(/[^a-zA-Z0-9-]/g, '').replace(/-+/g, '-').replace(/^-|-$/g, '').toLowerCase();
-    return k.slice(0, 80) || 'x';
+    const id = k.slice(0, 80) || 'x';
+    return id === 'activity' ? 'activity-check' : id; // the activity page lives at activity/
   }
 
   $('form').addEventListener('submit', async (e) => {
@@ -279,12 +280,12 @@
   const SHIELD = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M10 2.5l6 2.3v4.6c0 3.9-2.6 6.9-6 8.1-3.4-1.2-6-4.2-6-8.1V4.8z"/><circle cx="10" cy="7.3" r="1.2" fill="currentColor" stroke="none"/><path d="M7 9.6l3 .7 3-.7M10 10.3v2.4M8.4 15l1.6-2.3 1.6 2.3"/></svg>';
 
   // Team activity: who ignored or restored what, across every check
-  let activityAll = false, activityLog = null;
+  let activityLog = null;
   function renderActivity() {
     const el = $('activity'); if (!el) return;
     if (!activityLog) return;
     if (!activityLog.length) { el.innerHTML = '<li class="none">No activity yet. When someone runs a check, or ignores, restores or comments on an issue, it shows here with their name.</li>'; return; }
-    const shown = activityAll ? activityLog : activityLog.slice(0, 10);
+    const shown = activityLog.slice(0, 10);
     el.innerHTML = shown.map((x) => {
       const names = [...new Set((x.items || []).map((i) => i.componentName))];
       const title = x.items && x.items.length && x.items.every((i) => i.title === x.items[0].title) ? x.items[0].title : plural((x.items || []).length, 'issue');
@@ -297,8 +298,9 @@
       const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
       const said = x.action === 'comment' ? x.text : x.reason;
       return '<li class="ev-' + esc(x.action) + isNew(x) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 3 ? plural(names.length, 'component') : names.join(', ')) + ' in <a href="' + esc(x.check) + '/' + (x.action === 'ignore' || x.action === 'restore' ? '#archive' : '') + '">' + esc(x.checkName || x.check) + '</a>.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + ago(x.at).replace(/^./, (c) => c.toUpperCase()) + '</time></div></li>';
-    }).join('') + (activityLog.length > shown.length ? '<li class="none"><button type="button" class="linkbtn" id="actMore">Show all ' + activityLog.length + ' entries</button></li>' : '');
-    const m = $('actMore'); if (m) m.onclick = () => { activityAll = true; renderActivity(); };
+    }).join('');
+    // The full log, with filters and every detail, has its own page
+    const f = $('actAll'); if (f) { f.hidden = false; f.textContent = activityLog.length > shown.length ? 'See all ' + activityLog.length + ' entries in full' : 'See activity in full'; }
   }
   // The menu in the top bar: a count of what's new since you last opened it, refreshed every minute
   let seenAt = store.get('actSeen', null);

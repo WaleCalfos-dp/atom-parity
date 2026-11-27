@@ -592,15 +592,12 @@ document.addEventListener('click', (e) => {
   }
   const rb = e.target.closest('[data-restore]');
   if (rb) { const items = dec(rb.dataset.restore); askIgnore(items, whatOf(items), 'remove'); return; }
-  const more = e.target.closest('[data-act-more]');
-  if (more) { actAll = true; renderActivity(); }
 });
 const who = (x) => esc(x.by || x.github || 'Someone') + (x.github && x.by && x.github.toLowerCase() !== String(x.by).toLowerCase() ? ' <span class="gh">@' + esc(x.github) + '</span>' : '');
-let actAll = false;
 function renderActivity() {
   const ev = pend.events.concat(R.activity || []);
   if (!ev.length) { $('activity').innerHTML = '<li class="none">No activity yet. Each run, ignore, restore and comment is logged here with who made it.</li>'; return; }
-  const shown = actAll ? ev : ev.slice(0, 12);
+  const shown = ev.slice(0, 12);
   $('activity').innerHTML = shown.map((x) => {
     if (!x.items || !x.items.length) {
       const what = { run: 'ran this check', 'run-all': 'ran every check', 'add-check': 'added this check', 'remove-check': 'removed this check' }[x.action] || x.action;
@@ -611,7 +608,7 @@ function renderActivity() {
     const verb = { ignore: 'ignored', restore: 'restored', comment: 'commented on', 'delete-comment': 'deleted a comment on' }[x.action] || x.action;
     const said = x.action === 'comment' ? x.text : x.reason;
     return '<li class="' + esc(x.action) + '"><span class="dot" aria-hidden="true"></span><div><p><b>' + who(x) + '</b> ' + verb + ' <b>' + esc(title) + '</b> for ' + esc(names.length > 4 ? plural(names.length, 'component') : list(names)) + '.' + (said ? ' <q>' + esc(said) + '</q>' : '') + '</p><time datetime="' + esc(x.at) + '">' + (x.pending ? 'Just now, saving' : fmt(x.at)) + '</time></div></li>';
-  }).join('') + (ev.length > shown.length ? '<li class="none"><button type="button" class="linkbtn" data-act-more>Show all ' + ev.length + ' entries</button></li>' : '');
+  }).join('') + '<li class="none"><a href="../activity/?check=' + encodeURIComponent(CHECK_ID || '') + '">' + (ev.length > shown.length ? 'See all ' + ev.length + ' entries in full' : 'See this activity in full') + '</a></li>';
 }
 // ---------------------------------------------------------------- comments
 // Comments are read live from the site (../comments.json), so a new one shows without rerunning the check.
@@ -933,6 +930,6 @@ function spy() {
   links.forEach((a, i) => { const on = secs[i] === cur; if (on) a.setAttribute('aria-current', 'true'); else a.removeAttribute('aria-current'); });
 }
 addEventListener('scroll', spy, { passive: true }); spy();
-if (location.hash.indexOf('#c-') === 0) openComp(location.hash.slice(3));
+if (location.hash.indexOf('#c-') === 0) openComp(decodeURIComponent(location.hash.slice(3)));
 else if (location.hash.indexOf('#a-') === 0) { const el = document.getElementById(location.hash.slice(1)); if (el) el.scrollIntoView(); }
 `;
